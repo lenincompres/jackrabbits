@@ -73,12 +73,12 @@ class TEXT {
     ESP: "Revela tu mano",
   }
   static PAGE_DESCRIPTION = {
-    ENG: `Which one is <b>your</b> suit order? The suits represent 4 major pesonality traits. This short interaction will reveal which is the one you value the most.`,
-    ESP: `Los símbolos de las cartas representan 4 grandes rasgos de la personalidad. Con esta breve interacción podrás revelar cuál valoras más.`,
+    ENG: `This fun test will show <b>your suit order</b> according to your personality. The card suits represent 4 major personality traits. This short interaction will reveal which one you value the most.`,
+    ESP: `Este divertido test mostrará <b>el valor de tus símbolos</b> de acuerdo a tu personalidad. Los símbolos de las cartas representan 4 grandes rasgos de la personalidad. Con esta breve interacción podrás revelar cuál valoras más.`,
   }
   static PLAY_DESCRIPTION = {
-    ENG: `You'll be given 8 extra points (or “pips”) to increase the cards above. Click <b>${TEXT.BEGIN.ENG}</b> to start.`,
-    ESP: `Tendrás 8 puntos extra parar incrementar el valor de estas cartas. Presiona <b>${TEXT.BEGIN.ESP}</b>.`,
+    ENG: `You'll be given 8 points (or “pips”) to increase the cards above. Click <b>${TEXT.BEGIN.ENG}</b> to start.`,
+    ESP: `Tendrás 8 puntos parar incrementar el valor de estas cartas. Presiona <b>${TEXT.BEGIN.ESP}</b>.`,
   }
   static DESCRIPTION = {
     ENG: (suit, name) => `This is how ${name ? `<b>${name}</b> values` : "you value"} the 4 main personality traits shown in the cards. According to this valuation, the <strong style="color:${suit.color}">${TEXT[suit.symbol].ENG}</strong> are ${name ? `<b>${name}</b>'s` : "your"} main suit. This symbol is also called <strong style="color:${suit.color}">${TEXT[suit.alt].ENG}</strong>. It is the symbol of ${TEXT[suit.cast].ENG} who focus on ${TEXT[suit.symbol].meaning.ENG}.`,

@@ -190,7 +190,6 @@ const FOOTER = {
       text: TEXT.INSTRUCTIONS[LANG],
     }
   },
-  p: TEXT.FOLLOW_US[LANG],
   section: {
     textAlign: "center",
     a: {
@@ -204,7 +203,8 @@ const FOOTER = {
       },
       div: "Lenino.net",
     }
-  }
+  },
+  p: TEXT.FOLLOW_US[LANG],
 };
 
 const CARD_FLIP = {
@@ -275,7 +275,7 @@ DOM.set({
       },
       MAILING_LIST,
       TABLETOPIA,
-      CARD_FLIP,
+      //CARD_FLIP,
       new SuitYourself(ROOT + "/suityourself/"),
       GALLERY,
       FOOTER

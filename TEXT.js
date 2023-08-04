@@ -52,8 +52,8 @@ class TEXT {
   }
 
   static INSTRUCTIONS = {
-    ESP: "Instrucciones",
-    ENG: "Instructions",
+    ESP: "Descarga las instrucciones aquí",
+    ENG: "Download the Instruction Booklet",
   }
 
   static FOLLOW_US = {
