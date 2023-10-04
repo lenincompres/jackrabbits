@@ -183,14 +183,31 @@ const GALLERY = {
 };
 
 const FOOTER = {
-  h2: {
-    a: {
-      href: "assets/instructions.pdf",
-      target: "_blank",
+  section: [{
+    h2: {
       text: TEXT.INSTRUCTIONS[LANG],
+    },
+    ul: {
+      fontSize: "1.5em",
+      display: "flex",
+      justifyContent: "space-around",
+      li: [{
+        a: {
+          href: "assets/instructions_esp.pdf",
+          target: "_blank",
+          text: "Español",
+        },
+
+      }, {
+        a: {
+          href: "assets/instructions_eng.pdf",
+          target: "_blank",
+          text: "English",
+        },
+      }]
     }
-  },
-  section: {
+  }, {
+    marginTop: "3em",
     textAlign: "center",
     a: {
       display: "block",
@@ -203,7 +220,7 @@ const FOOTER = {
       },
       div: "Lenino.net",
     }
-  },
+  }],
   p: TEXT.FOLLOW_US[LANG],
 };
 
