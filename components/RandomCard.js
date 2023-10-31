@@ -2,9 +2,9 @@ import Card from "./Card.js";
 
 export class RandomCard extends Card {
 
-  constructor(autoFlip = false, delay = 0, interval = 3){
+  constructor(autoFlip = false, delay = 0, interval = 3) {
     let [x, y, z] = [0, 0, 0];
-    let [w, h] = ["240px", "340px"];
+    let [w, h] = ["234px", "340px"];
     const randomize = () => {
       x = Math.floor(Math.random() * 6);
       y = Math.floor(Math.random() * 3);
@@ -19,7 +19,10 @@ export class RandomCard extends Card {
       backgroundColor: 'white',
       backgroundImage: opened.bind(val => `url(images/cardFront${z}.png)`),
       backgroundPosition: opened.bind(val => `-${w * x}px -${h * y}px`)
-    }, w, h);
+    }, {
+      width: w,
+      height: h
+    });
 
     this.counter = -delay;
 
@@ -38,7 +41,7 @@ export class RandomCard extends Card {
 
   }
 
-  async flip(){
+  async flip() {
     let promise = await super.flip();
     this.randomize();
     this.counter = 0;

@@ -2,7 +2,7 @@ import Aux from "./Aux.js";
 
 export class Card {
 
-  constructor(front, back, width = "240px", height = "fit-content") {
+  constructor(front, back, style) {
 
     this._isFront = new Binder(true);
 
@@ -11,10 +11,7 @@ export class Card {
     const IMG_STYLE = {
       height: '100%',
       width: '100%',
-      boxShadow: '2px 2px 6px',
-      borderRadius: '1em',
       display: 'inline-block',
-      overflow: "hidden",
     };
 
     this.elt = DOM.set({
@@ -22,8 +19,12 @@ export class Card {
       cursor: 'pointer',
       display: 'inline-block',
       position: 'relative',
-      height: height,
-      width: width,
+      height: "fit-content",
+      width: "fit-content",
+      boxShadow: '2px 2px 6px',
+      borderRadius: '1em',
+      overflow: "hidden",
+      style: style,
       div: [{
         style: IMG_STYLE,
         display: this._isFront.as("none", "block"),
@@ -50,9 +51,9 @@ export class Card {
   }
 
   async flip(val) {
-    if(this.isFlipping) return;
+    if (this.isFlipping) return;
     this.isFlipping = true;
-    if(val === this.isFront) return;
+    if (val === this.isFront) return;
     this.elt.style.transition = "0.1s";
     this.elt.style.transform = "rotateY(90deg)";
     let promise = await Aux.timeoutPromise(100);

@@ -3,7 +3,7 @@ import Card from "./Card.js";
 
 export class VideoCard extends Card {
 
-  constructor(front, src, w, h) {
+  constructor(front, src, style) {
 
     let iFrame = DOM.set({
       width: "100%",
@@ -17,7 +17,7 @@ export class VideoCard extends Card {
 
     super(front, {
       iFrame: iFrame,
-    }, w, h);
+    }, style);
 
     this.iFrame = iFrame;
 

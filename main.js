@@ -117,10 +117,17 @@ const videoCard = new VideoCard({
   background: 'url(images/splash.png) center center no-repeat',
   backgroundSize: "cover",
   backgroundColor: 'lightgoldenrodyellow',
-}, "https://www.youtube.com/embed/BOxUKVh2nrA?si=kgH7EGgC27-YkVGQ", "600px", "400px");
+}, "https://www.youtube.com/embed/BOxUKVh2nrA?si=kgH7EGgC27-YkVGQ", {
+  width: "100%",
+  maxWidth: "600px",
+  height: "400px",
+});
 
-const galleryImages = (new Array(8)).fill().map((_,i) => `images/gallery/image${i}.jpg`);
-const GALLERY = new GalleryCard(galleryImages, "100%", "500px");
+const galleryImages = (new Array(8)).fill().map((_, i) => `images/gallery/image${i}.jpg`);
+const GALLERY = new GalleryCard(galleryImages, {
+  width: "100%",
+  height: "500px",
+});
 GALLERY.elt.set({
   margin: "3em 0",
 });
@@ -168,8 +175,7 @@ const FOOTER = {
 };
 
 const CARD_FLIP = {
-  div: [new RandomCard(true), new RandomCard(true, 1),
-  ],
+  div: [new RandomCard(true), new RandomCard(true, 1), ],
   h4: TEXT.CATCH_PRHASE[LANG],
 };
 

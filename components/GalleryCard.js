@@ -2,7 +2,7 @@ import Card from "./Card.js";
 
 export class GalleryCard extends Card {
 
-  constructor(images = [], width, height) {
+  constructor(images = [], style) {
 
     let frontImg = new Binder(`url(${images[0]})`);
     let backImg = new Binder(`url(${images[1]})`);
@@ -15,7 +15,6 @@ export class GalleryCard extends Card {
     };
 
     const arrowStyle = {
-      fontSize: `${parseInt(width) * 0.2}px`,
       position: "absolute",
       margin: "0.5em",
       bottom: 0,
@@ -38,7 +37,7 @@ export class GalleryCard extends Card {
       figure: Object.assign({
         backgroundImage: backImg,
       }, figure)
-    }, width, height);
+    }, style);
 
     this.images = images;
     this._index = new Binder(0);
@@ -55,7 +54,7 @@ export class GalleryCard extends Card {
       },
       div: {
         width: "50%",
-        height: height,
+        height: "100%",
         position: "absolute",
         left: 0,
         top: 0,
@@ -79,7 +78,6 @@ export class GalleryCard extends Card {
         width: "100%",
         position: "absolute",
         bottom: "0.5em",
-        fontSize: `${parseInt(width) * 0.25}px`,
         li: images.map((_, i) => new Object({
           text: "●",
           padding: "0 0.5em",
