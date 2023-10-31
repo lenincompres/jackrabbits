@@ -1,74 +1,14 @@
 import SuitYourself from "./suityourself/SuitYourself.js";
 import TopMenu from "./TopMenu.js";
 import TEXT from "./TEXT.js";
+import RandomCard from "./components/RandomCard.js";
+import Card from "./components/Card.js";
+import Aux from "./components/Aux.js";
+import VideoCard from "./components/VideoCard.js";
+import GalleryCard from "./components/GalleryCard.js";
 
 const THIS_URL = window.location.href.split('#')[0].split('?')[0];
 const ROOT = THIS_URL.substr(0, THIS_URL.lastIndexOf("/"));
-
-const CARD = (front, back, width = 240, height = 340) => {
-  const IMG_STYLE = {
-    height: height + 'px',
-    width: width + 'px',
-    boxShadow: '2px 2px 6px',
-    borderRadius: '1em',
-    display: 'inline-block',
-  };
-  return {
-    textAlign: "center",
-    class: "card",
-    cursor: 'pointer',
-    display: 'inline-block',
-    position: 'relative',
-    height: height + 'px',
-    width: width + 'px',
-    div: [{
-      class: "front",
-      div: {
-        style: IMG_STYLE,
-        model: front
-      }
-    }, {
-      class: "back",
-      div: {
-        style: IMG_STYLE,
-        model: back
-      }
-    }],
-  }
-}
-
-const RANDOM_CARD = (autoFlip = false, delay = 0) => {
-  let [x, y, z] = [0, 0, 0];
-  let [w, h] = [240, 340];
-  const randomize = () => {
-    x = Math.floor(Math.random() * 6);
-    y = Math.floor(Math.random() * 3);
-    z = Math.floor(Math.random() * 3);
-  };
-  randomize();
-  const opened = new Binder(false);
-  let counter = -delay;
-  let card = CARD({
-    backgroundImage: 'url(images/cardBack.png)'
-  }, {
-    backgroundColor: 'white',
-    backgroundImage: opened.bind(val => `url(images/cardFront${z}.png)`),
-    backgroundPosition: opened.bind(val => `-${w * x}px -${h * y}px`)
-  }, w, h);
-  return Object.assign(card, {
-    margin: '2px',
-    zIndex: opened.bind(val => val ? 0 : 5),
-    onclick: e => {
-      opened.value = !opened.value;
-      if (!opened.value) randomize();
-      counter = 1;
-    },
-    onready: elt => {
-      if (!autoFlip) return;
-      setInterval(e => !(counter++ % 5) ? elt.click() : null, 500);
-    }
-  })
-}
 
 const JRName = '<b><span class="charm">J</span><span class="fortune">A</span>C<span class="courage">K</span> R<span class="wisdom">A</span>BBITS</b>';
 
@@ -173,14 +113,17 @@ const TABLETOPIA = {
   p: TEXT.TABLETOPIA.INFO[LANG]
 };
 
-const GALLERY = {
-  img: {
-    src: "images/photo1.jpg",
-    width: "100%",
-    height: "auto",
-    alt: "game board",
-  },
-};
+const videoCard = new VideoCard({
+  background: 'url(images/splash.png) center center no-repeat',
+  backgroundSize: "cover",
+  backgroundColor: 'lightgoldenrodyellow',
+}, "https://www.youtube.com/embed/BOxUKVh2nrA?si=kgH7EGgC27-YkVGQ", "600px", "400px");
+
+const galleryImages = (new Array(8)).fill().map((_,i) => `images/gallery/image${i}.jpg`);
+const GALLERY = new GalleryCard(galleryImages, "100%", "500px");
+GALLERY.elt.set({
+  margin: "3em 0",
+});
 
 const FOOTER = {
   section: [{
@@ -225,7 +168,8 @@ const FOOTER = {
 };
 
 const CARD_FLIP = {
-  div: [RANDOM_CARD(true), RANDOM_CARD(true, 1)],
+  div: [new RandomCard(true), new RandomCard(true, 1),
+  ],
   h4: TEXT.CATCH_PRHASE[LANG],
 };
 
@@ -267,10 +211,7 @@ DOM.set({
         p: `Lenino's ${JRName} ` + TEXT.INTRO[LANG],
       }, {
         margin: "0 -10em",
-        div: CARD({
-          background: 'url(images/splash.png) center center no-repeat',
-          backgroundColor: 'lightgoldenrodyellow'
-        }, {}, 490)
+        div: videoCard,
       }, {
         a: {
           color: "black",
@@ -292,11 +233,11 @@ DOM.set({
       },
       MAILING_LIST,
       TABLETOPIA,
-      //CARD_FLIP,
+      CARD_FLIP,
       new SuitYourself(ROOT + "/suityourself/"),
       GALLERY,
       FOOTER
     ]
   },
-  onload: e => $(".card").flip(),
+  click: e => videoCard.close(),
 });
