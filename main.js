@@ -107,6 +107,7 @@ const TABLETOPIA = {
     target: "_blank",
     img: {
       width: "100%",
+      alt: "Tabletopia Jack Rabbits banner",
       src: "images/tabletopia_link.png",
     }
   },
@@ -166,7 +167,7 @@ const FOOTER = {
       img: {
         width: "4em",
         src: "http://lenino.net/assets/leninoLogo.png",
-        alt: "Lenino.net"
+        alt: "Lenino.net logo"
       },
       div: "Lenino.net",
     }

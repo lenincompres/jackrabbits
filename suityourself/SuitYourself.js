@@ -19,16 +19,8 @@ const HIDE_MODEL = (binder, test = v => v) => {
   return {
     transition: "0.5s",
     overflow: "hidden",
-    style: binder.as(test, {
-      true: {
-        opacity: 1,
-        maxHeight: "100em",
-      },
-      false: {
-        opacity: 0,
-        maxHeight: 0,
-      },
-    }),
+    opacity: binder.as(test, 0, 1),
+    maxHeight: binder.as(test, 0, "100em"),
   }
 };
 
@@ -54,7 +46,7 @@ window.BUTTON_STYLE = {
 class SuitYourself extends HTMLElement {
 
   constructor(root = "") {
-    if(root.length && !root.endsWith("/")) root += "/";
+    if (root.length && !root.endsWith("/")) root += "/";
     super();
 
     this.strength = new Card({
@@ -165,10 +157,7 @@ class SuitYourself extends HTMLElement {
       maxWidth: TEXT_WIDTH,
       marginBottom: "1em",
       h1: {
-        content: this._stage.as(stage => stage === STAGE_DONE, {
-          true: TEXT.PAGE_TITLE_DONE[LANG](NAME),
-          false: TEXT.PAGE_TITLE[LANG],
-        }),
+        content: this._stage.as(stage => stage === STAGE_DONE, TEXT.PAGE_TITLE[LANG], TEXT.PAGE_TITLE_DONE[LANG](NAME)),
       },
       section: {
         model: HIDE_MODEL(this._stage, stage => stage === STAGE_INTRO),
@@ -187,22 +176,15 @@ class SuitYourself extends HTMLElement {
         placeContent: "center",
         li: this.cards.map((card, i) => new Object({
           width: "8em",
-          zIndex: this._stage.as(stage =>
-            stage === STAGE_DONE ?
-            4 - this.orderedCards.indexOf(card) :
-            4 - i
-          ),
+          zIndex: this._stage.as(stage => stage === STAGE_DONE ?
+            4 - this.orderedCards.indexOf(card) : 4 - i),
           transition: "0.5s",
-          style: this._stage.as(
-            stage => stage >= card.appearStage, {
-              position: "absolute",
-              pointerEvents: "none",
-              opacity: 0,
-            }, {
-              position: "relative",
-              pointerEvents: "initial",
-              opacity: 1,
-            }),
+          position: this._stage.as(
+            stage => stage >= card.appearStage, "absolute", "relative", ),
+          pointerEvents: this._stage.as(
+            stage => stage >= card.appearStage, "none", "initial"),
+          opacity: this._stage.as(
+            stage => stage >= card.appearStage, 0, 1),
           marginLeft: this._stage.as(stage => {
             if (!i) return 0;
             if (!stage) return "1em";
@@ -232,17 +214,14 @@ class SuitYourself extends HTMLElement {
           main: card,
           footer: {
             marginTop: "0.5em",
-            visibility: this._stage.as(stage => stage < 4, {
-              false: "hidden",
-              true: "visible",
-            }),
-            //label: TEXT.YOUR[LANG],
+            visibility: this._stage.as(stage => stage < 4, "hidden", "visible"),
             h2: {
               textTransform: "Capitalize",
               fontSize: "1.25em",
               color: card.suit.color,
-              img:{
+              img: {
                 height: "1em",
+                alt: card.suit.symbol + " card suit",
                 src: root + card.suit.image,
                 verticalAlign: "middle",
               },
@@ -278,10 +257,7 @@ class SuitYourself extends HTMLElement {
         marginTop: "0.5em",
         model: HIDE_MODEL(this._stage, stage => [STAGE_START, STAGE_WEALTH, STAGE_WEALTH].includes(stage)),
         p: {
-          content: this._stage.as(stage => stage === STAGE_WEALTH, {
-            true: TEXT.WHEN_DONE[LANG],
-            false: TEXT.WHEN_READY[LANG],
-          }),
+          content: this._stage.as(stage => stage === STAGE_WEALTH, TEXT.WHEN_READY[LANG], TEXT.WHEN_DONE[LANG]),
         },
       }, {
         // warnings/errors
@@ -376,16 +352,13 @@ class SuitYourself extends HTMLElement {
           content: TEXT.MAILING_LIST_TEXT[LANG],
         },
         iframe: {
-          src: (root ?"" :  "../") + "mailinglist.html",
+          src: (root ? "" : "../") + "mailinglist.html",
           width: "100%",
           height: "300px",
         },
         button: {
           ready: elt => !navigator.share ? elt.set("none", "display") : null,
-          style: _canShare.as({
-            true: BUTTON_STYLE.ENABLED(),
-            false: BUTTON_STYLE.DISABLED,
-          }),
+          style: _canShare.as(BUTTON_STYLE.DISABLED, BUTTON_STYLE.ENABLED()),
           text: TEXT.share[LANG],
           click: e => {
             this.storeData();

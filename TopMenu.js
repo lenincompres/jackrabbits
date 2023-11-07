@@ -2,7 +2,7 @@
 window.ROOT = window.location.href.substr(0, window.location.href.lastIndexOf("/"));
 
 const QS = DOM.querystring();
-window.LANG = QS.lang ? QS.lang.toUpperCase() : "ENG";
+window.LANG = QS.lang ? QS.lang.toLowerCase() : "en";
 
 class TopMenu extends HTMLElement {
   constructor(root) {
@@ -18,16 +18,16 @@ class TopMenu extends HTMLElement {
           placeContent: "space-around",
           li: {
             content: [{
-              display: LANG !== "ENG" ? "block" : "none",
+              display: LANG !== "en" ? "block" : "none",
               a: {
                 text: "English",
                 href: ROOT,
               }
             }, {
-              display: LANG !== "ESP" ? "block" : "none",
+              display: LANG !== "es" ? "block" : "none",
               a: {
                 text: "Español",
-                href: ROOT + "/index.html?lang=esp",
+                href: ROOT + "/index.html?lang=es",
               }
             }, {
               a: {
@@ -48,8 +48,8 @@ class TopMenu extends HTMLElement {
 
     static TEXT ={
       JK: {
-        ENG: "Jack Rabbits' Game",
-        ESP: "Juego de Jack Rabbits",
+        en: "Jack Rabbits' Game",
+        es: "Juego de Jack Rabbits",
       }
     }
 
