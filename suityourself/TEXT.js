@@ -4,7 +4,7 @@ class TEXT {
     ESP: "Adquiere Jack Rabbits!",
   }
   static PAGE_TITLE = {
-    ENG: "Suit Yourself",
+    ENG: "Suit Yourself Test",
     ESP: "Echa tus cartas",
   }
   static PAGE_TITLE_DONE = {
@@ -41,7 +41,7 @@ class TEXT {
     ESP: "continuar",
   }
   static WHEN_READY = {
-    ENG: `Increase the cards at will and click <b>${TEXT.NEXT.ENG}</b> when safistied.`,
+    ENG: `Increase the cards at will using the (+1) buttons, and click <b>${TEXT.NEXT.ENG}</b> when you run out of pips.`,
     ESP: `Usa todos los puntos para incrementar las cartas como las prefieras y luego presiona <b>${TEXT.NEXT.ESP}</b>.`,
   }
   static BEGIN = {
@@ -73,12 +73,12 @@ class TEXT {
     ESP: "Revela tu mano",
   }
   static PAGE_DESCRIPTION = {
-    ENG: `This fun test will show <b>your suit order</b> according to your personality. The card suits represent 4 major personality traits. This short interaction will reveal which one you value the most.`,
+    ENG: `This exercise will show the <b>suit order</b> that fits your personality. Card suits represent 4 major personality traits. Let's reveal which one you value the most.`,
     ESP: `Este divertido test mostrará <b>el valor de tus símbolos</b> de acuerdo a tu personalidad. Los símbolos de las cartas representan 4 grandes rasgos de la personalidad. Con esta breve interacción podrás revelar cuál valoras más.`,
   }
   static PLAY_DESCRIPTION = {
-    ENG: `You'll be given 8 points (or “pips”) to increase the cards above. Click <b>${TEXT.BEGIN.ENG}</b> to start.`,
-    ESP: `Tendrás 8 puntos parar incrementar el valor de estas cartas. Presiona <b>${TEXT.BEGIN.ESP}</b>.`,
+    ENG: `After clicking <b>${TEXT.BEGIN.ENG}</b>, you'll receive 8 points (or “pips”) to increase the cards above.`,
+    ESP: `Despues de presionar <b>${TEXT.BEGIN.ESP}</b>, recibirás 8 puntos parar incrementar el valor de estas cartas.`,
   }
   static DESCRIPTION = {
     ENG: (suit, name) => `This is how ${name ? `<b>${name}</b> values` : "you value"} the 4 main personality traits shown in the cards. According to this valuation, the <strong style="color:${suit.color}">${TEXT[suit.symbol].ENG}</strong> are ${name ? `<b>${name}</b>'s` : "your"} main suit. This symbol is also called <strong style="color:${suit.color}">${TEXT[suit.alt].ENG}</strong>. It is the symbol of ${TEXT[suit.cast].ENG} who focus on ${TEXT[suit.symbol].meaning.ENG}.`,

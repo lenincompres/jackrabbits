@@ -219,6 +219,8 @@ DOM.set({
         margin: "0 -10em",
         div: videoCard,
       }, {
+        p: TEXT.CONTAINS[LANG],
+      },{
         a: {
           color: "black",
           textShadow: "1px 1px 3px lightgoldenrodyellow",
@@ -234,9 +236,7 @@ DOM.set({
           href: "https://py.pl/26TSag",
           target: "_blank",
         }
-      }, {
-        p: TEXT.CONTAINS[LANG],
-      },
+      }, 
       MAILING_LIST,
       TABLETOPIA,
       CARD_FLIP,

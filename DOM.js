@@ -1,11 +1,11 @@
 /**
  * Creates DOM structures from a JS object (structure)
  * @author Lenin Compres <lenincompres@gmail.com>
- * @version 1.0.40
+ * @version 1.0.41
  * @repository https://github.com/lenincompres/DOM.js
  */
 
-Element.prototype.get = function (station) {
+ Element.prototype.get = function (station) {
   let output;
   if (!station && this.tagName.toLocaleLowerCase() === "input") output = this.value;
   else if (!station || ["content", "inner", "innerhtml", "html"].includes(station)) output = this.innerHTML;
@@ -140,14 +140,14 @@ Element.prototype.set = function (model, ...args) {
     return this;
   }
   if (modelType.array) {
-    if (station === "class") return model.forEach(c => {
-      if (!c) return;
-      this.classList.add(c);
-    });
     if (IS_LISTENER) return this.addEventListener(...model);
     let map = model.map(m => this.set(m, [tag, ...cls].join("."), p5Elem));
     if (id) DOM.addID(id, map);
     return map;
+  }
+  if (station === "class") {
+    if(IS_PRIMITIVE) this.classList.add(model);
+    return Object.entries(model).forEach(([key,value]) => value ? this.classList.add(model) : this.classList.remove(model));
   }
   if (IS_LISTENER) {
     if (model.event) model.type = model.event;
@@ -171,6 +171,7 @@ Element.prototype.set = function (model, ...args) {
       if (station === "icon") return this.innerHTML += `<link rel="icon" href="${model}">`;
       if (station === "image") return this.innerHTML += `<meta property="og:image" content="${model}">`;
       if (station === "charset") return this.innerHTML += `<meta charset="${model}">`;
+      if (station.startsWith("og:")) return this.innerHTML += `<meta property="${station}" content="${model}">`;
       if (DOM.metaNames.includes(station)) return this.innerHTML += `<meta name="${station}" content="${model}">`;
       if (DOM.htmlEquivs.includes(STATION)) return this.innerHTML += `<meta http-equiv="${DOM.unCamelize(STATION)}" content="${model}">`;
       if (station === "font") return DOM.set({

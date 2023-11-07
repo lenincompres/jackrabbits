@@ -4,7 +4,7 @@ export class RandomCard extends Card {
 
   constructor(autoFlip = false, delay = 0, interval = 3) {
     let [x, y, z] = [0, 0, 0];
-    let [w, h] = ["234px", "340px"];
+    let [w, h] = [240, 340];
     const randomize = () => {
       x = Math.floor(Math.random() * 6);
       y = Math.floor(Math.random() * 3);
@@ -20,8 +20,8 @@ export class RandomCard extends Card {
       backgroundImage: opened.bind(val => `url(images/cardFront${z}.png)`),
       backgroundPosition: opened.bind(val => `-${w * x}px -${h * y}px`)
     }, {
-      width: w,
-      height: h
+      width: w + "px",
+      height: h + "px",
     });
 
     this.counter = -delay;

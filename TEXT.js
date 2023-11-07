@@ -21,8 +21,8 @@ class TEXT {
   }
 
   static INTRO = {
-    ENG: "is a clever board game based on classic playing cards. It is characterized by the management of resources, the exploration of a different board in each game, and the elements of adventure and fantasy. The art and concept evoke <i>Alice's Adventures in Wonderland</i>, and the mission is for the messenger rabbits to visit palaces and get royal cards. It has different levels of difficulty that make it attractive for casual players as well as for experts.",
-    ESP: "es un juego de mesa ingeniado en base a las cartas de naipes clásicos. Lo caracterizan el manejo de recursos, la exploración de un tablero distinto en cada partida, y los elementos de aventura y fantasía.  El arte y concepto evoca a <i>Alicia en el País de las Maravillas</i>, y la misión es que los conejos mensajeros visiten palacios y consigan cartas reales. Tiene diferente niveles de dificultad que lo hacen atractivo para jugadores casuales como para expertos."
+    ENG: "is a resource management game inspired by classic playing cards. Players explore whimsical game boards reminiscent of <i>Alice's Adventures in Wonderland</i>, guiding messenger rabbits to visit palaces and collect royal cards. The game offers varying difficulty levels, catering to both casual players and experts.",
+    ESP: "es un juego de gestión de recursos inspirado en las cartas de juego clásicas. Los jugadores exploran tableros de juego únicos que recuerdan a las Aventuras de <i>Alicia en el País de las Maravillas</i>, guiando a conejos mensajeros para visitar palacios y recolectar cartas reales. El juego ofrece diferentes niveles de dificultad, adecuados tanto para jugadores casuales como para expertos."
   }
 
   static CONTACT = {
@@ -31,8 +31,8 @@ class TEXT {
   }
 
   static CONTAINS = {
-    ENG: "The game includes 40 wooden pieces, 4 rabbits, 2 dice, 12 carrots and a set of 54 cards designed to accompany the board. All made in biodegradable materials by an independent company, and with a culture of inclusion and social, ecological and global awareness.",
-    ESP: "El juego incluye 40 piezas de madera, 4 conejos, 2 dados, 12 zanahorias y un juego de 54 naipes diseñados para acompañar el tablero. Todo hecho en materiales biodegradables por una compañía independiente, y con una cultura de inclusión y conciencia social, ecológica y global."
+    ENG: "The game features 40 biodegradable wooden pieces, 4 rabbits, 2 dice, 12 carrots, and a set of 54 accompanying cards, all crafted by an independent company with a strong emphasis on social, ecological, and global awareness.",
+    ESP: "El juego incluye 40 piezas de madera biodegradables, 4 conejos, 2 dados, 12 zanahorias y un conjunto de 54 cartas diseñadas para acompañar el tablero. Todos fabricados por una empresa independiente con una fuerte cultura de inclusión y conciencia social, ecológica y global."
   }
 
   static TABLETOPIA = {
@@ -59,6 +59,16 @@ class TEXT {
   static FOLLOW_US = {
     ESP: 'Síguenos y contáctanos en <a href="https://www.instagram.com/lenino.jackrabbits" target="_blank">Instagram</a>, <a href="https://www.facebook.com/leninomusic" target="_blank">Facebook</a>, <a href="https://www.twitter.com/lenino" target="_blank">Twitter</a> o por <a href="mailto:leninosjackrabbits@gmail.com" target="_blank">correo-electrónico</a>.',
     ENG: 'Follow and contact us <a href="https://www.instagram.com/lenino.jackrabbits" target="_blank">Instagram</a>, <a href="https://www.facebook.com/leninomusic" target="_blank">Facebook</a>, <a href="https://www.twitter.com/lenino" target="_blank">Twitter</a> or <a href="mailto:leninosjackrabbits@gmail.com" target="_blank">email</a>.'
+  }
+
+  static FOLLOW_US = {
+    ESP: 'Síguenos y contáctanos en <a href="https://www.instagram.com/lenino.jackrabbits" target="_blank">Instagram</a>, <a href="https://www.facebook.com/leninomusic" target="_blank">Facebook</a>, <a href="https://www.twitter.com/lenino" target="_blank">Twitter</a> o por <a href="mailto:leninosjackrabbits@gmail.com" target="_blank">correo-electrónico</a>.',
+    ENG: 'Follow and contact us <a href="https://www.instagram.com/lenino.jackrabbits" target="_blank">Instagram</a>, <a href="https://www.facebook.com/leninomusic" target="_blank">Facebook</a>, <a href="https://www.twitter.com/lenino" target="_blank">Twitter</a> or <a href="mailto:leninosjackrabbits@gmail.com" target="_blank">email</a>.'
+  }
+
+  static GALLERY = {
+    ESP: '',
+    ENG: '',
   }
 
 }
