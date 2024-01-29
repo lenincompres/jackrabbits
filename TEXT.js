@@ -47,7 +47,7 @@ class TEXT {
   }
 
   static CATCH_PRHASE = {
-    es: `<b class="fortune">Fortuna</b>, <b class="courage">Coraje</b>, <b class="wisdom">Ciencia</b> y <b class="charm">Encanto</b> <br/>son las cualidades que tienes a mano.`,
+    es: `<b class="fortune">Oro</b>, <b class="wisdom">Ciencia</b>, <b class="courage">Fuerza</b> y <b class="charm">Encanto</b>; <br/>podrás tenerlos en a mano.`,
     en: `<b class="fortune">Fortune</b>, <b class="courage">Courage</b>, <b class="wisdom">Science</b> and <b class="charm">Charm</b> <br/>is what a rabbit has at hand.`
   }
 
