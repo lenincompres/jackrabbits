@@ -241,7 +241,7 @@ DOM.set({
       MAILING_LIST,
       TABLETOPIA,
       CARD_FLIP,
-      new SuitYourself(ROOT + "/suityourself/"),
+      //new SuitYourself(ROOT + "/suityourself/"),
       GALLERY,
       FOOTER
     ]
