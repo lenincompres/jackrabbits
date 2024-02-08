@@ -200,6 +200,7 @@ DOM.set({
   overflowX: "hidden",
   backgroundColor: '#EBEBD5',
   backgroundImage: 'url(images/bg.png)',
+  backgroundPosition: 'top center',
   fontFamily: "body",
   fontSize: "16px",
   textAlign: "center",
