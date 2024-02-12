@@ -216,29 +216,31 @@ DOM.set({
           content: JRName
         },
         h4: TEXT.SUBTITLE[LANG],
-        p: `Lenino's ${JRName} ` + TEXT.INTRO[LANG],
       }, {
         margin: "0 -10em",
         div: videoCard,
-      },/*{
-        a: {
-          color: "black",
-          textShadow: "1px 1px 3px lightgoldenrodyellow",
-          fontSize: "1.5em",
-          display: "inline-block",
-          background: "goldenrod",
-          border: "solid 0.1em darkgoldenrod",
-          boxShadow: "1px 1px 3px black",
-          margin: "0 0.5em",
-          padding: "0.5em 1em",
-          borderRadius: "2em",
-          span: TEXT.CONTACT[LANG],
-          href: "https://py.pl/26TSag",
-          target: "_blank",
-        }
-      }, */
-      MAILING_LIST,
-      TABLETOPIA, 
+      },
+      /*{
+              a: {
+                color: "black",
+                textShadow: "1px 1px 3px lightgoldenrodyellow",
+                fontSize: "1.5em",
+                display: "inline-block",
+                background: "goldenrod",
+                border: "solid 0.1em darkgoldenrod",
+                boxShadow: "1px 1px 3px black",
+                margin: "0 0.5em",
+                padding: "0.5em 1em",
+                borderRadius: "2em",
+                span: TEXT.CONTACT[LANG],
+                href: "https://py.pl/26TSag",
+                target: "_blank",
+              }
+            }, */
+      MAILING_LIST, {
+        p: `Lenino's ${JRName} ` + TEXT.INTRO[LANG],
+      },
+      TABLETOPIA,
       CARD_FLIP,
       //new SuitYourself(ROOT + "/suityourself/"),
       GALLERY,

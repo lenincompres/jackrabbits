@@ -1,7 +1,7 @@
 class TEXT {
   static SUBTITLE = {
-    es: "Descubre maravillas mientras viajas</br>al reino de conejos y barajas.",
-    en: "The board game for playing card</br>on a quest through wonderlands. "
+    es: "El juego de tablero en el que viajas</br>al reino de conejos y barajas",
+    en: "The board game for playing cards</br>on a land of wooden shards"
   }
 
   static MAILINGLIST = {
@@ -48,12 +48,12 @@ class TEXT {
 
   static CATCH_PRHASE = {
     es: `<b class="fortune">Oro</b>, <b class="wisdom">Ciencia</b>, <b class="courage">Fuerza</b> y <b class="charm">Encanto</b>; <br/>podrás tenerlos en tus manos.`,
-    en: `<b class="fortune">Fortune</b>, <b class="courage">Courage</b>, <b class="wisdom">Science</b> and <b class="charm">Charm</b> <br/>is what a rabbit has at hand.`
+    en: `<b class="fortune">Fortune</b>, <b class="courage">Courage</b>, <b class="wisdom">Knowledge</b> and <b class="charm">Charm</b> <br/>is what a rabbit has at hand.`
   }
 
   static INSTRUCTIONS = {
     es: "Folleto de Instrucciones",
-    en: "Instruction Booklet",
+    en: "Instructions Booklet",
   }
 
   static FOLLOW_US = {
