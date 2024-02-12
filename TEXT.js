@@ -31,8 +31,8 @@ class TEXT {
   }
 
   static CONTAINS = {
-    en: "The game features 40 biodegradable wooden pieces, 4 rabbits, 2 dice, 12 carrots, and a set of 54 accompanying cards, all crafted by an independent company with a strong emphasis on social, ecological, and global awareness.",
-    es: "El juego incluye 40 piezas de madera biodegradables, 4 conejos, 2 dados, 12 zanahorias y un conjunto de 54 cartas diseñadas para acompañar el tablero. Todos fabricados por una empresa independiente con una fuerte cultura de inclusión y conciencia social, ecológica y global."
+    en: "The physical game contains 40 biodegradable wooden pieces, 4 rabbits, 2 dice, 12 carrots, and a set of 54 accompanying cards, all crafted by an independent company with a strong emphasis on social, ecological, and global awareness.",
+    es: "El juego físico incluye 40 piezas de madera biodegradables, 4 conejos, 2 dados, 12 zanahorias y un conjunto de 54 cartas diseñadas para acompañar el tablero. Todos fabricados por una empresa independiente con una fuerte cultura de inclusión y conciencia social, ecológica y global."
   }
 
   static TABLETOPIA = {
@@ -52,8 +52,8 @@ class TEXT {
   }
 
   static INSTRUCTIONS = {
-    es: "Descarga las instrucciones aquí",
-    en: "Download the Instruction Booklet",
+    es: "Folleto de Instrucciones",
+    en: "Instruction Booklet",
   }
 
   static FOLLOW_US = {

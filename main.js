@@ -220,8 +220,6 @@ DOM.set({
       }, {
         margin: "0 -10em",
         div: videoCard,
-      }, {
-        p: TEXT.CONTAINS[LANG],
       },/*{
         a: {
           color: "black",
@@ -240,7 +238,7 @@ DOM.set({
         }
       }, */
       MAILING_LIST,
-      TABLETOPIA,
+      TABLETOPIA, 
       CARD_FLIP,
       //new SuitYourself(ROOT + "/suityourself/"),
       GALLERY,
