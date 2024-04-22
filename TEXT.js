@@ -10,7 +10,7 @@ class TEXT {
       en: "Join our mailing list",
     },
     INFO: {
-      es: "Pronto lanzaremos nuestra campaña de <b>Kickstarter</b> para fabricar la primera edición oficial del juegos y nos gustaría contar con tu apoyo. Con tu correo te avísaremos cuando la campaña esté lista.",
+      es: "Pronto lanzaremos nuestra campaña de <b>Kickstarter</b> para fabricar la primera edición oficial del juego y nos gustaría contar con tu apoyo. Avísaremos a tu correo electrónico cuando la campaña esté lista.",
       en: "We will launch a <b>Kickstarter</b> campaign to make the first official edition of the game and would love to have your support. We will notify you when the campaign is ready."
     }
   }
