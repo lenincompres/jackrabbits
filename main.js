@@ -96,7 +96,7 @@ const MAILING_LIST = {
   iframe: {
     src: "mailinglist.html",
     width: "100%",
-    height: "auto",
+    height: "12rem",
   }
 }
 
