@@ -1,11 +1,11 @@
 /**
  * Creates DOM structures from a JS object (structure)
  * @author Lenin Compres <lenincompres@gmail.com>
- * @version 1.0.47
+ * @version 1.0.48
  * @repository https://github.com/lenincompres/DOM.js
  */
 
-Element.prototype.get = function (station) {
+ Element.prototype.get = function (station) {
   let output;
   if (!station && this.tagName.toLocaleLowerCase() === "input") output = this.value;
   else if (!station || ["content", "inner", "innerhtml", "html"].includes(station)) output = this.innerHTML;
@@ -174,6 +174,7 @@ Element.prototype.set = function (model, ...args) {
   if (IS_CONTENT && !model.binders) {
     if (CLEAR) this.innerHTML = "";
     if (IS_PRIMITIVE) {
+      if(typeof model === "string") model = model.replaceAll("\n", "<br/>");
       TAG === "input" ? this.value = model : this.innerHTML += model;
       return this;
     }
@@ -552,6 +553,7 @@ class DOM {
     return qs.split("/");
   }
   static addID = (id, elt) => {
+    if(!isNaN(id)) return console.error("ID's should not be numeric. id: " + id);
     if (elt.tagName) elt.setAttribute("id", id);
     if (Array.isArray(elt)) return elt.forEach(e => DOM.addID(id, e));
     if (!window[id]) return window[id] = elt;
