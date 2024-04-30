@@ -48,7 +48,7 @@ export const PAGE_HOME = {
     h2: "Fin del juego",
     p: versify(
       `Serás protagonista del festejo 
-      si a nuestra <a onclick="popUp('citadel')"><b>ciudadela</b></a> te regresas,
+      si a nuestra <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> te regresas,
       trayéndonos las cartas del concejo: 
       tus tres representates de nobleza.`,
       Object.assign({
@@ -89,8 +89,8 @@ export const PAGE_SETUP = {
       ASSETS.sample,
       `El reino de las cartas y sus templos
       se ensambla con terrenos aleatorios;
-      empieza por armar el del <a onclick="popUp('sample')"><b>ejemplo</b></a>
-      o anímate a <a onclick="popUp('board')"><b>crear el territorio</b></a>.`,
+      empieza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
+      o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,
     ),
   }, {
     h2: 2,
@@ -117,11 +117,11 @@ export const PAGE_SETUP = {
     h3: "Las fichas",
     p: versify(
       `Asigna a las personas sus conejos
-      y allí en la <a onclick="popUp('citadel')"><b>ciudadela</b></a> los colocan.
+      y allí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> los colocan.
       Les das las zanahorias de su juego,
       las tres de los colores que les tocan.`,
       ASSETS.tokens,
-      `Escoge el <a onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
+      `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
       descrito en el principio de las reglas;
       y a menos que se juegue por el simple,
       su sello se pondrá en la ciudadela.`,
@@ -161,7 +161,7 @@ export const PAGE_INTRO = {
       `El límite de cartas es de nueve;
       descarta la que quieras si te excedes.`,
       `Conserva el resultado de los dados;
-      los usas en <a onclick="popUp('price')"><b>el precio</b></a> de traslados`
+      los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados`
     ),
   }, {
     h3: "2. La travesía",
@@ -170,7 +170,7 @@ export const PAGE_INTRO = {
       escoge si te irás por un camino.
       Señala el recorrido por las piezas
       llevando tu conejo peregrino.
-      Y acaba el movimiento si tropiezas
+      Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
       ASSETS.journey,
       `Recuerda que moverte es opcional,
@@ -222,7 +222,7 @@ export const PAGE_INTRO = {
       se cruzan por sus túneles gratuitos.
       En cambio, si utilizas los traslados,
       marcados a mitad de los polígonos,
-      <a onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
+      <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de los símbolos.`, {
         marginTop: '1.2rem',
         tag: "h4",
@@ -264,7 +264,7 @@ export const PAGE_INTRO = {
       `Si pagas en la entrada de las cuevas,
       te irás a la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
-      metiéndote al <a onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
+      metiéndote al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
       descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`, {
         tag: "h3",
@@ -348,7 +348,7 @@ export const PAGE_FULL = {
       h4: "Acceder a los palacios Q",
       p: versify(
         `Anúnciate en la <i>entrada de las reinas</i>
-      y espera que en la mesa te cuestionen:
+        y espera que en la mesa te cuestionen:
         si cargas con su carta o con la cuenta 
         de un mínimo de seis en corazones.
         Te expulsan al destierro si te frenan
@@ -356,7 +356,7 @@ export const PAGE_FULL = {
         Mas, antes de mostrar tus pertenencias,
         se exige de cualquiera que cuestione,
         que muestre previamente que las tenga,
-        las cartas con aquellas condiciones.
+        las cartas con aquellas condiciones,
         Pues, pierde lo mostrado y se destierra
         si pruebas que te acusa sin razones.`,
         `Tan solo acusarás a los viajeros
@@ -366,12 +366,12 @@ export const PAGE_FULL = {
       backgroundColor: "rgba(250,240,200,0.4)",
       h3: "Diamantes <small>(Oros)</small>",
       img: ASSETS.diamonds,
-      h4: "Canjear en las Plazas J",
+      h4: "Canjear en las plazas J",
       h5: "y con los conejos",
       p: versify(
         `Observa los <i>hexágonos de ventas</i>
         con flechas que sugieren intercambio.
-        En estos, los diamantes se cajean 
+        En estos, los diamantes se canjean 
         por cartas descartadas de su palo.
         Excepto en el marcado con la estrella,
         que acepta de cualquiera por el pago.
@@ -426,12 +426,12 @@ export const PAGE_OPTIONAL = {
       y vale por un <b>1</b> permanente.`,
       ),
     }, {
-      h3: `<a onclick="popUp('advancedCitadel')">Ciudadela Avanzada</a>`,
+      h3: `<a class="pop" onclick="popUp('advancedCitadel')">Ciudadela Avanzada</a>`,
       p: versify(
-        `Se esperan corazones al entrar.
-      Canjeas lo que quieras con diamantes.
-      Y puedes con tus tréboles volar,
-      con palos cualesquiera de restante.`,
+        `Se esperan corazones al entrar;
+        canjeas lo que quieras con diamantes;
+        y puedes con tus tréboles volar,
+        con palos cualesquiera de restante.`,
       ),
     }, {
       h3: "Lluvia de premios",
@@ -445,7 +445,7 @@ export const PAGE_OPTIONAL = {
       h3: "Cartas Cortas",
       p: versify(
         `Se juega con un palo por conejo
-      y un <a onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
+      y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
       con tres participantes, por ejemplo,
       un palo se elimina con un set.`,
       ),
@@ -487,18 +487,34 @@ export const POPUP = {
   citadel: {
     h3: "Ciudadela",
     img: ASSETS.citadel,
+    p: versify(
+      `La pieza hexagonal en la que empiezas…
+      y acabas al traer a la nobleza.`
+    )
   },
   underground: {
     h3: "Subsuelo",
     img: ASSETS.underground,
+    p: versify(
+      `La pieza hexagonal en la que esperas…
+      y sales por alguna madriguera.`
+    )
   },
   advancedCitadel: {
     h3: "Ciudadela Avanzada",
     img: ASSETS.advancedCitadel,
+    p: versify(
+      `Detrás, la ciudadela es avanzada:
+      con torre, con palacio y con su plaza.`
+    )
   },
   roadTiles: {
     h3: "Set de carreteras",
     img: ASSETS.roadTiles,
+    p: versify(
+      `Las seis individuales en un combo
+      de piezas triangulares y de rombos.`
+    )
   },
   sample: {
     h3: "Tablero de ejemplo",

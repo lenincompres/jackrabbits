@@ -78,19 +78,19 @@ const ASSETS = {
     tag: "img",
     alt: "Rhombus tiles",
     src: "images/roads.png",
-    style: imgCropStyle("17rem", "5.5rem", "left"),
+    style: imgCropStyle("17rem", "5.3rem", "left"),
   },
   rides: {
     tag: "img",
     alt: "Rides tiles",
     src: "images/roads.png",
-    style: imgCropStyle("17rem", "5.5rem"),
+    style: imgCropStyle("17rem", "5.3rem"),
   },
   caves: {
     tag: "img",
     alt: "Caves tiles",
     src: "images/roads.png",
-    style: imgCropStyle("17rem", "5.5rem", "right"),
+    style: imgCropStyle("17rem", "5.3rem", "right"),
   },
   clubs: {
     tag: "img",

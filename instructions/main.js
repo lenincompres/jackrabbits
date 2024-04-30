@@ -53,7 +53,7 @@ DOM.set({
       },
       small_1: " Instrucciones",
     },
-    nav: listify(Object.entries(mapper.map).map(([key, val]) => ({
+    nav: listify(mapper.getEntries(val => val.nav).map(([key, val]) => ({
       class: {
         active: mapper._KEY.as(p => p === key),
       },

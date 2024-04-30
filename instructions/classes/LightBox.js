@@ -25,7 +25,7 @@ class LightBox extends HTMLElement{
         backgroundColor: "white",
         position: "relative",
         a: {
-          text: "X",
+          text: "✕",
           click: e => this.close(),
         },
         section: {

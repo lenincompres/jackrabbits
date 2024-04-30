@@ -128,6 +128,15 @@ a:hover {
   text-decoration: underline;
 }
 
+a.pop:after {
+  content: "🃟";
+  font-size: 0.7em;
+  vertical-align: text-top;
+  margin: -0.5em -0.3em;
+  display: inline-block;
+  transform: rotate(-20deg);
+}
+
 b {
   font-family: title;
   text-transform: uppercase;
@@ -143,6 +152,17 @@ i::after{
 body>header a {
   color: inherit;
   text-decoration: none;
+}
+
+body>header h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body>header h1>* {
+  margin: 0 0.3rem;
 }
 
 img {
@@ -279,7 +299,7 @@ section>ul {
   text-align: left;
   text-indent: -0.5rem;
   padding-left: 0.5rem;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.045em;
   width: fit-content;
   margin: 0 auto;
 }
