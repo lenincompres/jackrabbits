@@ -1,111 +1,122 @@
-const ASSETS = {
+import { imgCropStyle } from "./auxiliary.js";
 
+const ASSETS = {
   jackRabbits: {
     tag: "img",
-    src: "jackRabbits.png",
+    src: "images/jackRabbits.png",
     alt: "Jack Rabbits",
   },
   royals: {
     tag: "img",
-    src: "royals.png",
+    src: "images/royals.png",
     alt: "Rabbit holding three royal cards",
   },
   citadel: {
     tag: "img",
-    src: "citadel.png",
+    src: "images/citadel.png",
     alt: "Citadel",
-  },
-  setup1: {
-    tag: "img",
-    src: "setup1.png",
-    alt: "Setup step 1",
   },
   sample: {
     tag: "img",
-    src: "sample.png",
+    src: "images/sample.png",
     alt: "Sample board",
   },
-  setup2: {
+  guides: {
     tag: "img",
-    src: "setup2.png",
-    alt: "Setup step 2",
+    src: "images/Guides.png",
+    alt: "Guides",
   },
   cards: {
     tag: "img",
-    src: "cards.png",
+    src: "images/cards.png",
     alt: "Cards setup",
+    height: "9rem",
   },
-  setup3: {
+  tokens: {
     tag: "img",
-    src: "setup3.png",
-    alt: "Setup step 3",
+    src: "images/tokens.png",
+    alt: "tokens",
+    height: "7rem",
   },
   endings: {
     tag: "img",
-    src: "endings.png",
+    src: "images/endings.png",
     alt: "Endings tokens",
+    height: "3rem",
   },
   lottery: {
     tag: "img",
-    src: "lottery.png",
+    src: "images/lottery.png",
     alt: "Lotería",
   },
   territory: {
     tag: "img",
-    src: "territory.png",
+    src: "images/territory.png",
     alt: "territory",
   },
   journey: {
     tag: "img",
-    src: "journey.png",
+    src: "images/journey.png",
     alt: "journey",
   },
-  adquisition: {
+  acquisition: {
     tag: "img",
-    src: "adquisition.png",
-    alt: "adquisition",
+    src: "images/acquisition.png",
+    alt: "acquisition",
   },
   increment: {
     tag: "img",
-    src: "increment.png",
+    src: "images/increment.png",
     alt: "increment",
   },
   rhombi: {
     tag: "img",
-    src: "rhombi.png",
     alt: "Rhombus tiles",
+    src: "images/roads.png",
+    style: imgCropStyle("17rem", "5.5rem", "left"),
   },
   rides: {
     tag: "img",
-    src: "rides.png",
     alt: "Rides tiles",
+    src: "images/roads.png",
+    style: imgCropStyle("17rem", "5.5rem"),
   },
   caves: {
     tag: "img",
-    src: "caves.png",
     alt: "Caves tiles",
+    src: "images/roads.png",
+    style: imgCropStyle("17rem", "5.5rem", "right"),
   },
   clubs: {
     tag: "img",
-    src: "clubs.png",
+    src: "images/clubs.png",
     alt: "clubs pip",
   },
   spades: {
     tag: "img",
-    src: "spades.png",
+    src: "images/spades.png",
     alt: "spades pip",
   },
   hearts: {
     tag: "img",
-    src: "hearts.png",
+    src: "images/hearts.png",
     alt: "hearts pip",
   },
   diamonds: {
     tag: "img",
-    src: "diamonds.png",
+    src: "images/diamonds.png",
     alt: "diamonds pip",
-  }
-
+  },
+  advancedCitadel: {
+    tag: "img",
+    src: "images/advancedCitadel.png",
+    alt: "Advanced Citadel",
+  },
+  roadTiles: {
+    tag: "img",
+    src: "images/roadTiles.png",
+    alt: "Set of Road Tiles",
+  },
 };
 
 export default ASSETS;

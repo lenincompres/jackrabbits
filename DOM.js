@@ -174,7 +174,6 @@ Element.prototype.set = function (model, ...args) {
   if (IS_CONTENT && !model.binders) {
     if (CLEAR) this.innerHTML = "";
     if (IS_PRIMITIVE) {
-      if(typeof model === "string") model = model.replaceAll("\n", "<br/>");
       TAG === "input" ? this.value = model : this.innerHTML += model;
       return this;
     }
