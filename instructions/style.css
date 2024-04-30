@@ -119,13 +119,13 @@ p>span {
 }
 
 a {
-  color: midnightblue;
+  color: navy;
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: blue;
 }
 
 a.pop:after {
@@ -135,6 +135,14 @@ a.pop:after {
   margin: -0.5em -0.3em;
   display: inline-block;
   transform: rotate(-20deg);
+}
+
+a[target="_blank"]::after {
+  content: "➚";
+  font-size: 0.7em;
+  vertical-align: text-top;
+  margin: -0.5em -0.3em;
+  display: inline-block;
 }
 
 b {

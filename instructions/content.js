@@ -149,6 +149,7 @@ export const PAGE_INTRO = {
     h2: "Las FASES de cada turno",
   },
   section: [{
+    img: ASSETS.lottery,
     h3: "1. La lotería",
     p: versify(
       `Tu turno lo comienzas con la suerte
@@ -157,13 +158,13 @@ export const PAGE_INTRO = {
       coincide con un número en tus manos,
       demuestra con tu carta que lo tienes
       y llévate la carta de regalo.`,
-      ASSETS.lottery,
       `El límite de cartas es de nueve;
       descarta la que quieras si te excedes.`,
       `Conserva el resultado de los dados;
       los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados`
     ),
   }, {
+    img: ASSETS.journey,
     h3: "2. La travesía",
     p: versify(
       `Del sitio hexagonal en el que empiezas,
@@ -172,13 +173,13 @@ export const PAGE_INTRO = {
       llevando tu conejo peregrino.
       Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
-      ASSETS.journey,
       `Recuerda que moverte es opcional,
       depende de tu meta a visitar.`,
       `Podrías expandir tus travesías
       pagando <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`,
     ),
   }, {
+    img: ASSETS.acquisition,
     h3: "3. La adquisición",
     p: versify(
       `Tu meta es visitar a la nobleza
@@ -187,13 +188,13 @@ export const PAGE_INTRO = {
       pagado con los palos de sus marcas.
       Se dejan zanahorias en las piezas
       que indican los conejos que las cargan.`,
-      ASSETS.acquisition,
-      `Es gratis descanzar en los hexágonos
+      `Es gratis visitar a los hexágonos
       y hacer tu recorrido visitándolos.`,
       `Conserva lo que adquieras en tu mano
       y obtén <b>el incremento</b> de inmediato.`,
     ),
   }, {
+    img: ASSETS.increment,
     h3: "4. El Incremento",
     p: versify(
       `Te toca, en el hexágono que esperas,
@@ -202,11 +203,10 @@ export const PAGE_INTRO = {
       baraja las del lote y recopila.
       Así que, en un hexágono te quedas
       y el turno se termina al recibirla.*`,
-      ASSETS.increment,
       `El límite de cartas es de nueve;
       descarta la que quieras si te excedes.`,
       `*Tu turno acabará sin incremento
-      si estás en <b>el destierro</b> en el momento.`,
+      si estás en <a href="#intro/off"><b>el destierro</b></a> en el momento.`,
     ),
   }, {
     a: {
@@ -267,6 +267,9 @@ export const PAGE_INTRO = {
       metiéndote al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
       descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`, {
+        tag: "a",
+        name: "intro/off",
+      },{
         tag: "h3",
         html: "El Destierro"
       },
@@ -496,8 +499,8 @@ export const POPUP = {
     h3: "Subsuelo",
     img: ASSETS.underground,
     p: versify(
-      `La pieza hexagonal en la que esperas…
-      y sales por alguna madriguera.`
+      `La pieza hexagonal en la que esperas
+      si vas a atravesar las madrigueras.`
     )
   },
   advancedCitadel: {
@@ -512,7 +515,7 @@ export const POPUP = {
     h3: "Set de carreteras",
     img: ASSETS.roadTiles,
     p: versify(
-      `Las seis individuales en un combo
+      `Las seis particulares en un combo
       de piezas triangulares y de rombos.`
     )
   },
