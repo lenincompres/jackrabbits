@@ -4,6 +4,16 @@ export function versify(...poem) {
   }), "content");
 }
 
+export function listify(links){
+  return {
+    ul: {
+      li: links.map(link => ({
+        a: link,
+      }))
+    }
+  }
+}
+
 export function imgCropStyle(w, h, position = "center") {
   return {
     width: w,

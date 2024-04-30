@@ -5,6 +5,7 @@ import {
 
 export const PAGE_HOME = {
   section: [{
+    class: "carded",
     img: ASSETS.jackRabbits,
     p: versify(
       `El juego de tablero en el que viajas
@@ -18,7 +19,7 @@ export const PAGE_HOME = {
       `Atención heroicos mensajeros,`,
       `Por orden de la Orden de Conejos Mensajeros de la Ciudadela, se te ordena la misión de adquirir la terna que será ordenada al nuevo concejo real. Esta misión de orden superior es la orden más importante que un conejo de esta orden puede recibir:`,
       `<strong>Visita las casas nobles, lleva las cartas pertinentes para adquirir tres con insignias reales y traelas a la ciudadela</strong>, en tal orden.`,
-      `En ese orden, cuando digo «tal orden» no me refiero a alguna otra orden de conejos mensajeros ni a la orden del motivo de esta carta, sino al orden de los pasos para restaurar el orden en el reino.`,
+      `En ese orden, cuando digo <i>tal orden</i> no me refiero a alguna otra orden de conejos mensajeros ni a la orden del motivo de esta carta, sino al orden de los pasos para restaurar el orden en el reino.`,
       `¡En marcha! ¡El tiempo apremia!`,
       `El Heraldo Blanco`,
     ]
@@ -40,7 +41,7 @@ export const PAGE_HOME = {
       transporte, pasadizo o madriguera.`,
       `Detente en los hexágonos que llegues
       y toma el incremento de tus cartas,
-      a menos que te salgas o «destierres»
+      a menos que te salgas o <i>destierres</i>
       por fuera de las piezas y sin barcas.`,
     ),
   }, {
@@ -61,7 +62,7 @@ export const PAGE_HOME = {
     ul: {
       li: [
         `<b>simple</b>: traer tres cartas reales, 
-        con cualquier letras o «palos» (símbolos);`,
+        con cualquier letras o <i>palos</i> (símbolos);`,
         `<b>diverso</b>: las tres serán de palos distintos;`,
         `<b>monárquico</b>: traer exactamente una <b>K</b> + una <b>Q</b> + una <b>J</b>, sin importar sus palos;`,
         `<b>diverso y monárquico</b>: traer una <b>K</b> + una <b>Q</b> + una <b>J</b>, de tres palos distintos;`,
@@ -70,17 +71,16 @@ export const PAGE_HOME = {
     }
   }],
   footer: {
-    a: {
-      html: "Preparación <b>inicial</b>",
-      href: "#setup",
-    }
+    p: versify(
+      `<a href="#setup">Preparación <b>inicial</b></a>`
+    ),
   }
 };
 
 export const PAGE_SETUP = {
   section: [{
-    h1: 1,
-    h2: "El tablero",
+    h2: 1,
+    h3: "El tablero",
     p: versify(
       `El mapa que usarás en la partida
       lo creas de improviso y previamente,
@@ -93,18 +93,18 @@ export const PAGE_SETUP = {
       o anímate a <a onclick="popUp('board')"><b>crear el territorio</b></a>.`,
     ),
   }, {
-    h1: 2,
-    h2: "Las cartas",
+    h2: 2,
+    h3: "Las cartas",
     p: versify(
       `Después de que el tablero se termina
       y estén establecidos los lugares,
-      la «corte» se separa bocarriba
-      con cartas de los «jokers» y «reales»:
+      la <i>corte</i> se separa bocarriba
+      con cartas de los <i>jokers</i> y <i>reales</i>:
       las dos de comodines exclusivas
       y doce que contienen personajes.`,
       ASSETS.cards,
-      `En cuanto a las que restan en la «pila»,
-      los «palos numerales» y los «ases»,
+      `En cuanto a las que restan en la <i>pila</i>,
+      los <i>palos numerales</i> y los <i>ases</i>,
       después de barajarlas y reunirlas,
       del mazo bocabajo las repartes.
       Entrégales sus tres, sin exhibirlas,
@@ -113,8 +113,8 @@ export const PAGE_SETUP = {
       y harán la adquisición de las reales.`,
     )
   }, {
-    h1: 3,
-    h2: "Las fichas",
+    h2: 3,
+    h3: "Las fichas",
     p: versify(
       `Asigna a las personas sus conejos
       y allí en la <a onclick="popUp('citadel')"><b>ciudadela</b></a> los colocan.
@@ -123,7 +123,7 @@ export const PAGE_SETUP = {
       ASSETS.tokens,
       `Escoge el <a onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
       descrito en el principio de las reglas;
-      a menos que se juegue por el simple,
+      y a menos que se juegue por el simple,
       su sello se pondrá en la ciudadela.`,
       ASSETS.endings,
       `Elige a la persona que comienza
@@ -134,7 +134,7 @@ export const PAGE_SETUP = {
   }],
   footer: {
     p: versify(
-      `Preparas el <b>INICIO</b> del lugar
+      `Preparas el inicio del lugar
       y empiezas con un <a href="#intro">juego <b>ELEMENTAl</b></a>.`
     ),
   },
@@ -264,7 +264,7 @@ export const PAGE_INTRO = {
       `Si pagas en la entrada de las cuevas,
       te irás a la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
-      metiéndote al subsuelo por un rato;
+      metiéndote al <a onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
       descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`, {
         tag: "h3",
@@ -298,14 +298,14 @@ export const PAGE_FULL = {
     h2: "las estrategias de cada palo",
   },
   section: {
-    border: "1px solid black",
+    boxShadow: "1px 1px 3px black",
     content: [{
-      backgroundColor: "rgba(200,250,250,0.4)",
+      backgroundColor: "rgba(200,250,250,0.3)",
       h3: "Tréboles <small>(Bastos)</small>",
       img: ASSETS.clubs,
       h4: "Volar entre las torres K",
       p: versify(
-        `Preséntate con «carta pasaporte»,
+        `Preséntate con <i>carta pasaporte</i>,
         un trébol al lanzar <b>la lotería</b>,
         y harás <b>la travesía</b> torre-a-torre
         si no lo sobrepasa lo que tiras.
@@ -316,17 +316,17 @@ export const PAGE_FULL = {
         `Se puede completar la travesía,
         pagar la diferencia de los dados,
         con palos de la torre de partida
-        que cubran el «restante» resultado.
+        que cubran el <i>restante</i> resultado.
         La carta pasaporte es permitida
         si vuelas de la torre de los bastos.`,
       ),
     }, {
-      backgroundColor: "rgba(220,200,250,0.6)",
+      backgroundColor: "rgba(220,200,255,0.6)",
       h3: "Picas <small>(Espadas)</small>",
       img: ASSETS.spades,
       h4: "Pelear con los conejos",
       p: versify(
-        `Declárale la «guerra sin empates» 
+        `Declárale la <i>guerra sin empates</i> 
         a quien en el hexágono descansa. 
         Si vences a la víctima que asaltes,
         a ciegas le arrebatas una carta.
@@ -347,7 +347,7 @@ export const PAGE_FULL = {
       img: ASSETS.hearts,
       h4: "Acceder a los palacios Q",
       p: versify(
-        `Anúnciate en la «entrada de las reinas»
+        `Anúnciate en la <i>entrada de las reinas</i>
       y espera que en la mesa te cuestionen:
         si cargas con su carta o con la cuenta 
         de un mínimo de seis en corazones.
@@ -363,13 +363,13 @@ export const PAGE_FULL = {
         si tienes tu conejo en el tablero.`,
       ),
     }, {
-      backgroundColor: "rgba(250,230,200,0.5)",
+      backgroundColor: "rgba(250,240,200,0.4)",
       h3: "Diamantes <small>(Oros)</small>",
       img: ASSETS.diamonds,
       h4: "Canjear en las Plazas J",
       h5: "y con los conejos",
       p: versify(
-        `Observa los «hexágonos de ventas»
+        `Observa los <i>hexágonos de ventas</i>
         con flechas que sugieren intercambio.
         En estos, los diamantes se cajean 
         por cartas descartadas de su palo.
@@ -387,10 +387,10 @@ export const PAGE_FULL = {
     }]
   },
   footer: {
-    a: {
-      html: "Reglas <b>Opcionales</b>",
-      href: "#optional",
-    }
+    p: versify(
+      `Renueva tus partidas habituales
+      jugango con las <a href="#optional">reglas <b>opcionales</b></a>.`
+    ),
   },
 };
 
@@ -412,7 +412,7 @@ export const PAGE_OPTIONAL = {
     }, {
       h3: "Ases capitales",
       p: versify(
-        `El «<b>A</b>s» que de primero desembolses,
+        `El <i><b>A</b>s</i> que de primero desembolses,
       descártalo y consérvalo en tu frente;
       pues éste se valora por un <b>11</b>
       y solo por un <b>1</b> tus siguientes.`,
@@ -488,6 +488,10 @@ export const POPUP = {
     h3: "Ciudadela",
     img: ASSETS.citadel,
   },
+  underground: {
+    h3: "Subsuelo",
+    img: ASSETS.underground,
+  },
   advancedCitadel: {
     h3: "Ciudadela Avanzada",
     img: ASSETS.advancedCitadel,
@@ -506,8 +510,8 @@ export const POPUP = {
   board: {
     h3: "Crear el territorio",
     p: versify(
-      `Comienza por poner la «<strong>ciudadela</strong>»
-      y el negro del «<strong>subsuelo</strong>», separándolos.
+      `Comienza por poner la <i>ciudadela</i>
+      y el negro del <i>subsuelo</i>, separándolos.
       Revuelve bocabajo lo que queda:
       los rombos, los hexágonos y triángulos.`,
       `Indica a las personas que recojan
@@ -541,12 +545,12 @@ export const POPUP = {
     h4: "El precio",
     p: versify(
       `Las vías con los símbolos de cartas
-    te ofrecen un «traslado» de lugar.
+    te ofrecen un <i>traslado</i> de lugar.
     La suma de los dados es la tasa,
     o el mínimo que tienes que pagar. 
     Se pierde el sobrepago si te pasas;
     los símbolos se pueden combinar.`,
-      `Las cartas se «descartan» al usarse,
+      `Las cartas se <i>descartan</i> al usarse,
     dejándolas a un lado de la mesa.
     Es <b>1</b> lo que cuentas por los ases,
     y <b>10</b> por las reales o con letras.

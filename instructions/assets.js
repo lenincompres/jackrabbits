@@ -16,6 +16,11 @@ const ASSETS = {
     src: "images/citadel.png",
     alt: "Citadel",
   },
+  underground: {
+    tag: "img",
+    src: "images/underground.png",
+    alt: "Underground",
+  },
   sample: {
     tag: "img",
     src: "images/sample.png",
