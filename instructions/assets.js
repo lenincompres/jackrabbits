@@ -28,7 +28,7 @@ const ASSETS = {
   },
   guides: {
     tag: "img",
-    src: "images/Guides.png",
+    src: "images/guides.png",
     alt: "Guides",
   },
   cards: {
