@@ -106,7 +106,7 @@ copy.add("home", [{
     `<b>simple</b>: get three royal cards of any title (letter) or <i>suit</i> (symbol).`,
     `<b>diverse</b>: get three royal cards of any title, but with three different suits.`,
     `<b>monarchic</b>: get a <b>K</b> + <b>Q</b> + <b>J</b>, of any suit.`,
-    `<b>diverse y monarchic</b>: get a <b>K</b> + <b>Q</b> + <b>J</b>, of three different suits.`,
+    `<b>diverse + monarchic</b>: get a <b>K</b> + <b>Q</b> + <b>J</b>, of three different suits.`,
     `<b>tribal</b>: get the three of the same suit.`,
   ]
 }, {
@@ -172,7 +172,7 @@ copy.add("setup", [{
     <b>the acquisition</b> demands.`,
 }, {
   es: "Las fichas",
-  es: "Las fichas",
+  es: "The tokens",
 }, {
   es: `Asigna a las personas sus conejos
     y allí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> los colocan.
@@ -243,6 +243,7 @@ copy.add("intro", [{
   ]
 }, {
   es: "2. La travesía",
+  en: "2. The Journey",
 }, {
   es: [
     `Del sitio hexagonal en el que empiezas,
@@ -616,7 +617,7 @@ copy.add("full", [{
   ]
 }, {
   es: `Renueva tus partidas habituales
-    jugango con las <a href="#optional">reglas <b>opcionales</b></a>.`,
+    jugando con las <a href="#optional">reglas <b>opcionales</b></a>.`,
   en: `Try these  <a href="#optional"><b>additional options</b></a>
     once you have gone through the motions.`
 }]);
@@ -698,7 +699,7 @@ copy.add("optional", [{
     remove a set and a suit.`,
 }, {
   es: "Valores Patriarcales",
-  en: "Valores Patriarcales",
+  en: "Patriarchal values",
 }, {
   es: `Valoras a los <b>A</b>ses por <b>14</b>;
     los reyes, es por <b>13</b> que valoras;

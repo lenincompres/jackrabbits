@@ -135,29 +135,6 @@ GALLERY.elt.set({
 
 const FOOTER = {
   section: [{
-    h2: {
-      text: TEXT.INSTRUCTIONS[LANG],
-    },
-    ul: {
-      fontSize: "1.5em",
-      display: "flex",
-      justifyContent: "space-around",
-      li: [{
-        a: {
-          href: "assets/instructions_esp.pdf",
-          target: "_blank",
-          text: "Español",
-        },
-
-      }, {
-        a: {
-          href: "assets/instructions_eng.pdf",
-          target: "_blank",
-          text: "English",
-        },
-      }]
-    }
-  }, {
     marginTop: "3em",
     textAlign: "center",
     a: {
@@ -239,6 +216,14 @@ DOM.set({
             }, */
       MAILING_LIST, {
         p: `Lenino's ${JRName} ` + TEXT.INTRO[LANG],
+      },
+      {
+        h2: {
+          a: {
+            text: TEXT.INSTRUCTIONS[LANG],
+            href: "instructions",
+          }
+        },
       },
       TABLETOPIA,
       CARD_FLIP,

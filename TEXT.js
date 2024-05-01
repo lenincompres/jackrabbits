@@ -52,8 +52,8 @@ class TEXT {
   }
 
   static INSTRUCTIONS = {
-    es: "Folleto de Instrucciones",
-    en: "Instructions Booklet",
+    es: "» Check out the INSTRUCTIONS in this link. «",
+    en: "» Encuentra las INSTRUCCIONES en este link. «",
   }
 
   static FOLLOW_US = {

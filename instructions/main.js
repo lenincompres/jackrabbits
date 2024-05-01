@@ -48,7 +48,7 @@ DOM.set({
         "Lenino's ",
         {
           tag: "a",
-          text: "JACK RABBITS",
+          text: "Jack Rabbits",
           href: `./`,
         },
         siteCopy.get("site"),
