@@ -22,8 +22,16 @@ class Mapper {
     if (key !== hash) setTimeout(location.href = `#${hash}`, 500);
   }
 
-  getEntries(filter = val => val){
-    return Object.entries(this.map).filter(([key, val]) => filter(val));
+  get keys(){
+    return Object.keys(this.map);
+  }
+
+  get entries(){
+    return Object.entries(this.map);
+  }
+
+  filterEntries(filter = val => val){
+    return this.entries.filter(([key, val]) => filter(val));
   }
 
   set key(key){

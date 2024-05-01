@@ -1,4 +1,6 @@
-import { imgCropStyle } from "./auxiliary.js";
+import {
+  imgCropStyle
+} from "./auxiliary.js";
 
 const ASSETS = {
   jackRabbits: {
@@ -15,6 +17,12 @@ const ASSETS = {
     tag: "img",
     src: "images/citadel.png",
     alt: "Citadel",
+  },
+  citadelThumb: {
+    tag: "img",
+    src: "images/citadel.png",
+    alt: "Citadel",
+    height: "6rem",
   },
   underground: {
     tag: "img",
