@@ -225,6 +225,7 @@ body>header>a>* {
 }
 
 #main_nav>ul {
+  width: 100%;
   font-family: title;
   text-transform: uppercase;
   background-color: black;

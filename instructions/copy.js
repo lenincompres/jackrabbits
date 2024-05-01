@@ -172,7 +172,7 @@ copy.add("setup", [{
     <b>the acquisition</b> demands.`,
 }, {
   es: "Las fichas",
-  es: "The tokens",
+  en: "The tokens",
 }, {
   es: `Asigna a las personas sus conejos
     y allí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> los colocan.
@@ -651,7 +651,7 @@ copy.add("optional", [{
     keep it in front of your hands.`,
 }, {
   es: "Ases capitales adicionales",
-  es: "Additional capital Aces",
+  en: "Additional capital Aces",
 }, {
   es: `Recibe un complemento adicional
     del <b>A</b>s que desembolsas en tu frente;
@@ -687,13 +687,13 @@ copy.add("optional", [{
     or a roll of double digits.`,
 }, {
   es: "Cartas Cortas",
-  es: "Tight Suits",
+  en: "Tight Suits",
 }, {
   es: `Se juega con un palo por conejo
     y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
     con tres participantes, por ejemplo,
     un palo se elimina con un set.`,
-  es: `Have as many suits as players,
+  en: `Have as many suits as players,
     and <a class="pop" onclick="popUp('roadTiles')">one of each road tiles</a> too;
     for instance, with three contenders,
     remove a set and a suit.`,

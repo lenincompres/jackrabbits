@@ -39,10 +39,9 @@ DOM.set({
   title: "Lenino's Jack Rabbits - " + siteCopy.get("site"),
   icon: "images/icon.png",
   link: "style.css",
+  lang: Copy.lang,
 
   lightBox: lightBox,
-  
-  lang: Copy.lang,
 
   header: {
     h1: {
@@ -68,17 +67,18 @@ DOM.set({
         click: e => Copy.lang = Copy.LANG.ES,
       })
     },
-    nav: {
-      id: "main_nav",
-      content: listify(navLinks.map(key => ({
-        class: {
-          active: PAGE.PAGER._KEY.as(p => p === key),
-        },
-        color: `var(--${key})`,
-        html: siteCopy.next(),
-        href: `#${key}`,
-      })))
-    }
+  },
+
+  nav: {
+    id: "main_nav",
+    content: listify(navLinks.map(key => ({
+      class: {
+        active: PAGE.PAGER._KEY.as(p => p === key),
+      },
+      color: `var(--${key})`,
+      html: siteCopy.next(),
+      href: `#${key}`,
+    })))
   },
 
   main: {
