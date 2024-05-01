@@ -1,10 +1,13 @@
 import Mapper from "./Mapper.js";
 
-class LightBox extends HTMLElement{
-  constructor(map){
+class LightBox extends HTMLElement {
+  constructor(content) {
     super();
-    this.mapper = new Mapper(map);
+    
     this._ON = new Binder(false);
+    this._CONTENT = new Binder();
+
+    this.content = content;
 
     this.set({
       display: this._ON.as(val => val ? "flex" : "none"),
@@ -29,19 +32,34 @@ class LightBox extends HTMLElement{
           click: e => this.close(),
         },
         section: {
-          content: this.mapper._CONTENT,
+          content: this._CONTENT,
         },
         click: e => e.stopPropagation(),
       }
     });
   }
 
-  open(key){
+  set key(key) {
+    if (!this.mapper) return;
     this.mapper.key = key;
+  }
+
+  set content(content) {
+    if (content._MAP) {
+      this.mapper = content;
+      this._CONTENT = this.mapper._CONTENT;
+      return;
+    }
+    this._CONTENT.value = content;
+  }
+
+  open(content) {
+    if (this.mapper) this.key = content;
+    else this._CONTENT.value = content;
     this._ON.value = true;
   }
 
-  close(){
+  close() {
     this._ON.value = false;
   }
 

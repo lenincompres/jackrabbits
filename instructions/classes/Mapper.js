@@ -4,12 +4,13 @@
 
 class Mapper {
 
-  constructor(map) {
+  constructor(map, setAnchors = false) {
     this.map = map;
     this.default = Object.keys(map)[0];
     this._SELECTED_KEY = new Binder(this.default);
     window.addEventListener("hashchange", () => this.refresh());
     this.refresh();
+    if(setAnchors) this.setAnchors();
   }
 
   refresh() {
@@ -20,6 +21,12 @@ class Mapper {
     if (!this.map[key]) return;
     this.key = key;
     if (key !== hash) setTimeout(location.href = `#${hash}`, 500);
+  }
+
+  setAnchors(){
+    DOM.set(this.keys.map(key => ({
+      name: key
+    })), "a");
   }
 
   get keys(){

@@ -2,16 +2,16 @@ import ASSETS from "./assets.js";
 import {
   versify
 } from "./auxiliary.js";
+import Mapper from "./classes/Mapper.js";
 import Typer from "./classes/Typer.js";
 
 let typer = new Typer();
 
 typer.add("home", [{
-  es: [
-    `El juego de tablero en el que viajas
-    al reino de conejos y barajas`,
-    `<a href="../">jackrabbits.lenino.net</a>`,
-  ]
+  es: `El juego de tablero en el que viajas
+    al reino de conejos y barajas.`,
+  en: `The board game for playing cards
+    on a lang of wooden shards`,
 }, {
   es: "Bienvenida",
 }, {
@@ -50,19 +50,15 @@ typer.add("home", [{
 }, {
   es: "Fin del juego",
 }, {
-  es: [
-    `Serás protagonista del festejo 
+  es: `Serás protagonista del festejo 
     si a nuestra <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> te regresas,
     trayéndonos las cartas del concejo: 
     tus tres representates de nobleza.`,
-  ]
 }, {
-  es: [
-    `Tan pronto se repartan los conejos,
+  es: `Tan pronto se repartan los conejos,
     se exige al colectivo de la mesa
     que escoja, de lo simple a lo complejo,
     la clase de final que le interesa:`,
-  ]
 }, {
   es: [
     `<b>simple</b>: traer tres cartas reales, 
@@ -250,7 +246,7 @@ typer.add("intro", [{
   es: "traslado por Madrigueras",
 }, {
   es: `Si pagas en la entrada de las cuevas,
-    te irás a la que quieras de inmediato.
+    saldrás por la que quieras de inmediato.
     Si no, te ahorrarás lo que te cuesta,
     metiéndote al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
     descansas por el turno y, a la vuelta, 
@@ -511,190 +507,195 @@ typer.add("popup", [{
   ]
 }]);
 
-export const PAGE_HOME = {
-  section: [{
-    class: "carded",
-    img: ASSETS.jackRabbits,
-    p: versify(typer.get("home")),
-  }, {
-    class: "letter",
-    h2: typer.next(),
-    p: typer.next(),
-  }, {
-    h2: typer.next(),
-    p: versify(typer.next(), ASSETS.royals, typer.next()),
-  }, {
-    h2: typer.next(),
-    p: versify(typer.next(), ASSETS.citadelThumb, typer.next()),
-    ul: {
-      li: typer.next(),
-    }
-  }],
-  footer: {
-    p: versify(typer.next()),
-  }
-};
 
-export const PAGE_SETUP = {
-  section: [{
-    h2: 1,
-    h3: typer.get("setup"),
-    p: versify(typer.next(), ASSETS.sample, typer.next()),
-  }, {
-    h2: 2,
-    h3: typer.next(),
-    p: versify(typer.next(), ASSETS.cards, typer.next())
-  }, {
-    h2: 3,
-    h3: typer.next(),
-    p: versify(typer.next(), ASSETS.tokens, typer.next(), ASSETS.endings, typer.next()),
-  }],
-  footer: {
-    p: versify(typer.next()),
-  },
-};
 
-export const PAGE_INTRO = {
-  header: {
-    p: versify(typer.get("intro")),
-    h2: typer.next(),
-  },
-  section: [{
-    img: ASSETS.lottery,
-    h3: typer.next(),
-    p: versify(typer.next()),
-  }, {
-    img: ASSETS.journey,
-    h3: typer.next(),
-    p: versify(typer.next()),
-  }, {
-    img: ASSETS.acquisition,
-    h3: typer.next(),
-    p: versify(typer.next()),
-  }, {
-    img: ASSETS.increment,
-    h3: typer.next(),
-    p: versify(typer.next()),
-  }, {
-    a: {
-      name: "intro/tranfers",
-    },
-    tag: "header",
-    h3: typer.next(),
-  }, {
-    p: versify(typer.next(), {
-      marginTop: '1.2rem',
-      tag: "h4",
-      html: typer.next()
-    }, typer.next()),
-    img: ASSETS.rhombi,
-  }, {
-    h4: typer.next(),
-    p: versify(typer.next(), {
-      tag: "h4",
-      html: typer.next()
-    }, typer.next()),
-    img: ASSETS.rides,
-  }, {
-    h4: typer.next(),
-    p: versify(typer.next(), {
-      tag: "a",
-      name: "intro/off",
+export const PAGER = new Mapper({
+  home: {
+    section: [{
+      class: "carded",
+      img: ASSETS.jackRabbits,
+      p: versify(typer.get("home")),
+      a: {
+        href: "../",
+        text: "jackrabbits.lenino.net",
+      }
     }, {
-      tag: "h3",
-      html: typer.next()
-    }, typer.next()),
-    img: ASSETS.caves,
-  }],
-  footer: {
-    p: versify(typer.next()),
-  },
-};
-
-export const PAGE_FULL = {
-  header: {
-    p: versify(typer.get("full")),
-    h2: typer.next(),
-  },
-  section: {
-    boxShadow: "1px 1px 3px black",
-    content: [{
-      backgroundColor: "rgba(200,250,250,0.3)",
-      h3: typer.next(),
-      img: ASSETS.clubs,
-      h4: typer.next(),
-      p: versify(typer.next()),
+      class: "letter",
+      h2: typer.next(),
+      p: typer.next(),
     }, {
-      backgroundColor: "rgba(220,200,255,0.6)",
-      h3: typer.next(),
-      img: ASSETS.spades,
-      h4: typer.next(),
-      p: versify(typer.next()),
+      h2: typer.next(),
+      p: versify(typer.next(), ASSETS.royals, typer.next()),
     }, {
-      backgroundColor: "rgba(250,200,220,0.6)",
-      h3: typer.next(),
-      img: ASSETS.hearts,
-      h4: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      backgroundColor: "rgba(250,240,200,0.4)",
-      h3: typer.next(),
-      img: ASSETS.diamonds,
-      h4: typer.next(),
-      h5: typer.next(),
-      p: versify(typer.next()),
-    }]
-  },
-  footer: {
-    p: versify(typer.next()),
-  },
-};
-
-export const PAGE_OPTIONAL = {
-  header: {
-    h2: typer.get("optional"),
-  },
-  section: {
-    backgroundColor: "rgba(255,255,255,0.6)",
-    margin: "0.5rem 1.1rem",
-    content: [{
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
-    }, {
-      h3: typer.next(),
-      p: versify(typer.next()),
+      h2: typer.next(),
+      p: versify(typer.next(), ASSETS.citadelThumb, typer.next()),
+      ul: {
+        li: typer.next(),
+      }
     }],
+    footer: {
+      p: versify(typer.next()),
+    },
   },
-  footer: {
-    a: {
-      html: typer.next(),
-      href: "#full",
-    }
+  setup: {
+    section: [{
+      h2: 1,
+      h3: typer.get("setup"),
+      p: versify(typer.next(), ASSETS.sample, typer.next()),
+    }, {
+      h2: 2,
+      h3: typer.next(),
+      p: versify(typer.next(), ASSETS.cards, typer.next())
+    }, {
+      h2: 3,
+      h3: typer.next(),
+      p: versify(typer.next(), ASSETS.tokens, typer.next(), ASSETS.endings, typer.next()),
+    }],
+    footer: {
+      p: versify(typer.next()),
+    },
   },
-};
+  intro: {
+    header: {
+      p: versify(typer.get("intro")),
+      h2: typer.next(),
+    },
+    section: [{
+      img: ASSETS.lottery,
+      h3: typer.next(),
+      p: versify(typer.next()),
+    }, {
+      img: ASSETS.journey,
+      h3: typer.next(),
+      p: versify(typer.next()),
+    }, {
+      img: ASSETS.acquisition,
+      h3: typer.next(),
+      p: versify(typer.next()),
+    }, {
+      img: ASSETS.increment,
+      h3: typer.next(),
+      p: versify(typer.next()),
+    }, {
+      a: {
+        name: "intro/tranfers",
+      },
+      tag: "header",
+      h3: typer.next(),
+    }, {
+      p: versify(typer.next(), {
+        marginTop: '1.2rem',
+        tag: "h4",
+        html: typer.next()
+      }, typer.next()),
+      img: ASSETS.rhombi,
+    }, {
+      h4: typer.next(),
+      p: versify(typer.next(), {
+        tag: "h4",
+        html: typer.next()
+      }, typer.next()),
+      img: ASSETS.rides,
+    }, {
+      h4: typer.next(),
+      p: versify(typer.next(), {
+        tag: "a",
+        name: "intro/off",
+      }, {
+        tag: "h3",
+        html: typer.next()
+      }, typer.next()),
+      img: ASSETS.caves,
+    }],
+    footer: {
+      p: versify(typer.next()),
+    },
+  },
+  full: {
+    header: {
+      p: versify(typer.get("full")),
+      h2: typer.next(),
+    },
+    section: {
+      boxShadow: "1px 1px 3px black",
+      content: [{
+        backgroundColor: "rgba(200,250,250,0.3)",
+        h3: typer.next(),
+        img: ASSETS.clubs,
+        h4: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        backgroundColor: "rgba(220,200,255,0.6)",
+        h3: typer.next(),
+        img: ASSETS.spades,
+        h4: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        backgroundColor: "rgba(250,200,220,0.6)",
+        h3: typer.next(),
+        img: ASSETS.hearts,
+        h4: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        backgroundColor: "rgba(250,240,200,0.4)",
+        h3: typer.next(),
+        img: ASSETS.diamonds,
+        h4: typer.next(),
+        h5: typer.next(),
+        p: versify(typer.next()),
+      }]
+    },
+    footer: {
+      p: versify(typer.next()),
+    },
+  },
+  optional: {
+    header: {
+      h2: typer.get("optional"),
+    },
+    section: {
+      backgroundColor: "rgba(255,255,255,0.6)",
+      margin: "0.5rem 1.1rem",
+      content: [{
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }, {
+        h3: typer.next(),
+        p: versify(typer.next()),
+      }],
+    },
+    footer: {
+      a: {
+        html: typer.next(),
+        href: "#full",
+      }
+    },
+  },
+}, true);
 
-export const POPUP = {
+
+export const POPPER = new Mapper({
   citadel: {
     h3: typer.get("popup"),
     img: ASSETS.citadel,
@@ -720,7 +721,7 @@ export const POPUP = {
     img: ASSETS.sample,
   },
   endings: {
-    content: PAGE_HOME.section[3],
+    content: PAGER.map.home.section[3],
   },
   board: {
     h3: typer.next(),
@@ -734,4 +735,4 @@ export const POPUP = {
     h4: typer.next(),
     p: versify(typer.next())
   }
-};
+});
