@@ -1,6 +1,7 @@
 import {
   imgCropStyle
 } from "./auxiliary.js";
+import Copy from "./classes/Copy.js";
 
 const ASSETS = {
   jackRabbits: {
@@ -28,6 +29,12 @@ const ASSETS = {
     tag: "img",
     src: "images/underground.png",
     alt: "Underground",
+  },
+  sampleThumb: {
+    tag: "img",
+    src: "images/sample.png",
+    alt: "Sample board",
+    height: Copy.lang === Copy.LANG.ES ? "17rem" : "14rem",
   },
   sample: {
     tag: "img",

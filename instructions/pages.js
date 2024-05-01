@@ -37,7 +37,7 @@ export const PAGER = new Mapper({
     section: [{
       h2: 1,
       h3: copy.get("setup"),
-      p: versify(copy.next(), ASSETS.sample, copy.next()),
+      p: versify(copy.next(), ASSETS.sampleThumb, copy.next()),
     }, {
       h2: 2,
       h3: copy.next(),
