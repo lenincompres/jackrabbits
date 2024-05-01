@@ -745,8 +745,8 @@ copy.add("popup", [{
 }, {
   es: `La pieza hexagonal en la que empiezas…
     y acabas al traer a la nobleza.`,
-  en: `The hex where each rabbit starts…
-    and ends with their royal cards.`
+  en: `The hex where the journey starts…
+    and ends with the royal cards.`
 }, {
   es: "Subsuelo",
   en: "underground",

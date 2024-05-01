@@ -41,6 +41,8 @@ DOM.set({
   link: "style.css",
 
   lightBox: lightBox,
+  
+  lang: Copy.lang,
 
   header: {
     h1: {
@@ -57,11 +59,11 @@ DOM.set({
     menu: {
       class: "bullet_menu",
       content: listify({
-        class: Copy.lang === Copy.LANG.EN ? "disabled" : undefined,
+        class: Copy.lang === Copy.LANG.EN ? "selected" : undefined,
         text: "English",
         click: e => Copy.lang = Copy.LANG.EN,
       }, {
-        class: Copy.lang === Copy.LANG.ES ? "disabled" : undefined,
+        class: Copy.lang === Copy.LANG.ES ? "selected" : undefined,
         text: "Español",
         click: e => Copy.lang = Copy.LANG.ES,
       })

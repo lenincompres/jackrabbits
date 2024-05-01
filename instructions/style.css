@@ -330,8 +330,9 @@ body>footer {
   justify-content: center;
 }
 
-.bullet_menu>ul a.disabled{
-  color: gray;
+.bullet_menu>ul a.selected{
+  color: #555;
+  text-decoration: underline;
   pointer-events: none;
 }
 
