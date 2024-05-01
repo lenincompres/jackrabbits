@@ -6,10 +6,10 @@ import {
 } from "./auxiliary.js";
 import Mapper from "./classes/Mapper.js";
 import LightBox from "./classes/LightBox.js";
-import * as CONTENT from "./content.js";
-import Typer from "./classes/Typer.js";
+import * as PAGE from "./pages.js";
+import Copy from "./classes/Copy.js";
 
-let typer = new Typer({
+let siteCopy = new Copy({
   site: [{
     es: "Instrucciones",
     en: "Instructions",
@@ -32,11 +32,11 @@ let typer = new Typer({
 
 const navLinks = ["setup", "intro", "full"];
 
-let lightBox = new LightBox(CONTENT.POPPER);
+let lightBox = new LightBox(PAGE.POPPER);
 window.popUp = key => lightBox.open(key);
 
 DOM.set({
-  title: "Lenino's Jack Rabbits - " + typer.get("site"),
+  title: "Lenino's Jack Rabbits - " + siteCopy.get("site"),
   icon: "images/icon.png",
   link: "style.css",
 
@@ -51,29 +51,29 @@ DOM.set({
           text: "JACK RABBITS",
           href: `./`,
         },
-        typer.get("site"),
+        siteCopy.get("site"),
       ],
     },
     menu: {
       class: "bullet_menu",
       content: listify({
-        class: Typer.lang === Typer.LANG.EN ? "disabled" : undefined,
+        class: Copy.lang === Copy.LANG.EN ? "disabled" : undefined,
         text: "English",
-        click: e => Typer.lang = Typer.LANG.EN,
+        click: e => Copy.lang = Copy.LANG.EN,
       }, {
-        class: Typer.lang === Typer.LANG.ES ? "disabled" : undefined,
+        class: Copy.lang === Copy.LANG.ES ? "disabled" : undefined,
         text: "Español",
-        click: e => Typer.lang = Typer.LANG.ES,
+        click: e => Copy.lang = Copy.LANG.ES,
       })
     },
     nav: {
       id: "main_nav",
       content: listify(navLinks.map(key => ({
         class: {
-          active: CONTENT.PAGER._KEY.as(p => p === key),
+          active: PAGE.PAGER._KEY.as(p => p === key),
         },
         color: `var(--${key})`,
-        html: typer.next(),
+        html: siteCopy.next(),
         href: `#${key}`,
       })))
     }
@@ -82,13 +82,13 @@ DOM.set({
   main: {
     article: {
       id: "page_article",
-      backgroundColor: CONTENT.PAGER._KEY.as(key => `var(--${key})`),
-      content: CONTENT.PAGER._CONTENT,
+      backgroundColor: PAGE.PAGER._KEY.as(key => `var(--${key})`),
+      content: PAGE.PAGER._CONTENT,
     },
   },
 
   footer: {
-    p: versify(typer.next()),
+    p: versify(siteCopy.next()),
     menu: {
       class: "bullet_menu",
       content: listify({

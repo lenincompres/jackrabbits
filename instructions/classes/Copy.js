@@ -17,11 +17,11 @@ import {
   setCookie
 } from "../auxiliary.js";
 
-class Typer {
+class Copy {
 
   constructor(map = {}) {
     this.map = map;
-    this.lang = Typer.lang;
+    this.lang = Copy.lang;
     this.key = Object.keys(this.map)[0];
     this.counter = {};
   }
@@ -31,7 +31,7 @@ class Typer {
       return Object.entries(key).forEach(([k, v]) => this.add(k, v));
     }
     if (this.map[key]) {
-      return console.error(`Key "${key}" exsists in typer`);
+      return console.error(`Key "${key}" exsists in copy`);
     }
     this.map[key] = val;
   }
@@ -39,11 +39,11 @@ class Typer {
   // returns the text based on key, array index and language
   get(key, i) {
     if (key === undefined) {
-      console.error("No key was passed to the typer.");
+      console.error("No key was passed to the copy.");
     };
     let val = this.map[key];
     if (val === undefined) {
-      console.error(`Key "${key}" not found in typer.`);
+      console.error(`Key "${key}" not found in copy.`);
       return "";
     }
     this.key = key;
@@ -51,7 +51,7 @@ class Typer {
     if (val[lang]) return val[lang];
     if (typeof val === "string") return val;
     if (!Array.isArray(val)) {
-      console.error(`Language "${lang}" not found in typer at "${key}".`);
+      console.error(`Language "${lang}" not found in copy at "${key}".`);
       return val[Object.keys(val)[0]];
     }
     if (i === undefined) i = 0;
@@ -59,7 +59,7 @@ class Typer {
     this.counter[key] = i;
     if (val[lang]) return val[lang];
     if (typeof val === "string") return val;
-    console.error(`Language "${lang}" not found in typer at "${key}[${i}]".`);
+    console.error(`Language "${lang}" not found in copy at "${key}[${i}]".`);
     return val[Object.keys(val)[0]];
   }
 
@@ -70,16 +70,16 @@ class Typer {
   }
 
   static set lang(val) {
-    setCookie("typer-lang", val, 30);
+    setCookie("copy-lang", val, 30);
     location.reload();
   }
 
   static get lang() {
-    let lang = Typer.LANG.EN;
+    let lang = Copy.LANG.EN;
     if (navigator && navigator.language) {
       lang = navigator.language.split("-")[0];
     }
-    let savedLang = getCookie("typer-lang");
+    let savedLang = getCookie("copy-lang");
     if (savedLang) {
       lang = savedLang;
     }
@@ -93,4 +93,4 @@ class Typer {
 
 }
 
-export default Typer;
+export default Copy;
