@@ -37,3 +37,8 @@ export function getCookie(name) {
     if (c[0].trim() === name) return c[1];
   }, undefined);
 }
+
+export function classiterate(text, cls){
+  if(typeof cls === "string") cls = [cls];
+  
+}

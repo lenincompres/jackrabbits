@@ -1,8 +1,8 @@
 import Copy from "./classes/Copy.js";
 
-const copy = new Copy();
+const pageCopy = new Copy();
 
-copy.add("home", [{
+pageCopy.add("home", [{
   es: `El juego de tablero en el que viajas
     al reino de conejos y barajas.`,
   en: `The board game for playing cards
@@ -114,7 +114,7 @@ copy.add("home", [{
   en: `<a href="#setup"><b>Setup</b> (up to four players)</a>`,
 }]);
 
-copy.add("setup", [{
+pageCopy.add("setup", [{
   es: "El tablero",
   en: "The Board",
 }, {
@@ -207,7 +207,7 @@ copy.add("setup", [{
     to complete an <a href="#intro"><b>INTRO GAME</b></a>.`,
 }]);
 
-copy.add("intro", [{
+pageCopy.add("intro", [{
   es: `Dominas el siguiente material
     y luego lo del <a href="#full">juego <b>REGULAR</b></a>.`,
   en: `Learn the phases' rules and names, 
@@ -442,7 +442,7 @@ copy.add("intro", [{
     the strategies of each suit.`,
 }]);
 
-copy.add("full", [{
+pageCopy.add("full", [{
   es: `Se añaden los artículos restantes
     al <a href="#intro">juego <b>elemental</b></a> de principiantes.`,
   en: `This frame should be introduced 
@@ -624,7 +624,7 @@ copy.add("full", [{
     once you have gone through the motions.`
 }]);
 
-copy.add("optional", [{
+pageCopy.add("optional", [{
   es: "Reglas Opcionales",
   en: "Optional Rules",
 }, {
@@ -741,7 +741,7 @@ copy.add("optional", [{
   en: "<b>Full game</b>",
 }]);
 
-copy.add("popup", [{
+pageCopy.add("popup", [{
   es: "Ciudadela",
   en: "Citadel",
 }, {
@@ -875,4 +875,4 @@ copy.add("popup", [{
   ]
 }]);
 
-export default copy;
+export default pageCopy;
