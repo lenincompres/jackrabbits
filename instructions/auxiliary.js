@@ -36,5 +36,5 @@ export function getCookie(name) {
   return document.cookie.split(';').reduce((o, c) => {
     c = c.split("=");
     if (c[0].trim() === name) return c[1];
-  });
+  }, undefined);
 }

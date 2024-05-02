@@ -115,25 +115,25 @@ export const PAGER = new Mapper({
     section: {
       boxShadow: "1px 1px 3px black",
       content: [{
-        backgroundColor: "rgba(200,250,250,0.3)",
+        backgroundColor: "rgba(200,240,240,0.3)",
         h3: copy.next(),
         img: ASSETS.clubs,
         h4: copy.next(),
         p: versify(copy.next()),
       }, {
-        backgroundColor: "rgba(220,200,255,0.6)",
+        backgroundColor: "rgba(220,200,255,0.4)",
         h3: copy.next(),
         img: ASSETS.spades,
         h4: copy.next(),
         p: versify(copy.next()),
       }, {
-        backgroundColor: "rgba(250,200,220,0.6)",
+        backgroundColor: "rgba(255,200,220,0.4)",
         h3: copy.next(),
         img: ASSETS.hearts,
         h4: copy.next(),
         p: versify(copy.next()),
       }, {
-        backgroundColor: "rgba(250,240,200,0.4)",
+        backgroundColor: "rgba(250,240,200,0.3)",
         h3: copy.next(),
         img: ASSETS.diamonds,
         h4: copy.next(),

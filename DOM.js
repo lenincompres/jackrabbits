@@ -127,7 +127,7 @@ Element.prototype.set = function (model, ...args) {
   }
   if (station === "class") {
     if (IS_PRIMITIVE) this.setAttribute(station, model);
-    if (Array.isArray(model)) model.forEach(c => this.classList.add(c));
+    else if (Array.isArray(model)) model.forEach(c => this.classList.add(c));
     else handleProps((key, value) => value ? this.classList.add(key) : this.classList.remove(key));
     return this;
   };

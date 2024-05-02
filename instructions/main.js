@@ -45,14 +45,17 @@ DOM.set({
 
   header: {
     h1: {
-      small: [
-        "Lenino's ",
-        {
+      small: [{
+          class: "logo-super",
+          text: "Lenino's",
+        }, {
           tag: "a",
           text: "Jack Rabbits",
           href: `./`,
-        },
-        siteCopy.get("site"),
+        }, {
+          class: "logo-sub",
+          text: siteCopy.get("site"),
+        }
       ],
     },
     menu: {
