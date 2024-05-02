@@ -127,13 +127,13 @@ export const PAGER = new Mapper({
         h4: copy.next(),
         p: versify(copy.next()),
       }, {
-        backgroundColor: "rgba(255,200,220,0.4)",
+        backgroundColor: "rgba(255,200,210,0.4)",
         h3: copy.next(),
         img: ASSETS.hearts,
         h4: copy.next(),
         p: versify(copy.next()),
       }, {
-        backgroundColor: "rgba(250,240,200,0.3)",
+        backgroundColor: "rgba(250,240,200,0.4)",
         h3: copy.next(),
         img: ASSETS.diamonds,
         h4: copy.next(),

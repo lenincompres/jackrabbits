@@ -23,7 +23,7 @@ copy.add("home", [{
     `Hear ye, glorious messengers,`,
     `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure the royals to be ordained as the new council of thirds. This is the highest order a rabbit of this order can get:`,
     `Visit the noble houses, deliver the suitable cards to acquire three with royal letters, and bring them to the citadel, in that order.`,
-    `Note that when I say “that order,” I'm not referring to another Order of Messenger Rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to restore order to the realm.`,
+    `Note that when I say <i>that order</i>, I'm not referring to another Order</br>of Messenger Rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to restore order to the realm.`,
     `So, hoppity hop, in orderly fashion. Don't dawdle—no time to lose!`,
     `The White Herald`,
   ]
@@ -152,9 +152,9 @@ copy.add("setup", [{
     Display them in any order—
     line up this court in an aisle. 
     Shuffle the rest as in poker—
-    make a facedown drawing “pile”,
-    which holds “pip cards” of a number
-    and “aces” of fancier style.`,
+    make a facedown drawing <i>pile</i>,
+    which holds <i>pip cards</i> of a number
+    and <i>aces</i> of fancier style.`,
 }, {
   es: `En cuanto a las que restan en la <i>pila</i>,
     los <i>palos numerales</i> y los <i>ases</i>,
@@ -483,7 +483,7 @@ copy.add("full", [{
     `If you pay to match the dice,
     you'll still fly and won't fall off.
     The price needed to suffice
-    is the “shortfall” (what you're off).`,
+    is the <i>shortfall</i> (what you're off).`,
     `Suits from the departing tower 
     must be used to pay what’s owed. 
     The clubs’ tower grants more power: 
@@ -645,7 +645,7 @@ copy.add("optional", [{
     descártalo y consérvalo en tu frente;
     pues éste se valora por un <b>11</b>
     y solo por un <b>1</b> tus siguientes.`,
-  en: `Your first “<b>A</b>ce” is worth <b>11</b>—
+  en: `Your first <i><b>A</b>ce</i> is worth <b>11</b>—
     the others you spend are <b>1</b>s.
     As a record that it's spent then, 
     keep it in front of your hands.`,
@@ -797,8 +797,8 @@ copy.add("popup", [{
     el vínculo de vías carreteras:`,
   ],
   en: [
-    `Place the “citadel” hex first. 
-    Leave aside the “underground”. 
+    `Place the <i>citadel</i> hex first. 
+    Leave aside the <i>underground</i>. 
     Pile and shuffle all the rest,
     even the small ones, face down.`,
     `Deal by tile shape, equal shares—
@@ -863,7 +863,7 @@ copy.add("popup", [{
     The suits allowed where you pay 
     may be combined for the price.`,
     `Show and leave out what you spend; 
-    it's “discarded” once you're done. 
+    it's <i>discarded</i> once you're done. 
     You may spend royals as <b>10</b>,
     and the aces are worth <b>1</b>.
     If you spend a royal card,

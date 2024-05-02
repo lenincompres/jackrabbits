@@ -151,10 +151,18 @@ b {
 }
 
 i::before {
-  content: "«";
+  content: "“";
 }
 
 i::after {
+  content: "”";
+}
+
+html[lang="es"] i::before {
+  content: "«";
+}
+
+html[lang="es"] i::after {
   content: "»";
 }
 
