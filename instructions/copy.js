@@ -22,7 +22,7 @@ copy.add("home", [{
   en: [
     `Hear ye, glorious messengers,`,
     `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure the royals to be ordained as the new council of thirds. This is the highest order a rabbit of this order can get:`,
-    `Visit the noble houses, deliver the suitable cards to acquire three with royal letters, and bring them to the citadel, in that order.`,
+    `<strong>Visit the noble houses, deliver the suitable cards to acquire three with royal letters, and bring them to the citadel</strong>, in that order.`,
     `Note that when I say <i>that order</i>, I'm not referring to another Order</br>of Messenger Rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to restore order to the realm.`,
     `So, hoppity hop, in orderly fashion. Don't dawdle—no time to lose!`,
     `The White Herald`,
@@ -203,13 +203,15 @@ copy.add("setup", [{
 }, {
   es: `Preparas el inicio del lugar
     y empiezas con un <a href="#intro">juego <b>ELEMENTAl</b></a>.`,
-  en: `You're ready for the next frame to complete an <a href="#intro"><b>INTRO GAME</b></a>.`,
+  en: `You're ready for the next frame 
+    to complete an <a href="#intro"><b>INTRO GAME</b></a>.`,
 }]);
 
 copy.add("intro", [{
   es: `Dominas el siguiente material
     y luego lo del <a href="#full">juego <b>REGULAR</b></a>.`,
-  en: `Learn the phases' rules and names, then advance to a <a href="#full"><b>FULL GAME</b></a>.`,
+  en: `Learn the phases' rules and names, 
+    then advance to a <a href="#full"><b>FULL GAME</b></a>.`,
 }, {
   es: "Las FASES de cada turno",
   en: "The PHASEs of each turn",
@@ -338,9 +340,9 @@ copy.add("intro", [{
     <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
     y pagas con las cartas de los símbolos.`,
   en: `It is free to make your rounds
-    if you move along the paths.
-    In the mountains (farther down),
-    you may use the underpass.
+    if you move along the paths;
+    in the mountains (farther down),
+    these go through an underpass.
     Other ways to get around 
     are contingent on <a class="pop" onclick="popUp('price')"><b>the price</b></a>:
     use the suits marked on the ground
@@ -776,7 +778,7 @@ copy.add("popup", [{
   en: "Sample board",
 }, {
   es: "Crear el territorio",
-  en: "Build a new Boar",
+  en: "Build a new Board",
 }, {
   es: [
     `Comienza por poner la <i>ciudadela</i>

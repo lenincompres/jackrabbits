@@ -1,6 +1,6 @@
 import {
   getCookie,
-  listify,
+  listLinks,
   setCookie,
   versify
 } from "./auxiliary.js";
@@ -46,35 +46,31 @@ DOM.set({
   header: {
     h1: {
       small: [{
-          class: "logo-super",
-          text: "Lenino's",
-        }, {
-          tag: "a",
-          text: "Jack Rabbits",
-          href: `./`,
-        }, {
-          class: "logo-sub",
-          text: siteCopy.get("site"),
-        }
-      ],
-    },
-    menu: {
-      class: "bullet_menu",
-      content: listify({
-        class: Copy.lang === Copy.LANG.EN ? "selected" : undefined,
-        text: "English",
-        click: e => Copy.lang = Copy.LANG.EN,
+        class: "logo-super",
+        text: "Lenino's",
       }, {
-        class: Copy.lang === Copy.LANG.ES ? "selected" : undefined,
-        text: "Español",
-        click: e => Copy.lang = Copy.LANG.ES,
-      })
+        tag: "a",
+        text: "Jack Rabbits",
+        href: `./`,
+      }, {
+        class: "logo-sub",
+        text: siteCopy.get("site"),
+      }],
     },
+    menu_bulletMenu: listLinks({
+      class: Copy.lang === Copy.LANG.EN ? "selected" : undefined,
+      text: "English",
+      click: e => Copy.lang = Copy.LANG.EN,
+    }, {
+      class: Copy.lang === Copy.LANG.ES ? "selected" : undefined,
+      text: "Español",
+      click: e => Copy.lang = Copy.LANG.ES,
+    })
   },
 
   nav: {
     id: "main_nav",
-    content: listify(navLinks.map(key => ({
+    content: listLinks(navLinks.map(key => ({
       class: {
         active: PAGE.PAGER._KEY.as(p => p === key),
       },
@@ -86,7 +82,7 @@ DOM.set({
 
   main: {
     article: {
-      id: "page_article",
+      id: "pageArticle",
       backgroundColor: PAGE.PAGER._KEY.as(key => `var(--${key})`),
       content: PAGE.PAGER._CONTENT,
     },
@@ -94,18 +90,15 @@ DOM.set({
 
   footer: {
     p: versify(siteCopy.next()),
-    menu: {
-      class: "bullet_menu",
-      content: listify({
-        text: "@lenino.jackrabbits",
-        href: "http://instagram.com/lenino.jackrabbits",
-        target: "_blank",
-      }, {
-        text: "jackrabbits.lenino.net",
-        href: "../",
-        target: "_blank",
-      })
-    },
+    menu_bulletMenu: listLinks({
+      text: "@lenino.jackrabbits",
+      href: "http://instagram.com/lenino.jackrabbits",
+      target: "_blank",
+    }, {
+      text: "jackrabbits.lenino.net",
+      href: "../",
+      target: "_blank",
+    })
   },
 
 });

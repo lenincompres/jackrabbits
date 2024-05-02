@@ -34,7 +34,7 @@ body {
     max-width: 45rem;
   }
 
-  #page_article>section {
+  #pageArticle>section {
     width: 38rem !important;
   }
 
@@ -53,7 +53,7 @@ body {
     max-width: 30rem;
   }
 
-  #page_article>section {
+  #pageArticle>section {
     width: 20rem !important;
   }
 
@@ -113,7 +113,6 @@ p:last-child {
 }
 
 p>span {
-  margin: 0 0.2rem;
   display: inline-block;
   text-wrap: nowrap;
 }
@@ -203,7 +202,7 @@ img {
   margin: 0 auto;
 }
 
-#page_article>section img {
+#pageArticle>section img {
   margin: 0 auto 0.5rem;
   width: auto;
 }
@@ -215,7 +214,7 @@ img {
   box-shadow: 1px 1px 3px black;
 }
 
-#page_article>section.letter {
+#pageArticle>section.letter {
   padding: 1rem 1.5rem;
   max-width: fit-content;
   background-color: rgba(255, 255, 255, 0.5);
@@ -242,7 +241,7 @@ body>header>a {
 }
 
 body>header>a>* {
-  margin: 0 0.3rem;
+  vertical-align: middle;
 }
 
 #main_nav>ul {
@@ -251,7 +250,7 @@ body>header>a>* {
   text-transform: uppercase;
   background-color: black;
   color: white;
-  margin: 0;
+  margin: 0.5rem 0 0;
   padding: 0 5%;
   display: flex;
   justify-content: center;
@@ -264,7 +263,7 @@ body>header>a>* {
   line-height: 1rem;
   padding: 0.6rem 0;
   opacity: 0.8;
-  height: 3.5rem;
+  height: 4rem;
   margin: 0 5%;
 }
 
@@ -280,7 +279,8 @@ body>main {
   flex-direction: column;
 }
 
-#page_article {
+#pageArticle {
+  padding: 0.5rem 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -288,8 +288,8 @@ body>main {
   height: fit-content;
 }
 
-#page_article>header,
-#page_article>footer {
+#pageArticle>header,
+#pageArticle>footer {
   width: 100%;
   padding: 1rem;
   margin: 1.5rem;
@@ -301,7 +301,7 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-#page_article>header>main {
+#pageArticle>header>main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -309,11 +309,11 @@ body>main {
   margin-bottom: 1rem;
 }
 
-#page_article>header>main>* {
+#pageArticle>header>main>* {
   margin: 0 0.2rem;
 }
 
-#page_article>section {
+#pageArticle>section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -346,19 +346,19 @@ body>footer {
   padding: 1rem;
 }
 
-.bullet_menu>ul {
+.bulletMenu>ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.bullet_menu>ul a.selected{
+.bulletMenu>ul a.selected{
   color: #555;
   text-decoration: underline;
   pointer-events: none;
 }
 
-.bullet_menu>ul>li:not(:first-child)::before {
+.bulletMenu>ul>li:not(:first-child)::before {
   content: "•";
   margin: 0 0.5rem;
 }
