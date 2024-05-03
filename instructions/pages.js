@@ -73,10 +73,10 @@ export const PAGER = new Mapper({
       h3: pageCopy.next(),
       p: versify(pageCopy.next()),
     }, {
+      tag: "header",
       a: {
         name: "intro/tranfers",
       },
-      tag: "header",
       h3: pageCopy.next(),
     }, {
       p: versify(pageCopy.next(), {

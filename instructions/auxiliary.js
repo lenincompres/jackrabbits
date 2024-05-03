@@ -2,7 +2,7 @@ export function versify(...args) {
   let poem = [];
   args.forEach(arg => Array.isArray(arg) ? poem.push(...arg) : poem.push(arg));
   return poem.map(p => typeof p !== "string" ? p : ({
-    span: p.split('\n').map(l => l + "&nbsp;"),
+    span: p.split('\n').map(l => l + (l.endsWith("—") ? "" : "&nbsp;")),
   }), "content");
 }
 
@@ -36,9 +36,4 @@ export function getCookie(name) {
     c = c.split("=");
     if (c[0].trim() === name) return c[1];
   }, undefined);
-}
-
-export function classiterate(text, cls){
-  if(typeof cls === "string") cls = [cls];
-  
 }

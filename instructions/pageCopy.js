@@ -110,8 +110,8 @@ pageCopy.add("home", [{
     `<b>tribal</b>: get the three of the same suit.`,
   ]
 }, {
-  es: `<a href="#setup">Preparación <b>inicial</b> (hasta cuatro participantes)</a>`,
-  en: `<a href="#setup"><b>Setup</b> (up to four players)</a>`,
+  es: `<a href="#setup">Preparación <b>inicial</b></a> </br>(Hasta cuatro participantes)`,
+  en: `<a href="#setup"><b>Setup</b></a></br>(Up to four players)`,
 }]);
 
 pageCopy.add("setup", [{
@@ -147,10 +147,10 @@ pageCopy.add("setup", [{
     con cartas de los <i>jokers</i> y <i>reales</i>:
     las dos de comodines exclusivas
     y doce que contienen personajes.`,
-  en: `Remove each face card and joker
+  en: `Remove each <i>face card</i> and <i>joker</i>
     after placing the last tile.
     Display them in any order—
-    line up this court in an aisle. 
+    line up this <i>court</i> in an aisle. 
     Shuffle the rest as in poker—
     make a facedown drawing <i>pile</i>,
     which holds <i>pip cards</i> of a number

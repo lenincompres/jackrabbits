@@ -15,7 +15,7 @@ class Mapper {
 
   refresh() {
     let hash = location.hash.substr(1);
-    let key = hash.split("/")[0];
+    let key = hash.split("-")[0];
     if (!key) key = this.default;
     if (this.key === key) return;
     if (!this.map[key]) return;
