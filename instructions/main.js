@@ -23,6 +23,10 @@ let siteCopy = new Copy({
     es: "<small>Juego</small></br>Regular",
     en: "Full game",
   }, {
+    es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
+    y apoya la campaña que tendremos.`,
+    en: `Join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> to back out kickstarter campaign.`,
+  }, {
     es: `Descubre contenido y tutoriales. 
     Taguéanos, suscríbete y comparte.`,
     en: `Find videos, events and more. 
@@ -51,7 +55,7 @@ DOM.set({
       }, {
         tag: "a",
         text: "Jack Rabbits",
-        href: `./`,
+        href: "#home",
       }, {
         class: "logo-sub",
         text: siteCopy.get("site"),
@@ -89,7 +93,10 @@ DOM.set({
   },
 
   footer: {
-    p: versify(siteCopy.next()),
+    p: [
+      versify(siteCopy.next()),
+      versify(siteCopy.next()), 
+    ],
     menu_bulletMenu: listLinks({
       text: "@lenino.jackrabbits",
       href: "http://instagram.com/lenino.jackrabbits",
@@ -98,7 +105,12 @@ DOM.set({
       text: "jackrabbits.lenino.net",
       href: "../",
       target: "_blank",
-    })
+    }, {
+      text: "Virtual version",
+      href: "https://tabletopia.com/games/jack-rabbits",
+      target: "_blank",
+    }),
+    ready: e => popUp("mailingList"),
   },
 
 });

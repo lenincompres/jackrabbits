@@ -392,3 +392,7 @@ light-box>main>a {
   -ms-border-radius: 2em;
   -o-border-radius: 2em;
 }
+
+#mailingList iframe{
+  height: 12rem;
+}

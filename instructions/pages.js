@@ -230,5 +230,13 @@ export const POPPER = new Mapper({
   price: {
     h4: pageCopy.next(),
     p: versify(pageCopy.next())
+  },
+  mailingList: {
+    id: "mailingList",
+    h2: pageCopy.next(),
+    p: pageCopy.next(),
+    iframe: {
+      src: "../mailinglist.html",
+    }
   }
 });

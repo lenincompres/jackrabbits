@@ -549,7 +549,7 @@ pageCopy.add("full", [{
     Mas, antes de mostrar tus pertenencias,
     se exige de cualquiera que cuestione,
     que muestre previamente que las tenga,
-    las cartas con aquellas condiciones,
+    las cartas con aquellas condiciones.
     Pues, pierde lo mostrado y se destierra
     si pruebas que te acusa sin razones.`,
     `Tan solo acusarás a los viajeros
@@ -873,6 +873,13 @@ pageCopy.add("popup", [{
     and you must remove your mark,
     take your carrot off their tile.`,
   ]
+}, {
+  es: "Listado de correo",
+  en: "Mailing list",
+}, {
+  es: "Nos gustaría contar con tu apoyo en la campaña para fabricar la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
+  en: "We would love your support on the campaign we will launch to make the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
 }]);
+
 
 export default pageCopy;
