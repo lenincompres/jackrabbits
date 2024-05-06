@@ -25,7 +25,8 @@ let siteCopy = new Copy({
   }, {
     es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
     y apoya la campaña que tendremos.`,
-    en: `Join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> to back out kickstarter campaign.`,
+    en: `Please join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> 
+    and learn about our campaign.`,
   }, {
     es: `Descubre contenido y tutoriales. 
     Taguéanos, suscríbete y comparte.`,
