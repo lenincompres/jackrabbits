@@ -877,8 +877,8 @@ pageCopy.add("popup", [{
   es: "Listado de correo",
   en: "Mailing list",
 }, {
-  es: "Nos gustaría contar con tu apoyo en la campaña para fabricar la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
-  en: "We would love your support on the campaign we will launch to make the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
+  es: "Nos gustaría contar con tu apoyo en la campaña para producir la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
+  en: "We would love your support on the campaign we'll launch for the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
 }]);
 
 
