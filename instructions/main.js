@@ -34,7 +34,7 @@ DOM.set({
         href: "#home",
       }, {
         class: "logo-sub",
-        text: copy.get("site"),
+        text: copy.get("header"),
       }],
     },
     menu_bulletMenu: listLinks({
