@@ -8,40 +8,15 @@ import Mapper from "./classes/Mapper.js";
 import LightBox from "./classes/LightBox.js";
 import * as PAGE from "./pages.js";
 import Copy from "./classes/Copy.js";
+import copy from "./copy.js";
 
-let siteCopy = new Copy({
-  site: [{
-    es: "Instrucciones",
-    en: "Instructions",
-  }, {
-    es: "<small>Preparación</small></br>Inicial",
-    en: "Setup",
-  }, {
-    es: "<small>Juego</small></br>Elemental",
-    en: "Intro game",
-  }, {
-    es: "<small>Juego</small></br>Regular",
-    en: "Full game",
-  }, {
-    es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
-    y apoya la campaña que tendremos.`,
-    en: `Please join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> 
-    and learn about our campaign.`,
-  }, {
-    es: `Descubre contenido y tutoriales. 
-    Taguéanos, suscríbete y comparte.`,
-    en: `Find videos, events and more. 
-    Follow, tag and share your boards.`,
-  }]
-});
-
-const navLinks = ["setup", "intro", "full"];
+const navLinks = ["setup", "intro", "full"];//, "more"];
 
 let lightBox = new LightBox(PAGE.POPPER);
 window.popUp = key => lightBox.open(key);
 
 DOM.set({
-  title: "Lenino's Jack Rabbits - " + siteCopy.get("site"),
+  title: "Lenino's Jack Rabbits - " + copy.get("header"),
   icon: "images/icon.png",
   link: "style.css",
   lang: Copy.lang,
@@ -59,7 +34,7 @@ DOM.set({
         href: "#home",
       }, {
         class: "logo-sub",
-        text: siteCopy.get("site"),
+        text: copy.get("site"),
       }],
     },
     menu_bulletMenu: listLinks({
@@ -80,7 +55,7 @@ DOM.set({
         active: PAGE.PAGER._KEY.as(p => p === key),
       },
       color: `var(--${key})`,
-      html: siteCopy.next(),
+      html: copy.next(),
       href: `#${key}`,
     })))
   },
@@ -95,8 +70,8 @@ DOM.set({
 
   footer: {
     p: [
-      versify(siteCopy.next()),
-      versify(siteCopy.next()), 
+      versify(copy.get("footer")),
+      versify(copy.next()),
     ],
     menu_bulletMenu: listLinks({
       text: "@lenino.jackrabbits",

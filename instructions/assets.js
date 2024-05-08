@@ -4,6 +4,15 @@ import {
 import Copy from "./classes/Copy.js";
 
 const ASSETS = {
+  thumbnailOf: (key, pct = 34, click = () => undefined) => ({
+    a: {
+      class: 'thumbnail',
+      img: Object.assign({
+        width: `${pct}%`,
+      }, ASSETS[key]),
+      click: click,
+    }
+  }),
   jackRabbits: {
     tag: "img",
     src: "images/jackRabbits.png",
@@ -19,22 +28,10 @@ const ASSETS = {
     src: "images/citadel.png",
     alt: "Citadel",
   },
-  citadelThumb: {
-    tag: "img",
-    src: "images/citadel.png",
-    alt: "Citadel",
-    height: "6rem",
-  },
   underground: {
     tag: "img",
     src: "images/underground.png",
     alt: "Underground",
-  },
-  sampleThumb: {
-    tag: "img",
-    src: "images/sample.png",
-    alt: "Sample board",
-    height: Copy.lang === Copy.LANG.ES ? "17rem" : "14rem",
   },
   sample: {
     tag: "img",

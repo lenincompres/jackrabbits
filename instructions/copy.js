@@ -1,8 +1,37 @@
 import Copy from "./classes/Copy.js";
 
-const pageCopy = new Copy();
+const copy = new Copy();
 
-pageCopy.add("home", [{
+copy.add("header", [{
+  es: "Instrucciones",
+  en: "Instructions",
+}, {
+  es: "<small>Preparación</small></br>Inicial",
+  en: "Setup",
+}, {
+  es: "<small>Juego</small></br>Elemental",
+  en: "Intro game",
+}, {
+  es: "<small>Juego</small></br>Regular",
+  en: "Full game",
+}, {
+  es: "Más…",
+  en: "More…",
+}]);
+
+copy.add("footer", [{
+  es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
+    y apoya la campaña que tendremos.`,
+  en: `Please join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> 
+    and learn about our campaign.`,
+}, {
+  es: `Descubre contenido y tutoriales. 
+    Taguéanos, suscríbete y comparte.`,
+  en: `Find videos, events and more. 
+    Follow, tag and share your boards.`,
+}]);
+
+copy.add("home", [{
   es: `El juego de tablero en el que viajas
     al reino de conejos y barajas.`,
   en: `The board game for playing cards
@@ -21,9 +50,9 @@ pageCopy.add("home", [{
   ],
   en: [
     `Hear ye, glorious messengers,`,
-    `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure the royals to be ordained as the new council of thirds. This is the highest order a rabbit of this order can get:`,
+    `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure royals to be ordained as the council of thirds. This is the highest order a rabbit of this order can get:`,
     `<strong>Visit the noble houses, deliver the suitable cards to acquire three with royal letters, and bring them to the citadel</strong>, in that order.`,
-    `Note that when I say <i>that order</i>, I'm not referring to another Order</br>of Messenger Rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to restore order to the realm.`,
+    `Note that when I say <i>that order</i>, I am not referring to another order</br>of messenger rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to restore order to the realm.`,
     `So, hoppity hop, in orderly fashion. Don't dawdle—no time to lose!`,
     `The White Herald`,
   ]
@@ -114,7 +143,7 @@ pageCopy.add("home", [{
   en: `<a href="#setup"><b>Setup</b></a></br>(Up to four players)`,
 }]);
 
-pageCopy.add("setup", [{
+copy.add("setup", [{
   es: "El tablero",
   en: "The Board",
 }, {
@@ -122,7 +151,7 @@ pageCopy.add("setup", [{
     lo creas de improviso y previamente,
     con piezas que conectas por sus vías
     en cientos de maneras diferentes.`,
-  en: `To play a jack rabbits' match,
+  en: `To play a <b>jack rabbits</b>' match,
     you must first complete a board;
     build a wonderland from scratch—
     a new map to be explored.`,
@@ -207,7 +236,7 @@ pageCopy.add("setup", [{
     to complete an <a href="#intro"><b>INTRO GAME</b></a>.`,
 }]);
 
-pageCopy.add("intro", [{
+copy.add("intro", [{
   es: `Dominas el siguiente material
     y luego lo del <a href="#full">juego <b>REGULAR</b></a>.`,
   en: `Learn the phases' rules and names, 
@@ -442,7 +471,7 @@ pageCopy.add("intro", [{
     the strategies of each suit.`,
 }]);
 
-pageCopy.add("full", [{
+copy.add("full", [{
   es: `Se añaden los artículos restantes
     al <a href="#intro">juego <b>elemental</b></a> de principiantes.`,
   en: `This frame should be introduced 
@@ -624,7 +653,7 @@ pageCopy.add("full", [{
     once you have gone through the motions.`
 }]);
 
-pageCopy.add("optional", [{
+copy.add("optional", [{
   es: "Reglas Opcionales",
   en: "Optional Rules",
 }, {
@@ -741,7 +770,12 @@ pageCopy.add("optional", [{
   en: "<b>Full game</b>",
 }]);
 
-pageCopy.add("popup", [{
+copy.add("more", [{
+  es: "",
+  en: "",
+}]);
+
+copy.add("popup", [{
   es: "Ciudadela",
   en: "Citadel",
 }, {
@@ -768,11 +802,6 @@ pageCopy.add("popup", [{
 }, {
   es: "Set de carreteras",
   en: "One of each road tiles",
-}, {
-  es: `Las seis particulares en un combo
-    de piezas triangulares y de rombos.`,
-  en: `The six pieces of each style
-    of smaller connecting tiles.`
 }, {
   es: "Tablero de ejemplo",
   en: "Sample board",
@@ -882,4 +911,4 @@ pageCopy.add("popup", [{
 }]);
 
 
-export default pageCopy;
+export default copy;

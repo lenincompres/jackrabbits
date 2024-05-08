@@ -37,6 +37,10 @@ class Mapper {
     return Object.entries(this.map);
   }
 
+  hasKey(key){
+    return this.keys.includes(key);
+  }
+
   filterEntries(filter = val => val){
     return this.entries.filter(([key, val]) => filter(val));
   }

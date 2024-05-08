@@ -13,7 +13,7 @@
   --setup: #d9eafb;
   --intro: #daf3ea;
   --full: #eddded;
-  --optional: #d0c0b0;
+  --more: #d0c0b0;
 }
 
 html {
@@ -128,6 +128,10 @@ a:hover {
   color: blue;
 }
 
+a.thumbnail:hover img {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
 a.pop:after {
   content: "🃟";
   font-size: 0.7em;
@@ -135,6 +139,10 @@ a.pop:after {
   margin: -0.5em -0.3em;
   display: inline-block;
   transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
 }
 
 a[target="_blank"]::after {
@@ -393,6 +401,7 @@ light-box>main>a {
   -o-border-radius: 2em;
 }
 
-#mailingList iframe{
-  height: 12rem;
+section.optional {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0.5rem 1.5rem !important;
 }

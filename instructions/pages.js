@@ -2,239 +2,242 @@ import ASSETS from "./assets.js";
 import {
   versify
 } from "./auxiliary.js";
+import Copy from "./classes/Copy.js";
 import Mapper from "./classes/Mapper.js";
-import pageCopy from "./pageCopy.js";
+import copy from "./copy.js";
 
 export const PAGER = new Mapper({
   home: {
     section: [{
       class: "carded",
       img: ASSETS.jackRabbits,
-      p: versify(pageCopy.get("home")),
+      p: versify(copy.get("home")),
       a: {
         href: "../",
         text: "jackrabbits.lenino.net",
       }
     }, {
       class: "letter",
-      h2: pageCopy.next(),
-      p: pageCopy.next(),
+      h2: copy.next(),
+      p: copy.next(),
     }, {
-      h2: pageCopy.next(),
-      p: versify(pageCopy.next(), ASSETS.royals, pageCopy.next()),
+      h2: copy.next(),
+      p: versify(copy.next(), ASSETS.royals, copy.next()),
     }, {
-      h2: pageCopy.next(),
-      p: versify(pageCopy.next(), ASSETS.citadelThumb, pageCopy.next()),
+      h2: copy.next(),
+      p: versify(copy.next(), ASSETS.thumbnailOf("citadel", 45, e => popUp("citadel")), copy.next()),
       ul: {
-        li: pageCopy.next(),
+        li: copy.next(),
       }
     }],
     footer: {
-      p: versify(pageCopy.next()),
+      p: versify(copy.next()),
     },
   },
   setup: {
     section: [{
       h2: 1,
-      h3: pageCopy.get("setup"),
-      p: versify(pageCopy.next(), ASSETS.sampleThumb, pageCopy.next()),
+      h3: copy.get("setup"),
+      p: versify(copy.next(), ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.ES ? 45 : 42, e => popUp("sample")), copy.next()),
     }, {
       h2: 2,
-      h3: pageCopy.next(),
-      p: versify(pageCopy.next(), ASSETS.cards, pageCopy.next())
+      h3: copy.next(),
+      p: versify(copy.next(), ASSETS.cards, copy.next())
     }, {
       h2: 3,
-      h3: pageCopy.next(),
-      p: versify(pageCopy.next(), ASSETS.tokens, pageCopy.next(), ASSETS.endings, pageCopy.next()),
+      h3: copy.next(),
+      p: versify(copy.next(), ASSETS.tokens, copy.next(), ASSETS.endings, copy.next()),
     }],
     footer: {
-      p: versify(pageCopy.next()),
+      p: versify(copy.next()),
     },
   },
   intro: {
     header: {
-      p: versify(pageCopy.get("intro")),
-      h2: pageCopy.next(),
+      p: versify(copy.get("intro")),
+      h2: copy.next(),
     },
     section: [{
       img: ASSETS.lottery,
-      h3: pageCopy.next(),
-      p: versify(pageCopy.next()),
+      h3: copy.next(),
+      p: versify(copy.next()),
     }, {
       img: ASSETS.journey,
-      h3: pageCopy.next(),
-      p: versify(pageCopy.next()),
+      h3: copy.next(),
+      p: versify(copy.next()),
     }, {
       img: ASSETS.acquisition,
-      h3: pageCopy.next(),
-      p: versify(pageCopy.next()),
+      h3: copy.next(),
+      p: versify(copy.next()),
     }, {
       img: ASSETS.increment,
-      h3: pageCopy.next(),
-      p: versify(pageCopy.next()),
+      h3: copy.next(),
+      p: versify(copy.next()),
     }, {
       tag: "header",
       a: {
         name: "intro/tranfers",
       },
-      h3: pageCopy.next(),
+      h3: copy.next(),
     }, {
-      p: versify(pageCopy.next(), {
+      p: versify(copy.next(), {
         marginTop: '1.2rem',
         tag: "h4",
-        html: pageCopy.next()
-      }, pageCopy.next()),
+        html: copy.next()
+      }, copy.next()),
       img: ASSETS.rhombi,
     }, {
-      h4: pageCopy.next(),
-      p: versify(pageCopy.next(), {
+      h4: copy.next(),
+      p: versify(copy.next(), {
         tag: "h4",
-        html: pageCopy.next()
-      }, pageCopy.next()),
+        html: copy.next()
+      }, copy.next()),
       img: ASSETS.rides,
     }, {
-      h4: pageCopy.next(),
-      p: versify(pageCopy.next(), {
+      h4: copy.next(),
+      p: versify(copy.next(), {
         tag: "a",
         name: "intro/off",
       }, {
         tag: "h3",
-        html: pageCopy.next()
-      }, pageCopy.next()),
+        html: copy.next()
+      }, copy.next()),
       img: ASSETS.caves,
     }],
     footer: {
-      p: versify(pageCopy.next()),
+      p: versify(copy.next()),
     },
   },
   full: {
     header: {
-      p: versify(pageCopy.get("full")),
-      h2: pageCopy.next(),
+      p: versify(copy.get("full")),
+      h2: copy.next(),
     },
-    section: {
+    section: [{
       boxShadow: "1px 1px 3px black",
-      content: [{
-        backgroundColor: "rgba(200,240,240,0.3)",
-        h3: pageCopy.next(),
-        img: ASSETS.clubs,
-        h4: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        backgroundColor: "rgba(220,200,255,0.4)",
-        h3: pageCopy.next(),
-        img: ASSETS.spades,
-        h4: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        backgroundColor: "rgba(255,200,210,0.4)",
-        h3: pageCopy.next(),
-        img: ASSETS.hearts,
-        h4: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        backgroundColor: "rgba(250,240,200,0.4)",
-        h3: pageCopy.next(),
-        img: ASSETS.diamonds,
-        h4: pageCopy.next(),
-        h5: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }]
-    },
-    footer: {
-      p: versify(pageCopy.next()),
-    },
-  },
-  optional: {
-    header: {
-      h2: pageCopy.get("optional"),
-    },
-    section: {
-      backgroundColor: "rgba(255,255,255,0.6)",
-      margin: "0.5rem 1.1rem",
-      content: [{
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }, {
-        h3: pageCopy.next(),
-        p: versify(pageCopy.next()),
-      }],
-    },
+      backgroundColor: "rgba(200,240,240,0.3)",
+      h3: copy.next(),
+      img: ASSETS.clubs,
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      boxShadow: "1px 1px 3px black",
+      backgroundColor: "rgba(220,200,255,0.4)",
+      h3: copy.next(),
+      img: ASSETS.spades,
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      boxShadow: "1px 1px 3px black",
+      backgroundColor: "rgba(255,200,210,0.4)",
+      h3: copy.next(),
+      img: ASSETS.hearts,
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      boxShadow: "1px 1px 3px black",
+      backgroundColor: "rgba(250,240,200,0.4)",
+      h3: copy.next(),
+      img: ASSETS.diamonds,
+      h4: copy.next(),
+      h5: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      tag: "header",
+      h3: copy.get("optional"),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }],
     footer: {
       a: {
-        html: pageCopy.next(),
+        html: copy.next(),
         href: "#full",
       }
     },
   },
+  more :{
+
+  }
 }, true);
 
 
 export const POPPER = new Mapper({
   citadel: {
-    h3: pageCopy.get("popup"),
+    h3: copy.get("popup"),
     img: ASSETS.citadel,
-    p: versify(pageCopy.next()),
+    p: versify(copy.next()),
   },
   underground: {
-    h3: pageCopy.next(),
+    h3: copy.next(),
     img: ASSETS.underground,
-    p: versify(pageCopy.next())
+    p: versify(copy.next())
   },
   advancedCitadel: {
-    h3: pageCopy.next(),
+    h3: copy.next(),
     img: ASSETS.advancedCitadel,
-    p: versify(pageCopy.next())
+    p: versify(copy.next())
   },
   roadTiles: {
-    h3: pageCopy.next(),
+    h3: copy.next(),
     img: ASSETS.roadTiles,
-    p: versify(pageCopy.next())
   },
   sample: {
-    h3: pageCopy.next(),
+    h3: copy.next(),
     img: ASSETS.sample,
   },
   endings: {
     content: PAGER.map.home.section[3],
   },
   board: {
-    h3: pageCopy.next(),
-    p: versify(pageCopy.next()),
+    h3: copy.next(),
+    p: versify(copy.next()),
     img: ASSETS.guides,
     ul: {
-      li: pageCopy.next()
+      li: copy.next()
     }
   },
   price: {
-    h4: pageCopy.next(),
-    p: versify(pageCopy.next())
+    h4: copy.next(),
+    p: versify(copy.next())
   },
   mailingList: {
     id: "mailingList",
-    h2: pageCopy.next(),
-    p: pageCopy.next(),
+    h2: copy.next(),
+    p: copy.next(),
     iframe: {
       src: "../mailinglist.html",
     }

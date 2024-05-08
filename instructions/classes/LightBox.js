@@ -5,8 +5,7 @@ class LightBox extends HTMLElement {
     super();
     
     this._OPENED = new Binder(false);
-    this._CONTENT = new Binder();
-
+    this.contentElt = DOM.element();
     this.content = content;
 
     this.set({
@@ -31,9 +30,7 @@ class LightBox extends HTMLElement {
           text: "✕",
           click: e => this.close(),
         },
-        section: {
-          content: this._CONTENT,
-        },
+        section: this.contentElt,
         click: e => e.stopPropagation(),
       }
     });
@@ -56,15 +53,15 @@ class LightBox extends HTMLElement {
   set content(content) {
     if (content._MAP) {
       this.mapper = content;
-      this._CONTENT = this.mapper._CONTENT;
+      this.contentElt.set(this.mapper._CONTENT, "content");
       return;
     }
-    this._CONTENT.value = content;
+    this.contentElt.set(content, "content");
   }
 
   open(info) {
-    if (this.mapper) this.key = info;
-    else this._CONTENT.value = info;
+    if (this.mapper && typeof info === "string") this.key = info;
+    else this.content = info;
     this.opened = true;
   }
 
