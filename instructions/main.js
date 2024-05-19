@@ -57,6 +57,7 @@ DOM.set({
       color: `var(--${key})`,
       html: copy.next(),
       href: `#${key}`,
+      name: key,
     })))
   },
 

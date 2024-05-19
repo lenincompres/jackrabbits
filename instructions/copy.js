@@ -250,8 +250,8 @@ copy.add("intro", [{
 }, {
   es: [
     `Tu turno lo comienzas con la suerte
-    de un premio de la pila tras los dados.
-    Si un dado, de los dígitos que obtienes,
+    de <strong>un</strong> premio de la pila tras los dados.
+    Si <strong>un</strong> dado, de los dígitos que obtienes,
     coincide con un número en tus manos,
     demuestra con tu carta que lo tienes
     y llévate la carta de regalo.`,
@@ -263,10 +263,10 @@ copy.add("intro", [{
   en: [
     `Start your turn rolling two dice,
     and watch the digits unfold.
-    You'll draw one card as a prize
-    if you show one card you hold,
+    You'll draw <strong>one</strong> card as a prize
+    if you show <strong>one</strong> card you hold,
     proving that its number ties
-    to one of the dice you rolled.`,
+    to <strong>one</strong> of the dice you rolled.`,
     `If you're ever holding ten, 
     discard down to nine again.`,
     `Hold the outcome of the dice;
@@ -425,8 +425,8 @@ copy.add("intro", [{
     lo cargas y, al momento en que requieras,
     lo montas y liberas de tu mano.`,
   en: `You may buy a joker's card
-    as you pass by any tavern,
-    and release it afterward
+    as you pass by any tavern.
+    You'll release it afterward—
     when you choose to ride and travel.`,
 }, {
   es: "traslado por Madrigueras",
@@ -465,7 +465,7 @@ copy.add("intro", [{
     Get your <b>increment</b> restored,
     while you wait another round.`,
 }, {
-  es: `El <a href="#full">juego <b>regular</b></a> es desafiante,
+  es: `El <a href="#full">juego <b>completivo</b></a> es desafiante,
     con reglas que usarás en lo adelante.`,
   en: `For a <a href="#full"><b>FULL GAME</b></a> you'll include 
     the strategies of each suit.`,
