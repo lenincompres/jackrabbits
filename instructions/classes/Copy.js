@@ -1,13 +1,19 @@
-/*
+/*  
+  This class return text from the map content given to it.
+  There are several way copy can be indexed.
+
   map = {
     key0: Text in only language,
-    key1:{
+    key1: {
       en: "Text in English",
       es: "Texto en español",
     },
     key2: [{
       en: "Text in English",
       es: "Texto en español",
+    }, {
+      en: "Next text in English",
+      es: "Next text en español",
     }]
   }
 */

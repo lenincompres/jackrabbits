@@ -36,15 +36,11 @@ body {
   }
 
   #pageArticle>section {
-    width: 38rem !important;
+    width: 37rem !important;
   }
 
-  article p {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  html[lang="es"] #pageArticle>section {
+    width: 39rem !important;
   }
 }
 
@@ -260,7 +256,7 @@ body>header>a>* {
   background-color: black;
   color: white;
   margin: 0.5rem 0 0;
-  padding: 0 5%;
+  padding: 0 8%;
   display: flex;
   justify-content: center;
   align-items: self-end;
@@ -268,12 +264,12 @@ body>header>a>* {
 
 #main_nav>ul>li {
   align-content: center;
-  width: fit-content;
+  width: -webkit-fill-available;
   line-height: 1rem;
   padding: 0.6rem 0;
   opacity: 0.8;
   height: 4rem;
-  margin: 0 5%;
+  margin: 0 3%;
 }
 
 #main_nav>ul>li>a.active {
@@ -402,6 +398,6 @@ light-box>main>a {
 }
 
 section.optional {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 0.5rem 1.5rem !important;
 }

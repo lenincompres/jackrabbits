@@ -3,16 +3,16 @@ import Copy from "./classes/Copy.js";
 const copy = new Copy();
 
 copy.add("header", [{
-  es: "Instrucciones",
-  en: "Instructions",
+  es: "Juego de Mesa",
+  en: "Board Game",
 }, {
   es: "<small>Preparación</small></br>Inicial",
   en: "Setup",
 }, {
-  es: "<small>Juego</small></br>Elemental",
+  es: "<small>Juego</small></br>Introductorio",
   en: "Intro game",
 }, {
-  es: "<small>Juego</small></br>Regular",
+  es: "<small>Juego</small></br>Completivo",
   en: "Full game",
 }, {
   es: "Más…",
@@ -230,20 +230,20 @@ copy.add("setup", [{
     the method for this endeavor
     resides beyond my concerns.`,
 }, {
-  es: `Preparas el inicio del lugar
-    y empiezas con un <a href="#intro">juego <b>ELEMENTAl</b></a>.`,
-  en: `You're ready for the next frame 
+  es: `Después de preparado el territorio,
+    comienzas con un <a href="#intro">juego <b>INTRODUCTORIO</b></a>.`,
+  en: `Continue to the next frame 
     to complete an <a href="#intro"><b>INTRO GAME</b></a>.`,
 }]);
 
 copy.add("intro", [{
-  es: `Dominas el siguiente material
-    y luego lo del <a href="#full">juego <b>REGULAR</b></a>.`,
-  en: `Learn the phases' rules and names, 
-    then advance to a <a href="#full"><b>FULL GAME</b></a>.`,
-}, {
   es: "Las FASES de cada turno",
-  en: "The PHASEs of each turn",
+  en: "The PHASES of each turn",
+}, {
+  es: `Contiene el material preliminar
+    al <a href="#full">juego <b>COMPLETIVO</b></a> o regular.`,
+  en: `Learn these phases' rules and names, 
+    then advance to a <a href="#full"><b>FULL GAME</b></a>.`,
 }, {
   es: "1. La lotería",
   en: "1. The Lottery",
@@ -424,10 +424,10 @@ copy.add("intro", [{
     tendrás un comodín desocupado;
     lo cargas y, al momento en que requieras,
     lo montas y liberas de tu mano.`,
-  en: `Buy a vacant joker's card
-    at taverns when you pass by.
-    Keep it in hand, then discard
-    whenever you choose to ride.`,
+  en: `You may buy a joker's card
+    as you pass by any tavern,
+    and release it afterward
+    when you choose to ride and travel.`,
 }, {
   es: "traslado por Madrigueras",
   en: "transfer via Rabbit holes",
@@ -438,7 +438,7 @@ copy.add("intro", [{
     metiéndote al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
     descansas por el turno y, a la vuelta, 
     te sales por la cueva de tu agrado.`,
-  en: `Pay to travel cave to cave— 
+  en: `Pay to travel cave to cave—
     use this trick to hop around. 
     But if you would rather save,
     take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>. 
@@ -454,14 +454,14 @@ copy.add("intro", [{
     y acaba con el turno a la deriva.
     Mantén <b>la lotería</b> en las afueras,
     y entonces, al llegar <b>la travesía</b>,
-    te metes al subsuelo a lo que esperas
+    te metes al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> a lo que esperas
     la vuelta en la que escoges la salida.`,
-  en: `You may want to leave the board— 
+  en: `You may want to leave the board—
     take a road that leads outbound.
     You'll end your turn overboard,
     with no <b>increment</b>—you've drowned.
     But then, once you've rolled off-board,
-    you'll enter the underground!
+    you'll enter the <a class="pop" onclick="popUp('underground')"><b>underground</b></a>!
     Get your <b>increment</b> restored,
     while you wait another round.`,
 }, {
@@ -472,13 +472,13 @@ copy.add("intro", [{
 }]);
 
 copy.add("full", [{
-  es: `Se añaden los artículos restantes
-    al <a href="#intro">juego <b>elemental</b></a> de principiantes.`,
+  es: "Las estrategias de cada palo",
+  en: "The strategies of each suit",
+}, {
+  es: `Añade los artículos restantes
+    al <a href="#intro">juego <b>introductorio</b></a> o principiante.`,
   en: `This frame should be introduced 
     once the <a href="#intro"><b>INTRO</b></a>'s understood.`
-}, {
-  es: "las estrategias de cada palo",
-  en: "the strategies of each suit",
 }, {
   es: "Tréboles <small>(Bastos)</small>",
   en: "Clovers <small>(Clubs)</small>",

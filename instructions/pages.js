@@ -38,7 +38,7 @@ export const PAGER = new Mapper({
     section: [{
       h2: 1,
       h3: copy.get("setup"),
-      p: versify(copy.next(), ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.ES ? 45 : 42, e => popUp("sample")), copy.next()),
+      p: versify(copy.next(), ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.ES ? 49 : 42, e => popUp("sample")), copy.next()),
     }, {
       h2: 2,
       h3: copy.next(),
@@ -54,8 +54,8 @@ export const PAGER = new Mapper({
   },
   intro: {
     header: {
-      p: versify(copy.get("intro")),
-      h2: copy.next(),
+      h2: versify(copy.get("intro")),
+      p: copy.next(),
     },
     section: [{
       img: ASSETS.lottery,
@@ -110,8 +110,8 @@ export const PAGER = new Mapper({
   },
   full: {
     header: {
-      p: versify(copy.get("full")),
-      h2: copy.next(),
+      h2: versify(copy.get("full")),
+      p: copy.next(),
     },
     section: [{
       boxShadow: "1px 1px 3px black",
@@ -182,12 +182,6 @@ export const PAGER = new Mapper({
       h4: copy.next(),
       p: versify(copy.next()),
     }],
-    footer: {
-      a: {
-        html: copy.next(),
-        href: "#full",
-      }
-    },
   },
   more :{
 

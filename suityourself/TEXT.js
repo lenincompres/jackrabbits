@@ -81,8 +81,8 @@ class TEXT {
     es: `Después de presionar <b>${TEXT.BEGIN.es}</b>, recibirás 8 puntos parar incrementar el valor de estas cartas.`,
   }
   static DESCRIPTION = {
-    en: (suit, name) => `This is how ${name ? `<b>${name}</b> values` : "you value"} the 4 main personality traits shown in the cards. According to this valuation, the <strong style="color:${suit.color}">${TEXT[suit.symbol].en}</strong> are ${name ? `<b>${name}</b>'s` : "your"} main suit. This symbol is also called <strong style="color:${suit.color}">${TEXT[suit.alt].en}</strong>. It is the symbol of ${TEXT[suit.cast].en} who focus on ${TEXT[suit.symbol].meaning.en}.`,
-    es: (suit, name) => `Así es como ${name ? `<b>${name}</b> valora` : "valoras"} los 4 principales rasgos de la personalidad en las cartas. De acuerdo con esta valoración, ${name ? `el símbolo principal de <b>${name}</b>` : "tu símbolo principal"} es el de <strong style="color:${suit.color}">${TEXT[suit.symbol].es}</strong>. Este símbolo también es llamado <strong style="color:${suit.color}">${TEXT[suit.alt].es}</strong>. Es el símbolo de ${TEXT[suit.cast].es} enfocandos en ${TEXT[suit.symbol].meaning.es}.`,
+    en: (suit, name) => `This is how ${name ? `<b>${name}</b> values` : "you value"} the 4 main personality traits shown in the cards. According to this valuation, the <strong style="color:${suit.color}">${TEXT[suit.symbol].en}</strong> or <strong style="color:${suit.color}">${TEXT[suit.alt].en}</strong> are ${name ? `<b>${name}</b>'s` : "your"} main suit. This  is the suit of ${TEXT[suit.cast].en} who focus on ${TEXT[suit.symbol].meaning.en}.`,
+    es: (suit, name) => `Así es como ${name ? `<b>${name}</b> valora` : "valoras"} los 4 principales rasgos de la personalidad en las cartas. De acuerdo con esta valoración, ${name ? `el símbolo principal de <b>${name}</b>` : "tu símbolo principal"} es el de <strong style="color:${suit.color}">${TEXT[suit.symbol].es}</strong> or <strong style="color:${suit.color}">${TEXT[suit.alt].es}</strong>. Este también es el símbolo de ${TEXT[suit.cast].es} enfocandos en ${TEXT[suit.symbol].meaning.es}.`,
   }
   static SHARE_HAND = {
     en: "Share your hand",
