@@ -1,3 +1,4 @@
+import SuitYourself from "../suityourself/SuitYourself.js";
 import ASSETS from "./assets.js";
 import {
   versify
@@ -185,7 +186,34 @@ export const PAGER = new Pager({
     }],
   },
   more: {
-
+    section:[{
+      backgroundColor: "white",
+      h2: copy.get("more"),
+      p: copy.next(),
+      iframe: {
+        src: "../mailinglist.html",
+        height: "12rem",
+      }
+    }, {
+      h2: copy.next(),
+      p: copy.next(),
+      a: {
+        class: "thumbnail",
+        href: "https://tabletopia.com/games/jack-rabbits",
+        target: "_blank",
+        img: {
+          width: "100%",
+          alt: copy.next(),
+          src: "../images/tabletopia_link.png",
+        }
+      },
+    } ,{
+      h2: copy.next(),
+      iframe: {
+        src: "../suityourself/",
+        height: "45rem",
+      }
+    }]
   }
 });
 

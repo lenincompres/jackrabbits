@@ -37,7 +37,7 @@ class Copy {
       return Object.entries(key).forEach(([k, v]) => this.add(k, v));
     }
     if (this.map[key]) {
-      return console.error(`Key "${key}" exsists in copy`);
+      return console.error(`Key "${key}" already exists in copy.`);
     }
     this.map[key] = val;
   }

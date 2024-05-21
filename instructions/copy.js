@@ -47,7 +47,7 @@ copy.add("home", [{
     on a land of wooden shards`,
 }, {
   es: "Video tutorial",
-  en: "Tutorial video",
+  en: "Video tutorial",
 }, {
   es: "Bienvenida",
   en: "Greetings",
@@ -552,7 +552,7 @@ copy.add("full", [{
     y roban (si es la víctima asaltada).`,
     `Si robas y la carta es de nobleza,
     te toca <b>el incremento</b> de tus cartas;
-    y entrégale a la corte la que quieras,
+    y entrégale a la corte la que quieras
     si acaso la que robas es tu cuarta.`,
   ],
   en: [
@@ -664,6 +664,26 @@ copy.add("full", [{
   en: `Try these  <a href="#optional"><b>additional options</b></a>
     once you have gone through the motions.`
 }]);
+
+copy.add("more", [{
+  es: "Listado de correo",
+  en: "Mailing list",
+}, {
+  es: "Nos gustaría contar con tu apoyo en la campaña para producir la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
+  en: "We would love your support on the campaign we'll launch for the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
+},{
+  es: "Versión virtual en Tabletopia",
+  en: "Virtual version in Tabletopia"
+},{
+  es: "Tabletopia Jack Rabbits banner",
+  en: "Tabletopia Jack Rabbits banner"
+},{
+  es: "Nos gustaría contar con tu apoyo en la campaña para producir la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
+  en: "We would love your support on the campaign we'll launch for the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
+},{
+  es: "Tabletopia Jack Rabbits banner",
+  en: "Tabletopia Jack Rabbits banner"
+}])
 
 copy.add("optional", [{
   es: "Reglas Opcionales",
@@ -780,11 +800,6 @@ copy.add("optional", [{
 }, {
   es: "<b>Juego completivo</b>",
   en: "<b>Full game</b>",
-}]);
-
-copy.add("more", [{
-  es: "",
-  en: "",
 }]);
 
 copy.add("popup", [{
