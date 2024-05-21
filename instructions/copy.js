@@ -9,14 +9,14 @@ copy.add("header", [{
   es: "<small>Preparación</small></br>Inicial",
   en: "Setup",
 }, {
-  es: "<small>Juego</small></br>Introductorio",
+  es: "Juego</br><small>Introductorio</small>",
   en: "Intro game",
 }, {
-  es: "<small>Juego</small></br>Completivo",
+  es: "Juego</br><small>Completivo</small>",
   en: "Full game",
 }, {
-  es: "Más…",
-  en: "More…",
+  es: "<small>Tienda</br>&</small>más",
+  en: "Store <small>&</small>more",
 }]);
 
 copy.add("footer", [{
@@ -29,6 +29,15 @@ copy.add("footer", [{
     Taguéanos, suscríbete y comparte.`,
   en: `Find videos, events and more. 
     Follow, tag and share your boards.`,
+}, {
+  es: "Tienda",
+  en: "Store",
+}, {
+  es: "Instagram",
+  en: "Instagram",
+}, {
+  es: "Versión virtual",
+  en: "Virtual version",
 }]);
 
 copy.add("home", [{
@@ -37,13 +46,16 @@ copy.add("home", [{
   en: `The board game for playing cards
     on a land of wooden shards`,
 }, {
+  es: "Video tutorial",
+  en: "Tutorial video",
+}, {
   es: "Bienvenida",
   en: "Greetings",
 }, {
   es: [
     `Atención heroicos mensajeros,`,
     `Por orden de la Orden de Conejos Mensajeros de la Ciudadela, se te ordena la misión de adquirir la terna que será ordenada al nuevo concejo real. Esta misión de orden superior es la orden más importante que un conejo de esta orden puede recibir:`,
-    `<strong>Visita las casas nobles, lleva las cartas pertinentes para adquirir tres con insignias reales y traelas a la ciudadela</strong>, en tal orden.`,
+    `<strong>Visita las casas nobles, lleva las cartas pertinentes para adquirir tres con insignias reales y tráelas a la ciudadela</strong>, en tal orden.`,
     `En ese orden, cuando digo <i>tal orden</i> no me refiero a alguna otra orden de conejos mensajeros ni a la orden del motivo de esta carta, sino al orden de los pasos para restaurar el orden en el reino.`,
     `¡En marcha! ¡El tiempo apremia!`,
     `El Heraldo Blanco`,
@@ -231,9 +243,9 @@ copy.add("setup", [{
     resides beyond my concerns.`,
 }, {
   es: `Después de preparado el territorio,
-    comienzas con un <a href="#intro">juego <b>INTRODUCTORIO</b></a>.`,
+    comienzas con un <a href="#intro"><b>juego introductorio</b></a>.`,
   en: `Continue to the next frame 
-    to complete an <a href="#intro"><b>INTRO GAME</b></a>.`,
+    to complete an <a href="#intro"><b>intro game</b></a>.`,
 }]);
 
 copy.add("intro", [{
@@ -241,9 +253,9 @@ copy.add("intro", [{
   en: "The PHASES of each turn",
 }, {
   es: `Contiene el material preliminar
-    al <a href="#full">juego <b>COMPLETIVO</b></a> o regular.`,
+    al <a href="#full"><b>juego completivo</b></a> o regular.`,
   en: `Learn these phases' rules and names, 
-    then advance to a <a href="#full"><b>FULL GAME</b></a>.`,
+    then advance to a <a href="#full"><b>full game</b></a>.`,
 }, {
   es: "1. La lotería",
   en: "1. The Lottery",
@@ -280,8 +292,8 @@ copy.add("intro", [{
     `Del sitio hexagonal en el que empiezas,
     escoge si te irás por un camino.
     Señala el recorrido por las piezas
-    llevando tu conejo peregrino.
-    Termina el movimiento si tropiezas
+    llevando tu conejo peregrino
+    y acaba el movimiento si tropiezas
     con una hexagonal en su destino.`,
     `Recuerda que moverte es opcional,
     depende de tu meta a visitar.`,
@@ -400,7 +412,7 @@ copy.add("intro", [{
     viajando por los mares o las tierras:
     cabalgas por las tierras sin pararte,
     moviéndote al hexágono que quieras;
-    o sales, si es posible que te embarques
+    o sales si es posible que te embarques
     de un cruce con salida a las afueras,
     y surcas tu trayecto por los mares
     entrando por alguna carretera.
@@ -465,9 +477,9 @@ copy.add("intro", [{
     Get your <b>increment</b> restored,
     while you wait another round.`,
 }, {
-  es: `El <a href="#full">juego <b>completivo</b></a> es desafiante,
+  es: `El <a href="#full"><b>juego completivo</b></a> es desafiante,
     con reglas que usarás en lo adelante.`,
-  en: `For a <a href="#full"><b>FULL GAME</b></a> you'll include 
+  en: `For a <a href="#full"><b>full game</b></a> you'll include 
     the strategies of each suit.`,
 }]);
 
@@ -476,9 +488,9 @@ copy.add("full", [{
   en: "The strategies of each suit",
 }, {
   es: `Añade los artículos restantes
-    al <a href="#intro">juego <b>introductorio</b></a> o principiante.`,
+    al <a href="#intro"><b>juego introductorio</b></a> o principiante.`,
   en: `This frame should be introduced 
-    once the <a href="#intro"><b>INTRO</b></a>'s understood.`
+    once the <a href="#intro"><b>intro</b></a>'s understood.`
 }, {
   es: "Tréboles <small>(Bastos)</small>",
   en: "Clovers <small>(Clubs)</small>",
@@ -766,7 +778,7 @@ copy.add("optional", [{
     you may visit and go on
     to the place you're headed next.`,
 }, {
-  es: "Juego <b>Regular</b>",
+  es: "<b>Juego completivo</b>",
   en: "<b>Full game</b>",
 }]);
 
@@ -797,8 +809,8 @@ copy.add("popup", [{
 }, {
   es: `Detrás, la ciudadela es avanzada:
     con torre, con palacio y con su plaza.`,
-  en: `This side grants it the power
-    of palace, plaza and tower.`
+  en: `This citadel has more power:
+    a palace, plaza and tower.`
 }, {
   es: "Set de carreteras",
   en: "One of each road tiles",

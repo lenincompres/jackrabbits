@@ -1,4 +1,4 @@
-import Mapper from "./Mapper.js";
+import Pager from "./Pager.js";
 
 class LightBox extends HTMLElement {
   constructor(content) {
@@ -67,6 +67,7 @@ class LightBox extends HTMLElement {
 
   close() {
     this.opened = false;
+    this.contentElt.set("", "content");
   }
 
 }

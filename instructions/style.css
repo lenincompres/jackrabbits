@@ -95,6 +95,7 @@ small {
   font-family: base;
   text-transform: initial;
   font-size: 1rem;
+  vertical-align: top;
 }
 
 li {
@@ -147,6 +148,24 @@ a[target="_blank"]::after {
   vertical-align: text-top;
   margin: -0.5em -0.3em;
   display: inline-block;
+}
+
+.video_button {
+  margin: 0 auto;
+  width: fit-content;
+  color: var(--home);
+  background-color: navy;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+
+.video_button:hover {
+  color: var(--home);
+  background-color: blue;
 }
 
 b {

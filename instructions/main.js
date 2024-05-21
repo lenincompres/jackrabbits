@@ -4,13 +4,13 @@ import {
   setCookie,
   versify
 } from "./auxiliary.js";
-import Mapper from "./classes/Mapper.js";
+import Pager from "./classes/Pager.js";
 import LightBox from "./classes/LightBox.js";
-import * as PAGE from "./pages.js";
+import * as PAGE from "./pager.js";
 import Copy from "./classes/Copy.js";
 import copy from "./copy.js";
 
-const navLinks = ["setup", "intro", "full"];//, "more"];
+const navLinks = ["setup", "intro", "full", "more"];
 
 let lightBox = new LightBox(PAGE.POPPER);
 window.popUp = key => lightBox.open(key);
@@ -75,15 +75,15 @@ DOM.set({
       versify(copy.next()),
     ],
     menu_bulletMenu: listLinks({
-      text: "@lenino.jackrabbits",
+      text: copy.next(),
       href: "http://instagram.com/lenino.jackrabbits",
       target: "_blank",
     }, {
-      text: "jackrabbits.lenino.net",
-      href: "../",
+      text: copy.next(),
+      href: "http://instagram.com/lenino.jackrabbits",
       target: "_blank",
     }, {
-      text: "Virtual version",
+      text: copy.next(),
       href: "https://tabletopia.com/games/jack-rabbits",
       target: "_blank",
     }),

@@ -13,7 +13,7 @@
       es: "Texto en español",
     }, {
       en: "Next text in English",
-      es: "Next text en español",
+      es: "Texto siguiente en español",
     }]
   }
 */
