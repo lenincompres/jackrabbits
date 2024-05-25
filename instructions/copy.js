@@ -666,23 +666,38 @@ copy.add("full", [{
 }]);
 
 copy.add("more", [{
+  es: "Adquiere el juego",
+  en: "Buy the game"
+},{
+  en: `Visita nuestra tienda en <a><b>Etsy</b></a> y adquiere la copia física del juego. Para le República Dominicana escribe a nuestro <a><b>whatsapp</b></a>.`,
+  es: `Visit our store at <a><b>Etsy</b></a> and get a physical copy of the gane. For the Dominican Repblic, write to out <a><b>whatsapp</b></a> number.`,
+},{
+  es: "Etsy",
+  en: "Etsy"
+}, {
   es: "Listado de correo",
   en: "Mailing list",
 }, {
   es: "Nos gustaría contar con tu apoyo en la campaña para producir la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
   en: "We would love your support on the campaign we'll launch for the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
 },{
-  es: "Versión virtual en Tabletopia",
-  en: "Virtual version in Tabletopia"
+  es: "Versión virtual",
+  en: "Virtual version"
+},{
+  es: "Puedes jugar <b>Jack Rabbits</b> con tus amistades en línea, gracias a <a><b>Tabletopia</b></a>.",
+  en: "You can play <b>Jack Rabbits</b> online with friends, thanks to <a><b>Tabletopia</b></a>."
 },{
   es: "Tabletopia Jack Rabbits banner",
   en: "Tabletopia Jack Rabbits banner"
 },{
-  es: "Nos gustaría contar con tu apoyo en la campaña para producir la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
-  en: "We would love your support on the campaign we'll launch for the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
+  es: "El orden de tus palos",
+  en: "Your suit order"
 },{
-  es: "Tabletopia Jack Rabbits banner",
-  en: "Tabletopia Jack Rabbits banner"
+  en: `This exercise will show the <b>suit order</b> that fits your personality.`,
+  es: `Este divertido test mostrará <b>el valor de tus símbolos</b> de acuerdo a tu personalidad.`,
+},{
+  es: "Comienza",
+  en: "Start"
 }])
 
 copy.add("optional", [{

@@ -186,16 +186,24 @@ export const PAGER = new Pager({
     }],
   },
   more: {
-    section:[{
+    section:[ ,{
+      h3: copy.get("more"),
+      p: copy.next(),
+      a: {
+        class: "video_button",
+        text: copy.next(),
+        click: e => popUp("suitYourself"),
+      }
+    }, {
       backgroundColor: "white",
-      h2: copy.get("more"),
+      h3: copy.next(),
       p: copy.next(),
       iframe: {
         src: "../mailinglist.html",
         height: "12rem",
       }
     }, {
-      h2: copy.next(),
+      h3: copy.next(),
       p: copy.next(),
       a: {
         class: "thumbnail",
@@ -208,10 +216,12 @@ export const PAGER = new Pager({
         }
       },
     } ,{
-      h2: copy.next(),
-      iframe: {
-        src: "../suityourself/",
-        height: "45rem",
+      h3: copy.next(),
+      p: copy.next(),
+      a: {
+        class: "video_button",
+        text: copy.next(),
+        click: e => popUp("suitYourself"),
       }
     }]
   }
@@ -277,6 +287,13 @@ export const POPPER = new Pager({
     p: copy.next(),
     iframe: {
       src: "../mailinglist.html",
+    }
+  },
+  suitYourself: {
+    iframe: {
+      src: "../suityourself/",
+      width: "100%",
+      height: "45rem",
     }
   }
 });
