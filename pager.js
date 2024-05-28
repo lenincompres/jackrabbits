@@ -186,43 +186,44 @@ export const PAGER = new Pager({
     }],
   },
   more: {
-    section:[ ,{
-      h3: copy.get("more"),
-      p: copy.next(),
-      a: {
-        class: "video_button",
-        text: copy.next(),
-        click: e => popUp("suitYourself"),
-      }
-    }, {
-      backgroundColor: "white",
-      h3: copy.next(),
-      p: copy.next(),
-      iframe: {
-        src: "../mailinglist.html",
-        height: "12rem",
-      }
-    }, {
-      h3: copy.next(),
-      p: copy.next(),
-      a: {
-        class: "thumbnail",
-        href: "https://tabletopia.com/games/jack-rabbits",
-        target: "_blank",
-        img: {
-          width: "100%",
-          alt: copy.next(),
-          src: "../images/tabletopia_link.png",
+    section: [, {
+      class: "optional",
+      h3: {
+        a: {
+          text: copy.get("more"),
+          target: "_blank",
+          href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
         }
       },
-    } ,{
-      h3: copy.next(),
       p: copy.next(),
-      a: {
-        class: "video_button",
-        text: copy.next(),
-        click: e => popUp("suitYourself"),
-      }
+    }, {
+      class: "optional",
+      h3: {
+        a: {
+          text: copy.next(),
+          click: e => popUp("mailingList"),
+        },
+      },
+      p: copy.next(),
+    }, {
+      class: "optional",
+      h3: {
+        a: {
+          text: copy.next(),
+          target: "_blank",
+          href: "https://tabletopia.com/games/jack-rabbits",
+        }
+      },
+      p: copy.next(),
+    }, {
+      class: "optional",
+      h3: {
+        a: {
+          text: copy.next(),
+          click: e => popUp("suitYourself"),
+        }
+      },
+      p: copy.next(),
     }]
   }
 });
@@ -292,6 +293,13 @@ export const POPPER = new Pager({
   suitYourself: {
     iframe: {
       src: "../suityourself/",
+      width: "100%",
+      height: "45rem",
+    }
+  },
+  store: {
+    iframe: {
+      src: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       width: "100%",
       height: "45rem",
     }

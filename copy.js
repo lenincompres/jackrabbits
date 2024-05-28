@@ -22,13 +22,7 @@ copy.add("header", [{
 copy.add("footer", [{
   es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
     y apoya la campaña que tendremos.`,
-  en: `Please join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> 
-    and learn about our campaign.`,
-}, {
-  es: `Descubre contenido y tutoriales. 
-    Taguéanos, suscríbete y comparte.`,
-  en: `Find videos, events and more. 
-    Follow, tag and share your boards.`,
+  en: `Join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> to learn about our campaign.`,
 }, {
   es: "Tienda",
   en: "Store",
@@ -37,7 +31,7 @@ copy.add("footer", [{
   en: "Instagram",
 }, {
   es: "Versión virtual",
-  en: "Virtual version",
+  en: "Virtual versi1",
 }]);
 
 copy.add("home", [{
@@ -665,41 +659,6 @@ copy.add("full", [{
     once you have gone through the motions.`
 }]);
 
-copy.add("more", [{
-  es: "Adquiere el juego",
-  en: "Buy the game"
-},{
-  en: `Visita nuestra tienda en <a><b>Etsy</b></a> y adquiere la copia física del juego. Para le República Dominicana escribe a nuestro <a><b>whatsapp</b></a>.`,
-  es: `Visit our store at <a><b>Etsy</b></a> and get a physical copy of the gane. For the Dominican Repblic, write to out <a><b>whatsapp</b></a> number.`,
-},{
-  es: "Etsy",
-  en: "Etsy"
-}, {
-  es: "Listado de correo",
-  en: "Mailing list",
-}, {
-  es: "Nos gustaría contar con tu apoyo en la campaña para producir la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
-  en: "We would love your support on the campaign we'll launch for the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
-},{
-  es: "Versión virtual",
-  en: "Virtual version"
-},{
-  es: "Puedes jugar <b>Jack Rabbits</b> con tus amistades en línea, gracias a <a><b>Tabletopia</b></a>.",
-  en: "You can play <b>Jack Rabbits</b> online with friends, thanks to <a><b>Tabletopia</b></a>."
-},{
-  es: "Tabletopia Jack Rabbits banner",
-  en: "Tabletopia Jack Rabbits banner"
-},{
-  es: "El orden de tus palos",
-  en: "Your suit order"
-},{
-  en: `This exercise will show the <b>suit order</b> that fits your personality.`,
-  es: `Este divertido test mostrará <b>el valor de tus símbolos</b> de acuerdo a tu personalidad.`,
-},{
-  es: "Comienza",
-  en: "Start"
-}])
-
 copy.add("optional", [{
   es: "Reglas Opcionales",
   en: "Optional Rules",
@@ -816,6 +775,32 @@ copy.add("optional", [{
   es: "<b>Juego completivo</b>",
   en: "<b>Full game</b>",
 }]);
+
+copy.add("more", [{
+  es: "Adquiere el juego",
+  en: "Buy the game"
+},{
+  es: `Visita nuestra tienda y adquiere la copia física del juego.`,
+  en: `Visit our store and get a physical copy of the game.`,
+},{
+  es: "Listado de correo",
+  en: `Mailing list`,
+}, {
+  es: "Prepárate a apoyar la campaña para la primera edición. Te avísaremos cuando esté lista.",
+  en: `Be ready to support the campaign for the first edition.`
+},{
+  es: "Versión virtual",
+  en: "Virtual version"
+},{
+  es: "Juega con tus amistades en línea, gracias a <b>Tabletopia</b>.",
+  en: "Play online with your friends, at <b>Tabletopia</b>."
+},{
+  es: "El orden de tus palos",
+  en: "Suit yourself",
+},{
+  en: `This test will reveal the <b>suit</b> that fits your personality.`,
+  es: `Este test te mostrará el <b>símbolo</b> que se ajusta a tu personalidad.`,
+}])
 
 copy.add("popup", [{
   es: "Ciudadela",

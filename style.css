@@ -1,11 +1,11 @@
 @font-face {
   font-family: title;
-  src: url("../assets/IrishGrover-Regular.ttf");
+  src: url("./assets/IrishGrover-Regular.ttf");
 }
 
 @font-face {
   font-family: base;
-  src: url("../assets/Chalkboard.ttc");
+  src: url("./assets/Chalkboard.ttc");
 }
 
 :root {
@@ -17,7 +17,7 @@
 }
 
 html {
-  background-image: url(../images/bg.png);
+  background-image: url(./images/bg.png);
   scroll-behavior: smooth
 }
 
@@ -56,8 +56,8 @@ body {
 
   light-box>main,
   section>ul {
-    margin: 1.5rem;
-    width: var(--full) !important;
+    margin: 0.5rem;
+    width: 100% !important;
   }
 }
 
@@ -233,7 +233,7 @@ img {
 }
 
 .carded {
-  background-image: url(../images/bg.png);
+  background-image: url(./images/bg.png);
   background-size: cover;
   background-position: center center;
   box-shadow: 1px 1px 3px black;
@@ -404,17 +404,17 @@ light-box>main {
 light-box>main>a {
   position: absolute;
   line-height: 0.7rem;
-  right: 0;
-  top: 0;
+  top: 1rem;
+  right: 1rem;
   padding: 1rem;
   margin: -1rem;
   background-color: white;
   z-index: 110;
   border-radius: 2em;
-  -webkit-border-radius: 2em;
-  -moz-border-radius: 2em;
-  -ms-border-radius: 2em;
-  -o-border-radius: 2em;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
 
 section.optional {
