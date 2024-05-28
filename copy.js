@@ -786,7 +786,7 @@ copy.add("more", [{
   es: "Listado de correo",
   en: `Mailing list`,
 }, {
-  es: "Prepárate a apoyar la campaña para la primera edición. Te avísaremos cuando esté lista.",
+  es: "Prepárate a apoyar la campaña para la primera edición. Ya te avísaremos.",
   en: `Be ready to support the campaign for the first edition.`
 },{
   es: "Versión virtual",
