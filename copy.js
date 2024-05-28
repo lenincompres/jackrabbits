@@ -24,8 +24,8 @@ copy.add("footer", [{
     y apoya la campaña que tendremos.`,
   en: `Join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> to learn about our campaign.`,
 }, {
-  es: "Compra el juego",
-  en: "Buy the game",
+  es: "Adquiere el juego",
+  en: "Get the game",
 }, {
   es: "Instagram",
   en: "Instagram",
