@@ -795,7 +795,7 @@ copy.add("more", [{
   es: "Juega con tus amistades en línea, gracias a <b>Tabletopia</b>.",
   en: "Play online with your friends, at <b>Tabletopia</b>."
 },{
-  es: "El orden de tus palos",
+  es: "Echa tus cartas",
   en: "Suit yourself",
 },{
   en: `This test will reveal the <b>suit</b> that fits your personality.`,
