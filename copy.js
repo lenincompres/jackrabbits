@@ -31,7 +31,7 @@ copy.add("footer", [{
   en: "Instagram",
 }, {
   es: "Versión virtual",
-  en: "Virtual versi1",
+  en: "Virtual version",
 }]);
 
 copy.add("home", [{

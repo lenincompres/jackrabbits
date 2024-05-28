@@ -292,7 +292,7 @@ export const POPPER = new Pager({
   },
   suitYourself: {
     iframe: {
-      src: "../suityourself/",
+      src: "suityourself/",
       width: "100%",
       height: "45rem",
     }
