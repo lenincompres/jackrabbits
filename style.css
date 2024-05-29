@@ -379,7 +379,6 @@ body>footer {
 
 .bulletMenu>ul a.selected{
   color: #555;
-  text-decoration: underline;
   pointer-events: none;
 }
 

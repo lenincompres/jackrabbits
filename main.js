@@ -1,7 +1,5 @@
 import {
-  getCookie,
   listLinks,
-  setCookie,
   versify
 } from "./auxiliary.js";
 import Pager from "./classes/Pager.js";
@@ -37,7 +35,7 @@ DOM.set({
         text: copy.get("header"),
       }],
     },
-    menu_bulletMenu: listLinks(...Object.values(Copy.LANG).map(lang => ({
+    menu_bulletMenu: listLinks(Object.values(Copy.LANG).map(lang => ({
       class: Copy.lang === lang.code ? "selected" : undefined,
       text: lang.name,
       click: e => Copy.lang = lang.code,

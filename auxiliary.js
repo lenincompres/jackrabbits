@@ -24,16 +24,3 @@ export function imgCropStyle(w, h, position = "center") {
     objectPosition: position,
   }
 }
-
-export function setCookie(name, value, days = 30) {
-  var date = new Date();
-  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-  document.cookie = `${name}=${value || ""}; expires=${date.toUTCString()}; path=/`;
-}
-
-export function getCookie(name) {
-  return document.cookie.split(';').reduce((o, c) => {
-    c = c.split("=");
-    if (c[0].trim() === name) return c[1];
-  }, undefined);
-}
