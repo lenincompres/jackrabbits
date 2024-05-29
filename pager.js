@@ -233,8 +233,6 @@ export const POPPER = new Pager({
   video: {
     iframe: {
       attributes: {
-        width: 560,
-        height: 315,
         src: "https://www.youtube.com/embed/8pG2yxqUMC0?si=A3_b6yIdTcc25p86",
         title: "YouTube video player",
         frameborder: 0,

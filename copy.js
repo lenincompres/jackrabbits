@@ -778,7 +778,7 @@ copy.add("optional", [{
 
 copy.add("more", [{
   es: "Adquiere el juego",
-  en: "Buy the game"
+  en: "Get the game"
 },{
   es: `Visita nuestra tienda y adquiere la copia física del juego.`,
   en: `Visit our store and get a physical copy of the game.`,
