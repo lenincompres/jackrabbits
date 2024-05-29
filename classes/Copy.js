@@ -18,11 +18,6 @@
   }
 */
 
-import {
-  getCookie,
-  setCookie
-} from "../auxiliary.js";
-
 class Copy {
 
   constructor(map = {}) {
@@ -76,16 +71,16 @@ class Copy {
   }
 
   static set lang(val) {
-    setCookie("copy-lang", val, 30);
+    localStorage.setItem('copy-lang', val);
     location.reload();
   }
 
   static get lang() {
-    let lang = Copy.LANG.EN;
+    let lang = Copy.LANG.EN.code;
     if (navigator && navigator.language) {
       lang = navigator.language.split("-")[0];
     }
-    let savedLang = getCookie("copy-lang");
+    let savedLang = localStorage.getItem('copy-lang');;
     if (savedLang) {
       lang = savedLang;
     }
@@ -93,8 +88,14 @@ class Copy {
   }
 
   static LANG = {
-    ES: "es",
-    EN: "en",
+    ES: {
+      code: "es",
+      name: "Español",
+    },
+    EN: {
+      code: "en",
+      name: "English",
+    },
   }
 
 }

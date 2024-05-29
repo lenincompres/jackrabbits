@@ -40,7 +40,7 @@ export const PAGER = new Pager({
     section: [{
       h2: 1,
       h3: copy.get("setup"),
-      p: versify(copy.next(), ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.ES ? 50 : 42, e => popUp("sample")), copy.next()),
+      p: versify(copy.next(), ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.ES.code ? 50 : 42, e => popUp("sample")), copy.next()),
     }, {
       h2: 2,
       h3: copy.next(),

@@ -37,15 +37,11 @@ DOM.set({
         text: copy.get("header"),
       }],
     },
-    menu_bulletMenu: listLinks({
-      class: Copy.lang === Copy.LANG.EN ? "selected" : undefined,
-      text: "English",
-      click: e => Copy.lang = Copy.LANG.EN,
-    }, {
-      class: Copy.lang === Copy.LANG.ES ? "selected" : undefined,
-      text: "Español",
-      click: e => Copy.lang = Copy.LANG.ES,
-    })
+    menu_bulletMenu: listLinks(...Object.values(Copy.LANG).map(lang => ({
+      class: Copy.lang === lang.code ? "selected" : undefined,
+      text: lang.name,
+      click: e => Copy.lang = lang.code,
+    }))),
   },
 
   nav: {
