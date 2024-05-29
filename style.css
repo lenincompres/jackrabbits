@@ -405,15 +405,19 @@ light-box>main>a {
   line-height: 0.7rem;
   top: 1rem;
   right: 1rem;
-  padding: 1rem;
+  padding: 0.7rem;
   margin: -1rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   z-index: 110;
   border-radius: 2em;
   -webkit-border-radius:;
   -moz-border-radius:;
   -ms-border-radius:;
   -o-border-radius:;
+}
+
+light-box>main>a:hover {
+  background-color: white;
 }
 
 section.optional {

@@ -22,7 +22,8 @@ copy.add("header", [{
 copy.add("footer", [{
   es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
     y apoya la campaña que tendremos.`,
-  en: `Join our <a class="pop" onclick="popUp('mailingList')"><b>Mailing List</b></a> to learn about our campaign.`,
+  en: `Join the <a class="pop" onclick="popUp('mailingList')"><b>List</b></a> on this domain,
+  and wait to hear of our campaign.`,
 }, {
   es: "Adquiere el juego",
   en: "Get the game",
