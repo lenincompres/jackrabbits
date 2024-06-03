@@ -582,11 +582,11 @@ copy.add("full", [{
     de un mínimo de seis en corazones.
     Te expulsan al destierro si te frenan
     y niegas que tu suma se cerciore.
-    Mas, antes de mostrar tus pertenencias,
-    se exige de cualquiera que cuestione,
+    Mas antes de mostrar tus pertenencias,
+    se exige de cualquiera que cuestione
     que muestre previamente que las tenga,
-    las cartas con aquellas condiciones.
-    Pues, pierde lo mostrado y se destierra
+    las cartas con aquellas condiciones,
+    pues pierde lo mostrado y se destierra
     si pruebas que te acusa sin razones.`,
     `Tan solo acusarás a los viajeros
     si tienes tu conejo en el tablero.`,
