@@ -386,6 +386,10 @@ section>ul>li::before {
   margin-right: 0.25em;
 }
 
+section>ul.exception>li:first-child:before {
+  content: "○";
+}
+
 body>footer {
   background-color: #eee;
   padding: 1rem;

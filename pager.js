@@ -32,7 +32,7 @@ export const PAGER = new Pager({
     }, {
       h2: copy.next(),
       p: versify(copy.next(), ASSETS.thumbnailOf("citadel", 45, e => popUp("citadel")), copy.next()),
-      ul: {
+      ul_exception: {
         li: copy.next(),
       }
     }],
