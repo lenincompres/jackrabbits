@@ -78,7 +78,7 @@ DOM.set({
       href: "https://tabletopia.com/games/jack-rabbits",
       target: "_blank",
     }),
-    ready: e => popUp("mailingList"),
+    //ready: e => popUp("mailingList"),
   },
 
 });
