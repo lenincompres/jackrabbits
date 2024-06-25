@@ -36,6 +36,9 @@ copy.add("footer", [{
 }]);
 
 copy.add("home", [{
+  es: "Adquiere el juego",
+  en: "Buy the game",
+}, {
   es: `El juego de tablero en el que viajas
     al reino de conejos y barajas.`,
   en: `The board game for playing cards
@@ -50,7 +53,7 @@ copy.add("home", [{
   es: [
     `Atención heroicos mensajeros,`,
     `Por orden de la Orden de Conejos Mensajeros de la Ciudadela, se te ordena la misión de adquirir la terna que será ordenada al nuevo concejo real. Esta misión de orden superior es la orden más importante que un conejo de esta orden puede recibir:`,
-    `<strong>Visita las casas nobles, lleva las cartas pertinentes para adquirir tres con insignias reales y tráelas a la ciudadela</strong>, en tal orden.`,
+    `<strong>Visita las casas nobles, adquiere tres cartas con insignias reales y tráelas a la ciudadela</strong>, en tal orden.`,
     `En ese orden, cuando digo <i>tal orden</i> no me refiero a alguna otra orden de conejos mensajeros ni a la orden del motivo de esta carta, sino al orden de los pasos para restaurar el orden en el reino.`,
     `¡En marcha! ¡El tiempo apremia!`,
     `El Heraldo Blanco`,
@@ -58,7 +61,7 @@ copy.add("home", [{
   en: [
     `Hear ye, glorious messengers,`,
     `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure royals to be ordained as the council of thirds. This is the highest order a rabbit of this order can get:`,
-    `<strong>Visit the noble houses, deliver the suitable cards to acquire three with royal letters, and bring them to the citadel</strong>, in that order.`,
+    `<strong>Visit the noble houses, acquire the cards of three royals, and bring them to the citadel</strong>, in that order.`,
     `Note that when I say <i>that order</i>, I am not referring to another order</br>of messenger rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to restore order to the realm.`,
     `So, hoppity hop, in orderly fashion. Don't dawdle—no time to lose!`,
     `The White Herald`,
@@ -151,8 +154,8 @@ copy.add("home", [{
 }]);
 
 copy.add("setup", [{
-  es: "El tablero",
-  en: "The Board",
+  es: "Arma el tablero",
+  en: "Build the Board",
 }, {
   es: `El mapa que usarás en la partida
     lo creas de improviso y previamente,
@@ -174,8 +177,8 @@ copy.add("setup", [{
     Or play normally instead:
     <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own.`,
 }, {
-  es: "Las cartas",
-  en: "The cards",
+  es: "Reparte las cartas",
+  en: "Deal the cards",
 }, {
   es: `Después de que el tablero se termina
     y estén establecidos los lugares,
@@ -207,8 +210,8 @@ copy.add("setup", [{
     and for the royal rewards
     <b>the acquisition</b> demands.`,
 }, {
-  es: "Las fichas",
-  en: "The tokens",
+  es: "Sitúa las fichas",
+  en: "Set the tokens",
 }, {
   es: `Asigna a las personas sus conejos
     y allí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> los colocan.
@@ -518,7 +521,7 @@ copy.add("full", [{
     yet keep your card anywise.
     And <b>the lottery</b> still holds:
     you may match and claim the prize.`,
-    `If you pay to match the dice,
+    `If you pay to meet the dice,
     you'll still fly and won't fall off.
     The price needed to suffice
     is the <i>shortfall</i> (what you're off).`,

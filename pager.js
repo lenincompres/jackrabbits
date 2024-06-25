@@ -11,10 +11,14 @@ export const PAGER = new Pager({
   home: {
     section: [{
       class: "carded",
+      a_buy: {
+        text: copy.get("home"),
+        target: "_blank",
+        href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
+      },
       img: ASSETS.jackRabbits,
-      p: versify(copy.get("home")),
-      a: {
-        class: "video_button",
+      p: versify(copy.next()),
+      a_video: {
         text: copy.next() + " ▶",
         click: e => popUp("video"),
       }
