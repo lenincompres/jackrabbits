@@ -179,8 +179,8 @@ a.buy {
   -ms-border-radius: 5em;
   -o-border-radius: 5em;
   position: absolute;
-  top: 15%;
-  right: 7%;
+  top: 5%;
+  right: 5%;
 }
 
 a.buy:hover {
