@@ -36,8 +36,8 @@ copy.add("footer", [{
 }]);
 
 copy.add("home", [{
-  es: "Adquiere el juego",
-  en: "Buy the game",
+  es: "Cómpralo ya ",
+  en: "Buy it now ",
 }, {
   es: `El juego de tablero en el que viajas
     al reino de conejos y barajas.`,
