@@ -25,8 +25,8 @@ copy.add("footer", [{
   en: `Join the <a class="pop" onclick="popUp('mailingList')"><b>List</b></a> on this domain,
   and wait to hear of our campaign.`,
 }, {
-  es: "Adquiere el juego",
-  en: "Get the game",
+  es: "Compra el juego",
+  en: "Buy the game",
 }, {
   es: "Instagram",
   en: "Instagram",
@@ -36,8 +36,8 @@ copy.add("footer", [{
 }]);
 
 copy.add("home", [{
-  es: "Cómpralo ya ",
-  en: "Buy it now ",
+  es: "Compra el juego",
+  en: "Buy the game",
 }, {
   es: `El juego de tablero en el que viajas
     al reino de conejos y barajas.`,
@@ -271,9 +271,9 @@ copy.add("intro", [{
     los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`
   ],
   en: [
-    `Start your turn rolling two dice,
-    and watch the digits unfold.
-    You'll draw <strong>one</strong> card as a prize
+    `Start your turn rolling two dice
+    to have their digits unfold:
+    you'll draw <strong>one</strong> card as a prize
     if you show <strong>one</strong> card you hold,
     proving that its number ties
     to <strong>one</strong> of the dice you rolled.`,
@@ -300,10 +300,10 @@ copy.add("intro", [{
   ],
   en: [
     `From the current hex you're on, 
-    you may choose a path to exit.
-    Move your rabbit as a pawn 
-    along the road you've selected.
-    Stop if there's a hexagon—
+    you may choose a path to exit:
+    move your rabbit as a pawn 
+    along the road you've selected,
+    and land at a hexagon—
     wait a turn to cross the hexes.`,
     `You may move towards your goal,
     or choose not to move at all.`,
@@ -355,12 +355,12 @@ copy.add("intro", [{
     si estás en <a href="#intro/off"><b>el destierro</b></a> en el momento.`,
   ],
   en: [
-    `Get a new card from the pile,
-    and your turn will be done for. 
-    If you find no cards, repile:
-    shuffle the spent lot once more.
-    You must end on a hex tile,
-    unless you end off the shore.*`,
+    `End your turn on a hex tile
+    unless you go off the shore*:
+    get a new card from the pile,
+    and your turn will be done for;
+    if you find no cards, repile—
+    shuffle the spent lot once more.`,
     `If you're ever holding ten, 
     discard down to nine again.`,
     `*Do not collect this reward,
@@ -781,8 +781,8 @@ copy.add("optional", [{
 }]);
 
 copy.add("more", [{
-  es: "Adquiere el juego",
-  en: "Get the game"
+  es: "Compra el juego",
+  en: "Buy the game"
 },{
   es: `Visita nuestra tienda y adquiere la copia física del juego.`,
   en: `Visit our store and get a physical copy of the game.`,

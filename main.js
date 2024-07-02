@@ -67,6 +67,8 @@ DOM.set({
     p:versify(copy.get("footer")),
     menu_bulletMenu: listLinks({
       text: copy.next(),
+      class: "buy",
+      position: "relative",
       href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       target: "_blank",
     }, {
