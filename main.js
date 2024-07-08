@@ -69,6 +69,7 @@ DOM.set({
       text: copy.next(),
       class: "buy",
       position: "relative",
+      margin: 0,
       href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       target: "_blank",
     }, {

@@ -436,7 +436,7 @@ copy.add("intro", [{
     lo montas y liberas de tu mano.`,
   en: `When you pass by any tavern,
     you may buy a joker card;
-    you'll choose when to ride and travel, 
+    you choose when to ride and travel, 
     then release it afterward.`,
 }, {
   es: "traslado por Madrigueras",
