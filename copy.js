@@ -343,22 +343,22 @@ copy.add("intro", [{
   en: "4. The increment",
 }, {
   es: [
-    `Te toca, en el hexágono que esperas,
+    `Termina en un hexágono tu vuelta
+    (a menos de que salgas a la orilla*)
+    y allí por tu descanso se te entrega
     la carta que prosigue de la pila.
     Si llegas con la pila ya desierta,
-    baraja las del lote y recopila.
-    Así que, en un hexágono te quedas
-    y el turno se termina al recibirla.*`,
+    baraja las del lote y recopila.`,
     `El límite de cartas es de nueve;
     descarta la que quieras si te excedes.`,
     `*Tu turno acabará sin incremento
     si estás en <a href="#intro/off"><b>el destierro</b></a> en el momento.`,
   ],
   en: [
-    `End your turn on a hex tile
-    unless you go off the shore*:
-    get a new card from the pile,
-    and your turn will be done for;
+    `End your turn on a hex tile 
+    (unless you go off the shore*): 
+    get a new card from the pile, 
+    and your turn will be done for; 
     if you find no cards, repile—
     shuffle the spent lot once more.`,
     `If you're ever holding ten, 
