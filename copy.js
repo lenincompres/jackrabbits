@@ -259,7 +259,7 @@ copy.add("intro", [{
   en: "1. The Lottery",
 }, {
   es: [
-    `Tu turno lo comienzas con la suerte
+    `Tus turnos los comienzas con la suerte
     de <strong>un</strong> premio de la pila tras los dados.
     Si <strong>un</strong> dado, de los dígitos que obtienes,
     coincide con un número en tus manos,
@@ -271,7 +271,7 @@ copy.add("intro", [{
     los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`
   ],
   en: [
-    `Start your turn rolling two dice
+    `Start your turns rolling two dice
     to have their digits unfold:
     you'll draw <strong>one</strong> card as a prize
     if you show <strong>one</strong> card you hold,
@@ -343,9 +343,9 @@ copy.add("intro", [{
   en: "4. The increment",
 }, {
   es: [
-    `Termina en un hexágono tu vuelta
+    `Termina en un hexágono tus vueltas
     (a menos de que salgas a la orilla*)
-    y allí por tu descanso se te entrega
+    y allí recibirás tu recompensa:
     la carta que prosigue de la pila.
     Si llegas con la pila ya desierta,
     baraja las del lote y recopila.`,
@@ -355,7 +355,7 @@ copy.add("intro", [{
     si estás en <a href="#intro/off"><b>el destierro</b></a> en el momento.`,
   ],
   en: [
-    `End your turn on a hex tile 
+    `End your turns on a hex tile 
     (unless you go off the shore*): 
     get a new card from the pile, 
     and your turn will be done for; 
