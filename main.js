@@ -48,7 +48,8 @@ DOM.set({
       class: {
         active: PAGE.PAGER._KEY.as(p => p === key),
       },
-      color: `var(--${key})`,
+      color: PAGE.PAGER._KEY.as(p => p === key ? 'black' : `var(--${key})`),
+      backgroundColor: PAGE.PAGER._KEY.as(p => p === key ? `var(--${key})` : 'black'),
       html: copy.next(),
       href: `#${key}`,
       name: key,
