@@ -434,10 +434,10 @@ copy.add("intro", [{
     tendrás un comodín desocupado;
     lo cargas y, al momento en que requieras,
     lo montas y liberas de tu mano.`,
-  en: `You may buy a joker's card
-    as you pass by any tavern.
-    You'll release it afterward—
-    when you choose to ride and travel.`,
+  en: `When you pass by any tavern,
+    you may buy a joker card;
+    you'll choose when to ride and travel, 
+    then release it afterward.`,
 }, {
   es: "traslado por Madrigueras",
   en: "transfer via Rabbit holes",
