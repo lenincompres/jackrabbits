@@ -61,7 +61,7 @@ export const PAGER = new Pager({
   intro: {
     header: {
       h2: versify(copy.get("intro")),
-      p: copy.next(),
+      p: versify(copy.next()),
     },
     section: [{
       img: ASSETS.lottery,

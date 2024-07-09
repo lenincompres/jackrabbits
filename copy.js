@@ -250,7 +250,7 @@ copy.add("intro", [{
   es: "Las FASES de cada turno",
   en: "The PHASES of each turn",
 }, {
-  es: `Contiene el material preliminar
+  es: `Comprende el material preliminar
     al <a href="#full"><b>juego completivo</b></a> o regular.`,
   en: `Learn these phases' rules and names, 
     then advance to a <a href="#full"><b>full game</b></a>.`,
@@ -260,8 +260,8 @@ copy.add("intro", [{
 }, {
   es: [
     `Tus turnos los comienzas con la suerte
-    de <strong>un</strong> premio de la pila tras los dados.
-    Si <strong>un</strong> dado, de los dígitos que obtienes,
+    de <strong>un</strong> premio de la pila tras los dados:
+    si <strong>un</strong> dado, de los dígitos que obtienes,
     coincide con un número en tus manos,
     demuestra con tu carta que lo tienes
     y llévate la carta de regalo.`,
@@ -288,8 +288,8 @@ copy.add("intro", [{
 }, {
   es: [
     `Del sitio hexagonal en el que empiezas,
-    escoge si te irás por un camino.
-    Señala el recorrido por las piezas
+    escoge si te irás por un camino:
+    señala el recorrido por las piezas
     llevando tu conejo peregrino
     y acaba el movimiento si tropiezas
     con una hexagonal en su destino.`,
@@ -316,10 +316,10 @@ copy.add("intro", [{
 }, {
   es: [
     `Tu meta es visitar a la nobleza
-    si nadie se ha apropiado de sus cartas.
-    Un mínimo de diez es lo que cuestan,
-    pagado con los palos de sus marcas.
-    Se dejan zanahorias en las piezas
+    si nadie se ha apropiado de sus cartas:
+    un mínimo de diez es lo que cuestan,
+    pagado con los palos de sus marcas;
+    y dejan zanahorias en las piezas
     que indican los conejos que las cargan.`,
     `Es gratis visitar a los hexágonos
     y hacer tu recorrido visitándolos.`,
@@ -344,7 +344,7 @@ copy.add("intro", [{
 }, {
   es: [
     `Termina en un hexágono tus vueltas
-    (a menos de que salgas a la orilla*)
+    (a menos de que salgas a la orilla*),
     y allí recibirás tu recompensa:
     la carta que prosigue de la pila.
     Si llegas con la pila ya desierta,
@@ -355,7 +355,7 @@ copy.add("intro", [{
     si estás en <a href="#intro/off"><b>el destierro</b></a> en el momento.`,
   ],
   en: [
-    `End your turns on a hex tile 
+    `End your turns on a hex tile
     (unless you go off the shore*): 
     get a new card from the pile, 
     and your turn will be done for; 
@@ -459,10 +459,10 @@ copy.add("intro", [{
   en: "Off-board",
 }, {
   es: `A veces te conviene que salieras
-    cayendo de un camino a las orillas.
-    Olvida <b>el incremento</b> si lo hicieras,
-    y acaba con el turno a la deriva.
-    Mantén <b>la lotería</b> en las afueras,
+    cayendo de un camino a las orillas:
+    olvida <b>el incremento</b> si lo hicieras,
+    y acaba con el turno a la deriva;
+    mantén <b>la lotería</b> en las afueras,
     y entonces, al llegar <b>la travesía</b>,
     te metes al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> a lo que esperas
     la vuelta en la que escoges la salida.`,
@@ -543,8 +543,8 @@ copy.add("full", [{
     Si vences a la víctima que asaltes,
     a ciegas le arrebatas una carta.
     Se lucha superando los ataques,
-    sumándose las picas descartadas.
-    Y cuando se le acaben los avances
+    sumándose las picas descartadas;
+    y cuando se le acaben los avances
     a quien se le derrota en la batalla,
     termina en el destierro en el instante
     y roban (si es la víctima asaltada).`,
@@ -632,8 +632,8 @@ copy.add("full", [{
     Recuerda que la pila se renueva
     con cartas que abandonan el mercado.`,
     `Es válido el comercio por diamantes
-    con alguien en el sitio que te encuentras.
-    Y mientras el negocio se debate,
+    con alguien en el sitio que te encuentras,
+    si mientras el negocio se debate,
     se ocultan en las manos las ofertas.
     A quien se le descubra por chantaje,
     después del intercambio se destierra.`,
