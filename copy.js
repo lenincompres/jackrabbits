@@ -732,7 +732,7 @@ copy.add("optional", [{
 }, {
   es: `Conecta los hexágonos (directos)
   y juega sin los rombos ni los triángulos.
-  Con la isla que armarás, y sus trayectos,
+  En la isla que armarás, y en sus trayectos,
   verás que se incrementan los obstáculos.`,
   en: `Before the tiles are connected,
   craft a map of shorter miles:
