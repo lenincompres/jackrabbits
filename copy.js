@@ -715,18 +715,6 @@ copy.add("optional", [{
     Clubs: for tower flying passes—
     shortfall's paid in any suit.`,
 }, {
-  es: "Lluvia de premios",
-  en: "Windfall of prizes",
-}, {
-  es: `Permite reclamar <b>la lotería</b>
-    por múltiples aciertos y regalos,
-    ya sea con las cartas que validas
-    o incluso con un doble de los dados.`,
-  en: `You may win more than one prize,
-    <b>the lottery</b> has no limits—
-    whether cards that match the dice,
-    or a roll of double digits.`,
-}, {
   es: "Cartas Cortas",
   en: "Tight Suits",
 }, {
@@ -744,25 +732,24 @@ copy.add("optional", [{
 }, {
   es: `Conecta los hexágonos (directos)
   y juega sin los rombos ni los triángulos.
-  Verás que se reducen los trayectos,
-  mas van a incrementarse los obstáculos.`,
+  Con la isla que armarás, y sus trayectos,
+  verás que se incrementan los obstáculos.`,
   en: `Before the tiles are connected,
-  craft a map with shorter miles:
+  craft a map of shorter miles:
   connect all hexes directly,
   and remove the smaller tiles.`,
 }, {
-  es: "Valores Patriarcales",
-  en: "Patriarchal values",
+  es: "Lluvia de premios",
+  en: "Windfall of prizes",
 }, {
-  es: `Valoras a los <b>A</b>ses por <b>14</b>;
-    los reyes, es por <b>13</b> que valoras;
-    las reinas, subvalóralas por <b>12</b>;
-    y es <b>11</b> (menos precio) por las jotas.`,
-  en: `Have unequal value levels—
-    if you don't think that is whack—
-    from <b>14</b> down to <b>11</b>,
-    for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack.
-    `,
+  es: `Permite reclamar <b>la lotería</b>
+    por múltiples aciertos y regalos,
+    ya sea con las cartas que validas
+    o incluso con un doble de los dados.`,
+  en: `You may win more than one prize,
+    <b>the lottery</b> has no limits—
+    whether cards that match the dice,
+    or a roll of double digits.`,
 }, {
   es: "Manos Mínimas",
   en: "short hands",
@@ -787,6 +774,19 @@ copy.add("optional", [{
     if your carrot's on a hex;
     you may visit and go on
     to the place you're headed next.`,
+}, {
+  es: "Valores Patriarcales",
+  en: "Patriarchal values",
+}, {
+  es: `Valoras a los <b>A</b>ses por <b>14</b>;
+    los reyes, es por <b>13</b> que valoras;
+    las reinas, subvalóralas por <b>12</b>;
+    y es <b>11</b> (menos precio) por las jotas.`,
+  en: `Have unequal value levels—
+    if you don't think that is whack—
+    from <b>14</b> down to <b>11</b>,
+    for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack.
+    `,
 }, {
   es: "<b>Juego completivo</b>",
   en: "<b>Full game</b>",
