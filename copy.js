@@ -344,8 +344,8 @@ copy.add("intro", [{
 }, {
   es: [
     `Termina en un hexágono tus vueltas
-    (a menos de que salgas a la orilla*),
-    y allí recibirás tu recompensa:
+    (a menos de que salgas a la orilla*)
+    y allí reclamarás tu recompensa:
     la carta que prosigue de la pila.
     Si llegas con la pila ya desierta,
     baraja las del lote y recopila.`,
