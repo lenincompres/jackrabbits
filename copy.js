@@ -742,14 +742,14 @@ copy.add("optional", [{
   es: "Reino Urbano",
   en: "Urban Kingdom",
 }, {
-  es: `Conecta a los hexágonos (directos)
+  es: `Conecta los hexágonos (directos)
   y juega sin los rombos ni los triángulos.
   Verás que se reducen los trayectos,
   mas van a incrementarse los obstáculos.`,
-  en: `This small map with this new angle,
-  is a challenge indirectly:
-  remove rhombus and triangles—
-  connect all hexes directly.`,
+  en: `Before the tiles are connected,
+  craft a map with shorter miles:
+  connect all hexes directly,
+  and remove the smaller tiles.`,
 }, {
   es: "Valores Patriarcales",
   en: "Patriarchal values",
