@@ -187,6 +187,10 @@ export const PAGER = new Pager({
       class: "optional",
       h4: copy.next(),
       p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
     }],
   },
   more: {

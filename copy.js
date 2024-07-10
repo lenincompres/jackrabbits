@@ -739,6 +739,18 @@ copy.add("optional", [{
     for instance, with three contenders,
     remove a set and a suit.`,
 }, {
+  es: "Reino Urbano",
+  en: "Urban Kingdom",
+}, {
+  es: `Conecta a los hexágonos (directos)
+  y juega sin los rombos ni los triángulos.
+  Verás que se reducen los trayectos,
+  mas van a incrementarse los obstáculos.`,
+  en: `This small map with this new angle,
+  is a challenge indirectly:
+  remove rhombus and triangles—
+  connect all hexes directly.`,
+}, {
   es: "Valores Patriarcales",
   en: "Patriarchal values",
 }, {
