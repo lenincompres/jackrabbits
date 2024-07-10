@@ -318,8 +318,8 @@ copy.add("intro", [{
     `Tu meta es visitar a la nobleza
     si nadie se ha apropiado de sus cartas:
     un mínimo de diez es lo que cuestan,
-    pagado con los palos de sus marcas;
-    y dejan zanahorias en las piezas
+    pagado con los palos de sus marcas.
+    Se dejan zanahorias en las piezas
     que indican los conejos que las cargan.`,
     `Es gratis visitar a los hexágonos
     y hacer tu recorrido visitándolos.`,
