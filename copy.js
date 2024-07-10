@@ -23,7 +23,7 @@ copy.add("footer", [{
   es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
     y apoya la campaña que tendremos.`,
   en: `Join the <a class="pop" onclick="popUp('mailingList')"><b>List</b></a> on this domain,
-  and wait to hear of our campaign.`,
+  and stay tuned for our campaign.`,
 }, {
   es: "Compra el juego",
   en: "Buy the game",
@@ -436,7 +436,7 @@ copy.add("intro", [{
     lo montas y liberas de tu mano.`,
   en: `When you pass by any tavern,
     you may buy a joker card;
-    you choose when to ride and travel, 
+    you'll choose when to ride and travel, 
     then release it afterward.`,
 }, {
   es: "traslado por Madrigueras",
