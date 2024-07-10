@@ -626,8 +626,8 @@ copy.add("full", [{
     `Observa los <i>hexágonos de ventas</i>
     con flechas que sugieren intercambio.
     En estos, los diamantes se canjean 
-    por cartas descartadas de su palo.
-    Excepto en el marcado con la estrella,
+    por cartas descartadas de su palo,
+    excepto en el marcado con la estrella,
     que acepta de cualquiera por el pago.
     Recuerda que la pila se renueva
     con cartas que abandonan el mercado.`,
