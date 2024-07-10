@@ -204,7 +204,7 @@ copy.add("setup", [{
     con estas tramarán <b>la travesía</b>
     y harán <b>la adquisición</b> de las reales.`,
   en: `Each player will draw three cards 
-    to hold as the starting hands:
+    to hold as the starting <i>hands</i>:
     the resources each regards    
     for <b>the journey</b> through the lands,
     and for the royal rewards
@@ -538,13 +538,13 @@ copy.add("full", [{
   en: "Fight with the Rabbits",
 }, {
   es: [
-    `Enfrenta en un <i>combate sin empates</i> 
+    `Ataca en un <i>combate sin empates</i> 
     a quien en el hexágono descansa:
     se lucha superando los ataques,
     sumándose las picas descartadas,
-    y, cuando se terminen los avances,
+    y cuando se terminen los avances,
     destierra a la persona derrotada.
-    Si ganas el combate que iniciaste,
+    Si ganas el combate que empezaste,
     también asaltarías a  sus cartas,
     robando la primera que tocases
     (a ciegas deberás seleccionarla).`,
