@@ -200,12 +200,12 @@ copy.add("setup", [{
     después de barajarlas y reunirlas,
     del mazo bocabajo las repartes.
     Entrégales sus tres, sin exhibirlas,
-    a cada concursante, individuales.
-    Con estas tramarán <b>la travesía</b>
+    a cada concursante, individuales;
+    con estas tramarán <b>la travesía</b>
     y harán <b>la adquisición</b> de las reales.`,
   en: `Each player will draw three cards 
-    to hold as the starting hands.
-    They are needed afterwards
+    to hold as the starting hands:
+    the resources each regards    
     for <b>the journey</b> through the lands,
     and for the royal rewards
     <b>the acquisition</b> demands.`,
@@ -460,7 +460,7 @@ copy.add("intro", [{
 }, {
   es: `A veces te conviene que salieras
     cayendo de un camino a las orillas:
-    olvida <b>el incremento</b> si lo hicieras,
+    olvida <b>el incremento</b> si lo hicieras
     y acaba con el turno a la deriva;
     mantén <b>la lotería</b> en las afueras,
     y entonces, al llegar <b>la travesía</b>,
@@ -538,16 +538,16 @@ copy.add("full", [{
   en: "Fight with the Rabbits",
 }, {
   es: [
-    `Declárale la <i>guerra sin empates</i> 
-    a quien en el hexágono descansa. 
-    Si vences a la víctima que asaltes,
-    a ciegas le arrebatas una carta.
-    Se lucha superando los ataques,
-    sumándose las picas descartadas;
-    y cuando se le acaben los avances
-    a quien se le derrota en la batalla,
-    termina en el destierro en el instante
-    y roban (si es la víctima asaltada).`,
+    `Enfrenta en un <i>combate sin empates</i> 
+    a quien en el hexágono descansa:
+    se lucha superando los ataques,
+    sumándose las picas descartadas,
+    y, cuando se terminen los avances,
+    destierra a la persona derrotada.
+    Si ganas el combate que iniciaste,
+    también asaltarías a  sus cartas,
+    robando la primera que tocases
+    (a ciegas deberás seleccionarla).`,
     `Si robas y la carta es de nobleza,
     te toca <b>el incremento</b> de tus cartas;
     y entrégale a la corte la que quieras
