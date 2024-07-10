@@ -784,26 +784,26 @@ copy.add("more", [{
   es: "Compra el juego",
   en: "Buy the game"
 },{
-  es: `Visita nuestra tienda y adquiere la copia física del juego.`,
-  en: `Visit our store and get a physical copy of the game.`,
+  es: `Visita nuestra tienda en línea y adquiere la copia física del juego.`,
+  en: `Visit our online store and get a physical copy of the game.`,
 },{
   es: "Listado de correo",
   en: `Mailing list`,
 }, {
   es: "Prepárate a apoyar la campaña para la primera edición. Ya te avísaremos.",
-  en: `Be ready to support the campaign for the first edition.`
+  en: `Be ready to support the campaign for the first edition. We'll notify you.`
 },{
   es: "Versión virtual",
   en: "Virtual version"
 },{
-  es: "Juega con tus amistades en línea, gracias a <b>Tabletopia</b>.",
-  en: "Play online with your friends, at <b>Tabletopia</b>."
+  es: "Juega <b>Jack Rabbits</b> con tus amistades en línea, gracias a <b>Tabletopia</b>.",
+  en: "Play <b>Jack Rabbits</b> online with your friends, thanks to <b>Tabletopia</b>."
 },{
   es: "Echa tus cartas",
   en: "Suit yourself",
 },{
-  en: `This test will reveal the <b>suit</b> that fits your personality.`,
-  es: `Este test te mostrará el <b>símbolo</b> que se ajusta a tu personalidad.`,
+  en: `This test will reveal the <b>suit</b> that best fits your personality.`,
+  es: `Este test revelará el <b>símbolo</b> que mejor se ajusta a tu personalidad.`,
 }])
 
 copy.add("popup", [{
