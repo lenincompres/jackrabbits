@@ -869,6 +869,14 @@ copy.add("popup", [{
     sin turnos ni descansos al ponerlas.
     Igual observarán al conectarlas
     el vínculo de vías carreteras:`,
+    `Evita callejones sin salidas (T),
+    los vínculos de dos hexagonales (x),
+    y el cúmulo excesivo (o cercanía)
+    de piezas triangulares similares (!).
+    Las islas que desees las inicias
+    con una hexagonal a la que apartes,
+    y nota que el subsuelo, en exclusiva,
+    se queda sin uniones laterales.`,
   ],
   en: [
     `Place the <i>citadel</i> hex first. 
@@ -885,30 +893,17 @@ copy.add("popup", [{
     the one you flip, you must place.
     <b>Free</b>: no turns, it's all freestyle—
     flip all the tiles on their face. 
-    These four tips will be worthwhile
+    These few tips will be worthwhile
     as guidelines in either case:`,
-  ]
-}, {
-  es: [
-    `Evita callejones sin salidas (T)
-    y vínculos de dos hexagonales (x).`,
-    `Es bueno que se eviten cercanías
-    de piezas triangulares similares (!).`,
-    `Las islas que desees las inicias
-    con una hexagonal a la que apartes.`,
-    `La pieza del subsuelo es exclusiva;
-    se queda sin uniones laterales.`,
-  ],
-  en: [
     `Don't make a dead-ending road (T),
-    or join the roads from two hexes (x).`,
-    `Keep the triangles' spread broad,
-    instead of closely connected (!).`,
-    `To start an island abroad,
-    just place a hex disconnected.`,
-    `The underground's rather odd,
+    or join the roads from two hexes (x),
+    and keep triangles' spread broad,
+    instead of closely connected (!).
+    To start an island abroad,
+    just place a hex disconnected;
+    yet, the underground is odd,
     and will remain unconnected.`,
-  ],
+  ]
 }, {
   es: "El precio",
   en: "The price",

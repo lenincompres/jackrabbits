@@ -281,9 +281,6 @@ export const POPPER = new Pager({
   board: {
     h3: copy.next(),
     p: versify(copy.next()),
-    ul: {
-      li: copy.next()
-    },
     img: ASSETS.guides,
   },
   price: {
