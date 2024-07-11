@@ -867,12 +867,12 @@ copy.add("popup", [{
     y pieza que volteen la conectan;
     y <b>libre</b>: se permiten voltearlas
     sin turnos ni descansos al ponerlas.
-    Igual observarán al conectarlas
-    el vínculo de vías carreteras:`,
-    `Evita callejones sin salidas (T),
-    los vínculos de dos hexagonales (x),
+    Igual se recomienda al conectarlas
+    que mires las siguientes sugerencias:`,
+    `Evita callejones sin salidas <sup>T</sup>,
+    los vínculos de dos hexagonales <sup>x</sup>,
     y el cúmulo excesivo (o cercanía)
-    de piezas triangulares similares (!).
+    de piezas triangulares similares <sup>!</sup>.
     Las islas que desees las inicias
     con una hexagonal a la que apartes,
     y nota que el subsuelo, en exclusiva,
@@ -893,12 +893,12 @@ copy.add("popup", [{
     the one you flip, you must place.
     <b>Free</b>: no turns, it's all freestyle—
     flip all the tiles on their face. 
-    These few tips will be worthwhile
+    These suggestions are worthwhile
     as guidelines in either case:`,
-    `Don't make a dead-ending road (T),
-    or join the roads from two hexes (x),
-    and keep triangles' spread broad,
-    instead of closely connected (!).
+    `Don't make a dead-ending road <sup>T</sup>,
+    or join the roads from two hexes <sup>x</sup>,
+    and keep triangles spread broad,
+    instead of closely connected <sup>!</sup>.
     To start an island abroad,
     just place a hex disconnected;
     yet, the underground is odd,
