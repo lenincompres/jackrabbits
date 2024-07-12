@@ -395,12 +395,12 @@ copy.add("intro", [{
     permiten que te cambies de camino
     cruzando por el centro en un atajo,
     marcado con los palos permitidos
-    que pagas con tus cartas al cruzarlo.`,
+    que <a class="pop" onclick="popUp('price')">pagas con tus cartas</a> al cruzarlo.`,
   en: `The mountains, rivers, and woods,
     have two roads not far apart. 
     You may switch between these two,
     trekking through the center part.
-    To do this, pay with your suits—
+    To do this, <a class="pop" onclick="popUp('price')">pay with your suits</a>—
     in this case, clubs, spades, or hearts.`,
 }, {
   es: "traslado con Comerciantes",
@@ -414,7 +414,7 @@ copy.add("intro", [{
     de un cruce con salida a las afueras,
     y surcas tu trayecto por los mares
     entrando por alguna carretera.
-    Saldrás en el momento en el que pagues 
+    Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
     y anuncies el transporte que prefieras.`,
   en: `You may buy two types of rides
     on crossings where roads are forked:
@@ -422,7 +422,7 @@ copy.add("intro", [{
     to any hex on the board;
     or, row on the seas outside
     to find a road from this port.
-    As soon as you pay the price,
+    As soon as you <a class="pop" onclick="popUp('price')">pay the price</a>,
     you must move to your next post.
     Since they're not by the seaside,
     landlocked merchants won't have boats.`,
@@ -430,25 +430,25 @@ copy.add("intro", [{
   es: "traslado con Comodines",
   en: "transfer via Jokers",
 }, {
-  es: `Si pagas al pasar por las tabernas,
+  es: `Si <a class="pop" onclick="popUp('price')">pagas</a> al pasar por las tabernas,
     tendrás un comodín desocupado;
     lo cargas y, al momento en que requieras,
     lo montas y liberas de tu mano.`,
   en: `When you pass by any tavern,
-    you may buy a joker card;
+    you may <a class="pop" onclick="popUp('price')">buy</a> a joker card;
     you'll choose when to ride and travel, 
     then release it afterward.`,
 }, {
   es: "traslado por Madrigueras",
   en: "transfer via Rabbit holes",
 }, {
-  es: `Si pagas en la entrada de las cuevas,
+  es: `Si <a class="pop" onclick="popUp('price')">pagas</a> en la entrada de las cuevas,
     saldrás por la que quieras de inmediato.
     Si no, te ahorrarás lo que te cuesta,
     metiéndote al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
     descansas por el turno y, a la vuelta, 
     te sales por la cueva de tu agrado.`,
-  en: `Pay to travel cave to cave—
+  en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
     use this trick to hop around. 
     But if you would rather save,
     take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>. 
@@ -466,9 +466,9 @@ copy.add("intro", [{
     y entonces, al llegar <b>la travesía</b>,
     te metes al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> a lo que esperas
     la vuelta en la que escoges la salida.`,
-  en: `You may want to leave the board—
-    take a road that leads outbound.
-    You'll end your turn overboard,
+  en: `If you choose to take a road
+    that leads to the edge (outbound),
+    you'll end your turn off the board,
     with no <b>increment</b>—you've drowned.
     But then, once you've rolled off-board,
     you'll enter the <a class="pop" onclick="popUp('underground')"><b>underground</b></a>!
@@ -623,15 +623,15 @@ copy.add("full", [{
   en: "& With the Rabbits",
 }, {
   es: [
-    `Observa los <i>hexágonos de ventas</i>
-    con flechas que sugieren intercambio.
-    En estos, los diamantes se canjean 
+    `Comercia en los <i>hexágonos de ventas</i>
+    con flechas que sugieren intercambio:
+    en estos, los diamantes se canjean 
     por cartas descartadas de su palo,
     excepto en el marcado con la estrella,
     que acepta de cualquiera por el pago.
     Recuerda que la pila se renueva
     con cartas que abandonan el mercado.`,
-    `Es válido el comercio por diamantes
+    `Es válido el <i>comercio por diamantes</i>
     con alguien en el sitio que te encuentras,
     si mientras el negocio se debate,
     se ocultan en las manos las ofertas.
@@ -730,9 +730,9 @@ copy.add("optional", [{
   es: "Reino Urbano",
   en: "Urban Kingdom",
 }, {
-  es: `Conecta los hexágonos (directos)
-  y juega sin los rombos ni los triángulos.
-  En la isla que armarás, y en tus trayectos,
+  es: `Conecta los hexágonos directo,
+  y olvídate de rombos y de triángulos;
+  en la isla que armarás sin sus trayectos,
   verás que se incrementan los obstáculos.`,
   en: `Before the tiles are connected,
   craft a map of shorter miles:
@@ -838,7 +838,7 @@ copy.add("popup", [{
   es: "Ciudadela Avanzada",
   en: "Advanced citadel",
 }, {
-  es: `Detrás, la ciudadela es avanzada:
+  es: `La ficha del inicio es reforzada:
     con torre, con palacio y con su plaza.`,
   en: `This citadel has more power:
     a palace, plaza and tower.`
