@@ -734,22 +734,22 @@ copy.add("optional", [{
   y olvídate de rombos y de triángulos;
   en la isla que armarás sin sus trayectos,
   verás que se incrementan los obstáculos.`,
-  en: `Before the tiles are connected,
-  craft a map of shorter miles:
-  connect all hexes directly,
-  and remove the smaller tiles.`,
+  en: `To create a tighter nexus, 
+  or a map of shorter miles, 
+  connect directly the hexes, 
+  and remove all smaller tiles.`,
 }, {
-  es: "Lluvia de premios",
-  en: "Windfall of prizes",
+  es: "Rastro de zanahorias",
+  en: "trail of Carrots",
 }, {
-  es: `Permite reclamar <b>la lotería</b>
-    por múltiples aciertos y regalos,
-    ya sea con las cartas que validas
-    o incluso con un doble de los dados.`,
-  en: `You may win more than one prize,
-    <b>the lottery</b> has no limits—
-    whether cards that match the dice,
-    or a roll of double digits.`,
+  es: `Podrás incrementar <b>la travesía</b>
+    si está tu zanahoria en un lugar;
+    pues puedes, en el turno que visitas,
+    salirte sin parar a descansar.`,
+  en: `<b>The journey</b> may be prolonged
+    if your carrot's on a hex;
+    you may visit and go on
+    to the place you're headed next.`,
 }, {
   es: "Manos Mínimas",
   en: "short hands",
@@ -763,17 +763,17 @@ copy.add("optional", [{
     your hand of cards will be slender,
     up to six to hold on to.`,
 }, {
-  es: "Rastro de zanahorias",
-  en: "trail of Carrots",
+  es: "Lluvia de premios",
+  en: "Windfall of prizes",
 }, {
-  es: `Podrás incrementar <b>la travesía</b>
-    si está tu zanahoria en un lugar;
-    pues puedes, en el turno que visitas,
-    salirte sin parar a descansar.`,
-  en: `<b>The journey</b> may be prolonged
-    if your carrot's on a hex;
-    you may visit and go on
-    to the place you're headed next.`,
+  es: `Permite reclamar <b>la lotería</b>
+    por múltiples aciertos y regalos,
+    ya sea con las cartas que validas
+    o incluso con un doble de los dados.`,
+  en: `You may win more than one prize,
+    <b>the lottery</b> has no limits—
+    whether cards that match the dice,
+    or a roll of double digits.`,
 }, {
   es: "Valores Patriarcales",
   en: "Patriarchal values",
