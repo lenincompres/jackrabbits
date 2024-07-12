@@ -736,7 +736,7 @@ copy.add("optional", [{
   verás que se incrementan los obstáculos.`,
   en: `To create a tighter nexus—
   a kingdom of shorter miles—
-  connect directly the hexes, 
+  connect directly the hexes
   and remove the smaller tiles.`,
 }, {
   es: "Rastro de zanahorias",
@@ -825,7 +825,7 @@ copy.add("popup", [{
   es: `La pieza hexagonal en la que empiezas…
     y acabas al traer a la nobleza.`,
   en: `The hex where the journey starts…
-    and ends with the royal cards.`
+    and ends with three royal cards.`
 }, {
   es: "Subsuelo",
   en: "underground",
