@@ -42,21 +42,20 @@ DOM.set({
     }))),
   },
 
-  nav: {
-    id: "main_nav",
-    content: listLinks(navLinks.map(key => ({
-      class: {
-        active: PAGE.PAGER._KEY.as(p => p === key),
-      },
-      color: PAGE.PAGER._KEY.as(p => p === key ? 'black' : `var(--${key})`),
-      backgroundColor: PAGE.PAGER._KEY.as(p => p === key ? `var(--${key})` : 'black'),
-      html: copy.next(),
-      href: `#${key}`,
-      name: key,
-    })))
-  },
-
   main: {
+    nav: {
+      id: "main_nav",
+      content: listLinks(navLinks.map(key => ({
+        class: {
+          active: PAGE.PAGER._KEY.as(p => p === key),
+        },
+        color: PAGE.PAGER._KEY.as(p => p === key ? 'black' : `var(--${key})`),
+        backgroundColor: PAGE.PAGER._KEY.as(p => p === key ? `var(--${key})` : 'black'),
+        html: copy.next(),
+        href: `#${key}`,
+        name: key,
+      })))
+    },
     article: {
       id: "pageArticle",
       backgroundColor: PAGE.PAGER._KEY.as(key => `var(--${key})`),
@@ -65,7 +64,7 @@ DOM.set({
   },
 
   footer: {
-    p:versify(copy.get("footer")),
+    p: versify(copy.get("footer")),
     menu_bulletMenu: listLinks({
       text: copy.next(),
       class: "buy",
