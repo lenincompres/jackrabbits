@@ -735,21 +735,9 @@ copy.add("optional", [{
   en la isla que armarás sin sus trayectos,
   verás que se incrementan los obstáculos.`,
   en: `To play this version correctly,
-  make a map of shorter miles:
-  connect all hexes directly
-  and remove the smaller tiles.`,
-}, {
-  es: "Rastro de zanahorias",
-  en: "trail of Carrots",
-}, {
-  es: `Podrás incrementar <b>la travesía</b>
-    si está tu zanahoria en un lugar;
-    pues puedes, en el turno que visitas,
-    salirte sin parar a descansar.`,
-  en: `<b>The journey</b> may be prolonged
-    if your carrot's on a hex;
-    you may visit and go on
-    to the place you're headed next.`,
+  make a map of shorter miles,
+  connecting hexes directly
+  and removing smaller tiles.`,
 }, {
   es: "Manos Mínimas",
   en: "short hands",
@@ -787,6 +775,18 @@ copy.add("optional", [{
     from <b>14</b> down to <b>11</b>,
     for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack.
     `,
+}, {
+  es: "Rastro de zanahorias",
+  en: "trail of Carrots",
+}, {
+  es: `Podrás incrementar <b>la travesía</b>
+    si está tu zanahoria en un lugar;
+    pues puedes, en el turno que visitas,
+    salirte sin parar a descansar.`,
+  en: `<b>The journey</b> may be prolonged
+    if your carrot's on a hex;
+    you may visit and go on
+    to the place you're headed next.`,
 }, {
   es: "<b>Juego completivo</b>",
   en: "<b>Full game</b>",
