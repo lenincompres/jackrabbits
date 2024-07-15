@@ -734,9 +734,9 @@ copy.add("optional", [{
   y olvídate de rombos y de triángulos;
   en la isla que armarás sin sus trayectos,
   verás que se incrementan los obstáculos.`,
-  en: `To create a tighter nexus—
-  a kingdom of shorter miles—
-  connect directly the hexes
+  en: `To play this version correctly,
+  make a map of shorter miles:
+  connect all hexes directly
   and remove the smaller tiles.`,
 }, {
   es: "Rastro de zanahorias",
