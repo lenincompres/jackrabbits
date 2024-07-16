@@ -795,30 +795,54 @@ copy.add("optional", [{
 }, {
   es: "<b>Juego completivo</b>",
   en: "<b>Full game</b>",
+}, {
+  es: "Vuelos Avanzados",
+  en: "Advanced flights",
+}, {
+  es: `Ahora, con el vuelo de claveles,
+    podrás aterrizas en los hexágonos;
+    se suma a los destinos a los que vueles
+    las plazas, ciudadela y los palacios.`,
+  en: `The tower's flying devices
+    now offer more destinations;
+    the same departures and prices,
+    to any hex in the nation.`,
+}, {
+  es: "Destierro Inicial",
+  en: "Start Off-Board",
+}, {
+  es: `Contempla si en tu turno de partida
+  prefieres comenzar en el destierro;
+  te mueves al llegar la travesía
+  y esperas por un turno en el subsuelo.`,
+  en: `Once you've completed the board,
+  upon starting your first round,
+  you may choose to start off-board,
+  and wait a turn underground.`,
 }]);
 
 copy.add("more", [{
   es: "Compra el juego",
   en: "Buy the game"
-},{
+}, {
   es: `Visita nuestra tienda en línea y adquiere la copia física del juego.`,
   en: `Visit our online store and get a physical copy of the game.`,
-},{
+}, {
   es: "Listado de correo",
   en: `Mailing list`,
 }, {
   es: "Prepárate a apoyar la campaña para la primera edición. Ya te avísaremos.",
   en: `Be ready to support the campaign for the first edition. We'll notify you.`
-},{
+}, {
   es: "Versión virtual",
   en: "Virtual version"
-},{
+}, {
   es: "Juega <b>Jack Rabbits</b> con tus amistades en línea, gracias a <b>Tabletopia</b>.",
   en: "Play <b>Jack Rabbits</b> online with your friends, thanks to <b>Tabletopia</b>."
-},{
+}, {
   es: "Echa tus cartas",
   en: "Suit yourself",
-},{
+}, {
   en: `This test will reveal the <b>suit</b> that best fits your personality.`,
   es: `Este test revelará el <b>símbolo</b> que mejor se ajusta a tu personalidad.`,
 }])
