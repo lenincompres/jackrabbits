@@ -667,6 +667,11 @@ copy.add("optional", [{
   es: "Reglas Opcionales",
   en: "Optional Rules",
 }, {
+  es: `Renueva tus partidas habituales,
+  jugando con las reglas opcionales.`,
+  en: `Once you have gone through the motions,
+  you may consider these options.`,
+}, {
   es: "Ases Ambivalentes",
   en: "Ambivalent Aces",
 }, {
