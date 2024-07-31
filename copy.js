@@ -52,7 +52,7 @@ copy.add("home", [{
 }, {
   es: [
     `Atención heroicos mensajeros,`,
-    `Por orden de la Orden de Conejos Mensajeros de la Ciudadela, se te ordena la misión de adquirir la terna que será ordenada al nuevo concejo real. Esta misión de orden superior es la orden más importante que un conejo de esta orden puede recibir:`,
+    `Por orden de la Orden de Conejos Mensajeros de la Ciudadela, se te ordena adquirir las cartas de la terna que será ordenada al nuevo concejo real. Esta misión de orden superior es la orden más importante que un conejo de esta orden puede recibir:`,
     `<strong>Visita las casas nobles, adquiere tres cartas con insignias reales y tráelas a la ciudadela</strong>, en tal orden.`,
     `En ese orden, cuando digo <i>tal orden</i> no me refiero a alguna otra orden de conejos mensajeros ni a la orden del motivo de esta carta, sino al orden de los pasos para restaurar el orden en el reino.`,
     `¡En marcha! ¡El tiempo apremia!`,
