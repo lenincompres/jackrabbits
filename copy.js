@@ -897,14 +897,14 @@ copy.add("popup", [{
     y <b>libre</b>: se permiten voltearlas
     sin turnos ni descansos al ponerlas.
     Igual se recomienda al conectarlas
-    que mires las siguientes sugerencias:`,
-    `Evita callejones sin salidas <sup>T</sup>,
-    los vínculos de dos hexagonales <sup>x</sup>,
-    y el cúmulo excesivo (o cercanía)
+    que observes las siguientes sugerencias:`,
+    `Evita: callejones sin salidas <sup>T</sup>;
+    los vínculos de dos hexagonales <sup>x</sup>;
+    y hacer la conección consecutiva
     de piezas triangulares similares <sup>!</sup>.
     Las islas que desees las inicias
-    con una hexagonal a la que apartes,
-    y nota que el subsuelo, en exclusiva,
+    con una hexagonal a la que apartes;
+    y observa que el subsuelo, en exclusiva,
     se queda sin uniones laterales.`,
   ],
   en: [
