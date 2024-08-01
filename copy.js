@@ -255,8 +255,8 @@ copy.add("intro", [{
   en: `Learn these phases' rules and names, 
     then advance to a <a href="#full"><b>full game</b></a>.`,
 }, {
-  es: "1. La lotería",
-  en: "1. The Lottery",
+  es: "1<small>ro</small>. La lotería",
+  en: "1<small>st</small>. The Lottery",
 }, {
   es: [
     `Tus turnos los comienzas con la suerte
@@ -283,8 +283,8 @@ copy.add("intro", [{
     tranfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
   ]
 }, {
-  es: "2. La travesía",
-  en: "2. The Journey",
+  es: "2<small>do</small>. La travesía",
+  en: "2<small>nd</small>. The Journey",
 }, {
   es: [
     `Del sitio hexagonal en el que empiezas,
@@ -311,8 +311,8 @@ copy.add("intro", [{
     see <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
   ]
 }, {
-  es: "3. La adquisición",
-  en: "3. The Acquisition",
+  es: "3<small>ro</small>. La adquisición",
+  en: "3<small>rd</small>. The Acquisition",
 }, {
   es: [
     `Tu meta es visitar a la nobleza
@@ -339,8 +339,8 @@ copy.add("intro", [{
     get <b>the increment</b> at once.`,
   ]
 }, {
-  es: "4. El Incremento",
-  en: "4. The increment",
+  es: "4<small>to</small>. El Incremento",
+  en: "4<small>th</small>. The increment",
 }, {
   es: [
     `Termina en un hexágono tus vueltas
@@ -897,7 +897,7 @@ copy.add("popup", [{
     y <b>libre</b>: se permiten voltearlas
     sin turnos ni descansos al ponerlas.
     Igual se recomienda al conectarlas
-    que observes las siguientes sugerencias:`,
+    contar con las siguientes sugerencias:`,
     `Evita: callejones sin salidas <sup>T</sup>;
     los vínculos de dos hexagonales <sup>x</sup>;
     y hacer la conección consecutiva
