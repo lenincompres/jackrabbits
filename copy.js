@@ -832,7 +832,7 @@ copy.add("more", [{
   en: `Mailing list`,
 }, {
   es: "Apoyar la campaña para la primera edición industrial. Ya te avísaremos.",
-  en: `Be ready to support the campaign for the first industrial edition. We'll notify you.`
+  en: `Support the campaign for the first industrial edition. We'll notify you soon.`
 }, {
   es: "Versión virtual",
   en: "Virtual version"
