@@ -254,7 +254,7 @@ copy.add("intro", [{
   en: "The PHASES of each turn",
 }, {
   es: `Comprende el material preliminar
-    al <a href="#full"><b>juego completivo</b></a> o regular.`,
+    al <a href="#full"><b>juego completivo</b></a> regular.`,
   en: `Learn these phases' rules and names, 
     then advance to a <a href="#full"><b>full game</b></a>.`,
 }, {
@@ -489,7 +489,7 @@ copy.add("full", [{
   en: "The strategies of each suit",
 }, {
   es: `Añade los artículos restantes
-    al <a href="#intro"><b>juego introductorio</b></a> o principiante.`,
+    al <a href="#intro"><b>juego introductorio</b></a> principiante.`,
   en: `This frame should be introduced 
     once the <a href="#intro"><b>intro</b></a>'s understood.`
 }, {
