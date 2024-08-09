@@ -80,6 +80,10 @@ DOM.set({
       text: copy.next(),
       href: "https://tabletopia.com/games/jack-rabbits",
       target: "_blank",
+    }, {
+      text: copy.next(),
+      href: Copy.lang === Copy.LANG.ES.code ? 'https://sites.google.com/view/masallaterrafirma' : "https://www.yonderlands.net",
+      target: "_blank",
     }),
     //ready: e => popUp("mailingList"),
   },

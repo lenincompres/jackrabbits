@@ -192,6 +192,14 @@ export const PAGER = new Pager({
       class: "optional",
       h4: copy.next(),
       p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
+      h4: copy.next(),
+      p: versify(copy.next()),
     }],
   },
   more: {
@@ -230,6 +238,16 @@ export const PAGER = new Pager({
         a: {
           text: copy.next(),
           click: e => popUp("suitYourself"),
+        }
+      },
+      p: copy.next(),
+    }, {
+      class: "optional",
+      h3: {
+        a: {
+          text: copy.next(),
+          target: "_blank",
+          href: Copy.lang === Copy.LANG.ES.code ? 'https://sites.google.com/view/masallaterrafirma' : "https://www.yonderlands.net",
         }
       },
       p: copy.next(),

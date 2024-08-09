@@ -33,6 +33,9 @@ copy.add("footer", [{
 }, {
   es: "Versión virtual",
   en: "Virtual version",
+}, {
+  es: "Descubre la novela",
+  en: "Discover the novel",
 }]);
 
 copy.add("home", [{
@@ -782,7 +785,7 @@ copy.add("optional", [{
     `,
 }, {
   es: "Rastro de zanahorias",
-  en: "trail of Carrots",
+  en: "Trail of Carrots",
 }, {
   es: `Podrás incrementar <b>la travesía</b>
     si está tu zanahoria en un lugar;
@@ -793,32 +796,29 @@ copy.add("optional", [{
     you may visit and go on
     to the place you're headed next.`,
 }, {
-  es: "<b>Juego completivo</b>",
-  en: "<b>Full game</b>",
-}, {
-  es: "Vuelos Avanzados",
-  en: "Advanced flights",
+  es: "Vuelos Extendidos",
+  en: "Extended flights",
 }, {
   es: `Ahora, con el vuelo de claveles,
-    podrás aterrizas en los hexágonos;
-    se suma a los destinos a los que vueles
+    podrás aterrizar en los hexágonos;
+    se suma a los destinos que te lleven
     las plazas, ciudadela y los palacios.`,
   en: `The tower's flying devices
     now offer more destinations;
     the same departures and prices,
     to any hex in the nation.`,
 }, {
-  es: "Destierro Inicial",
-  en: "Start Off-Board",
+  es: "Palacios Provisionales",
+  en: "Provisional Palaces",
 }, {
-  es: `Contempla si en tu turno de partida
-  prefieres comenzar en el destierro;
-  te mueves al llegar la travesía
-  y esperas por un turno en el subsuelo.`,
-  en: `Once you've completed the board,
-  upon starting your first round,
-  you may choose to start off-board,
-  and wait a turn underground.`,
+  es: `Si exhibes al pararte corazones
+    (el mínimo de seis que se requieren),
+    acusas a cualquiera que se asome;
+    destiérrate y descártalos si acceden.`,
+  en: `Display hearts before you rest—
+    the sum of six that's expected—
+    and you'll acuse any guest
+    just as in palaces hexes.`,
 }]);
 
 copy.add("more", [{
@@ -831,20 +831,26 @@ copy.add("more", [{
   es: "Listado de correo",
   en: `Mailing list`,
 }, {
-  es: "Prepárate a apoyar la campaña para la primera edición. Ya te avísaremos.",
-  en: `Be ready to support the campaign for the first edition. We'll notify you.`
+  es: "Apoyar la campaña para la primera edición industrial. Ya te avísaremos.",
+  en: `Be ready to support the campaign for the first industrial edition. We'll notify you.`
 }, {
   es: "Versión virtual",
   en: "Virtual version"
 }, {
-  es: "Juega <b>Jack Rabbits</b> con tus amistades en línea, gracias a <b>Tabletopia</b>.",
-  en: "Play <b>Jack Rabbits</b> online with your friends, thanks to <b>Tabletopia</b>."
+  es: "Juega <b>Jack Rabbits</b> con tus amistades en línea.",
+  en: "Play <b>Jack Rabbits</b> online with your friends."
 }, {
   es: "Echa tus cartas",
   en: "Suit yourself",
 }, {
-  en: `This test will reveal the <b>suit</b> that best fits your personality.`,
-  es: `Este test revelará el <b>símbolo</b> que mejor se ajusta a tu personalidad.`,
+  es: `Este test revelará el símbolo que mejor se ajusta a tu personalidad.`,
+  en: `This test will reveal the suit that best fits your personality.`,
+}, {
+  es: "Descubre la novela",
+  en: "Discover the novel",
+}, {
+  es: `Existe un manuscrito de novela inspirado en este mundo de maravillas.`,
+  en: `There's a manuscript of a novel inspired in this same land of wonders.`,
 }])
 
 copy.add("popup", [{
