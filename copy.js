@@ -739,25 +739,13 @@ copy.add("optional", [{
   en: "Urban Kingdom",
 }, {
   es: `Conecta los hexágonos directo,
-  y olvídate de rombos y de triángulos;
-  en la isla que armarás sin sus trayectos,
-  verás que se incrementan los obstáculos.`,
+  y olvídate <a class="pop" onclick="popUp('roadTiles')">de rombos y de triángulos</a>;
+  la falta de traslado en tus trayectos
+  hará se incrementen los obstáculos.`,
   en: `To play this version correctly,
   make a map of shorter miles,
   connecting hexes directly
-  and removing smaller tiles.`,
-}, {
-  es: "Manos Mínimas",
-  en: "short hands",
-}, {
-  es: `Las cartas en tu mano y su manejo
-    te retan en un juego de escasez,
-    pues cuentas con un límite pequeño
-    cargando con un máximo de seis.`,
-  en: `You must be a wiser spender
-    on the quest that you pursue;
-    your hand of cards will be slender,
-    up to six to hold on to.`,
+  and removing <a class="pop" onclick="popUp('roadTiles')">smaller tiles</a>.`,
 }, {
   es: "Lluvia de premios",
   en: "Windfall of prizes",
@@ -770,6 +758,18 @@ copy.add("optional", [{
     <b>the lottery</b> has no limits—
     whether cards that match the dice,
     or a roll of double digits.`,
+}, {
+  es: "Manos Mínimas",
+  en: "short hands",
+}, {
+  es: `Las cartas en tu mano y su manejo
+    te retan en un juego de escasez,
+    pues cuentas con un límite pequeño
+    cargando con un máximo de seis.`,
+  en: `Your hand of cards will be slender,
+    up to six to hold on to.
+    Plan to be a wiser spender
+    on the quest that you pursue.`,
 }, {
   es: "Valores Patriarcales",
   en: "Patriarchal values",
@@ -784,6 +784,30 @@ copy.add("optional", [{
     for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack.
     `,
 }, {
+  es: "Vuelos Extendidos",
+  en: "Extended flights",
+}, {
+  es: `Ahora, con el vuelo de los tréboles,
+    podrás aterrizar en los hexágonos;
+    se suma a los destinos a los que vueles
+    las plazas, ciudadela y los palacios.`,
+  en: `Flights that leave from any tower
+    have more places to touch down;
+    you may reach—with the clubs' power—
+    any hex above the ground.`,
+}, {
+  es: "Palacios Provisionales",
+  en: "Provisional Palaces",
+}, {
+  es: `Si exhibes, al pararte, corazones
+    (el mínimo de seis reglamentarios),
+    acusas a cualquiera que se asome
+    tal como en el acceso a los palacios.`,
+  en: `Display hearts before you rest—
+    the sum of six as expected—
+    and you'll acuse any guest
+    as in the palaces' hexes.`,
+}, {
   es: "Rastro de zanahorias",
   en: "Trail of Carrots",
 }, {
@@ -795,30 +819,6 @@ copy.add("optional", [{
     if your carrot's on a hex;
     you may visit and go on
     to the place you're headed next.`,
-}, {
-  es: "Vuelos Extendidos",
-  en: "Extended flights",
-}, {
-  es: `Ahora, con el vuelo de claveles,
-    podrás aterrizar en los hexágonos;
-    se suma a los destinos que te lleven
-    las plazas, ciudadela y los palacios.`,
-  en: `The tower's flying devices
-    now offer more destinations;
-    the same departures and prices,
-    to any hex in the nation.`,
-}, {
-  es: "Palacios Provisionales",
-  en: "Provisional Palaces",
-}, {
-  es: `Si exhibes al pararte corazones
-    (el mínimo de seis que se requieren),
-    acusas a cualquiera que se asome;
-    destiérrate y descártalos si acceden.`,
-  en: `Display hearts before you rest—
-    the sum of six that's expected—
-    and you'll acuse any guest
-    just as in palaces hexes.`,
 }]);
 
 copy.add("more", [{
@@ -878,8 +878,8 @@ copy.add("popup", [{
   en: `This citadel has more power:
     a palace, plaza and tower.`
 }, {
-  es: "Set de carreteras",
-  en: "One of each road tiles",
+  es: "Piezas viales",
+  en: "Road tiles",
 }, {
   es: "Tablero de ejemplo",
   en: "Sample board",
