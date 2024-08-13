@@ -743,7 +743,7 @@ copy.add("optional", [{
   la falta de traslado en tus trayectos
   hará se incrementen los obstáculos.`,
   en: `To play this version correctly,
-  make a map of shorter miles,
+  make a land of shorter miles,
   connecting hexes directly
   and removing <a class="pop" onclick="popUp('roadTiles')">smaller tiles</a>.`,
 }, {
@@ -791,8 +791,8 @@ copy.add("optional", [{
     podrás aterrizar en los hexágonos;
     se suma a los destinos a los que vueles
     las plazas, ciudadela y los palacios.`,
-  en: `Flights that leave from any tower
-    have more places to touch down;
+  en: `When you fly from any tower
+    there're more places to touch down;
     you may reach—with the clubs' power—
     any hex above the ground.`,
 }, {
@@ -803,10 +803,10 @@ copy.add("optional", [{
     (el mínimo de seis reglamentarios),
     acusas a cualquiera que se asome
     tal como en el acceso a los palacios.`,
-  en: `Display hearts before you rest—
-    the sum of six as expected—
-    and you'll acuse any guest
-    as in the palaces' hexes.`,
+  en: `Display, at a home you'll rest,
+    at least six hearts, as expected,
+    to accuse incoming guests
+    as you would at palace hexes.`,
 }, {
   es: "Rastro de zanahorias",
   en: "Trail of Carrots",
