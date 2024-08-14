@@ -57,6 +57,7 @@ class Copy {
     }
     if (i === undefined) i = 0;
     val = val[i];
+    if (val === undefined) return "";
     this.counter[key] = i;
     if (val[lang]) return val[lang];
     if (typeof val === "string") return val;

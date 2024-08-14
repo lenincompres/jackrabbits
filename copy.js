@@ -787,10 +787,10 @@ copy.add("optional", [{
   es: "Vuelos Extendidos",
   en: "Extended flights",
 }, {
-  es: `Ahora, con el vuelo de los tréboles,
-    podrás aterrizar en los hexágonos;
-    se suma a los destinos a los que vueles
-    las plazas, ciudadela y los palacios.`,
+  es: `Las plazas, ciudadela y los palacios
+    se añaden al destino de los vuelos;
+    podrás aterrizar en los hexágonos,
+    excepto por supuesto en el subsuelo.`,
   en: `When you fly from any tower
     there're more places to touch down;
     you may reach—with the clubs' power—
@@ -799,14 +799,14 @@ copy.add("optional", [{
   es: "Palacios Provisionales",
   en: "Provisional Palaces",
 }, {
-  es: `Si exhibes, al pararte, corazones
-    (el mínimo de seis reglamentarios),
-    acusas a cualquiera que se asome
-    tal como en el acceso a los palacios.`,
-  en: `Display, at a home you'll rest,
-    at least six hearts, as expected,
-    to accuse incoming guests
-    as you would at palace hexes.`,
+  es: `Conviertes residencias en palacios
+    si exhibes corazones al pararte:
+    tu mínimo de seis reglamentarios
+    que acusan a cualquiera al encontrarte.`,
+  en: `At royal houses you've entered,
+    display hearts before you rest:
+    the sum of six, as expected,
+    to accuse incoming guests.`,
 }, {
   es: "Rastro de zanahorias",
   en: "Trail of Carrots",
