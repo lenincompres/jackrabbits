@@ -622,8 +622,8 @@ copy.add("full", [{
   es: "Canjear en las plazas J",
   en: "Trade at Jack Plazas",
 }, {
-  es: "y con los conejos",
-  en: "& With the Rabbits",
+  es: "+ Canjes Individuales",
+  en: "+ Individual Trades",
 }, {
   es: [
     `Comercia en los <i>hexágonos de ventas</i>
@@ -667,8 +667,8 @@ copy.add("full", [{
 }]);
 
 copy.add("optional", [{
-  es: "Reglas Opcionales",
-  en: "Optional Rules",
+  es: "+ Reglas Opcionales",
+  en: "+ Optional Rules",
 }, {
   es: `Renueva tus partidas habituales,
   jugando con las reglas opcionales.`,
@@ -723,7 +723,7 @@ copy.add("optional", [{
     Clubs: for tower flying passes—
     shortfall's paid in any suit.`,
 }, {
-  es: "Cartas Cortas",
+  es: "Palos Cortos",
   en: "Tight Suits",
 }, {
   es: `Se juega con un palo por conejo
@@ -784,8 +784,8 @@ copy.add("optional", [{
     for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack.
     `,
 }, {
-  es: "Vuelos Extendidos",
-  en: "Extended flights",
+  es: "Vuelos Residenciales",
+  en: "Recidential flights",
 }, {
   es: `Las plazas, ciudadela y los palacios
     se añaden al destino de los vuelos;
@@ -802,11 +802,11 @@ copy.add("optional", [{
   es: `Conviertes residencias en palacios
     si exhibes corazones al pararte:
     tu mínimo de seis reglamentarios
-    que acusan a cualquiera al encontrarte.`,
+    acusan a cualquiera al infiltrarse.`,
   en: `At royal houses you've entered,
     display hearts before you rest:
     the sum of six, as expected,
-    to accuse incoming guests.`,
+    to accuse unwelcome guests.`,
 }, {
   es: "Rastro de zanahorias",
   en: "Trail of Carrots",
