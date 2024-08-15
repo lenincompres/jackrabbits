@@ -262,7 +262,7 @@ export const POPPER = new Pager({
       attributes: {
         width: "100%",
         height: 315,
-        src: Copy.lang === Copy.LANG.ES.code ? "https://www.youtube.com/embed/8pG2yxqUMC0?si=A3_b6yIdTcc25p86" : "https://www.youtube.com/embed/322gPU3rBdY?si=ZV_23UZJ_lBMyDj8",
+        src: Copy.lang === Copy.LANG.ES.code ? "https://www.youtube.com/embed/8pG2yxqUMC0?si=A3_b6yIdTcc25p86" : "https://www.youtube.com/embed/NO_Qbwml-I8?si=cHY_W43SBXr93F4g",
         title: "YouTube video player",
         frameborder: 0,
         allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
