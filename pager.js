@@ -146,59 +146,60 @@ export const PAGER = new Pager({
       h3: copy.next(),
       img: ASSETS.diamonds,
       h4: copy.next(),
+      p: versify(copy.next()),
+      h5: copy.next(),
+      p_0: versify(copy.next()),
+    }, {
+      tag: "header",
+      h4: copy.get("optional"),
+      p: versify(copy.next()),
+    }, {
+      class: "optional",
       h5: copy.next(),
       p: versify(copy.next()),
     }, {
-      tag: "header",
-      h3: copy.get("optional"),
+      class: "optional",
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }, {
       class: "optional",
-      h4: copy.next(),
-      p: versify(copy.next()),
-    }, {
-      class: "optional",
-      h4: copy.next(),
-      p: versify(copy.next()),
-    }, {
-      class: "optional",
-      h4: copy.next(),
+      h5: copy.next(),
       p: versify(copy.next()),
     }],
   },
@@ -262,7 +263,7 @@ export const POPPER = new Pager({
       attributes: {
         width: "100%",
         height: 315,
-        src: Copy.lang === Copy.LANG.ES.code ? "https://www.youtube.com/embed/8pG2yxqUMC0?si=A3_b6yIdTcc25p86" : "https://www.youtube.com/embed/NO_Qbwml-I8?si=cHY_W43SBXr93F4g",
+        src: Copy.lang === Copy.LANG.ES.code ? "https://www.youtube.com/embed/8pG2yxqUMC0?si=A3_b6yIdTcc25p86" : "https://www.youtube.com/embed/p3rG3GI0S_E?si=x3335Hk_uLaZZ6aS",
         title: "YouTube video player",
         frameborder: 0,
         allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",

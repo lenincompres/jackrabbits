@@ -166,8 +166,8 @@ copy.add("setup", [{
     en cientos de maneras diferentes.`,
   en: `To play a <b>jack rabbits</b>' match,
     you must first complete a board;
-    build a random map from scratch—
-    a new land to be explored.`,
+    build a random land from scratch—
+    a new map to be explored.`,
 }, {
   es: `El reino de las cartas y sus templos
     se ensambla con terrenos aleatorios;
@@ -622,11 +622,7 @@ copy.add("full", [{
   es: "Canjear en las plazas J",
   en: "Trade at Jack Plazas",
 }, {
-  es: "+ Canjes Individuales",
-  en: "+ Individual Trades",
-}, {
-  es: [
-    `Comercia en los <i>hexágonos de ventas</i>
+  es: `Comercia en los <i>hexágonos de ventas</i>
     con flechas que sugieren intercambio:
     en estos, los diamantes se canjean 
     por cartas descartadas de su palo,
@@ -634,15 +630,7 @@ copy.add("full", [{
     que acepta de cualquiera por el pago.
     Recuerda que la pila se renueva
     con cartas que abandonan el mercado.`,
-    `Es válido el <i>comercio por diamantes</i>
-    con alguien en el sitio que te encuentras,
-    si mientras el negocio se debate,
-    se ocultan en las manos las ofertas.
-    A quien se le descubra por chantaje,
-    después del intercambio se destierra.`,
-  ],
-  en: [
-    `All spent cards are being sold;
+  en: `All spent cards are being sold;
     each jack's hex sells its own suit.
     Check what these posts have in store—
     when you play there, grab some loot.
@@ -652,13 +640,22 @@ copy.add("full", [{
     means that any suit will do.
     When the pile needs to reload,
     these markets run out of goods.`,
-    `Players you meet on the board
+}, {
+  es: "+ Canjes Individuales",
+  en: "+ Individual Trades",
+}, {
+  es: `Es válido el <i>comercio por diamantes</i>
+    con alguien en el sitio que te encuentras,
+    si mientras el negocio se debate,
+    se ocultan en las manos las ofertas.
+    A quien se le descubra por chantaje,
+    después del intercambio se destierra.`,
+  en: `Players you meet on the board
     may possess cards that you covet;
     you may buy or sell for gold,
     without showing what is offered.
     Swindlers will get thrown off-board
     if a short change is uncovered.`,
-  ]
 }, {
   es: `Renueva tus partidas habituales
     jugando con las <a href="#optional">reglas <b>opcionales</b></a>.`,
@@ -791,8 +788,8 @@ copy.add("optional", [{
     se añaden al destino de los vuelos;
     podrás aterrizar en los hexágonos,
     excepto por supuesto en el subsuelo.`,
-  en: `When you fly from any tower
-    there're more places to touch down;
+  en: `The flights found at any tower
+    have more places to touch down;
     you may reach—with the clubs' power—
     any hex above the ground.`,
 }, {
@@ -805,7 +802,7 @@ copy.add("optional", [{
     acusan a cualquiera al infiltrarse.`,
   en: `At royal houses you've entered,
     display hearts before you rest—
-    the sum of six, as expected,
+    the sum of six, as expected—
     to accuse unwelcome guests.`,
 }, {
   es: "Rastro de zanahorias",
