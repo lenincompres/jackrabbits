@@ -166,8 +166,8 @@ copy.add("setup", [{
     en cientos de maneras diferentes.`,
   en: `To play a <b>jack rabbits</b>' match,
     you must first complete a board;
-    build a wonderland from scratch—
-    a new map to be explored.`,
+    build a random map from scratch—
+    a new land to be explored.`,
 }, {
   es: `El reino de las cartas y sus templos
     se ensambla con terrenos aleatorios;
