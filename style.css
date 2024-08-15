@@ -361,7 +361,7 @@ body>main {
 }
 
 #pageArticle {
-  padding: 0.5rem 0;
+  padding: 0.5rem 0 1.5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -373,7 +373,7 @@ body>main {
 #pageArticle>footer {
   width: 100%;
   padding: 1rem;
-  margin: 1.5rem;
+  margin: 1rem 2rem 0;
   border: solid 1.7px black;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;

@@ -720,7 +720,7 @@ copy.add("optional", [{
     Clubs: for tower flying passes—
     shortfall's paid in any suit.`,
 }, {
-  es: "Palos Cortos",
+  es: "Palos Justos",
   en: "Tight Suits",
 }, {
   es: `Se juega con un palo por conejo
@@ -732,8 +732,8 @@ copy.add("optional", [{
     for instance, with three contenders,
     remove a set and a suit.`,
 }, {
-  es: "Reino Urbano",
-  en: "Urban Kingdom",
+  es: "Tablero Urbano",
+  en: "Urban Board",
 }, {
   es: `Conecta los hexágonos directo,
   y olvídate <a class="pop" onclick="popUp('roadTiles')">de rombos y de triángulos</a>;
@@ -744,8 +744,8 @@ copy.add("optional", [{
   connecting hexes directly
   and removing <a class="pop" onclick="popUp('roadTiles')">smaller tiles</a>.`,
 }, {
-  es: "Lluvia de premios",
-  en: "Windfall of prizes",
+  es: "Lotería Ilimitada",
+  en: "Limitless Lottery",
 }, {
   es: `Permite reclamar <b>la lotería</b>
     por múltiples aciertos y regalos,
@@ -805,8 +805,8 @@ copy.add("optional", [{
     the sum of six, as expected—
     to accuse unwelcome guests.`,
 }, {
-  es: "Rastro de zanahorias",
-  en: "Trail of Carrots",
+  es: "Zanahorias ventajosas",
+  en: "Trailing Carrots",
 }, {
   es: `Podrás incrementar <b>la travesía</b>
     si está tu zanahoria en un lugar;
