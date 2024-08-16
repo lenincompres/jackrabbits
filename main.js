@@ -82,7 +82,7 @@ DOM.set({
       target: "_blank",
     }, {
       text: copy.next(),
-      href: Copy.lang === Copy.LANG.ES.code ? 'https://sites.google.com/view/masallaterrafirma' : "https://www.yonderlands.net",
+      href: `https://${Copy.lang === Copy.LANG.ES.code ? 'terrafirma' : 'www'}.yonderlands.net`,
       target: "_blank",
     }),
     //ready: e => popUp("mailingList"),
