@@ -687,26 +687,26 @@ copy.add("optional", [{
   es: "Ases capitales",
   en: "capital Aces",
 }, {
-  es: `El <i><b>A</b>s</i> que de primero desembolses,
+  es: `El <b>A</b>s que de primero desembolses,
     descártalo y consérvalo en tu frente;
     pues éste se valora por un <b>11</b>
     y solo por un <b>1</b> tus siguientes.`,
-  en: `Your first <i><b>A</b>ce</i> is worth <b>11</b>—
+  en: `Your first <b>A</b>ce is worth <b>11</b>—
     the others you spend are <b>1</b>s.
     As a record that it's spent then, 
     keep it in front of your hands.`,
 }, {
-  es: "Capital adicional",
+  es: "Capitales adicionales",
   en: "Additional capital",
 }, {
-  es: `Recibe un complemento adicional
-    del <b>A</b>s que desembolsas en tu frente;
-    la cuenta de su palo es opcional
-    y vale por un <b>1</b> permanente.`,
-  en: `Get an additional tip
-    after spending your first <b>A</b>ce;
-    it counts as one extra pip
-    when needed at any place.`,
+  es: `Los <b>A</b>ces capitales que se exponen
+    se cuentan por un <b>1</b> permanente;
+    si el palo que precisas corresponde,
+    lo añades del que tienes en tu frente.`,
+  en: `Playing your capital <b>A</b>ce
+    will grant you a bonus tip:
+    when needed at any place,
+    it counts as one extra pip.`,
 }, {
   es: `<a class="pop" onclick="popUp('advancedCitadel')">Ciudadela Avanzada</a>`,
   en: `<a class="pop" onclick="popUp('advancedCitadel')">advanced citadel</a>`,
@@ -737,8 +737,8 @@ copy.add("optional", [{
 }, {
   es: `Conecta los hexágonos directo,
   y olvídate <a class="pop" onclick="popUp('roadTiles')">de rombos y de triángulos</a>;
-  la falta de traslado en tus trayectos
-  hará se incrementen los obstáculos.`,
+  la falta de traslado en los trayectos
+  hará que se incrementen los obstáculos.`,
   en: `To play this version correctly,
   make a land of shorter miles,
   connecting hexes directly
