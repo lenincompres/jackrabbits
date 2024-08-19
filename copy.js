@@ -782,7 +782,7 @@ copy.add("optional", [{
     `,
 }, {
   es: "Vuelos Residenciales",
-  en: "Recidential flights",
+  en: "Residential flights",
 }, {
   es: `Las plazas, ciudadela y los palacios
     se añaden al destino de los vuelos;
