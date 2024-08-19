@@ -756,8 +756,8 @@ copy.add("optional", [{
     whether cards that match the dice,
     or a roll of double digits.`,
 }, {
-  es: "Manos Mínimas",
-  en: "short hands",
+  es: "Manos Ligeras",
+  en: "Light hands",
 }, {
   es: `Las cartas en tu mano y su manejo
     te retan en un juego de escasez,
