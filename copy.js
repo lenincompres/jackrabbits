@@ -696,8 +696,8 @@ copy.add("optional", [{
     As a record that it's spent then, 
     keep it in front of your hands.`,
 }, {
-  es: "Ases capitales adicionales",
-  en: "Additional capital Aces",
+  es: "Capital adicional",
+  en: "Additional capital",
 }, {
   es: `Recibe un complemento adicional
     del <b>A</b>s que desembolsas en tu frente;
