@@ -744,8 +744,8 @@ copy.add("optional", [{
   connecting hexes directly
   and removing <a class="pop" onclick="popUp('roadTiles')">smaller tiles</a>.`,
 }, {
-  es: "Lotería Ilimitada",
-  en: "Limitless Lottery",
+  es: "Lotería Gorda",
+  en: "Windfall Lottery",
 }, {
   es: `Permite reclamar <b>la lotería</b>
     por múltiples aciertos y regalos,
