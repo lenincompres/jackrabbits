@@ -801,8 +801,8 @@ copy.add("optional", [{
     tu mínimo de seis reglamentarios
     acusan a cualquiera al infiltrarse.`,
   en: `At royal houses you've entered,
-    display hearts before you rest—
-    the sum of six, as expected—
+    display hearts before you rest;
+    show the sum of six expected
     to accuse unwelcome guests.`,
 }, {
   es: "Zanahorias ventajosas",
