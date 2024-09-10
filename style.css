@@ -151,6 +151,7 @@ a[target="_blank"]::after {
 }
 
 a.video, a.buy {
+  display: inline-block;
   margin: 0 auto;
   width: fit-content;
   color: var(--home);
