@@ -14,6 +14,7 @@
   --intro: #daf3ea;
   --full: #eddded;
   --more: #e8d6c4;
+  --dark: #d2d5b2;
 }
 
 html {
@@ -150,7 +151,8 @@ a[target="_blank"]::after {
   display: inline-block;
 }
 
-a.video, a.buy {
+a.video,
+a.buy {
   display: inline-block;
   margin: 0 auto;
   width: fit-content;
@@ -223,6 +225,17 @@ html[lang="es"] i::before {
 
 html[lang="es"] i::after {
   content: "»";
+}
+
+body>aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  padding: 2rem 1rem 0;
+  margin: 1rem;
+  box-shadow: 0 0 3px var(--dak);
+  border-radius: 0.5rem;
 }
 
 body>header a {
@@ -371,6 +384,7 @@ body>main {
 }
 
 #pageArticle>header,
+#pageArticle .heading,
 #pageArticle>footer {
   width: 100%;
   padding: 1rem;
@@ -439,7 +453,7 @@ body>footer {
   justify-content: center;
 }
 
-.bulletMenu>ul a.selected{
+.bulletMenu>ul a.selected {
   color: #555;
   pointer-events: none;
 }
@@ -469,7 +483,7 @@ light-box>main>a {
   right: 1rem;
   padding: 0.7rem;
   margin: -1rem;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: white;
   z-index: 110;
   border-radius: 2em;
   -webkit-border-radius: 2em;
@@ -485,4 +499,15 @@ light-box>main>a:hover {
 section.optional {
   background-color: rgba(255, 255, 255, 0.5);
   margin: 0.5rem 1.5rem !important;
+}
+
+.em-dash {
+  display: inline-block;
+  overflow: hidden;
+  width: 0.7em;
+  height: 1em;
+}
+
+.em-dash::before {
+  content: "—";
 }

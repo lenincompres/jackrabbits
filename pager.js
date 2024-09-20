@@ -314,6 +314,8 @@ export const POPPER = new Pager({
     h2: copy.next(),
     p: copy.next(),
     iframe: {
+      width: "100%",
+      height: "13rem",
       src: "../mailinglist.html",
     }
   },
@@ -328,7 +330,7 @@ export const POPPER = new Pager({
     iframe: {
       src: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       width: "100%",
-      height: "45rem",
+      height: "50rem",
     }
   }
 });

@@ -66,7 +66,7 @@ copy.add("home", [{
     `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure royals to be ordained as the council of thirds. This is the highest order a rabbit of this order can get:`,
     `<strong>Visit the noble houses, acquire the cards of three royals, and bring them to the citadel</strong>, in that order.`,
     `Note that when I say <i>that order</i>, I am not referring to another order</br>of messenger rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to restore order to the realm.`,
-    `So, hoppity hop, in orderly fashion. Don't dawdle—no time to lose!`,
+    `So, hoppity hop, in orderly fashion. Don't dawdle. No time to lose!`,
     `The White Herald`,
   ]
 }, {
@@ -976,8 +976,8 @@ copy.add("popup", [{
   es: "Listado de correo",
   en: "Mailing list",
 }, {
-  es: "Nos gustaría contar con tu apoyo en la campaña para producir la primera edición de <b>JACK RABBITS</b>. Te avísaremos cuando esté lista.",
-  en: "We would love your support on the campaign we'll launch for the first edition of <b>JACK RABBITS</b>. We'll notify you once it's ready."
+  es: "Nos gustaría contar con tu apoyo en la campaña que lanzaremos pronto. Te avísaremos cuando esté lista.",
+  en: "We would love your support on the campaign we will launch. We'll notify you once it's ready."
 }]);
 
 

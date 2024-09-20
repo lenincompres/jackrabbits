@@ -49,20 +49,26 @@ class Copy {
     }
     this.key = key;
     let lang = this.lang;
-    if (val[lang]) return val[lang];
-    if (typeof val === "string") return val;
+    if (val[lang]) return Copy.treat(val[lang]);
+    if (typeof val === "string") return Copy.treat(val);
     if (!Array.isArray(val)) {
       console.error(`Language "${lang}" not found in copy at "${key}".`);
-      return val[Object.keys(val)[0]];
+      return Copy.treat(val[Object.keys(val)[0]]);
     }
     if (i === undefined) i = 0;
     val = val[i];
     if (val === undefined) return "";
     this.counter[key] = i;
-    if (val[lang]) return val[lang];
-    if (typeof val === "string") return val;
+    if (val[lang]) return Copy.treat(val[lang]);
+    if (typeof val === "string") return Copy.treat(val);
     console.error(`Language "${lang}" not found in copy at "${key}[${i}]".`);
-    return val[Object.keys(val)[0]];
+    return Copy.treat(val[Object.keys(val)[0]]);
+  }
+
+  static treat(s){
+    if(!s) return s;
+    if(Array.isArray(s)) return s.map(i => Copy.treat(i));
+    return s.replaceAll('—', '<em class="em-dash">--</em>');
   }
 
   next() {

@@ -2,7 +2,6 @@ import {
   listLinks,
   versify
 } from "./auxiliary.js";
-import Pager from "./classes/Pager.js";
 import LightBox from "./classes/LightBox.js";
 import * as PAGE from "./pager.js";
 import Copy from "./classes/Copy.js";
@@ -40,6 +39,16 @@ DOM.set({
       text: lang.name,
       click: e => Copy.lang = lang.code,
     }))),
+  },
+
+  aside: {
+    img:{
+      margin: '1rem',
+      width: '12rem',
+      height: '13rem',
+      src: 'https://i.etsystatic.com/52679041/r/il/c0dc16/6069187861/il_794xN.6069187861_a4dz.jpg',
+    },
+    main: PAGE.POPPER.map['mailingList'],
   },
 
   main: {
