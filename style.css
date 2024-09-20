@@ -233,7 +233,7 @@ body>aside {
   justify-content: center;
   background-color: white;
   padding: 2rem 1rem 0;
-  margin: 1rem;
+  margin: 1.5rem 0 2rem;
   box-shadow: 0 0 3px var(--dak);
   border-radius: 0.5rem;
 }
