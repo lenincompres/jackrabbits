@@ -20,8 +20,8 @@ copy.add("header", [{
 }]);
 
 copy.add("footer", [{
-  es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a>
-    y apoya la campaña que tendremos.`,
+  es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a> 
+  y apoya la campaña que tendremos.`,
   en: `Join the <a class="pop" onclick="popUp('mailingList')"><b>List</b></a> on this domain,
   and stay tuned for our campaign.`,
 }, {
@@ -828,8 +828,8 @@ copy.add("more", [{
   es: "Listado de correo",
   en: `Mailing list`,
 }, {
-  es: "Apoyar la campaña para la primera edición industrial. Ya te avísaremos.",
-  en: `Support the campaign for the first industrial edition. We'll notify you soon.`
+  es: "Aquí te podemos avisar sobre nuestra campana de lanzamiento.",
+  en: `Here we can let you know more about our launch campaign.`
 }, {
   es: "Versión virtual",
   en: "Virtual version"
@@ -976,7 +976,7 @@ copy.add("popup", [{
   es: "Listado de correo",
   en: "Mailing list",
 }, {
-  es: "Lenino se está preparando la campaña de lanzamiento de <b>Jack Rabbits</b>. Te podemos avisar cuando esté lista.",
+  es: "Lenino está preparando la campaña de lanzamiento de <b>Jack Rabbits</b>. Te podemos avisar cuando esté lista.",
   en: "Lenino is getting ready to launch a  <b>Jack Rabbits</b> campaign. We can notify you once it's ready."
 }]);
 

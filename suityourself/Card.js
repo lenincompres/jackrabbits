@@ -105,11 +105,11 @@ class Card extends HTMLElement {
           borderColor: this.suit.color + "!important",
           content: [{
             style: this._canAdd.as(BUTTON_STYLE.DISABLED, BUTTON_STYLE.ENABLED(this.suit.color)),
-            text: "+1",
+            text: "+",
             click: e => this.canAdd ? this.number += 1 : null,
           }, {
             style: this._number.as(v => v > Card.MIN, BUTTON_STYLE.DISABLED, BUTTON_STYLE.ENABLED(this.suit.color)),
-            text: "-1",
+            text: "-",
             click: e => this.number -= 1,
           }]
         }

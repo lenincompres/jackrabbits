@@ -16,8 +16,8 @@ class TEXT {
     es: "Tu ",
   }
   static CARD_HINTS = [{
-      en: "Use +1 and -1 to change the value.",
-      es: "Usa +1 y -1 para cambiar el valor.",
+      en: "Use + and - to change the value.",
+      es: "Usa + y - para cambiar el valor.",
     },
     {
       en: "See the pips available below.",
@@ -41,8 +41,8 @@ class TEXT {
     es: "continuar",
   }
   static WHEN_READY = {
-    en: `Increase the cards at will using the (+1) buttons, and click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
-    es: `Distribuye todos los puntos para incrementar el valor de las cartas como las prefieras y luego presiona <b>${TEXT.NEXT.es}</b>.`,
+    en: `Increase the cards at will using their (+) buttons, and click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
+    es: `Distribuye los puntos para incrementar (+) el valor de las cartas a tu gusto y luego presiona <b>${TEXT.NEXT.es}</b>.`,
   }
   static BEGIN = {
     en: "begin",
