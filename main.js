@@ -8,7 +8,7 @@ import Copy from "./classes/Copy.js";
 import copy from "./copy.js";
 
 const navLinks = ["setup", "intro", "full", "more"];
-/* test comment */
+
 let lightBox = new LightBox(PAGE.POPPER);
 window.popUp = key => lightBox.open(key);
 
