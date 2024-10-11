@@ -977,7 +977,7 @@ copy.add("popup", [{
   en: "Mailing list",
 }, {
   es: "Lenino está preparando una campaña para <b>Jack Rabbits</b> y puede avisarte cuando esté lista.",
-  en: "Lenino is preparing a launch campaign for  <b>Jack Rabbits</b>, and can notify you when it's ready."
+  en: "Lenino is preparing a launch campaign for <b>Jack Rabbits</b>, and can notify you when it's ready."
 }]);
 
 
