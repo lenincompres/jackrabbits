@@ -788,8 +788,8 @@ copy.add("optional", [{
     se añaden al destino de los vuelos;
     podrás aterrizar en los hexágonos,
     excepto por supuesto en el subsuelo.`,
-  en: `The flights found at any tower
-    have more places to touch down;
+  en: `When flying from any tower, 
+    there're more places to touch down;
     you may reach—with the clubs' power—
     any hex above the ground.`,
 }, {
@@ -800,9 +800,9 @@ copy.add("optional", [{
     si exhibes corazones al pararte:
     tu mínimo de seis reglamentarios
     acusan a cualquiera al infiltrarse.`,
-  en: `At royal houses you've entered,
-    display hearts before you rest;
-    show the sum of six expected
+  en: `Display a sum of six hearts
+    at any house where you'll rest, 
+    declaring you'll use these cards
     to accuse unwelcome guests.`,
 }, {
   es: "Zanahorias ventajosas",
