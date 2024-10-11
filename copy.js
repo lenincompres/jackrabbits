@@ -789,7 +789,7 @@ copy.add("optional", [{
     podrás aterrizar en los hexágonos,
     excepto por supuesto en el subsuelo.`,
   en: `When flying from any tower, 
-    You've more places to touch down;
+    there're more places to touch down;
     you may reach—with the clubs' power—
     any hex above the ground.`,
 }, {
