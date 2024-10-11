@@ -715,9 +715,9 @@ copy.add("optional", [{
     canjeas lo que quieras con diamantes;
     y puedes con tus tréboles volar,
     con palos cualesquiera de restante.`,
-  en: `Hearts: as in palaces' access.
-    Diamonds: to buy any loot. 
-    Clubs: for tower flying passes—
+  en: `Uses hearts, like a palace's access;
+    diamonds, to sell any loot; 
+    and clubs, to get flying passes—
     shortfall's paid in any suit.`,
 }, {
   es: "Palos Justos",
@@ -747,12 +747,12 @@ copy.add("optional", [{
   es: "Lotería Gorda",
   en: "Windfall Lottery",
 }, {
-  es: `Permite reclamar <b>la lotería</b>
+  es: `Permite reclamar la lotería
     por múltiples aciertos y regalos,
     ya sea con las cartas que validas
     o incluso con un doble de los dados.`,
   en: `You may win more than one prize,
-    <b>the lottery</b> has no limits—
+    the lottery has no limits—
     whether cards that match the dice,
     or a roll of double digits.`,
 }, {
@@ -802,17 +802,17 @@ copy.add("optional", [{
     acusan a cualquiera al infiltrarse.`,
   en: `Display a sum of six hearts
     at any house where you'll rest, 
-    declaring you'll use these cards
+    announcing you'll use these cards
     to accuse unwelcome guests.`,
 }, {
   es: "Zanahorias ventajosas",
   en: "Trailing Carrots",
 }, {
-  es: `Podrás incrementar <b>la travesía</b>
+  es: `Podrás incrementar la travesía
     si está tu zanahoria en un lugar;
     pues puedes, en el turno que visitas,
     salirte sin parar a descansar.`,
-  en: `<b>The journey</b> may be prolonged
+  en: `The journey may be prolonged
     if your carrot's on a hex;
     you may visit and go on
     to the place you're headed next.`,
