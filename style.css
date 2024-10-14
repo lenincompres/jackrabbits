@@ -234,7 +234,7 @@ body>aside {
   background-color: white;
   padding: 2rem 1rem 0;
   margin: 1.5rem 0 2rem;
-  box-shadow: 0 0 3px var(--dak);
+  box-shadow: 1px 1px 3px black;
   border-radius: 0.5rem;
 }
 
@@ -498,7 +498,15 @@ light-box>main>a:hover {
 
 section.optional {
   background-color: rgba(255, 255, 255, 0.5);
-  margin: 0.5rem 1.5rem !important;
+  margin: 0.5rem !important;
+}
+
+section.optional h4 {
+  margin-bottom: 0.7em;
+}
+
+section.optional h5:before {
+  content: "+ ";
 }
 
 .em-dash {

@@ -524,14 +524,14 @@ copy.add("full", [{
     yet keep your card anywise.
     And <b>the lottery</b> still holds:
     you may match and claim the prize.`,
-    `If you pay to meet the dice,
-    you'll still fly and won't fall off.
-    The price needed to suffice
-    is the <i>shortfall</i> (what you're off).`,
-    `Suits from the departing tower 
-    must be used to pay what’s owed. 
-    The clubs’ tower grants more power: 
-    you may spend the card you showed.`,
+    `You'll still fly and won't fall off
+    if you pay to meet the dice,
+    so the “shortfall” (what you're off)
+    is the price that will suffice.
+    The suit used for this payoff
+    must be from the flight's device.
+    You may trade the passport off
+    to pay the club tower's price.`,
   ]
 }, {
   es: "Picas <small>(Espadas)</small>",
@@ -664,13 +664,16 @@ copy.add("full", [{
 }]);
 
 copy.add("optional", [{
-  es: "+ Reglas Opcionales",
-  en: "+ Optional Rules",
+  es: "Reglas Opcionales",
+  en: "Optional Rules",
 }, {
   es: `Renueva tus partidas habituales,
   jugando con las reglas opcionales.`,
   en: `Once you have gone through the motions,
   you may consider these options.`,
+}, {
+  es: "Ases",
+  en: "Aces",
 }, {
   es: "Ases Ambivalentes",
   en: "Ambivalent Aces",
@@ -707,6 +710,9 @@ copy.add("optional", [{
     will grant you a bonus tip:
     when needed at any place,
     it counts as one extra pip.`,
+  }, {
+    es: "Piezas",
+    en: "Tiles",
 }, {
   es: `<a class="pop" onclick="popUp('advancedCitadel')">Ciudadela Avanzada</a>`,
   en: `<a class="pop" onclick="popUp('advancedCitadel')">advanced citadel</a>`,
@@ -715,7 +721,7 @@ copy.add("optional", [{
     canjeas lo que quieras con diamantes;
     y puedes con tus tréboles volar,
     con palos cualesquiera de restante.`,
-  en: `Uses hearts, like a palace's access;
+  en: `Use hearts, like a palace's access;
     diamonds, to sell any loot; 
     and clubs, to get flying passes—
     shortfall's paid in any suit.`,
@@ -728,7 +734,7 @@ copy.add("optional", [{
     con tres participantes, por ejemplo,
     un palo se elimina con un set.`,
   en: `Have as many suits as players,
-    and <a class="pop" onclick="popUp('roadTiles')">one of each road tiles</a> too;
+    and one of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too;
     for instance, with three contenders,
     remove a set and a suit.`,
 }, {
@@ -742,7 +748,49 @@ copy.add("optional", [{
   en: `To play this version correctly,
   make a land of shorter miles,
   connecting hexes directly
-  and removing <a class="pop" onclick="popUp('roadTiles')">smaller tiles</a>.`,
+  and removing all <a class="pop" onclick="popUp('roadTiles')">road tiles</a>.`,
+}, {
+  es: "Estrategias",
+  en: "Estrategies",
+}, {
+  es: "Vuelos Residenciales",
+  en: "Residential flights",
+}, {
+  es: `Las plazas, ciudadela y los palacios
+    se añaden al destino de los vuelos;
+    podrás aterrizar en los hexágonos,
+    excepto por supuesto en el subsuelo.`,
+  en: `When flying from any tower, 
+    there're more places to touch down;
+    you may reach—with the clubs' power—
+    any hex above the ground.`,
+}, {
+  es: "Palacios Provisionales",
+  en: "Provisional Palaces",
+}, {
+  es: `Conviertes residencias en palacios
+    si exhibes corazones al pararte:
+    tu mínimo de seis reglamentarios
+    acusan a cualquiera al infiltrarse.`,
+  en: `Display a sum of six hearts
+    at any house where you'll rest, 
+    announcing you'll use these cards
+    to accuse incoming guests.`,
+}, {
+  es: "Zanahorias ventajosas",
+  en: "Trailing Carrots",
+}, {
+  es: `Podrás incrementar la travesía
+    si está tu zanahoria en un lugar;
+    pues puedes, en el turno que visitas,
+    salirte sin parar a descansar.`,
+  en: `The journey may be prolonged
+    if your carrot's on a hex;
+    you may visit and go on
+    to the place you're headed next.`,
+  }, {
+    es: "Cartas",
+    en: "Cards",
 }, {
   es: "Lotería Gorda",
   en: "Windfall Lottery",
@@ -780,42 +828,6 @@ copy.add("optional", [{
     from <b>14</b> down to <b>11</b>,
     for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack.
     `,
-}, {
-  es: "Vuelos Residenciales",
-  en: "Residential flights",
-}, {
-  es: `Las plazas, ciudadela y los palacios
-    se añaden al destino de los vuelos;
-    podrás aterrizar en los hexágonos,
-    excepto por supuesto en el subsuelo.`,
-  en: `When flying from any tower, 
-    there're more places to touch down;
-    you may reach—with the clubs' power—
-    any hex above the ground.`,
-}, {
-  es: "Palacios Provisionales",
-  en: "Provisional Palaces",
-}, {
-  es: `Conviertes residencias en palacios
-    si exhibes corazones al pararte:
-    tu mínimo de seis reglamentarios
-    acusan a cualquiera al infiltrarse.`,
-  en: `Display a sum of six hearts
-    at any house where you'll rest, 
-    announcing you'll use these cards
-    to accuse unwelcome guests.`,
-}, {
-  es: "Zanahorias ventajosas",
-  en: "Trailing Carrots",
-}, {
-  es: `Podrás incrementar la travesía
-    si está tu zanahoria en un lugar;
-    pues puedes, en el turno que visitas,
-    salirte sin parar a descansar.`,
-  en: `The journey may be prolonged
-    if your carrot's on a hex;
-    you may visit and go on
-    to the place you're headed next.`,
 }]);
 
 copy.add("more", [{
