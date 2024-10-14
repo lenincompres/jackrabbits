@@ -721,7 +721,7 @@ copy.add("optional", [{
     canjeas lo que quieras con diamantes;
     y puedes con tus tréboles volar,
     con palos cualesquiera de restante.`,
-  en: `Use hearts, like a palace's access;
+  en: `Use hearts, for granting your access;
     diamonds, to sell any loot; 
     and clubs, to get flying passes—
     shortfall's paid in any suit.`,
