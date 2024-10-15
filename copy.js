@@ -525,11 +525,11 @@ copy.add("full", [{
     And <b>the lottery</b> still holds:
     you may match and claim the prize.`,
     `You'll still fly and won't fall off
-    if you pay to meet the dice,
-    so the “shortfall” (what you're off)
+    if you pay to meet the dice.
+    The “shortfall” (how much you're off)
     is the price that will suffice.
-    The suit used for this payoff
-    must be from the flight's device.
+    Pay with suits from the takeoff:
+    the hex that flies the device.
     You may trade the passport off
     to pay the club tower's price.`,
   ]
@@ -804,14 +804,14 @@ copy.add("optional", [{
     whether cards that match the dice,
     or a roll of double digits.`,
 }, {
-  es: "Manos Ligeras",
-  en: "Light hands",
+  es: "Manos Extralimitadas",
+  en: "Overtaxed Hands",
 }, {
   es: `Las cartas en tu mano y su manejo
     te retan en un juego de escasez,
     pues cuentas con un límite pequeño
     cargando con un máximo de seis.`,
-  en: `Your hand of cards will be slender,
+  en: `The cap on your cards is slender,
     up to six to hold on to.
     Plan to be a wiser spender
     on the quest that you pursue.`,
