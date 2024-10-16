@@ -715,14 +715,14 @@ copy.add("optional", [{
     en: "Tiles",
 }, {
   es: `<a class="pop" onclick="popUp('advancedCitadel')">Ciudadela Avanzada</a>`,
-  en: `<a class="pop" onclick="popUp('advancedCitadel')">advanced citadel</a>`,
+  en: `<a class="pop" onclick="popUp('advancedCitadel')">Advanced Citadel</a>`,
 }, {
   es: `Se esperan corazones al entrar;
     canjeas lo que quieras con diamantes;
     y puedes con tus tréboles volar,
     con palos cualesquiera de restante.`,
-  en: `Use hearts, for granting your access;
-    diamonds, to sell any loot; 
+  en: `Use your hearts to demand access;
+    diamonds, to buy any loot; 
     and clubs, to get flying passes—
     shortfall's paid in any suit.`,
 }, {
@@ -880,7 +880,7 @@ copy.add("popup", [{
     to reach caves in the next round.`
 }, {
   es: "Ciudadela Avanzada",
-  en: "Advanced citadel",
+  en: "Advanced Citadel",
 }, {
   es: `La ficha del inicio es reforzada:
     con torre, con palacio y con su plaza.`,
