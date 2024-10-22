@@ -68,6 +68,7 @@ class Copy {
   static treat(s){
     if(!s) return s;
     if(Array.isArray(s)) return s.map(i => Copy.treat(i));
+    //if(s.includes('\n')) return Copy.treat(s.split('\n'));
     return s.replaceAll('—', '<em class="em-dash">--</em>');
   }
 

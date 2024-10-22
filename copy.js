@@ -27,10 +27,9 @@ copy.add("footer", [{
 }, {
   es: "Compra el juego",
   en: "Buy the game",
-}, {
-  es: "Instagram",
-  en: "Instagram",
-}, {
+}, 
+"Instagram", 
+{
   es: "Versión virtual",
   en: "Virtual version",
 }, {
