@@ -4,12 +4,13 @@ class LightBox extends HTMLElement {
   constructor(content) {
     super();
     
-    this._OPENED = new Binder(false);
+    this.binderSet("opened", false, val => DOM.set(val ? 'hidden' : 'initial', 'overflow'));
+
     this.contentElt = DOM.element();
     this.content = content;
 
     this.set({
-      display: this._OPENED.as(val => val ? "flex" : "none"),
+      display: this._opened.as(val => val ? "flex" : "none"),
       zIndex: 1000,
       backgroundColor: "rgba(0, 0, 0, 0.5)",
       position: "fixed",
@@ -36,24 +37,15 @@ class LightBox extends HTMLElement {
     });
   }
 
-  get opened(){
-    return this._OPENED.value;
-  }
-
-  set opened(bool){
-    this._OPENED.value = bool;
-    DOM.set(bool ? 'hidden' : 'initial', 'overflow');
-  }
-
   set key(key) {
     if (!this.mapper) return;
     this.mapper.key = key;
   }
 
   set content(content) {
-    if (content._MAP) {
+    if (content._map) {
       this.mapper = content;
-      this.contentElt.set(this.mapper._CONTENT, "content");
+      this.contentElt.set(this.mapper._content, "content");
       return;
     }
     this.contentElt.set(content, "content");

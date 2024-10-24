@@ -1,7 +1,7 @@
 /**
  * Creates DOM structures from a JS object (structure)
  * @author Lenin Compres <lenincompres@gmail.com>
- * @version 1.0.50
+ * @version 1.1.5
  * @repository https://github.com/lenincompres/DOM.js
  */
 
@@ -50,6 +50,8 @@ Element.prototype.set = function (model, ...args) {
   if ([undefined, "create", "assign", "model", "inner", "set"].includes(station)) station = "content";
   const STATION = station;
   station = station.toLowerCase(); // station lowercase
+  // SELECT and input exception
+  if (IS_PRIMITIVE && !model.binders && ["selectedIndex", "value"].includes(STATION)) return this[STATION] = model;
   // css exceptions
   if (STATION === "fontFace") {
     document.body.set({
@@ -81,8 +83,15 @@ Element.prototype.set = function (model, ...args) {
     else this[STATION] = e => model(e, this);
     return this;
   }
+  if (station === "binder") {
+    this.binderSet(model);
+    return this;
+  }
   if (model._bonds) model = model.bind();
   if (model.binders) {
+    if (DOM.tags.includes(STATION) && !DOM.attributes.includes(STATION)) return this.set({
+      content: model,
+    }, STATION);
     model.binders.forEach(binder => binder.bind(this, STATION, model.onvalue, model.listener, ["attribute", "attributes"].includes(station) ? station : undefined));
     return this;
   }
@@ -103,6 +112,10 @@ Element.prototype.set = function (model, ...args) {
   }
   if (["text", "innertext"].includes(station)) {
     this.innerText = model;
+    return this;
+  }
+  if (["markdown", "md"].includes(station)) {
+    this.innerHTML = model.replace(/^###### (.*$)/gim, '<h6>$1</h6>').replace(/^##### (.*$)/gim, '<h5>$1</h5>').replace(/^#### (.*$)/gim, '<h4>$1</h4>').replace(/^### (.*$)/gim, '<h3>$1</h3>').replace(/^## (.*$)/gim, '<h2>$1</h2>').replace(/^# (.*$)/gim, '<h1>$1</h1>').replace(/\*\*(.*?)\*\*/g, '<b>$1</b>').replace(/__(.*?)__/g, '<b>$1</b>').replace(/\*(.*?)\*/g, '<i>$1</i>').replace(/_(.*?)_/g, '<i>$1</i>').replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>').replace(/^\> (.*$)/gim, '<blockquote>$1</blockquote>').replace(/^\* (.*$)/gim, '<ul><li>$1</li></ul>').replace(/^\d+\. (.*$)/gim, '<ol><li>$1</li></ol>').replace(/^\s*([^\n]+)\s*$/gim, '<p>$1</p>').replace(/\n{2,}/g, '<br>').trim();
     return this;
   }
   if (["html", "innerhtml"].includes(station)) {
@@ -257,7 +270,7 @@ Element.prototype.set = function (model, ...args) {
   elt = p5Elem ? elem.elt : elem;
   if (cls.length) elt.classList.add(...cls);
   if (id) elt.setAttribute("id", id);
-  if (!argsType.boolean) this.append(elt);
+  if (argsType.boolean === undefined) this.append(elt);
   ["ready", "onready", "done", "ondone"].forEach(f => {
     if (!model[f]) return this;
     model[f](elem);
@@ -343,7 +356,7 @@ class Binder {
       let test = onvalue;
       onvalue = val => {
         val = test(val);
-        if (typeof test(val) === "boolean") val = val ? 1 : 0;
+        if (typeof val === "boolean" || isNaN(val)) val = val ? 1 : 0;
         return values[val];
       };
     } else if (model && model !== target) {
@@ -409,6 +422,26 @@ function bind(...args) {
   return DOM.bind(...args);
 }
 
+Object.prototype.binderSet = function (name, value, ...bind) {
+  if (typeof name == 'string') {
+    let _name = '_' + name;
+    this[_name] = new Binder(value);
+    Object.defineProperty(this, name, {
+      get() {
+        return this[_name].value;
+      },
+      set(val) {
+        this[_name].value = val;
+      },
+    });
+    if(bind) this[_name].bind(...bind);
+    return;
+  }
+  for (const [key, value] of Object.entries(name)) {
+    this.binderSet(key, value);
+  }
+}
+
 // global static methods to handle the DOM
 class DOM {
   // returns value based on 
@@ -420,7 +453,6 @@ class DOM {
     // checks if the station belongs to the head
     DOM.headTags.includes(station.toLowerCase()) ? document.head.get(station) : document.body.get(station);
   }
-  static create = (...args) => DOM.set(...args);
   // create elements based on an object model
   static set(model = "", ...args) {
     if (!args.includes("css") && !window.DOM_RESETTED) {
@@ -475,8 +507,9 @@ class DOM {
     // waits for the body to load
     window.addEventListener("load", _ => document.body.set(model, ...args));
   }
+  static create = (...args) => DOM.set(...args);
   // returns a new element without appending it to the DOM
-  static element = (model, tag = "section") => DOM.set(model, tag, true);
+  static element = (model, tag = "section") => DOM.set(model, tag, false);
   // returns a new binder
   static binder(value, ...args) {
     let binder = new Binder(value);
@@ -546,6 +579,9 @@ class DOM {
   // returns html based on a model
   static html = (model, tag = "section") => !model ? null : (model.tagName ? model : DOM.element(model, tag)).outerHTML;
   // returns querystring as a structural object 
+  static get queryString() {
+    return DOM.querystring();
+  }
   static querystring = () => {
     var qs = location.search.substring(1);
     if (!qs) return Object();
@@ -556,7 +592,7 @@ class DOM {
     return qs.split("/");
   }
   static addID = (id, elt) => {
-    if(!isNaN(id)) return console.error("ID's should not be numeric. id: " + id);
+    if (!isNaN(id)) return console.error("ID's should not be numeric. id: " + id);
     if (elt.tagName) elt.setAttribute("id", id);
     if (Array.isArray(elt)) return elt.forEach(e => DOM.addID(id, e));
     if (!window[id]) return window[id] = elt;
@@ -612,6 +648,7 @@ class DOM {
   }).replace(/\s+/g, '');
   static unCamelize = (str, char = "-") => str.replace(/([A-Z])/g, char + "$1").toLowerCase();
   static isStyle = (str, elt) => ((elt ? elt : document.body ? document.body : document.createElement("section")).style)[str] !== undefined;
+  static tags = ["a", "abbr", "address", "area", "article", "aside", "audio", "b", "base", "bdi", "bdo", "blockquote", "body", "br", "button", "canvas", "caption", "cite", "code", "col", "colgroup", "data", "datalist", "dd", "del", "details", "dfn", "dialog", "div", "dl", "dt", "em", "embed", "fieldset", "figcaption", "figure", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hr", "html", "i", "iframe", "img", "input", "ins", "kbd", "label", "legend", "li", "link", "main", "map", "mark", "meta", "meter", "nav", "noscript", "object", "ol", "optgroup", "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "script", "section", "select", "small", "source", "span", "strong", "style", "sub", "summary", "sup", "svg", "table", "tbody", "td", "template", "textarea", "tfoot", "th", "thead", "time", "title", "tr", "track", "u", "ul", "var", "video", "wbr"];
   static events = ["abort", "afterprint", "animationend", "animationiteration", "animationstart", "beforeprint", "beforeunload", "blur", "canplay", "canplaythrough", "change", "click", "contextmenu", "copy", "cut", "dblclick", "drag", "dragend", "dragenter", "dragleave", "dragover", "dragstart", "drop", "durationchange", "ended", "error", "focus", "focusin", "focusout", "fullscreenchange", "fullscreenerror", "hashchange", "input", "invalid", "keydown", "keypress", "keyup", "load", "loadeddata", "loadedmetadata", "loadstart", "message", "mousedown", "mouseenter", "mouseleave", "mousemove", "mouseover", "mouseout", "mouseup", "offline", "online", "open", "pagehide", "pageshow", "paste", "pause", "play", "playing", "progress", "ratechange", "resize", "reset", "scroll", "search", "seeked", "seeking", "select", "show", "stalled", "submit", "suspend", "timeupdate", "toggle", "touchcancel", "touchend", "touchmove", "touchstart", "transitionend", "unload", "volumechange", "waiting", "wheel"];
   static attributes = ["accept", "accept-charset", "accesskey", "action", "align", "alt", "async", "autocomplete", "autofocus", "autoplay", "bgcolor", "border", "charset", "checked", "cite", "class", "color", "cols", "colspan", "content", "contenteditable", "controls", "coords", "data", "datetime", "default", "defer", "dir", "dirname", "disabled", "download", "draggable", "enctype", "for", "form", "formaction", "headers", "height", "hidden", "high", "href", "hreflang", "http-equiv", "id", "ismap", "kind", "lang", "list", "loop", "low", "max", "maxlength", "media", "method", "min", "multiple", "muted", "name", "novalidate", "open", "optimum", "pattern", "placeholder", "poster", "preload", "readonly", "rel", "required", "reversed", "rows", "rowspan", "sandbox", "scope", "selected", "shape", "size", "sizes", "spellcheck", "src", "srcdoc", "srclang", "srcset", "start", "step", "style", "tabindex", "target", "title", "translate", "type", "usemap", "value", "wrap", "width"];
   static pseudoClasses = ["active", "checked", "disabled", "empty", "enabled", "first-child", "last-child", "first-of-type", "focus", "hover", "in-range", "invalid", "last-of-type", "link", "only-of-type", "only-child", "optional", "out-of-range", "read-only", "read-write", "required", "root", "target", "valid", "visited", "lang", "not", "nth-child", "nth-last-child", "nth-last-of-type", "nth-of-type"];
@@ -621,7 +658,7 @@ class DOM {
   static headTags = ["meta", "link", "title", "font", "icon", "image", ...DOM.metaNames, ...DOM.htmlEquivs];
   static reserveStations = ["tag", "id", "onready", "ready", "done", "ondone"];
   static listeners = ["addevent", "addeventlistener", "eventlistener", "listener", "on"];
-  static getDocType = str => typeof str === "string" ? new Object({
+  static getDocType = str => typeof str === "string" ? ({
     css: "stylesheet",
     sass: "stylesheet/sass",
     scss: "stylesheet/scss",

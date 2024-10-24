@@ -56,10 +56,10 @@ DOM.set({
       id: "main_nav",
       content: listLinks(navLinks.map(key => ({
         class: {
-          active: PAGE.PAGER._KEY.as(p => p === key),
+          active: PAGE.PAGER._key.as(p => p === key),
         },
-        color: PAGE.PAGER._KEY.as(p => p === key ? 'black' : `var(--${key})`),
-        backgroundColor: PAGE.PAGER._KEY.as(p => p === key ? `var(--${key})` : 'black'),
+        color: PAGE.PAGER._key.as(p => p === key ? 'black' : `var(--${key})`),
+        backgroundColor: PAGE.PAGER._key.as(p => p === key ? `var(--${key})` : 'black'),
         html: copy.next(),
         href: `#${key}`,
         name: key,
@@ -67,8 +67,8 @@ DOM.set({
     },
     article: {
       id: "pageArticle",
-      backgroundColor: PAGE.PAGER._KEY.as(key => `var(--${key})`),
-      content: PAGE.PAGER._CONTENT,
+      backgroundColor: PAGE.PAGER._key.as(key => `var(--${key})`),
+      content: PAGE.PAGER._content,
     },
   },
 

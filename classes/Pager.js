@@ -7,10 +7,12 @@ class Pager {
   constructor(map, setAnchors = false) {
     this.map = map;
     this.default = Object.keys(map)[0];
-    this._SELECTED_KEY = new Binder(this.default);
+
+    this.binderSet("key", this.default, key => key === undefined ? this.hey = this.default : null);
+
     window.addEventListener("hashchange", () => this.refresh());
     this.refresh();
-    if(setAnchors) this.setAnchors();
+    if (setAnchors) this.setAnchors();
   }
 
   refresh() {
@@ -23,49 +25,36 @@ class Pager {
     if (key !== hash) setTimeout(location.href = `#${hash}`, 500);
   }
 
-  setAnchors(){
+  setAnchors() {
     DOM.set(this.keys.map(key => ({
       name: key
     })), "a");
   }
 
-  get keys(){
+  get keys() {
     return Object.keys(this.map);
   }
 
-  get entries(){
+  get entries() {
     return Object.entries(this.map);
   }
 
-  hasKey(key){
+  hasKey(key) {
     return this.keys.includes(key);
   }
 
-  filterEntries(filter = val => val){
+  filterEntries(filter = val => val) {
     return this.entries.filter(([key, val]) => filter(val));
-  }
-
-  set key(key){
-    if(key === undefined) hey = this.default;
-    this._SELECTED_KEY.value = key;
-  }
-
-  get key(){
-    return this._SELECTED_KEY.value;
   }
 
   /* Methods and getters that return binder models */
 
-  get _KEY(){
-    return this._SELECTED_KEY;
+  get _content() {
+    return this._key.as(key => this.map[key]);
   }
 
-  get _CONTENT(){
-    return this._SELECTED_KEY.as(key => this.map[key]);
-  }
-
-  _MAP(key, func = val => val){
-    return this._SELECTED_KEY.as(key => func(this.map[key]));
+  _map(key, func = val => val) {
+    return this._key.as(key => func(this.map[key]));
   }
 
 }
