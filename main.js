@@ -17,9 +17,7 @@ DOM.set({
   icon: "./images/icon.png",
   link: "style.css",
   lang: Copy.lang,
-
   lightBox: lightBox,
-
   header: {
     h1: {
       small: [{
@@ -40,7 +38,6 @@ DOM.set({
       click: e => Copy.lang = lang.code,
     }))),
   },
-
   aside: {
     img:{
       margin: '1rem',
@@ -50,7 +47,6 @@ DOM.set({
     },
     main: PAGE.POPPER.map['mailingList'],
   },
-
   main: {
     nav: {
       id: "main_nav",
@@ -71,7 +67,6 @@ DOM.set({
       content: PAGE.PAGER._content,
     },
   },
-
   footer: {
     p: versify(copy.get("footer")),
     menu_bulletMenu: listLinks({
@@ -96,5 +91,4 @@ DOM.set({
     }),
     //ready: e => popUp("mailingList"),
   },
-
 });

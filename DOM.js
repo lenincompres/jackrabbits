@@ -1,11 +1,11 @@
 /**
  * Creates DOM structures from a JS object (structure)
  * @author Lenin Compres <lenincompres@gmail.com>
- * @version 1.1.5
+ * @version 1.2.1
  * @repository https://github.com/lenincompres/DOM.js
  */
 
- Element.prototype.get = function (station) {
+Element.prototype.get = function (station) {
   let output;
   if (!station && this.tagName.toLocaleLowerCase() === "input") output = this.value;
   else if (!station || ["content", "inner", "innerhtml", "html"].includes(station)) output = this.innerHTML;
@@ -83,16 +83,27 @@ Element.prototype.set = function (model, ...args) {
     else this[STATION] = e => model(e, this);
     return this;
   }
-  if (station === "binder") {
-    this.binderSet(model);
+  if (model.duration) {
+    model.duration = parseInt(model.duration);
+    if (model.to !== undefined && model.from !== undefined) model.through = [model.from, model.to];
+    this.set(model.through[0], STATION);
+    model.through.forEach((val, i) => setTimeout(() => this.set(val, STATION), i * model.duration));
+    if (model.transition) this.set(`${this.get('transition')}, ${DOM.unCamelize(STATION)} ${model.duration}ms ${model.transition}`, 'transition');
     return this;
   }
   if (model._bonds) model = model.bind();
+  else {
+    if (model.with && typeof model.with !== 'function') model.bind = model.with;
+    if (model.bind) {
+      if (Array.isArray(model.bind)) model = DOM.bind(model.bind, model.as);
+      else model = model.as ? model.bind.bind(model.as) : model.bind;
+    }
+  }
   if (model.binders) {
     if (DOM.tags.includes(STATION) && !DOM.attributes.includes(STATION)) return this.set({
       content: model,
     }, STATION);
-    model.binders.forEach(binder => binder.bind(this, STATION, model.onvalue, model.listener, ["attribute", "attributes"].includes(station) ? station : undefined));
+    model.binders.forEach(binder => binder.bind(this, STATION, model.as, model.listener, ["attribute", "attributes"].includes(station) ? station : undefined));
     return this;
   }
   if (station === "css") {
@@ -128,8 +139,8 @@ Element.prototype.set = function (model, ...args) {
   }
   const handleProps = (fallBack = () => null) => {
     Object.entries(model).map(([key, value]) => {
-      if (value && value._bonds) value.bind(this, key, value.onvalue, station);
-      if (value && value.binders) return value.binders.forEach(binder => binder.bind(this, key, value.onvalue, value.listener, station));
+      if (value && value._bonds) value.bind(this, key, value.as, station);
+      if (value && value.binders) return value.binders.forEach(binder => binder.bind(this, key, value.as, value.listener, station));
       fallBack(key, value);
     });
   };
@@ -314,7 +325,7 @@ class Binder {
     this.onvalue = v => v;
     this.update = bond => {
       if (!bond.target) return;
-      let theirValue = bond.onvalue(this._value);
+      let theirValue = bond.as(this._value);
       if (bond.target.tagName) {
         if (!bond.type) return bond.target.set(theirValue, bond.station);
         return bond.target.set({
@@ -343,40 +354,52 @@ class Binder {
     }
     return this.bind(args);
   }
+  getAs(format, as = val => val) {
+    if (typeof format == 'function') return () => format(val => as(val));
+    if (Array.isArray(format) && format.length) {
+      let test = as;
+      as = val => {
+        val = test(val);
+        if (typeof val === "boolean" || isNaN(val)) val = val ? 1 : 0;
+        return format[val];
+      };
+    } else if (!format.tagName) {
+      let test = as;
+      as = val => {
+        val = test(val);
+        return [format[val], format.default, format.false].filter(v => v !== undefined)[0];
+      };
+    }
+    return as;
+  }
   bind(...args) {
     let argsType = DOM.typify(...args);
     let target = argsType.element ? argsType.element : argsType.binder;
     let station = argsType.string ? argsType.string : "value";
-    let onvalue = argsType.function ? argsType.function : v => v;
     let listener = argsType.number;
     let values = argsType.array;
-    let model = argsType.object;
+    let map = argsType.object;
     let type = argsType.strings ? argsType.strings[1] : undefined;
-    if (values && values.length) {
-      let test = onvalue;
-      onvalue = val => {
-        val = test(val);
-        if (typeof val === "boolean" || isNaN(val)) val = val ? 1 : 0;
-        return values[val];
-      };
-    } else if (model && model !== target) {
-      let test = onvalue;
-      onvalue = val => {
-        val = test(val);
-        return [model[val], model.default, model.false].filter(v => v !== undefined)[0];
-      }
-    }
-    if (!target) return DOM.bind(this, onvalue, this.addListener(onvalue)); // bind() addListener if not in a model
+    let as = argsType.function ? argsType.function : val => val;
+    if (values && values.length) as = this.getAs(values, as);
+    else if (map && map !== target) as = this.getAs(map, as);
+    if (!target) return DOM.bind([this], as, listener); // binding in a model 
     if (listener) this.removeListener(listener); // if in a model, removes the listener
     let bond = {
       binder: this,
       target: target,
       station: station,
-      onvalue: onvalue,
+      as: as,
       type: type,
     }
     this._bonds.push(bond);
     this.update(bond);
+  }
+  with(...binders) {
+    binders.unshift(this);
+    return {
+      as: func => DOM.bind(binders, func),
+    };
   }
   //Iterates through values. Reverts to the intital
   flash(values, delay = 1000, revert, callback) {
@@ -416,16 +439,67 @@ class Binder {
   get value() {
     return this._value;
   }
+  static with(...args) {
+    return DOM.bind(...args);
+  }
 }
 
-function bind(...args) {
-  return DOM.bind(...args);
+Element.prototype.bind = function (...args) {
+  let argsType = DOM.typify(...args);
+  if (argsType.strings === args) return args.forEach(a => this.bind(a));
+  if (args.length == 1) return {
+    with: (...binders) => ({
+      as: func => this.set({
+        [args[0]]: DOM.bind(...binders).as(func)
+      })
+    })
+  }
+  return DOM.bind(...args, this);
 }
 
-Object.prototype.binderSet = function (name, value, ...bind) {
+class BinderSet {
+  constructor(...args) {
+    this.binderSet(...args);
+  }
+  with(...args) {
+    if (Array.isArray(args[0])) return this.with(...args[0]).as(args[1]);
+    return DOM.bind(...this.validate(args));
+  }
+  validate(...args) {
+    if (Array.isArray(args[0])) return this.validate(...args[0]);
+    return args.map(a => typeof a === 'string' ? this["_" + a] : a);
+  }
+  bind(...args) {
+    let argsType = DOM.typify(...args);
+    if (argsType.element) return {
+      with: (...binders) => ({
+        as: func => argsType.element.set({
+          [argsType.string]: DOM.bind(this.validate(binders), func),
+        })
+      })
+    }
+    if (args[0].target) return args[0].target.set({
+      [args[0].station]: DOM.bind(this.validate(args[0].with), args[0].as),
+    });
+    if (args[0].with) return this.with(args[0].with, args[0].as);
+    return this.with(...args);
+  }
+}
+
+Object.prototype.binderSet = function (name, value) {
   if (typeof name == 'string') {
-    let _name = '_' + name;
-    this[_name] = new Binder(value);
+    const _name = '_' + name;
+    const _ = new Binder(value);
+    Object.defineProperty(this, _name, {
+      get() {
+        return _;
+      },
+      set(val) {
+        console.error(`Error: This (${_name}) is a read-only binder and cannot be reassigned. Use: ${name}, or: ${_name}.value. to change its value.`);
+      },
+      configurable: false, // Prevents deletion of the property
+      enumerable: true,
+    });
     Object.defineProperty(this, name, {
       get() {
         return this[_name].value;
@@ -434,7 +508,6 @@ Object.prototype.binderSet = function (name, value, ...bind) {
         this[_name].value = val;
       },
     });
-    if(bind) this[_name].bind(...bind);
     return;
   }
   for (const [key, value] of Object.entries(name)) {
@@ -497,34 +570,48 @@ class DOM {
     });
     document.head.set(headModel);
     if (Array.isArray(model)) return model.map(m => DOM.set(m, ...args));
-    // checks if the model requires a new element
-    if (model.tag) args.push(model.tag);
-    else if (DOM.typify(model).isPrimitive) args.push("section");
     // checks if the model should replace the DOM
     if (argsType.boolean) document.body.innerHTML = "";
     // checks if the body is loaded
-    if (document.body) return document.body.set(model, ...args);
-    // waits for the body to load
-    window.addEventListener("load", _ => document.body.set(model, ...args));
+    if (document.body) setTimeout(() => document.body.set(model, ...args), 0);
+    else window.addEventListener("load", _ => document.body.set(model, ...args));
   }
   static create = (...args) => DOM.set(...args);
   // returns a new element without appending it to the DOM
-  static element = (model, tag = "section") => DOM.set(model, tag, false);
+  static element = (model, tag = "section") => {
+    if (model && model.tag) {
+      tag = model.tag;
+      delete model.tag;
+    }
+   return document.createElement(tag).set(model);
+  }
   // returns a new binder
   static binder(value, ...args) {
     let binder = new Binder(value);
     if (args.length) binder.bind(...args);
     return binder;
   }
-  // returns a bind for element"s props to use ONLY in a set() model
-  static bind(binders, onvalue = v => v, listener) {
-    if (!Array.isArray(binders)) binders = [binders];
-    if (binders.some(binder => !Array.isArray(binder._bonds))) return console.log(binders, "Non-binder found.");
-    return {
+  // returns a bind for element's
+  static bind(...args) {
+    const argsType = DOM.typify(...args);
+    let [binder, as, listener, binders] = [argsType.binder, argsType.function, argsType.number, argsType.binders];
+    if (binders && binders.length === args.length) {
+      binder = binders.shift();
+      return !binders.length ? binder : binder.with(...binders);
+    }
+    args = args.filter(a => a != argsType.binder);
+    binders = Array.isArray(args[0]) ? args[0] : undefined;
+    if (binder) return binder.as(...args);
+    if (!binders) return console.error("No binders found in bind.");
+    if (binders.some(binder => !Array.isArray(binder._bonds))) return console.error(binders, "Non-binder found in compound bind.");
+    return { // binding in a model
       listener: listener,
       binders: binders,
-      onvalue: _ => onvalue(...binders.map(binder => binder.value))
+      as: () => as(...binders.map(b => b.value)),
     }
+  }
+  static with(...args) {
+    return DOM.bind(...args);
   }
   // converts JSON to CSS. Supports nesting. Turns "_" in selectors into ".". Preceding "__" assumes class on previous selector. Trailing "_" assumes immediate children (>).
   static css(sel, model) {
