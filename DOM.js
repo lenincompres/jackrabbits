@@ -5,7 +5,7 @@
  * @repository https://github.com/lenincompres/DOM.js
  */
 
-Element.prototype.get = function (station) {
+ Element.prototype.get = function (station) {
   let output;
   if (!station && this.tagName.toLocaleLowerCase() === "input") output = this.value;
   else if (!station || ["content", "inner", "innerhtml", "html"].includes(station)) output = this.innerHTML;
@@ -91,7 +91,7 @@ Element.prototype.set = function (model, ...args) {
     DOM.transition(this, `${DOM.unCamelize(STATION)} 0s`);
     clearInterval(this.intervals[STATION]);
   }
-  if (model.interval || model.delay) {
+  if ((model.interval || model.delay) && (model.to || model.through || model.loop)) {
     model.interval = parseInt(model.interval);
     if (!model.loop && !model.through) model.through = [];
     if (model.from !== undefined) model.through.push(model.from);
