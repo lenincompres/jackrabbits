@@ -750,7 +750,7 @@ copy.add("optional", [{
   and removing all <a class="pop" onclick="popUp('roadTiles')">road tiles</a>.`,
 }, {
   es: "Estrategias",
-  en: "Estrategies",
+  en: "Strategies",
 }, {
   es: "Vuelos Residenciales",
   en: "Residential flights",
@@ -813,7 +813,7 @@ copy.add("optional", [{
   en: `The cap on your cards is slender,
     up to six to hold on to.
     Plan to be a wiser spender
-    on the quest that you pursue.`,
+    on the quests that you pursue.`,
 }, {
   es: "Valores Patriarcales",
   en: "Patriarchal values",
