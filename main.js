@@ -38,15 +38,6 @@ DOM.set({
       click: e => Copy.lang = lang.code,
     }))),
   },
-  aside: {
-    img:{
-      margin: '1rem',
-      width: '12rem',
-      height: '13rem',
-      src: 'https://i.etsystatic.com/52679041/r/il/c0dc16/6069187861/il_794xN.6069187861_a4dz.jpg',
-    },
-    main: PAGE.POPPER.map['mailingList'],
-  },
   main: {
     nav: {
       id: "main_nav",
