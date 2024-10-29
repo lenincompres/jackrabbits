@@ -44,7 +44,7 @@ export const PAGER = new Pager({
     section: [{
       h2: 1,
       h3: copy.get("setup"),
-      p: versify(copy.next(), ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.ES.code ? 50 : 42, e => popUp("sample")), copy.next()),
+      p: versify(copy.next(), ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? 50 : 42, e => popUp("sample")), copy.next()),
     }, {
       h2: 2,
       h3: copy.next(),
@@ -236,7 +236,7 @@ export const PAGER = new Pager({
         a: {
           text: copy.next(),
           target: "_blank",
-          href: Copy.lang === Copy.LANG.ES.code ? 'https://sites.google.com/view/masallaterrafirma' : "https://www.yonderlands.net",
+          href: Copy.lang === Copy.LANG.es.code ? 'https://sites.google.com/view/masallaterrafirma' : "https://www.yonderlands.net",
         }
       },
       p: copy.next(),
@@ -245,7 +245,7 @@ export const PAGER = new Pager({
 });
 
 
-const YTID = Copy.lang === Copy.LANG.ES.code ? '8pG2yxqUMC0?si=A3_b6yIdTcc25p86' : 'DtIm9UwRWW0?si=qeO5ySSubQGNFo27';
+const YTID = Copy.lang === Copy.LANG.es.code ? '8pG2yxqUMC0?si=A3_b6yIdTcc25p86' : 'DtIm9UwRWW0?si=qeO5ySSubQGNFo27';
 
 export const POPPER = new Pager({
   video: {
@@ -299,8 +299,21 @@ export const POPPER = new Pager({
   },
   mailingList: {
     id: "mailingList",
+    img: {
+      margin: '1rem auto',
+      width: '11rem',
+      height: '12rem',
+      alt: Copy.text({
+        es: 'Caja de juego de JackRabbits',
+        en: 'JackRabbits game box',
+      }),
+      src: 'https://i.etsystatic.com/52679041/r/il/c0dc16/6069187861/il_794xN.6069187861_a4dz.jpg',
+    },
     h2: copy.next(),
-    p: copy.next(),
+    p: {
+      textAlign: "left",
+      content: copy.next(),
+    },
     iframe: {
       width: "100%",
       height: "13rem",

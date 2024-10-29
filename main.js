@@ -16,7 +16,6 @@ DOM.set({
   title: "Lenino's Jack Rabbits - " + copy.get("header"),
   icon: "./images/icon.png",
   link: "style.css",
-  lang: Copy.lang,
   lightBox: lightBox,
   header: {
     h1: {
@@ -77,9 +76,11 @@ DOM.set({
       target: "_blank",
     }, {
       text: copy.next(),
-      href: `https://${Copy.lang === Copy.LANG.ES.code ? 'terrafirma' : 'www'}.yonderlands.net`,
+      href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
       target: "_blank",
     }),
     //ready: e => popUp("mailingList"),
   },
 });
+
+lightBox.open('mailingList');

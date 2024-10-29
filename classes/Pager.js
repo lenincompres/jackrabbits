@@ -4,15 +4,12 @@
 
 class Pager {
 
-  constructor(map, setAnchors = false) {
+  constructor(map) {
     this.map = map;
     this.default = Object.keys(map)[0];
-
-    this.binderSet("key", this.default, key => key === undefined ? this.hey = this.default : null);
-
+    this._key = new Binder(this.default);
     window.addEventListener("hashchange", () => this.refresh());
     this.refresh();
-    if (setAnchors) this.setAnchors();
   }
 
   refresh() {
@@ -25,10 +22,13 @@ class Pager {
     if (key !== hash) setTimeout(location.href = `#${hash}`, 500);
   }
 
-  setAnchors() {
-    DOM.set(this.keys.map(key => ({
-      name: key
-    })), "a");
+  set key(val){
+    if(val === undefined) return this.hey = this.default
+    this._key.value = val;
+  }
+
+  get key(){
+    return this._key.value;
   }
 
   get keys() {
@@ -41,10 +41,6 @@ class Pager {
 
   hasKey(key) {
     return this.keys.includes(key);
-  }
-
-  filterEntries(filter = val => val) {
-    return this.entries.filter(([key, val]) => filter(val));
   }
 
   /* Methods and getters that return binder models */

@@ -3,8 +3,8 @@ import Pager from "./Pager.js";
 class LightBox extends HTMLElement {
   constructor(content) {
     super();
-    
-    this.binderSet("opened", false, val => DOM.set(val ? 'hidden' : 'initial', 'overflow'));
+
+    this._opened = new Binder(false);
 
     this.contentElt = DOM.element();
     this.content = content;
@@ -37,22 +37,31 @@ class LightBox extends HTMLElement {
     });
   }
 
+  set opened(val) {
+    DOM.set(val ? 'hidden' : 'initial', 'overflow');
+    this._opened.value = val;
+  }
+
+  get opened(){
+    return this._opened.value;
+  }
+
   set key(key) {
-    if (!this.mapper) return;
-    this.mapper.key = key;
+    if (!this.pager) return;
+    this.pager.key = key;
   }
 
   set content(content) {
     if (content._map) {
-      this.mapper = content;
-      this.contentElt.set(this.mapper._content, "content");
+      this.pager = content;
+      this.contentElt.set(this.pager._content, "content");
       return;
     }
     this.contentElt.set(content, "content");
   }
 
   open(info) {
-    if (this.mapper && typeof info === "string") this.key = info;
+    if (this.pager && typeof info === "string") this.key = info;
     else this.content = info;
     this.opened = true;
   }
