@@ -4,10 +4,21 @@ const rand = () => Math.random() - 0.5;
 const pi = Math.PI / 2;
 
 export class CardFloating extends Card {
-  constructor(args) {
-    super(args);
-    let n = 280;
-    let m = 0.1;
+  constructor({
+    number = Card.MIN,
+    suit = Card.SUIT.D,
+    root = "",
+    permanent = false,
+  }) {
+    super({
+      number: number,
+      suit: suit,
+      root: root,
+      numeral: false,
+    });
+    this.permanent = permanent;
+    let n = 300;
+    let m = n / 3000;
     this.binderSet({
       t: 0
     });
@@ -16,7 +27,7 @@ export class CardFloating extends Card {
     let a = 1;
     let vx, vy, vz, vrx, vry, vrz;
     let flip = () => {
-      [vrx, vry, vrz] = [m * rand(), m * rand(), m * rand() / 2];
+      [vrx, vry, vrz] = [m * rand(), m * rand(), m * rand()];
     }
     let jerk = () => {
       [vx, vy, vz] = [rand() / n, rand() / n, rand() / n];
@@ -25,18 +36,24 @@ export class CardFloating extends Card {
     jerk();
 
     setInterval(() => {
-      a = a < 1.1 ? 1 : a > 1 ? 0.95 * a : a;
+      const [aMax, aMin] = [5, 1];
+      a = a > aMax ? aMax : a < aMin ? aMin : 0.99 * a;
       let [sx, sy] = [Math.cos(this.rx), Math.cos(this.ry)];
       this.flipped = (sx < 0 && sy > 0) || (sx > 0 && sy < 0);
-      [sx, sy] = [Math.sin(this.rx), Math.sin(this.ry)];
-      [sx, sy] = [Math.abs(sx), Math.abs(sy)];
-      this.x += vx * a;
-      this.y += vy * a;
-      this.z += vz * a;
-      this.rx += vrx * 1 * (sx + 0.2);
-      this.ry += vry * 2 * (sy + 0.2);
-      this.rz += vrz;
-      if (sx > 0.99 || sy > 0.99) this.random();
+      if (this.flipped && !this.permanent) this.random();
+      [sx, sy] = [sx, sy].map(s => s + 1.02);
+      let drag = this.over ? 0.2 : 2;
+      this.rx += vrx * a * drag * sx;
+      this.ry += vry * a * drag * sy;
+      this.rz += vrz * a * drag;
+      drag = this.over ? 0.1 : 1;
+      this.x += vx * a * drag;
+      this.y += vy * a * drag;
+      this.z += vz * a * drag;
+      if (this.rx > 2 * pi) this.rx - 2 * pi
+      else if (this.rx < -2 * pi) this.rx + 2 * pi
+      if (this.ry > 2 * pi) this.ry - 2 * pi
+      else if (this.ry < -2 * pi) this.ry + 2 * pi
       if (this.x >= 1 || this.x <= 0) {
         this.x = Math.round(this.x);
         vx *= -1;
@@ -49,10 +66,7 @@ export class CardFloating extends Card {
         vy *= 1 + rand();
         flip();
       }
-      if (this.z >= 0.6 || this.z <= 0.4) {
-        vz *= -1;
-        flip();
-      }
+      if (this.z >= 0.6 || this.z <= 0.4) vz *= -1;
       this.t += 1;
     }, 24);
 
@@ -63,31 +77,17 @@ export class CardFloating extends Card {
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
       transform: this._t.as(t => `rotateX(${this.rx}rad) rotateY(${this.ry}rad)  rotateZ(${this.rz}rad)`),
       position: "absolute",
-      div: {
-        backgroundColor: "wheat",
-        backgroundImage: "url(./images/bg.png)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        position: "absolute",
-        width: "100%",
-        height: "100%",
-        display: this._t.as(t => this.flipped ? "block" : "none"),
-        img: {
-          marginTop: "40%",
-          src: "https://lenino.net/assets/leninoLogo.png",
-          height: "45%",
-          transform: "rotateY(180deg)",
-        }
-      },
-      onmouseover: () => {
-        a = 10 * (1 - (vx + vy) / 2);
+      onmouseout: () => {
+        this.over = false;
+        a = 20 * (1 - (vx + vy) / 2);
         jerk();
       },
+      onmouseover: () => this.over = true,
     });
   }
 
-  random() {
-    this.number = 1 + Math.floor(Math.random() * 10);
+  random(min = 1, max = 13) {
+    this.number = min + Math.round(Math.random() * (max - min));
     this.suit = Card.SUIT[Object.keys(Card.SUIT)[Math.floor((Math.random() * 4))]];
   }
 
