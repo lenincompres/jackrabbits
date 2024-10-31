@@ -7,7 +7,7 @@ import Pager from "./classes/Pager.js";
 import ASSETS from "./assets.js";
 import "./copy.js";
 import "./pages.js";
-import Card from "./Card.js";
+import CardFloating from "./CardFloating.js";
 
 let lightBox = new LightBox(new Pager({
   video: {
@@ -104,10 +104,9 @@ window.popUp = key => lightBox.open(key);
 
 let cardNum = window.innerWidth * window.innerHeight / window.devicePixelRatio;
 cardNum = Math.floor(Math.sqrt(cardNum) / 300);
-let cards = Array(cardNum).fill().map((_, i) => new Card({
+let cards = Array(cardNum).fill().map((_, i) => new CardFloating({
   root: 'suityourself/',
 }));
-cards.forEach(card => card.random());
 
 DOM.set({
   title: "Lenino's Jack Rabbits - " + Copy.get("header"),
@@ -120,7 +119,7 @@ DOM.set({
   icon: "./images/icon.png",
   link: "style.css",
   lightBox: lightBox,
-  div:{
+  div: {
 
   },
   position: "relative",
@@ -181,47 +180,14 @@ DOM.set({
       href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
       target: "_blank",
     }),
+    section: {
+      marginTop: "1em",
+      markdown: Copy.text({
+        es: "Creador por Lenin Comprés usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        en: "Created by Lenin Comprés using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+      }),
+    },
     onready: e => lightBox.open('mailingList'),
   },
-  aside: cards.map(card => {
-    let size = 0.7;
-    let n = 280;
-    let [_x, _y, _r] = [new Binder(Math.random()), new Binder(Math.random()), new Binder(Math.random())];
-    let rand = () => Math.random() - 0.5;
-    let [vx, vy, vr, a] = [rand() / n, rand() / n, rand(), 1];
-    let clicked = () => {
-      [vx, vy, vr, a] = [rand() / n, rand() / n, rand(), 20 * (1 - (vx + vy) / 2)];
-    };
-    setInterval(() => {
-      a = a < 1.1 ? 1 : a > 1 ? 0.95 * a : a;
-      _x.value += vx * a;
-      _y.value += vy * a;
-      _r.value += vr * a;
-      card.set(a - 0.5, "opacity");
-      if (_x.value >= 1 || _x.value <= 0) {
-        _x.value = Math.round(_x.value);
-        vx *= -0.9;
-        vy *= 1 + rand();
-        vr = rand();
-        card.random();
-      }
-      if (_y.value >= 1 || _y.value <= 0) {
-        _y.value = Math.round(_y.value);
-        vy *= -0.9;
-        vy *= 1 + rand();
-        vr = rand();
-        card.random();
-      }
-    }, 24);
-    return {
-      zIndex: 0,
-      fontSize: "0.6em",
-      left: _x.as(x => `calc((100vw - 12em)  * ${x} - ${document.body.getBoundingClientRect().left}px)`),
-      top: _y.as(y => `calc((100% - 12em) * ${y})`),
-      transform: _r.as(r => `rotate(${8*r/n}rad)`),
-      position: "absolute",
-      content: card,
-      click: clicked,
-    }
-  }),
+  aside: cards,
 });

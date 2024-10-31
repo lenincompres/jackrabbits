@@ -45,55 +45,49 @@ class Card extends HTMLElement {
     let imgs = [img_center, ...img_middle, ...img_corners, ...img_sides];
 
     this.set({
-      section:{
-        display: "block",
-        background: "white",
-        borderRadius: "0.7em",
-        boxShadow: "1px 1px 3px black",
-        position: "relative",
-        width: "8em",
-        height: "12em",
-        header: {
-          pointerEvents: "none",
-          section: getArray(2, i => new Object({
-            position: "absolute",
-            margin: "5% 5%",
-            bottom: i % 2 ? 0 : undefined,
-            right: i % 2 ? 0 : undefined,
-            transform: i % 2 ? "rotate(180deg)" : undefined,
-            fontSize: "1.1em",
-            p: {
-              fontFamily: "title",
-              color: this._suit.as(v => v.color),
-              text: this._number,
-            },
-            img: {
-              alt: this.suit.symbol + " card suit",
-              marginTop: "-0.5em",
-              width: "1em",
-              src: this._suit.as(s => root + s.image),
-            }
-          })),
-        },
-        main: {
-          pointerEvents: "none",
+      display: "block",
+      background: "white",
+      borderRadius: "0.7em",
+      overflow: "hidden",
+      boxShadow: "1px 1px 3px black",
+      position: "relative",
+      width: "8em",
+      height: "12em",
+      header: {
+        pointerEvents: "none",
+        section: getArray(2, i => new Object({
+          position: "absolute",
+          margin: "5% 5%",
+          bottom: i % 2 ? 0 : undefined,
+          right: i % 2 ? 0 : undefined,
+          transform: i % 2 ? "rotate(180deg)" : undefined,
+          fontSize: "1.1em",
+          p: {
+            margin: 0,
+            fontFamily: "title",
+            color: this._suit.as(s => s.color),
+            text: this._number,
+          },
           img: {
             alt: this.suit.symbol + " card suit",
-            transition: "0.5s",
-            position: "absolute",
-            width: "24%",
-            margin: "-12%",
-            src: this._suit.as(suit => root + suit.image),
-            content: imgs,
+            height: "1em",
+            src: this._suit.as(s => root + s.image),
           }
-        },
+        })),
+      },
+      main: {
+        pointerEvents: "none",
+        img: {
+          alt: this.suit.symbol + " card suit",
+          //transition: "0.5s",
+          position: "absolute",
+          width: "24%",
+          margin: "-12%",
+          src: this._suit.as(suit => root + suit.image),
+          content: imgs,
+        }
       },
     });
-  }
-
-  random(){
-    this.number = 1 + Math.floor(Math.random() * 10);
-    this.suit = Card.SUIT[Object.keys(Card.SUIT)[Math.floor((Math.random() * 4))]];
   }
 
   static MIN = 2;

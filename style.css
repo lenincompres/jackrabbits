@@ -204,11 +204,6 @@ i::before {
   content: "“";
 }
 
-p, a, h1, h2, h3, h4, img {
-  position: relative;
-  z-index: 10;
-}
-
 sup {
   color: white;
   background: red;
