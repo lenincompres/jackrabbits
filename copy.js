@@ -1,43 +1,48 @@
 import Copy from "./classes/Copy.js";
 
-const copy = new Copy();
+Copy.add({
+  header: {
+    es: "Juego de Mesa",
+    en: "Board Game",
+  },
+  nav: [{
+    es: "Bienvenida",
+    en: "Welcome",
+  }, {
+    es: "<small>Preparación</small></br>Inicial",
+    en: "Setup",
+  }, {
+    es: "Juego</br><small>Introductorio</small>",
+    en: "Intro game",
+  }, {
+    es: "Juego</br><small>Completivo</small>",
+    en: "Full game",
+  }, {
+    es: "<small>Tienda</br>&</small>más",
+    en: "Store <small>&</small>more",
+  }]
+});
 
-copy.add("header", [{
-  es: "Juego de Mesa",
-  en: "Board Game",
-}, {
-  es: "<small>Preparación</small></br>Inicial",
-  en: "Setup",
-}, {
-  es: "Juego</br><small>Introductorio</small>",
-  en: "Intro game",
-}, {
-  es: "Juego</br><small>Completivo</small>",
-  en: "Full game",
-}, {
-  es: "<small>Tienda</br>&</small>más",
-  en: "Store <small>&</small>more",
-}]);
-
-copy.add("footer", [{
-  es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a> 
+Copy.add("footer", [{
+    es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a> 
   y apoya la campaña que tendremos.`,
-  en: `Join the <a class="pop" onclick="popUp('mailingList')"><b>List</b></a> on this domain,
+    en: `Join the <a class="pop" onclick="popUp('mailingList')"><b>List</b></a> on this domain,
   and stay tuned for our campaign.`,
-}, {
-  es: "Compra el juego",
-  en: "Buy the game",
-}, 
-"Instagram", 
-{
-  es: "Versión virtual",
-  en: "Virtual version",
-}, {
-  es: "Descubre la novela",
-  en: "Discover the novel",
-}]);
+  }, {
+    es: "Compra el juego",
+    en: "Buy the game",
+  },
+  "Instagram",
+  {
+    es: "Versión virtual",
+    en: "Virtual version",
+  }, {
+    es: "Descubre la novela",
+    en: "Discover the novel",
+  }
+]);
 
-copy.add("home", [{
+Copy.add("home", [{
   es: "Compra el juego",
   en: "Buy the game",
 }, {
@@ -155,7 +160,7 @@ copy.add("home", [{
   en: `<a href="#setup"><b>Setup</b></a></br>(Up to four players)`,
 }]);
 
-copy.add("setup", [{
+Copy.add("setup", [{
   es: "Arma el tablero",
   en: "Build the Board",
 }, {
@@ -248,7 +253,7 @@ copy.add("setup", [{
     to complete an <a href="#intro"><b>intro game</b></a>.`,
 }]);
 
-copy.add("intro", [{
+Copy.add("intro", [{
   es: "Las FASES de cada turno",
   en: "The PHASES of each turn",
 }, {
@@ -483,7 +488,7 @@ copy.add("intro", [{
     the strategies of each suit.`,
 }]);
 
-copy.add("full", [{
+Copy.add("full", [{
   es: "Las estrategias de cada palo",
   en: "The strategies of each suit",
 }, {
@@ -662,7 +667,7 @@ copy.add("full", [{
     once you have gone through the motions.`
 }]);
 
-copy.add("optional", [{
+Copy.add("optional", [{
   es: "Reglas Opcionales",
   en: "Optional Rules",
 }, {
@@ -709,9 +714,9 @@ copy.add("optional", [{
     will grant you a bonus tip:
     when needed at any place,
     it counts as one extra pip.`,
-  }, {
-    es: "Piezas",
-    en: "Tiles",
+}, {
+  es: "Piezas",
+  en: "Tiles",
 }, {
   es: `<a class="pop" onclick="popUp('advancedCitadel')">Ciudadela Avanzada</a>`,
   en: `<a class="pop" onclick="popUp('advancedCitadel')">Advanced Citadel</a>`,
@@ -787,9 +792,9 @@ copy.add("optional", [{
     if your carrot's on a hex;
     you may visit and go on
     to the place you're headed next.`,
-  }, {
-    es: "Cartas",
-    en: "Cards",
+}, {
+  es: "Cartas",
+  en: "Cards",
 }, {
   es: "Lotería Gorda",
   en: "Windfall Lottery",
@@ -829,7 +834,7 @@ copy.add("optional", [{
     `,
 }]);
 
-copy.add("more", [{
+Copy.add("more", [{
   es: "Compra el juego",
   en: "Buy the game"
 }, {
@@ -861,7 +866,7 @@ copy.add("more", [{
   en: `There's a manuscript of a novel inspired in this same land of wonders.`,
 }])
 
-copy.add("popup", [{
+Copy.add("popup", [{
   es: "Ciudadela",
   en: "Citadel",
 }, {
@@ -977,8 +982,8 @@ copy.add("popup", [{
     `Show and leave out what you spend; 
     it's <i>discarded</i> once you're done. 
     You may spend royals as <b>10</b>,
-    and the aces are worth <b>1</b>.
-    If you spend a royal card,
+    and the aces are worth <b>1</b>.`,
+    `If you spend a royal card,
     return it to the court's aisle;
     and you must remove your mark,
     take your carrot off their tile.`,
@@ -990,6 +995,3 @@ copy.add("popup", [{
   es: "Lenino está preparando una campaña para <b>Jack Rabbits</b> y puede avisarte cuando esté lista.",
   en: "Lenino is preparing a launch campaign for <b>Jack Rabbits</b>, and can notify you when it's ready."
 }]);
-
-
-export default copy;

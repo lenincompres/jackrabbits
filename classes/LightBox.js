@@ -1,14 +1,11 @@
-import Pager from "./Pager.js";
-
 class LightBox extends HTMLElement {
+  mainElement = DOM.element("main");
+
   constructor(content) {
     super();
-
-    this._opened = new Binder(false);
-
-    this.contentElt = DOM.element();
-    this.content = content;
-
+    this.binderSet("opened");
+    this._opened.onChange(val => DOM.set(val ? 'hidden' : 'initial', 'overflow'));
+    if (content.map) this.pager = content;
     this.set({
       display: this._opened.as(val => val ? "flex" : "none"),
       zIndex: 1000,
@@ -24,51 +21,27 @@ class LightBox extends HTMLElement {
       alignItems: "center",
       padding: "1rem",
       click: e => this.close(),
-      main: {
+      section: {
         backgroundColor: "white",
         position: "relative",
         a: {
           text: "✕",
           click: e => this.close(),
         },
-        section: this.contentElt,
+        main: this.mainElement.set(this.pager ? this.pager._content : content),
         click: e => e.stopPropagation(),
       }
     });
   }
 
-  set opened(val) {
-    DOM.set(val ? 'hidden' : 'initial', 'overflow');
-    this._opened.value = val;
-  }
-
-  get opened(){
-    return this._opened.value;
-  }
-
-  set key(key) {
-    if (!this.pager) return;
-    this.pager.key = key;
-  }
-
-  set content(content) {
-    if (content._map) {
-      this.pager = content;
-      this.contentElt.set(this.pager._content, "content");
-      return;
-    }
-    this.contentElt.set(content, "content");
-  }
-
-  open(info) {
-    if (this.pager && typeof info === "string") this.key = info;
-    else this.content = info;
+  open(content) {
     this.opened = true;
+    if (this.pager && typeof content === "string") return this.pager.key = content;
+    this.mainElement.set(content, "content");
   }
 
   close() {
     this.opened = false;
-    this.contentElt.set("", "content");
   }
 
 }
