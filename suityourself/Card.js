@@ -162,7 +162,7 @@ class Card extends HTMLElement {
       alt: "gold",
       cast: "merchant",
       trait: "wealth",
-      color: "goldenrod",
+      color: "darkgoldenrod",
       image: "assets/suit-diamonds.png",
     },
     H: {

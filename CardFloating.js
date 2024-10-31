@@ -71,7 +71,7 @@ export class CardFloating extends Card {
     }, 24);
 
     this.set({
-      fontSize: this._t.as(t => `${this.z}em`),
+      fontSize: this._t.as(t => `${this.over ? 0.75 : this.z}em`),
       zIndex: this._t.as(t => Math.round(60 * this.z)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
