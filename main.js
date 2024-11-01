@@ -103,7 +103,7 @@ let lightBox = new LightBox(new Pager({
 window.popUp = key => lightBox.open(key);
 
 let cardNum = window.innerWidth * window.innerHeight / window.devicePixelRatio;
-cardNum = Math.floor(Math.sqrt(cardNum) / 300);
+cardNum = Math.floor(Math.sqrt(cardNum) / 250);
 let cards = Array(cardNum).fill().map((_, i) => new CardFloating({
   root: 'suityourself/',
 }));

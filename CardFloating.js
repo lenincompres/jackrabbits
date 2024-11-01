@@ -1,7 +1,10 @@
 import Card from "./Card.js";
 
 const rand = () => Math.random() - 0.5;
-const pi = Math.PI / 2;
+const PI = Math.PI;
+const PI2 = Math.PI / 2;
+const PI4 = Math.PI / 4;
+const map = (value, start1, stop1, start2, stop2) => ((value - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
 
 export class CardFloating extends Card {
   constructor({
@@ -24,36 +27,40 @@ export class CardFloating extends Card {
     });
     [this.x, this.y, this.z] = [Math.random(), Math.random(), 0.5];
     [this.rx, this.ry, this.rz] = [0, 0, 0];
-    let a = 1;
+    this.acc = 1;
     let vx, vy, vz, vrx, vry, vrz;
-    let flip = () => {
-      [vrx, vry, vrz] = [m * rand(), m * rand(), m * rand()];
-    }
+
+    let flip = () => [vrx, vry, vrz] = [m * rand(), m * rand(), m * rand()];
     let jerk = () => {
       [vx, vy, vz] = [rand() / n, rand() / n, rand() / n];
       flip();
+    }
+    let flick = () => {
+      this.over = false;
+      this.acc = 20 * (1 - (vx + vy) / 2);
+      jerk();
     }
     jerk();
 
     setInterval(() => {
       const [aMax, aMin] = [5, 1];
-      a = a > aMax ? aMax : a < aMin ? aMin : 0.99 * a;
+      this.acc = this.acc > aMax ? aMax : this.acc < aMin ? aMin : 0.98 * this.acc;
       let [sx, sy] = [Math.cos(this.rx), Math.cos(this.ry)];
-      this.flipped = (sx < 0 && sy > 0) || (sx > 0 && sy < 0);
+      this.flippedX = sx < 0;
+      this.flippedY = sy < 0;
+      this.flipped = this.flippedX && !this.flippedY || this.flippedY && !this.flippedX;
       if (this.flipped && !this.permanent) this.random();
-      [sx, sy] = [sx, sy].map(s => s + 1.02);
-      let drag = this.over ? 0.2 : 2;
-      this.rx += vrx * a * drag * sx;
-      this.ry += vry * a * drag * sy;
-      this.rz += vrz * a * drag;
-      drag = this.over ? 0.1 : 1;
-      this.x += vx * a * drag;
-      this.y += vy * a * drag;
-      this.z += vz * a * drag;
-      if (this.rx > 2 * pi) this.rx - 2 * pi
-      else if (this.rx < -2 * pi) this.rx + 2 * pi
-      if (this.ry > 2 * pi) this.ry - 2 * pi
-      else if (this.ry < -2 * pi) this.ry + 2 * pi
+      let drag = this.over ? 0.1 : 1.6;
+      [sx, sy] = [sx, sy].map(s => 2 * (s + 1.05));
+      this.rx += vrx * drag * sx;
+      this.ry += vry * drag * sy;
+      if (this.rx > PI || this.rx < -PI) vrx *= -1;
+      if (this.ry > PI || this.ry < -PI) vry *= -1;
+      if (this.over) this.rx = this.ry = 0;
+      this.rz += vrz * this.acc * drag;
+      this.x += vx * this.acc * drag;
+      this.y += vy * this.acc * drag;
+      this.z += vz * this.acc * drag;
       if (this.x >= 1 || this.x <= 0) {
         this.x = Math.round(this.x);
         vx *= -1;
@@ -66,22 +73,31 @@ export class CardFloating extends Card {
         vy *= 1 + rand();
         flip();
       }
-      if (this.z >= 0.6 || this.z <= 0.4) vz *= -1;
+      if (this.z >= 1 || this.z <= 0) vz *= -1;
       this.t += 1;
     }, 24);
 
+    let getShadow = () => {
+      let z = this.over ? 0.8 : this.z;
+      let ang = PI4;
+      if (this.flippedX && this.flippedY) ang = -3 * PI4;
+      else if (this.flippedX) ang = 3 * PI4;
+      else if (this.flippedY) ang = -PI4;
+      let xProj = Math.sin(ang + this.rz);
+      let yProj = Math.cos(ang + this.rz);
+      let [x, y] = [z * xProj, z * yProj];
+      return `${map(x, 0, 1, 0.3, 5)}em ${map(y, 0, 1, 0.3, 5)}em 3px rgba(0,0,0,${map(z,0,1,0.5,0.1)})`;
+    }
+
     this.set({
-      fontSize: this._t.as(t => `${this.over ? 0.75 : this.z}em`),
+      boxShadow: this._t.as(t => `${getShadow()}`),
+      fontSize: this._t.as(t => `${this.over ? 0.8 : map(this.z,0,1,0.4,0.7)}em`),
       zIndex: this._t.as(t => Math.round(60 * this.z)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
       transform: this._t.as(t => `rotateX(${this.rx}rad) rotateY(${this.ry}rad)  rotateZ(${this.rz}rad)`),
       position: "absolute",
-      onmouseout: () => {
-        this.over = false;
-        a = 20 * (1 - (vx + vy) / 2);
-        jerk();
-      },
+      onmouseout: () => flick(),
       onmouseover: () => this.over = true,
     });
   }
