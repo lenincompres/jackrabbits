@@ -20,8 +20,6 @@ export class CardFloating extends Card {
       numeral: false,
     });
     this.permanent = permanent;
-    let n = 300;
-    let m = n / 3000;
     this.binderSet({
       t: 0
     });
@@ -30,6 +28,8 @@ export class CardFloating extends Card {
     this.acc = 1;
     let vx, vy, vz, vrx, vry, vrz;
 
+    let n = 300;
+    let m = n / 3000;
     let flip = () => [vrx, vry, vrz] = [m * rand(), m * rand(), m * rand()];
     let jerk = () => {
       [vx, vy, vz] = [rand() / n, rand() / n, rand() / n];
@@ -43,24 +43,29 @@ export class CardFloating extends Card {
     jerk();
 
     setInterval(() => {
-      const [aMax, aMin] = [5, 1];
-      this.acc = this.acc > aMax ? aMax : this.acc < aMin ? aMin : 0.98 * this.acc;
       let [sx, sy] = [Math.cos(this.rx), Math.cos(this.ry)];
       this.flippedX = sx < 0;
       this.flippedY = sy < 0;
       this.flipped = this.flippedX && !this.flippedY || this.flippedY && !this.flippedX;
       if (this.flipped && !this.permanent) this.random();
+      const [aMax, aMin] = [5, 1];
+      this.acc = this.acc > aMax ? aMax : this.acc < aMin ? aMin : 0.98 * this.acc;
       let drag = this.over ? 0.1 : 1.6;
-      [sx, sy] = [sx, sy].map(s => 2 * (s + 1.05));
-      this.rx += vrx * drag * sx;
-      this.ry += vry * drag * sy;
-      if (this.rx > PI || this.rx < -PI) vrx *= -1;
-      if (this.ry > PI || this.ry < -PI) vry *= -1;
-      if (this.over) this.rx = this.ry = 0;
+      if (this.over) {
+        this.rx = this.ry = PI;
+        this.z = 1;
+      } else {
+        [sx, sy] = [sx, sy].map(s => 2 * (s + 1.05));
+        this.rx += vrx * drag * sx;
+        this.ry += vry * drag * sy;
+        this.z += vz * this.acc * drag;
+        if (this.rx > PI || this.rx < -PI) vrx *= -1;
+        if (this.ry > PI || this.ry < -PI) vry *= -1;
+        if (this.z >= 1 || this.z <= 0) vz *= -1;
+      }
       this.rz += vrz * this.acc * drag;
       this.x += vx * this.acc * drag;
       this.y += vy * this.acc * drag;
-      this.z += vz * this.acc * drag;
       if (this.x >= 1 || this.x <= 0) {
         this.x = Math.round(this.x);
         vx *= -1;
@@ -70,15 +75,14 @@ export class CardFloating extends Card {
       if (this.y >= 1 || this.y <= 0) {
         this.y = Math.round(this.y);
         vy *= -1;
-        vy *= 1 + rand();
+        vx *= 1 + rand();
         flip();
       }
-      if (this.z >= 1 || this.z <= 0) vz *= -1;
       this.t += 1;
     }, 24);
 
     let getShadow = () => {
-      let z = this.over ? 0.8 : this.z;
+      let z = this.z;
       let ang = PI4;
       if (this.flippedX && this.flippedY) ang = -3 * PI4;
       else if (this.flippedX) ang = 3 * PI4;
@@ -90,13 +94,13 @@ export class CardFloating extends Card {
     }
 
     this.set({
+      position: "absolute",
       boxShadow: this._t.as(t => `${getShadow()}`),
-      fontSize: this._t.as(t => `${this.over ? 0.8 : map(this.z,0,1,0.4,0.7)}em`),
-      zIndex: this._t.as(t => Math.round(60 * this.z)),
+      fontSize: this._t.as(t => `${map(this.z,0,1,0.4,0.7)}em`),
+      zIndex: this._t.as(t => map(this.z, 0, 1, 1, 30)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
       transform: this._t.as(t => `rotateX(${this.rx}rad) rotateY(${this.ry}rad)  rotateZ(${this.rz}rad)`),
-      position: "absolute",
       onmouseout: () => flick(),
       onmouseover: () => this.over = true,
     });
