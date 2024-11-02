@@ -1,7 +1,7 @@
 /**
  * It's a router based on DOM.js (structure)
  * @author Lenin Compres <lenincompres@gmail.com>
- * @version 1.0.1
+ * @version 1.0.2
  * @repository https://github.com/lenincompres/DOM.js
  */
 
@@ -16,8 +16,8 @@
   default;
   constructor(map = {}) {
     this.binderSet("key");
-    this.add(map);
-    this.#hashed = !Pager.pager;
+    if(map === true)this.#hashed = true;
+    else if(map) this.add(map);
     if (this.#hashed) {
       this._key.onChange(val => location.href = `#${val}`);
       const hash = () => this.key = location.hash.substr(1).split("-")[0];
@@ -88,35 +88,38 @@
   /**
    * Static instace of a pager linked to the hash, meant to be the main pager of a website.
    */
-  static pager = new Pager({}, true);
+  static getDefaultInstance() {
+    if (Pager._defaultInstance) return Pager._defaultInstance;
+    return Pager._defaultInstance = new Pager(true);
+  }
   static get map() {
-    return Pager.pager.map;
+    return Pager.getDefaultInstance().map;
   }
   static get key() {
-    return Pager.pager.key;
+    return Pager.getDefaultInstance().key;
   }
   static set key(val) {
-    Pager.pager.key = val;
+    Pager.getDefaultInstance().key = val;
   }
   static get _key() {
-    return Pager.pager._key;
+    return Pager.getDefaultInstance()._key;
   }
   static get default() {
-    return Pager.pager.default;
+    return Pager.getDefaultInstance().default;
   }
   static get keys() {
-    return Pager.pager.keys;
+    return Pager.getDefaultInstance().keys;
   }
   static get content() {
-    return Pager.pager.content;
+    return Pager.getDefaultInstance().content;
   }
   static get _content() {
-    return Pager.pager._content;
+    return Pager.getDefaultInstance()._content;
   }
-  static add = (...args) => Pager.pager.add(...args);
-  static hasKey = (key) => Pager.pager.hasKey(key);
-  static _map = (...args) => Pager.pager._map(...args);
-  static getLinkMenu = (...args) => Pager.pager.getLinkMenu(...args);
+  static add = (...args) => Pager.getDefaultInstance().add(...args);
+  static hasKey = (key) => Pager.getDefaultInstance().hasKey(key);
+  static _map = (...args) => Pager.getDefaultInstance()._map(...args);
+  static getLinkMenu = (...args) => Pager.getDefaultInstance().getLinkMenu(...args);
 }
 
 export default Pager;

@@ -1,11 +1,18 @@
+/**
+ * Lightbox based on DOM.js (with default instance added to the DOM)
+ * @author Lenin Compres <lenincompres@gmail.com>
+ * @version 1.0.1
+ * @repository https://github.com/lenincompres/DOM.js
+ */
+
 class LightBox extends HTMLElement {
-  mainElement = DOM.element("main");
 
   constructor(content) {
     super();
     this.binderSet("opened");
     this._opened.onChange(val => DOM.set(val ? 'hidden' : 'initial', 'overflow'));
-    if (content.map) this.pager = content;
+    this.mainElement = DOM.element("main");
+    if (content) this.add(content);
     this.set({
       display: this._opened.as(val => val ? "flex" : "none"),
       zIndex: 1000,
@@ -34,15 +41,32 @@ class LightBox extends HTMLElement {
     });
   }
 
-  open(content) {
-    this.opened = true;
+  add(content) {
+    if (!content) return;
     if (this.pager && typeof content === "string") return this.pager.key = content;
-    this.mainElement.set(content, "content");
+    if (content.map) this.pager = content;
+    this.mainElement.set(this.pager ? this.pager._content : content)
+  }
+
+  open(content) {
+    if (content) this.add(content);
+    this.opened = true;
   }
 
   close() {
     this.opened = false;
   }
+
+
+  static getDefaultInstance() {
+    if (LightBox._defaultInstance) return LightBox._defaultInstance;
+    LightBox._defaultInstance = new LightBox();
+    DOM.set(LightBox.getDefaultInstance());
+    return LightBox._defaultInstance;
+  }
+  static add = content => LightBox.getDefaultInstance().add(content);
+  static open = content => LightBox.getDefaultInstance().open(content);
+  static close = () => LightBox.getDefaultInstance().close();
 
 }
 

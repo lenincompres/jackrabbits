@@ -1,7 +1,7 @@
 /**
  * Class that stores the copy text and retrieves the appropriate language copy (text) from a map given a key.
  * @author Lenin Compres <lenincompres@gmail.com>
- * @version 1.0.1
+ * @version 1.0.2
  * @repository https://github.com/lenincompres/DOM.js
  */
 
@@ -190,19 +190,22 @@ class Copy {
   /**
    *  This is a static instance of Copy, that can be used if you site only need one copy instance to hodl it's text.
    */
-  static copy = new Copy();
+  static getDefaultInstance() {
+    if (Copy._defaultInstance) return Copy._defaultInstance;
+    return Copy._defaultInstance = new Copy();
+  }
   static get keys(){
-    return Copy.copy.keys;
+    return Copy.getDefaultInstance().keys;
   }
   static get KEY() {
-    return Copy.copy.#KEY;
+    return Copy.getDefaultInstance().#KEY;
   }
-  static add = (...args) => Copy.copy.add(...args);
-  static get = (...args) => Copy.copy.get(...args);
-  static next = () => Copy.copy.next();
-  static getToggleLink = () => Copy.copy.getToggleLink();
-  static getLinkMenu = () => Copy.copy.getLinkMenu();
-  static getSelect = () => Copy.copy.getSelect();
+  static add = (...args) => Copy.getDefaultInstance().add(...args);
+  static get = (...args) => Copy.getDefaultInstance().get(...args);
+  static next = () => Copy.getDefaultInstance().next();
+  static getToggleLink = () => Copy.getDefaultInstance().getToggleLink();
+  static getLinkMenu = () => Copy.getDefaultInstance().getLinkMenu();
+  static getSelect = () => Copy.getDefaultInstance().getSelect();
 }
 
 /**

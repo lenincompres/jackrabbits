@@ -1,6 +1,7 @@
 import Card from "./Card.js";
 
 const rand = () => Math.random() - 0.5;
+const PIE = 2 * Math.PI;
 const PI = Math.PI;
 const PI2 = Math.PI / 2;
 const PI4 = Math.PI / 4;
@@ -50,6 +51,7 @@ export class CardFloating extends Card {
       if (this.flipped && !this.permanent) this.random();
       const [aMax, aMin] = [5, 1];
       this.acc = this.acc > aMax ? aMax : this.acc < aMin ? aMin : 0.98 * this.acc;
+      [vx, vy, vz, vrx, vry, vrz] = [vx, vy, vz, vrx, vry, vrz].map(v => Math.abs(v) > 1 ? v / Math.abs(v) : v);
       let drag = this.over ? 0.1 : 1.6;
       if (this.over) {
         this.rx = this.ry = PI;
@@ -64,6 +66,8 @@ export class CardFloating extends Card {
         if (this.z >= 1 || this.z <= 0) vz *= -1;
       }
       this.rz += vrz * this.acc * drag;
+      if (this.rz > PIE) this.rz -= PIE;
+      else if (this.rz < -PIE) this.rz += PIE;
       this.x += vx * this.acc * drag;
       this.y += vy * this.acc * drag;
       if (this.x >= 1 || this.x <= 0) {
@@ -90,13 +94,13 @@ export class CardFloating extends Card {
       let xProj = Math.sin(ang + this.rz);
       let yProj = Math.cos(ang + this.rz);
       let [x, y] = [z * xProj, z * yProj];
-      return `${map(x, 0, 1, 0.3, 5)}em ${map(y, 0, 1, 0.3, 5)}em 3px rgba(0,0,0,${map(z,0,1,0.5,0.1)})`;
+      return `${map(x, 0, 1, 0.5, 6)}em ${map(y, 0, 1, 0.5, 5)}em 3px rgba(0,0,0,${map(z,0,1,0.4,0.1)})`;
     }
 
     this.set({
       position: "absolute",
       boxShadow: this._t.as(t => `${getShadow()}`),
-      fontSize: this._t.as(t => `${map(this.z,0,1,0.4,0.7)}em`),
+      fontSize: this._t.as(t => `${map(this.z,0,1,0.5,0.7)}em`),
       zIndex: this._t.as(t => 1 + Math.round(this.z * 30)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
