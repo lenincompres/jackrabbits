@@ -8,13 +8,14 @@ class Card extends HTMLElement {
     suit = Card.SUIT.D,
     root = "",
     numeral = true,
+    flipped = false,
   }) {
     super();
 
     this.binderSet({
       number: number,
       suit: suit,
-      flipped: false,
+      flipped: flipped,
       royal: false,
     });
 
@@ -94,7 +95,6 @@ class Card extends HTMLElement {
         pointerEvents: "none",
         img: {
           alt: this.suit.symbol + " card suit",
-          //transition: "0.2s",
           position: "absolute",
           width: "24%",
           margin: "-12%",
@@ -102,8 +102,8 @@ class Card extends HTMLElement {
           content: imgs,
         }
       },
-      div: {
-        backgroundColor: "wheat",
+      aside: {
+        backgroundColor: "#FDFCDE",
         backgroundImage: "url(./images/bg.png)",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -111,11 +111,11 @@ class Card extends HTMLElement {
         width: "100%",
         height: "100%",
         display: this._flipped.as("none", "block"),
+        transform: this._flipped.as("", "rotateY(180deg)"),
         img: {
           marginTop: "40%",
           src: "https://lenino.net/assets/leninoLogo.png",
           height: "45%",
-          transform: "rotateY(180deg)",
         }
       },
     });

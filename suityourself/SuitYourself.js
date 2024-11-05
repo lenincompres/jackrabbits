@@ -1,4 +1,5 @@
-import Card from "./Card.js";
+import Card from "../classes/Card.js";
+import CardValued from "../classes/CardValued.js";
 import TEXT from "./TEXT.js";
 
 const QS = DOM.querystring();
@@ -42,41 +43,44 @@ window.BUTTON_STYLE = {
 };
 
 class SuitYourself extends HTMLElement {
-
   constructor(root = "") {
     if (root.length && !root.endsWith("/")) root += "/";
     super();
 
-    this.strength = new Card({
-      suit: Card.SUIT.S,
+    this.strength = new CardValued({
+      suit: CardValued.SUIT.S,
       callback: () => this.updateCount(),
       root: root,
       number: HAND ? HAND[0] : undefined,
+      flipped: true,
     });
-    this.charm = new Card({
+    this.charm = new CardValued({
       callback: () => this.updateCount(),
-      suit: Card.SUIT.H,
+      suit: CardValued.SUIT.H,
       root: root,
       number: HAND ? HAND[1] : undefined,
+      flipped: true,
     });
-    this.wisdom = new Card({
+    this.wisdom = new CardValued({
       callback: () => this.updateCount(),
-      suit: Card.SUIT.C,
+      suit: CardValued.SUIT.C,
       root: root,
       number: HAND ? HAND[2] : undefined,
+      flipped: true,
     });
-    this.wealth = new Card({
+    this.wealth = new CardValued({
       root: root,
+      flipped: true,
     });
     this.cards = [this.strength, this.charm, this.wisdom, this.wealth];
     this.orderedCards = [];
 
+    this.strength.appearStage = 0;
+    this.charm.appearStage = 0;
     this.strength.hintStage = 1;
     this.charm.hintStage = 1;
     this.wisdom.hintStage = 2;
     this.wealth.hintStage = 3;
-    this.strength.appearStage = 0;
-    this.charm.appearStage = 0;
     this.wisdom.appearStage = 2;
     this.wealth.appearStage = 3;
 
@@ -84,32 +88,32 @@ class SuitYourself extends HTMLElement {
       shareURL: undefined,
       topCards: [],
       stage: HAND ? STAGE_DONE : STAGE_INTRO,
+      canShare: false,
+      width: window.innerWidth,
     });
+    window.addEventListener("resize", () => this.width.value = window.innerWidth);
     this._stage.onChange(v => {
       if (v === STAGE_INTRO) {
-        this.cards.forEach((c, i) => {
+        this.cards.forEach(c => {
           c.enabled = false;
-          c.number = Card.MIN;
+          c.number = CardValued.MIN;
+          c.flipped = true;
         });
-        this.wealth.number = Card.MAX;
+        this.wealth.number = CardValued.MAX;
       } else if (v === STAGE_START) {
-        this.cards.forEach((c, i) => {
+        this.cards.forEach(c => {
           c.enabled = true;
-          c.number = Card.MIN;
+          c.number = CardValued.MIN;
+          c.flipped = false;
         });
         this.wealth.enabled = false;
-        this.wealth.number = Card.MAX;
+        this.wealth.number = CardValued.MAX;
       } else if (v === STAGE_DONE) {
         this.updateShare();
       }
     });
     this.updateCount();
     this.updateShare();
-
-    this.width = new Binder(window.innerWidth);
-    window.addEventListener("resize", () => {
-      this.width.value = window.innerWidth;
-    });
 
     const TEXT_WIDTH = "28em";
 
@@ -224,18 +228,12 @@ class SuitYourself extends HTMLElement {
             return `rotate(${ang}deg)`;
           }),
           header: {
-            marginTop: "0.5em",
-            visibility: this._stage.as(stage => stage < 4, "hidden", "visible"),
+            margin: "0.5em 0",
+            visibility: this._stage.as(stage => stage > 0 && stage < 4, "hidden", "visible"),
             h2: {
-              textTransform: "Capitalize",
+              textTransform: "uppercase",
               fontSize: "1.25em",
               color: card.suit.color,
-              img: {
-                height: "1em",
-                alt: card.suit.symbol + " card suit",
-                src: root + card.suit.image,
-                verticalAlign: "middle",
-              },
               span: TEXT[card.suit.trait][LANG]
             },
           },
@@ -259,16 +257,25 @@ class SuitYourself extends HTMLElement {
         // shows points you have left
         marginTop: "1em",
         model: HIDE_MODEL(this._stage, stage => [STAGE_START, STAGE_WISDOM].includes(stage)),
-        h2: {
-          color: this.wealth.suit.color,
-          fontSize: "2em",
-          text: this.wealth._number.as(number => number - 2),
-        },
         h3: {
           fontSize: "1em",
+          marginBottom: "0.3em",
           color: this.wealth.suit.color,
           fontFamily: "body",
-          text: TEXT.POINTS_LEFT[LANG],
+          text: this.wealth._number.as(n => `${n-2} ` + TEXT.POINTS_LEFT[LANG]),
+        },
+        ul: {
+          display: "flex",
+          justifyContent: "center",
+          content: this.wealth._number.as(n => new Array(n - 2).fill({
+            li: {
+              img: {
+                height: "1.5em",
+                alt: "Diamond pip",
+                src: Card.SUIT.D.image,
+              },
+            },
+          }))
         },
       }, {
         //additional instructions
@@ -340,7 +347,6 @@ class SuitYourself extends HTMLElement {
       }
     };
 
-    let _canShare = new Binder(false);
     const sharing = {
       margin: "1em 0",
       model: HIDE_MODEL(this._stage, stage => stage === STAGE_DONE && !NAME),
@@ -376,7 +382,7 @@ class SuitYourself extends HTMLElement {
         },
         button: {
           ready: elt => !navigator.share ? elt.set("none", "display") : null,
-          style: _canShare.as(BUTTON_STYLE.DISABLED, BUTTON_STYLE.ENABLED()),
+          style: this._canShare.as(BUTTON_STYLE.DISABLED, BUTTON_STYLE.ENABLED()),
           text: TEXT.share[LANG],
           click: e => {
             this.storeData();
@@ -423,8 +429,8 @@ class SuitYourself extends HTMLElement {
 
   updateCount() {
     let sum = this.cards.reduce((o, c) => o + (c === this.wealth ? 0 : c.number), 0);
-    this.wealth.number = Card.MAX + 3 * Card.MIN - sum;
-    this.cards.forEach(c => c.canAdd = this.wealth.number > Card.MIN);
+    this.wealth.number = CardValued.MAX + 3 * CardValued.MIN - sum;
+    this.cards.forEach(c => c.canAdd = this.wealth.number > CardValued.MIN);
     let top = this.cards.reduce((o, c) => c.number > o ? c.number : o, 0);
     this.topCards = this.cards.filter(c => c.number >= top);
     this.orderedCards = [...this.cards].sort((a, b) => b.number - a.number);

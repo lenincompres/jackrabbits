@@ -20,7 +20,7 @@ class TEXT {
       es: "Usa + y - para cambiar el valor.",
     },
     {
-      en: "See the pips available below.",
+      en: "Spend the pips available below.",
       es: "Ve los puntos disponibles abajo.",
     },
     {
