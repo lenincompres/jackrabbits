@@ -7,22 +7,20 @@ const HAND = QS.jrsyhand ? QS.jrsyhand.split(",").map(n => parseInt(n)) : false;
 
 const MY_URL = window.location.href.substr(0, window.location.href.lastIndexOf("/"));
 
-const WIDTH = new Binder(window.innerWidth);
-addEventListener("resize", e => WIDTH.value = window.innerWidth);
+const _width = new Binder(window.innerWidth);
+addEventListener("resize", e => _width.value = window.innerWidth);
 
 const [STAGE_INTRO, STAGE_START, STAGE_WISDOM, STAGE_WEALTH, STAGE_DONE] = [0, 1, 2, 3, 4];
 const STAGES = [STAGE_INTRO, STAGE_START, STAGE_WISDOM, STAGE_WEALTH, STAGE_DONE];
 
 let nameInput;
 
-const HIDE_MODEL = (binder, test = v => v) => {
-  return {
-    transition: "0.5s",
-    overflow: "hidden",
-    opacity: binder.as(test, 0, 1),
-    maxHeight: binder.as(test, 0, "100em"),
-  }
-};
+const HIDE_MODEL = (binder, test = v => v) => ({
+  transition: "0.5s",
+  overflow: "hidden",
+  opacity: binder.as(test, 0, 1),
+  maxHeight: binder.as(test, 0, "100em"),
+});
 
 window.BUTTON_STYLE = {
   ENABLED: (color = "black") => new Object({
@@ -82,10 +80,29 @@ class SuitYourself extends HTMLElement {
     this.wisdom.appearStage = 2;
     this.wealth.appearStage = 3;
 
-
-    this._shareURL = new Binder();
-    this._topCards = new Binder([]);
-    this._stage = new Binder(HAND ? STAGE_DONE : STAGE_INTRO);
+    this.binderSet({
+      shareURL: undefined,
+      topCards: [],
+      stage: HAND ? STAGE_DONE : STAGE_INTRO,
+    });
+    this._stage.onChange(v => {
+      if (v === STAGE_INTRO) {
+        this.cards.forEach((c, i) => {
+          c.enabled = false;
+          c.number = Card.MIN;
+        });
+        this.wealth.number = Card.MAX;
+      } else if (v === STAGE_START) {
+        this.cards.forEach((c, i) => {
+          c.enabled = true;
+          c.number = Card.MIN;
+        });
+        this.wealth.enabled = false;
+        this.wealth.number = Card.MAX;
+      } else if (v === STAGE_DONE) {
+        this.updateShare();
+      }
+    });
     this.updateCount();
     this.updateShare();
 
@@ -167,7 +184,7 @@ class SuitYourself extends HTMLElement {
 
     const main = {
       position: "relative",
-      width: WIDTH.as(v => v + "px"),
+      width: _width.as(v => v + "px"),
       minWidth: "24em",
       ul: {
         id: "mainContent",
@@ -188,6 +205,7 @@ class SuitYourself extends HTMLElement {
           marginLeft: this._stage.as(stage => {
             if (!i) return 0;
             if (!stage) return "1em";
+            if (stage < 2) return `${2 * stage}em`;
             if (stage < 4) return `${-0.3 * stage}em`;
             return "-8em";
           }),
@@ -206,13 +224,6 @@ class SuitYourself extends HTMLElement {
             return `rotate(${ang}deg)`;
           }),
           header: {
-            margin: "0.5em auto 0",
-            model: HIDE_MODEL(this._stage, stage => stage === card.hintStage),
-            textAlign: "center",
-            p: TEXT.CARD_HINTS.map(H => H[LANG])[i],
-          },
-          main: card,
-          footer: {
             marginTop: "0.5em",
             visibility: this._stage.as(stage => stage < 4, "hidden", "visible"),
             h2: {
@@ -227,6 +238,13 @@ class SuitYourself extends HTMLElement {
               },
               span: TEXT[card.suit.trait][LANG]
             },
+          },
+          main: card,
+          footer: {
+            margin: "0.5em auto 0",
+            model: HIDE_MODEL(this._stage, stage => stage === card.hintStage),
+            textAlign: "center",
+            p: TEXT.CARD_HINTS.map(H => H[LANG])[i],
           },
         })),
       },
@@ -366,7 +384,7 @@ class SuitYourself extends HTMLElement {
               navigator.share({
                 title: TEXT.PAGE_TITLE[LANG],
                 text: TEXT.SHARE_MESSAGE[LANG],
-                url: this._shareURL.value,
+                url: this.shareURL,
               }).then(() => {
                 e.target.set("none", "display");
               }).catch(console.error);
@@ -416,42 +434,10 @@ class SuitYourself extends HTMLElement {
     console.log("Store date for the future:", nameInput.value, this.strength.number, this.charm.number, this.wisdom.number);
   }
 
-  get stage() {
-    return this._stage.value;
-  }
-
-  set stage(v) {
-    this._stage.value = v;
-    if (v === STAGE_INTRO) {
-      this.cards.forEach((c, i) => {
-        c.enabled = false;
-        c.number = Card.MIN;
-      });
-      this.wealth.number = Card.MAX;
-    } else if (v === STAGE_START) {
-      this.cards.forEach((c, i) => {
-        c.enabled = true;
-        c.number = Card.MIN;
-      });
-      this.wealth.enabled = false;
-      this.wealth.number = Card.MAX;
-    } else if (v === STAGE_DONE) {
-      this.updateShare();
-    }
-  }
-
   updateShare(name) {
     let url = MY_URL + `/?lang=${LANG}&jksyhand=${this.strength.number},${this.charm.number},${this.wisdom.number}`
     if (name) url += `&jksyname=${name}`;
-    this._shareURL.value = url;
-  }
-
-  get topCards() {
-    return this._topCards.value;
-  }
-
-  set topCards(v) {
-    this._topCards.value = v;
+    this.shareURL = url;
   }
 
   getPct(suit, root) {
