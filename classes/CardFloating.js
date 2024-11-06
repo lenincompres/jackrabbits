@@ -63,20 +63,23 @@ export class CardFloating extends Card {
         this.z += vz * this.acc * drag;
         if (this.rx > PI || this.rx < -PI) vrx *= -1;
         if (this.ry > PI || this.ry < -PI) vry *= -1;
-        if (this.z >= 1 || this.z <= 0) vz *= -1;
       }
       this.rz += vrz * this.acc * drag;
       if (this.rz > PIE) this.rz -= PIE;
       else if (this.rz < -PIE) this.rz += PIE;
       this.x += vx * this.acc * drag;
       this.y += vy * this.acc * drag;
-      if (this.x >= 1 || this.x <= 0) {
+      if (this.z > 1 || this.z < 0) {
+        this.r = Math.round(this.r);
+        vz *= -1;
+      }
+      if (this.x > 1 || this.x < 0) {
         this.x = Math.round(this.x);
         vx *= -1;
         vy *= 1 + rand();
         flip();
       }
-      if (this.y >= 1 || this.y <= 0) {
+      if (this.y > 1 || this.y < 0) {
         this.y = Math.round(this.y);
         vy *= -1;
         vx *= 1 + rand();

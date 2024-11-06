@@ -72,25 +72,29 @@ class Copy {
    * @param {number} i - Index to retrieve, if that key has an array.
    * @return {string} - Text copy in the appropriate key and index.
    */
-  get(key, i = 0) {
+  get(...args) {
+    let argsType = DOM.typify(...args);
+    let key = argsType.string;
+    let i = argsType.number ? argsType.number : 0;
+    let vars = argsType.array;
     if (key === undefined) return console.error("No key was passed to the copy.");
     let val = this.#map[key];
     if (val === undefined) return console.error(`Key "${key}" not found in copy.`);
     this.#key = key;
     let lang = Copy.lang;
-    if (val[lang]) return Copy.treat(val[lang]);
-    if (typeof val === "string") return Copy.treat(val);
+    if (val[lang]) return Copy.treat(val[lang], vars);
+    if (typeof val === "string") return Copy.treat(val, vars);
     if (!Array.isArray(val)) {
       console.error(`Language "${lang}" not found in copy at "${key}".`);
-      return Copy.treat(val[Object.keys(val)[0]]);
+      return Copy.treat(val[Object.keys(val)[0]], vars);
     }
     val = val[i];
     if (val === undefined) return console.error(`No copy text found at: ${key}[${i}].`);
     this.#indexMap[key] = i;
-    if (val[lang]) return Copy.treat(val[lang]);
-    if (typeof val === "string") return Copy.treat(val);
+    if (val[lang]) return Copy.treat(val[lang], vars);
+    if (typeof val === "string") return Copy.treat(val, vars);
     console.error(`Language "${lang}" not found in copy at: ${key}[${i}].`);
-    return Copy.treat(val[Object.keys(val)[0]]);
+    return Copy.treat(val[Object.keys(val)[0]], vars);
   }
 
   /**
@@ -134,13 +138,16 @@ class Copy {
    * Treats the text as to add any fixes. So 
    * @param {string} str - Text to be treated.
    * @param {array} str - Texts to be treated.
+   * @param {array} vars - values to replace $0, $1, $2...
    * @return {str} - Treated text.
    * @return {array} - Array of treated texts.
    */
-  static treat(str) {
+  static treat(str, vars = []) {
     if (!str) return str;
     if (Array.isArray(str)) return str.map(i => Copy.treat(i));
-    return str.replaceAll("—", '<em class="em-dash">--</em>');
+    str = str.replaceAll("—", '<em class="em-dash">--</em>');
+    if (vars.length) vars.forEach((v, i) => str = str.replaceAll(`%${i}`, v));
+    return str;
   }
 
   /**
@@ -194,7 +201,7 @@ class Copy {
     if (Copy._defaultInstance) return Copy._defaultInstance;
     return Copy._defaultInstance = new Copy();
   }
-  static get keys(){
+  static get keys() {
     return Copy.getDefaultInstance().keys;
   }
   static get KEY() {
