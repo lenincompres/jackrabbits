@@ -626,10 +626,10 @@ Copy.add("full", [{
   es: "Canjear en las plazas J",
   en: "Trade at Jack Plazas",
 }, {
-  es: `Comercia en los <i>hexágonos de ventas</i>
-    con flechas que sugieren intercambio:
-    en estos, los diamantes se canjean 
-    por cartas descartadas de su palo,
+  es: `Comercia en los <i>hexágonos de ventas</i>,
+    con flechas en sus símbolos marcados.
+    En estos, los diamantes se canjean 
+    por cartas descartadas de sus palos;
     excepto en el marcado con la estrella,
     que acepta de cualquiera por el pago.
     Recuerda que la pila se renueva
