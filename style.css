@@ -18,11 +18,11 @@
 }
 
 html {
-  background-image: url(./images/bg.png);
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 body {
+  background-image: url(./images/bg.png);
   font-family: base;
   font-size: 1rem;
   text-align: center;
