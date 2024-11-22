@@ -1,0 +1,21 @@
+import Copy from "../lib/Copy.js";
+import ASSETS from "../src/assets.js";
+import {
+  versify
+} from "../src/auxiliary.js";
+import endingSection from "./sections/ending.js";
+import greetingsSection from "./sections/greetings.js";
+import overviewSection from "./sections/overview.js";
+import splashSection from "./sections/splash.js";
+
+const homePage = {
+  section: [splashSection, greetingsSection, overviewSection, endingSection],
+  footer: {
+    p: versify(Copy.text({
+      es: `<a href="#setup">Preparación <b>inicial</b></a> </br>(Hasta cuatro participantes)`,
+      en: `<a href="#setup"><b>Setup</b></a></br>(Up to four players)`,
+    })),
+  },
+};
+
+export default homePage;

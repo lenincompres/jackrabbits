@@ -1,13 +1,25 @@
 import {
   versify
-} from "./auxiliary.js";
-import Copy from "./classes/Copy.js";
-import Pager from "./classes/Pager.js";
-import ASSETS from "./assets.js";
+} from "./src/auxiliary.js";
+import Copy from "./lib/Copy.js";
+import Pager from "./lib/Pager.js";
+import ASSETS from "./src/assets.js";
 import "./copy.js";
-import "./pages.js";
 import "./lightbox.js";
-import CardFloating from "./classes/CardFloating.js";
+import CardFloating from "./src/CardFloating.js";
+import morePage from "./pages/more.js";
+import fullPage from "./pages/full.js";
+import introPage from "./pages/intro.js";
+import setupPage from "./pages/setup.js";
+import homePage from "./pages/home.js";
+
+Pager.add({
+  home: homePage,
+  setup: setupPage,
+  intro: introPage,
+  full: fullPage,
+  more: morePage,
+});
 
 let cardNum = window.innerWidth * window.innerHeight / window.devicePixelRatio;
 cardNum = Math.floor(Math.sqrt(cardNum) / 250);
@@ -25,9 +37,6 @@ DOM.set({
   },
   icon: "./images/icon.png",
   link: "style.css",
-  div: {
-
-  },
   position: "relative",
   width: "100vw",
   overflowX: "hidden",
@@ -50,12 +59,11 @@ DOM.set({
   main: {
     nav: {
       id: "main_nav",
-      content: Pager.getLinkMenu((key, i) => ({
+      content: Pager.getLinkMenu(key => ({
         transition: '0.3s ease',
         color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
         backgroundColor: Pager._key.as(val => val === key ? `var(--${key})` : 'transparent'),
-        name: key,
-        html: Copy.get("nav", i),
+        html: Copy.get(key),
       })),
     },
     article: {
@@ -65,24 +73,24 @@ DOM.set({
     },
   },
   footer: {
-    p: versify(Copy.get("footer")),
+    p: versify(Copy.get("subscribe")),
     menu_bulletMenu: DOM.linkMenu({
-      text: Copy.next(),
+      text: Copy.get("buy"),
       class: "buy",
       position: "relative",
       margin: 0,
       href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       target: "_blank",
     }, {
-      text: Copy.next(),
+      text: "Instagram",
       href: "http://instagram.com/lenino.jackrabbits",
       target: "_blank",
     }, {
-      text: Copy.next(),
+      text: Copy.get("virtual"),
       href: "https://tabletopia.com/games/jack-rabbits",
       target: "_blank",
     }, {
-      text: Copy.next(),
+      text: Copy.get("novel"),
       href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
       target: "_blank",
     }),

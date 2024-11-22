@@ -1,9 +1,13 @@
-import ASSETS from "./assets.js";
-import { versify } from "./auxiliary.js";
-import Copy from "./classes/Copy.js";
-import LightBox from "./classes/LightBox.js";
-import Pager from "./classes/Pager.js";
+import ASSETS from "./src/assets.js";
+import { versify } from "./src/auxiliary.js";
+import Copy from "./lib/Copy.js";
+import LightBox from "./lib/LightBox.js";
+import Pager from "./lib/Pager.js";
+import homePage from "./pages/home.js";
+import boardSection from "./pages/sections/board.js";
+import priceSection from "./pages/sections/price.js";
 
+window.popUp = key => LightBox.open(key);
 
 LightBox.add(new Pager({
   video: {
@@ -24,40 +28,63 @@ LightBox.add(new Pager({
     }
   },
   citadel: {
-    h3: Copy.get("popup"),
+    h3: Copy.text({
+      es: "Ciudadela",
+      en: "Citadel",
+    }),
     img: ASSETS.citadel,
-    p: versify(Copy.next()),
+    p: versify(Copy.text({
+      es: `La pieza hexagonal en la que empiezas…
+        y acabas al traer a la nobleza.`,
+      en: `The hex where the journey starts…
+        and ends with three royal cards.`
+    })),
   },
   underground: {
-    h3: Copy.next(),
+    h3: Copy.text({
+      es: "Subsuelo",
+      en: "underground",
+    }),
     img: ASSETS.underground,
-    p: versify(Copy.next())
+    p: versify(Copy.text({
+      es: `La pieza hexagonal en la que esperas
+        si vas a atravesar las madrigueras.`,
+      en: `The hex where you wait around
+        to reach caves in the next round.`
+    }))
   },
   advancedCitadel: {
-    h3: Copy.next(),
+    h3: Copy.text({
+      es: "Ciudadela Avanzada",
+      en: "Advanced Citadel",
+    }),
     img: ASSETS.advancedCitadel,
-    p: versify(Copy.next())
+    p: versify(Copy.text({
+      es: `La ficha del inicio es reforzada:
+        con torre, con palacio y con su plaza.`,
+      en: `This citadel has more power:
+        a palace, plaza and tower.`
+    }))
   },
   roadTiles: {
-    h3: Copy.next(),
+    h3: Copy.text({
+      es: "Piezas viales",
+      en: "Road tiles",
+    }),
     img: ASSETS.roadTiles,
   },
   sample: {
-    h3: Copy.next(),
+    h3: Copy.text({
+      es: "Tablero de ejemplo",
+      en: "Sample board",
+    }),
     img: ASSETS.sample,
   },
   endings: {
-    content: Pager.map.home.section[3],
+    content: homePage.section[3],
   },
-  board: {
-    h3: Copy.next(),
-    p: versify(Copy.next()),
-    img: ASSETS.guides,
-  },
-  price: {
-    h4: Copy.next(),
-    p: versify(Copy.next())
-  },
+  board: boardSection,
+  price: priceSection,
   mailingList: {
     id: "mailingList",
     img: {
@@ -70,10 +97,16 @@ LightBox.add(new Pager({
       }),
       src: 'https://i.etsystatic.com/52679041/r/il/c0dc16/6069187861/il_794xN.6069187861_a4dz.jpg',
     },
-    h2: Copy.next(),
+    h2: Copy.text({
+      es: "Listado de correo",
+      en: "Mailing list",
+    }),
     p: {
       textAlign: "left",
-      content: Copy.next(),
+      content: Copy.text({
+        es: "Lenino está preparando una campaña para <b>Jack Rabbits</b> y puede avisarte cuando esté lista.",
+        en: "Lenino is preparing a launch campaign for <b>Jack Rabbits</b>, and can notify you when it's ready."
+      }),
     },
     iframe: {
       width: "100%",
@@ -96,4 +129,3 @@ LightBox.add(new Pager({
     }
   }
 }));
-window.popUp = key => LightBox.open(key);

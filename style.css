@@ -428,6 +428,10 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
+#pageArticle>section>section {
+  margin: 0.3rem 0;
+}
+
 section>ul {
   text-align: left;
   text-indent: -0.5rem;
