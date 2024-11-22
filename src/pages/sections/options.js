@@ -1,7 +1,5 @@
-import Copy from "../../lib/Copy.js";
-import {
-  versify
-} from "../../src/auxiliary.js";
+import Copy from "../../../lib/Copy.js";
+import versify from "../../aux/versify.js";
 
 const optionalSections = [{
   h4: Copy.text({

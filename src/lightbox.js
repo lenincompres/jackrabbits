@@ -1,8 +1,8 @@
-import ASSETS from "./src/assets.js";
-import { versify } from "./src/auxiliary.js";
-import Copy from "./lib/Copy.js";
-import LightBox from "./lib/LightBox.js";
-import Pager from "./lib/Pager.js";
+import ASSETS from "./assets.js";
+import versify from "./aux/versify.js";
+import Copy from "../lib/Copy.js";
+import LightBox from "../lib/LightBox.js";
+import Pager from "../lib/Pager.js";
 import homePage from "./pages/home.js";
 import boardSection from "./pages/sections/board.js";
 import priceSection from "./pages/sections/price.js";

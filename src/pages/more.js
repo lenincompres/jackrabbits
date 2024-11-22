@@ -1,4 +1,4 @@
-import Copy from "../lib/Copy.js";
+import Copy from "../../lib/Copy.js";
 
 const morePage = {
   section_optional: [{

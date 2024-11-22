@@ -1,6 +1,6 @@
-import Copy from "../../lib/Copy.js";
-import ASSETS from "../../src/assets.js";
-import { versify } from "../../src/auxiliary.js";
+import Copy from "../../../lib/Copy.js";
+import ASSETS from "../../assets.js";
+import versify from "../../aux/versify.js";
 
 const endingSection = {
   h2: Copy.text({

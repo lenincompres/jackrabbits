@@ -1,17 +1,16 @@
-import {
-  versify
-} from "./src/auxiliary.js";
+import versify from "./src/aux/versify.js";
 import Copy from "./lib/Copy.js";
 import Pager from "./lib/Pager.js";
 import ASSETS from "./src/assets.js";
-import "./copy.js";
-import "./lightbox.js";
+import "./src/copy.js";
+import "./src/lightbox.js";
 import CardFloating from "./src/CardFloating.js";
-import morePage from "./pages/more.js";
-import fullPage from "./pages/full.js";
-import introPage from "./pages/intro.js";
-import setupPage from "./pages/setup.js";
-import homePage from "./pages/home.js";
+
+import morePage from "./src/pages/more.js";
+import fullPage from "./src/pages/full.js";
+import introPage from "./src/pages/intro.js";
+import setupPage from "./src/pages/setup.js";
+import homePage from "./src/pages/home.js";
 
 Pager.add({
   home: homePage,
@@ -21,9 +20,8 @@ Pager.add({
   more: morePage,
 });
 
-let cardNum = window.innerWidth * window.innerHeight / window.devicePixelRatio;
-cardNum = Math.floor(Math.sqrt(cardNum) / 250);
-let cards = Array(cardNum).fill().map((_, i) => new CardFloating({
+const cardNum =  Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);
+let cards = Array(cardNum).fill().map(() => new CardFloating({
   root: 'suityourself/',
 }));
 
@@ -33,13 +31,10 @@ DOM.set({
   keywords: "lenino, jack rabbits, board game, boardgame, alice in wonderlan, card game, playing cards",
   image: {
     src: ASSETS.jackRabbits.src,
-    alt: "Jack Rabbits and it logo"
+    alt: "Jack Rabbits' logo",
   },
   icon: "./images/icon.png",
   link: "style.css",
-  position: "relative",
-  width: "100vw",
-  overflowX: "hidden",
   header: {
     h1: {
       small: [{

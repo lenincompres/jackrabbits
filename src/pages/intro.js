@@ -1,5 +1,5 @@
-import Copy from "../lib/Copy.js";
-import { versify } from "../src/auxiliary.js";
+import Copy from "../../lib/Copy.js";
+import versify from "../aux/versify.js";
 import transferSections from "./sections/transfers.js";
 import turnSections from "./sections/turns.js";
 

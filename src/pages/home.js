@@ -1,8 +1,5 @@
-import Copy from "../lib/Copy.js";
-import ASSETS from "../src/assets.js";
-import {
-  versify
-} from "../src/auxiliary.js";
+import Copy from "../../lib/Copy.js";
+import versify from "../aux/versify.js";
 import endingSection from "./sections/ending.js";
 import greetingsSection from "./sections/greetings.js";
 import overviewSection from "./sections/overview.js";

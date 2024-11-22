@@ -1,6 +1,4 @@
-import {
-  imgCropStyle
-} from "./auxiliary.js";
+import imgCropStyle from "./aux/imgCropStyle.js";
 
 const ASSETS = {
   thumbnailOf: (key, pct = 34, click = () => undefined) => ({

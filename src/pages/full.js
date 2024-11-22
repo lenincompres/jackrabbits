@@ -1,7 +1,5 @@
-import Copy from "../lib/Copy.js";
-import {
-  versify
-} from "../src/auxiliary.js";
+import Copy from "../../lib/Copy.js";
+import versify from "../aux/versify.js";
 import strategySections from "./sections/strategies.js";
 import optionalSections from "./sections/options.js";
 
@@ -20,7 +18,7 @@ const fullPage = {
   },
   section: strategySections,
   header_: {
-    h4: Copy.text({
+    h3: Copy.text({
       es: "Reglas Opcionales",
       en: "Optional Rules",
     }),
