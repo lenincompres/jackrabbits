@@ -1,5 +1,4 @@
 import Copy from "../lib/Copy.js";
-import ASSETS from "../src/assets.js";
 import {
   versify
 } from "../src/auxiliary.js";

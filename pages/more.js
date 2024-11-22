@@ -1,8 +1,7 @@
 import Copy from "../lib/Copy.js";
 
 const morePage = {
-  section: [, {
-    class: "optional",
+  section_optional: [{
     h3: {
       a: {
         text: Copy.get("buy"),
@@ -15,7 +14,6 @@ const morePage = {
       en: `Visit our online store and get a physical copy of the game.`,
     }),
   }, {
-    class: "optional",
     h3: {
       a: {
         text: Copy.text({
@@ -27,7 +25,6 @@ const morePage = {
     },
     p: Copy.get("subscribe"),
   }, {
-    class: "optional",
     h3: {
       a: {
         text: Copy.get("virtual"),
@@ -40,7 +37,6 @@ const morePage = {
       en: "Play <b>Jack Rabbits</b> online with your friends."
     }),
   }, {
-    class: "optional",
     h3: {
       a: {
         text: Copy.text({
@@ -55,7 +51,6 @@ const morePage = {
       en: `This test will reveal the suit that best fits your personality.`,
     }),
   }, {
-    class: "optional",
     h3: {
       a: {
         text: Copy.get("novel"),
