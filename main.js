@@ -80,8 +80,8 @@ DOM.set({
     section: {
       marginTop: "1em",
       markdown: Copy.text({
-        es: "Creador por [Lenin Comprés](https://lenino/net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-        en: "Created by [Lenin Comprés](https://lenino/net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        es: "Creador por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
       }),
     },
     onready: e => popUp('mailingList'),
