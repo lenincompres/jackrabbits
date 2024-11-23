@@ -2,15 +2,14 @@ import versify from "./src/aux/versify.js";
 import Copy from "./lib/Copy.js";
 import Pager from "./lib/Pager.js";
 import ASSETS from "./src/assets.js";
-import "./src/copy.js";
-import "./src/lightbox.js";
 import CardFloating from "./src/CardFloating.js";
-
+import "./src/copy.js";
 import morePage from "./src/pages/more.js";
 import fullPage from "./src/pages/full.js";
 import introPage from "./src/pages/intro.js";
 import setupPage from "./src/pages/setup.js";
 import homePage from "./src/pages/home.js";
+import "./src/lightbox.js";
 
 Pager.add({
   home: homePage,
@@ -21,9 +20,6 @@ Pager.add({
 });
 
 const cardNum = Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);
-const cards = Array(cardNum).fill().map(() => new CardFloating({
-  root: 'suityourself/',
-}));
 
 DOM.set({
   title: "Lenino's Jack Rabbits - " + Copy.get("header"),
@@ -36,18 +32,13 @@ DOM.set({
   icon: "./images/icon.png",
   link: "style.css",
   header: {
-    h1: {
-      small: [{
-        class: "logo-super",
-        text: "Lenino's",
-      }, {
-        tag: "a",
-        text: "Jack Rabbits",
-        href: "#home",
-      }, {
-        class: "logo-sub",
-        text: Copy.get("header"),
-      }],
+    a: {
+      href: "#home",
+      h1: {
+        small_logoSuper: "Lenino's",
+        span: "Jack Rabbits",
+        small_logoSub: Copy.get("header"),
+      },
     },
     menu_bulletMenu: Copy.getLinkMenu(),
   },
@@ -95,5 +86,7 @@ DOM.set({
     },
     onready: e => popUp('mailingList'),
   },
-  aside: cards,
+  aside: Array(cardNum).fill().map(() => new CardFloating({
+    root: 'suityourself/',
+  })),
 });

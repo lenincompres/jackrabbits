@@ -259,13 +259,17 @@ body>header h1 {
   padding-top: 1.5rem;
 }
 
-.logo-super {
+body>header span {
+  white-space: nowrap;
+}
+
+.logoSuper {
   position: inherit;
   margin-right: -5rem;
   margin-top: -3rem;
 }
 
-.logo-sub {
+.logoSub {
   position: inherit;
   margin-left: -6rem;
   margin-bottom: -2.8rem;
