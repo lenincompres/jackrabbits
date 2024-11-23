@@ -1,5 +1,4 @@
-import TopMenu from "../TopMenu.js";
-import TEXT from "./TEXT.js";
+//import TopMenu from "../TopMenu.js";
 import SuitYourself from "./SuitYourself.js";
 
 DOM.set({
@@ -26,6 +25,5 @@ DOM.set({
   flexDirection: "column",
   textAlign: "center",
   padding: "1em",
-  menu: new TopMenu(),
   main: new SuitYourself(),
 });

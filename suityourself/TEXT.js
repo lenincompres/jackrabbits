@@ -20,7 +20,7 @@ class TEXT {
       es: "Usa + y - para cambiar el valor.",
     },
     {
-      en: "Spend the pips available below.",
+      en: "Spend all pips available below.",
       es: "Ve los puntos disponibles abajo.",
     },
     {
@@ -41,8 +41,12 @@ class TEXT {
     es: "continuar",
   }
   static WHEN_READY = {
-    en: `Increase the cards at will using their (+) buttons, and click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
-    es: `Distribuye los puntos para incrementar (+) el valor de las cartas a tu gusto y luego presiona <b>${TEXT.NEXT.es}</b>.`,
+    en: `Using their (+/-) buttons, change the value of the cards at will to and reach your ideal balance between strength and charm. Click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
+    es: `Distribuye los puntos para incrementar (+/-) el valor de las cartas según to balance ideal entre la fuerza y el encanto. Cuando se acaben los puntos, presiona <b>${TEXT.NEXT.es}</b>.`,
+  }
+  static NEW_CARD = {
+    en: `Reconsider the balance now with the new card. If you wish to increase wisdom, you'll need to reduce another card.`,
+    es: `Recosidera ahora con la nueva carta. Si deseas añadirle más valor a la sabiduría, necesitarás reducir a las demás.`,
   }
   static BEGIN = {
     en: "begin",

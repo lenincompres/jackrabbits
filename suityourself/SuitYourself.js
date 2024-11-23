@@ -1,10 +1,13 @@
-import Card from "../classes/Card.js";
-import CardValued from "../classes/CardValued.js";
+import Card from "../src/Card.js";
+import CardValued from "../src/CardValued.js";
 import TEXT from "./TEXT.js";
+import Copy from "../lib/Copy.js";
 
 const QS = DOM.querystring();
 const NAME = QS.jrsyname ? QS.jrsyname : undefined;
 const HAND = QS.jrsyhand ? QS.jrsyhand.split(",").map(n => parseInt(n)) : false;
+
+window.LANG = Copy.lang;
 
 const MY_URL = window.location.href.substr(0, window.location.href.lastIndexOf("/"));
 
@@ -181,8 +184,13 @@ class SuitYourself extends HTMLElement {
         content: this._stage.as(stage => stage === STAGE_DONE, TEXT.PAGE_TITLE[LANG], TEXT.PAGE_TITLE_DONE[LANG](NAME)),
       },
       section: {
-        model: HIDE_MODEL(this._stage, stage => stage === STAGE_INTRO),
-        p: TEXT.PAGE_DESCRIPTION[LANG],
+        model: HIDE_MODEL(this._stage, stage => [STAGE_INTRO, STAGE_START, STAGE_START, STAGE_WISDOM, STAGE_WEALTH].includes(stage)),
+        p: this._stage.as(stage => {
+          if(stage === STAGE_INTRO) return TEXT.PAGE_DESCRIPTION[LANG];
+          if(stage === STAGE_WISDOM) return TEXT.NEW_CARD[LANG];
+          if(stage === STAGE_WEALTH) return TEXT.WHEN_DONE[LANG];
+          return TEXT.WHEN_READY[LANG];
+        }),
       }
     };
 
@@ -276,13 +284,6 @@ class SuitYourself extends HTMLElement {
               },
             },
           }))
-        },
-      }, {
-        //additional instructions
-        marginTop: "0.5em",
-        model: HIDE_MODEL(this._stage, stage => [STAGE_START, STAGE_WEALTH, STAGE_WEALTH].includes(stage)),
-        p: {
-          content: this._stage.as(stage => stage === STAGE_WEALTH, TEXT.WHEN_READY[LANG], TEXT.WHEN_DONE[LANG]),
         },
       }, {
         // warnings/errors
@@ -441,6 +442,7 @@ class SuitYourself extends HTMLElement {
   }
 
   updateShare(name) {
+    return;
     let url = MY_URL + `/?lang=${LANG}&jksyhand=${this.strength.number},${this.charm.number},${this.wisdom.number}`
     if (name) url += `&jksyname=${name}`;
     this.shareURL = url;

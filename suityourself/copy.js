@@ -1,4 +1,4 @@
-import Copy from "../classes/Copy"
+import Copy from "../lib/Copy.js"
 
 let TEXT = new Copy({
   GET_JK: {
