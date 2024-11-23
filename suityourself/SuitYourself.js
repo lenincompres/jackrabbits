@@ -218,7 +218,7 @@ class SuitYourself extends HTMLElement {
             if (!i) return 0;
             if (!stage) return "1em";
             if (stage < 2) return `${2 * stage}em`;
-            if (stage < 4) return `${-0.3 * stage}em`;
+            if (stage < 4) return `${-0.4 * stage}em`;
             return "-8em";
           }),
           marginTop: this._stage.as(stage => {

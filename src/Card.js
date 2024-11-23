@@ -104,7 +104,7 @@ class Card extends HTMLElement {
       },
       aside: {
         backgroundColor: "#FDFCDE",
-        backgroundImage: "url(./images/bg.png)",
+        backgroundImage: `url(${root}assets/bg.png)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         position: "absolute",

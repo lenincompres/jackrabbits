@@ -21,6 +21,7 @@ DOM.set({
   fontFamily: "body",
   backgroundColor: " silver",
   backgroundImage: 'url(../images/bg.png)',
+  backgroundPosition: "top center",
   display: "flex",
   flexDirection: "column",
   textAlign: "center",

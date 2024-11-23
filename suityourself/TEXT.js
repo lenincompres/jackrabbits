@@ -41,8 +41,8 @@ class TEXT {
     es: "continuar",
   }
   static WHEN_READY = {
-    en: `Using their (+/-) buttons, change the value of the cards at will to and reach your ideal balance between strength and charm. Click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
-    es: `Distribuye los puntos para incrementar (+/-) el valor de las cartas según to balance ideal entre la fuerza y el encanto. Cuando se acaben los puntos, presiona <b>${TEXT.NEXT.es}</b>.`,
+    en: `Using their (+/-) buttons, change the value of the cards to reach your ideal balance between strength and charm.<br/>Click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
+    es: `Distribuye los puntos para incrementar (+/-) el valor de las cartas según to balance ideal entre la fuerza y el encanto.<br/>Cuando se acaben los puntos, presiona <b>${TEXT.NEXT.es}</b>.`,
   }
   static NEW_CARD = {
     en: `Reconsider the balance now with the new card. If you wish to increase wisdom, you'll need to reduce another card.`,
@@ -65,8 +65,8 @@ class TEXT {
     es: "listo",
   }
   static WHEN_DONE = {
-    en: `Click <b>${TEXT.DONE.en}</b> when safistied.`,
-    es: `Presiona <b>${TEXT.DONE.es}</b> cuando estés satisfecho.`,
+    en: `Consider the last card, and click <b>${TEXT.DONE.en}</b> when safistied.`,
+    es: `Considera la última carta y resiona <b>${TEXT.DONE.es}</b> cuando estés satisfecho.`,
   }
   static RESTART = {
     en: "Restart",
@@ -97,8 +97,8 @@ class TEXT {
     es: "Esta es mi mano, como valoro los 4 principales rasgos de la personalidad en las cartas. Ven a conocerme."
   }
   static MAILING_LIST_TEXT ={
-    en: "Join Lenino's JACK RABBITS mailing list.",
-    es: "Mantente al tanto de Lenino y sus JACK RABBITS."
+    en: "Join Lenino's <b>JACK RABBITS</b> mailing list.",
+    es: "Mantente al tanto de Lenino y sus <b>JACK RABBITS</b>."
   }
   static name = {
     en: "name",

@@ -20,8 +20,8 @@ Pager.add({
   more: morePage,
 });
 
-const cardNum =  Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);
-let cards = Array(cardNum).fill().map(() => new CardFloating({
+const cardNum = Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);
+const cards = Array(cardNum).fill().map(() => new CardFloating({
   root: 'suityourself/',
 }));
 
@@ -52,17 +52,14 @@ DOM.set({
     menu_bulletMenu: Copy.getLinkMenu(),
   },
   main: {
-    nav: {
-      id: "main_nav",
-      content: Pager.getLinkMenu(key => ({
-        transition: '0.3s ease',
-        color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
-        backgroundColor: Pager._key.as(val => val === key ? `var(--${key})` : 'transparent'),
-        html: Copy.get(key),
-      })),
-    },
-    article: {
-      id: "pageArticle",
+    nav_main: Pager.getLinkMenu(key => ({
+      transition: '0.3s ease',
+      color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
+      backgroundColor: Pager._key.as(val => val === key ? `var(--${key})` : 'transparent'),
+      name: key,
+      html: Copy.get(key),
+    })),
+    article_main: {
       backgroundColor: Pager._key.as(key => `var(--${key})`),
       content: Pager._content,
     },
@@ -92,8 +89,8 @@ DOM.set({
     section: {
       marginTop: "1em",
       markdown: Copy.text({
-        es: "Creador por Lenin Comprés usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-        en: "Created by Lenin Comprés using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        es: "Creador por [Lenin Comprés](https://lenino/net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        en: "Created by [Lenin Comprés](https://lenino/net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
       }),
     },
     onready: e => popUp('mailingList'),

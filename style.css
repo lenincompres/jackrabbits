@@ -23,6 +23,7 @@ html {
 
 body {
   background-image: url(./images/bg.png);
+  background-position: top center;
   font-family: base;
   font-size: 1rem;
   text-align: center;
@@ -38,11 +39,11 @@ body {
     max-width: 45rem;
   }
 
-  #pageArticle>section {
+  article.main>section {
     width: 37.2rem !important;
   }
 
-  html[lang="es"] #pageArticle>section {
+  html[lang="es"] article.main>section {
     width: 40rem !important;
   }
 }
@@ -53,7 +54,7 @@ body {
     max-width: 30rem;
   }
 
-  #pageArticle>section {
+  article.main>section {
     width: 20rem !important;
   }
 
@@ -169,6 +170,10 @@ a.buy {
   -o-border-radius: 0.5em;
 }
 
+a.video {
+  font-size: 1.2rem;
+}
+
 a.video:hover {
   color: var(--home);
   background-color: blue;
@@ -277,7 +282,7 @@ img {
   margin: 0 auto;
 }
 
-#pageArticle>section img {
+article.main>section img {
   margin: 0 auto 0.5rem;
   width: auto;
 }
@@ -289,7 +294,7 @@ img {
   box-shadow: 1px 1px 3px black;
 }
 
-#pageArticle>section.letter {
+article.main>section.letter {
   padding: 1rem 1.5rem;
   max-width: fit-content;
   background-color: rgba(255, 255, 255, 0.5);
@@ -319,7 +324,7 @@ body>header>a>* {
   vertical-align: middle;
 }
 
-#main_nav>ul {
+nav.main>ul {
   width: 100%;
   font-family: title;
   text-transform: uppercase;
@@ -332,16 +337,16 @@ body>header>a>* {
   border-top: solid 0.2rem black;
 }
 
-#main_nav>ul>li:first-child {
+nav.main>ul>li:first-child {
   display: none;
 }
 
-#main_nav>ul>li {
+nav.main>ul>li {
   width: -webkit-fill-available;
   max-width: 10rem;
 }
 
-#main_nav>ul>li>a {
+nav.main>ul>li>a {
   height: 3.5rem;
   line-height: 1.1rem;
   align-content: center;
@@ -353,13 +358,13 @@ body>header>a>* {
 }
 
 
-html[lang="es"] #main_nav>ul>li>a {
+html[lang="es"] nav.main>ul>li>a {
   line-height: 0.9rem;
   padding: 0.7rem 0.5rem 1rem;
 }
 
 
-#main_nav>ul>li>a.active {
+nav.main>ul>li>a.active {
   font-size: 1.5em;
   opacity: 1;
   overflow: visible;
@@ -380,7 +385,7 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-#pageArticle {
+article.main {
   padding: 0.5rem 0 1.5rem;
   display: flex;
   flex-direction: row;
@@ -389,9 +394,9 @@ body>main {
   height: fit-content;
 }
 
-#pageArticle>header,
-#pageArticle .heading,
-#pageArticle>footer {
+article.main>header,
+article.main .heading,
+article.main>footer {
   width: 100%;
   padding: 1rem;
   margin: 1rem 2rem 0;
@@ -403,7 +408,7 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-#pageArticle>header>main {
+article.main>header>main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -411,11 +416,11 @@ body>main {
   margin-bottom: 1rem;
 }
 
-#pageArticle>header>main>* {
+article.main>header>main>* {
   margin: 0 0.2rem;
 }
 
-#pageArticle>section {
+article.main>section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -430,7 +435,7 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-#pageArticle>section>section {
+article.main>section>section {
   margin: 0.3rem 0;
 }
 
