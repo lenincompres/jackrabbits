@@ -66,7 +66,7 @@ const optionalSections = [{
       y puedes con tus tréboles volar,
       con palos cualesquiera de restante.`,
       en: `There are three strategic assets
-      when playing with this reboot:
+      depicted in this reboot:
       use your hearts to demand access;
       diamonds, to buy any loot; 
       and clubs, to get flying passes—
