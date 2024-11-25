@@ -83,7 +83,7 @@ const optionalSections = [{
       con tres participantes, por ejemplo,
       un palo se elimina con un set.
       Contempla al escoger el <b>Fin del Juego</b>
-      si el mismo es imposible de obtener.
+      si acaso es imposible de obtener.
       También, que sin espadas y sus duelos
       podría complicársete vencer.`,
       en: `Have as many suits as players,
