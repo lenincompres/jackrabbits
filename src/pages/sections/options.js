@@ -59,8 +59,8 @@ const optionalSections = [{
       en: `<a class="pop" onclick="popUp('advancedCitadel')">Advanced Citadel</a>`,
     }),
     p: versify(Copy.text({
-      es: `Las marcas que se incluyen por detrás
-      implican estrategias importantes:
+      es: `Usando la carátula de atrás
+      incluyes estrategias importantes:
       se esperan corazones al entrar;
       canjeas lo que quieras con diamantes;
       y puedes con tus tréboles volar,
