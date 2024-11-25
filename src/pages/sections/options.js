@@ -59,27 +59,31 @@ const optionalSections = [{
       en: `<a class="pop" onclick="popUp('advancedCitadel')">Advanced Citadel</a>`,
     }),
     p: versify(Copy.text({
-      es: `Se esperan corazones al entrar;
+      es: `Las marcas que se incluyen por detrás
+      implican estrategias importantes:
+      se esperan corazones al entrar;
       canjeas lo que quieras con diamantes;
       y puedes con tus tréboles volar,
       con palos cualesquiera de restante.`,
-      en: `Use your hearts to demand access;
+      en: `There are three strategic assets
+      when playing with this reboot:
+      use your hearts to demand access;
       diamonds, to buy any loot; 
       and clubs, to get flying passes—
       shortfall's paid in any suit.`,
     })),
   }, {
-    h5_: Copy.text({
+    h5: Copy.text({
       es: "Palos Justos",
       en: "Tight Suits",
     }),
-    p_: versify(Copy.text({
+    p: versify(Copy.text({
       es: `Se juega con un palo por conejo
       y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
       con tres participantes, por ejemplo,
       un palo se elimina con un set.
       Contempla al escoger el <b>Fin del Juego</b>
-      si el mismo te es posible de obtener.
+      si el mismo es imposible de obtener.
       También, que sin espadas y sus duelos
       podría complicársete vencer.`,
       en: `Have as many suits as players,
@@ -87,9 +91,9 @@ const optionalSections = [{
       for instance, with three contenders,
       remove a set and a suit.
       Consider choosing an ending
-      that fits what the game includes.
+      that fits what the cards include.
       Having spades is recommended
-      when playing with tribal rules.`,
+      if it's a tribal pursuit.`,
     })),
     /*},{
       h5__: Copy.text({
