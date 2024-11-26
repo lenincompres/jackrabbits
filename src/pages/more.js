@@ -4,7 +4,7 @@ const morePage = {
   section_optional: [{
     h3: {
       a: {
-        text: Copy.get("buy"),
+        text: Copy.at.buy,
         target: "_blank",
         href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       }
@@ -23,11 +23,11 @@ const morePage = {
         click: e => popUp("mailingList"),
       },
     },
-    p: Copy.get("subscribe"),
+    p: Copy.at.subscribe,
   }, {
     h3: {
       a: {
-        text: Copy.get("virtual"),
+        text: Copy.at.virtual,
         target: "_blank",
         href: "https://tabletopia.com/games/jack-rabbits",
       }
@@ -53,9 +53,12 @@ const morePage = {
   }, {
     h3: {
       a: {
-        text: Copy.get("novel"),
+        text: Copy.at.novel,
         target: "_blank",
-        href: Copy.lang === Copy.LANG.es.code ? 'https://sites.google.com/view/masallaterrafirma' : "https://www.yonderlands.net",
+        href: Copy.text({
+          es: 'https://sites.google.com/view/masallaterrafirma',
+          en: "https://www.yonderlands.net",
+        }),
       }
     },
     p: Copy.text({

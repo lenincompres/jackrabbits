@@ -40,13 +40,9 @@ class TEXT {
     en: "next",
     es: "continuar",
   }
-  static WHEN_READY = {
-    en: `Using their (+/-) buttons, change the value of the cards to reach your ideal balance between strength and charm.<br/>Click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
-    es: `Distribuye los puntos para incrementar (+/-) el valor de las cartas según to balance ideal entre la fuerza y el encanto.<br/>Cuando se acaben los puntos, presiona <b>${TEXT.NEXT.es}</b>.`,
-  }
   static NEW_CARD = {
     en: `Reconsider the balance now with the new card. If you wish to increase wisdom, you'll need to reduce another card.`,
-    es: `Recosidera ahora con la nueva carta. Si deseas añadirle más valor a la sabiduría, necesitarás reducir a las demás.`,
+    es: `Reconsidera ahora con la nueva carta. Si deseas añadirle más valor a la sabiduría, necesitarás reducir a las demás.`,
   }
   static BEGIN = {
     en: "begin",
@@ -83,10 +79,6 @@ class TEXT {
   static PLAY_DESCRIPTION = {
     en: `After clicking <b>${TEXT.BEGIN.en}</b>, you'll receive 8 points (or “pips”) to increase the cards above.`,
     es: `Después de presionar <b>${TEXT.BEGIN.es}</b>, recibirás 8 puntos parar incrementar el valor de estas cartas.`,
-  }
-  static DESCRIPTION = {
-    en: (suit, name) => `This is how ${name ? `<b>${name}</b> values` : "you value"} the 4 main personality traits shown in the cards (strength, charm, wisdom and wealth). According to this valuation, the <strong style="color:${suit.color}">${TEXT[suit.symbol].en}</strong> or <strong style="color:${suit.color}">${TEXT[suit.alt].en}</strong> are ${name ? `<b>${name}</b>'s` : "your"} main suit. This  is the suit of ${TEXT[suit.cast].en} who focus on ${TEXT[suit.symbol].meaning.en}.`,
-    es: (suit, name) => `Así es como ${name ? `<b>${name}</b> valora` : "valoras"} los 4 principales rasgos de la personalidad en las cartas (fuerza, encanto, sabiduría y riqueza). De acuerdo con esta valoración, ${name ? `el símbolo principal de <b>${name}</b>` : "tu símbolo principal"} es el de <strong style="color:${suit.color}">${TEXT[suit.symbol].es}</strong> or <strong style="color:${suit.color}">${TEXT[suit.alt].es}</strong>. Este también es el símbolo de ${TEXT[suit.cast].es} enfocandos en ${TEXT[suit.symbol].meaning.es}.`,
   }
   static SHARE_HAND = {
     en: "Share your hand",
@@ -191,6 +183,14 @@ class TEXT {
   static concat = (cards, and) => {
     let last = cards.pop();
     return `${cards.join(", ")} ${and} ${last}`;
+  }
+  static WHEN_READY = {
+    en: `Using their (+/-) buttons, change the value of the cards to reach your ideal balance between ${TEXT.strength.en} and ${TEXT.charm.en}.<br/>Click <b>${TEXT.NEXT.en}</b> when you run out of pips.`,
+    es: `Distribuye los puntos para incrementar (+/-) el valor de las cartas según to balance ideal entre la ${TEXT.strength.es} y el ${TEXT.charm.es}.<br/>Cuando se acaben los puntos, presiona <b>${TEXT.NEXT.es}</b>.`,
+  }
+  static DESCRIPTION = {
+    en: (suit, name) => `This is how ${name ? `<b>${name}</b> values` : "you value"} the 4 main personality traits shown in the cards (${TEXT.strength.en}, ${TEXT.charm.en}, ${TEXT.wisdom.en} and ${TEXT.wealth.en}). According to this valuation, the <strong style="color:${suit.color}">${TEXT[suit.symbol].en}</strong> or <strong style="color:${suit.color}">${TEXT[suit.alt].en}</strong> are ${name ? `<b>${name}</b>'s` : "your"} main suit. This  is the suit of ${TEXT[suit.cast].en} who focus on ${TEXT[suit.symbol].meaning.en}.`,
+    es: (suit, name) => `Así es como ${name ? `<b>${name}</b> valora` : "valoras"} los 4 principales rasgos de la personalidad en las cartas (${TEXT.strength.es}, ${TEXT.charm.es}, ${TEXT.wisdom.es} and ${TEXT.wealth.es}). De acuerdo con esta valoración, ${name ? `el símbolo principal de <b>${name}</b>` : "tu símbolo principal"} es el de <strong style="color:${suit.color}">${TEXT[suit.symbol].es}</strong> or <strong style="color:${suit.color}">${TEXT[suit.alt].es}</strong>. Este también es el símbolo de ${TEXT[suit.cast].es} enfocandos en ${TEXT[suit.symbol].meaning.es}.`,
   }
 }
 

@@ -22,7 +22,7 @@ Pager.add({
 const cardNum = Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);
 
 DOM.set({
-  title: "Lenino's Jack Rabbits - " + Copy.get("header"),
+  title: "Lenino's Jack Rabbits - " + Copy.at.header,
   description: "Lenino's Jack Rabbits: The board game for playing cards on a land of wooden shards.",
   keywords: "lenino, jack rabbits, board game, boardgame, alice in wonderlan, card game, playing cards",
   image: {
@@ -38,7 +38,7 @@ DOM.set({
         href: "#home",
         small_logoSuper: "Lenino's",
         span_logoName: "Jack Rabbits",
-        small_logoSub: Copy.get("header"),
+        small_logoSub: Copy.at.header,
       },
     },
     menu_bulletMenu: Copy.getLinkMenu(),
@@ -49,7 +49,7 @@ DOM.set({
       color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
       backgroundColor: Pager._key.as(val => val === key ? `var(--${key})` : 'transparent'),
       name: key,
-      html: Copy.get(key),
+      html: Copy.at.key,
     })),
     article_main: {
       backgroundColor: Pager._key.as(key => `var(--${key})`),
@@ -57,9 +57,9 @@ DOM.set({
     },
   },
   footer: {
-    p: versify(Copy.get("subscribe")),
+    p: versify(Copy.at.subscribe),
     menu_bulletMenu: DOM.linkMenu({
-      text: Copy.get("buy"),
+      text: Copy.at.buy,
       class: "buy",
       position: "relative",
       margin: 0,
@@ -70,11 +70,11 @@ DOM.set({
       href: "http://instagram.com/lenino.jackrabbits",
       target: "_blank",
     }, {
-      text: Copy.get("virtual"),
+      text: Copy.at.virtual,
       href: "https://tabletopia.com/games/jack-rabbits",
       target: "_blank",
     }, {
-      text: Copy.get("novel"),
+      text: Copy.at.novel,
       href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
       target: "_blank",
     }),
