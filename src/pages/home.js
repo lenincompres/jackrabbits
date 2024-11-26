@@ -6,7 +6,12 @@ import overviewSection from "./sections/overview.js";
 import splashSection from "./sections/splash.js";
 
 const homePage = {
-  section: [splashSection, greetingsSection, overviewSection, endingSection],
+  section: [
+    splashSection,
+    greetingsSection,
+    overviewSection,
+    endingSection
+  ],
   footer: {
     p: versify(Copy.text({
       es: `<a href="#setup">Preparación <b>inicial</b></a> </br>(Hasta cuatro participantes)`,
