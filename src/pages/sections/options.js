@@ -6,48 +6,52 @@ const optionalSections = [{
     es: "Ases",
     en: "Aces",
   }),
-  h5: Copy.text({
-    es: "Ases Ambivalentes",
-    en: "Ambivalent Aces",
-  }),
-  p: versify(Copy.text({
-    es: `Elige los valores de tus ases,
-      que cuentan por un <b>1</b> o por un <b>11</b>,
-      ya sea en el momento en que los gastes
-      o incluso en el momento que los compres.`,
-    en: `You may decide on their value
-      whenever using an ace:
-      <b>1</b> or <b>11</b>—what have you—
-      even in the marketplace.`,
-  })),
-  h5_: Copy.text({
-    es: "Ases capitales",
-    en: "capital Aces",
-  }),
-  p_: versify(Copy.text({
-    es: `El <b>A</b>s que de primero desembolses,
-      descártalo y consérvalo en tu frente;
-      pues éste se valora por un <b>11</b>
-      y solo por un <b>1</b> tus siguientes.`,
-    en: `Your first <b>A</b>ce is worth <b>11</b>—
-      the others you spend are <b>1</b>s.
-      As a record that it's spent then, 
-      keep it in front of your hands.`,
-  })),
-  h5__: Copy.text({
-    es: "Capitales adicionales",
-    en: "Additional capital",
-  }),
-  p__: versify(Copy.text({
-    es: `Los <b>A</b>ces capitales que se exponen
-      se cuentan por un <b>1</b> permanente;
-      si el palo que precisas corresponde,
-      lo añades del que tienes en tu frente.`,
-    en: `Playing your capital <b>A</b>ce
-      will grant you a bonus tip:
-      when needed at any place,
-      it counts as one extra pip.`,
-  })),
+  section: [{
+    h5: Copy.text({
+      es: "Ases Ambivalentes",
+      en: "Ambivalent Aces",
+    }),
+    p: versify(Copy.text({
+      es: `Elige los valores de tus ases,
+        que cuentan por un <b>1</b> o por un <b>11</b>,
+        ya sea en el momento en que los gastes
+        o incluso en el momento que los compres.`,
+      en: `You may decide on their value
+        whenever using an ace:
+        <b>1</b> or <b>11</b>—what have you—
+        even in the marketplace.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Ases capitales",
+      en: "capital Aces",
+    }),
+    p: versify(Copy.text({
+      es: `El <b>A</b>s que de primero desembolses,
+        descártalo y consérvalo en tu frente;
+        pues éste se valora por un <b>11</b>
+        y solo por un <b>1</b> tus siguientes.`,
+      en: `Your first <b>A</b>ce is worth <b>11</b>—
+        the others you spend are <b>1</b>s.
+        As a record that it's spent then, 
+        keep it in front of your hands.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Capitales adicionales",
+      en: "Additional capital",
+    }),
+    p: versify(Copy.text({
+      es: `Los <b>A</b>ces capitales que se exponen
+        se cuentan por un <b>1</b> permanente;
+        si el palo que precisas corresponde,
+        lo añades del que tienes en tu frente.`,
+      en: `Playing your capital <b>A</b>ce
+        will grant you a bonus tip:
+        when needed at any place,
+        it counts as one extra pip.`,
+    })),
+  }],
 }, {
   h4: Copy.text({
     es: "Piezas",
@@ -82,7 +86,7 @@ const optionalSections = [{
       y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
       con tres participantes, por ejemplo,
       un palo se elimina con un set.
-      Contempla al escoger el <b>Fin del Juego</b>
+      Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
       si acaso es imposible de obtener.
       También, que sin espadas y sus duelos
       podría complicársete vencer.`,
@@ -110,54 +114,58 @@ const optionalSections = [{
         connecting hexes directly
         and removing all <a class="pop" onclick="popUp('roadTiles')">road tiles</a>.`,
       })),*/
-  }]
+  }],
 }, {
   h4: Copy.text({
     es: "Estrategias",
     en: "Strategies",
   }),
-  h5: Copy.text({
-    es: "Vuelos Residenciales",
-    en: "Residential flights",
-  }),
-  p: versify(Copy.text({
-    es: `Las plazas, ciudadela y los palacios
-      se añaden al destino de los vuelos;
-      podrás aterrizar en los hexágonos,
-      excepto por supuesto en el subsuelo.`,
-    en: `When flying from any tower, 
-      find more places to touch down;
-      you may reach—with the clubs' power—
-      any hex above the ground.`,
-  })),
-  h5_: Copy.text({
-    es: "Palacios Provisionales",
-    en: "Provisional Palaces",
-  }),
-  p_: versify(Copy.text({
-    es: `Conviertes residencias en palacios
-      si exhibes corazones al pararte:
-      tu mínimo de seis reglamentarios
-      que acusan a cualquiera al visitarte.`,
-    en: `Display a sum of six hearts
-      at any house where you'll rest, 
-      declaring you'll use these cards
-      to accuse incoming guests.`,
-  })),
-  h5__: Copy.text({
-    es: "Zanahorias ventajosas",
-    en: "Trailing Carrots",
-  }),
-  p__: versify(Copy.text({
-    es: `Podrás incrementar la travesía
-      si está tu zanahoria en un lugar;
-      pues puedes, en el turno que visitas,
-      salirte sin parar a descansar.`,
-    en: `The journey may be prolonged
-      if your carrot's on a hex;
-      you may visit and go on
-      to the place you're headed next.`,
-  })),
+  section: [{
+    h5: Copy.text({
+      es: "Vuelos Residenciales",
+      en: "Residential flights",
+    }),
+    p: versify(Copy.text({
+      es: `Las plazas, ciudadela y los palacios
+        se añaden al destino de los vuelos;
+        podrás aterrizar en los hexágonos,
+        excepto por supuesto en el subsuelo.`,
+      en: `When flying from any tower, 
+        find more places to touch down;
+        you may reach—with the clubs' power—
+        any hex above the ground.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Palacios Provisionales",
+      en: "Provisional Palaces",
+    }),
+    p: versify(Copy.text({
+      es: `Conviertes residencias en palacios
+        si exhibes corazones al pararte:
+        tu mínimo de seis reglamentarios
+        que acusan a cualquiera al visitarte.`,
+      en: `Display a sum of six hearts
+        at any house where you'll rest, 
+        declaring you'll use these cards
+        to accuse incoming guests.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Zanahorias ventajosas",
+      en: "Trailing Carrots",
+    }),
+    p: versify(Copy.text({
+      es: `Podrás incrementar la travesía
+        si está tu zanahoria en un lugar;
+        pues puedes, en el turno que visitas,
+        salirte sin parar a descansar.`,
+      en: `The journey may be prolonged
+        if your carrot's on a hex;
+        you may visit and go on
+        to the place you're headed next.`,
+    })),
+  }]
 }, {
   h4: Copy.text({
     es: "Cartas",

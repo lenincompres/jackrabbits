@@ -32,11 +32,12 @@ DOM.set({
   icon: "./images/icon.png",
   link: "style.css",
   header: {
-    a: {
-      href: "#home",
-      h1: {
+    h1: {
+      a: {
+        position: "relative",
+        href: "#home",
         small_logoSuper: "Lenino's",
-        span: "Jack Rabbits",
+        span_logoName: "Jack Rabbits",
         small_logoSub: Copy.get("header"),
       },
     },

@@ -27,7 +27,7 @@ body {
   font-family: base;
   font-size: 1rem;
   text-align: center;
-  max-width: 92rem;
+  max-width: 90rem;
   margin: 0 auto;
   overflow-x: hidden;
   position: relative;
@@ -259,20 +259,20 @@ body>header h1 {
   padding-top: 1.5rem;
 }
 
-body>header span {
+.logoName {
   white-space: nowrap;
 }
 
 .logoSuper {
-  position: inherit;
-  margin-right: -5rem;
-  margin-top: -3rem;
+  position: absolute;
+  left: 0;
+  top: -0.7rem;
 }
 
 .logoSub {
-  position: inherit;
-  margin-left: -6rem;
-  margin-bottom: -2.8rem;
+  position: absolute;
+  right: 0;
+  bottom: -0.7rem;
 }
 
 body>header h1>* {
@@ -431,7 +431,7 @@ article.main>section {
   justify-content: center !important;
   width: 22rem;
   margin: 0.5rem 0;
-  padding: 2.5rem 1.5rem;
+  padding: 2rem 1rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
