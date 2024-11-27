@@ -49,7 +49,7 @@ DOM.set({
       color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
       backgroundColor: Pager._key.as(val => val === key ? `var(--${key})` : 'transparent'),
       name: key,
-      html: Copy.at.key,
+      html: Copy.at[key],
     })),
     article_main: {
       backgroundColor: Pager._key.as(key => `var(--${key})`),
@@ -85,7 +85,7 @@ DOM.set({
         en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
       }),
     },
-    onready: e => popUp('mailingList'),
+    onready: () => popUp('mailingList'),
   },
   aside: Array(cardNum).fill().map(() => new CardFloating({
     root: 'suityourself/',
