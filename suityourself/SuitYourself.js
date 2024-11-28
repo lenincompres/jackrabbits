@@ -1,7 +1,10 @@
 import Card from "../src/Card.js";
 import CardValued from "../src/CardValued.js";
-import TEXT from "./TEXT.js";
 import Copy from "../lib/Copy.js";
+import {
+  stringItems,
+  replacePlaceholders
+} from "./copy.js";
 
 const QS = DOM.querystring();
 const NAME = QS.jrsyname ? QS.jrsyname : undefined;
@@ -94,7 +97,7 @@ class SuitYourself extends HTMLElement {
       canShare: false,
       width: window.innerWidth,
     });
-    window.addEventListener("resize", () => this.width.value = window.innerWidth);
+
     this._stage.onChange(v => {
       if (v === STAGE_INTRO) {
         this.cards.forEach(c => {
@@ -181,15 +184,15 @@ class SuitYourself extends HTMLElement {
       maxWidth: TEXT_WIDTH,
       marginBottom: "1em",
       h1: {
-        content: this._stage.as(stage => stage === STAGE_DONE, TEXT.PAGE_TITLE[LANG], TEXT.PAGE_TITLE_DONE[LANG](NAME)),
+        content: this._stage.as(stage => stage === STAGE_DONE, Copy.at.pageTitle, Copy.at.pageTitleDone),
       },
       section: {
         model: HIDE_MODEL(this._stage, stage => [STAGE_INTRO, STAGE_START, STAGE_START, STAGE_WISDOM, STAGE_WEALTH].includes(stage)),
         p: this._stage.as(stage => {
-          if(stage === STAGE_INTRO) return TEXT.PAGE_DESCRIPTION[LANG];
-          if(stage === STAGE_WISDOM) return TEXT.NEW_CARD[LANG];
-          if(stage === STAGE_WEALTH) return TEXT.WHEN_DONE[LANG];
-          return TEXT.WHEN_READY[LANG];
+          if (stage === STAGE_INTRO) return Copy.at.pageDescription;
+          if (stage === STAGE_WISDOM) return Copy.at.NEW_CARD;
+          if (stage === STAGE_WEALTH) return Copy.at.WHEN_DONE;
+          return Copy.at.WHEN_READY;
         }),
       }
     };
@@ -242,7 +245,7 @@ class SuitYourself extends HTMLElement {
               textTransform: "uppercase",
               fontSize: "1.25em",
               color: card.suit.color,
-              span: TEXT[card.suit.trait][LANG]
+              span: Copy.at[card.suit.trait],
             },
           },
           main: card,
@@ -250,7 +253,7 @@ class SuitYourself extends HTMLElement {
             margin: "0.5em auto 0",
             model: HIDE_MODEL(this._stage, stage => stage === card.hintStage),
             textAlign: "center",
-            p: TEXT.CARD_HINTS.map(H => H[LANG])[i],
+            p: Copy.get('cardHints', i),
           },
         })),
       },
@@ -270,7 +273,7 @@ class SuitYourself extends HTMLElement {
           marginBottom: "0.3em",
           color: this.wealth.suit.color,
           fontFamily: "body",
-          text: this.wealth._number.as(n => `${n-2} ` + TEXT.POINTS_LEFT[LANG]),
+          text: this.wealth._number.as(n => `${n-2} ` + Copy.at.pointsLeft),
         },
         ul: {
           display: "flex",
@@ -290,7 +293,7 @@ class SuitYourself extends HTMLElement {
         color: "crimson",
         marginTop: "0.5em",
         model: HIDE_MODEL(this._topCards, topCards => this.stage === STAGE_WEALTH && topCards.length > 1),
-        text: this._topCards.as(topCards => TEXT.TIE[LANG](topCards.map(c => TEXT[c.suit.trait][LANG]))),
+        text: this._topCards.as(topCards => replacePlaceholders(Copy.at.TIE, [stringItems(topCards.map(c => Copy.at[c.suit.trait]), Copy.at.and)])),
       }, {
         // shows results
         model: HIDE_MODEL(this._stage, stage => stage === STAGE_DONE),
@@ -299,8 +302,10 @@ class SuitYourself extends HTMLElement {
           let suits = this.orderedCards.map(c => Object.assign({
             pct: Math.abs(100 * (c.number - 2) / 8),
           }, c.suit));
+          const suit = suits[0];
+          const words = [suit.symbol, suit.alt, suit.cast, suit.symbol + 'Meaning'].map(v => Copy.at[v]);
           return {
-            p: TEXT.DESCRIPTION[LANG](suits[0], NAME),
+            p: replacePlaceholders(Copy.at.DESCRIPTION, [suit.color, ...words]),
             ul: {
               marginTop: "1em",
               li: suits.map(suit => this.getPct(suit, root))
@@ -318,7 +323,7 @@ class SuitYourself extends HTMLElement {
         maxWidth: TEXT_WIDTH,
         model: HIDE_MODEL(this._stage, stage => stage === STAGE_INTRO),
         p: {
-          content: TEXT.PLAY_DESCRIPTION[LANG],
+          content: Copy.at.PLAY_DESCRIPTION,
         },
       },
       button: {
@@ -333,11 +338,11 @@ class SuitYourself extends HTMLElement {
         ),
         label: {
           text: this._stage.as(
-            TEXT.BEGIN[LANG],
-            TEXT.NEXT[LANG] + " ⮕",
-            TEXT.NEXT[LANG] + " ⮕",
-            TEXT.DONE[LANG],
-            NAME ? TEXT.FIND_YOURS[LANG] : TEXT.RESTART[LANG],
+            Copy.at.begin,
+            Copy.at.next + " ⮕",
+            Copy.at.next + " ⮕",
+            Copy.at.done,
+            NAME ? Copy.at.findYours : Copy.at.restart,
           ),
         },
         click: e => {
@@ -353,7 +358,7 @@ class SuitYourself extends HTMLElement {
       model: HIDE_MODEL(this._stage, stage => stage === STAGE_DONE && !NAME),
       form: {
         marginTop: "0.5em",
-        h6: TEXT.SHARE_HAND[LANG],
+        h6: Copy.at.shareHand,
         menu: {
           marginTop: "0.5em",
           a: {
@@ -365,16 +370,16 @@ class SuitYourself extends HTMLElement {
               href: this._shareURL.as(url => `https://www.facebook.com/sharer.php?u=${url}`),
             }, {
               text: "Twitter➚",
-              href: this._shareURL.as(url => `https://twitter.com/intent/tweet?url=${url}` + `&text=${TEXT.SHARE_MESSAGE[LANG]}&hashtags=lenino,leninosjackrabbits,jackrabbits,boardgames,personalitytypes`),
+              href: this._shareURL.as(url => `https://twitter.com/intent/tweet?url=${url}` + `&text=${Copy.at.shareMessage}&hashtags=lenino,leninosjackrabbits,jackrabbits,boardgames,personalitytypes`),
             }, {
               text: "LinkedIn➚",
-              href: this._shareURL.as(url => `https://www.linkedin.com/sharing/share-offsite/&url=${url}&title=${TEXT.PAGE_TITLE[LANG]}&summary=${TEXT.SHARE_MESSAGE[LANG]}`),
+              href: this._shareURL.as(url => `https://www.linkedin.com/sharing/share-offsite/&url=${url}&title=${Copy.at.pageTitle}&summary=${Copy.at.shareMessage}`),
             }]
           }
         },
         p: {
           marginTop: "2em",
-          content: TEXT.MAILING_LIST_TEXT[LANG],
+          content: Copy.at.mailingList,
         },
         iframe: {
           src: (root ? "" : "../") + "mailinglist.html",
@@ -384,13 +389,13 @@ class SuitYourself extends HTMLElement {
         button: {
           ready: elt => !navigator.share ? elt.set("none", "display") : null,
           style: this._canShare.as(BUTTON_STYLE.DISABLED, BUTTON_STYLE.ENABLED()),
-          text: TEXT.share[LANG],
+          text: Copy.at.share,
           click: e => {
             this.storeData();
             if (navigator.share) {
               navigator.share({
-                title: TEXT.PAGE_TITLE[LANG],
-                text: TEXT.SHARE_MESSAGE[LANG],
+                title: Copy.at.pageTitle,
+                text: Copy.at.shareMessage,
                 url: this.shareURL,
               }).then(() => {
                 e.target.set("none", "display");
