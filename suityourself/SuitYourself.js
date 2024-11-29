@@ -191,8 +191,8 @@ class SuitYourself extends HTMLElement {
         p: this._stage.as(stage => {
           if (stage === STAGE_INTRO) return Copy.at.pageDescription;
           if (stage === STAGE_WISDOM) return Copy.at.NEW_CARD;
-          if (stage === STAGE_WEALTH) return Copy.at.WHEN_DONE;
-          return Copy.at.WHEN_READY;
+          if (stage === STAGE_WEALTH) return Copy.at.whenDone;
+          return Copy.at.whenReady;
         }),
       }
     };
@@ -293,7 +293,7 @@ class SuitYourself extends HTMLElement {
         color: "crimson",
         marginTop: "0.5em",
         model: HIDE_MODEL(this._topCards, topCards => this.stage === STAGE_WEALTH && topCards.length > 1),
-        text: this._topCards.as(topCards => replacePlaceholders(Copy.at.TIE, [stringItems(topCards.map(c => Copy.at[c.suit.trait]), Copy.at.and)])),
+        text: this._topCards.as(topCards => replacePlaceholders(Copy.at.tie, [stringItems(topCards.map(c => Copy.at[c.suit.trait]), Copy.at.and)])),
       }, {
         // shows results
         model: HIDE_MODEL(this._stage, stage => stage === STAGE_DONE),
@@ -305,7 +305,7 @@ class SuitYourself extends HTMLElement {
           const suit = suits[0];
           const words = [suit.symbol, suit.alt, suit.cast, suit.symbol + 'Meaning'].map(v => Copy.at[v]);
           return {
-            p: replacePlaceholders(Copy.at.DESCRIPTION, [suit.color, ...words]),
+            p: replacePlaceholders(Copy.at.description, [suit.color, ...words]),
             ul: {
               marginTop: "1em",
               li: suits.map(suit => this.getPct(suit, root))
@@ -323,7 +323,7 @@ class SuitYourself extends HTMLElement {
         maxWidth: TEXT_WIDTH,
         model: HIDE_MODEL(this._stage, stage => stage === STAGE_INTRO),
         p: {
-          content: Copy.at.PLAY_DESCRIPTION,
+          content: Copy.at.playDescription,
         },
       },
       button: {

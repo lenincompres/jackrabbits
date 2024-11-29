@@ -166,33 +166,33 @@ Copy.add({
     en: "wisdom",
     es: "sabiduría",
   },
-});
-
-Copy.add({
-  WHEN_READY: {
-    en: `Increase the cards at will using their (+) buttons, and click <b>${Copy.at.next}</b> when you run out of pips.`,
-    es: `Distribuye los puntos para incrementar (+) el valor de las cartas a tu gusto y luego presiona <b>${Copy.at.next}</b>.`,
-  },
-  PLAY_DESCRIPTION: {
-    en: `After clicking <b>${Copy.at.next}</b>, you'll receive 8 points (or “pips”) to increase the cards above.`,
-    es: `Después de presionar <b>${Copy.at.next}</b>, recibirás 8 puntos parar incrementar el valor de estas cartas.`,
-  },
-  WHEN_DONE: {
-    en: `Consider the last card, and click <b>${Copy.at.next}</b> when safistied.`,
-    es: `Considera la última carta y resiona <b>${Copy.at.next}</b> cuando estés satisfecho.`,
-  },
-  DESCRIPTION: {
-    en: `This is how you value the 4 main personality traits shown in the cards (${Copy.at.strength}, ${Copy.at.charm}, ${Copy.at.wisdom} and ${Copy.at.wealth}). According to this valuation, the <strong style="color:$0">$1</strong>, or <strong style="color:$0">$2</strong>, are your main suit. This  is the suit of $3, who focus on $4.`,
-    es: `Así es como valoras los 4 principales rasgos de la personalidad en las cartas (${Copy.at.strength}, ${Copy.at.charm}, ${Copy.at.wisdom} y ${Copy.at.wealth}). De acuerdo con esta valoración, tu símbolo principal es el de <strong style="color:$0">$1</strong> o <strong style="color:$0">$2,</strong>. Este también es el símbolo de $3, enfocandos en $4.`,
-  },
-  TIE: {
+  tie: {
     en: `To have a definite suit, you must break the tie between $0.`,
     es: `Para para tener un símbolo definitivo, necesitas romper el empate entre $0.`,
   },
 });
 
+Copy.add({
+  whenReady: {
+    en: `Increase the cards at will using their (+) buttons, and click <b>${Copy.at.next}</b> when you run out of pips.`,
+    es: `Distribuye los puntos para incrementar (+) el valor de las cartas a tu gusto y luego presiona <b>${Copy.at.next}</b>.`,
+  },
+  playDescription: {
+    en: `After clicking <b>${Copy.at.next}</b>, you'll receive 8 points (or “pips”) to increase the cards above.`,
+    es: `Después de presionar <b>${Copy.at.next}</b>, recibirás 8 puntos parar incrementar el valor de estas cartas.`,
+  },
+  whenDone: {
+    en: `Consider the last card, and click <b>${Copy.at.next}</b> when safistied.`,
+    es: `Considera la última carta y resiona <b>${Copy.at.next}</b> cuando estés satisfecho.`,
+  },
+  description: {
+    en: `This is how you value the 4 main personality traits shown in the cards (${Copy.at.strength}, ${Copy.at.charm}, ${Copy.at.wisdom} and ${Copy.at.wealth}). According to this valuation, the <strong style="color:$0">$1</strong>, or <strong style="color:$0">$2</strong>, are your main suit. This  is the suit of $3, who focus on $4.`,
+    es: `Así es como valoras los 4 principales rasgos de la personalidad en las cartas (${Copy.at.strength}, ${Copy.at.charm}, ${Copy.at.wisdom} y ${Copy.at.wealth}). De acuerdo con esta valoración, tu símbolo principal es el de <strong style="color:$0">$1</strong> o <strong style="color:$0">$2,</strong>. Este también es el símbolo de $3, enfocandos en $4.`,
+  },
+});
+
 export const stringItems = (cards, and = "and") => {
-  let last = cards.pop();
+  const last = cards.pop();
   return `${cards.join(", ")} ${and} ${last}`;
 };
 
