@@ -51,14 +51,12 @@ DOM.set({
       name: key,
       html: Copy.at[key],
     })),
-    figure: {
-      img: {
-        alt: 'Jack Rabbits boardgame photo',
-        src: 'images/photo00.png',
-        width: '100%',
-        height: '16em',
-        objectFit: 'cover',
-      },
+    img: {
+      alt: 'Jack Rabbits boardgame photo',
+      src: 'images/photo00.png',
+      width: '100%',
+      height: '16em',
+      objectFit: 'cover',
     },
     article_main: {
       backgroundColor: Pager._key.as(key => `var(--${key})`),
