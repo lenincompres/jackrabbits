@@ -24,8 +24,8 @@ const fullPage = {
     }),
     p: versify(Copy.text({
       es: `Renueva tus partidas habituales
-        jugando con las <a href="#optional">reglas <b>opcionales</b></a>.`,
-      en: `Try these  <a href="#optional"><b>additional options</b></a>
+        jugando con las reglas opcionales</a>.`,
+      en: `Try these  additional options
         once you have gone through the motions.`
     })),
   },
