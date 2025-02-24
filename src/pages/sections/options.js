@@ -69,7 +69,7 @@ const optionalSections = [{
       canjeas lo que quieras con diamantes;
       y puedes con tus tréboles volar,
       con palos cualesquiera de restante.`,
-      en: `There are three strategic assets
+      en: `There are three suitable assets
       depicted in this reboot:
       use your hearts to demand access;
       diamonds, to buy any loot; 
