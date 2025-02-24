@@ -10,7 +10,7 @@ Copy.add({
     en: "Welcome",
   },
   setup: {
-    es: "<small>Preparación</small></br>Inicial",
+    es: "Peparación</br><small>del juego</small>",
     en: "Setup",
   },
   intro: {
@@ -22,7 +22,7 @@ Copy.add({
     en: "Full game",
   },
   more: {
-    es: "<small>Tienda</br>&</small>más",
+    es: "Tienda</br><small>y más</small>",
     en: "Store <small>&</small>more",
   },
   subscribe: {
