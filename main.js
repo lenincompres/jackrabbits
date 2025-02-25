@@ -65,7 +65,7 @@ DOM.set({
           more: 'images/photo04.png',
         }),
         width: '100%',
-        maxWidth: '800px',
+        maxWidth: '1000px',
         height: '16em',
         objectFit: 'cover',
         borderRadius: '.5em',
