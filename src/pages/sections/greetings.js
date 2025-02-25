@@ -17,7 +17,7 @@ const greetingsSection = {
     ],
     en: [
       `Hear ye, glorious messengers,`,
-      `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure royals to be ordained as the council of thirds. This is the highest order a rabbit of this order can obtain:`,
+      `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel is ordering a race to procure royals to be ordained as the council of thirds. This is the highest order a rabbit of this order can receive:`,
       `<strong>Visit the noble houses, acquire the cards of three royals, and bring them to the Citadel</strong>, in that order.`,
       `Note that when I say <i>that order</i>, I am not referring to another order</br>of messenger rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to fully restore the realm's order.`,
       `So, hoppity hop, in orderly fashion. Don't dawdle. No time to lose!`,
