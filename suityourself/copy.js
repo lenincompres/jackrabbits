@@ -178,8 +178,8 @@ Copy.add({
     es: `Distribuye los puntos para incrementar (+) el valor de las cartas a tu gusto y luego presiona <b>${Copy.at.next}</b>.`,
   },
   playDescription: {
-    en: `After clicking <b>${Copy.at.next}</b>, you'll receive 8 points (or “pips”) to increase the cards above.`,
-    es: `Después de presionar <b>${Copy.at.next}</b>, recibirás 8 puntos parar incrementar el valor de estas cartas.`,
+    en: `After clicking <b>${Copy.at.begin}</b>, you'll receive 8 points (or “pips”) to increase the cards above.`,
+    es: `Después de presionar <b>${Copy.at.begin}</b>, recibirás 8 puntos parar incrementar el valor de estas cartas.`,
   },
   whenDone: {
     en: `Consider the last card, and click <b>${Copy.at.next}</b> when safistied.`,
