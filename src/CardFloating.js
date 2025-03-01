@@ -37,7 +37,7 @@ class CardFloating extends Card {
       flip();
     }
     let flick = () => {
-      this.over = false;
+      this.still = false;
       this.acc = 20 * (1 - (vx + vy) / 2);
       jerk();
     }
@@ -52,8 +52,8 @@ class CardFloating extends Card {
       const [aMax, aMin] = [5, 1];
       this.acc = this.acc > aMax ? aMax : this.acc < aMin ? aMin : 0.98 * this.acc;
       [vx, vy, vz, vrx, vry, vrz] = [vx, vy, vz, vrx, vry, vrz].map(v => Math.abs(v) > 1 ? v / Math.abs(v) : v);
-      let drag = this.over ? 0.1 : 1.6;
-      if (this.over) {
+      let drag = this.still ? 0.1 : 1.6;
+      if (this.still) {
         this.rx = this.ry = PI;
         this.z = 1;
       } else {
@@ -108,8 +108,8 @@ class CardFloating extends Card {
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
       transform: this._t.as(t => `rotateX(${this.rx}rad) rotateY(${this.ry}rad)  rotateZ(${this.rz}rad)`),
-      onmouseout: () => flick(),
-      onmouseover: () => this.over = true,
+      //onmouseout: () => flick(),
+      onmouseover: () => {this.still = true; flick()},
     });
   }
 

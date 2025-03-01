@@ -17,7 +17,7 @@ const turnSections = [{
       demuestra con tu carta que lo tienes
       y llévate la carta de regalo.`,
       `El límite de cartas es de nueve;
-      descarta la que quieras si te excedes.`,
+      descarta la que quieras si te excedes.*`,
       `Conserva el resultado de los dados;
       los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`
     ],
@@ -29,7 +29,7 @@ const turnSections = [{
       proving that its number ties
       to <strong>one</strong> of the dice you rolled.`,
       `If you're ever holding ten, 
-      discard down to nine again.`,
+      discard down to nine again.*`,
       `Hold the outcome of the dice;
       tranfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
     ]
@@ -106,27 +106,27 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Termina en un hexágono tus vueltas
-      (a menos de que salgas a la orilla*)
-      y allí reclamarás tu recompensa:
+      `Termina en un hexágono tus vueltas,
+      a menos de que salgas a la orilla.**
+      Reclama al descansar tu recompensa:
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
       baraja las del lote y recopila.`,
-      `El límite de cartas es de nueve;
-      descarta la que quieras si te excedes.`,
-      `*Tu turno acabará sin incremento
+      `*El límite de cartas, que es de nueve,
+      se impone si es que notan que te excedes.`,
+      `**Tu turno acabará sin incremento
       si estás en <a href="#intro/off"><b>el destierro</b></a> en el momento.`,
     ],
     en: [
-      `End your turns on a hex tile
-      (unless you go off the shore*): 
-      get a new card from the pile, 
-      and your turn will be done for; 
-      if you find no cards, repile—
+      `End your turns on a hex tile,
+      unless you go off the shore.** 
+      Get a new card from the pile, 
+      and your turn will be done for. 
+      If you find no cards, repile:
       shuffle the spent lot once more.`,
-      `If you're ever holding ten, 
-      discard down to nine again.`,
-      `*Do not collect this reward,
+      `*You may hold more than nine cards, 
+      but if caught, you must discard.`,
+      `**Do not collect this reward,
       if you ever end <a href="#intro/off"><b>off-board</b></a>.`,
     ]
   })),
