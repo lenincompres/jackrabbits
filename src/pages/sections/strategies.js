@@ -123,9 +123,9 @@ const strategySections = [{
       que muestre previamente que las tenga,
       las cartas con aquellas condiciones,
       pues pierde lo mostrado y se destierra
-      si pruebas que te acusa sin razones.`,
-      `Tan solo acusarás a los viajeros
-      si tienes tu conejo en el tablero.`,
+      si pruebas que te acusa sin razones.
+      Tampoco se permiten exigencias
+      de quien en el destierro las expone.`,
     ],
     en: [
       `As you enter a queen's hex,
@@ -133,7 +133,9 @@ const strategySections = [{
       that if you do not possess
       the queen's card that marks the land,
       you show six points to the rest,
-      adding heart cards from your hand.`,
+      adding heart cards from your hand.
+      Players on the board request—
+      only they may take a stand.`,
       `Those who ask to see your hearts,
       must first show cards of their own,
       which, even from far apart,
@@ -142,8 +144,6 @@ const strategySections = [{
       go off-board—your cover's blown.
       But succeed, and they'll depart—
       off, and lose the cards they've shown.`,
-      `Any players off the board 
-      may not nag those at the door.`,
     ]
   })),
 }, {
