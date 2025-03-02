@@ -164,9 +164,7 @@ const strategySections = [{
       En estos, los diamantes se canjean 
       por cartas descartadas de sus palos;
       excepto en el marcado con la estrella,
-      que acepta de cualquiera por el pago.
-      Recuerda que la pila se renueva
-      con cartas que abandonan el mercado.`,
+      que acepta de cualquiera por el pago.`,
     en: `All spent cards are being sold;
       each jack's hex sells its own suit.
       Check what these posts have in store—
@@ -174,9 +172,7 @@ const strategySections = [{
       What you take, replace with gold
       as the signs instruct you to—
       the star symbol on the board
-      means that any suit will do.
-      When the pile needs to reload,
-      these markets run out of goods.`,
+      means that any suit will do.`,
   })),
   h5: Copy.text({
     es: "+ Canjes Individuales",
@@ -185,16 +181,20 @@ const strategySections = [{
   p_0: versify(Copy.text({
     es: `Es válido el <i>comercio por diamantes</i>
       con alguien en el sitio que te encuentras,
-      si mientras el negocio se debate,
-      se ocultan en las manos las ofertas.
-      A quien se le descubra por chantaje,
+      si inicias la partida en lo adelante
+      con reglas opcionales que se agregan.
+      En tanto los negocios se debaten,
+      se ocultan en las manos las ofertas;
+      y a quien se le descubra por chantaje,
       después del intercambio se destierra.`,
-    en: `Players you meet on the board
-      may possess cards that you covet;
-      you may buy or sell for gold,
-      without showing what is offered.
-      Swindlers will get thrown off-board
-      if a short change is uncovered.`,
+    en: `Agree if cards may be sold—
+    add this rule when the game starts.
+    While taking turns on the board,
+    those who meet may trade with cards.
+    They strike deals offering gold,
+    while concealing their rewards.
+    Swindlers will get thrown off-board
+    once they trade—exposed as farce.`,
   })),
 }];
 
