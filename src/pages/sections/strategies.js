@@ -134,8 +134,8 @@ const strategySections = [{
       the queen's card that marks the land,
       you show six points to the rest,
       adding heart cards from your hand.
-      Players on the board request—
-      only they may take a stand.`,
+      Off-board players can't request;
+      they're not fit to take a stand.`,
       `Those who ask to see your hearts,
       must first show cards of their own,
       which, even from far apart,
