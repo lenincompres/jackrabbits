@@ -74,6 +74,19 @@ const strategySections = [{
       también asaltarías a  sus cartas,
       robando la primera que tocases
       (a ciegas deberás seleccionarla).`,
+      /*
+      `Ataca en un <i>combate sin empates</i> 
+      a quien en el hexágono descansa.
+      Si vences a tu víctima en combate,
+      consigues asaltarla y desterrarla.`,
+      `Se lucha superando los ataques,
+      sumándose las picas descartadas,
+      y cuando se terminen los avances,
+      destierra a la persona derrotada.`,
+      `Si ganas el combate que empezaste,
+      también asaltarías a  sus cartas,
+      robando la primera que tocases
+      (a ciegas deberás seleccionarla).`,*/
       `Si robas y la carta es de nobleza,
       te toca <b>el incremento</b> de tus cartas;
       y entrégale a la corte la que quieras
@@ -165,6 +178,14 @@ const strategySections = [{
       por cartas descartadas de sus palos;
       excepto en el marcado con la estrella,
       que acepta de cualquiera por el pago.`,
+      /*`Comercia en los <i>hexágonos de ventas</i>,
+      con flechas en sus símbolos marcados.
+      Las cartas descartadas en la mesa,
+      se pueden adquirir en sus mercados.`,
+      `En estos, los diamantes se canjean 
+      por cartas descartadas de sus palos;
+      excepto en el marcado con la estrella,
+      que acepta de cualquiera por el pago.`*/
     en: `All spent cards are being sold;
       each jack's hex sells its own suit.
       Check what these posts have in store—
@@ -181,7 +202,7 @@ const strategySections = [{
   p_0: versify(Copy.text({
     es: `Es válido el <i>comercio por diamantes</i>
       con alguien en el sitio que te encuentras,
-      si inicias la partida en lo adelante
+      si inicias la partida en lo adelante,
       sumándole la claúsula a las reglas.
       En tanto los negocios se debaten,
       se ocultan en las manos las ofertas;
