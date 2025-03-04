@@ -187,14 +187,14 @@ const strategySections = [{
       se ocultan en las manos las ofertas;
       y a quien se le descubra por chantaje,
       después del intercambio se destierra.`,
-    en: `Agree if cards may be sold—
-    add this rule when the game starts.
-    While taking turns on the board,
-    those who meet may trade with cards.
-    They strike deals offering gold,
-    while concealing their rewards.
-    Swindlers will get thrown off-board
-    once they trade—exposed as farce.`,
+    en: `If agreed when the game starts,
+      the cards in hand may be sold.
+      Those who meet may trade with cards
+      while taking turns on the board.
+      They must conceal their rewards
+      and strike deals offering gold.
+      If traded cards prove a farce,
+      swindlers will get thrown off-board.`,
   })),
 }];
 
