@@ -182,7 +182,7 @@ const strategySections = [{
     es: `Es válido el <i>comercio por diamantes</i>
       con alguien en el sitio que te encuentras,
       si inicias la partida en lo adelante
-      con reglas opcionales que se agregan.
+      sumándole la claúsula a las reglas.
       En tanto los negocios se debaten,
       se ocultan en las manos las ofertas;
       y a quien se le descubra por chantaje,
