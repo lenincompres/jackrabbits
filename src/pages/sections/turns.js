@@ -10,9 +10,9 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Tus turnos los comienzas con la suerte
-      de <strong>un</strong> premio de la pila tras los dados:
-      si <strong>un</strong> dado, de los dígitos que obtienes,
+      `Tus turnos los comienzas con la suerte,
+      la rifa de la pila tras los dados.
+      Si <strong>un</strong> dado, de los dígitos que obtienes,
       coincide con un número en tus manos,
       demuestra con tu carta que lo tienes
       y llévate la carta de regalo.`,
@@ -43,15 +43,15 @@ const turnSections = [{
   p: versify(Copy.text({
     es: [
       `Del sitio hexagonal en el que empiezas,
-      escoge si te irás por un camino:
-      señala el recorrido por las piezas
-      llevando tu conejo peregrino
-      y acaba el movimiento si tropiezas
+      escoge si te irás por un camino.
+      Señala el recorrido por las piezas
+      llevando tu conejo peregrino.
+      Y acaba el movimiento si tropiezas
       con una hexagonal en su destino.`,
-      `Recuerda que moverte es opcional,
+      `Recuerda que moverte es opcional;
       depende de tu meta a visitar.`,
-      `Podrías expandir tus travesías
-      pagando <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
+      `Podrías expandir tus travesías;
+      consulta <a href="#intro/tranfers"><b>los traslados</b></a> de las vías.`
     ],
     en: [
       `From the current hex you're on, 
@@ -75,15 +75,15 @@ const turnSections = [{
   p: versify(Copy.text({
     es: [
       `Tu meta es visitar a la nobleza
-      si nadie se ha apropiado de sus cartas:
-      un mínimo de diez es lo que cuestan,
+      si nadie se ha apropiado de sus cartas.
+      Un mínimo de diez es lo que cuestan,
       pagado con los palos de sus marcas.
       Se dejan zanahorias en las piezas
       que indican los conejos que las cargan.`,
-      `Es gratis visitar a los hexágonos
-      y hacer tu recorrido visitándolos.`,
-      `Conserva lo que adquieras en tu mano
-      y obtén <b>el incremento</b> de inmediato.`,
+      `Es gratis acceder a los hexágonos;
+      descansa en el camino visitándolos.`,
+      `Conserva lo que adquieras en tu mano;
+      reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
       `Your goal is to claim the card
@@ -112,10 +112,10 @@ const turnSections = [{
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
       baraja las del lote y recopila.`,
-      `*El límite de cartas, que es de nueve,
-      se impone si es que notan que te excedes.`,
-      `**Tu turno acabará sin incremento
-      si estás en <a href="#intro/off"><b>el destierro</b></a> en el momento.`,
+      `*Respeta lo del límite de cartas;
+      mas, solo si en la mesa se percatan.`,
+      `**Podrías terminar sin incremento;
+      revisa en <a href="#intro/off"><b>el destierro</b></a> su segmento.`,
     ],
     en: [
       `End your turns on a hex tile,

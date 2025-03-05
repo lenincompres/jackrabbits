@@ -1,4 +1,5 @@
 import Copy from "../../lib/Copy.js";
+import versify from "../aux/versify.js";
 
 const morePage = {
   section_optional: [{
@@ -9,10 +10,14 @@ const morePage = {
         href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       }
     },
-    p: Copy.text({
-      es: `Visita nuestra tienda en línea y adquiere la copia física del juego.`,
-      en: `Visit our online store and get a physical copy of the game.`,
-    }),
+    p: versify(
+      Copy.text({
+        es: `Visítanos al vínculo de arrriba
+        y adquiere la edición en exclusiva.`,
+        en: `Visit our online store and get 
+        a physical copy of the game.`,
+      })
+    ),
   }, {
     h3: {
       a: {
@@ -23,7 +28,7 @@ const morePage = {
         click: e => popUp("mailingList"),
       },
     },
-    p: Copy.at.subscribe,
+    p: versify(Copy.at.subscribe),
   }, {
     h3: {
       a: {
@@ -32,10 +37,13 @@ const morePage = {
         href: "https://tabletopia.com/games/jack-rabbits",
       }
     },
-    p: Copy.text({
-      es: "Juega <b>Jack Rabbits</b> con tus amistades en línea.",
-      en: "Play <b>Jack Rabbits</b> online with your friends."
-    }),
+    p: versify(
+      Copy.text({
+        es: `El juego de <b>Jack Rabbits</b> digital,
+        en línea y sin costo adicional.`,
+        en: "Play <b>Jack Rabbits</b> online with your friends."
+      })
+    ),
   }, {
     h3: {
       a: {
@@ -46,10 +54,13 @@ const morePage = {
         click: e => popUp("suitYourself"),
       }
     },
-    p: Copy.text({
-      es: `Este test revelará el símbolo que mejor se ajusta a tu personalidad.`,
-      en: `This test will reveal the suit that best fits your personality.`,
-    }),
+    p: versify(
+      Copy.text({
+        es: `El test revelará tu identidad
+        y el símbolo de más afinidad.`,
+        en: `This test will reveal the suit that best fits your personality.`,
+      })
+    ),
   }, {
     h3: {
       a: {
@@ -61,10 +72,13 @@ const morePage = {
         }),
       }
     },
-    p: Copy.text({
-      es: `Existe un manuscrito de novela inspirado en este mundo de maravillas.`,
-      en: `There's a manuscript of a novel inspired in this same land of wonders.`,
-    }),
+    p: versify(
+      Copy.text({
+        es: `El novel manuscrito en el que viajas 
+        al reino de conejos y barajas.`,
+        en: `There's a manuscript of a novel inspired in this same land of wonders.`,
+      })
+    ),
   }]
 };
 

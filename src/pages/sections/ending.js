@@ -21,9 +21,9 @@ const endingSection = {
     ASSETS.thumbnailOf("citadel", 45, e => popUp("citadel")),
     Copy.text({
       es: `Tan pronto se repartan los conejos,
-      se exige al colectivo de la mesa
+      se exige al colectivo de la mesa:
       que escoja, de lo simple a lo complejo,
-      la clase de final que le interesa:`,
+      la clase de final que le interesa.`,
       en: `Before the royal quest starts, 
     choose a challenge for the mission;
     look for the circular marks

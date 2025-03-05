@@ -168,7 +168,7 @@ Copy.add({
   },
   tie: {
     en: `To have a definite suit, you must break the tie between $0.`,
-    es: `Para para tener un símbolo definitivo, necesitas romper el empate entre $0.`,
+    es: `Para tener un símbolo definitivo, necesitas romper el empate entre $0.`,
   },
 });
 

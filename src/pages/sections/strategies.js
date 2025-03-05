@@ -22,8 +22,8 @@ const strategySections = [{
       si no lo sobrepasa lo que tiras.
       En cambio, si los dados son mayores,
       te sales al destierro en las orillas.
-      Igual el pasaporte lo recoges;
-      y el premio, si un acierto se confirma.`,
+      Igual el pasaporte lo recoges,
+      y el premio si un acierto se confirma.`,
       `Se puede completar la travesía,
       pagar la diferencia de los dados,
       con palos de la torre de partida
@@ -65,14 +65,14 @@ const strategySections = [{
   p: versify(Copy.text({
     es: [
       `Ataca en un <i>combate sin empates</i> 
-      a quien en el hexágono descansa:
-      se lucha superando los ataques,
-      sumándose las picas descartadas,
+      a quien en el hexágono descansa.
+      Se lucha superando los ataques,
+      sumándose las picas descartadas;
       y cuando se terminen los avances,
       destierra a la persona derrotada.
       Si ganas el combate que empezaste,
-      también asaltarías a  sus cartas,
-      robando la primera que tocases
+      también asaltarías a  sus cartas;
+      le robas la primera que tocases
       (a ciegas deberás seleccionarla).`,
       /*
       `Ataca en un <i>combate sin empates</i> 
@@ -89,7 +89,7 @@ const strategySections = [{
       (a ciegas deberás seleccionarla).`,*/
       `Si robas y la carta es de nobleza,
       te toca <b>el incremento</b> de tus cartas;
-      y entrégale a la corte la que quieras
+      y entrégale a la corte la que quieras,
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
@@ -131,7 +131,7 @@ const strategySections = [{
       de un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.
-      Mas antes de mostrar tus pertenencias,
+      Mas, antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione
       que muestre previamente que las tenga,
       las cartas con aquellas condiciones,
