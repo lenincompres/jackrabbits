@@ -132,7 +132,7 @@ const strategySections = [{
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.
       Mas, antes de mostrar tus pertenencias,
-      se exige de cualquiera que cuestione
+      se exige de cualquiera que cuestione:
       que muestre previamente que las tenga,
       las cartas con aquellas condiciones,
       pues pierde lo mostrado y se destierra
