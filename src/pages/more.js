@@ -58,7 +58,8 @@ const morePage = {
       Copy.text({
         es: `El test revelará tu identidad
         y el símbolo de más afinidad.`,
-        en: `This test will reveal the suit that best fits your personality.`,
+        en: `This test will reveal the suit
+        that best fits your personality.`,
       })
     ),
   }, {
@@ -76,7 +77,8 @@ const morePage = {
       Copy.text({
         es: `El novel manuscrito en el que viajas 
         al reino de conejos y barajas.`,
-        en: `There's a manuscript of a novel inspired in this same land of wonders.`,
+        en: `There's a manuscript of a novel
+        inspired in this same land of wonders.`,
       })
     ),
   }]
