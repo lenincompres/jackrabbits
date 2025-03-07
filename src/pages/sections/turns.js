@@ -11,7 +11,7 @@ const turnSections = [{
   p: versify(Copy.text({
     es: [
       `Tus turnos los comienzas con la suerte,
-      la rifa de la pila tras los dados.
+      tomando de la pila tras los dados.
       Si <strong>un</strong> dado, de los dígitos que obtienes,
       coincide con un número en tus manos,
       demuestra con tu carta que lo tienes
@@ -23,8 +23,8 @@ const turnSections = [{
     ],
     en: [
       `Start your turns rolling two dice
-      to have their digits unfold:
-      you'll draw <strong>one</strong> card as a prize
+      to have their digits unfold.
+      You'll draw <strong>one</strong> card as a prize
       if you show <strong>one</strong> card you hold,
       proving that its number ties
       to <strong>one</strong> of the dice you rolled.`,
@@ -51,14 +51,14 @@ const turnSections = [{
       `Recuerda que moverte es opcional;
       depende de tu meta a visitar.`,
       `Podrías expandir tus travesías;
-      consulta <a href="#intro/tranfers"><b>los traslados</b></a> de las vías.`
+      consulta <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
       `From the current hex you're on, 
-      you may choose a path to exit:
-      move your rabbit as a pawn 
-      along the road you've selected,
-      and land at a hexagon—
+      you may choose a path to exit.
+      Move your rabbit as a pawn 
+      along the road you've selected.
+      And land at a hexagon—
       wait a turn to cross the hexes.`,
       `You may move towards your goal,
       or choose not to move at all.`,
@@ -87,8 +87,8 @@ const turnSections = [{
     ],
     en: [
       `Your goal is to claim the card
-      of the hex where you've set foot:
-      if unclaimed, you may discard
+      of the hex where you've set foot.
+      If unclaimed, you may discard
       ten or more points of their suit,
       then place a carrot to mark,
       and finalize this pursuit.`,
@@ -115,7 +115,7 @@ const turnSections = [{
       `*Respeta lo del límite de cartas;
       mas, solo si en la mesa se percatan.`,
       `**Podrías terminar sin incremento;
-      revisa en <a href="#intro/off"><b>el destierro</b></a> su segmento.`,
+      revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
     ],
     en: [
       `End your turns on a hex tile,
