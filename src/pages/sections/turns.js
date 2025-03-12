@@ -10,8 +10,8 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Tus turnos los comienzas con la suerte,
-      tomando de la pila tras los dados.
+      `Comienza con un premio la suerte,
+      que tomas de la pila tras los dados.
       Si <strong>un</strong> dado, de los dígitos que obtienes,
       coincide con un número en tus manos,
       demuestra con tu carta que lo tienes
