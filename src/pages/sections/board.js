@@ -13,17 +13,17 @@ const boardSection = {
       y el negro del <i>subsuelo</i>, separándolos.
       Revuelve bocabajo lo que queda:
       los rombos, los hexágonos y triángulos.`,
-      `Indica a las personas que recojan
-      iguales cantidades de las piezas,
-      por formas geométricas les tocan
-      de a doce dividido por cabeza.`,
-      `Ofréceles la opción de colocarlas
-      por turnos o por libre preferencia.
+      `Reparte, o que en la mesa las recojan,
+      iguales cantidades de las piezas;
+      por formas geométricas, les tocan:
+      de a doce, dividido por cabeza.`,
+      `Es hora de empezar a colocarlas
+      (por turnos o con libre preferencia).
       Por <b>turnos</b>: se mantienen sin mirarlas,
-      y pieza que volteen la conectan;
-      y <b>libre</b>: se permiten voltearlas
+      y pieza que volteen, la conectan.
+      O <b>libre</b>: se permiten voltearlas,
       sin turnos ni descansos al ponerlas.
-      Igual se recomienda al conectarlas
+      Igual se recomienda, al conectarlas,
       contar con las siguientes sugerencias:`,
       `Evita: callejones sin salidas <sup>T</sup>;
       los vínculos de dos hexagonales <sup>x</sup>;
