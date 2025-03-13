@@ -81,7 +81,7 @@ const turnSections = [{
       Se dejan zanahorias en las piezas
       que indican los conejos que las cargan.`,
       `Es gratis acceder a los hexágonos;
-      descansa en el camino visitándolos.`,
+      te paras simplemente visitándolos.`,
       `Conserva lo que adquieras en tu mano;
       reclama <b>el incremento</b> de inmediato.`,
     ],

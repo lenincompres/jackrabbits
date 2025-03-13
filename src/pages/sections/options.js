@@ -192,14 +192,21 @@ const optionalSections = [{
       en: "Overtaxed Hands",
     }),
     p: versify(Copy.text({
-      es: `Las cartas en tu mano y su manejo
-        te retan en un juego de escasez,
-        pues cuentas con un límite pequeño
-        cargando con un máximo de seis.`,
-      en: `The cap on your cards is slender,
-        up to six to hold on to.
-        Plan to be a wiser spender
-        on the quests that you pursue.`,
+      es: `Las cartas se tendrán en escasez,
+        pues cargas con un máximo de seis.`,
+      en: `Cap the cards you may accrue;
+        up to six to hold on to.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Excedente Expropiado",
+      en: "Seized Surplus",
+    }),
+    p: versify(Copy.text({
+      es: `Si ocultas un exceso en lo que tomas,
+        quienquiera que lo note te lo roba.`,
+      en: `If you horde cards and are found,
+        the caller robs your hand down.`,
     })),
   }, {
     h5: Copy.text({

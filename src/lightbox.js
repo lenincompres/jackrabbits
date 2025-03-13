@@ -34,9 +34,9 @@ LightBox.add(new Pager({
     }),
     img: ASSETS.citadel,
     p: versify(Copy.text({
-      es: `La pieza hexagonal en la que empiezas…
+      es: `La pieza hexagonal en la que empiezas
         y acabas al traer a la nobleza.`,
-      en: `The hex where the journey starts…
+      en: `The hex where the journey starts
         and ends with three royal cards.`
     })),
   },
