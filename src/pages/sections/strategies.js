@@ -127,8 +127,8 @@ const strategySections = [{
     es: [
       `Anúnciate en la <i>entrada de las reinas</i>
       y espera que en la mesa te cuestionen:
-      si cargas con su carta o con la cuenta 
-      de un mínimo de seis en corazones.
+      si cargas con su carta de nobleza, 
+      o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.
       Mas, antes de mostrar tus pertenencias,
