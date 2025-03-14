@@ -85,7 +85,7 @@ const optionalSections = [{
       es: `Se juega con un palo por conejo
       y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
       con tres participantes, por ejemplo,
-      un palo se elimina con un set.
+      retírales un palo con un set.
       Contempla, al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>,
       si acaso es imposible de obtener.
       También, que sin las picas y sus duelos
