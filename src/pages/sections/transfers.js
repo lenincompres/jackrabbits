@@ -52,10 +52,10 @@ const transferSections = [{
       viajando por las aguas o las tierras.
       Por tierra: galopando sin pararte,
       moviéndote al hexágono que quieras.
-      Por agua: navegando por los mares
-      y entrando por alguna carretera;
-      mas, antes de abordar en un embarque,
-      cerciórate que orille a las afueras.
+      Por agua: si el embarque del que sales
+      colinda con un lado a las afueras,
+      te sales navegando por los mares
+      y arrivas por alguna carretera.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
     en: `You may buy two types of rides
