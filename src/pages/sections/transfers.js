@@ -4,13 +4,13 @@ import versify from "../../aux/versify.js";
 
 const transferSections = [{
   p: versify(Copy.text({
-    es: `Es gratis desplazarte a los hexágonos,
+    es: `Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
-      incluso las montañas, más abajo,
+      Incluso las montañas, más abajo,
       se cruzan por sus túneles gratuitos.
       En cambio, si utilizas los traslados,
       marcados a mitad de los polígonos,
-      <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados,
+      <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de los símbolos.`,
     en: `It is free to make your rounds
       if you move along the paths;
@@ -30,9 +30,9 @@ const transferSections = [{
   }, Copy.text({
     es: `Los bosques, las montañas y los ríos,
       que ves en las imágenes de abajo,
-      permiten que te cambies de camino,
+      permiten que te cambies de camino
       cruzando por el centro en un atajo,
-      marcado con los palos permitidos,
+      marcado con los palos permitidos
       que <a class="pop" onclick="popUp('price')">pagas con tus cartas</a> al cruzarlo.`,
     en: `The mountains, rivers, and woods,
       have two roads not far apart. 
@@ -50,12 +50,12 @@ const transferSections = [{
   p: versify(Copy.text({
     es: `Los cruces te permiten transportarte,
       viajando por las aguas o las tierras.
-      Por tierra, galopando sin pararte,
+      Por tierra: galopando sin pararte,
       moviéndote al hexágono que quieras.
-      Por agua, navegando por los mares
+      Por agua: navegando por los mares
       y entrando por alguna carretera;
-      cerciórate, en el triángulo en que embarques,
-      que orille con un lado a las afueras.
+      mas, antes de abordar en un embarque,
+      cerciórate que orille a las afueras.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
     en: `You may buy two types of rides
@@ -115,11 +115,11 @@ const transferSections = [{
   }, Copy.text({
     es: `A veces te conviene que salieras,
       cayendo de un camino a las orillas.
-      Olvida <b>el incremento</b> si lo hicieras,
+      Olvida <b>el incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
       Mantén <b>la lotería</b> en las afueras,
-      sin luego ejecutar <b>la travesía</b>;
-      pues llegas al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a>, en el que esperas,
+      sin luego ejecutar <b>la travesía</b>.
+      Pues llegas al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> en el que esperas
       y eliges a la vuelta la salida.`,
     en: `If you choose to take a road
       that leads to the edge (outbound),

@@ -71,7 +71,7 @@ const strategySections = [{
       y cuando se terminen los avances,
       destierra a la persona derrotada.
       Si ganas el combate que empezaste,
-      también asaltarías a  sus cartas;
+      también asaltarías a  sus cartas:
       le robas la primera que tocases
       (a ciegas deberás seleccionarla).`,
       /*
@@ -89,7 +89,7 @@ const strategySections = [{
       (a ciegas deberás seleccionarla).`,*/
       `Si robas y la carta es de nobleza,
       te toca <b>el incremento</b> de tus cartas;
-      y entrégale a la corte la que quieras,
+      y entrégale a la corte la que quieras
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
@@ -134,7 +134,7 @@ const strategySections = [{
       Mas, antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre previamente que las tenga,
-      las cartas con aquellas condiciones,
+      las cartas con aquellas condiciones;
       pues pierde lo mostrado y se destierra
       si pruebas que te acusa sin razones.
       Tampoco se permiten exigencias
@@ -202,8 +202,8 @@ const strategySections = [{
   p_0: versify(Copy.text({
     es: `Es válido el <i>comercio por diamantes</i>
       con alguien en el sitio que te encuentras,
-      si inicias la partida en lo adelante,
-      sumándole la claúsula a las reglas.
+      si inicias la partida en lo adelante
+      sumándole la cláusula a las reglas.
       En tanto los negocios se debaten,
       se ocultan en las manos las ofertas;
       y a quien se le descubra por chantaje,

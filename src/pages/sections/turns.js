@@ -10,7 +10,7 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Comienza con un premio la suerte,
+      `Comienza con un premio de la suerte,
       que tomas de la pila tras los dados.
       Si <strong>un</strong> dado, de los dígitos que obtienes,
       coincide con un número en tus manos,
@@ -78,7 +78,7 @@ const turnSections = [{
       si nadie se ha apropiado de sus cartas.
       Un mínimo de diez es lo que cuestan,
       pagado con los palos de sus marcas.
-      Se dejan zanahorias en las piezas
+      Se dejan zanahorias en las piezas,
       que indican los conejos que las cargan.`,
       `Es gratis acceder a los hexágonos;
       te paras simplemente visitándolos.`,

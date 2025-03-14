@@ -10,7 +10,7 @@ const priceSection = {
     es: [
       `Las vías con los símbolos de cartas
       te ofrecen un <i>traslado</i> de lugar.
-      La suma de los dados es la tasa,
+      La suma de los dados es la tasa
       o el mínimo que tienes que pagar. 
       Se pierde el sobrepago si te pasas;
       los símbolos se pueden combinar.`,
@@ -18,9 +18,9 @@ const priceSection = {
       dejándolas a un lado de la mesa.
       Es <b>1</b> lo que cuentas por los ases,
       y <b>10</b> por las reales o con letras.
-      Recuerda, si es que gastas las reales,
-      quitar tu zanahoria de sus piezas,
-      y en vez de terminar en el descarte,
+      Recuerda: si es que gastas las reales,
+      quitar tu zanahoria de sus piezas;
+      y, en vez de terminar en el descarte,
       regresan a la corte en la que empiezan.`,
     ],
     en: [
