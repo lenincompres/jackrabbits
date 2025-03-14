@@ -113,7 +113,7 @@ const turnSections = [{
       Si llegas con la pila ya desierta,
       baraja las del lote y recopila.`,
       `*Respeta lo del límite de cartas;
-      mas, solo si en la mesa se percatan.`,
+      o ignóralo si nadie se percata.`,
       `**Podrías terminar sin incremento;
       revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
     ],
