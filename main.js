@@ -52,6 +52,7 @@ DOM.set({
       html: Copy.at[key],
     })),
     figure: {
+      position: 'relative',
       padding: '1em 1em 0',
       backgroundColor: Pager._key.as(key => `var(--${key})`),
       img: {
@@ -72,6 +73,15 @@ DOM.set({
         boxShadow: '1px 1px 3px black',
         overflow: 'hidden',
       },
+      a_video: {
+        display: Pager._key.as(val => val === 'home' ? 'block' : 'none'),
+        position: 'absolute',
+        text: Copy.text({
+          es: "Video tutorial",
+          en: "Video tutorial",
+        }) + " ▶",
+        click: e => popUp("video"),
+      },
     },
     article_main: {
       backgroundColor: Pager._key.as(key => `var(--${key})`),
@@ -83,8 +93,7 @@ DOM.set({
     menu_bulletMenu: DOM.linkMenu({
       text: Copy.at.buy,
       class: "buy",
-      position: "relative",
-      margin: 0,
+      marginTop: "-1em",
       href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       target: "_blank",
     }, {

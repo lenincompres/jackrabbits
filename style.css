@@ -27,7 +27,7 @@ body {
   font-family: base;
   font-size: 1rem;
   text-align: center;
-  max-width: 90rem;
+  max-width: 89rem;
   margin: 0 auto;
   overflow-x: hidden;
   position: relative;
@@ -160,8 +160,7 @@ a.buy {
   margin: 0 auto;
   width: fit-content;
   color: var(--home);
-  background-color: navy;
-  box-shadow: 1px 1px 3px black;
+  background-color: rgba(0,0,0,0.5);
   padding: 0.5em 1em;
   border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
@@ -172,18 +171,20 @@ a.buy {
 
 a.video {
   font-size: 1.2rem;
+  position: absolute;
+  top: 6em;
+  left: calc(50% - 5em);
 }
 
 a.video:hover {
   color: var(--home);
-  background-color: blue;
+  background-color: black;
 }
 
 a.buy {
   text-transform: uppercase;
   font-family: 'title';
   white-space: nowrap;
-  margin: 5%;
   background-color: darkgreen;
   border-radius: 1.7em;
   -webkit-border-radius: 1.7em;
@@ -192,9 +193,6 @@ a.buy {
   -o-border-radius: 1.7em;
   border-bottom-left-radius: 0;
   border-top-right-radius: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 a.buy:hover {
