@@ -42,7 +42,7 @@ const optionalSections = [{
       en: "Additional capital",
     }),
     p: versify(Copy.text({
-      es: `Los <b>A</b>ces capitales que se exponen
+      es: `Los <b>A</b>ses capitales que se exponen
         se cuentan por un <b>1</b> permanente;
         si el palo que precisas corresponde,
         lo añades del que tienes en tu frente.`,

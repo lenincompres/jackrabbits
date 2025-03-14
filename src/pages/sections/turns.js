@@ -5,8 +5,8 @@ import versify from "../../aux/versify.js";
 const turnSections = [{
   img: ASSETS.lottery,
   h3: Copy.text({
-    es: "1<small>ra.</small> La lotería",
-    en: "1<small>st.</small> The Lottery",
+    es: "1.<small>a</small> La lotería",
+    en: "1<small>st</small> The Lottery",
   }),
   p: versify(Copy.text({
     es: [
@@ -37,8 +37,8 @@ const turnSections = [{
 }, {
   img: ASSETS.journey,
   h3: Copy.text({
-    es: "2<small>da.</small> La travesía",
-    en: "2<small>nd.</small> The Journey",
+    es: "2.<small>a</small> La travesía",
+    en: "2<small>nd</small> The Journey",
   }),
   p: versify(Copy.text({
     es: [
@@ -69,8 +69,8 @@ const turnSections = [{
 }, {
   img: ASSETS.acquisition,
   h3: Copy.text({
-    es: "3<small>ra.</small> La adquisición",
-    en: "3<small>rd.</small> The Acquisition",
+    es: "3.<small>a</small> La adquisición",
+    en: "3<small>rd</small> The Acquisition",
   }),
   p: versify(Copy.text({
     es: [
@@ -101,8 +101,8 @@ const turnSections = [{
 }, {
   img: ASSETS.increment,
   h3: Copy.text({
-    es: "4<small>ta.</small> El Incremento",
-    en: "4<small>th.</small> The increment",
+    es: "4.<small>a</small> El Incremento",
+    en: "4<small>th</small> The increment",
   }),
   p: versify(Copy.text({
     es: [
