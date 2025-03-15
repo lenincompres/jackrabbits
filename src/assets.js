@@ -1,11 +1,11 @@
 import imgCropStyle from "./aux/imgCropStyle.js";
 
 const ASSETS = {
-  thumbnailOf: (key, pct = 34, click = () => undefined) => ({
+  thumbnailOf: (key, w = "34%", click = () => undefined, model = {}) => ({
     a: {
       class: 'thumbnail',
       img: Object.assign({
-        width: `${pct}%`,
+        width: w,
       }, ASSETS[key]),
       click: click,
     }
@@ -44,7 +44,7 @@ const ASSETS = {
     tag: "img",
     src: "./images/cards.png",
     alt: "Cards setup",
-    height: "9rem",
+    height: "8.5rem",
   },
   tokens: {
     tag: "img",

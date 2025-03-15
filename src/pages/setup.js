@@ -20,7 +20,7 @@ const setupPage = {
           build a random land from scratch—
           a new map to be explored.`,
       }),
-      ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? 50 : 42, e => popUp("sample")),
+      ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? '9.5em' : '8em', e => popUp("sample")),
       Copy.text({
         es: `El reino de las cartas y sus templos
           se ensambla con terrenos aleatorios;
