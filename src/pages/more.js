@@ -75,7 +75,7 @@ const morePage = {
     },
     p: versify(
       Copy.text({
-        es: `El novel manuscrito en el que viajas 
+        es: `El nuevo manuscrito en el que viajas 
         al reino de conejos y barajas.`,
         en: `There's a manuscript of a novel
         inspired in this same land of wonders.`,
