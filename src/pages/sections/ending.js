@@ -18,7 +18,7 @@ const endingSection = {
       In this race you must excel
       to be the champ of the land.`,
     }),
-    ASSETS.thumbnailOf("citadel", 45, e => popUp("citadel")),
+    ASSETS.thumbnailOf("citadel", "7em", e => popUp("citadel")),
     Copy.text({
       es: `Tan pronto se repartan los conejos,
       se exige al colectivo de la mesa:
