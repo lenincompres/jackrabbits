@@ -9,7 +9,7 @@ const boardSection = {
   }),
   p: versify(Copy.text({
     es: [
-      `Comienza por poner la <i>ciudadela</i>
+      `Empieza por poner la <i>ciudadela</i>
       y el negro del <i>subsuelo</i>, separándolos.
       Revuelve bocabajo lo que queda:
       los rombos, los hexágonos y triángulos.`,
