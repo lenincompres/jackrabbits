@@ -25,14 +25,6 @@ const boardSection = {
       sin turnos ni descansos al ponerlas.
       Igual se recomienda, al conectarlas,
       contar con las siguientes sugerencias:`,
-      `Evita: callejones sin salidas <sup>T</sup>;
-      los vínculos de dos hexagonales <sup>x</sup>;
-      y hacer la conección consecutiva
-      de piezas triangulares similares <sup>!</sup>.
-      Las islas que desees las inicias
-      con una hexagonal a la que apartes;
-      y observa que el subsuelo, en exclusiva,
-      se queda sin uniones laterales.`,
     ],
     en: [
       `Place the <i>citadel</i> hex first. 
@@ -51,7 +43,19 @@ const boardSection = {
       flip all the tiles on their face. 
       These suggestions are worthwhile
       as guidelines in either case:`,
-      `Don't make a dead-ending road <sup>T</sup>,
+    ]
+  })),
+  img: ASSETS.guides,
+  p_0: versify(Copy.text({
+    es: `Evita: callejones sin salidas <sup>T</sup>;
+      los vínculos de dos hexagonales <sup>x</sup>;
+      y hacer la conección consecutiva
+      de piezas triangulares similares <sup>!</sup>.
+      Las islas que desees las inicias
+      con una hexagonal a la que apartes;
+      y observa que el subsuelo, en exclusiva,
+      se queda sin uniones laterales.`,
+    en: `Don't make a dead-ending road <sup>T</sup>,
       or join the roads from two hexes <sup>x</sup>,
       and keep triangles spread broad,
       instead of closely connected <sup>!</sup>.
@@ -59,9 +63,7 @@ const boardSection = {
       just place a hex disconnected;
       yet, the underground is odd,
       and will remain unconnected.`,
-    ]
   })),
-  img: ASSETS.guides,
 };
 
 export default boardSection;
