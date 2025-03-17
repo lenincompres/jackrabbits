@@ -73,7 +73,7 @@ DOM.set({
         boxShadow: '1px 1px 3px black',
         overflow: 'hidden',
       },
-      a_video: {
+      a_button_video: {
         display: Pager._key.as(val => val === 'home' ? 'block' : 'none'),
         position: 'absolute',
         text: Copy.text({
@@ -92,7 +92,7 @@ DOM.set({
     p: versify(Copy.at.subscribe),
     menu_bulletMenu: DOM.linkMenu({
       text: Copy.at.buy,
-      class: "buy",
+      class: ["button", "buy"],
       marginTop: "-1em",
       href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       target: "_blank",

@@ -158,21 +158,25 @@ a[target="_blank"]::after {
   display: inline-block;
 }
 
-a.video,
-a.buy {
+a.button {
   text-transform: uppercase;
   font-family: 'title';
   display: inline-block;
   margin: 0 auto;
   width: fit-content;
   color: var(--home);
+  background-color: #228b21;
+  padding: 0.6em 1em;
+  text-shadow: 0 0 2px black;
+  border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+}
+
+a.button:hover{
   background-color: darkgreen;
-  padding: 0.5em 1em;
-  border-radius: 0.5em;
-  -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -ms-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
 }
 
 a.video {
@@ -194,7 +198,6 @@ a.buy {
 
 a.buy:hover {
   color: var(--home);
-  background-color: green;
 }
 
 b {

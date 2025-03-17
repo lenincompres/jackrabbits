@@ -11,7 +11,7 @@ const splashSection = {
     en: `The board game for playing cards
       on a land of wooden shards`,
   })),
-  a_buy: {
+  a_button_buy: {
     target: "_blank",
     href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
     text: Copy.text({
