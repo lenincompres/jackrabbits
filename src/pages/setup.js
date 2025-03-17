@@ -23,7 +23,7 @@ const setupPage = {
       ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? '9.5em' : '8em', e => popUp("sample")),
       Copy.text({
         es: `El reino de las cartas y sus templos
-          se ensambla como un puzle aleatorio;
+          se ensambla en un proceso aleatorio;
           comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,
         en: `The lands you connect and spread
