@@ -80,7 +80,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 h3 {
@@ -160,11 +160,13 @@ a[target="_blank"]::after {
 
 a.video,
 a.buy {
+  text-transform: uppercase;
+  font-family: 'title';
   display: inline-block;
   margin: 0 auto;
   width: fit-content;
   color: var(--home);
-  background-color: rgba(0,0,0,0.5);
+  background-color: darkgreen;
   padding: 0.5em 1em;
   border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
@@ -174,7 +176,8 @@ a.buy {
 }
 
 a.video {
-  font-size: 1.2rem;
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.6);
   position: absolute;
   top: 6em;
   left: calc(50% - 5em);
@@ -186,17 +189,7 @@ a.video:hover {
 }
 
 a.buy {
-  text-transform: uppercase;
-  font-family: 'title';
   white-space: nowrap;
-  background-color: darkgreen;
-  border-radius: 1.7em;
-  -webkit-border-radius: 1.7em;
-  -moz-border-radius: 1.7em;
-  -ms-border-radius: 1.7em;
-  -o-border-radius: 1.7em;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 0;
 }
 
 a.buy:hover {

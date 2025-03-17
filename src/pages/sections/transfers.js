@@ -118,8 +118,8 @@ const transferSections = [{
       Olvida <b>el incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
       Mantén <b>la lotería</b> en las afueras,
-      sin luego ejecutar <b>la travesía</b>.
-      Pues llegas al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> en el que esperas
+      sin luego ejecutar <b>la travesía</b>;
+      pues llegas al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> en el que esperas
       y eliges a la vuelta la salida.`,
     en: `If you choose to take a road
       that leads to the edge (outbound),
