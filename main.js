@@ -106,6 +106,8 @@ DOM.set({
       target: "_blank",
     }, {
       text: Copy.at.novel,
+      class: "button",
+      marginTop: "-1em",
       href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
       target: "_blank",
     }),

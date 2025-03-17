@@ -164,8 +164,9 @@ a.button {
   display: inline-block;
   margin: 0 auto;
   width: fit-content;
+  white-space: nowrap;
   color: var(--home);
-  background-color: #228b21;
+  background-color: mediumblue;
   padding: 0.6em 1em;
   text-shadow: 0 0 2px black;
   border-radius: 0.4em;
@@ -176,7 +177,7 @@ a.button {
 }
 
 a.button:hover{
-  background-color: darkgreen;
+  background-color: navy;
 }
 
 a.video {
@@ -193,11 +194,11 @@ a.video:hover {
 }
 
 a.buy {
-  white-space: nowrap;
+  background-color: #228b21;
 }
 
 a.buy:hover {
-  color: var(--home);
+  background-color: darkgreen;
 }
 
 b {
