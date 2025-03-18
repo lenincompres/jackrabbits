@@ -10,10 +10,10 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Comienza con un premio de la suerte,
+      `Comienza con <strong>un</strong> premio de la suerte,
       que tomas de la pila tras los dados.
       Si <strong>un</strong> dado, de los dígitos que obtienes,
-      coincide con un número en tus manos,
+      coincide con <strong>un</strong> número en tus manos,
       demuestra con tu carta que lo tienes
       y llévate la carta de regalo.`,
       `El límite de cartas es de nueve;
@@ -92,8 +92,8 @@ const turnSections = [{
       ten or more points of their suit,
       then place a carrot to mark,
       and finalize this pursuit.`,
-      `There's no cost or consequences
-      for visiting residences.`,
+      `Hexes never charge their guests,
+      but you must stop there to rest.`,
       `Keep the card claimed in your hands—
       get <b>the increment</b> at once.`,
     ]

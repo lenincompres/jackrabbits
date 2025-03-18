@@ -6,13 +6,13 @@ import turnSections from "./sections/turns.js";
 const introPage = {
   header: {
     h2: versify(Copy.text({
-      es: "Las FASES de cada turno",
-      en: "The PHASES of each turn",
+      es: "Las 4 FASES de cada turno",
+      en: "The 4 PHASES of each turn",
     })),
     p: versify(Copy.text({
       es: `Comprende el material preliminar
         al <a href="#full"><b>juego completivo</b></a> regular.`,
-      en: `Learn these phases' rules and names, 
+      en: `Learn each phase's role and name, 
         then advance to a <a href="#full"><b>full game</b></a>.`,
     })),
   },

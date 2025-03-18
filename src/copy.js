@@ -10,7 +10,7 @@ Copy.add({
     en: "Welcome",
   },
   setup: {
-    es: "Prepara</br><small>el juego</small>",
+    es: "Inicio</br><small>del juego</small>",
     en: "Setup",
   },
   intro: {
@@ -32,7 +32,7 @@ y apoya la campaña que tendremos.`,
 and stay tuned for our campaign.`,
   },
   buy: {
-    es: "Compra el juego",
+    es: "Adquiere el juego",
     en: "Buy the game",
   },
   virtual: {

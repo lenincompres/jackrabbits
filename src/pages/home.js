@@ -14,7 +14,7 @@ const homePage = {
   ],
   footer: {
     p: versify(Copy.text({
-      es: `<a href="#setup"><b>Prepara</b> el juego</a></br>(Hasta cuatro participantes)`,
+      es: `<a href="#setup"><b>Inicio</b> del juego</a></br>(Hasta cuatro participantes)`,
       en: `<a href="#setup"><b>Setup</b></a></br>(Up to four players)`,
     })),
   },

@@ -104,8 +104,8 @@ LightBox.add(new Pager({
     p: {
       textAlign: "left",
       content: Copy.text({
-        es: "Estamos preparando una campaña para <b>Jack Rabbits</b> y podemos avisarte cuando esté lista.",
-        en: "We're preparing a launch campaign for <b>Jack Rabbits</b>, and can notify you when it's ready."
+        es: "Estamos preparando una campaña promocional y podemos avisarte cuando esté lista.",
+        en: "We're preparing a pomotional launch campaign, and can notify you when it's ready."
       }),
     },
     iframe: {

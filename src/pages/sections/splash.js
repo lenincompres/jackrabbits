@@ -15,7 +15,7 @@ const splashSection = {
     target: "_blank",
     href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
     text: Copy.text({
-      es: "Compra el juego",
+      es: "Adquiere el juego",
       en: "Buy the game",
     }),
   },

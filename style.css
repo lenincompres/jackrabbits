@@ -125,8 +125,8 @@ p>span {
 
 a {
   color: navy;
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -140,7 +140,7 @@ a.thumbnail:hover img {
 a.pop:after {
   content: "🃟";
   font-size: 0.7em;
-  vertical-align: text-top;
+  vertical-align: top;
   margin: -0.5em -0.3em;
   display: inline-block;
   transform: rotate(-20deg);
@@ -153,7 +153,7 @@ a.pop:after {
 a[target="_blank"]::after {
   content: "➚";
   font-size: 0.7em;
-  vertical-align: text-top;
+  vertical-align: top;
   margin: -0.5em -0.3em;
   display: inline-block;
 }
@@ -166,8 +166,9 @@ a.button {
   width: fit-content;
   white-space: nowrap;
   color: var(--home);
-  background-color: mediumblue;
-  padding: 0.6em 1em;
+  background-color: navy;
+  padding: 0 1em;
+  line-height: 2.5em;
   text-shadow: 0 0 2px black;
   border-radius: 0.4em;
   -webkit-border-radius: 0.4em;
@@ -177,7 +178,7 @@ a.button {
 }
 
 a.button:hover{
-  background-color: navy;
+  background-color: mediumblue;
 }
 
 a.video {
@@ -194,11 +195,11 @@ a.video:hover {
 }
 
 a.buy {
-  background-color: #228b21;
+  background-color: darkgreen;
 }
 
 a.buy:hover {
-  background-color: darkgreen;
+  background-color: #228b21;
 }
 
 b {
