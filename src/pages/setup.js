@@ -63,8 +63,8 @@ const setupPage = {
           después de barajarlas y reunirlas,
           del mazo bocabajo las repartes.
           Entrégales sus tres, sin exhibirlas,
-          a cada concursante, individuales;
-          con estas tramarán <b>la travesía</b>
+          a cada concursante, individuales.
+          Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
         en: `Each player will draw three cards 
           to hold as the starting <i>hands</i>:
