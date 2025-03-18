@@ -443,21 +443,22 @@ article.main>section>section {
   margin: 0.3rem 0;
 }
 
-section>ul {
+ul.exception {
   text-align: left;
   text-indent: -0.5rem;
   padding-left: 0.5rem;
   letter-spacing: -0.045em;
+  padding: 0 2.5em;
   width: fit-content;
   margin: 0 auto;
 }
 
-section>ul>li::before {
+ul.exception>li::before {
   content: "•";
   margin-right: 0.25em;
 }
 
-section>ul.exception>li:first-child:before {
+ul.exception>li:first-child:before {
   content: "○";
 }
 
