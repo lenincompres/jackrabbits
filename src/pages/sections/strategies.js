@@ -120,8 +120,8 @@ const strategySections = [{
   }),
   img: ASSETS.hearts,
   h4: Copy.text({
-    es: "Acceder a los palacios Q",
-    en: "Access the Queen Palaces",
+    es: "Juzgar en los palacios Q",
+    en: "Judge at the Queen Palaces",
   }),
   p: versify(Copy.text({
     es: [
@@ -168,7 +168,7 @@ const strategySections = [{
   }),
   img: ASSETS.diamonds,
   h4: Copy.text({
-    es: "Canjear en las plazas J",
+    es: "Comerciar en las plazas J",
     en: "Trade at Jack Plazas",
   }),
   p: versify(Copy.text({
@@ -196,8 +196,8 @@ const strategySections = [{
       means that any suit will do.`,
   })),
   h5: Copy.text({
-    es: "+ Canjes Individuales",
-    en: "+ Individual Trades",
+    es: "+ Comercio Interpersonal",
+    en: "+ Interpersonal Trades",
   }),
   p_0: versify(Copy.text({
     es: `Es válido el <i>comercio por diamantes</i>
