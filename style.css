@@ -185,7 +185,7 @@ a.video {
   font-size: 1.2em;
   background-color: rgba(0,0,0,0.6);
   position: absolute;
-  top: 6em;
+  top: calc(50% - 1em);
   left: calc(50% - 5em);
 }
 
