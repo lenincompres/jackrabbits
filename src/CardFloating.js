@@ -70,7 +70,7 @@ class CardFloating extends Card {
       else if (this.rz < -PIE) this.rz += PIE;
       // apply velocity
       let rect = this.getBoundingClientRect();
-      let [xmax, ymax] = [rect.width / window.width, rect.height / window.height];
+      let [xmax, ymax] = [rect.width / window.innerWidth, rect.height / window.innerHeight];
       if(Math.abs(vx) > xmax) vx *= xmax / Math.abs(vx);
       if(Math.abs(vy) > ymax) vy *= ymax / Math.abs(vy);
       this.x += vx * this.acc * drag;
