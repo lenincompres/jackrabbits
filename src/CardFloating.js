@@ -64,11 +64,18 @@ class CardFloating extends Card {
         if (this.rx > PI || this.rx < -PI) vrx *= -1;
         if (this.ry > PI || this.ry < -PI) vry *= -1;
       }
+      // apply rotation
       this.rz += vrz * this.acc * drag;
       if (this.rz > PIE) this.rz -= PIE;
       else if (this.rz < -PIE) this.rz += PIE;
+      // apply velocity
+      let rect = this.getBoundingClientRect();
+      let [xmax, ymax] = [rect.width / window.width, rect.height / window.height];
+      if(Math.abs(vx) > xmax) vx *= xmax / Math.abs(vx);
+      if(Math.abs(vy) > ymax) vy *= ymax / Math.abs(vy);
       this.x += vx * this.acc * drag;
       this.y += vy * this.acc * drag;
+      // handle bounds
       if (this.z > 1 || this.z < 0) {
         this.r = Math.round(this.r);
         vz *= -1;
@@ -110,7 +117,9 @@ class CardFloating extends Card {
       transform: this._t.as(t => `rotateX(${this.rx}rad) rotateY(${this.ry}rad)  rotateZ(${this.rz}rad)`),
       //onmouseout: () => flick(),
       onmouseover: () => {this.still = true; flick()},
+      onready: elt => setTimeout(() => flick(), 1000),
     });
+    setTimeout(() => flick(), 100);
   }
 
   random(min = 1, max = 13) {

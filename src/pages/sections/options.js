@@ -86,9 +86,9 @@ const optionalSections = [{
       y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
       con tres participantes, por ejemplo,
       retírales un palo con un set.
-      Contempla, al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>,
+      Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
       si acaso es imposible de obtener.
-      También, que sin las picas y sus duelos
+      También que, sin las picas y sus duelos,
       podría complicársete vencer.`,
       en: `Have as many suits as players,
       and one of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too;

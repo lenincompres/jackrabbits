@@ -10,8 +10,8 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Comienza con <strong>un</strong> premio de la suerte,
-      que tomas de la pila tras los dados.
+      `Tu turno empezará con <strong>un</strong> presente,
+      rifado de la pila tras los dados.
       Si <strong>un</strong> dado, de los dígitos que obtienes,
       coincide con <strong>un</strong> número en tus manos,
       demuestra con tu carta que lo tienes
