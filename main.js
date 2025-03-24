@@ -10,6 +10,7 @@ import introPage from "./src/pages/intro.js";
 import setupPage from "./src/pages/setup.js";
 import homePage from "./src/pages/home.js";
 import "./src/lightbox.js";
+import expansionPage from "./src/pages/expansions.js";
 
 Pager.add({
   home: homePage,
@@ -17,6 +18,7 @@ Pager.add({
   intro: introPage,
   full: fullPage,
   more: morePage,
+  //expansion: expansionPage,
 });
 
 const cardNum = Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);

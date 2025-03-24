@@ -14,7 +14,7 @@
   --intro: #daf3ea;
   --full: #eddded;
   --more: #e8d6c4;
-  --dark: #d2d5b2;
+  --expansion: #e8e8e8;
 }
 
 html {
@@ -97,6 +97,7 @@ h5 {
 
 strong {
   font-weight: bold;
+  font-style: italic;
 }
 
 small {
