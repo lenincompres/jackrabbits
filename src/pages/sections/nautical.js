@@ -23,7 +23,7 @@ const nauticalSections = [{
       También es la fontana de las conchas:
       las cambia por el doble de la pila.
       Por turnos, <strong>un</strong> canjeo se te otorga;
-      te quedas con las cartas que recibas.`,
+      limítate a las cartas que recibas.`,
       en: `Its triangle underground
       is placed where the seas begin.
       It serves as a landing ground,
@@ -87,20 +87,20 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si abordas por la vía del velero,
-      trasládate de gratis al moverle.
-      Si pagas sin estar en su sendero,
-      lo envías cualquiera de sus muelles.
-      Podrías abordar con tu conejo
-      si estás en el lugar al que lo lleves.
-      La torre, en su mercado heterogéneo,
+      navégalo sin costo y libremente.
+      Si pagas a la orilla del tablero,
+      te mueves al que quieras de sus muelles:
+      el barco pasará por tu conejo,
+      y a un puerto de las anclas lo transfieres.
+      Su torre con mercado heterogéneo
       comercia con los palos que prefieres.`,
-      en: `If you board the sailboat's deck,
-      you may sail with it for free.
-      Pay wherever you may trek,
-      to summon it to its key;
-      or another anchor hex,
-      even one where you may be.
-      Check out the key tower's specs—
+      en: `If you board the sailboat’s deck,
+      sail it anywhere for free.
+      But pay at a sea-bound trek
+      to summon it by the sea;
+      then sail to an anchor hex—
+      choose only one of these three.
+      Check the anchor tower’s specs:
       it trades the suits you decree.`,
     })),
   }]
@@ -142,8 +142,8 @@ const nauticalSections = [{
       la torre con la cueva clausurada,
       que exige que se pague por acceso.
       Mas, nada que requiera campanadas
-      es válido ni afecta en el subsuelo;
-      su cueva que es gratuita lo señala,
+      es válido ni afecta en el subsuelo.
+      Su cueva (que es gratuita) lo señala,
       y accede al aislamiento sin proceso.`,
       en: `Pay with bells where you may be,
       to send anyone exiled.

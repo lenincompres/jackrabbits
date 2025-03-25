@@ -72,8 +72,8 @@ const frontierSections = [{
       clausuras el hexágono de turno
       o aquel de la nobleza que pusieras.
       Un máximo de diez es lo oportuno; 
-      si no hacen invasión los recuperas.
-      Podría descartarlos con los suyos
+      si evitan la invasión los recuperas.
+      Pues puede descartarlos con los suyos
       quienquiera que te invada y los supera.`,
       en: `Display your shields (ten or less) 
       to seal the hex where you stand;

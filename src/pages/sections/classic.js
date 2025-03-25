@@ -11,43 +11,51 @@ const classicSections = [{
   }),
   img: ASSETS.allies,
   p: versify(Copy.text({
-    es: [
-      `Las piezas y monarcas vinculantes;
-      y dos de los conejos visitantes.`,
-      `Un trío es de la unión capitalista;
-      y el otro, la misión naturalista.
-      Los palos de sus casas que visitas,
-      se deben combinar al adquirirlas.`,
-      `Navega a los hexágonos con muelle, 
-      pagando a manatíes que te lleven.`,
-      `Cualquiera de los palos de las torres
-      se aceptan al volar en sus transportes.`,
-      `La cueva, comerciantes y taberna
-      funcionan en las casas que las tengan.`,
-      `La Jota que contiene comerciantes,
-      te vende lo que quieras por diamantes.`,
-      `Y en la otra, tras <strong>un</strong> tiro de tus cartas,
-      la pila repondrá lo que descartas.`
-    ],
-    en: [
-      `Adds six royals and their tiles;
-      plus two rabbits with new styles.`,
-      `Three are the capitalists;
-      the other, naturalists.`,
-      `To pay for these royal cards:
-      split both suits, in any parts.`,
-      `Sail to any dock at sea,
-      by paying a manatee.`,
-      `Use either suit at the tower
-      to fulfill the flying power.`,
-      `The marked cave, merchants, and tavern
-      function on hexes that have 'em.`,
-      `The Jack hex with merchant booths,
-      trades diamonds for any suits.`,
-      `The other grants <strong>a</strong> discard;
-      have the pile restores these cards.`,
-    ]
+    es: `Las piezas y monarcas <i>vinculantes</i>;
+    y dos de los conejos visitantes.`,
+    en: `Adds six royals and their tiles;
+    plus two rabbits with new styles.`,
   })),
+  secrion: {
+    h4: Copy.text({
+      es: "Hexágonos duales",
+      en: "Allied hexes",
+    }),
+    p: versify(Copy.text({
+      es: [
+        `Un trío es de la unión capitalista;
+      y el otro, de misión naturalista.
+      Los palos de sus cartas que visitas,
+      se deben combinar al adquirirlas.`,
+        `Navega a los hexágonos con muelle, 
+      pagando a manatíes que te lleven.`,
+        `Cualquiera de los palos de las torres
+      se aceptan al volar en sus transportes.`,
+        `La cueva, comerciantes y taberna
+      funcionan en las casas que las tengan.`,
+        `La Jota que contiene comerciantes,
+      te vende lo que quieras por diamantes.`,
+        `Y en la otra, tras <strong>un</strong> tiro de tus cartas,
+      la pila repondrá las que descartas.`
+      ],
+      en: [
+        `Three are the capitalists;
+      the other, naturalists.`,
+        `To pay for these royal cards:
+      split both suits, in any parts.`,
+        `Sail to any dock at sea,
+      by paying a manatee.`,
+        `Use either suit at the tower
+      to fulfill the flying power.`,
+        `The marked cave, merchants, and tavern
+      function on hexes that have 'em.`,
+        `The Jack hex with merchant booths,
+      trades diamonds for any suits.`,
+        `The other grants <strong>a</strong> discard;
+      have the pile restores these cards.`,
+      ]
+    })),
+  },
 }, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#238b222a",

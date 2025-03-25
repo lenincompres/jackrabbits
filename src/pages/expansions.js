@@ -41,8 +41,8 @@ const expansionPage = {
   section_: nauticalSections,
   header_2: {
     h2: Copy.text({
-      en: "Classic expansions",
-      es: "Expansiones clásicas",
+      en: "Neoclassic expansions",
+      es: "Expansiones neoclásicas",
     }),
     p: versify(Copy.text({
       en: `Read the first line on these guides

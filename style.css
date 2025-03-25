@@ -223,12 +223,16 @@ sup {
   text-shadow: 1px 1px 0 black;
 }
 
+i {
+  font-style: normal;
+}
+
 i::after {
   content: "”";
 }
 
 html[lang="es"] i::before {
-  content: "«";f
+  content: "«";
 }
 
 html[lang="es"] i::after {
