@@ -12,7 +12,7 @@ const expansionPage = {
     }),
     p: versify(Copy.text({
       en: `Each suit comes with cards and tiles;
-        plus a rabbit with new style.
+        plus a rabbit with new styles.
         Their hexes have sea-blue sides;
         keep these open to the tides.`,
       es: `Un palo adicional es equipado
@@ -29,7 +29,7 @@ const expansionPage = {
     }),
     p: versify(Copy.text({
       en: `Each suit comes with cards and tiles;
-        plus a rabbit with new style.
+        plus a rabbit with new styles.
         Their hexes have sea-blue sides;
         keep these open to the tides.`,
       es: `Un palo adicional es equipado

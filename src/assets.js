@@ -121,6 +121,66 @@ const ASSETS = {
     src: "./images/diamonds.png",
     alt: "diamonds pip",
   },
+  torches: {
+    tag: "img",
+    src: "./images/torches.png",
+    alt: "torches pip",
+  },
+  shields: {
+    tag: "img",
+    src: "./images/shields.png",
+    alt: "shields pip",
+  },
+  horseshoes: {
+    tag: "img",
+    src: "./images/horseshoes.png",
+    alt: "horseshoes pip",
+  },
+  acorns: {
+    tag: "img",
+    src: "./images/acorns.png",
+    alt: "acorns pip",
+  },
+  shells: {
+    tag: "img",
+    src: "./images/shells.png",
+    alt: "shells pip",
+  },
+  anchors: {
+    tag: "img",
+    src: "./images/anchors.png",
+    alt: "anchors pip",
+  },
+  bells: {
+    tag: "img",
+    src: "./images/bells.png",
+    alt: "bells pip",
+  },
+  torches: {
+    tag: "img",
+    src: "./images/torches.png",
+    alt: "torches pip",
+  },
+  icicles: {
+    tag: "img",
+    src: "./images/icicles.png",
+    alt: "icicles pip",
+  },
+  fleurs: {
+    tag: "img",
+    src: "./images/fleurs.png",
+    alt: "fleurs pip",
+  },
+  allies: {
+    tag: "img",
+    src: "./images/allies.png",
+    alt: "allies pip",
+  },
+  cavaliers: {
+    tag: "img",
+    src: "./images/cavaliers.png",
+    alt: "cavaliers pip",
+  },
   advancedCitadel: {
     tag: "img",
     src: "./images/advancedCitadel.png",

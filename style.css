@@ -228,7 +228,7 @@ i::after {
 }
 
 html[lang="es"] i::before {
-  content: "«";
+  content: "«";f
 }
 
 html[lang="es"] i::after {
@@ -360,6 +360,10 @@ nav.main>ul>li>a {
   border-bottom: solid 0.5rem transparent;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+
+nav.main>ul>li:last-child {
+  display: none;
 }
 
 

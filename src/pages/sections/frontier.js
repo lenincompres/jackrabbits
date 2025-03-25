@@ -22,7 +22,7 @@ const frontierSections = [{
       igual terminarás en el destierro.
       Pues todos los conejos del lugar
       terminan desterrados por el fuego.`,
-      en: `You may attack and defend,
+      en: `You may attack (and defend)
       with torches instead of swords.
       But if you steal in the end,
       you will also go off-board.
@@ -42,20 +42,20 @@ const frontierSections = [{
         Si pagas al salirte del tablero,
         o incluso de visita en los hexágonos,
         a todos los conejos en destierro
-        los llevas al subsuelo, rescatándolos.`,
-      en: `Complement the underground 
+        los llevas al subsuelo congregándolos.`,
+      en: `Suplement the underground 
         with its triangle with fire. 
         To exit in the same round, 
         pay there what the dice require. 
         If you pay while off-board bound, 
         or wherever you desire, 
-        bring all off-board rabbits down,
+        bring all off-board rabbits down
         to the underground's campfire.`,
     })),
   }],
 }, {
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#436b5933",
+  backgroundColor: "#436b9533",
   h3: Copy.text({
     es: "Escudos",
     en: "Shields",
@@ -73,10 +73,10 @@ const frontierSections = [{
       o aquel de la nobleza que pusieras.
       Un máximo de diez es lo oportuno; 
       si no hacen invasión los recuperas.
-      Podrías descartarlos con los suyos
+      Podría descartarlos con los suyos
       quienquiera que te invada y los supera.`,
       en: `Display your shields (ten or less) 
-      to seal the hex where you stand.
+      to seal the hex where you stand;
       Or, to seal a royal’s hex,
       include the card from that land. 
       If any incoming guest 
@@ -90,7 +90,7 @@ const frontierSections = [{
       en: "Transfer the guards",
     }),
     p: versify(Copy.text({
-      es: `Los guardias se colocan en «veredas»,
+      es: `Los guardias se colocan en «veredas»
         al centro de cualquiera de los triángulos,
         bloqueando los caminos de las piezas
         a menos de que pagues su traslado.
@@ -106,7 +106,7 @@ const frontierSections = [{
   }]
 }, {
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#89420a33",
+  backgroundColor: "#bd6c3d33",
   h3: Copy.text({
     es: "Herraduras",
     en: "Horseshoes",
@@ -118,7 +118,7 @@ const frontierSections = [{
       en: "Trade underground",
     }),
     p: versify(Copy.text({
-      es: `La pieza con el tríangulo y a oscuras,
+      es: `Su plaza triangular (la que es oscura),
       conéctala al subsuelo en un costado.
       Permíte canjear tus herraduras
       brindándole al subsuelo su mercado,
@@ -145,9 +145,9 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, sin cruzarlo,
       recuerda que te llevan o te buscan.`,
-      en: `Pay to ride the hexes' horse,
-      on islands where they are found;
-      they will gallop from their source
+      en: `Pay to ride a hex's horse,
+      on islands where these are found.
+      They will gallop from their source
       if they can reach you by ground,
       and will take you on your course,
       even to the underground—
@@ -157,7 +157,7 @@ const frontierSections = [{
   }]
 }, {
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#6e6e2433",
+  backgroundColor: "#6e6e3033",
   h3: Copy.text({
     es: "Bellotas",
     en: "Acorns",
@@ -194,14 +194,14 @@ const frontierSections = [{
       a menos de que pagues su transporte.
       Si pagas dondequiera con bellotas,
       elígele la zona en la que ronde.
-      Destiérrate o traspasa sin demora,
+      Destiérrate o traspasa sin demora
       si estás en el lugar que la coloques.`,
       en: `The beast is placed in its zones,
       on rivers, mountains, or woods.
       It sends off-board those who come,
       unless they pay as they should.
       Pay from wherever you roam
-      and choose where it should be moved.
+      to choose where it should be moved.
       Go off-board or cross along
       if you summon it to you.`,
     })),

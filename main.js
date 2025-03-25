@@ -18,7 +18,7 @@ Pager.add({
   intro: introPage,
   full: fullPage,
   more: morePage,
-  //expansion: expansionPage,
+  expansion: expansionPage,
 });
 
 const cardNum = Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);
