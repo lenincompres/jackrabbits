@@ -81,7 +81,7 @@ LightBox.add(new Pager({
     img: ASSETS.sample,
   },
   endings: {
-    content: homePage.section[3],
+    content: homePage.article.section[3],
   },
   board: boardSection,
   price: priceSection,

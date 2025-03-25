@@ -4,71 +4,17 @@ import versify from "../../aux/versify.js";
 
 const classicSections = [{
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#0169942a",
-  h3: Copy.text({
-    es: "Nobles duales",
-    en: "Noble Allies",
-  }),
-  img: ASSETS.allies,
-  p: versify(Copy.text({
-    es: `Las piezas y monarcas <i>vinculantes</i>;
-    y dos de los conejos visitantes.`,
-    en: `Adds six royals and their tiles;
-    plus two rabbits with new styles.`,
-  })),
-  secrion: {
-    h4: Copy.text({
-      es: "Hexágonos duales",
-      en: "Allied hexes",
-    }),
-    p: versify(Copy.text({
-      es: [
-        `Un trío es de la unión capitalista;
-      y el otro, de misión naturalista.
-      Los palos de sus cartas que visitas,
-      se deben combinar al adquirirlas.`,
-        `Navega a los hexágonos con muelle, 
-      pagando a manatíes que te lleven.`,
-        `Cualquiera de los palos de las torres
-      se aceptan al volar en sus transportes.`,
-        `La cueva, comerciantes y taberna
-      funcionan en las casas que las tengan.`,
-        `La Jota que contiene comerciantes,
-      te vende lo que quieras por diamantes.`,
-        `Y en la otra, tras <strong>un</strong> tiro de tus cartas,
-      la pila repondrá las que descartas.`
-      ],
-      en: [
-        `Three are the capitalists;
-      the other, naturalists.`,
-        `To pay for these royal cards:
-      split both suits, in any parts.`,
-        `Sail to any dock at sea,
-      by paying a manatee.`,
-        `Use either suit at the tower
-      to fulfill the flying power.`,
-        `The marked cave, merchants, and tavern
-      function on hexes that have 'em.`,
-        `The Jack hex with merchant booths,
-      trades diamonds for any suits.`,
-        `The other grants <strong>a</strong> discard;
-      have the pile restores these cards.`,
-      ]
-    })),
-  },
-}, {
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "#238b222a",
   h3: Copy.text({
     es: "Trenes y Corceles",
-    en: "Trains & Cavaliers",
+    en: "Trains & Cavalry",
   }),
   img: ASSETS.cavaliers,
   p: versify(Copy.text({
     es: `Las cuatro residencias de corceles,
     que están comunicadas por los rieles.`,
-    en: `Adds four royals and their tiles;
-    they have tracks that go for miles.`,
+    en: `Adds four royals and their tiles.
+    They host steeds and tracks for miles.`,
   })),
   section: [{
     h4: Copy.text({
@@ -79,11 +25,15 @@ const classicSections = [{
       es: `Es gratis desplazarte con los trenes,
       mas viajas sin opciones de traslado;
       y el paso por las cuevas en sus rieles
-      te saca del subsuelo de inmediato.`,
+      te saca del subsuelo de inmediato.
+      Procura que sus piezas se connecten,
+      que no halles un carril desconectado.`,
       en: `You ride the trains without cost;
-      there will be no transfers found;
-      reach another hex train post—
-      don't even stop underground.`,
+      and no transfers are allowed.
+      Reach another hex train post—
+      don't even stop underground.
+      Tracks shouldn't end on the coast—
+      close links as you set them down.`,
     })),
   }, {
     h4: Copy.text({
@@ -110,12 +60,70 @@ const classicSections = [{
       tal como las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la ciudadela.`,
-      en: `Cavaliers get acquired,
+      en: `The royal cards get acquired,
       just like any royal claim.
-      To ride the steeds, they're required,
+      To ride the steeds, they're required;
       but they may not end the game.`,
     })),
   }],
+}, {
+  boxShadow: "1px 1px 3px black",
+  backgroundColor: "#0169942a",
+  h3: Copy.text({
+    es: "Nobles duales",
+    en: "Noble Allies",
+  }),
+  img: ASSETS.allies,
+  p: versify(Copy.text({
+    es: `Las piezas y monarcas <i>vinculantes</i>;
+    y dos de los conejos visitantes.`,
+    en: `Adds six royals and their tiles;
+    plus two rabbits with new styles.`,
+  })),
+  section: {
+    h4: Copy.text({
+      es: "Hexágonos duales",
+      en: "Allied hexes",
+    }),
+    p: versify(Copy.text({
+      es: [
+        `Un trío es de la unión capitalista;
+        y el otro, de misión naturalista.
+        Los palos de sus cartas que visitas,
+        se deben combinar al adquirirlas.`,
+        `Los bordes en azul de sus hexágonos, 
+        se deben mantener desconectados.`,
+        `Navega a los hexágonos con muelle, 
+      pagando a manatíes que te lleven.`,
+        `Cualquiera de los palos de las torres
+      se aceptan al volar en sus transportes.`,
+        `La cueva, comerciantes y taberna
+      funcionan en las casas que las tengan.`,
+        `La Jota que contiene comerciantes,
+      te vende lo que quieras por diamantes.`,
+        `Y en la otra, tras <strong>un</strong> tiro de tus cartas,
+      la pila repondrá las que descartas.`
+      ],
+      en: [
+        `Their hexes have sea-blue sides— 
+        keep these open to the tides.`,
+        `There are three capitalists;
+      and three more, naturalists.`,
+        `To pay for these royal cards:
+      split both suits, in any parts.`,
+        `Sail to any dock at sea,
+      by paying a manatee.`,
+        `Use either suit at the tower
+      to fulfill the flying power.`,
+        `There's a cave, merchants, and tavern;
+      which work on hexes that have 'em.`,
+        `The Jack hex with merchant booths,
+      trades diamonds for any suits.`,
+        `The other grants <strong>a</strong> discard—
+      have the pile restore these cards.`,
+      ]
+    })),
+  },
 }, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#9B49772a",
@@ -138,11 +146,11 @@ const classicSections = [{
     p: versify(Copy.text({
       es: `Las flores se usarán en los traslados,
       y nunca al adquirir a la nobleza;
-      pues cuentan por cualquiera de los palos,
+      Suplantan a los cuatro <strong>palos clásicos</strong>,
       excepto en el poder de su estrategia.`,
-      en: `Fleurs are any suit's replacement—
-      except in the suit-based powers.
-      Use them as a transfer's payment;
+      en: `Fleurs are <strong>classic suits</strong>' replacements,
+      except in their unique powers.
+      You'll use them as transfer payments—
       don't claim royals with these flowers.`,
     })),
   }, {
@@ -167,9 +175,9 @@ const classicSections = [{
     }),
     p: versify(Copy.text({
       es: `Sus cuevas te conducen al subsuelo,
-      sin trámite de pago por traslados.
-      El lobo es obediente a tu señuelo,
-      pagando en el cubil por trasladarlo.
+      sin trámite de pago por traslado.
+      El lobo es obediente a tu señuelo;
+      se paga en el cubil por trasladarlo.
       Y en cuanto a los caminos paralelos,
       se paga por el paso en sus atajos.`,
       en: `Any off-road crossing found

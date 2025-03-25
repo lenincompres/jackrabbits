@@ -27,6 +27,7 @@ DOM.set({
   title: "Lenino's Jack Rabbits - " + Copy.at.header,
   description: "Lenino's Jack Rabbits: The board game for playing cards on a land of wooden shards.",
   keywords: "lenino, jack rabbits, board game, boardgame, alice in wonderlan, card game, playing cards",
+  author: "Lenin Compres",
   image: {
     src: ASSETS.jackRabbits.src,
     alt: "Jack Rabbits' logo",

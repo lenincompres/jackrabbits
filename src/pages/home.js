@@ -6,17 +6,19 @@ import overviewSection from "./sections/overview.js";
 import splashSection from "./sections/splash.js";
 
 const homePage = {
-  section: [
-    splashSection,
-    greetingsSection,
-    overviewSection,
-    endingSection
-  ],
-  footer: {
-    p: versify(Copy.text({
-      es: `<a href="#setup"><b>Inicio</b> del juego</a></br>(Hasta cuatro participantes)`,
-      en: `<a href="#setup"><b>Setup</b></a></br>(Up to four players)`,
-    })),
+  article: {
+    section: [
+      splashSection,
+      greetingsSection,
+      overviewSection,
+      endingSection
+    ],
+    footer: {
+      p: versify(Copy.text({
+        es: `<a href="#setup"><b>Inicio</b> del juego</a></br>(Hasta cuatro participantes)`,
+        en: `<a href="#setup"><b>Setup</b></a></br>(Up to four players)`,
+      })),
+    },
   },
 };
 

@@ -4,30 +4,32 @@ import transferSections from "./sections/transfers.js";
 import turnSections from "./sections/turns.js";
 
 const introPage = {
-  header: {
-    h2: versify(Copy.text({
-      es: "Las 4 FASES de cada turno",
-      en: "The 4 PHASES of each turn",
-    })),
-    p: versify(Copy.text({
-      es: `Comprende el material preliminar
-        al <a href="#full"><b>juego completivo</b></a> regular.`,
-      en: `Learn each phase's role and name, 
-        then advance to a <a href="#full"><b>full game</b></a>.`,
-    })),
-  },
-  section: turnSections,
-  header_ : {
-    tag: "header",
-    a: {
-      name: "intro/tranfers",
+  article: [{
+    header: {
+      h2: versify(Copy.text({
+        es: "Las 4 FASES de cada turno",
+        en: "The 4 PHASES of each turn",
+      })),
+      p: versify(Copy.text({
+        es: `Comprende el material preliminar
+          al <a href="#full"><b>juego completivo</b></a> regular.`,
+        en: `Learn each phase's role and name, 
+          then advance to a <a href="#full"><b>full game</b></a>.`,
+      })),
     },
-    h3: Copy.text({
-      es: "Los traslados",
-      en: "The Transfers",
-    }),
-  },
-  section_: transferSections,
+    section: turnSections,
+  }, {
+    header: {
+      a: {
+        name: "intro/tranfers",
+      },
+      h3: Copy.text({
+        es: "Los traslados",
+        en: "The Transfers",
+      }),
+    },
+    section: transferSections,
+  }],
   footer: {
     p: versify(Copy.text({
       es: `El <a href="#full"><b>juego completivo</b></a> es desafiante,

@@ -39,11 +39,11 @@ body {
     max-width: 45rem;
   }
 
-  article.main>section {
+  article.main>article>section {
     width: 37.2rem !important;
   }
 
-  html[lang="es"] article.main>section {
+  html[lang="es"] article.main>article>section {
     width: 40rem !important;
   }
 }
@@ -54,7 +54,7 @@ body {
     max-width: 30rem;
   }
 
-  article.main>section {
+  article.main>article>section {
     width: 20rem !important;
   }
 
@@ -208,10 +208,6 @@ b {
   text-transform: uppercase;
 }
 
-i::before {
-  content: "“";
-}
-
 sup {
   color: red;
   font-weight: bold;
@@ -223,12 +219,21 @@ sup {
   text-shadow: 1px 1px 0 black;
 }
 
+i::before {
+  content: "“";
+}
+
 i {
   font-style: normal;
 }
 
 i::after {
   content: "”";
+}
+
+img[src=""],
+img:not([src]){
+  display: none;
 }
 
 html[lang="es"] i::before {
@@ -291,7 +296,7 @@ article.main img {
   margin: 0 auto;
 }
 
-article.main>section img {
+article.main>article>section img {
   margin: 0 auto 0.5rem;
   width: auto;
 }
@@ -303,7 +308,7 @@ article.main>section img {
   box-shadow: 1px 1px 3px black;
 }
 
-article.main>section.letter {
+article.main>article>section.letter {
   padding: 1rem 1.5rem;
   max-width: fit-content;
   background-color: rgba(255, 255, 255, 0.5);
@@ -398,17 +403,21 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-article.main {
+article.main,
+article.main>article {
   padding: 0.5rem 0 1.5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   height: fit-content;
+  width: 100%;
 }
 
-article.main>header,
+article.main>article>header,
 article.main .heading,
+article.main>article>footer,
+article.main>header,
 article.main>footer {
   width: 100%;
   padding: 1rem;
@@ -421,7 +430,7 @@ article.main>footer {
   -o-border-radius: 0.5rem;
 }
 
-article.main>header>main {
+article.main>article>header>main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -429,11 +438,11 @@ article.main>header>main {
   margin-bottom: 1rem;
 }
 
-article.main>header>main>* {
+article.main>article>header>main>* {
   margin: 0 0.2rem;
 }
 
-article.main>section {
+article.main>article>section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -448,7 +457,7 @@ article.main>section {
   -o-border-radius: 0.5rem;
 }
 
-article.main>section>section {
+article.main>article>section>section {
   margin: 0.3rem 0;
 }
 

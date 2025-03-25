@@ -12,8 +12,8 @@ const nauticalSections = [{
   img: ASSETS.shells,
   section: [{
     h4: Copy.text({
-      es: "Echar cartas a la fuente",
-      en: "Toss cards at the well",
+      es: "Echar cartas al mar",
+      en: "Toss cards at sea",
     }),
     p: versify(Copy.text({
       es: `Su triángulo de negro con la costa
@@ -91,7 +91,7 @@ const nauticalSections = [{
       Si pagas a la orilla del tablero,
       te mueves al que quieras de sus muelles:
       el barco pasará por tu conejo,
-      y a un puerto de las anclas lo transfieres.
+      y a un puerto de las anclas los transfieres.
       Su torre con mercado heterogéneo
       comercia con los palos que prefieres.`,
       en: `If you board the sailboat’s deck,
@@ -99,7 +99,7 @@ const nauticalSections = [{
       But pay at a sea-bound trek
       to summon it by the sea;
       then sail to an anchor hex—
-      choose only one of these three.
+      you must choose one of these three.
       Check the anchor tower’s specs:
       it trades the suits you decree.`,
     })),
@@ -140,7 +140,7 @@ const nauticalSections = [{
       es: `Si pagas dondequiera con campanas,
       trasladas a un conejo al aislamiento:
       la torre con la cueva clausurada,
-      que exige que se pague por acceso.
+      que exige que se pague por su acceso.
       Mas, nada que requiera campanadas
       es válido ni afecta en el subsuelo.
       Su cueva (que es gratuita) lo señala,
@@ -169,7 +169,7 @@ const nauticalSections = [{
       en: "Invoque the saveguard",
     }),
     p: versify(Copy.text({
-      es: `Si acabas desterándote en el mar
+      es: `Si acabas desterrándote en el mar,
       o estás por un camino a las orillas,
       y logras con tus témpanos mostrar:
       el mínimo de seis que necesitas,
@@ -177,9 +177,9 @@ const nauticalSections = [{
       la torre hexagonal con salvavidas.
       El hoyo que se encuentra en el lugar
       te deja en el subsuelo de caída.`,
-      en: `If your turn will end off-board
+      en: `If your turn will end off-board,
       or you're heading to the seas,
-      count the icicles you hoard;
+      count the icicles you hoard—
       show at least a sum of six.
       You’ll be rescued and restored
       to their icy tower's breeze.

@@ -42,7 +42,7 @@ const frontierSections = [{
         Si pagas al salirte del tablero,
         o incluso de visita en los hexágonos,
         a todos los conejos en destierro
-        los llevas al subsuelo congregándolos.`,
+        los llevas al subsuelo congregados.`,
       en: `Suplement the underground 
         with its triangle with fire. 
         To exit in the same round, 
@@ -77,10 +77,10 @@ const frontierSections = [{
       quienquiera que te invada y los supera.`,
       en: `Display your shields (ten or less) 
       to seal the hex where you stand;
-      Or, to seal a royal’s hex,
+      or, to seal a royal’s hex,
       include the card from that land. 
       If any incoming guest 
-      discards a larger shields band, 
+      discards a higher shield band, 
       your shields are discarded next,
       and won't return to your hand.`,
     })),
@@ -91,8 +91,8 @@ const frontierSections = [{
     }),
     p: versify(Copy.text({
       es: `Los guardias se colocan en «veredas»
-        al centro de cualquiera de los triángulos,
-        bloqueando los caminos de las piezas
+        al centro de cualquiera de los triángulos.
+        Bloquean los caminos de las piezas
         a menos de que pagues su traslado.
         Si pagas con escudos dondequiera
          se irán a la vereda de tu agrado.`,
@@ -150,7 +150,7 @@ const frontierSections = [{
       They will gallop from their source
       if they can reach you by ground,
       and will take you on your course,
-      even to the underground—
+      even to the underground;
       they may ride to the cave's doors,
       but will never venture down.`,
     })),
