@@ -12,14 +12,18 @@ const expansionPage = {
         es: "Expansiones fronterizas",
       }),
       p: versify(Copy.text({
-        en: `Each suit comes with cards and tiles;
-          plus a rabbit with new styles.
-          Their hexes have sea-blue sides—
-          keep these open to the tides.`,
-        es: `Un palo adicional es equipado
-          con piezas y un conejo incorporados.
-          Los bordes en azul de sus hexágonos,
+        en: [
+          `Each suit comes with cards and tiles;
+          plus a rabbit with new styles.`,
+          `Their hexes have sea-blue sides—
+          keep these open to the tides.`
+        ],
+        es: [
+          `Los palos con sus cartas de nobleza,
+          te añaden un conejo con sus piezas.`,
+          `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.`,
+        ],
       })),
     },
     section: frontierSections,
@@ -30,14 +34,18 @@ const expansionPage = {
         es: "Expansiones navales",
       }),
       p: versify(Copy.text({
-        en: `Each suit comes with cards and tiles;
-          plus a rabbit with new styles.
-          Their hexes have sea-blue sides—
-          keep these open to the tides.`,
-        es: `Un palo adicional es equipado
-          con piezas y un conejo incorporados.
-          Los bordes en azul de sus hexágonos,
+        en: [
+          `Each suit comes with cards and tiles;
+          plus a rabbit with new styles.`,
+          `Their hexes have sea-blue sides—
+          keep these open to the tides.`
+        ],
+        es: [
+          `Los palos con sus cartas de nobleza,
+          te añaden un conejo con sus piezas.`,
+          `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.`,
+        ],
       })),
     },
     section: nauticalSections,

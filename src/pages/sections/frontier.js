@@ -4,7 +4,7 @@ import versify from "../../aux/versify.js";
 
 const frontierSections = [{
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#cb410b33",
+  backgroundColor: "#b7410e33",
   h3: Copy.text({
     es: "Antorchas",
     en: "Torches",
@@ -16,9 +16,9 @@ const frontierSections = [{
       en: "Fight with fire",
     }),
     p: versify(Copy.text({
-      es: `Podrás con tus antorchas asaltar,
-      igual que con las picas en sus duelos.
-      Excepto que si robas al final,
+      es: `Podrás con tus antorchas pelear,
+      igual que con las picas en sus duelos;
+      excepto que, si robas al final,
       igual terminarás en el destierro.
       Pues todos los conejos del lugar
       terminan desterrados por el fuego.`,
@@ -35,14 +35,14 @@ const frontierSections = [{
       en: "Transfers via underground",
     }),
     p: versify(Copy.text({
-      es: `El triángulo de negro con el fuego
+      es: `El triángulo de negro (con el fuego)
         conéctalo al subsuelo por un lado.
         Si pagas al entrar en el subsuelo,
         te irás a la salida de inmediato.
         Si pagas al salirte del tablero,
         o incluso de visita en los hexágonos,
         a todos los conejos en destierro
-        los llevas al subsuelo congregados.`,
+        los llevas al subsuelo, congregándolos.`,
       en: `Suplement the underground 
         with its triangle with fire. 
         To exit in the same round, 
@@ -72,8 +72,8 @@ const frontierSections = [{
       clausuras el hexágono de turno
       o aquel de la nobleza que pusieras.
       Un máximo de diez es lo oportuno; 
-      si evitan la invasión los recuperas.
-      Pues puede descartarlos con los suyos
+      si evitan la invasión, los recuperas.
+      Podría descartarlos con los suyos
       quienquiera que te invada y los supera.`,
       en: `Display your shields (ten or less) 
       to seal the hex where you stand;
@@ -94,7 +94,7 @@ const frontierSections = [{
         al centro de cualquiera de los triángulos.
         Bloquean los caminos de las piezas
         a menos de que pagues su traslado.
-        Si pagas con escudos dondequiera
+        Si pagas con escudos dondequiera,
          se irán a la vereda de tu agrado.`,
       en: `Guards are posted on a road,
         on any triangle tile.
@@ -120,9 +120,9 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `Su plaza triangular (la que es oscura),
       conéctala al subsuelo en un costado.
-      Permíte canjear tus herraduras
-      brindándole al subsuelo su mercado,
-      que ofrece, por el cambio de tus sumas,
+      Permite canjear tus herraduras,
+      brindándole al subsuelo su mercado.
+      Te vende, por el cambio de tus sumas,
       las cartas de cualquiera de los palos.`,
       en: `Trade with horseshoes underground
       at its hidden marketplace.
@@ -138,13 +138,13 @@ const frontierSections = [{
     }),
     p: versify(Copy.text({
       es: `Si pagas por viajar con sus caballos
-      en islas con las casas de herradura,
-      saliendo de las casas de su palo
-      cabalgan por los montes y llanuras;
-      entonces, si te alcanzan cabalgando,
+      (en islas con las casas de herradura),
+      saliendo de las casas de su palo,
+      cabalgan por los montes y llanuras.
+      Entonces, si te alcanzan cabalgando,
       trasládate al lugar que se te ocurra.
-      Si eliges el subsuelo, sin cruzarlo,
-      recuerda que te llevan o te buscan.`,
+      Si eliges el subsuelo, es sin cruzarlo;
+      te llevan a sus cuevas… o te buscan.`,
       en: `Pay to ride a hex's horse,
       on islands where these are found.
       They will gallop from their source
@@ -171,9 +171,9 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `Si dejas tus bellotas en la mesa,
       se añaden a la «pila sobrecargo».
-      Su número de puntos que incrementa
-      se suma al resultado de los dados;
-      y cuando sobrepasa la decena,
+      Su número de puntos, que incrementa,
+      se suma al resultado de los dados.
+      En cuanto sobrepasa la decena,
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display,
       adds them to the “overload”.
@@ -194,7 +194,7 @@ const frontierSections = [{
       a menos de que pagues su transporte.
       Si pagas dondequiera con bellotas,
       elígele la zona en la que ronde.
-      Destiérrate o traspasa sin demora
+      Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
       en: `The beast is placed in its zones,
       on rivers, mountains, or woods.

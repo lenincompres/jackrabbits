@@ -54,7 +54,8 @@ body {
     max-width: 30rem;
   }
 
-  article.main>article>section {
+  article.main>article>section,
+  html[lang="es"] article.main>article>section {
     width: 20rem !important;
   }
 

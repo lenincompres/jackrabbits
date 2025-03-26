@@ -26,13 +26,13 @@ const classicSections = [{
       mas viajas sin opciones de traslado;
       y el paso por las cuevas en sus rieles
       te saca del subsuelo de inmediato.
-      Procura que sus piezas se connecten,
+      Procura que sus piezas se conecten,
       que no halles un carril desconectado.`,
       en: `You ride the trains without cost;
       and no transfers are allowed.
       Reach another hex train post—
       don't even stop underground.
-      Tracks shouldn't end on the coast—
+      Tracks shouldn't lead to the coast—
       close links as you set them down.`,
     })),
   }, {
@@ -53,14 +53,14 @@ const classicSections = [{
   }, {
     h4: Copy.text({
       es: "Adquisición de Corceles",
-      en: "Adquiring Cavaliers",
+      en: "Acquiring Cavaliers",
     }),
     p: versify(Copy.text({
       es: `Las cartas de corceles las adquieres,
       tal como las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la ciudadela.`,
-      en: `The royal cards get acquired,
+      en: `Their royal cards get acquired,
       just like any royal claim.
       To ride the steeds, they're required;
       but they may not end the game.`,
@@ -75,55 +75,73 @@ const classicSections = [{
   }),
   img: ASSETS.allies,
   p: versify(Copy.text({
-    es: `Las piezas y monarcas <i>vinculantes</i>;
-    y dos de los conejos visitantes.`,
-    en: `Adds six royals and their tiles;
-    plus two rabbits with new styles.`,
+    es: [ 
+      `Los seis ayuntamientos y sus nobles;
+      y dos de los conejos jugadores.`,
+      //`Monarcas de los seis ayuntamientos;
+      //y dos de los conejos mensajeros.`,
+      //`Las piezas con sus seis representantes;
+      //y dos de los conejos visitantes.`,
+      `Los bordes en azul de sus hexágonos,
+      se deben mantener desconectados.`,
+    ],
+    en: [
+      `Adds six royals and their tiles;
+      plus two rabbits with new styles.`,
+      `Their hexes have sea-blue sides— 
+      keep these open to the tides.`,
+    ],
   })),
-  section: {
+  section: [{
     h4: Copy.text({
-      es: "Hexágonos duales",
-      en: "Allied hexes",
+      es: "Nobles",
+      en: "Nobles",
     }),
     p: versify(Copy.text({
-      es: [
-        `Un trío es de la unión capitalista;
-        y el otro, de misión naturalista.
-        Los palos de sus cartas que visitas,
-        se deben combinar al adquirirlas.`,
-        `Los bordes en azul de sus hexágonos, 
-        se deben mantener desconectados.`,
-        `Navega a los hexágonos con muelle, 
-      pagando a manatíes que te lleven.`,
-        `Cualquiera de los palos de las torres
-      se aceptan al volar en sus transportes.`,
-        `La cueva, comerciantes y taberna
-      funcionan en las casas que las tengan.`,
-        `La Jota que contiene comerciantes,
-      te vende lo que quieras por diamantes.`,
-        `Y en la otra, tras <strong>un</strong> tiro de tus cartas,
-      la pila repondrá las que descartas.`
-      ],
-      en: [
-        `Their hexes have sea-blue sides— 
-        keep these open to the tides.`,
-        `There are three capitalists;
-      and three more, naturalists.`,
-        `To pay for these royal cards:
-      split both suits, in any parts.`,
-        `Sail to any dock at sea,
-      by paying a manatee.`,
-        `Use either suit at the tower
-      to fulfill the flying power.`,
-        `There's a cave, merchants, and tavern;
-      which work on hexes that have 'em.`,
-        `The Jack hex with merchant booths,
-      trades diamonds for any suits.`,
-        `The other grants <strong>a</strong> discard—
-      have the pile restore these cards.`,
-      ]
+      es: `Los palos de las cartas que visitas,
+      se deben combinar al adquirirlas.
+      Un trío es de la unión capitalista;
+      y el otro, de misión naturalista.`,
+      en: `There are three Capitalist
+      and three Naturalist cards.
+      You must pay the cost they list
+      with both suits (in any parts).`,
     })),
-  },
+  }, {
+    h4: Copy.text({
+      es: "Viajes",
+      en: "Travels",
+    }),
+    p: versify(Copy.text({
+      es: `Navega en las canoas naturales, 
+      pagando por el precio de los dados.
+      La cueva, la taberna y comerciantes,
+      también te proporcionan sus traslados.
+      El vuelo de la torre, si hay restante,
+      se paga con cualquiera de sus palos.`,
+      en: `You may travel on the waves
+      by paying at a canoe.
+      The merchants, tavern, and cave
+      will sell you their transfers too.
+      A tower's flight may be saved
+      by paying with either suit.`,
+    })),
+  }, {
+    h4: Copy.text({
+      es: "Comercio",
+      en: "Trades",
+    }),
+    p: versify(Copy.text({
+      es: `La Jota de la unión capitalista,
+      te vende lo que quieras por diamantes.
+      Y en la otra te reponen (de la pila)
+      <strong>un</strong> tiro de tus cartas que descartes.`,
+      en: `Trade diamonds for any cards
+      at the Jack with merchant booths.
+      The other grants <strong>one</strong> discard—
+      draw as many as you lose.`,
+    })),
+  }],
 }, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#9B49772a",
@@ -150,7 +168,7 @@ const classicSections = [{
       excepto en el poder de su estrategia.`,
       en: `Fleurs are <strong>classic suits</strong>' replacements,
       except in their unique powers.
-      You'll use them as transfer payments—
+      You use them as transfer payments—
       don't claim royals with these flowers.`,
     })),
   }, {
@@ -182,7 +200,7 @@ const classicSections = [{
       se paga por el paso en sus atajos.`,
       en: `Any off-road crossing found
       must be payed before you pass it. 
-      The caves take you underground;
+      The caves take you underground—
       there's no tranfer to bypass it.
       Pay at their dens when around,
       to send the wolf where you cast it.`,

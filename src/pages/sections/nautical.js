@@ -16,8 +16,8 @@ const nauticalSections = [{
       en: "Toss cards at sea",
     }),
     p: versify(Copy.text({
-      es: `Su triángulo de negro con la costa
-      se pone en el subsuelo en las orillas.
+      es: `Su triángulo de negro (el de la costa),
+      se pone en el subsuelo, en las orillas.
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
       También es la fontana de las conchas:
@@ -41,8 +41,8 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
         si pagas con tus conchas en el mar,
-        trasládate a su torre en el momento: 
-        su islote que se encuentra en altamar.
+        trasládate a su torre en el momento
+        (su islote que se encuentra en altamar).
         La góndola gratuita de su puerto
         te brinda la salida del lugar.`,
       en: `Do not end your turn off-board
@@ -55,7 +55,7 @@ const nauticalSections = [{
   }]
 }, {
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#672C6E2a",
+  backgroundColor: "#7026702a",
   h3: Copy.text({
     es: "Anclas",
     en: "Anchor",
@@ -67,7 +67,7 @@ const nauticalSections = [{
       en: "Weigh the Nobles Down",
     }),
     p: versify(Copy.text({
-      es: `Es válido con <strong>una</strong> de tus anclas
+      es: `Es válido, con <strong>una</strong> de tus anclas,
       usarla al visitar a la nobleza.
       Poniéndola debajo de su carta,
       la sumas al valor con que se adquiera.
@@ -89,10 +89,10 @@ const nauticalSections = [{
       es: `Si abordas por la vía del velero,
       navégalo sin costo y libremente.
       Si pagas a la orilla del tablero,
-      te mueves al que quieras de sus muelles:
+      te mueves al que quieras de sus muelles;
       el barco pasará por tu conejo,
       y a un puerto de las anclas los transfieres.
-      Su torre con mercado heterogéneo
+      Su torre es un mercado heterogéneo;
       comercia con los palos que prefieres.`,
       en: `If you board the sailboat’s deck,
       sail it anywhere for free.
@@ -118,13 +118,13 @@ const nauticalSections = [{
       en: "Implore the Rabbits",
     }),
     p: versify(Copy.text({
-      es: `Si imploras en un duelo de campanas,
-      harás que los que estén con tu conejo:
-      te entreguen la que elijan de sus cartas,
+      es: `Tu ruego (con un duelo de campanas)
+      afecta a los que estén con tu conejo.
+      Te entregan la que elijan de sus cartas,
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
-      que sumen sus campanas en un duelo.`,
-      en: `If you start a fight with bells,
+      que sumen sus campanas en el duelo.`,
+      en: `If you start a duel with bells,
       no one will end up off-board.
       All the rabbits where you dwell
       must gift you a card they hoard;
@@ -141,10 +141,10 @@ const nauticalSections = [{
       trasladas a un conejo al aislamiento:
       la torre con la cueva clausurada,
       que exige que se pague por su acceso.
-      Mas, nada que requiera campanadas
+      Ninguno de los usos de sus cartas
       es válido ni afecta en el subsuelo.
-      Su cueva (que es gratuita) lo señala,
-      y accede al aislamiento sin proceso.`,
+      Su cueva (que es gratuita) te lo aclara;
+      te lleva al aislamiento sin proceso.`,
       en: `Pay with bells where you may be,
       to send anyone exiled.
       The cave there charges a fee 
@@ -171,9 +171,9 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `Si acabas desterrándote en el mar,
       o estás por un camino a las orillas,
-      y logras con tus témpanos mostrar:
-      el mínimo de seis que necesitas,
-      te puedes trasladar a su glaciar, 
+      tus témpanos te pueden rescatar
+      (un mínimo de seis se necesitan).
+      Los muestras y te vas a su glaciar:
       la torre hexagonal con salvavidas.
       El hoyo que se encuentra en el lugar
       te deja en el subsuelo de caída.`,
@@ -194,13 +194,13 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `Si pagas dondequiera con tus témpanos,
       trasladas la tormenta a los hexágonos.
-      En estos, exceptuando en el subsuelo,
-      retienes los conejos congelándolos.
+      En estos (exceptuando en el subsuelo)
+      retienes los conejos, congelándolos.
       A menos que trasladen el mal tiempo,
       se salen solamente desterrados.`,
       en: `Pay from anywhere you please,
       to choose where the storm affects.
-      The hex selected will freeze;
+      The hex selected will freeze—
       except the underground hex.
       Any visitor who flees,
       goes off-board from its effects.`,
