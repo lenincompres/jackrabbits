@@ -22,7 +22,7 @@ const nauticalSections = [{
       pues cuenta con un puerto de visitas.
       También es la fontana de las conchas:
       las cambia por el doble de la pila.
-      Por turnos, <strong>un</strong> canjeo se te otorga;
+      Por turnos, <strong>un canjeo</strong> se te otorga;
       limítate a las cartas que recibas.`,
       en: `Its triangle underground
       is placed where the seas begin.
@@ -63,8 +63,8 @@ const nauticalSections = [{
   img: ASSETS.anchors,
   section: [{
     h4: Copy.text({
-      es: "Anclar a la Nobleza",
-      en: "Weigh the Nobles Down",
+      es: "Lastrar a la Nobleza",
+      en: "Weigh Nobles Down",
     }),
     p: versify(Copy.text({
       es: `Es válido, con <strong>una</strong> de tus anclas,
@@ -173,7 +173,7 @@ const nauticalSections = [{
       o estás por un camino a las orillas,
       tus témpanos te pueden rescatar
       (un mínimo de seis se necesitan).
-      Los muestras y te vas a su glaciar:
+      Los <strong>muestras</strong> y te vas a su glaciar:
       la torre hexagonal con salvavidas.
       El hoyo que se encuentra en el lugar
       te deja en el subsuelo de caída.`,

@@ -12,8 +12,8 @@ const frontierSections = [{
   img: ASSETS.torches,
   section: [{
     h4: Copy.text({
-      es: "Pelear con fuego",
-      en: "Fight with fire",
+      es: "Saquear con fuego",
+      en: "Plunder with fire",
     }),
     p: versify(Copy.text({
       es: `Podrás con tus antorchas pelear,
@@ -43,8 +43,8 @@ const frontierSections = [{
         o incluso de visita en los hexágonos,
         a todos los conejos en destierro
         los llevas al subsuelo, congregándolos.`,
-      en: `Suplement the underground 
-        with its triangle with fire. 
+      en: `Emblazon the underground— 
+        add its triangle with fire. 
         To exit in the same round, 
         pay there what the dice require. 
         If you pay while off-board bound, 
@@ -69,37 +69,37 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `Si exhibes en la mesa tus escudos
       (sin carta o con alguna de nobleza),
-      clausuras el hexágono de turno
-      o aquel de la nobleza que pusieras.
-      Un máximo de diez es lo oportuno; 
-      si evitan la invasión, los recuperas.
+      clausuras el hexágono de turno,
+      o aquel de la nobleza que exhibieras.
       Podría descartarlos con los suyos
-      quienquiera que te invada y los supera.`,
+      quienquiera que te invada y los supera.
+      Un máximo de diez es tu recurso. 
+      Si evitan la invasión, los recuperas.
+      Prohibido en el subsuelo en absoluto.
+      La carta de tu noble te la quedas.`,
       en: `Display your shields (ten or less) 
-      to seal the hex where you stand;
-      or, to seal a royal’s hex,
+      to seal the hex where you stand.
+      Or, to seal a royal’s hex,
       include the card from that land. 
       If any incoming guest 
-      discards a higher shield band, 
+      discards more shields than your band, 
       your shields are discarded next,
-      and won't return to your hand.`,
+      and won't return to your hand.
+      Keep the royal you addressed.
+      Sealing the underground's banned.`,
     })),
   }, {
     h4: Copy.text({
-      es: "Traslado de los Guardias",
+      es: "Traslado de la Guardia",
       en: "Transfer the guards",
     }),
     p: versify(Copy.text({
-      es: `Los guardias se colocan en «veredas»
-        al centro de cualquiera de los triángulos.
-        Bloquean los caminos de las piezas
-        a menos de que pagues su traslado.
+      es: `La guardia obstaculiza las <i>veredas</i>:
+        bloquea los caminos <strong>en los triángulos</strong>.
         Si pagas con escudos dondequiera,
-         se irán a la vereda de tu agrado.`,
-      en: `Guards are posted on a road,
-        on any triangle tile.
-        Unless they're moved in accord,
-        no one will cross their turnstile.
+        se irán a la vereda de tu agrado.`,
+      en: `Guards totally block the road,
+        and stand on triangle tiles.
         Pay anywhere on the board
         to choose their new post meanwhile.`,
     })),
@@ -114,8 +114,8 @@ const frontierSections = [{
   img: ASSETS.horseshoes,
   section:[{
     h4: Copy.text({
-      es: "Comerciar en el subsuelo",
-      en: "Trade underground",
+      es: "Trapichear en el subsuelo",
+      en: "Hustle underground",
     }),
     p: versify(Copy.text({
       es: `Su plaza triangular (la que es oscura),
@@ -125,10 +125,10 @@ const frontierSections = [{
       Te vende, por el cambio de tus sumas,
       las cartas de cualquiera de los palos.`,
       en: `Trade with horseshoes underground
-      at its hidden marketplace.
+      at its shady marketplace.
       This triangle dark and brown
       marks the expansion of the space.
-      Down here all the suits are found—
+      At this store, all suits are found—
       horseshoes taken in their place.`,
     })),
   }, {
@@ -150,7 +150,7 @@ const frontierSections = [{
       They will gallop from their source
       if they can reach you by ground,
       and will take you on your course,
-      even to the underground;
+      even to the underground—
       they may ride to the cave's doors,
       but will never venture down.`,
     })),
@@ -170,7 +170,7 @@ const frontierSections = [{
     }),
     p: versify(Copy.text({
       es: `Si dejas tus bellotas en la mesa,
-      se añaden a la «pila sobrecargo».
+      se añaden a la <i>pila sobrecargo</i>.
       Su número de puntos, que incrementa,
       se suma al resultado de los dados.
       En cuanto sobrepasa la decena,
@@ -188,7 +188,7 @@ const frontierSections = [{
       en: "Transfer the Beast",
     }),
     p: versify(Copy.text({
-      es: `La bestia se coloca por sus zonas:
+      es: `La bestia se coloca por sus <i>zonas</i>:
       los ríos, las montañas o los bosques.
       En estas te destierra si te asomas,
       a menos de que pagues su transporte.
@@ -201,7 +201,7 @@ const frontierSections = [{
       It sends off-board those who come,
       unless they pay as they should.
       Pay from wherever you roam
-      to choose where it should be moved.
+      to choose where to move it to.
       Go off-board or cross along
       if you summon it to you.`,
     })),

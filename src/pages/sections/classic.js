@@ -13,8 +13,8 @@ const classicSections = [{
   p: versify(Copy.text({
     es: `Las cuatro residencias de corceles,
     que están comunicadas por los rieles.`,
-    en: `Adds four royals and their tiles.
-    They host steeds and tracks for miles.`,
+    en: `Adds four royals and their tiles;
+    dashing steeds and tracks for miles.`,
   })),
   section: [{
     h4: Copy.text({
@@ -46,7 +46,7 @@ const classicSections = [{
       trasládate de gratis cabalgando,
       tal como de los cruces del camino.`,
       en: `On paths marked with a steed,
-      present a Cavalier's card,
+      just show a Cavalier's card,
       and you'll ride it as you need,
       without needing to discard.`,
     })),
@@ -63,7 +63,7 @@ const classicSections = [{
       en: `Their royal cards get acquired,
       just like any royal claim.
       To ride the steeds, they're required;
-      but they may not end the game.`,
+      but they will not end the game.`,
     })),
   }],
 }, {
@@ -105,7 +105,7 @@ const classicSections = [{
       en: `There are three Capitalist
       and three Naturalist cards.
       You must pay the cost they list
-      with both suits (in any parts).`,
+      with both suits—in any parts.`,
     })),
   }, {
     h4: Copy.text({
@@ -122,9 +122,9 @@ const classicSections = [{
       en: `You may travel on the waves
       by paying at a canoe.
       The merchants, tavern, and cave
-      will sell you their transfers too.
-      A tower's flight may be saved
-      by paying with either suit.`,
+      are there to sell transfers too.
+      A <i>shortfall</i> flight may be saved—
+      pay with either tower’s suit.`,
     })),
   }, {
     h4: Copy.text({
@@ -147,7 +147,7 @@ const classicSections = [{
   backgroundColor: "#9B49772a",
   h3: Copy.text({
     es: "Flores",
-    en: "Fleurs",
+    en: "Fleurs <small>(Flowers)</small>",
   }),
   img: ASSETS.fleurs,
   p: versify(Copy.text({
@@ -168,7 +168,7 @@ const classicSections = [{
       excepto en el poder de su estrategia.`,
       en: `Fleurs are <strong>classic suits</strong>' replacements,
       except in their unique powers.
-      You use them as transfer payments—
+      They are used as transfer payments—
       don't claim royals with these flowers.`,
     })),
   }, {
@@ -184,7 +184,7 @@ const classicSections = [{
       en: `Pay at its post or den
       to send it to any rabbit;
       the victim goes off-board then,
-      or discards a card—you tap it.`,
+      or you'll steal a card—<strong>and scrap it</strong>.`,
     })),
   }, {
     h4: Copy.text({
