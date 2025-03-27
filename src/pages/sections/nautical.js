@@ -5,11 +5,13 @@ import versify from "../../aux/versify.js";
 const nauticalSections = [{
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#d834762a",
-  h3: Copy.text({
-    es: "Conchas",
-    en: "Shells",
-  }),
-  img: ASSETS.shells,
+  header: {
+    h3: Copy.text({
+      es: "Conchas",
+      en: "Shells",
+    }),
+    img: ASSETS.shells,
+  },
   section: [{
     h4: Copy.text({
       es: "Echar cartas al mar",
@@ -47,7 +49,7 @@ const nauticalSections = [{
         te brinda la salida del lugar.`,
       en: `Do not end your turn off-board
         if you pay with shells at sea.
-        Transfer to its islet's port,
+        You'll go to its islet's port,
         where you're rescued for that fee.
         When you're ready to move forth,
         its gondola sails for free.`,
@@ -56,11 +58,13 @@ const nauticalSections = [{
 }, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#7026702a",
-  h3: Copy.text({
-    es: "Anclas",
-    en: "Anchor",
-  }),
-  img: ASSETS.anchors,
+  header: {
+    h3: Copy.text({
+      es: "Anclas",
+      en: "Anchors",
+    }),
+    img: ASSETS.anchors,
+  },
   section: [{
     h4: Copy.text({
       es: "Lastrar a la Nobleza",
@@ -87,7 +91,7 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si abordas por la vía del velero,
-      navégalo sin costo y libremente.
+      trasládalo sin costo y libremente.
       Si pagas a la orilla del tablero,
       te mueves al que quieras de sus muelles;
       el barco pasará por tu conejo,
@@ -100,36 +104,42 @@ const nauticalSections = [{
       to summon it by the sea;
       then sail to an anchor hex—
       you must choose one of these three.
-      Check the anchor tower’s specs:
+      Check the anchor tower’s specs—
       it trades the suits you decree.`,
     })),
   }]
-},{
+}, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#b8a4272a",
-  h3: Copy.text({
-    es: "Campanas",
-    en: "Bells",
-  }),
-  img: ASSETS.bells,
+  header: {
+    h3: Copy.text({
+      es: "Campanas",
+      en: "Bells",
+    }),
+    img: ASSETS.bells,
+  },
   section: [{
     h4: Copy.text({
       es: "Implorar a los conejos",
       en: "Implore the Rabbits",
     }),
     p: versify(Copy.text({
-      es: `Tu ruego (con un duelo de campanas)
+      es: `Tu ruego (que es un duelo con campanas)
       afecta a los que estén con tu conejo.
-      Te entregan la que elijan de sus cartas,
-      sin que haya que salirse del tablero.
+      Te entregan la que elijan de sus cartas;
+      excepto, en el destierro o el subsuelo.
       Si quieren rechazar lo que demandas,
-      que sumen sus campanas en el duelo.`,
-      en: `If you start a duel with bells,
-      no one will end up off-board.
+      que sumen sus campanas en el duelo.
+      Si imploras de la torre acampanada,
+      afectas al tablero por completo.`,
+      en: `This plays like a fight with bells—
+      not underground or off-board.
       All the rabbits where you dwell
       must gift you a card they hoard;
       or add bells to duel as well—
-      if they win, your plea's ignored.`,
+      if they win, your plea's ignored.
+      Implore from their tower's cell,
+      to plea all over the board.`,
     })),
   }, {
     h4: Copy.text({
@@ -138,31 +148,33 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si pagas dondequiera con campanas,
-      trasladas a un conejo al aislamiento:
-      la torre con la cueva clausurada,
+      aíslas a un conejo que es ajeno.
+      El sitio es el de <i>cueva clausurada</i>,
       que exige que se pague por su acceso.
-      Ninguno de los usos de sus cartas
-      es válido ni afecta en el subsuelo.
-      Su cueva (que es gratuita) te lo aclara;
-      te lleva al aislamiento sin proceso.`,
-      en: `Pay with bells where you may be,
-      to send anyone exiled.
+      La otra, que es gratuita, es la de entrada;
+      te lleva del subsuelo al aislamiento.`,
+      // *Ninguna actividad con campanadas,
+      // es válida ni afecta en el subsuelo.
+      en: `Pay wherever you may be,
+      to have someone else exiled.
       The cave there charges a fee 
       to leave the lone sandy isle.
       Yet underground, it is free—
-      you won't pay to reach this tile.
-      In fact, down there, by decree,
-      bells are banned in any style.`,
+      you won't pay to reach this tile.`,
+      // *Down underground, by decree,
+      // bells are banned in any style.
     })),
   }]
-},{
+}, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#00aac42a",
-  h3: Copy.text({
-    es: "Témpanos",
-    en: "Icicles",
-  }),
-  img: ASSETS.icicles,
+  header: {
+    h3: Copy.text({
+      es: "Témpanos",
+      en: "Icicles",
+    }),
+    img: ASSETS.icicles,
+  },
   section: [{
     h4: Copy.text({
       es: "Invocar la Salvaguardia",
@@ -198,14 +210,18 @@ const nauticalSections = [{
       retienes los conejos, congelándolos.
       A menos que trasladen el mal tiempo,
       se salen solamente desterrados.`,
+      // Tan solo en el graciar con agujero,
+      // podrán ir al subsuelo y escaparlo.
       en: `Pay from anywhere you please,
       to choose where the storm affects.
       The hex selected will freeze—
       except the underground hex.
       Any visitor who flees,
       goes off-board from its effects.`,
+      // The icy toward, ar least,
+      // may drop underground its gest.
     })),
   }]
-},];
+}, ];
 
 export default nauticalSections;

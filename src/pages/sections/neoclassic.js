@@ -2,20 +2,22 @@ import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
-const classicSections = [{
+const neoclassicSections = [{
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#238b222a",
-  h3: Copy.text({
-    es: "Trenes y Corceles",
-    en: "Trains & Cavalry",
-  }),
-  img: ASSETS.cavaliers,
-  p: versify(Copy.text({
-    es: `Las cuatro residencias de corceles,
+  header: {
+    h3: Copy.text({
+      es: "Trenes y Corceles",
+      en: "Trains & Cavalry",
+    }),
+    img: ASSETS.cavaliers,
+    p: versify(Copy.text({
+      es: `Las cuatro residencias de corceles,
     que están comunicadas por los rieles.`,
-    en: `Adds four royals and their tiles;
+      en: `Adds four royals and their tiles;
     dashing steeds and tracks for miles.`,
-  })),
+    })),
+  },
   section: [{
     h4: Copy.text({
       es: "Travesía en tren",
@@ -69,29 +71,19 @@ const classicSections = [{
 }, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#0169942a",
-  h3: Copy.text({
-    es: "Nobles duales",
-    en: "Noble Allies",
-  }),
-  img: ASSETS.allies,
-  p: versify(Copy.text({
-    es: [ 
-      `Los seis ayuntamientos y sus nobles;
+  header: {
+    h3: Copy.text({
+      es: "Nobles duales",
+      en: "Noble Allies",
+    }),
+    img: ASSETS.allies,
+    p: versify(Copy.text({
+      es: `Los seis ayuntamientos y sus nobles;
       y dos de los conejos jugadores.`,
-      //`Monarcas de los seis ayuntamientos;
-      //y dos de los conejos mensajeros.`,
-      //`Las piezas con sus seis representantes;
-      //y dos de los conejos visitantes.`,
-      `Los bordes en azul de sus hexágonos,
-      se deben mantener desconectados.`,
-    ],
-    en: [
-      `Adds six royals and their tiles;
+      en: `Adds six royals and their tiles;
       plus two rabbits with new styles.`,
-      `Their hexes have sea-blue sides— 
-      keep these open to the tides.`,
-    ],
-  })),
+    })),
+  },
   section: [{
     h4: Copy.text({
       es: "Nobles",
@@ -136,26 +128,36 @@ const classicSections = [{
       te vende lo que quieras por diamantes.
       Y en la otra te reponen (de la pila)
       <strong>un</strong> tiro de tus cartas que descartes.`,
-      en: `Trade diamonds for any cards
-      at the Jack with merchant booths.
-      The other grants <strong>one</strong> discard—
+      en: `One Jack hex trades diamond cards
+      for any suit at their booths.
+      The other, grants <strong>one</strong> discard—
       draw as many as you lose.`,
     })),
   }],
+  footer: {
+    p: versify(Copy.text({
+      es: `Los bordes en azul de sus hexágonos,
+      se deben mantener desconectados.`,
+      en: `Adds six royals and their tiles;
+      plus two rabbits with new styles`,
+    })),
+  },
 }, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#9B49772a",
-  h3: Copy.text({
-    es: "Flores",
-    en: "Fleurs <small>(Flowers)</small>",
-  }),
-  img: ASSETS.fleurs,
-  p: versify(Copy.text({
-    es: `Un palo que carece de reales;
+  header: {
+    h3: Copy.text({
+      es: "Flores",
+      en: "Fleurs <small>(Flowers)</small>",
+    }),
+    img: ASSETS.fleurs,
+    p: versify(Copy.text({
+      es: `Un palo que carece de reales;
     con piezas y un conejo adicionales.`,
-    en: `There're no royals in this suit;
+      en: `There're no royals in this suit;
     just tiles—and the rabbit's cute.`,
-  })),
+    })),
+  },
   section: [{
     h4: Copy.text({
       es: "Substituye otros palos",
@@ -184,7 +186,7 @@ const classicSections = [{
       en: `Pay at its post or den
       to send it to any rabbit;
       the victim goes off-board then,
-      or you'll steal a card—<strong>and scrap it</strong>.`,
+      or you'll steal a card <strong>and scrap it</strong>.`,
     })),
   }, {
     h4: Copy.text({
@@ -208,4 +210,4 @@ const classicSections = [{
   }],
 }, ];
 
-export default classicSections;
+export default neoclassicSections;

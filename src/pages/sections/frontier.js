@@ -3,13 +3,14 @@ import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
 const frontierSections = [{
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "#b7410e33",
-  h3: Copy.text({
-    es: "Antorchas",
-    en: "Torches",
-  }),
-  img: ASSETS.torches,
+  header: {
+    h3: Copy.text({
+      es: "Antorchas",
+      en: "Torches",
+    }),
+    img: ASSETS.torches,
+  },
   section: [{
     h4: Copy.text({
       es: "Saquear con fuego",
@@ -22,9 +23,9 @@ const frontierSections = [{
       igual terminarás en el destierro.
       Pues todos los conejos del lugar
       terminan desterrados por el fuego.`,
-      en: `You may attack (and defend)
+      en: `You may attack—and defend—
       with torches instead of swords.
-      But if you steal in the end,
+      But when you steal in the end,
       you will also go off-board.
       All the rabbits, there and then,
       will be removed from the board.`,
@@ -54,13 +55,14 @@ const frontierSections = [{
     })),
   }],
 }, {
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "#436b9533",
-  h3: Copy.text({
-    es: "Escudos",
-    en: "Shields",
-  }),
-  img: ASSETS.shields,
+  header: {
+    h3: Copy.text({
+      es: "Escudos",
+      en: "Shields",
+    }),
+    img: ASSETS.shields,
+  },
   section: [{
     h4: Copy.text({
       es: "Clausurar las residencias",
@@ -77,15 +79,15 @@ const frontierSections = [{
       Si evitan la invasión, los recuperas.
       Prohibido en el subsuelo en absoluto.
       La carta de tu noble te la quedas.`,
-      en: `Display your shields (ten or less) 
+      en: `Display your shields—ten or less— 
       to seal the hex where you stand.
       Or, to seal a royal’s hex,
       include the card from that land. 
       If any incoming guest 
       discards more shields than your band, 
-      your shields are discarded next,
+      your shields are discarded next
       and won't return to your hand.
-      Keep the royal you addressed.
+      Keep the royal you've addressed.
       Sealing the underground's banned.`,
     })),
   }, {
@@ -98,21 +100,22 @@ const frontierSections = [{
         bloquea los caminos <strong>en los triángulos</strong>.
         Si pagas con escudos dondequiera,
         se irán a la vereda de tu agrado.`,
-      en: `Guards totally block the road,
-        and stand on triangle tiles.
+      en: `Guards are placed to block the road— 
+        to seal a triangle tile.
         Pay anywhere on the board
         to choose their new post meanwhile.`,
     })),
   }]
 }, {
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "#bd6c3d33",
-  h3: Copy.text({
-    es: "Herraduras",
-    en: "Horseshoes",
-  }),
-  img: ASSETS.horseshoes,
-  section:[{
+  header: {
+    h3: Copy.text({
+      es: "Herraduras",
+      en: "Horseshoes",
+    }),
+    img: ASSETS.horseshoes,
+  },
+  section: [{
     h4: Copy.text({
       es: "Trapichear en el subsuelo",
       en: "Hustle underground",
@@ -156,14 +159,15 @@ const frontierSections = [{
     })),
   }]
 }, {
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "#6e6e3033",
-  h3: Copy.text({
-    es: "Bellotas",
-    en: "Acorns",
-  }),
-  img: ASSETS.acorns,
-  section:[{
+  header: {
+    h3: Copy.text({
+      es: "Bellotas",
+      en: "Acorns",
+    }),
+    img: ASSETS.acorns,
+  },
+  section: [{
     h4: Copy.text({
       es: "Cargar los dados",
       en: "Load the dice",
@@ -176,16 +180,16 @@ const frontierSections = [{
       En cuanto sobrepasa la decena,
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display,
-      adds them to the “overload”.
+      adds them to the <i>overload</i>.
       The sum that this pile conveys
       is added to the dice rolled.
-      Discard the pile right away,
+      Discard the pile right away
       when they add ten to the load.`,
     })),
   }, {
     h4: Copy.text({
       es: "traslado de la bestia",
-      en: "Transfer the Beast",
+      en: "Transfer the Wild Beast",
     }),
     p: versify(Copy.text({
       es: `La bestia se coloca por sus <i>zonas</i>:

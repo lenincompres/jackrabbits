@@ -179,13 +179,13 @@ a.button {
   -o-border-radius: 0.4em;
 }
 
-a.button:hover{
+a.button:hover {
   background-color: mediumblue;
 }
 
 a.video {
   font-size: 1.2em;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: calc(50% - 1em);
   left: calc(50% - 5em);
@@ -233,7 +233,7 @@ i::after {
 }
 
 img[src=""],
-img:not([src]){
+img:not([src]) {
   display: none;
 }
 
@@ -314,6 +314,16 @@ article.main>article>section.letter {
   max-width: fit-content;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 1px 1px 3px black;
+}
+
+
+article.main>article.shuffle {
+  display: flex;
+}
+
+article.main>article.shuffle>section {
+  box-shadow: 1px 1px 3px black;
+  background-color: #ffffff66;
 }
 
 .letter p {
@@ -417,9 +427,7 @@ article.main>article {
 
 article.main>article>header,
 article.main .heading,
-article.main>article>footer,
-article.main>header,
-article.main>footer {
+article.main>header {
   width: 100%;
   padding: 1rem;
   margin: 1rem 2rem 0;
@@ -429,6 +437,12 @@ article.main>footer {
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
+}
+
+article.main>article>footer,
+article.main>footer {
+  width: 100%;
+  margin: 1rem 2rem 0;
 }
 
 article.main>article>header>main {
@@ -448,8 +462,8 @@ article.main>article>section {
   display: flex;
   flex-direction: column;
   justify-content: center !important;
-  width: 22rem;
-  margin: 0.5rem 0;
+  width: 21.5rem;
+  margin: 0.5rem 0.3rem;
   padding: 2rem 1rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -532,12 +546,6 @@ light-box>section>a {
 
 light-box img {
   max-width: 100%;
-}
-
-section.optional {
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: 0.5rem !important;
-  width: 21rem !important;
 }
 
 section.optional h4 {

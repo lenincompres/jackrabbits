@@ -3,7 +3,6 @@ import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
 const strategySections = [{
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "rgba(200,240,240,0.3)",
   h3: Copy.text({
     es: "Tréboles <small>(Bastos)</small>",
@@ -51,7 +50,6 @@ const strategySections = [{
     ]
   })),
 }, {
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "rgba(220,200,255,0.4)",
   h3: Copy.text({
     es: "Picas <small>(Espadas)</small>",
@@ -74,19 +72,6 @@ const strategySections = [{
       también asaltarías a  sus cartas:
       le robas la primera que tocases
       (a ciegas deberás seleccionarla).`,
-      /*
-      `Ataca en un <i>combate sin empates</i> 
-      a quien en el hexágono descansa.
-      Si vences a tu víctima en combate,
-      consigues asaltarla y desterrarla.`,
-      `Se lucha superando los ataques,
-      sumándose las picas descartadas,
-      y cuando se terminen los avances,
-      destierra a la persona derrotada.`,
-      `Si ganas el combate que empezaste,
-      también asaltarías a  sus cartas,
-      robando la primera que tocases
-      (a ciegas deberás seleccionarla).`,*/
       `Si robas y la carta es de nobleza,
       te toca <b>el incremento</b> de tus cartas;
       y entrégale a la corte la que quieras
@@ -112,7 +97,6 @@ const strategySections = [{
     ]
   })),
 }, {
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "rgba(255,200,210,0.4)",
   h3: Copy.text({
     es: "Corazones <small>(Copas)</small>",
@@ -154,13 +138,12 @@ const strategySections = [{
       which, even from far apart,
       prove their access to this zone.
       If you fail to show your cards,
-      go off-board—your cover's blown.
+      go off-board—your cover's blown!
       But succeed, and they'll depart—
-      off, and lose the cards they've shown.`,
+      kicked off, losing what they've shown.`,
     ]
   })),
 }, {
-  boxShadow: "1px 1px 3px black",
   backgroundColor: "rgba(250,240,200,0.4)",
   h3: Copy.text({
     es: "Diamantes <small>(Oros)</small>",
@@ -178,14 +161,6 @@ const strategySections = [{
       por cartas descartadas de sus palos;
       excepto en el marcado con la estrella,
       que acepta de cualquiera por el pago.`,
-      /*`Comercia en los <i>hexágonos de ventas</i>,
-      con flechas en sus símbolos marcados.
-      Las cartas descartadas en la mesa,
-      se pueden adquirir en sus mercados.`,
-      `En estos, los diamantes se canjean 
-      por cartas descartadas de sus palos;
-      excepto en el marcado con la estrella,
-      que acepta de cualquiera por el pago.`*/
     en: `All spent cards are being sold;
       each jack's hex sells its own suit.
       Check what these posts have in store—

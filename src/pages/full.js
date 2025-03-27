@@ -4,7 +4,7 @@ import strategySections from "./sections/strategies.js";
 import optionalSections from "./sections/options.js";
 
 const fullPage = {
-  article: [{
+  article_shuffle: [{
     header: {
       h2: versify(Copy.text({
         es: "Las estrategias de cada palo",
@@ -17,7 +17,7 @@ const fullPage = {
           once the <a href="#intro"><b>intro</b></a>'s understood.`
       })),
     },
-    section: strategySections,
+    section: strategySections.sort(() => Math.random() - 0.5),
   }, {
     header: {
       h3: Copy.text({

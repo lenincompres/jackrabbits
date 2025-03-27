@@ -21,7 +21,7 @@ Pager.add({
   expansion: expansionPage,
 });
 
-const cardNum = Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250);
+const cardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
 
 DOM.set({
   title: "Lenino's Jack Rabbits - " + Copy.at.header,

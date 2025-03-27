@@ -2,8 +2,8 @@ import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
 
 const morePage = {
-  article: {
-    section_optional: [{
+  article_shuffle: {
+    section: [{
       h3: {
         a: {
           text: Copy.at.buy,
