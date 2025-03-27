@@ -43,8 +43,8 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
         si pagas con tus conchas en el mar,
-        trasládate a su torre en el momento
-        (su islote que se encuentra en altamar).
+        trasládate a su islote en el momento,
+        (su torre que se encuentra en altamar).
         La góndola gratuita de su puerto
         te brinda la salida del lugar.`,
       en: `Do not end your turn off-board
@@ -124,22 +124,22 @@ const nauticalSections = [{
       en: "Implore the Rabbits",
     }),
     p: versify(Copy.text({
-      es: `Tu ruego (que es un duelo con campanas)
+      es: `Tu ruego, que es un duelo con campanas,
       afecta a los que estén con tu conejo.
-      Te entregan la que elijan de sus cartas;
-      excepto, en el destierro o el subsuelo.
+      Te entregan la que elijan de sus cartas,
+      sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
-      que sumen sus campanas en el duelo.
-      Si imploras de la torre acampanada,
-      afectas al tablero por completo.`,
-      en: `This plays like a fight with bells—
-      not underground or off-board.
+      que sumen sus campanas en el duelo.`,
+      //Si imploras de la torre acampanada,
+      //afectas al tablero por completo.`,
+      en: `This plays like a fight with bells,
+      but no body goes off-board.
       All the rabbits where you dwell
       must gift you a card they hoard;
       or add bells to duel as well—
-      if they win, your plea's ignored.
-      Implore from their tower's cell,
-      to plea all over the board.`,
+      if they win, your plea's ignored.`,
+      //Implore from their tower's cell,
+      //to plea all over the board.`,
     })),
   }, {
     h4: Copy.text({
@@ -148,21 +148,21 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si pagas dondequiera con campanas,
-      aíslas a un conejo que es ajeno.
-      El sitio es el de <i>cueva clausurada</i>,
+      envías a un conejo al aislamiento.
+      Lo escoges de cualquiera de las áreas,
+      excepto las afueras del tablero.
+      La cueva en el destino es la sellada,
       que exige que se pague por su acceso.
       La otra, que es gratuita, es la de entrada;
-      te lleva del subsuelo al aislamiento.`,
-      // *Ninguna actividad con campanadas,
-      // es válida ni afecta en el subsuelo.
+      que empieza conectada en el subsuelo.`,
       en: `Pay wherever you may be,
-      to have someone else exiled.
+      to send a rabbit exiled—
+      no one's safe from your decree;
+      just off-board they skip the trial.
       The cave there charges a fee 
-      to leave the lone sandy isle.
-      Yet underground, it is free—
-      you won't pay to reach this tile.`,
-      // *Down underground, by decree,
-      // bells are banned in any style.
+      to leave the lone sandy tile.
+      The one underground is free—
+      added there to reach this isle.`,
     })),
   }]
 }, {
@@ -181,7 +181,7 @@ const nauticalSections = [{
       en: "Invoque the saveguard",
     }),
     p: versify(Copy.text({
-      es: `Si acabas desterrándote en el mar,
+      es: `Si acabas desterrándote en el mar
       o estás por un camino a las orillas,
       tus témpanos te pueden rescatar
       (un mínimo de seis se necesitan).

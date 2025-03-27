@@ -124,9 +124,9 @@ const neoclassicSections = [{
       en: "Trades",
     }),
     p: versify(Copy.text({
-      es: `La Jota de la unión capitalista,
+      es: `La Jota de la unión capitalista
       te vende lo que quieras por diamantes.
-      Y en la otra te reponen (de la pila)
+      Y en la otra te reponen, de la pila,
       <strong>un</strong> tiro de tus cartas que descartes.`,
       en: `One Jack hex trades diamond cards
       for any suit at their booths.
@@ -165,7 +165,7 @@ const neoclassicSections = [{
     }),
     p: versify(Copy.text({
       es: `Las flores se usarán en los traslados,
-      y nunca al adquirir a la nobleza;
+      y nunca al adquirir a la nobleza.
       Suplantan a los cuatro <strong>palos clásicos</strong>,
       excepto en el poder de su estrategia.`,
       en: `Fleurs are <strong>classic suits</strong>' replacements,

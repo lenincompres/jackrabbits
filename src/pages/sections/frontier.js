@@ -40,17 +40,17 @@ const frontierSections = [{
         conéctalo al subsuelo por un lado.
         Si pagas al entrar en el subsuelo,
         te irás a la salida de inmediato.
-        Si pagas al salirte del tablero,
-        o incluso de visita en los hexágonos,
-        a todos los conejos en destierro
-        los llevas al subsuelo, congregándolos.`,
-      en: `Emblazon the underground— 
-        add its triangle with fire. 
+        En turnos que te saquen del tablero
+        o elijas la salida en un costado,
+        pagando evitarías el destierro,
+        moviéndote al subsuelo en un traslado.`,
+      en: `This expansion underground
+        adds a triangle with fire. 
         To exit in the same round, 
         pay there what the dice require. 
-        If you pay while off-board bound, 
-        or wherever you desire, 
-        bring all off-board rabbits down
+        If your turn is off-board bound, 
+        and this is what you desire, 
+        pay to move your rabbit down
         to the underground's campfire.`,
     })),
   }],
@@ -69,14 +69,14 @@ const frontierSections = [{
       en: "Seal the residences",
     }),
     p: versify(Copy.text({
-      es: `Si exhibes en la mesa tus escudos
-      (sin carta o con alguna de nobleza),
-      clausuras el hexágono de turno,
+      es: `Si exhibes en la mesa tus escudos,
+      sin carta o con alguna de nobleza,
+      clausuras el hexágono de turno
       o aquel de la nobleza que exhibieras.
       Podría descartarlos con los suyos
       quienquiera que te invada y los supera.
-      Un máximo de diez es tu recurso. 
-      Si evitan la invasión, los recuperas.
+      Un máximo de diez es tu recurso;
+      si evitan la invasión, los recuperas.
       Prohibido en el subsuelo en absoluto.
       La carta de tu noble te la quedas.`,
       en: `Display your shields—ten or less— 

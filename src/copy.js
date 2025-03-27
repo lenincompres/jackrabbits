@@ -41,6 +41,6 @@ and stay tuned for our campaign.`,
   },
   novel: {
     es: "Descubre la novela",
-    en: "Discover the novel",
+    en: "Read the novel",
   }
 });
