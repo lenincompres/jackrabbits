@@ -21,13 +21,13 @@ const frontierSections = [{
       igual que con las picas en sus duelos.
       Excepto que, si robas al final,
       igual terminarás en el destierro.
-      Pues todos los conejos del lugar
-      terminan desterrados por el fuego.`,
+      Quienquiera que se encuentre en el lugar,
+      termina desterrándose en el duelo. `, // por fuego
       en: `You may attack—and defend—
       with torches instead of swords.
       But when you steal in the end,
       you will also go off-board.
-      All the rabbits, there and then,
+      Whoever's visiting then,
       will be removed from the board.`,
     })),
   }, {
@@ -50,7 +50,7 @@ const frontierSections = [{
         pay there what the dice require. 
         If your turn is off-board bound, 
         and this is what you desire, 
-        pay to move your rabbit down
+        pay to get transfered down
         to the underground's campfire.`,
     })),
   }],
@@ -65,30 +65,26 @@ const frontierSections = [{
   },
   section: [{
     h4: Copy.text({
-      es: "Clausurar las residencias",
-      en: "Seal the residences",
+      es: "Clausurar las hexágonos",
+      en: "Seal the hexes",
     }),
     p: versify(Copy.text({
-      es: `Si exhibes en la mesa tus escudos
-      (sin carta o con alguna de nobleza),
-      clausuras el hexágono de turno
-      o aquel de la nobleza que exhibieras.
+      es: `Si exhibes en la mesa tus escudos,
+      clausuras el lugar en el que esperas.
       Podría descartarlos con los suyos
       quienquiera que te invada y los supera.
       Un máximo de diez es tu recurso;
       si evitan la invasión, los recuperas.
-      Prohibido en el subsuelo en absoluto.
-      La carta de tu noble te la quedas.`,
-      en: `Display your shields—ten or less— 
+      Volar o aparecerse es oportuno;
+      tan solo los caminos se cancelan.`,
+      en: `Display your shields—ten or less—
       to seal the hex where you stand.
-      Or, to seal a royal’s hex,
-      include the card from that land. 
       If any incoming guest 
       discards more shields than your band, 
       your shields are discarded next
       and won't return to your hand.
-      Keep the royal you've addressed.
-      Sealing the underground's banned.`,
+      There're more ways to reach a hex,
+      only the roads have been banned.`,
     })),
   }, {
     h4: Copy.text({
@@ -97,13 +93,17 @@ const frontierSections = [{
     }),
     p: versify(Copy.text({
       es: `La guardia obstaculiza las <i>veredas</i>:
-        propicia la clausura en los triángulos.
+        propicia la clausura de los triángulos.
         Si pagas con escudos dondequiera,
-        se irán a la vereda de tu agrado.`,
-      en: `Guards are placed to block the road— 
-        to seal a triangle tile.
+        se pasa la vereda de tu agrado.
+        Si eliges la vereda en que te encuentras,
+        del sitio te regalan su traslado.`,
+      en: `Guards are placed to block the road—
+        they seal a triangle tile.
         Pay anywhere on the board
-        to choose their new post meanwhile.`,
+        to choose their new post meanwhile.
+        If you're there, there's a reward—
+        get its transfer in this style.`,
     })),
   }]
 }, {
@@ -142,7 +142,7 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `Si pagas por viajar con sus caballos
       (en islas con las casas de herradura),
-      saliendo de las casas de su palo,
+      saliendo de las casas de su palo
       cabalgan por los montes y llanuras.
       Entonces, si te alcanzan cabalgando,
       trasládate al lugar que se te ocurra.
@@ -151,8 +151,8 @@ const frontierSections = [{
       en: `Pay to ride a hex's horse,
       on islands where these are found.
       They will gallop from their source
-      if they can reach you by ground.
-      And they'll take you on your course,
+      if they can reach you by ground,
+      and will take you on your course,
       even to the underground.
       They may ride to the cave's doors,
       but will never venture down.`,
@@ -200,7 +200,7 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-      en: `The beast is placed in its zones,
+      en: `The beast is placed in its zones:
       on rivers, mountains, or woods.
       It sends off-board those who come,
       unless they pay as they should.

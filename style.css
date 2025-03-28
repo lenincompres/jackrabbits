@@ -463,7 +463,7 @@ article.main>article>section {
   flex-direction: column;
   justify-content: center !important;
   width: 21.5rem;
-  margin: 0.5rem 0.3rem;
+  margin: 0.5rem 0.25rem;
   padding: 2rem 1rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;

@@ -13,7 +13,7 @@ const expansionPage = {
       }),
       p: versify(Copy.text({
         en: `Each suit comes with cards and tiles;
-          plus a rabbit with new styles.`,
+          plus a rodent with new styles.`,
         es: `Los palos con sus cartas de nobleza,
           te añaden un conejo con sus piezas.`,
       })),
@@ -23,8 +23,8 @@ const expansionPage = {
       p: versify(Copy.text({
         en: `Their hexes have sea-blue sides—
           keep these open to the tides.
-          Circles mark payments <i>off-site</i>:
-          away from where they reside.`,
+          The circles with suits inside
+          mean these can be paid off-site.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
           Los pagos con un círculo en sus palos
@@ -39,7 +39,7 @@ const expansionPage = {
       }),
       p: versify(Copy.text({
         en: `Each suit comes with cards and tiles;
-          plus a rabbit with new styles.`,
+          plus a rodent with new styles.`,
         es: `Los palos con sus cartas de nobleza,
           te añaden un conejo con sus piezas.`,
       })),
@@ -49,8 +49,8 @@ const expansionPage = {
       p: versify(Copy.text({
         en: `Their hexes have sea-blue sides—
           keep these open to the tides.
-          Circles mark payments <i>off-site</i>:
-          away from where they reside.`,
+          The circles with suits inside
+          mean these can be paid off-site.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
           Los pagos con un círculo en sus palos

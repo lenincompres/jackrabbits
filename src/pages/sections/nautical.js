@@ -28,7 +28,7 @@ const nauticalSections = [{
       limítate a las cartas que recibas.`,
       en: `Its triangle underground
       is placed where the seas begin.
-      It serves as a landing ground,
+      It serves as a landing ground
       where boats are welcomed within.
       If you discard shells around,
       the pile doubles what you bin.
@@ -43,7 +43,7 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
         si pagas con tus conchas en el mar,
-        trasládate a su islote en el momento,
+        trasládate a su islote en el momento
         (su torre que se encuentra en altamar).
         La góndola gratuita de su puerto
         te brinda la salida del lugar.`,
@@ -68,7 +68,7 @@ const nauticalSections = [{
   section: [{
     h4: Copy.text({
       es: "Lastrar a la Nobleza",
-      en: "Weigh Nobles Down",
+      en: "Weigh the Nobles Down",
     }),
     p: versify(Copy.text({
       es: `Es válido, con <strong>una</strong> de tus anclas,
@@ -94,8 +94,8 @@ const nauticalSections = [{
       trasládalo sin costo y libremente.
       Si pagas a la orilla del tablero,
       te mueves al que quieras de sus muelles;
-      el barco pasará por tu conejo,
-      y a un puerto de las anclas los transfieres.
+      el barco te recoge en el proceso,
+      y a un puerto de las anclas te transfieres.
       Su torre es un mercado heterogéneo;
       comercia con los palos que prefieres.`,
       en: `If you board the sailboat’s deck,
@@ -120,21 +120,21 @@ const nauticalSections = [{
   },
   section: [{
     h4: Copy.text({
-      es: "Implorar a los conejos",
-      en: "Implore the Rabbits",
+      es: "Implorar por cartas",
+      en: "Implore for cards",
     }),
     p: versify(Copy.text({
-      es: `Imploras con <i>duelo</i> de campanas,
-      que afecta a los que estén con tu conejo.
-      Te entregan la que elijan de sus cartas,
+      es: `Si imploras con un <i>duelo de campanas</i>
+      al grupo que se encuentre en tu sendero,
+      te entregan la que elijan de sus cartas
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
       que sumen sus campanas en el duelo.`,
       //Si imploras de la torre acampanada,
       //afectas al tablero por completo.`,
-      en: `You may start a fight with bells,
-      where no body goes off-board.
-      All the rabbits where you dwell
+      en: `When you start a <i>fight</i> with bells,
+      no body will end off-board.
+      Any player where you dwell
       must gift you a card they hoard;
       or add bells to duel as well—
       if they win, your plea's ignored.`,
@@ -148,17 +148,17 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si pagas dondequiera con campanas,
-      envías a un conejo al aislamiento.
-      Lo escoges de cualquiera de las áreas,
+      envías a cualquiera al aislamiento.
+      Se aísla de cualquiera de las áreas,
       excepto las afueras del tablero.
-      La cueva en el destino es la sellada,
+      La cueva de destino es la sellada,
       que exige que se pague por su acceso.
-      La otra, que es gratuita, es la de entrada;
+      La otra que es gratuita es la de entrada,
       que empieza conectada en el subsuelo.`,
       en: `Pay wherever you may be,
-      to send a rabbit exiled—
-      no one's safe from your decree;
-      just off-board they skip the trial.
+      to send anyone exiled.
+      No one's safe from your decree—
+      just those off-board skip the trial.
       The cave there charges a fee 
       to leave the lone sandy tile.
       The one underground is free—
@@ -177,26 +177,34 @@ const nauticalSections = [{
   },
   section: [{
     h4: Copy.text({
-      es: "Invocar la Salvaguardia",
-      en: "Invoque the saveguard",
+      es: "Deslizar el glaciar",
+      en: "Slide the glacier",
     }),
     p: versify(Copy.text({
-      es: `Si acabas desterrándote en el mar
-      o estás por un camino a las orillas,
-      tus témpanos te pueden rescatar
-      (un mínimo de seis se necesitan).
-      Los <strong>muestras</strong> y te vas a su glaciar:
-      la torre hexagonal con salvavidas.
-      El hoyo que se encuentra en el lugar
+      es: `Si encuentras un espacio por el mar,
+      pegado de un camino en las orillas, 
+      con témpanos lo puedes congelar
+      (un mínimo de doce necesitas). 
+      Los muestras y conectas su glaciar:
+      la torre hexagonal, que es movediza. 
+      Su pozo es un escape singular, 
       te deja en el subsuelo de caída.`,
-      en: `If your turn will end off-board,
+      en: `First, you choose a place off-board—
+      a road leading to the seas.
+      Count the icicles you hoard—
+      show a sum of twelve at least.
+      Bring the glacier to that road:
+      the tower with icy breeze.
+      There's a drop chute on its floor;
+      one way underground it leads.`,
+      /*`If your turn will end off-board,
       or you're heading to the seas,
       count the icicles you hoard—
       show at least a sum of six.
       You’ll be rescued and restored
       to their icy tower's breeze.
       There's a drop chute on its floor;
-      one way underground it leads.`,
+      one way underground it leads.`,*/
     })),
   }, {
     h4: Copy.text({
@@ -207,9 +215,9 @@ const nauticalSections = [{
       es: `Si pagas dondequiera con tus témpanos,
       trasladas la tormenta a los hexágonos.
       En estos (exceptuando en el subsuelo)
-      retienes los conejos, congelándolos.
-      A menos que trasladen el mal tiempo,
-      se salen solamente desterrados.`,
+      retén sus visitantes, congelándolo.
+      Pues solo se saldrán por el destierro,
+      si el vórtice se queda estacionado.`,
       // Tan solo en el graciar con agujero,
       // podrán ir al subsuelo y escaparlo.
       en: `Pay from anywhere you please,

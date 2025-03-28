@@ -57,8 +57,8 @@ const strategySections = [{
   }),
   img: ASSETS.spades,
   h4: Copy.text({
-    es: "Pelear con los conejos",
-    en: "Fight with the Rabbits",
+    es: "Pelear por cartas",
+    en: "Fight for cards",
   }),
   p: versify(Copy.text({
     es: [
@@ -105,7 +105,7 @@ const strategySections = [{
   img: ASSETS.hearts,
   h4: Copy.text({
     es: "Juzgar en los palacios Q",
-    en: "Judge at the Queen Palaces",
+    en: "Judge at Queen Palaces",
   }),
   p: versify(Copy.text({
     es: [
@@ -166,8 +166,8 @@ const strategySections = [{
       Check what these posts have in store—
       when you play there, grab some loot.
       What you take, replace with gold
-      as the signs instruct you to—
-      the star symbol on the board
+      as the signs instruct you to.
+      The star symbol on the board
       means that any suit will do.`,
   })),
   h5: Copy.text({
