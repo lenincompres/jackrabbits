@@ -18,8 +18,8 @@ const frontierSections = [{
     }),
     p: versify(Copy.text({
       es: `Podrás con tus antorchas pelear,
-      igual que con las picas en sus duelos;
-      excepto que, si robas al final,
+      igual que con las picas en sus duelos.
+      Excepto que, si robas al final,
       igual terminarás en el destierro.
       Pues todos los conejos del lugar
       terminan desterrados por el fuego.`,
@@ -69,8 +69,8 @@ const frontierSections = [{
       en: "Seal the residences",
     }),
     p: versify(Copy.text({
-      es: `Si exhibes en la mesa tus escudos,
-      sin carta o con alguna de nobleza,
+      es: `Si exhibes en la mesa tus escudos
+      (sin carta o con alguna de nobleza),
       clausuras el hexágono de turno
       o aquel de la nobleza que exhibieras.
       Podría descartarlos con los suyos
@@ -97,7 +97,7 @@ const frontierSections = [{
     }),
     p: versify(Copy.text({
       es: `La guardia obstaculiza las <i>veredas</i>:
-        bloquea los caminos <strong>en los triángulos</strong>.
+        propicia la clausura en los triángulos.
         Si pagas con escudos dondequiera,
         se irán a la vereda de tu agrado.`,
       en: `Guards are placed to block the road— 
@@ -123,9 +123,9 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `Su plaza triangular (la que es oscura),
       conéctala al subsuelo en un costado.
-      Permite canjear tus herraduras,
-      brindándole al subsuelo su mercado.
-      Te vende, por el cambio de tus sumas,
+      Permite comerciar con herraduras,
+      brindándole al subsuelo su mercado,
+      que vende, por el cambio de tus sumas,
       las cartas de cualquiera de los palos.`,
       en: `Trade with horseshoes underground
       at its shady marketplace.
@@ -151,10 +151,10 @@ const frontierSections = [{
       en: `Pay to ride a hex's horse,
       on islands where these are found.
       They will gallop from their source
-      if they can reach you by ground,
-      and will take you on your course,
-      even to the underground—
-      they may ride to the cave's doors,
+      if they can reach you by ground.
+      And they'll take you on your course,
+      even to the underground.
+      They may ride to the cave's doors,
       but will never venture down.`,
     })),
   }]
@@ -184,7 +184,7 @@ const frontierSections = [{
       The sum that this pile conveys
       is added to the dice rolled.
       Discard the pile right away
-      when they add ten to the load.`,
+      when it adds ten to the load.`,
     })),
   }, {
     h4: Copy.text({

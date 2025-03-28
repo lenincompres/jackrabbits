@@ -47,7 +47,7 @@ const neoclassicSections = [{
       si muestras un corcel que haz adquirido,
       trasládate de gratis cabalgando,
       tal como de los cruces del camino.`,
-      en: `On paths marked with a steed,
+      en: `On paths marked with a white steed,
       just show a Cavalier's card,
       and you'll ride it as you need,
       without needing to discard.`,
@@ -55,7 +55,7 @@ const neoclassicSections = [{
   }, {
     h4: Copy.text({
       es: "Adquisición de Corceles",
-      en: "Acquiring Cavaliers",
+      en: "Acquire the Cavaliers",
     }),
     p: versify(Copy.text({
       es: `Las cartas de corceles las adquieres,
@@ -115,7 +115,7 @@ const neoclassicSections = [{
       by paying at a canoe.
       The merchants, tavern, and cave
       are there to sell transfers too.
-      A <i>shortfall</i> flight may be saved—
+      The <i>shortfall</i> flights may be saved—
       pay with either tower’s suit.`,
     })),
   }, {
@@ -184,8 +184,8 @@ const neoclassicSections = [{
       Tu víctima prefiere su destierro,
       o apúntale a la carta que descarte.`,
       en: `Pay at its post or den
-      to send it to any rabbit;
-      the victim goes off-board then,
+      to send it to any rabbit.
+      The victim goes off-board then,
       or you'll steal a card <strong>and scrap it</strong>.`,
     })),
   }, {

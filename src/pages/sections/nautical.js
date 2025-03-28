@@ -49,7 +49,7 @@ const nauticalSections = [{
         te brinda la salida del lugar.`,
       en: `Do not end your turn off-board
         if you pay with shells at sea.
-        You'll go to its islet's port,
+        You'll go to its tower's port,
         where you're rescued for that fee.
         When you're ready to move forth,
         its gondola sails for free.`,
@@ -103,7 +103,7 @@ const nauticalSections = [{
       But pay at a sea-bound trek
       to summon it by the sea;
       then sail to an anchor hex—
-      you must choose one of these three.
+      you must choose one of the three.
       Check the anchor tower’s specs—
       it trades the suits you decree.`,
     })),
@@ -124,16 +124,16 @@ const nauticalSections = [{
       en: "Implore the Rabbits",
     }),
     p: versify(Copy.text({
-      es: `Tu ruego, que es un duelo con campanas,
-      afecta a los que estén con tu conejo.
+      es: `Imploras con <i>duelo</i> de campanas,
+      que afecta a los que estén con tu conejo.
       Te entregan la que elijan de sus cartas,
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
       que sumen sus campanas en el duelo.`,
       //Si imploras de la torre acampanada,
       //afectas al tablero por completo.`,
-      en: `This plays like a fight with bells,
-      but no body goes off-board.
+      en: `You may start a fight with bells,
+      where no body goes off-board.
       All the rabbits where you dwell
       must gift you a card they hoard;
       or add bells to duel as well—
