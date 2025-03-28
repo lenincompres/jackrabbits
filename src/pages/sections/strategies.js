@@ -41,7 +41,7 @@ const strategySections = [{
       you may match and claim the prize.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
-      The “shortfall” (how much you're off)
+      The <i>shortfall</i> (how much you're off)
       is the price that will suffice.
       Pay with suits from the takeoff:
       the hex that flies the device.

@@ -97,8 +97,9 @@ h5 {
 }
 
 strong {
-  font-weight: bold;
-  font-style: italic;
+  font-weight: normal;
+  /*font-style: italic;*/
+  text-decoration: underline;
 }
 
 small {
@@ -220,17 +221,18 @@ sup {
   text-shadow: 1px 1px 0 black;
 }
 
+i {
+  font-style: italic;
+}
+/*
 i::before {
   content: "“";
-}
-
-i {
-  font-style: normal;
 }
 
 i::after {
   content: "”";
 }
+*/
 
 img[src=""],
 img:not([src]) {

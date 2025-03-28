@@ -24,7 +24,7 @@ const nauticalSections = [{
       pues cuenta con un puerto de visitas.
       También es la fontana de las conchas:
       las cambia por el doble de la pila.
-      Por turnos, <strong>un canjeo</strong> se te otorga;
+      Por turnos,un canjeo se te otorga;
       limítate a las cartas que recibas.`,
       en: `Its triangle underground
       is placed where the seas begin.
@@ -91,7 +91,7 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si abordas por la vía del velero,
-      trasládalo sin costo y libremente.
+      navégalo sin costo y libremente.
       Si pagas a la orilla del tablero,
       te mueves al que quieras de sus muelles;
       el barco te recoge en el proceso,
@@ -124,9 +124,9 @@ const nauticalSections = [{
       en: "Implore for cards",
     }),
     p: versify(Copy.text({
-      es: `Si imploras con un <i>duelo de campanas</i>
+      es: `Si imploras, con un <i>duelo de campanas</i>,
       al grupo que se encuentre en tu sendero,
-      te entregan la que elijan de sus cartas
+      te entregan la que elijan de sus cartas,
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
       que sumen sus campanas en el duelo.`,
@@ -134,7 +134,7 @@ const nauticalSections = [{
       //afectas al tablero por completo.`,
       en: `When you start a <i>fight</i> with bells,
       no body will end off-board.
-      Any player where you dwell
+      Every player where you dwell
       must gift you a card they hoard;
       or add bells to duel as well—
       if they win, your plea's ignored.`,
@@ -181,19 +181,19 @@ const nauticalSections = [{
       en: "Slide the glacier",
     }),
     p: versify(Copy.text({
-      es: `Si encuentras un espacio por el mar,
-      pegado de un camino en las orillas, 
-      con témpanos lo puedes congelar
-      (un mínimo de doce necesitas). 
-      Los muestras y conectas su glaciar:
+      es: `Con témpanos conectas el glaciar:
       la torre hexagonal, que es movediza. 
-      Su pozo es un escape singular, 
+      Le elijes un espacio por el mar,
+      con ficha de las vías en la orilla.
+      Tus témpanos los vuelves a guardar,
+      y un mínimo de doce necesitas.
+      La cueva del glaciar es singular, 
       te deja en el subsuelo de caída.`,
-      en: `First, you choose a place off-board—
-      a road leading to the seas.
-      Count the icicles you hoard—
+      en: `Count the icicles you hoard—
       show a sum of twelve at least.
-      Bring the glacier to that road:
+      Choose a road that leads off-board
+      on a road tile by the seas.
+      Connect the hex to that road—
       the tower with icy breeze.
       There's a drop chute on its floor;
       one way underground it leads.`,

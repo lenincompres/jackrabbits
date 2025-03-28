@@ -105,7 +105,7 @@ const neoclassicSections = [{
       en: "Travels",
     }),
     p: versify(Copy.text({
-      es: `Navega en las canoas naturales, 
+      es: `Trasládate en canoas por los mares, 
       pagando por el precio de los dados.
       La cueva, la taberna y comerciantes,
       también te proporcionan sus traslados.

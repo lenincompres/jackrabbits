@@ -65,7 +65,7 @@ const frontierSections = [{
   },
   section: [{
     h4: Copy.text({
-      es: "Clausurar las hexágonos",
+      es: "Clausurar los hexágonos",
       en: "Seal the hexes",
     }),
     p: versify(Copy.text({
@@ -75,16 +75,16 @@ const frontierSections = [{
       quienquiera que te invada y los supera.
       Un máximo de diez es tu recurso;
       si evitan la invasión, los recuperas.
-      Volar o aparecerse es oportuno;
-      tan solo los caminos se cancelan.`,
+      Prohibido en el subsuelo en absoluto.
+      Tan solo es invadiendo que se ingresa.`,
       en: `Display your shields—ten or less—
       to seal the hex where you stand.
       If any incoming guest 
       discards more shields than your band, 
       your shields are discarded next
       and won't return to your hand.
-      There're more ways to reach a hex,
-      only the roads have been banned.`,
+      No one else reaches the hex.
+      Sealing the underground's banned.`,
     })),
   }, {
     h4: Copy.text({
@@ -102,8 +102,8 @@ const frontierSections = [{
         they seal a triangle tile.
         Pay anywhere on the board
         to choose their new post meanwhile.
-        If you're there, there's a reward—
-        get its transfer in this style.`,
+        If you're there, get this reward:
+        the tile's transfer in this style.`,
     })),
   }]
 }, {
