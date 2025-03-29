@@ -15,7 +15,7 @@ const expansionPage = {
         en: `Each suit comes with cards and tiles;
           plus a rodent with new styles.`,
         es: `Los palos con sus cartas de nobleza,
-          te añaden un conejo con sus piezas.`,
+          te añaden un rodente con sus piezas.`,
       })),
     },
     section: frontierSections.sort(() => Math.random() - 0.5),
@@ -41,7 +41,7 @@ const expansionPage = {
         en: `Each suit comes with cards and tiles;
           plus a rodent with new styles.`,
         es: `Los palos con sus cartas de nobleza,
-          te añaden un conejo con sus piezas.`,
+          te añaden un rodente con sus piezas.`,
       })),
     },
     section: nauticalSections.sort(() => Math.random() - 0.5),
