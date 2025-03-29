@@ -19,9 +19,9 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `Podrás con tus antorchas pelear,
       igual que con las picas en sus duelos.
-      Excepto que, si robas al final,
+      Excepto que si robas al final,
       igual terminarás en el destierro.
-      Quienquiera que descance en el lugar
+      Quienquiera que descanse en el lugar
       termina en las afueras del tablero.`,
       en: `You may attack—and defend—
       with torches instead of swords.
@@ -32,15 +32,15 @@ const frontierSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Traslado del (y al) subsuelo",
+      es: "Traslados del y al subsuelo",
       en: "Transfers via underground",
     }),
     p: versify(Copy.text({
       es: `El triángulo de negro (con el fuego)
         conéctalo al subsuelo por un lado.
-        Si pagas al entrar en el subsuelo,
+        Si pagas al llegar por el subsuelo,
         te irás a la salida de inmediato.
-        En turnos que te saquen del tablero
+        En turnos que te saquen del tablero,
         o elijas la salida en un costado,
         pagando evitarías el destierro,
         moviéndote al subsuelo en un traslado.`,

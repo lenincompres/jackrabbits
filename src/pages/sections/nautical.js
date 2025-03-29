@@ -216,8 +216,8 @@ const nauticalSections = [{
       al vórtice lo mueves a un hexágono.
       Y en este (exceptuando en el subsuelo)
       retén sus visitantes, congelándolo.
-      Si salen, es afuera del tablero;
-      su viento los termina desterrando.`,
+      Si salen, es afuera del tablero,
+      volando con el viento huracanado.`,
       // Tan solo en el graciar con agujero,
       // podrán ir al subsuelo y escaparlo.
       en: `Pay, from anywhere you please,

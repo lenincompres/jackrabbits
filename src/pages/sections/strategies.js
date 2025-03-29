@@ -10,14 +10,14 @@ const strategySections = [{
   }),
   img: ASSETS.clubs,
   h4: Copy.text({
-    es: "Volar entre las torres K",
+    es: "Volar entre dos torres K",
     en: "Fly among King Towers",
   }),
   p: versify(Copy.text({
     es: [
-      `Preséntate con <i>carta pasaporte</i>,
+      `Preséntate con carta pasaporte,
       un trébol al lanzar <b>la lotería</b>,
-      y harás <b>la travesía</b> torre-a-torre
+      y harás <b>la travesía</b> por las torres
       si no lo sobrepasa lo que tiras.
       En cambio, si los dados son mayores,
       te sales al destierro en las orillas.
@@ -57,12 +57,12 @@ const strategySections = [{
   }),
   img: ASSETS.spades,
   h4: Copy.text({
-    es: "Pelear por cartas",
+    es: "Pelear por las cartas",
     en: "Fight for cards",
   }),
   p: versify(Copy.text({
     es: [
-      `Ataca en un <i>combate sin empates</i> 
+      `Ataca en un combate sin empates
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
       sumándose las picas descartadas;
@@ -109,7 +109,7 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Anúnciate en la <i>entrada de las reinas</i>
+      `Anúnciate en la entrada de las reinas
       y espera que en la mesa te cuestionen:
       si cargas con su carta de nobleza, 
       o un mínimo de seis en corazones.
@@ -155,8 +155,8 @@ const strategySections = [{
     en: "Trade at Jack Plazas",
   }),
   p: versify(Copy.text({
-    es: `Comercia en los <i>hexágonos de ventas</i>,
-      con flechas en sus símbolos marcados.
+    es: `Consigue los artículos en venta,
+      de centros con los símbolos marcados.
       En estos, los diamantes se canjean 
       por cartas descartadas de sus palos;
       excepto en el marcado con la estrella,
@@ -175,7 +175,7 @@ const strategySections = [{
     en: "+ Interpersonal Trades",
   }),
   p_0: versify(Copy.text({
-    es: `Es válido el <i>comercio por diamantes</i>
+    es: `Es válido el comercio por diamantes
       con alguien en el sitio que te encuentras,
       si inicias la partida en lo adelante
       sumándole la cláusula a las reglas.

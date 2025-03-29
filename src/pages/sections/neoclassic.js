@@ -12,8 +12,8 @@ const neoclassicSections = [{
     }),
     img: ASSETS.cavaliers,
     p: versify(Copy.text({
-      es: `Las cuatro residencias de corceles,
-    que están comunicadas por los rieles.`,
+      es: `Las cuatro residencias de corceles;
+      y piezas que las unen por los rieles.`,
       en: `Adds four royals and their tiles;
     dashing steeds and tracks for miles.`,
     })),
@@ -204,7 +204,7 @@ const neoclassicSections = [{
       must be payed before you pass it. 
       The caves take you underground—
       there's no tranfer to bypass it.
-      Pay at their dens when around,
+      Pay at their dens when around
       to send the wolf where you cast it.`,
     })),
   }],
