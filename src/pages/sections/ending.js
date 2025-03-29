@@ -10,7 +10,7 @@ const endingSection = {
   p: versify(
     Copy.text({
       es: `Serás protagonista del festejo 
-      si a aquí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> te regresas,
+      si aquí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> te regresas,
       cargando con las cartas del concejo: 
       tus tres representantes de nobleza.`,
       en: `Return to the <a class="pop" onclick="popUp('citadel')"><b>citadel</b></a>  
