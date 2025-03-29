@@ -24,7 +24,7 @@ const nauticalSections = [{
       pues cuenta con un puerto de visitas.
       También es la fontana de las conchas:
       las cambia por el doble de la pila.
-      Por turnos,un canjeo se te otorga;
+      Por turnos, un canjeo se te otorga;
       limítate a las cartas que recibas.`,
       en: `Its triangle underground
       is placed where the seas begin.
@@ -79,8 +79,8 @@ const nauticalSections = [{
       si pagan por el noble de la pieza.`,
       en: `When you're on a royal’s tile,
       make its claim hard to achieve.
-      Find its card in the court's aisle;
-      place <strong>an</strong> anchor underneath.
+      Find its card in the court's aisle,
+      and place <strong>one</strong> card underneath.
       Add its value for the while—
       discard if the royal leaves.`,
     })),
@@ -124,15 +124,15 @@ const nauticalSections = [{
       en: "Implore for cards",
     }),
     p: versify(Copy.text({
-      es: `Si imploras, con un <i>duelo de campanas</i>,
+      es: `Si imploras (con un <i>duelo</i> de campanas)
       al grupo que se encuentre en tu sendero,
-      te entregan la que elijan de sus cartas,
+      te entregan la que elijan de sus cartas
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
       que sumen sus campanas en el duelo.`,
       //Si imploras de la torre acampanada,
       //afectas al tablero por completo.`,
-      en: `When you start a <i>fight</i> with bells,
+      en: `When you start a duel with bells,
       no body will end off-board.
       Every player where you dwell
       must gift you a card they hoard;
@@ -155,7 +155,7 @@ const nauticalSections = [{
       que exige que se pague por su acceso.
       La otra que es gratuita es la de entrada,
       que empieza conectada en el subsuelo.`,
-      en: `Pay wherever you may be,
+      en: `Pay, wherever you may be,
       to send anyone exiled.
       No one's safe from your decree—
       just those off-board skip the trial.
@@ -181,22 +181,22 @@ const nauticalSections = [{
       en: "Slide the glacier",
     }),
     p: versify(Copy.text({
-      es: `Con témpanos conectas el glaciar:
-      la torre hexagonal, que es movediza. 
-      Le elijes un espacio por el mar,
-      con ficha de las vías en la orilla.
-      Tus témpanos los vuelves a guardar,
-      y un mínimo de doce necesitas.
+      es: `Con doce de tus témpanos (o más)
+      que muestres de cualquiera de las fichas,
+      desplazas y conectas el glaciar
+      (la torre hexagonal resbaladiza).
+      Conéctala a un camino por el mar,
+      de vía carretera a las orillas.
       La cueva del glaciar es singular, 
       te deja en el subsuelo de caída.`,
-      en: `Count the icicles you hoard—
-      show a sum of twelve at least.
-      Choose a road that leads off-board
-      on a road tile by the seas.
-      Connect the hex to that road—
-      the tower with icy breeze.
+      en: `Count the icicles you hoard,
+      show a sum of twelve at least,
+      and you'll connect to the board:
+      the tower of icy breeze.
+      Choose a road tile as its port,
+      a road open to the seas.
       There's a drop chute on its floor;
-      one way underground it leads.`,
+      one way underground, it leads.`,
       /*`If your turn will end off-board,
       or you're heading to the seas,
       count the icicles you hoard—
@@ -213,18 +213,18 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si pagas dondequiera con tus témpanos,
-      trasladas la tormenta a los hexágonos.
-      En estos (exceptuando en el subsuelo)
+      al vórtice lo mueves a un hexágono.
+      Y en este (exceptuando en el subsuelo)
       retén sus visitantes, congelándolo.
-      Pues solo se saldrán por el destierro,
-      si el vórtice se queda estacionado.`,
+      Si salen, es afuera del tablero;
+      su viento los termina desterrando.`,
       // Tan solo en el graciar con agujero,
       // podrán ir al subsuelo y escaparlo.
-      en: `Pay from anywhere you please,
+      en: `Pay, from anywhere you please,
       to choose where the storm affects.
       The hex selected will freeze—
       except the underground hex.
-      Any visitor who flees,
+      Any visitor who flees
       goes off-board from its effects.`,
       // The icy toward, ar least,
       // may drop underground its gest.

@@ -25,9 +25,9 @@ const neoclassicSections = [{
     }),
     p: versify(Copy.text({
       es: `Es gratis desplazarte con los trenes,
-      mas viajas sin opciones de traslado;
-      y el paso por las cuevas en sus rieles
-      te saca del subsuelo de inmediato.
+      mas viajas sin opciones de traslado.
+      Las cuevas que atravieses por sus rieles
+      te sacan del subsuelo de inmediato.
       Procura que sus piezas se conecten,
       que no halles un carril desconectado.`,
       en: `You ride the trains without cost;

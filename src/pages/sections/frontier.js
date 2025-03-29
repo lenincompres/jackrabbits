@@ -21,13 +21,13 @@ const frontierSections = [{
       igual que con las picas en sus duelos.
       Excepto que, si robas al final,
       igual terminarás en el destierro.
-      Quienquiera que se encuentre en el lugar,
-      termina desterrándose en el duelo. `, // por fuego
+      Quienquiera que descance en el lugar
+      termina en las afueras del tablero.`,
       en: `You may attack—and defend—
       with torches instead of swords.
       But when you steal in the end,
       you will also go off-board.
-      Whoever's visiting then,
+      Whoever's visiting then
       will be removed from the board.`,
     })),
   }, {
@@ -48,9 +48,9 @@ const frontierSections = [{
         adds a triangle with fire. 
         To exit in the same round, 
         pay there what the dice require. 
-        If your turn is off-board bound, 
+        If your turn is off-board bound
         and this is what you desire, 
-        pay to get transfered down
+        pay then to be transferred down
         to the underground's campfire.`,
     })),
   }],
@@ -84,7 +84,7 @@ const frontierSections = [{
       your shields are discarded next
       and won't return to your hand.
       No one else reaches the hex.
-      Sealing the underground's banned.`,
+      Underground, this seal is banned.`,
     })),
   }, {
     h4: Copy.text({
@@ -100,7 +100,7 @@ const frontierSections = [{
         del sitio te regalan su traslado.`,
       en: `Guards are placed to block the road—
         they seal a triangle tile.
-        Pay anywhere on the board
+        Pay, anywhere on the board,
         to choose their new post meanwhile.
         If you're there, get this reward:
         the tile's transfer in this style.`,
@@ -129,7 +129,7 @@ const frontierSections = [{
       las cartas de cualquiera de los palos.`,
       en: `Trade with horseshoes underground
       at its shady marketplace.
-      This triangle dark and brown
+      This triangle, dark and brown,
       marks the expansion of the space.
       At this store, all suits are found—
       horseshoes taken in their place.`,
@@ -140,7 +140,7 @@ const frontierSections = [{
       en: "Transfer via Broncos",
     }),
     p: versify(Copy.text({
-      es: `Si pagas por viajar con sus caballos
+      es: `Si pagas por llamar con sus caballos
       (en islas con las casas de herradura),
       saliendo de las casas de su palo
       cabalgan por los montes y llanuras.
@@ -148,14 +148,14 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas… o te buscan.`,
-      en: `Pay to ride a hex's horse,
-      on islands where these are found.
+      en: `Pay to summon a hex's horse,
+      but on islands where they're found.
       They will gallop from their source
       if they can reach you by ground,
-      and will take you on your course,
+      and they'll take you on your course,
       even to the underground.
       They may ride to the cave's doors,
-      but will never venture down.`,
+      but they'll never venture down.`,
     })),
   }]
 }, {
@@ -179,12 +179,12 @@ const frontierSections = [{
       se suma al resultado de los dados.
       En cuanto sobrepasa la decena,
       la pila se descarta de inmediato.`,
-      en: `Leaving acorns on display,
+      en: `Leaving acorns on display
       adds them to the <i>overload</i>.
       The sum that this pile conveys
       is added to the dice rolled.
       Discard the pile right away
-      when it adds ten to the load.`,
+      if it adds ten to the load.`,
     })),
   }, {
     h4: Copy.text({
@@ -200,11 +200,11 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-      en: `The beast is placed in its zones:
+      en: `The beast is placed in its zones—
       on rivers, mountains, or woods.
-      It sends off-board those who come,
+      It sends off-board those who come
       unless they pay as they should.
-      Pay from wherever you roam
+      Pay, from wherever you roam,
       to choose where to move it to.
       Go off-board or cross along
       if you summon it to you.`,
