@@ -15,6 +15,7 @@
   --full: #eddded;
   --more: #e8d6c4;
   --expansion: #e8e8e8;
+  --field: #228b21;
 }
 
 html {
@@ -57,6 +58,10 @@ body {
   article.main>article>section,
   html[lang="es"] article.main>article>section {
     width: 20rem !important;
+  }
+
+  header>a.buy {
+    display: none;
   }
 
   light-box>section,
@@ -172,7 +177,7 @@ a.button {
   background-color: navy;
   padding: 0 1em;
   line-height: 2.5em;
-  text-shadow: 0 0 2px black;
+  text-shadow: 1px 1px  2px black;
   border-radius: 0.4em;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -185,16 +190,22 @@ a.button:hover {
 }
 
 a.video {
+  border: solid 1px var(--home);;
   font-size: 1.2em;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: calc(50% - 1em);
   left: calc(50% - 5em);
 }
 
 a.video:hover {
-  color: var(--home);
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header>a.buy {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 a.buy {
@@ -202,7 +213,7 @@ a.buy {
 }
 
 a.buy:hover {
-  background-color: #228b21;
+  background-color: var(--field);
 }
 
 b {
@@ -225,6 +236,7 @@ sup {
 i {
   font-style: italic;
 }
+
 /*
 i::before {
   content: "“";
@@ -257,6 +269,10 @@ body>aside {
   margin: 1.5rem 0 2rem;
   box-shadow: 1px 1px 3px black;
   border-radius: 0.5rem;
+}
+
+body>header {
+  position: relative;
 }
 
 body>header a {
@@ -310,6 +326,18 @@ article.main>article>section img {
   background-size: cover;
   background-position: center center;
   box-shadow: 1px 1px 3px black;
+}
+
+.carded.link{
+  border: solid 0.2rem darkgreen;
+}
+
+.carded.link:hover{
+  border: solid 0.2rem var(--field);
+}
+
+.carded.link:hover a{
+  background-color: var(--field);
 }
 
 article.main>article>section.letter {
