@@ -115,7 +115,7 @@ const strategySections = [{
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.
-      Mas, antes de mostrar tus pertenencias,
+      Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre previamente que las tenga,
       las cartas con aquellas condiciones;
@@ -133,7 +133,7 @@ const strategySections = [{
       adding heart cards from your hand.
       Off-board players can't request;
       they're not fit to take a stand.`,
-      `Those who ask to see your hearts,
+      `Yet those asking for your hearts
       must first show cards of their own,
       which, even from far apart,
       prove their access to this zone.

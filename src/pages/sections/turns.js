@@ -44,7 +44,7 @@ const turnSections = [{
     es: [
       `Del sitio hexagonal en el que empiezas,
       escoge si te irás por un camino.
-      Señala el recorrido por las piezas
+      Señala el recorrido por <a class="pop" onclick="popUp('roadTiles')">las piezas</a>
       llevando tu conejo peregrino.
       Y acaba el movimiento si tropiezas
       con una hexagonal en su destino.`,
@@ -57,7 +57,7 @@ const turnSections = [{
       `From the current hex you're on, 
       you may choose a path to exit.
       Move your rabbit as a pawn 
-      along the road you've selected.
+      along <a class="pop" onclick="popUp('roadTiles')">the road</a> you've selected.
       And land at a hexagon—
       wait a turn to cross the hexes.`,
       `You may move towards your goal,
@@ -81,7 +81,7 @@ const turnSections = [{
       Se dejan zanahorias en las piezas,
       que indican los conejos que las cargan.`,
       `Es gratis acceder a los hexágonos;
-      te paras simplemente visitándolos.`,
+      mas debes detenerte visitándolos.`,
       `Conserva lo que adquieras en tu mano;
       reclama <b>el incremento</b> de inmediato.`,
     ],
