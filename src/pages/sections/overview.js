@@ -44,9 +44,9 @@ const overviewSection = {
       ],
       en: [
         `Make <b>the journey</b> hex to hex—
-      it's free if you stick to roads.
-      Only pay to take the treks, 
-      or to ride horses and boats.`,
+        any road is a free course.
+        Only pay to take the treks, 
+        or to ride a boat or horse.`,
         `Stop when you reach a hex tile,
       and unless you're off the board,
       draw a new card from the pile—

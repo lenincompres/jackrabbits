@@ -50,7 +50,11 @@ LightBox.add(new Pager({
       es: `La pieza hexagonal en la que esperas
         si vas a atravesar las madrigueras.`,
       en: `The hex where you wait around
-        to reach caves in the next round.`
+        to reach caves in the next round.`,
+      es: `La pieza hexagonal en la que esperas,
+        y evitas el pagar las madrigueras.`,
+      en: `The hex where you wait for free,
+        unless you pay the caves' fee. `,
     }))
   },
   advancedCitadel: {
