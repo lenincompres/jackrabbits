@@ -5,18 +5,7 @@ import versify from "../../aux/versify.js";
 const splashSection = {
   class: "carded link",
   cursor: "pointer",
-  img: ASSETS.jackRabbits,
-  p: versify(Copy.text({
-    es: `El juego de tablero en el que viajas
-      al reino de conejos y barajas.`,
-    en: `The board game for playing cards
-      on a land of wooden shards`,
-  })),
   a_button_buy: {
-    position: "absolute",
-    top: "-2px",
-    right: 0,
-    width: '100%',
     target: "_blank",
     href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
     text: Copy.text({
@@ -24,6 +13,13 @@ const splashSection = {
       en: "Buy the game",
     }),
   },
+  img: ASSETS.jackRabbits,
+  p: versify(Copy.text({
+    es: `El juego de tablero en el que viajas
+      al reino de conejos y barajas.`,
+    en: `The board game for playing cards
+      on a land of wooden shards`,
+  })),
   onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits","_blank"),
 };
 

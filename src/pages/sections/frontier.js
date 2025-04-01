@@ -20,8 +20,8 @@ const frontierSections = [{
       es: `Podrás con tus antorchas pelear,
       igual que con las picas en sus duelos.
       Excepto que si robas al final,
-      igual terminarás en el destierro.
-      Quienquiera que descanse en el lugar
+      igual terminarás en el destierro;
+      quienquiera que descanse en el lugar
       termina en las afueras del tablero.`,
       en: `You may attack—and defend—
       with torches instead of swords.
@@ -40,7 +40,7 @@ const frontierSections = [{
         conéctalo al subsuelo por un lado.
         Si pagas al llegar por el subsuelo,
         te irás a la salida de inmediato.
-        En turnos que te saquen del tablero,
+        Y en turnos que te saquen del tablero,
         o elijas la salida en un costado,
         pagando evitarías el destierro,
         moviéndote al subsuelo en un traslado.`,
@@ -92,11 +92,11 @@ const frontierSections = [{
       en: "Transfer the guards",
     }),
     p: versify(Copy.text({
-      es: `La guardia obstaculiza las <i>veredas</i>:
+      es: `La guardia obstaculiza las veredas:
         propicia la clausura de los triángulos.
         Si pagas con escudos dondequiera,
         se pasa la vereda de tu agrado.
-        Si eliges la vereda en que te encuentras,
+        Si el triángulo es la pieza en que te encuentras,
         del sitio te regalan su traslado.`,
       en: `Guards are placed to block the road—
         they seal a triangle tile.
@@ -140,8 +140,8 @@ const frontierSections = [{
       en: "Transfer via Broncos",
     }),
     p: versify(Copy.text({
-      es: `Si pagas por llamar con sus caballos
-      (en islas con las casas de herradura),
+      es: `Si pagas por llamar a sus caballos,
+      en islas con las casas de herradura,
       saliendo de las casas de su palo
       cabalgan por los montes y llanuras.
       Entonces, si te alcanzan cabalgando,
@@ -192,7 +192,7 @@ const frontierSections = [{
       en: "Transfer the Wild Beast",
     }),
     p: versify(Copy.text({
-      es: `La bestia se coloca por sus <i>zonas</i>:
+      es: `La bestia se coloca por sus zonas:
       los ríos, las montañas o los bosques.
       En estas te destierra si te asomas,
       a menos de que pagues su transporte.

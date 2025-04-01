@@ -18,8 +18,8 @@ const nauticalSections = [{
       en: "Toss cards at sea",
     }),
     p: versify(Copy.text({
-      es: `Su triángulo de negro (el de la costa),
-      se pone en el subsuelo, en las orillas.
+      es: `Su triángulo de negro (el de la costa)
+      se pone en el subsuelo en sus orillas.
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
       También es la fontana de las conchas:
@@ -43,8 +43,8 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
         si pagas con tus conchas en el mar,
-        trasládate a su islote en el momento
-        (su torre que se encuentra en altamar).
+        trasládate a su islote en el momento:
+        su torre que se encuentra en altamar.
         La góndola gratuita de su puerto
         te brinda la salida del lugar.`,
       en: `Do not end your turn off-board
@@ -96,7 +96,7 @@ const nauticalSections = [{
       te mueves al que quieras de sus muelles;
       el barco te recoge en el proceso,
       y a un puerto de las anclas te transfieres.
-      Su torre es un mercado heterogéneo;
+      Su torre es un mercado heterogéneo:
       comercia con los palos que prefieres.`,
       en: `If you board the sailboat’s deck,
       sail it anywhere for free.
@@ -125,7 +125,7 @@ const nauticalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si imploras (con un <i>duelo</i> de campanas)
-      al grupo que se encuentre en tu sendero,
+      afectas al hexágono completo:
       te entregan la que elijan de sus cartas
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
@@ -151,7 +151,7 @@ const nauticalSections = [{
       envías a cualquiera al aislamiento.
       Se aísla de cualquiera de las áreas,
       excepto las afueras del tablero.
-      La cueva de destino es la sellada,
+      La cueva en el destino es la sellada,
       que exige que se pague por su acceso.
       La otra que es gratuita es la de entrada,
       que empieza conectada en el subsuelo.`,
@@ -183,8 +183,8 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `Con doce de tus témpanos (o más)
       que muestres de cualquiera de las fichas,
-      desplazas y conectas el glaciar
-      (la torre hexagonal resbaladiza).
+      o aíslas o conectas el glaciar:
+      la torre hexagonal resbaladiza.
       Conéctala a un camino por el mar,
       de vía carretera a las orillas.
       La cueva del glaciar es singular, 
@@ -216,8 +216,8 @@ const nauticalSections = [{
       al vórtice lo mueves a un hexágono.
       Y en este (exceptuando en el subsuelo)
       retén sus visitantes, congelándolo.
-      Si salen, es afuera del tablero,
-      volando con el viento huracanado.`,
+      Si escapan, es afuera del tablero,
+      se salen con el viento huracanado.`,
       // Tan solo en el graciar con agujero,
       // podrán ir al subsuelo y escaparlo.
       en: `Pay, from anywhere you please,

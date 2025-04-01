@@ -32,9 +32,9 @@ const introPage = {
   }],
   footer: {
     p: versify(Copy.text({
-      es: `El <a href="#full"><b>juego completivo</b></a> es desafiante,
+      es: `El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante,
         con reglas que usarás en lo adelante.`,
-      en: `For a <a href="#full"><b>full game</b></a> you'll include 
+      en: `For a <a href="#full"><b><big>full game</big></b></a> you'll include 
         the strategies of each suit.`,
     })),
   },

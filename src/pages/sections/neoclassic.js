@@ -13,7 +13,7 @@ const neoclassicSections = [{
     img: ASSETS.cavaliers,
     p: versify(Copy.text({
       es: `Las cuatro residencias de corceles;
-      y piezas que las unen por los rieles.`,
+      y piezas que las unen por sus rieles.`,
       en: `Adds four royals and their tiles;
     dashing steeds and tracks for miles.`,
     })),
@@ -46,7 +46,7 @@ const neoclassicSections = [{
       es: `En rumbos con caballos de los blancos,
       si muestras un corcel que haz adquirido,
       trasládate de gratis cabalgando,
-      tal como de los cruces del camino.`,
+      igual que de los cruces del camino.`,
       en: `On paths marked with a white steed,
       just show a Cavalier's card,
       and you'll ride it as you need,
@@ -59,7 +59,7 @@ const neoclassicSections = [{
     }),
     p: versify(Copy.text({
       es: `Las cartas de corceles las adquieres,
-      tal como las demás de la nobleza.
+      igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la ciudadela.`,
       en: `Their royal cards get acquired,

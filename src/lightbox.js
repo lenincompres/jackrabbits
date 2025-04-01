@@ -68,14 +68,14 @@ LightBox.add(new Pager({
   },
   roadTiles: {
     h3: Copy.text({
-      es: "Piezas viales",
+      es: "Vías carreteras",
       en: "Road tiles",
     }),
     img: ASSETS.roadTiles,
     p: versify(Copy.text({
-      es: `Las rutas de los rombos y los triángulos
-        que van de los hexágonos a hexágonos.`,
-      en: `The connecting roads a treks
+      es: `Las piezas de los rombos y los triángulos,
+        con vías que conectan los hexágonos.`,
+      en: `The connecting roads a treks,
         that take you from hex to hex.`
     }))
   },

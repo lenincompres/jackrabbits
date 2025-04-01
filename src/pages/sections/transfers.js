@@ -52,7 +52,7 @@ const transferSections = [{
       viajando por las aguas o las tierras.
       Por tierra: galopando sin pararte,
       moviéndote al hexágono que quieras.
-      Por agua: si el embarque del que sales
+      Por agua: si el lugar de comerciantes
       colinda con un lado a las afueras,
       te sales navegando por los mares
       y arrivas por alguna carretera.

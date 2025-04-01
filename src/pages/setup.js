@@ -118,9 +118,9 @@ const setupPage = {
   footer: {
     p: versify(Copy.text({
       es: `Después de preparado el territorio,
-        comienzas con un <a href="#intro"><b>juego introductorio</b></a>.`,
+        comienzas con un <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
       en: `Continue to the next frame 
-        to complete an <a href="#intro"><b>intro game</b></a>.`,
+        to complete an <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),
   },
 };
