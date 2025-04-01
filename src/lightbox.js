@@ -79,7 +79,7 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `Las piezas de los rombos y los triángulos,
         con vías que conectan los hexágonos.`,
-      en: `The connecting roads a treks,
+      en: `The connecting roads and treks,
         that take you from hex to hex.`
     }))
   },
