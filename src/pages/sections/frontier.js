@@ -50,7 +50,7 @@ const frontierSections = [{
         pay there what the dice require. 
         If your turn is off-board bound,
         and that's not what you desire, 
-        pay then to be transferred down
+        you may pay to transfer down
         to the underground's campfire.`,
     })),
   }],
@@ -95,7 +95,7 @@ const frontierSections = [{
       es: `La guardia obstaculiza las veredas:
         propicia la clausura de los triángulos.
         Si pagas con escudos dondequiera,
-        se pasa la vereda de tu agrado.
+        se pasa a la vereda de tu agrado.
         Si el triángulo es la pieza en que te encuentras,
         del sitio te regalan su traslado.`,
       en: `Guards are placed to block the road—
@@ -148,8 +148,8 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas… o te buscan.`,
-      en: `Pay to summon a hex's horse,
-      but on islands where they're found.
+      en: `Pay to summon a hex's horse—
+      on islands where these are found.
       They will gallop from their source
       if they can reach you by ground,
       and they'll take you on your course,
