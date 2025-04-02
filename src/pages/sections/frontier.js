@@ -25,9 +25,9 @@ const frontierSections = [{
       termina en las afueras del tablero.`,
       en: `You may attack—and defend—
       with torches instead of swords.
-      But when you steal in the end,
-      you will also go off-board.
-      Whoever's visiting then
+      Steal or not in the end,
+      you will find yourself off-board;
+      since everyone, there and then,
       will be removed from the board.`,
     })),
   }, {
@@ -200,14 +200,14 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-      en: `The beast is placed in its zones—
-      on rivers, mountains, or woods.
-      It sends off-board those who come
+      en: `The beast is placed on a zone—
+      a river, mountain, or woods.
+      It sends off-board those who come,
       unless they pay as they should.
       Pay, from wherever you roam,
-      to choose where to move it to.
-      Go off-board or cross along
-      if you summon it to you.`,
+      to choose where it will be moved.
+      Bring it to the zone you're on,
+      to leave the board or cut through.`,
     })),
   }]
 }, ];
