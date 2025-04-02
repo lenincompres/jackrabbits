@@ -186,7 +186,7 @@ const neoclassicSections = [{
       en: `Pay at its post or den
       to send it to any rabbit.
       The victim goes off-board then,
-      or you'll steal a card <strong>and scrap it</strong>.`,
+      or you'll steal a card—and scrap it.`,
     })),
   }, {
     h4: Copy.text({

@@ -52,10 +52,10 @@ LightBox.add(new Pager({
       en: `The hex where you wait around
         to reach caves in the next round.`,
       es: `La pieza hexagonal en la que esperas,
-        y evitas el pagar las madrigueras.`,
-      en: `The hex where you wait for free,
-        unless you pay the caves' fee. `,
-    }))
+        sin pago por usar las madrigueras.`,
+      en: `The hex where you wait for free—
+        go through caves without a fee. `,
+    })),
   },
   advancedCitadel: {
     h3: Copy.text({
