@@ -34,13 +34,13 @@ const overviewSection = {
     Copy.text({
       es: [
         `Es gratis completar <b>la travesía</b>
-      si viajas por las vías carreteras.
-      Se pagan <b>los traslados</b> de las vías:
-      transporte, pasadizo o madrigueras.`,
+        si viajas por las vías carreteras.
+        Se pagan <b>los traslados</b> de las vías:
+        transporte, pasadizo o madrigueras.`,
         `Detente en los hexágonos que llegues
-      y toma <b>el incremento</b> de tus cartas,
-      a menos que te salgas o <i>destierres</i>
-      por fuera de las piezas y sin barcas.`,
+        y toma <b>el incremento</b> de tus cartas,
+        a menos que te salgas o <i>destierres</i>
+        por fuera de las piezas y sin barcas.`,
       ],
       en: [
         `Make <b>the journey</b> hex to hex—
@@ -48,9 +48,9 @@ const overviewSection = {
         Only pay on off-road treks,
         or to ride a boat or horse.`,
         `Stop when you reach a hex tile,
-      and unless you're off the board,
-      draw a new card from the pile—
-      that's <b>the increment</b> you scored.`,
+        and unless you're off the board,
+        draw a new card from the pile—
+        that's <b>the increment</b> you scored.`,
       ],
     })),
 };
