@@ -345,6 +345,7 @@ article.main>article>section img {
 }
 
 .carded.link a.button{
+  font-size: 1.1em;
   position: absolute;
   top: 0;
   right: 0;
