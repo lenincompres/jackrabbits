@@ -24,9 +24,9 @@ const frontierSections = [{
       quienquiera que descanse en el lugar
       termina en las afueras del tablero.`,
       en: `You may attack—and defend—
-      with torches instead of swords.
-      Steal or not in the end,
-      you will find yourself off-board;
+      with torches just like with swords.
+      Yet steal or not, in the end,
+      you'll find yourself off-board;
       since everyone, there and then,
       will be removed from the board.`,
     })),
