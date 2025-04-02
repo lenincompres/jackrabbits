@@ -39,17 +39,17 @@ const frontierSections = [{
       es: `El triángulo de negro (con el fuego)
         conéctalo al subsuelo por un lado.
         Si pagas al llegar por el subsuelo,
-        te irás a la salida de inmediato.
+        te irás a la salida sin descanso.
         Y en turnos que te saquen del tablero,
         o elijas la salida en un costado,
         pagando evitarías el destierro,
-        moviéndote al subsuelo en un traslado.`,
+        moviéndote al subsuelo de inmediato.`,
       en: `This expansion underground
         adds a triangle with fire. 
         To exit in the same round, 
         pay there what the dice require. 
-        If your turn is off-board bound
-        and this is what you desire, 
+        If your turn is off-board bound,
+        and that's not what you desire, 
         pay then to be transferred down
         to the underground's campfire.`,
     })),
