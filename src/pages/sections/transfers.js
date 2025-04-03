@@ -19,7 +19,7 @@ const transferSections = [{
       Other ways to get around 
       are contingent on <a class="pop" onclick="popUp('price')"><b>the price</b></a>:
       use the suits marked on the ground
-      and pay the sum of your dice.`,
+      and the sum that's on your dice. `,
   }), {
     marginTop: '1.2rem',
     tag: "h4",
@@ -34,7 +34,7 @@ const transferSections = [{
       cruzando por el centro en un atajo,
       marcado con los palos permitidos
       que <a class="pop" onclick="popUp('price')">pagas con tus cartas</a> al cruzarlo.`,
-    en: `The mountains, rivers, and woods,
+    en: `Mountains, rivers and the woods,
       have two roads not far apart. 
       You may switch between these two,
       trekking through the center part.
@@ -59,13 +59,13 @@ const transferSections = [{
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
     en: `You may buy two types of rides
-      on crossings where roads are forked:
-      you'll gallop over the tiles
-      to any hex on the board;
-      or, row on the seas outside
-      to find a road from this port.
-      As soon as you <a class="pop" onclick="popUp('price')">pay the price</a>,
-      you must move to your next post.
+      at the tiles where roads are forked:
+      you will gallop over tiles
+      to some hex across the board,
+      or you'll row the seas outside—
+      reach another road to port.
+      Choose a ride and <a class="pop" onclick="popUp('price')">pay the price</a>,
+      then proceed to your next post.
       Since they're not by the seaside,
       landlocked merchants won't have boats.`,
   }), {
@@ -81,7 +81,7 @@ const transferSections = [{
       lo montas y liberas de tu mano.`,
     en: `When you pass by any tavern,
       you may <a class="pop" onclick="popUp('price')">buy</a> a joker card;
-      you'll choose when to ride and travel, 
+      choose when you would like to travel,
       then release it afterward.`,
   })),
   img: ASSETS.rides,

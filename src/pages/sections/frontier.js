@@ -26,7 +26,7 @@ const frontierSections = [{
       en: `You may attack—and defend—
       with torches just like with swords.
       Yet steal or not, in the end,
-      you'll find yourself off-board;
+      you will find yourself off-board;
       since everyone, there and then,
       will be removed from the board.`,
     })),
@@ -183,7 +183,7 @@ const frontierSections = [{
       adds them to the <i>overload</i>.
       The sum that this pile conveys
       is added to the dice rolled.
-      Discard the pile right away
+      Discard this pile right away
       if it adds ten to the load.`,
     })),
   }, {

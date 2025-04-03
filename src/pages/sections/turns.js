@@ -56,9 +56,9 @@ const turnSections = [{
     en: [
       `From the current hex you're on, 
       you may choose a path to exit.
-      Move your rabbit as a pawn 
-      along <a class="pop" onclick="popUp('roadTiles')">the road</a> you've selected.
-      And land at a hexagon—
+      Move your rabbit as a pawn—
+      trace <a class="pop" onclick="popUp('roadTiles')">the road</a> you have selected.
+      Reach another hexagon—
       wait a turn to cross the hexes.`,
       `You may move towards your goal,
       or choose not to move at all.`,
@@ -88,10 +88,10 @@ const turnSections = [{
     en: [
       `Your goal is to claim the card
       of the hex where you've set foot.
-      If unclaimed, you may discard
-      ten or more points of their suit,
-      then place a carrot to mark,
-      and finalize this pursuit.`,
+      If unclaimed, you may discard 
+      ten or more points of their suit— 
+      place a carrot as your mark, 
+      and be done with this pursuit. `,
       `Hexes never charge their guests,
       but you must stop there to rest.`,
       `Keep the card claimed in your hands—
@@ -118,15 +118,15 @@ const turnSections = [{
       revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
     ],
     en: [
-      `End your turns on a hex tile,
-      unless you go off the shore.** 
+      `End your turns on a hex tile—
+      if you don't fall off the shore.** 
       Get a new card from the pile, 
       and your turn will be done for. 
       If you find no cards, repile:
       shuffle the spent lot once more.`,
-      `*You may hold more than nine cards, 
+      `*You may hold more than nine cards—
       but if caught, you must discard.`,
-      `**Do not collect this reward,
+      `**Don't collect this turn's reward,
       if you ever end <a href="#intro/off"><b>off-board</b></a>.`,
     ]
   })),

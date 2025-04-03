@@ -16,7 +16,7 @@ const endingSection = {
       en: `Return to the <a class="pop" onclick="popUp('citadel')"><b>citadel</b></a>  
       with three royal cards in hand. 
       In this race you must excel
-      to be the champ of the land.`,
+      to claim champion of the land.`,
     }),
     ASSETS.thumbnailOf("citadel", "7em", e => popUp("citadel")),
     Copy.text({

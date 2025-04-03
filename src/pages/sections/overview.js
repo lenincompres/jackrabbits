@@ -21,13 +21,13 @@ const overviewSection = {
       ],
       en: [
         `Go through the realm turn by turn,
-      making stops on royal land.
-      Win the game when you return
-      with three royal cards in hand.`,
+        making stops on royal land.
+        Win the game when you return—
+        with three royal cards in hand.`,
         `<b>the acquisition</b> requires
-      ten points of a royal’s suit—
-      with every turn that transpires,
-      you will be scoring more loot.`,
+        ten points of a royal’s suit—
+        with every turn that transpires,
+        you'll gain new cards as your loot. `,
       ]
     }),
     ASSETS.royals,
@@ -44,7 +44,7 @@ const overviewSection = {
       ],
       en: [
         `Make <b>the journey</b> hex to hex—
-        any road is a free course.
+        every road is free to course.
         Only pay on off-road treks,
         or to ride a boat or horse.`,
         `Stop when you reach a hex tile,

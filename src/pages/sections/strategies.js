@@ -36,17 +36,17 @@ const strategySections = [{
       pick a tower as a goal
       for <b>the journey</b> through the skies.
       Otherwise, off-board you'll fall—
-      yet keep your card anywise.
+      keep your card then, anywise. 
       And <b>the lottery</b> still holds:
       you may match and claim the prize.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
       The <i>shortfall</i> (how much you're off)
       is the price that will suffice.
-      Pay with suits from the takeoff:
-      the hex that flies the device.
+      Pay with suits from the takeoff,
+      from the hex's flying device.
       You may trade the passport off
-      to pay the club tower's price.`,
+      where the clubs befit the price.`,
     ]
   })),
 }, {
@@ -79,20 +79,20 @@ const strategySections = [{
     ],
     en: [
       `You may steal a random card 
-      and send a player off-board, 
+      and send someone else off-board, 
       if you're playing where they are 
-      and challenge them with a sword. `,
+      and confront them with a sword. `,
       `You attack, and they defend, 
       adding spades you can afford.
       And the weakest, in the end, 
       will be sent out of the board.`,
-      `A count draw is strictly barred;
-      discard your spades when you're done.
-      There will be no stolen card  
-      if the defender has won.`,
+      `A count draw is strictly barred—
+      both discard your spades when done. 
+      There will be no stolen card—
+      should the defender has won.`,
       `When you steal a royal card, 
       discard one if it's your fourth; 
-      go to <b>the increment</b> part,
+      take <b>the increment</b>'s reward,
       and swap carrots in accord.`,
     ]
   })),
