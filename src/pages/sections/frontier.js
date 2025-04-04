@@ -201,7 +201,7 @@ const frontierSections = [{
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
       en: `The beast is placed on a zone—
-      a river, mountain, or woods.
+      river, mountain, or the woods.
       It sends off-board those who come,
       unless they pay as they should.
       Pay, from wherever you roam,
