@@ -27,7 +27,7 @@ const overviewSection = {
         `<b>the acquisition</b> requires
         ten points of a royal’s suit—
         with every turn that transpires,
-        you'll gain new cards as your loot. `,
+        you'll score new cards as your loot. `,
       ]
     }),
     ASSETS.royals,

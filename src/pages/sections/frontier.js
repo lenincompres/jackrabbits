@@ -38,7 +38,7 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `El triángulo de negro (con el fuego)
         conéctalo al subsuelo por un lado.
-        Si pagas al llegar por el subsuelo,
+        Si pagas al estar en el subsuelo,
         te irás a la salida sin descanso.
         Y en turnos que te saquen del tablero,
         o elijas la salida en un costado,
