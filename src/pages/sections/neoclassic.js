@@ -13,9 +13,13 @@ const neoclassicSections = [{
     img: ASSETS.cavaliers,
     p: versify(Copy.text({
       es: `Las cuatro residencias de corceles;
-      y piezas que las unen por sus rieles.`,
+      y piezas que las unen por sus rieles.
+      Las reglas opcionales, si lo quieres,
+      al hongo de la pila te confiere.`,
       en: `Adds four royals and their tiles;
-    dashing steeds and tracks for miles.`,
+      dashing steeds and tracks for miles;
+      and an option to compile:
+      the mushroom that rots the pile.`,
     })),
   },
   section: [{
@@ -67,6 +71,25 @@ const neoclassicSections = [{
       To ride the steeds, they're required;
       but they will not end the game.`,
     })),
+  }, {
+    h5: Copy.text({
+      es: "+ La ficha del hongo",
+      en: "+ The Mushroom Token",
+    }),
+    p: versify(Copy.text({
+      es: `Te adueñas de la ficha de momento
+      si el tiro de tus dados es un doble.
+      Le niegas a cualquiera su incremento;
+      tendrá que desartarlo recoge.
+      La pierdes al gozar de sus efectos
+      o si alguien con un doble te la coge.`,
+      en: `If you roll and get a double, 
+      claim the mushroom with intent—
+      use it once to force another
+      to discard their increment.
+      You will not remain its holder
+      should a claim be pertinent.`,
+    })),
   }],
 }, {
   boxShadow: "1px 1px 3px black",
@@ -79,9 +102,13 @@ const neoclassicSections = [{
     img: ASSETS.allies,
     p: versify(Copy.text({
       es: `Los seis ayuntamientos y sus nobles;
-      y dos de los conejos jugadores.`,
+      y dos de los conejos jugadores.
+      También en las tabernas que te topes,
+      tendrán al comodín de los cañones.`,
       en: `Adds six royals and their tiles;
-      plus two rabbits with new styles.`,
+      plus two rabbits with new styles;
+      and for the joker's profiles,
+      one more card in the court's isle.`,
     })),
   },
   section: [{
@@ -133,13 +160,24 @@ const neoclassicSections = [{
       The other, grants <strong>one</strong> discard—
       draw as many as you lose.`,
     })),
+  }, {
+    h4: Copy.text({
+      es: "Comodín de cañones",
+      en: "Cannonball Joker",
+    }),
+    p: versify(Copy.text({
+      es: `Dispárate a la torre que prefieras,
+      sin miedo a terminar en las afueras.`,
+      en: `Make a trip across the air
+      to the tower you prefer.`,
+    })),
   }],
   footer: {
     p: versify(Copy.text({
       es: `Los bordes en azul de sus hexágonos,
       se deben mantener desconectados.`,
-      en: `Adds six royals and their tiles;
-      plus two rabbits with new styles`,
+      en: `Their hexes have sea-blue sides—
+        leave them open to the tides.`,
     })),
   },
 }, {
