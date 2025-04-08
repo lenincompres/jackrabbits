@@ -43,10 +43,10 @@ const strategySections = [{
       if you pay to meet the dice.
       The <i>shortfall</i> (how much you're off)
       is the price that will suffice.
-      Pay with suits from the takeoff,
-      from the hex's flying device.
+      Pay with suits from the takeoff—
+      the hex that flies the device.
       You may trade the passport off
-      where the clubs befit the price.`,
+      where the clubs fulfill the price.`,
     ]
   })),
 }, {
@@ -189,7 +189,7 @@ const strategySections = [{
       while taking turns on the board.
       They must conceal their rewards
       and strike deals offering gold.
-      If traded cards prove a farce,
+      If cards traded prove a farce,
       swindlers will get thrown off-board.`,
   })),
 }];

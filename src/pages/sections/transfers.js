@@ -18,8 +18,8 @@ const transferSections = [{
       these go through an underpass.
       Other ways to get around 
       are contingent on <a class="pop" onclick="popUp('price')"><b>the price</b></a>:
-      use the suits marked on the ground
-      and the sum that's on your dice. `,
+      with the suits marked on the ground,
+      pay the sum that's on your dice. `,
   }), {
     marginTop: '1.2rem',
     tag: "h4",
