@@ -14,8 +14,8 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: `Las cuatro residencias de corceles;
       y piezas que las unen por sus rieles.
-      Las reglas opcionales, si lo quieres,
-      al hongo de la pila te confiere.`,
+      La ficha con el hongo y sus poderes,
+      que añades a las reglas si lo quieres.`,
       en: `Adds four royals and their tiles;
       dashing steeds and tracks for miles;
       and an option to compile:
@@ -72,24 +72,24 @@ const neoclassicSections = [{
       but they will not end the game.`,
     })),
   }, {
-    h5: Copy.text({
-      es: "+ La ficha del hongo",
-      en: "+ The Mushroom Token",
+    h4: Copy.text({
+      es: "+ Ficha del hongo",
+      en: "+ Mushroom Token",
     }),
     p: versify(Copy.text({
-      es: `Te adueñas de la ficha de momento
+      es: `Aduéñate del hongo en el momento
       si el tiro de tus dados es un doble.
-      Le niegas a cualquiera su incremento;
-      tendrá que desartarlo recoge.
-      La pierdes al gozar de sus efectos
-      o si alguien con un doble te la coge.`,
+      Le niegas a quienquiera su incremento,
+      pidiendo descartar lo que recoge.
+      Lo pierdes a raíz de sus efectos
+      o si alguien con un doble te lo coge.`,
       en: `If you roll and get a double, 
-      claim the mushroom with intent—
-      use it once to force another
+      claim the mushroom for a spent—
+      give it up to force another
       to discard their increment.
       You will not remain its holder
       should a claim be pertinent.`,
-    })),
+    })), // o tal ves el hongo se pone se un hexágono.
   }],
 }, {
   boxShadow: "1px 1px 3px black",
@@ -103,11 +103,11 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: `Los seis ayuntamientos y sus nobles;
       y dos de los conejos jugadores.
-      También en las tabernas que te topes,
-      tendrán al comodín de los cañones.`,
-      en: `Adds six royals and their tiles;
+      También en las tabernas de los jokers,
+      se añade el comodín de los cañones.`,
+      en: `Adds six royals and their tiles,
       plus two rabbits with new styles;
-      and for the joker's profiles,
+      and boosts the joker's profiles—
       one more card in the court's isle.`,
     })),
   },
@@ -202,9 +202,9 @@ const neoclassicSections = [{
       en: "Substitute other suits",
     }),
     p: versify(Copy.text({
-      es: `Las flores se usarán en los traslados,
+      es: `Las flores se usarán en los traslados
       y nunca al adquirir a la nobleza.
-      Suplantan a los cuatro <strong>palos clásicos</strong>,
+      Suplantan a los palos (de los clásicos)
       excepto en el poder de su estrategia.`,
       en: `Fleurs are <strong>classic suits</strong>' replacements,
       except in their unique powers.

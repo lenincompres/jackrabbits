@@ -58,16 +58,16 @@ const transferSections = [{
       y arrivas por alguna carretera.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
-    en: `You may buy two types of rides
-      at the tiles where roads are forked:
-      you will gallop over tiles
-      to some hex across the board,
-      or you'll row the seas outside—
-      reach another road to port.
-      Choose a ride and <a class="pop" onclick="popUp('price')">pay the price</a>,
-      then proceed to your next post.
-      Since they're not by the seaside,
-      landlocked merchants won't have boats.`,
+    en: `At the tiles where roads are forked,
+      you may buy two types of rides:
+      reach a hex across the board,
+      dashing over tiles in stride,
+      or select a road to port
+      as you row the seas outside.
+      You'll proceed to your next post
+      once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>.
+      Landlocked merchants won't have boats
+      since they're not by the seaside.`,
   }), {
     tag: "h4",
     html: Copy.text({
