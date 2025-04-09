@@ -54,12 +54,12 @@ const turnSections = [{
       consulta <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
-      `From the current hex you're on, 
-      you may choose a path to exit.
-      Move your rabbit as a pawn—
-      trace <a class="pop" onclick="popUp('roadTiles')">the road</a> that you've selected.
-      Reach another hexagon—
-      wait a turn to cross the hexes.`,
+      `You may choose a path to exit
+      from the current hex you're on.
+      Trace <a class="pop" onclick="popUp('roadTiles')">the road</a> that you've selected
+      with your rabbit as a pawn.
+      Wait a turn to cross the hexes—
+      don’t move past a hexagon.`,
       `You may move towards your goal,
       or choose not to move at all.`,
       `For more transportation modes,
