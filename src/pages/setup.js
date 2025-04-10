@@ -27,7 +27,7 @@ const setupPage = {
           se ensambla en un diseño aleatorio;
           comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,
-          en: `The lands you’ll linked in this spread
+          en: `The lands you’ll link in this spread
           house the royals from each throne. 
           On your first game, go ahead,
           build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as is shown.
