@@ -19,7 +19,7 @@ const greetingsSection = {
       `Hear ye, glorious messengers,`,
       `An auspicious quest is in order. The Order of Messenger Rabbits of the Citadel hereby orders a race to procure royals to be ordained as the Council of Thirds—the highest order ever issued to a rabbit of this Order:`,
       `<strong>Visit the noble houses, acquire the cards of three royals, and bring them to the Citadel</strong>, in that order.`,
-      `Note that I wrote “that order”</br>not in reference to another order</br>of messenger rabbits, nor the order that drives this letter, but the order of the steps you must take, in order to fully restore the realm's order.`,
+      `Note that I wrote “that order”</br>not in reference to any other order</br>of messenger rabbits, nor the order that drives this letter, but the order of the steps you must take in order to fully restore the realm's order.`,
       `So, hoppity hop, in orderly fashion. Don't dawdle. No time to lose!`,
       `The White Herald`,
     ]
