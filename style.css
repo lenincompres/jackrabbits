@@ -384,7 +384,7 @@ article.main>article.shuffle>section {
   display: block;
   text-align: left;
   font-style: italic;
-  text-indent: 1.6rem;
+  text-indent: 2rem;
 }
 
 .letter p:last-child {
