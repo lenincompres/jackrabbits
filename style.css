@@ -608,14 +608,3 @@ section.optional h4 {
 section.optional h5:before {
   content: "+ ";
 }
-
-.em-dash {
-  display: inline-block;
-  overflow: hidden;
-  width: 0.7em;
-  height: 1em;
-}
-
-.em-dash::before {
-  content: "—";
-}

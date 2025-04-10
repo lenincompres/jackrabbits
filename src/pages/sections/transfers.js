@@ -12,14 +12,14 @@ const transferSections = [{
       marcados a mitad de los polígonos,
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de los símbolos.`,
-    en: `It is free to make your rounds
-      if you move along the paths;
-      in the mountains (farther down),
-      these go through an underpass.
-      Other ways to get around 
-      are contingent on <a class="pop" onclick="popUp('price')"><b>the price</b></a>:
-      with the suits marked on the ground,
-      pay the sum that's on your dice. `,
+    en: `The journey along the paths
+    is always free on your round—
+    even through an underpass
+    in the mountains, farther down.
+    Road tiles offer—<a class="pop" onclick="popUp('price')">at a price</a>—
+    other ways to get around:
+    pay the sum that’s on your dice
+    with the suits marked on the ground.`,
   }), {
     marginTop: '1.2rem',
     tag: "h4",
@@ -58,8 +58,8 @@ const transferSections = [{
       y arrivas por alguna carretera.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
-    en: `At the tiles where roads are forked,
-      you may buy two types of rides:
+    en: `The tiles where the road is forked
+      offer two choices to ride:
       reach a hex across the board,
       dashing over tiles in stride,
       or select a road to port
@@ -101,7 +101,7 @@ const transferSections = [{
       use this trick to hop around. 
       But if you would rather save,
       take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>. 
-      In this case, the payment's waived—
+      Your wait is a payment waive—
       hop on out in the next round.`,
   }), {
     tag: "a",
