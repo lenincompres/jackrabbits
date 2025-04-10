@@ -36,7 +36,7 @@ const strategySections = [{
       pick a tower as a goal
       for <b>the journey</b> through the skies.
       Otherwise, off-board you'll fall—
-      yet keep your cards, anywise. 
+      yet keep your card, anywise. 
       And <b>the lottery</b> still holds:
       you may match and claim the prize.`,
       `You'll still fly and won't fall off
@@ -88,8 +88,8 @@ const strategySections = [{
       will be sent out of the board.`,
       `A count draw is strictly barred—
       both discard your spades when done. 
-      There will be no stolen card—
-      should the defender has won.`,
+      There will be no stolen card,
+      if the defender has won.`,
       `When you steal a royal card, 
       discard one if it's your fourth; 
       take <b>the increment</b>'s reward,
