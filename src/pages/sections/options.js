@@ -205,7 +205,7 @@ const optionalSections = [{
     p: versify(Copy.text({
       es: `Si ocultas un exceso en lo que tomas,
         quienquiera que lo note te lo roba.`,
-      en: `If you horde cards and are found,
+      en: `If you hoard cards and are found,
         the caller robs your hand down.`,
     })),
   }, {
