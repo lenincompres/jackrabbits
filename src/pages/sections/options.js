@@ -144,7 +144,7 @@ const optionalSections = [{
       es: `Conviertes residencias en palacios
         si exhibes corazones al pararte:
         tu mínimo de seis reglamentarios
-        que acusan a cualquiera al visitarte.`,
+        que juzgan a cualquiera al visitarte.`,
       en: `Display a sum of six hearts
         at any house where you'll rest, 
         declaring you'll use these cards
