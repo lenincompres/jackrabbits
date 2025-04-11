@@ -92,7 +92,7 @@ const turnSections = [{
       ten or more points of their suit— 
       place a carrot as your mark, 
       and be done with this pursuit. `,
-      `Hexes never charge their guests,
+      `You never pay as a guest,
       but you must stop there to rest.`,
       `Keep the card claimed in your hands—
       get <b>the increment</b> at once.`,

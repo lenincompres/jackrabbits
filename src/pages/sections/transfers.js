@@ -39,7 +39,7 @@ const transferSections = [{
       You may switch between these two,
       trekking through the center part.
       To do this, <a class="pop" onclick="popUp('price')">pay with your suits</a>—
-      in this case, clubs, spades, or hearts.`,
+      see the marked club, spade, and heart.`,
   })),
   img: ASSETS.rhombi,
 }, {
@@ -100,8 +100,8 @@ const transferSections = [{
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
       But if you would rather save,
-      take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>. 
-      Your wait is a payment waive—
+      take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>;
+      thus your wait becomes a waive—
       hop on out in the next round.`,
   }), {
     tag: "a",

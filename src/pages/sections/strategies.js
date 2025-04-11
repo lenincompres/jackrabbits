@@ -23,12 +23,12 @@ const strategySections = [{
       te sales al destierro en las orillas.
       Igual el pasaporte lo recoges,
       y el premio si un acierto se confirma.`,
-      `Se puede completar la travesía,
-      pagar la diferencia de los dados,
-      con palos de la torre de partida
-      que cubran el <i>restante</i> resultado.
-      La carta pasaporte es permitida
-      si vuelas de la torre de los bastos.`
+      `Pagar la diferencia de los dados
+      te ayuda a completar la travesía;
+      si cubres el <i>restante</i> resultado
+      con palos de la torre de partida.
+      Si vuelas de la torre de los bastos,
+      la carta pasaporte es permitida.`
     ],
     en: [
       `Show one card before you roll;
@@ -38,7 +38,7 @@ const strategySections = [{
       Otherwise, off-board you'll fall—
       yet keep your card, anywise. 
       And <b>the lottery</b> still holds:
-      you may match and claim the prize.`,
+      you may claim the prize likewise.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
       The <i>shortfall</i> (how much you're off)
@@ -73,27 +73,27 @@ const strategySections = [{
       le robas la primera que tocases
       (a ciegas deberás seleccionarla).`,
       `Si robas y la carta es de nobleza,
-      te toca <b>el incremento</b> de tus cartas;
+      te toca <b>el incremento</b> en la parada;
       y entrégale a la corte la que quieras
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
-      `You may steal a random card 
+      `You may steal a card at random 
       and send someone else off-board, 
-      if you're playing where they are 
-      and confront them with a sword. `,
+      if you meet to claim their item
+      and attack them with a sword.`,
       `You attack, and they defend, 
       adding spades you can afford.
       And the weakest, in the end, 
       will be sent out of the board.`,
-      `A count draw is strictly barred—
-      both discard your spades when done. 
-      There will be no stolen card,
-      if the defender has won.`,
+      `A count draw is strictly banned—
+      both discard the spades outpoured.
+      Victims won’t steal from your hand
+      if they win and keep their hoard.`,
       `When you steal a royal card, 
       discard one if it's your fourth; 
       take <b>the increment</b>'s reward,
-      and swap carrots in accord.`,
+      and match carrots in accord.`,
     ]
   })),
 }, {
@@ -126,13 +126,13 @@ const strategySections = [{
     ],
     en: [
       `As you enter a queen's hex,
-      any player may demand:
+      any player may intone:
       that if you do not possess
-      the queen's card that marks the land,
+      the queen's card that marks this throne,
       you show six points to the rest,
-      adding heart cards from your hand.
+      adding heart cards that you own.
       Off-board players can't request;
-      they're not fit to take a stand.`,
+      they're not fit to cast a stone.`,
       `Yet those asking for your hearts
       must first show cards of their own,
       which, even from far apart,
@@ -162,13 +162,13 @@ const strategySections = [{
       excepto en el marcado con la estrella,
       que acepta de cualquiera por el pago.`,
     en: `All spent cards are being sold;
-      each jack's hex sells its own suit.
-      Check what these posts have in store—
+      each Jack’s place sells its own suit.
+      Check what treasures these may hold—
       when you play there, grab some loot.
-      What you take, replace with gold
-      as the signs instruct you to.
-      The star symbol on the board
-      means that any suit will do.`,
+      What you take, replace with gold—
+      see the markings underfoot.
+      Note the asterisk in bold;
+      it means any suit will suit.`,
   })),
   h5: Copy.text({
     es: "+ Comercio Interpersonal",
@@ -184,13 +184,13 @@ const strategySections = [{
       y a quien se le descubra por chantaje,
       después del intercambio se destierra.`,
     en: `If agreed when the game starts,
-      the cards in hand may be sold.
-      Those who meet may trade with cards
-      while taking turns on the board.
-      They must conceal their rewards
-      and strike deals offering gold.
-      If cards traded prove a farce,
-      swindlers will get thrown off-board.`,
+    players may trade in cahoot.
+    Meet to buy with diamond cards
+    while you take turns on your route.
+    Keep concealed your hand’s rewards—
+    strike a deal for your pursuit.
+    If cards traded prove a farce,
+    swindlers get the off-board boot.`,
   })),
 }];
 
