@@ -174,8 +174,8 @@ const frontierSections = [{
     }),
     p: versify(Copy.text({
       es: `Si dejas tus bellotas en la mesa,
-      se añaden a la <i>pila sobrecargo</i>.
-      Su número de puntos, que incrementa,
+      se añaden a la <i>pila sobrecargo</i>:
+      su número de puntos, que incrementa,
       se suma al resultado de los dados.
       En cuanto sobrepasa la decena,
       la pila se descarta de inmediato.`,

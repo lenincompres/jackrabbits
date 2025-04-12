@@ -112,6 +112,20 @@ const neoclassicSections = [{
       Those who visit face a struggle:
       they can't claim their increment.`,
     })),
+    p_: versify(Copy.text({
+      es: `Al hongo lo reubicas de su puesto
+      si acabas en el sitio en el que ronde.
+      Tendrá que descartar el incremento
+      quienquiera que en su sitio lo recoge.
+      Decides su lugar en el comienzo
+      si sales con el último en el orden.`,
+      en: `If you start with the last turn
+      choose its starting settlement.
+      Those who visit it, in turn,
+      cannot claim their increment.
+      Move the mushroom end-of-turn
+      if you land on where it's sent.`,
+    })),
   }],
 }, {
   boxShadow: "1px 1px 3px black",
@@ -228,7 +242,7 @@ const neoclassicSections = [{
       y nunca al adquirir a la nobleza.
       Suplantan a los palos (de los clásicos)
       excepto en el poder de su estrategia.`,
-      en: `Fleurs are <strong>classic suits</strong>' replacements,
+      en: `Fleurs are classic suits' replacements,
       except in their unique powers.
       Use them for the transfer payments—
       don't claim royals with these flowers.`,
