@@ -16,9 +16,9 @@ const neoclassicSections = [{
       y piezas que las unen por sus rieles.
       La ficha con el hongo y sus poderes,
       que añades a las reglas si lo quieres.`,
-      en: `Adds four royals and their tiles;
-      dashing steeds and tracks for miles;
-      and an option to compile:
+      en: `Adds four royals and their tiles
+      with fast steeds and tracks for miles,
+      and a token to compile:
       the mushroom that rots the pile.`,
     })),
   },
@@ -73,23 +73,45 @@ const neoclassicSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "+ Ficha del hongo",
-      en: "+ Mushroom Token",
+      es: "Hongo Opcional",
+      en: "Optional Mushroom",
+    }),
+    h5: Copy.text({
+      es: `+ Sabotaje esporádico`,
+      en: `+ Sporadic Sabotage`,
     }),
     p: versify(Copy.text({
       es: `Aduéñate del hongo en el momento
       si el tiro de tus dados es un doble.
       Le niegas a quienquiera su incremento,
-      pidiendo descartar lo que recoge.
+      pidiendo que descarte lo que tome.
       Lo pierdes a raíz de sus efectos
-      o si alguien con un doble te lo coge.`,
+      o si alguien con un doble lo recoge.`,
       en: `If you roll and get a double, 
       claim the mushroom for a spent—
       give it up to force another
       to discard their increment.
       You will not remain its holder
       should a claim be pertinent.`,
-    })), // o tal ves el hongo se pone se un hexágono.
+    })),
+    h5_: Copy.text({
+      es: `+ Hexágono Colonizado`,
+      en: `+ Hexagonal Molding`,
+    }),
+    p_: versify(Copy.text({
+      es: `Al hongo lo reubicas de su puesto
+      si el tiro de tus dados es un doble,
+      también si al descansar en tu trayecto
+      terminas en el sitio en el que ronde.
+      Tendrá que descartar el incremento
+      quienquiera que en su sitio lo recoge.`,
+      en: `If you roll and get a double,
+      or it's there where your turns end,
+      move the mushroom to cause trouble—
+      choose a hex with ill intent.
+      Those who visit face a struggle:
+      they can't claim their increment.`,
+    })),
   }],
 }, {
   boxShadow: "1px 1px 3px black",
@@ -107,8 +129,8 @@ const neoclassicSections = [{
       se añade el comodín de los cañones.`,
       en: `Adds six royals and their tiles,
       plus two rabbits with new styles;
-      and boosts the joker's profiles—
-      one more card in the court's isle.`,
+      and a new joker's profile
+      with its card for the court's isle.`,
     })),
   },
   section: [{
@@ -168,7 +190,7 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: `Dispárate a la torre que prefieras,
       sin miedo a terminar en las afueras.`,
-      en: `Make a trip across the air
+      en: `Take a trip across the air
       to the tower you prefer.`,
     })),
   }],
@@ -208,7 +230,7 @@ const neoclassicSections = [{
       excepto en el poder de su estrategia.`,
       en: `Fleurs are <strong>classic suits</strong>' replacements,
       except in their unique powers.
-      They are used as transfer payments—
+      Use them for the transfer payments—
       don't claim royals with these flowers.`,
     })),
   }, {

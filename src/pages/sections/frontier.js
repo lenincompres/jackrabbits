@@ -180,7 +180,7 @@ const frontierSections = [{
       En cuanto sobrepasa la decena,
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display
-      adds them to the <i>overload</i>.
+      adds them to the <i>overload</i>—
       The sum that this pile conveys
       is added to the dice rolled.
       Discard this pile right away

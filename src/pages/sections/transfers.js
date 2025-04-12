@@ -14,8 +14,8 @@ const transferSections = [{
       y pagas con las cartas de los símbolos.`,
     en: `The journey along the paths
     is always free on your round—
-    even through an underpass
-    in the mountains, farther down.
+    even through an underpass,
+    see the mountains (farther down).
     Road tiles offer—<a class="pop" onclick="popUp('price')">at a price</a>—
     other ways to get around:
     pay the sum that’s on your dice
@@ -101,7 +101,7 @@ const transferSections = [{
       use this trick to hop around. 
       But if you would rather save,
       take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>;
-      thus your wait becomes a waive—
+      wait in there to earn a waive—
       hop on out in the next round.`,
   }), {
     tag: "a",
