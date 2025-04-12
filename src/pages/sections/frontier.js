@@ -148,14 +148,14 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas… o te buscan.`,
-      en: `Pay to summon a hex's horse—
+      en: `Pay to summon a brown horse—
       on islands where these are found.
       They will gallop from their source
       if they can reach you by ground,
       and they'll take you on your course,
-      even to the underground.
-      They may ride to the cave's doors,
-      but they'll never venture down.`,
+      even to the underground—
+      where they ride to the cave's doors
+      but will never venture down.`,
     })),
   }]
 }, {
@@ -181,7 +181,7 @@ const frontierSections = [{
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display
       adds them to the <i>overload</i>—
-      The sum that this pile conveys
+      the sum that this pile conveys
       is added to the dice rolled.
       Discard this pile right away
       if it adds ten to the load.`,

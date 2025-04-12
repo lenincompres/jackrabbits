@@ -135,7 +135,7 @@ const nauticalSections = [{
       en: `When you start a duel with bells,
       no body will end off-board.
       Every player where you dwell
-      must gift you a card they hoard;
+      must gift you a card they hoard,
       or add bells to duel as well—
       if they win, your plea's ignored.`,
       //Implore from their tower's cell,
@@ -191,11 +191,11 @@ const nauticalSections = [{
       te deja en el subsuelo de caída.`,
       en: `Count the icicles you hoard,
       show a sum of twelve at least,
-      to connect (or move off-shore)
+      to connect—or move off-shore—
       the tower of icy breeze.
       Connect to a road tile's port:
       a road open to the seas.
-      There's a drop chute on its floor;
+      There's a drop chute on its floor—
       one way underground, it leads.`,
       /*`If your turn will end off-board,
       or you're heading to the seas,

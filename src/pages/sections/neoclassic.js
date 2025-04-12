@@ -73,9 +73,9 @@ const neoclassicSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Hongo Opcional",
-      en: "Optional Mushroom",
-    }),
+      es: "+ Hongo Opcional",
+      en: "+ Optional Mushroom",
+    }),/*
     h5: Copy.text({
       es: `+ Sabotaje esporádico`,
       en: `+ Sporadic Sabotage`,
@@ -111,7 +111,7 @@ const neoclassicSections = [{
       choose a hex with ill intent.
       Those who visit face a struggle:
       they can't claim their increment.`,
-    })),
+    })),*/
     p_: versify(Copy.text({
       es: `Al hongo lo reubicas de su puesto
       si acabas en el sitio en el que ronde.
@@ -119,7 +119,7 @@ const neoclassicSections = [{
       quienquiera que en su sitio lo recoge.
       Decides su lugar en el comienzo
       si sales con el último en el orden.`,
-      en: `If you start with the last turn
+      en: `If you start with the last turn,
       choose its starting settlement.
       Those who visit it, in turn,
       cannot claim their increment.
