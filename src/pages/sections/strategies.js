@@ -91,7 +91,7 @@ const strategySections = [{
       Victims won’t steal from your hand
       if they win and keep their hoard.`,
       `When you steal a royal card, 
-      discard one if it's your fourth; 
+      discard one if it's your fourth— 
       take <b>the increment</b>'s reward,
       and match carrots in accord.`,
     ]
@@ -131,7 +131,7 @@ const strategySections = [{
       the queen's card that marks this throne,
       you show six points to the rest,
       adding heart cards that you own.
-      Off-board players can't request;
+      Off-board players can't request—
       they're not fit to cast a stone.`,
       `Yet those asking for your hearts
       must first show cards of their own,
