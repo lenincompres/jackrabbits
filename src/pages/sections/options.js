@@ -48,7 +48,7 @@ const optionalSections = [{
         lo añades del que tienes en tu frente.`,
       en: `Playing your capital <b>A</b>ce
         will grant you a bonus tip:
-        when needed at any place,
+        if its suit suits at a place,
         it counts as one extra pip.`,
     })),
   }],
@@ -131,7 +131,7 @@ const optionalSections = [{
         podrás aterrizar en los hexágonos,
         excepto por supuesto en el subsuelo.`,
       en: `When flying from any tower, 
-        find more places to touch down;
+        find more places to touch down:
         you may reach—with the clubs' power—
         any hex above the ground.`,
     })),
@@ -145,10 +145,10 @@ const optionalSections = [{
         si exhibes corazones al pararte:
         tu mínimo de seis reglamentarios
         que juzgan a cualquiera al visitarte.`,
-      en: `Display a sum of six hearts
-        at any house where you'll rest, 
-        declaring you'll use these cards
-        to accuse incoming guests.`,
+      en: `Display, where you’ll take a rest,
+        at least a sum of six hearts,  
+        and you'll judge incoming guests—
+        the underground takes no part.`,
     })),
   }, {
     h5: Copy.text({
@@ -194,7 +194,7 @@ const optionalSections = [{
     p: versify(Copy.text({
       es: `Las cartas se tendrán en escasez,
         pues cargas con un máximo de seis.`,
-      en: `Cap the cards you may accrue;
+      en: `Cap the cards you may accrue—
         up to six to hold on to.`,
     })),
   }, {
