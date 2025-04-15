@@ -138,7 +138,7 @@ const strategySections = [{
       which, even from far apart,
       prove their access to this zone.
       If you fail to show your cards,
-      go off-board—your cover's blown!
+      off the board you’re swiftly thrown.
       But succeed, and they'll depart—
       kicked off, losing what they've shown.`,
     ]
