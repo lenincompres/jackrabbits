@@ -82,10 +82,10 @@ const strategySections = [{
       and send someone else off-board, 
       if you meet to claim their item
       and attack them with a sword.
-      You throw strikes, and they return them,
-      adding spades you can afford.
-      And the weakest, judged in tandem,
-      will be sent out of the board.`,
+      You throw strikes, and they return them—
+      adding spades you can afford—
+      and the weakest, judged in tandem,
+      will be knocked right off the board.`,
       `A count draw is strictly barred—
       both discard the spades outpoured.
       They can’t take the cards you guard
