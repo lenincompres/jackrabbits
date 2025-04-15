@@ -134,9 +134,9 @@ const strategySections = [{
       Off-board players can't request—
       they're not fit to cast a stone.`,
       `Yet those asking for your hearts
-      must first show cards of their own,
-      which, even from far apart,
-      prove their access to this zone.
+      must first show cards of their own—
+      even if they're far apart—
+      prove they could access this zone.
       If you fail to show your cards,
       off the board you’re swiftly thrown.
       But succeed, and they'll depart—
