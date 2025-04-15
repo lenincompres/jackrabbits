@@ -81,16 +81,16 @@ const strategySections = [{
       `You may steal a card at random 
       and send someone else off-board, 
       if you meet to claim their item
-      and attack them with a sword.`,
-      `You attack, and they defend, 
+      and attack them with a sword.
+      You throw strikes, and they return them,
       adding spades you can afford.
-      And the weakest, in the end, 
+      And the weakest, judged in tandem,
       will be sent out of the board.`,
-      `A count draw is strictly banned—
+      `A count draw is strictly barred—
       both discard the spades outpoured.
-      Victims won’t steal from your hand
-      if they win and keep their hoard.`,
-      `When you steal a royal card, 
+      They can’t take the cards you guard
+      if they win and keep their hoard.
+      When you steal a royal card, 
       discard one if it's your fourth— 
       take <b>the increment</b>'s reward,
       and match carrots in accord.`,
@@ -184,9 +184,9 @@ const strategySections = [{
       y a quien se le descubra por chantaje,
       después del intercambio se destierra.`,
     en: `If agreed when the game starts,
-    players may trade in cahoot.
-    Meet to buy with diamond cards
-    while you take turns on your route.
+    players may trade in cahoot:
+    meet to buy with diamond cards 
+    while taking turns on their route.
     Keep concealed your hand’s rewards—
     strike a deal for your pursuit.
     If cards traded prove a farce,

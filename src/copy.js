@@ -33,7 +33,7 @@ and stay tuned for our campaign.`,
   },
   buy: {
     es: "Adquiere el juego",
-    en: "Buy the game",
+    en: "Purchase the game",
   },
   virtual: {
     es: "Versión virtual",
@@ -41,6 +41,6 @@ and stay tuned for our campaign.`,
   },
   novel: {
     es: "Descubre la novela",
-    en: "Read the novel",
+    en: "Discover the novel",
   }
 });

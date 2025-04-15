@@ -100,8 +100,8 @@ const transferSections = [{
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
       But if you would rather save,
-      take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>;
-      wait in there to earn a waive—
+      take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>.
+      Wait in there to earn a waive—
       hop on out in the next round.`,
   }), {
     tag: "a",
@@ -125,7 +125,7 @@ const transferSections = [{
       that leads to the edge (outbound),
       you'll end your turn off the board,
       with no <b>increment</b>—you've drowned.
-      But then, once you've rolled off-board,
+      Next turn, once you've rolled off-board,
       you'll enter the <a class="pop" onclick="popUp('underground')"><b>underground</b></a>!
       Get your <b>increment</b> restored,
       while you wait another round.`,

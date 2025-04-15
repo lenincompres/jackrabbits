@@ -60,8 +60,8 @@ const boardSection = {
       and keep triangles spread broad,
       instead of closely connected <sup>!</sup>.
       To start an island abroad,
-      just place a hex disconnected;
-      yet, the underground is odd,
+      just place a hex disconnected.
+      The underground hex is odd,
       and will remain unconnected.`,
   })),
 };
