@@ -90,7 +90,7 @@ const strategySections = [{
       both discard the spades outpoured.
       They can’t take the cards you guard
       if they win and keep their hoard.
-      When you steal a royal card, 
+      If you steal a royal card, 
       discard one if it's your fourth— 
       take <b>the increment</b>'s reward,
       and match carrots in accord.`,
