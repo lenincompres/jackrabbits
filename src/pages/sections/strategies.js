@@ -79,15 +79,15 @@ const strategySections = [{
     ],
     en: [
       `You may steal a card at random 
-      and kick someone else off-board, 
+      and kick someone off the board, 
       if you meet to claim their item
       and attack them with a sword.
       You’ll go back and forth in tandem,
-      adding spades you can afford.
+      adding spades to beat what's scored.
       When the battle stops, you sum them,
-      and the loser leaves the board.`,
-      `A count draw is strictly barred—
-      both discard the spades outpoured.
+      and the loser's kicked off-board.`,
+      `Note that tying scores is barred.
+      Please discard the spades outpoured.
       If your victim wins the war,
       they can’t steal the cards you hoard.
       If you steal a royal card, 
@@ -140,7 +140,7 @@ const strategySections = [{
       If you fail to show your cards:
       off the board, you’re swiftly thrown!
       But succeed, and they'll depart—
-      kicked off, losing what they've shown.`,
+      thrown off, losing what they've shown.`,
     ]
   })),
 }, {
