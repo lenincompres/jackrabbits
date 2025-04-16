@@ -79,19 +79,19 @@ const strategySections = [{
     ],
     en: [
       `You may steal a card at random 
-      and send someone else off-board, 
+      and kick someone else off-board, 
       if you meet to claim their item
       and attack them with a sword.
       You’ll go back and forth in tandem,
-      adding spades you can afford—
-      and the weakest, once you sum them,
-      will be knocked right off the board.`,
+      adding spades you can afford.
+      When the battle stops, you sum them,
+      and the loser leaves the board.`,
       `A count draw is strictly barred—
       both discard the spades outpoured.
-      They can’t take the cards you guard
-      if they win and keep their hoard.
+      If your victim wins the war,
+      they can’t steal the cards you hoard.
       If you steal a royal card, 
-      discard one if it's your fourth— 
+      discard one if it's your fourth—
       take <b>the increment</b>'s reward,
       and match carrots in accord.`,
     ]
@@ -137,8 +137,8 @@ const strategySections = [{
       must first show cards of their own—
       even if they're far apart—
       prove they could access this zone.
-      If you fail to show your cards,
-      off the board you’re swiftly thrown.
+      If you fail to show your cards:
+      off the board, you’re swiftly thrown!
       But succeed, and they'll depart—
       kicked off, losing what they've shown.`,
     ]
