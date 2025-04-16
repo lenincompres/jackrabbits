@@ -22,12 +22,12 @@ const strategySections = [{
       En cambio, si los dados son mayores,
       te sales al destierro en las orillas.
       Igual el pasaporte lo recoges,
-      y el premio si un acierto se confirma.`,
-      `Pagar la diferencia de los dados
-      te ayuda a completar la travesía;
-      si cubres el <i>restante</i> resultado
+      y el premio si un acierto se confirma.
+      Si pagas el restante que le sobre,
+      podrás realizar la travesía;
+      se cubre el resultado que te cobren
       con palos de la torre de partida.
-      Si vuelas de la torre de los bastos,
+      Si vuelas de la torre que los tome,
       la carta pasaporte es permitida.`
     ],
     en: [
@@ -58,7 +58,7 @@ const strategySections = [{
   img: ASSETS.spades,
   h4: Copy.text({
     es: "Pelear por las cartas",
-    en: "Fight for cards",
+    en: "Fight players for cards",
   }),
   p: versify(Copy.text({
     es: [
@@ -71,10 +71,10 @@ const strategySections = [{
       Si ganas el combate que empezaste,
       también asaltarías a  sus cartas:
       le robas la primera que tocases
-      (a ciegas deberás seleccionarla).`,
-      `Si robas y la carta es de nobleza,
-      te toca <b>el incremento</b> en la parada;
-      y entrégale a la corte la que quieras
+      (a ciegas deberás seleccionarla).
+      Te toca <b>el incremento</b> y que descances
+      si robas y la carta es de monarca;
+      tendrías que elejir la que descartes
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
@@ -155,12 +155,12 @@ const strategySections = [{
     en: "Trade at Jack Plazas",
   }),
   p: versify(Copy.text({
-    es: `Consigue los artículos en venta,
-      de centros con los símbolos marcados.
-      En estos, los diamantes se canjean 
-      por cartas descartadas de sus palos;
-      excepto en el marcado con la estrella,
-      que acepta de cualquiera por el pago.`,
+    es: `Los centros con los símbolos marcados
+      te ofrecen sus artículos en venta:
+      las cartas descartadas de sus palos,
+      que solo por diamantes se canjean;
+      o aceptan de cualquiera por el pago
+      si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold;
       each Jack’s place sells its own suit.
       Check what treasures these may hold—

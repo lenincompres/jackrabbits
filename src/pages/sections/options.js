@@ -63,7 +63,7 @@ const optionalSections = [{
       en: `<a class="pop" onclick="popUp('advancedCitadel')">Advanced Citadel</a>`,
     }),
     p: versify(Copy.text({
-      es: `Usando la carátula de atrás
+      es: `Si elijes la carátula de atrás
       incluyes estrategias importantes:
       se esperan corazones al entrar;
       canjeas lo que quieras con diamantes;
