@@ -16,9 +16,9 @@ const setupPage = {
           lo creas de improviso y previamente,
           con piezas que conectas por sus vías
           en cientos de maneras diferentes.`,
-          en: `To play a <b>jack rabbits</b>' match,
-          you must first complete a board;
-          build a random land from scratch—
+          en: `To play a <b>Jack Rabbits</b> match,
+          you must first complete a board—
+          build a random land from scratch,
           a new map to be explored.`,
         }),
         ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? '9.5em' : '8em', e => popUp("sample")),
@@ -27,10 +27,10 @@ const setupPage = {
           se ensambla en un diseño aleatorio;
           comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,
-          en: `The lands you’ll link in this spread
+          en: `The lands you’ll link, in this spread,
           house the royals from each throne. 
           On your first game, go ahead,
-          build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as is shown.
+          build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as it's shown.
           Or play normally instead:
           <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own.`,
         })),

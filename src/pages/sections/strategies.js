@@ -78,7 +78,7 @@ const strategySections = [{
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
-      `You may steal a card at random 
+      `You may steal one card at random 
       and kick someone off the board, 
       if you meet to claim their item
       and attack them with a sword.
