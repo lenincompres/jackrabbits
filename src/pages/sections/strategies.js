@@ -66,13 +66,13 @@ const strategySections = [{
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
       sumándose las picas descartadas;
-      y cuando se terminen los avances,
+      y, cuando se terminen los avances,
       destierra a la persona derrotada.
       Si ganas el combate que empezaste,
       también asaltarías a  sus cartas:
       le robas la primera que tocases
       (a ciegas deberás seleccionarla).
-      Te toca <b>el incremento</b> y que descanses
+      Te toca <b>el incremento</b> y que descanses,
       si robas y la carta es de monarca;
       tendrías que elegir la que descartes
       si acaso la que robas es tu cuarta.`,
