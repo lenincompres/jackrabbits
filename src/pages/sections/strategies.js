@@ -24,7 +24,7 @@ const strategySections = [{
       Igual el pasaporte lo recoges,
       y el premio si un acierto se confirma.
       Si pagas el restante que le sobre,
-      podrás realizar la travesía;
+      consigues completar la travesía;
       se cubre el resultado que te cobren
       con palos de la torre de partida.
       Si vuelas de la torre que los tome,
@@ -66,7 +66,7 @@ const strategySections = [{
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
       sumándose las picas descartadas;
-      y, cuando se terminen los avances,
+      en cuanto se terminen los avances,
       destierra a la persona derrotada.
       Si ganas el combate que empezaste,
       también asaltarías a  sus cartas:
