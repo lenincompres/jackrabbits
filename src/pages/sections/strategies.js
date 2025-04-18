@@ -66,7 +66,7 @@ const strategySections = [{
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
       sumándose las picas descartadas;
-      en cuanto se terminen los avances,
+      y cuando se terminen los avances,
       destierra a la persona derrotada.
       Si ganas el combate que empezaste,
       también asaltarías a  sus cartas:
