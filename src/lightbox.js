@@ -54,7 +54,7 @@ LightBox.add(new Pager({
       es: `La pieza hexagonal en la que esperas,
         sin pago por usar las madrigueras.`,
       en: `The hex where you wait for free—
-        go through caves without a fee. `,
+        use the caves without a fee. `,
     })),
   },
   advancedCitadel: {

@@ -94,13 +94,13 @@ const transferSections = [{
     es: `Si <a class="pop" onclick="popUp('price')">pagas</a> en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
-      metiéndote al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> por un rato;
+      metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato;
       descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
       But if you would rather save,
-      take your rabbit <a class="pop" onclick="popUp('underground')"><b>underground</b></a>.
+      take your rabbit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
       Wait in there to earn a waive—
       hop on out in the next round.`,
   }), {
@@ -119,14 +119,14 @@ const transferSections = [{
       y acaba con el turno a la deriva.
       Mantén <b>la lotería</b> en las afueras,
       sin luego ejecutar <b>la travesía</b>;
-      pues llegas al <a class="pop" onclick="popUp('underground')"><b>subsuelo</b></a> en el que esperas
+      pues llegas al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
     en: `If you choose to take a road
       that leads to the edge (outbound),
       you'll end your turn off the board,
       with no <b>increment</b>—you've drowned.
-      Next turn, once you've rolled off-board,
-      you'll enter the <a class="pop" onclick="popUp('underground')"><b>underground</b></a>!
+      Next, your <b>lottery</b>'s off-board,
+      and you'll <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
       Get your <b>increment</b> restored,
       while you wait another round.`,
   })),
