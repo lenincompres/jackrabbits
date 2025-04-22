@@ -125,8 +125,8 @@ const transferSections = [{
       that leads to the edge (outbound),
       you'll end your turn off the board,
       with no <b>increment</b>—you've drowned.
-      Next, your <b>lottery</b>'s off-board,
-      and you'll <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
+      Your next <b>lottery</b>'s off-board—
+      and your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
       Get your <b>increment</b> restored,
       while you wait another round.`,
   })),
