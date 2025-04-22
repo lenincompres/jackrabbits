@@ -20,8 +20,8 @@ const strategySections = [{
       y harás <b>la travesía</b> por las torres
       si no lo sobrepasa lo que tiras.
       En cambio, si los dados son mayores,
-      te sales al destierro en las orillas.
-      Igual el pasaporte lo recoges,
+      te sales al destierro en las orillas;
+      igual el pasaporte lo recoges,
       y el premio si un acierto se confirma.
       Si pagas el restante que le sobre,
       consigues completar la travesía;
