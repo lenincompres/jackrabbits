@@ -23,7 +23,7 @@ const strategySections = [{
       te sales al destierro en las orillas;
       igual el pasaporte lo recoges,
       y el premio si un acierto se confirma.
-      Si pagas el restante que le sobre,
+      Si pagas el <i>restante</i> que le sobre,
       consigues completar la travesía;
       se cubre el resultado que te cobren
       con palos de la torre de partida.
@@ -125,12 +125,12 @@ const strategySections = [{
       de quien en el destierro las expone.`,
     ],
     en: [
-      `As you enter a queen's hex,
+      `As you visit a queen's hex,
       any player may intone:
-      that if you do not possess
+      all who enter must  possess
       the queen's card that marks this throne,
-      you show six points to the rest,
-      adding heart cards that you own.
+      or show six points to the rest,
+      adding hearts from cards they own.
       Off-board players can't request—
       they're not fit to cast a stone.`,
       `Yet those asking for your hearts
