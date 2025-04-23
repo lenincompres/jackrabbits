@@ -10,15 +10,15 @@ const endingSection = {
   p: versify(
     Copy.text({
       es: `Serás protagonista del festejo 
-      si aquí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> te regresas,
+      si aquí en la <a class="pop" onclick="popUp('citadel')"><i>ciudadela</i></a> te regresas,
       cargando con las cartas del concejo: 
       tus tres representantes de nobleza.`,
-      en: `Return to the <a class="pop" onclick="popUp('citadel')"><b>citadel</b></a>  
+      en: `Return to the <a class="pop" onclick="popUp('citadel')"><i>citadel</b></i>  
       with three royal cards in hand. 
       In this race you must excel
       to claim champion of the land.`,
     }),
-    ASSETS.thumbnailOf("citadel", "7em", e => popUp("citadel")),
+    ASSETS.thumbnailOf("citadel", "6em", e => popUp("citadel")),
     Copy.text({
       es: `Tan pronto se repartan los conejos,
       se exige al colectivo de la mesa:

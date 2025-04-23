@@ -96,7 +96,7 @@ const frontierSections = [{
         propicia la clausura de los triángulos.
         Si pagas con escudos dondequiera,
         se pasa a la vereda de tu agrado.
-        Si el triángulo es la pieza en que te encuentras,
+        Si lo haces y te encuentras en la pieza,
         del sitio te regalan su traslado.`,
       en: `Guards are placed to block the road—
         they seal a triangle tile.

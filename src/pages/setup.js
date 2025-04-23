@@ -21,7 +21,7 @@ const setupPage = {
           build a random land from scratch,
           a new map to be explored.`,
         }),
-        ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? '9.5em' : '8em', e => popUp("sample")),
+        ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? '15.5em' : '13em', e => popUp("sample")),
         Copy.text({
           es: `El reino de las cartas y sus templos
           se ensambla en un diseño aleatorio;
@@ -83,11 +83,11 @@ const setupPage = {
       p: versify(
         Copy.text({
           es: `Asigna a las personas sus conejos
-          y allí en la <a class="pop" onclick="popUp('citadel')"><b>ciudadela</b></a> los colocan.
+          y allí en la <a class="pop" onclick="popUp('citadel')"><i>ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
           en: `Players will select their rabbits,
-          place them on the <a class="pop" onclick="popUp('citadel')"><b>citadel</b></a>,
+          place them on the <a class="pop" onclick="popUp('citadel')"><i>citadel</i></a>,
           and pick up their matching carrots—
           they get three of these as well.`,
         }),

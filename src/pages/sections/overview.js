@@ -29,7 +29,7 @@ const overviewSection = {
         with every turn that transpires,
         you'll score new cards as your loot. `,
       ]
-    }),
+    }), 
     ASSETS.royals,
     Copy.text({
       es: [
