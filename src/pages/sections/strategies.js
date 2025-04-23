@@ -158,7 +158,7 @@ const strategySections = [{
     es: `Los centros con los símbolos marcados
       te ofrecen sus artículos en venta:
       las cartas descartadas de sus palos,
-      que solo por diamantes se canjean;
+      que en estos por diamantes se canjean;
       o aceptan de cualquiera por el pago
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold;
@@ -175,14 +175,14 @@ const strategySections = [{
     en: "+ Interpersonal Trades",
   }),
   p_0: versify(Copy.text({
-    es: `Es válido el comercio por diamantes
-      con alguien en el sitio que te encuentras,
-      si inicias la partida en lo adelante
-      sumándole la cláusula a las reglas.
-      En tanto los negocios se debaten,
-      se ocultan en las manos las ofertas;
-      y a quien se le descubra por chantaje,
-      después del intercambio se destierra.`,
+    es: `Si es válido el comercio con las manos,
+    lo aclaras al inicio de las reglas.
+    Se vende por diamantes en un trato
+    con alguien en el sitio que te encuentras;
+    y mientras el negocio es concretado,
+    se ocultan en las manos las ofertas.
+    A quien se le descubra por engaño,
+    después del intercambio se destierra.`,
     en: `If agreed when the game starts,
     players may trade in cahoot:
     meet to buy with diamond cards 

@@ -71,7 +71,7 @@ const optionalSections = [{
       con palos cualesquiera de restante.`,
       en: `There are three suitable assets
       depicted in this reboot:
-      use your hearts to demand access;
+      use your hearts to judge and access;
       diamonds, to buy any loot; 
       and clubs, to get flying passes—
       shortfall's paid in any suit.`,
