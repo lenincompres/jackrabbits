@@ -176,7 +176,7 @@ const strategySections = [{
   }),
   p_0: versify(Copy.text({
     es: `Es válido el comercio con las manos,
-    si agregas el artículo a las reglas.
+    si añades el artículo a las reglas.
     Se vende por diamantes en un trato
     con alguien en el sitio que te encuentras;
     y mientras el negocio es concretado,
