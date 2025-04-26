@@ -204,8 +204,8 @@ const frontierSections = [{
       river, mountain, or the woods.
       It sends off-board those who come,
       unless they pay as they should.
-      You pay, wherever you roam,
-      to choose where it will be moved—
+      You pay wherever you roam,
+      and choose where it will be moved—
       if brought to the zone you're on,
       you'll leave the board or cut through.`,
     })),
