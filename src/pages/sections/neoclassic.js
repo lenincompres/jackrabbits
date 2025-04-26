@@ -16,10 +16,10 @@ const neoclassicSections = [{
       y piezas que las unen por sus rieles.
       La ficha con el hongo y sus poderes,
       que añades a las reglas si lo quieres.`,
-      en: `Adds four royals and their tiles
-      with fast steeds and tracks for miles,
-      and a token to compile:
-      the mushroom that rots the pile.`,
+      en: `Adds four royals and their tiles,
+      which have steeds and tracks for miles;
+      plus a mushroom to compile—
+      this new token rots the pile.`,
     })),
   },
   section: [{
@@ -34,12 +34,12 @@ const neoclassicSections = [{
       te sacan del subsuelo de inmediato.
       Procura que sus piezas se conecten,
       que no halles un carril desconectado.`,
-      en: `You ride the trains without cost;
+      en: `You ride trains without a cost,
       and no transfers are allowed.
       Reach another hex train post—
-      don't even stop underground.
-      Tracks shouldn't lead to the coast—
-      close links as you set them down.`,
+      pass right through the underground.
+      Tracks should not lead to the coast—
+      close the links when they're set down.`,
     })),
   }, {
     h4: Copy.text({
@@ -52,9 +52,9 @@ const neoclassicSections = [{
       trasládate de gratis cabalgando,
       igual que de los cruces del camino.`,
       en: `On paths marked with a white steed,
-      just show a Cavalier's card,
-      and you'll ride it as you need,
-      without needing to discard.`,
+      show a Cavalier at hand,
+      and you’ll ride it as you need—
+      reach a hexagon by land.`,
     })),
   }, {
     h4: Copy.text({
@@ -67,7 +67,7 @@ const neoclassicSections = [{
       Las usas al viajar con los corceles,
       y nunca al reclamar la ciudadela.`,
       en: `Their royal cards get acquired,
-      just like any royal claim.
+      like any royal you claim.
       To ride the steeds, they're required;
       but they will not end the game.`,
     })),
@@ -191,8 +191,8 @@ const neoclassicSections = [{
       te vende lo que quieras por diamantes.
       Y en la otra te reponen, de la pila,
       <strong>un</strong> tiro de tus cartas que descartes.`,
-      en: `One Jack hex trades diamond cards
-      for any suit at their booths.
+      en: `One Jack hex trades diamond cards—
+      you buy any suit you choose.
       The other, grants <strong>one</strong> discard—
       draw as many as you lose.`,
     })),
@@ -243,8 +243,8 @@ const neoclassicSections = [{
       Suplantan a los palos (de los clásicos)
       excepto en el poder de su estrategia.`,
       en: `Fleurs are classic suits' replacements,
-      except in their unique powers.
-      Use them for the transfer payments—
+      but won't have their special powers.
+      They fulfill the transfer payments—
       don't claim royals with these flowers.`,
     })),
   }, {
@@ -257,8 +257,8 @@ const neoclassicSections = [{
       pagando en un cubil o en su paraje.
       Tu víctima prefiere su destierro,
       o apúntale a la carta que descarte.`,
-      en: `Pay at its post or den
-      to send it to any rabbit.
+      en: `You pay at its post or den,
+      and send the wolf to a rabbit.
       The victim goes off-board then,
       or you'll steal a card—and scrap it.`,
     })),
@@ -275,11 +275,11 @@ const neoclassicSections = [{
       Y en cuanto a los caminos paralelos,
       se paga por el paso en sus atajos.`,
       en: `Any off-road crossing found
-      must be payed before you pass it. 
-      The caves take you underground—
-      there's no tranfer to bypass it.
-      Pay at their dens when around
-      to send the wolf where you cast it.`,
+      must be paid before you pass it.
+      Caves that take you underground
+      have no transfer to bypass it.
+      Pay with fleurs when you're around,
+      and the wolf goes where you cast it.`,
     })),
   }],
 }, ];

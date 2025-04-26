@@ -23,10 +23,10 @@ const frontierSections = [{
       igual terminarás en el destierro;
       quienquiera que descanse en el lugar
       termina en las afueras del tablero.`,
-      en: `You may attack—and defend—
-      with torches just like with swords.
+      en: `You may attack and defend,
+      using your torches like swords.
       Yet steal or not, in the end,
-      you will find yourself off-board;
+      the fight will hurl you off-board;
       since everyone, there and then,
       will be removed from the board.`,
     })),
@@ -44,14 +44,14 @@ const frontierSections = [{
         o elijas la salida en un costado,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
-      en: `This expansion underground
-        adds a triangle with fire. 
-        To exit in the same round, 
-        pay there what the dice require. 
-        If your turn is off-board bound,
-        and that's not what you desire, 
-        you may pay to transfer down
-        to the underground's campfire.`,
+      en: `This triangle underground
+      adds two tricks by using fire:
+      you may leave in the same round, 
+      paying what the dice require.
+      And when turns are off-board bound,
+      if that’s not what you desire,
+      you may pay to transfer down—
+      to the underground campfire.`,
     })),
   }],
 }, {
@@ -98,12 +98,12 @@ const frontierSections = [{
         se pasa a la vereda de tu agrado.
         Si lo haces y te encuentras en la pieza,
         del sitio te regalan su traslado.`,
-      en: `Guards are placed to block the road—
-        they seal a triangle tile.
-        Pay, anywhere on the board,
-        to choose their new post meanwhile.
-        If you're there, get this reward:
-        the tile's transfer in this style.`,
+      en: `Guards are placed to block the road,
+      sealing a triangle tile.
+      Pay wherever on the board,
+      and you'll choose their post meanwhile—
+      if you're there, get this reward:
+      the tile's transfer in this style.`,
     })),
   }]
 }, {
@@ -149,12 +149,12 @@ const frontierSections = [{
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas… o te buscan.`,
       en: `Pay to summon a brown horse—
-      on islands where these are found.
-      They will gallop from their source
-      if they can reach you by ground,
+      on the islands where they're found.
+      They will reach you from their source
+      if it's possible by ground,
       and they'll take you on your course,
       even to the underground—
-      where they ride to the cave's doors
+      they may ride to the cave's doors
       but will never venture down.`,
     })),
   }]
@@ -180,15 +180,15 @@ const frontierSections = [{
       En cuanto sobrepasa la decena,
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display
-      adds them to the <i>overload</i>—
-      the sum that this pile conveys
-      is added to the dice rolled.
-      Discard this pile right away
-      if it adds ten to the load.`,
+      adds them to the <i>overload</i>,
+      and the sum this pile will weigh
+      adds its weight to the dice rolled.
+      You'll discard it right away
+      if it brings ten to the load.`,
     })),
   }, {
     h4: Copy.text({
-      es: "traslado de la bestia",
+      es: "Traslado de la bestia",
       en: "Transfer the Wild Beast",
     }),
     p: versify(Copy.text({
@@ -204,10 +204,10 @@ const frontierSections = [{
       river, mountain, or the woods.
       It sends off-board those who come,
       unless they pay as they should.
-      Pay, from wherever you roam,
-      to choose where it will be moved.
-      Bring it to the zone you're on,
-      to leave the board or cut through.`,
+      You pay, wherever you roam,
+      to choose where it will be moved—
+      if brought to the zone you're on,
+      you'll leave the board or cut through.`,
     })),
   }]
 }, ];

@@ -31,9 +31,9 @@ const nauticalSections = [{
       It serves as a landing ground
       where boats are welcomed within.
       If you discard shells around,
-      the pile doubles what you bin.
+      double the cards that you bin.
       One trade per turn is allowed—
-      you must keep the cards you win.`,
+      the pile provides what you win.`,
     })),
   }, {
     h4: Copy.text({
@@ -82,7 +82,7 @@ const nauticalSections = [{
       Find its card in the court's aisle,
       and place <strong>one</strong> card underneath.
       Add its value for the while—
-      discard if the royal leaves.`,
+      discard when the royal leaves.`,
     })),
   }, {
     h4: Copy.text({
@@ -99,13 +99,13 @@ const nauticalSections = [{
       Su torre es un mercado heterogéneo:
       comercia con los palos que prefieres.`,
       en: `If you board the sailboat’s deck,
-      sail it anywhere for free.
-      But pay at a sea-bound trek
-      to summon it by the sea;
-      then sail to an anchor hex—
+      sail it anywhere for free. 
+      If you pay at sea-bound treks,
+      you will summon it by sea;
+      but you'll sail it to its hex—
       you must choose one of the three.
       Check the anchor tower’s specs—
-      it trades the suits you decree.`,
+      trade the suits that you decree.`,
     })),
   }]
 }, {
@@ -133,9 +133,9 @@ const nauticalSections = [{
       //Si imploras de la torre acampanada,
       //afectas al tablero por completo.`,
       en: `When you start a duel with bells,
-      no body will end off-board.
+      no one there will end off-board.
       Every player where you dwell
-      must gift you a card they hoard,
+      gifts to you a card they hoard,
       or add bells to duel as well—
       if they win, your plea's ignored.`,
       //Implore from their tower's cell,
@@ -155,13 +155,13 @@ const nauticalSections = [{
       que exige que se pague por su acceso.
       La otra que es gratuita es la de entrada,
       que empieza conectada en el subsuelo.`,
-      en: `Pay, wherever you may be,
-      to send anyone exiled.
+      en: `Pay wherever you may be,
+      and send anyone exiled.
       No one's safe from your decree—
-      just those off-board skip the trial.
-      The cave there charges a fee 
-      to leave the lone sandy tile.
-      The one underground is free—
+      just off-board they'll skip the trial.
+      The cave there charges a fee
+      to escape that lonesome tile.
+      Underground, this cave is free—
       added there to reach this isle.`,
     })),
   }]
@@ -192,8 +192,8 @@ const nauticalSections = [{
       en: `Count the icicles you hoard,
       show a sum of twelve at least,
       to connect—or move off-shore—
-      the tower of icy breeze.
-      Connect to a road tile's port:
+      the king tower wrapped by these.
+      Link it to a road tile's port:
       a road open to the seas.
       There's a drop chute on its floor—
       one way underground, it leads.`,
@@ -220,10 +220,10 @@ const nauticalSections = [{
       se salen con el viento huracanado.`,
       // Tan solo en el graciar con agujero,
       // podrán ir al subsuelo y escaparlo.
-      en: `Pay, from anywhere you please,
-      to choose where the storm affects.
-      The hex selected will freeze—
-      except the underground hex.
+      en: `Pay from anywhere you please,
+      choose the hex the storm affects,
+      move it there, and it will freeze—
+      underground, this storm deflects.
       Any visitor who flees
       goes off-board from its effects.`,
       // The icy toward, ar least,
