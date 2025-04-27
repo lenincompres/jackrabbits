@@ -44,7 +44,7 @@ const frontierSections = [{
         o elijas la salida en un costado,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
-      en: `This triangle underground
+      en: `Its triangle underground
       adds two tricks by using fire:
       you may leave in the same round, 
       paying what the dice require.
@@ -182,9 +182,9 @@ const frontierSections = [{
       en: `Leaving acorns on display
       adds them to the <i>overload</i>,
       and the sum this pile will weigh
-      adds its weight to the dice rolled.
+      adds its points to the dice rolled.
       You'll discard it right away
-      if it brings ten to the load.`,
+      if there's ten points on the load.`,
     })),
   }, {
     h4: Copy.text({

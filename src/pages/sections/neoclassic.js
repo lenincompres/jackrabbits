@@ -19,7 +19,7 @@ const neoclassicSections = [{
       en: `Adds four royals and their tiles,
       which have steeds and tracks for miles;
       plus a mushroom to compile—
-      this new token rots the pile.`,
+      it rots cards that leave the pile.`,
     })),
   },
   section: [{
@@ -39,7 +39,7 @@ const neoclassicSections = [{
       Reach another hex train post—
       pass right through the underground.
       Tracks should not lead to the coast—
-      close the links when they're set down.`,
+      close their links when they're set down.`,
     })),
   }, {
     h4: Copy.text({
@@ -192,8 +192,8 @@ const neoclassicSections = [{
       Y en la otra te reponen, de la pila,
       <strong>un</strong> tiro de tus cartas que descartes.`,
       en: `One Jack hex trades diamond cards—
-      you buy any suit you choose.
-      The other, grants <strong>one</strong> discard—
+      buy whatever suit you choose.
+      The other grants <strong>one</strong> discard—
       draw as many as you lose.`,
     })),
   }, {
