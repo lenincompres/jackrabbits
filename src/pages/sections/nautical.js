@@ -31,7 +31,7 @@ const nauticalSections = [{
       It serves as a landing ground
       where boats are welcomed within.
       If you discard shells around,
-      double the cards that you bin.
+      you'll double the cards you bin. 
       One trade per turn is allowed—
       the pile provides what you win.`,
     })),
@@ -49,10 +49,10 @@ const nauticalSections = [{
         te brinda la salida del lugar.`,
       en: `Do not end your turn off-board
         if you pay with shells at sea.
-        You'll go to its tower's port,
+        Wash ashore its tower's port,
         where you're rescued for that fee.
         When you're ready to move forth,
-        its gondola sails for free.`,
+        you may sail its boat for free. `,
     })),
   }]
 }, {
@@ -78,11 +78,11 @@ const nauticalSections = [{
       La carta que pusiste se descarta
       si pagan por el noble de la pieza.`,
       en: `When you're on a royal’s tile,
-      make its claim hard to achieve.
-      Find its card in the court's aisle,
-      and place <strong>one</strong> card underneath.
-      Add its value for the while—
-      discard when the royal leaves.`,
+      make its claim hard to achieve, 
+      find its card in the court's aisle,
+      and with one card underneath,
+      add its value for the while—
+      it's discarded once they leave.`,
     })),
   }, {
     h4: Copy.text({
