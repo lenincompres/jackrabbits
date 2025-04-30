@@ -127,10 +127,10 @@ const strategySections = [{
     en: [
       `As you visit a queen's hex,
       any player may intone:
-      all who enter must  possess
-      the queen's card that marks this throne,
+      “Verify that you possess
+      the queen’s card that marks this throne,
       or show six points to the rest,
-      adding hearts from cards they own.
+      adding hearts from cards you own.”
       Off-board players can't request—
       they're not fit to cast a stone.`,
       `Yet those asking for your hearts
