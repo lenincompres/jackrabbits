@@ -136,7 +136,7 @@ const strategySections = [{
       `Yet those asking for your hearts
       must first show cards of their own—
       even if they're far apart—
-      prove they could access this zone.
+      prove they're welcome in this zone.
       If you fail to show your cards:
       off the board, you’re swiftly thrown!
       But succeed, and they'll depart—
