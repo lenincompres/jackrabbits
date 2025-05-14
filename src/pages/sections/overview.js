@@ -20,7 +20,7 @@ const overviewSection = {
       recibes su real correspondencia. `,
       ],
       en: [
-        `Go through the realm turn by turn,
+        `Venture onward turn by turn,
         making stops on royal land.
         Win the game when you return—
         with three royal cards in hand.`,

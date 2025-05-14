@@ -22,9 +22,9 @@ const expansionPage = {
     footer: {
       p: versify(Copy.text({
         en: `Their hexes have sea-blue sides—
-          leave them open to the tides. 
+          leave them open to the tides.
           The circles with suits inside
-          show that you may pay off-site.`,
+          let you transfer from outside.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
           Los pagos con un círculo en sus palos
@@ -50,7 +50,7 @@ const expansionPage = {
         en: `Their hexes have sea-blue sides—
           leave them open to the tides. 
           The circles with suits inside
-          show that you may pay off-site.`,
+          let you transfer from outside.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
           Los pagos con un círculo en sus palos
