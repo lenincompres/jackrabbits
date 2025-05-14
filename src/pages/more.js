@@ -23,6 +23,28 @@ const morePage = {
       h3: {
         a: {
           text: Copy.text({
+            es: "Dossier Educativo",
+            en: "Educational Dossier",
+          }),
+          target: "_blank",
+          href: Copy.text({
+            es: "./educationalDossier.pdf",
+            en: "./dossierEducativo.pdf",
+          }),
+        }
+      },
+      p: versify(
+        Copy.text({
+          es: `Jack Rabbits en un rol educativo,
+          con miras al análisis creativo.`,
+          en: `A tool for critical thinking,
+          storytelling, and world building.`,
+        }),
+      ),
+    }, {
+      h3: {
+        a: {
+          text: Copy.text({
             es: "Listado de correo",
             en: `Mailing list`,
           }),
