@@ -71,9 +71,9 @@ const optionalSections = [{
       con palos cualesquiera de restante.`,
       en: `There are three suitable assets
       depicted in this reboot:
-      use your hearts to judge and access;
-      diamonds, to buy any loot; 
-      and clubs, to get flying passes—
+      hearts are used to judge the access;
+      diamonds buy you any loot; 
+      clubs will get you flying passes—
       shortfall's paid in any suit.`,
     })),
   }, {
