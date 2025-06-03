@@ -21,7 +21,7 @@ const greetingsSection = {
       `<strong>Visit the noble houses, acquire the cards of three royals, and bring them to the Citadel</strong>, in that order.`,
       `Note that I wrote “that order” not in reference to any other order of messenger rabbits, nor the order that drives this letter, but the order of the steps you must take in order to fully restore the realm's order.`,
       `So, hoppity hop, in orderly fashion. Don't dawdle. No time to lose!`,
-      `The White Herald</br>Late of the Hearing</br>Still of the Voice`,
+      `The White Herald`,//</br>Late of the Hearing</br>Still of the Voice`,
     ]
   }),
 };
