@@ -17,8 +17,8 @@ const neoclassicSections = [{
       La ficha con el hongo y sus poderes,
       que añades a las reglas si lo quieres.`,
       en: `Adds four royals and their tiles,
-      which have steeds and tracks for miles;
-      plus a mushroom to compile—
+      which have steeds and tracks for miles.
+      Plus, a mushroom that's hostile—
       it rots cards that leave the pile.`,
     })),
   },
@@ -34,8 +34,8 @@ const neoclassicSections = [{
       te sacan del subsuelo de inmediato.
       Procura que sus piezas se conecten,
       que no halles un carril desconectado.`,
-      en: `You ride trains without a cost,
-      and no transfers are allowed.
+      en: `Ride the trains without a cost—
+      there are no transfers allowed.
       Reach another hex train post—
       pass right through the underground.
       Tracks should not lead to the coast—
@@ -53,8 +53,8 @@ const neoclassicSections = [{
       igual que de los cruces del camino.`,
       en: `On paths marked with a white steed,
       show a Cavalier at hand,
-      and you’ll ride it as you need—
-      reach a hexagon by land.`,
+      and you’ll ride it as you need,
+      reaching hexagons by land.`,
     })),
   }, {
     h4: Copy.text({
@@ -75,43 +75,44 @@ const neoclassicSections = [{
     h4: Copy.text({
       es: "+ Hongo Opcional",
       en: "+ Optional Mushroom",
-    }),/*
-    h5: Copy.text({
-      es: `+ Sabotaje esporádico`,
-      en: `+ Sporadic Sabotage`,
     }),
-    p: versify(Copy.text({
-      es: `Aduéñate del hongo en el momento
-      si el tiro de tus dados es un doble.
-      Le niegas a quienquiera su incremento,
-      pidiendo que descarte lo que tome.
-      Lo pierdes a raíz de sus efectos
-      o si alguien con un doble lo recoge.`,
-      en: `If you roll and get a double, 
-      claim the mushroom for a spent—
-      give it up to force another
-      to discard their increment.
-      You will not remain its holder
-      should a claim be pertinent.`,
-    })),
-    h5_: Copy.text({
-      es: `+ Hexágono Colonizado`,
-      en: `+ Hexagonal Molding`,
-    }),
-    p_: versify(Copy.text({
-      es: `Al hongo lo reubicas de su puesto
-      si el tiro de tus dados es un doble,
-      también si al descansar en tu trayecto
-      terminas en el sitio en el que ronde.
-      Tendrá que descartar el incremento
-      quienquiera que en su sitio lo recoge.`,
-      en: `If you roll and get a double,
-      or it's there where your turns end,
-      move the mushroom to cause trouble—
-      choose a hex with ill intent.
-      Those who visit face a struggle:
-      they can't claim their increment.`,
-    })),*/
+    /*
+        h5: Copy.text({
+          es: `+ Sabotaje esporádico`,
+          en: `+ Sporadic Sabotage`,
+        }),
+        p: versify(Copy.text({
+          es: `Aduéñate del hongo en el momento
+          si el tiro de tus dados es un doble.
+          Le niegas a quienquiera su incremento,
+          pidiendo que descarte lo que tome.
+          Lo pierdes a raíz de sus efectos
+          o si alguien con un doble lo recoge.`,
+          en: `If you roll and get a double, 
+          claim the mushroom for a spent—
+          give it up to force another
+          to discard their increment.
+          You will not remain its holder
+          should a claim be pertinent.`,
+        })),
+        h5_: Copy.text({
+          es: `+ Hexágono Colonizado`,
+          en: `+ Hexagonal Molding`,
+        }),
+        p_: versify(Copy.text({
+          es: `Al hongo lo reubicas de su puesto
+          si el tiro de tus dados es un doble,
+          también si al descansar en tu trayecto
+          terminas en el sitio en el que ronde.
+          Tendrá que descartar el incremento
+          quienquiera que en su sitio lo recoge.`,
+          en: `If you roll and get a double,
+          or it's there where your turns end,
+          move the mushroom to cause trouble—
+          choose a hex with ill intent.
+          Those who visit face a struggle:
+          they can't claim their increment.`,
+        })),*/
     p_: versify(Copy.text({
       es: `Al hongo lo reubicas de su puesto
       si acabas en el sitio en el que ronde.
@@ -122,9 +123,9 @@ const neoclassicSections = [{
       en: `If you start with the last turn,
       choose its starting settlement.
       Those who visit it, in turn,
-      cannot claim their increment.
+      will discard their increment.
       Move the mushroom end-of-turn
-      if you land on where it's sent.`,
+      if you're resting where it's sent.`,
     })),
   }],
 }, {
@@ -132,25 +133,31 @@ const neoclassicSections = [{
   backgroundColor: "#0169942a",
   header: {
     h3: Copy.text({
-      es: "Nobles duales",
-      en: "Noble Allies",
+      es: "Alianzas Nobles",
+      en: "Noble Alliances",
     }),
     img: ASSETS.allies,
     p: versify(Copy.text({
-      es: `Los seis ayuntamientos y sus nobles;
+      es: [`Los seis ayuntamientos y sus nobles;
       y dos de los conejos jugadores.
       También en las tabernas de los jokers,
       se añade el comodín de los cañones.`,
-      en: `Adds six royals and their tiles,
+      `Los bordes en azul de sus hexágonos,
+      se deben mantener desconectados.`
+      ],
+      en: [`Adds six royals and their tiles,
       plus two rabbits with new styles;
-      and a new joker's profile
-      with its card for the court's isle.`,
+      and a new joker's profile—
+      add its card to the court's isle.`,
+      `Their hexes have sea-blue sides—
+      leave them open to the tides.`
+      ],
     })),
   },
   section: [{
     h4: Copy.text({
-      es: "Nobles",
-      en: "Nobles",
+      es: "Alianzas Nobles",
+      en: "Allied Noble Cards",
     }),
     p: versify(Copy.text({
       es: `Los palos de las cartas que visitas,
@@ -159,13 +166,13 @@ const neoclassicSections = [{
       y el otro, de misión naturalista.`,
       en: `There are three Capitalist
       and three Naturalist cards.
-      You must pay the cost they list
-      with both suits—in any parts.`,
+      When you pay the cost they list
+      use both suits—in any parts.`,
     })),
   }, {
     h4: Copy.text({
-      es: "Viajes",
-      en: "Travels",
+      es: "Traslados en los Hexágonos",
+      en: "Transfers at Allied Hexes",
     }),
     p: versify(Copy.text({
       es: `Trasládate en canoas por los mares, 
@@ -174,8 +181,8 @@ const neoclassicSections = [{
       también te proporcionan sus traslados.
       El vuelo de la torre, si hay restante,
       se paga con cualquiera de sus palos.`,
-      en: `You may travel on the waves
-      by paying at a canoe.
+      en: `Find rides on land, air, or waves—
+      by horse, cannon or canoe.
       The merchants, tavern, and cave
       are there to sell transfers too.
       The <i>shortfall</i> flights may be saved—
@@ -183,8 +190,8 @@ const neoclassicSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Comercio",
-      en: "Trades",
+      es: "Comercio en Plazas Aliadas",
+      en: "Trade at Allied Plazas",
     }),
     p: versify(Copy.text({
       es: `La Jota de la unión capitalista
@@ -208,14 +215,6 @@ const neoclassicSections = [{
       to the tower you prefer.`,
     })),
   }],
-  footer: {
-    p: versify(Copy.text({
-      es: `Los bordes en azul de sus hexágonos,
-      se deben mantener desconectados.`,
-      en: `Their hexes have sea-blue sides—
-        leave them open to the tides.`,
-    })),
-  },
 }, {
   boxShadow: "1px 1px 3px black",
   backgroundColor: "#9B49772a",

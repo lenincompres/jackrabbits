@@ -64,8 +64,8 @@ const expansionPage = {
         es: "Expansiones neoclásicas",
       }),
       p: versify(Copy.text({
-        en: `Read the first lines on these guides
-          to find out what each provides.`,
+        en: `Read the first lines on these guides,
+          and find out what each provides.`,
         es: `Los palos de la corte original
           se expanden con un vínculo especial.`,
       })),
