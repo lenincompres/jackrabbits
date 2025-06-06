@@ -183,13 +183,13 @@ const frontierSections = [{
       adds them to the <i>overload</i>,
       and the sum this pile will weigh
       adds its points to the dice rolled.
-      You'll discard it right away
+      Please discard it right away
       if there's ten points on the load.`,
     })),
   }, {
     h4: Copy.text({
       es: "Traslado de la bestia",
-      en: "Transfer the Wild Beast",
+      en: "Transfer the Beast",
     }),
     p: versify(Copy.text({
       es: `La bestia se coloca por sus zonas:

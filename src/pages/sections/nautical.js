@@ -222,7 +222,7 @@ const nauticalSections = [{
       // podrán ir al subsuelo y escaparlo.
       en: `Pay from anywhere you please,
       choose the hex the storm affects,
-      move it there, and it will freeze—
+      place on it the token piece—
       underground, this storm deflects.
       Any visitor who flees
       goes off-board from its effects.`,
