@@ -24,7 +24,7 @@ const optionalSections = [{
   }, {
     h5: Copy.text({
       es: "Ases capitales",
-      en: "capital Aces",
+      en: "Capital Aces",
     }),
     p: versify(Copy.text({
       es: `El <b>A</b>s que de primero desembolses,
@@ -47,9 +47,9 @@ const optionalSections = [{
         si el palo que precisas corresponde,
         lo añades del que tienes en tu frente.`,
       en: `Playing your capital <b>A</b>ce
-        will grant you a bonus tip:
+        grants a stable bonus tip:
         if its suit suits at a place,
-        it counts as one extra pip.`,
+        add it as one extra pip.`,
     })),
   }],
 }, {
