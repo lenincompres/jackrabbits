@@ -37,8 +37,8 @@ const strategySections = [{
       for <b>the journey</b> through the skies.
       Otherwise, off-board you'll fall—
       yet keep your card, anywise. 
-      And <b>the lottery</b> still holds:
-      you may claim the prize likewise.`,
+      And <b>the lottery</b> still holds—
+      either way, its prize applies.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
       The <i>shortfall</i> (how much you're off)
