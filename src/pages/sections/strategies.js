@@ -45,7 +45,7 @@ const strategySections = [{
       is the price that will suffice.
       Pay with suits from the takeoff—
       the hex that flies the device.
-      You may trade the passport off
+      You may trade the shown card off
       where the clubs fulfill the price.`,
     ]
   })),
