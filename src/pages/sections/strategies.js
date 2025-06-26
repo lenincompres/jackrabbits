@@ -186,7 +186,7 @@ const strategySections = [{
     en: `If agreed when the game starts,
     players may trade in cahoot:
     meet to buy with diamond cards—
-    trade in their turn, or dispute.
+    in their turn, trade or dispute.
     Keep concealed your hand’s rewards—
     strike a deal for your pursuit.
     If cards traded prove a farce,

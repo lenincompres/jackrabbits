@@ -58,7 +58,7 @@ const turnSections = [{
       from the current hex you're on.
       Trace <a class="pop" onclick="popUp('roadTiles')">the road</a> that you've selected—
       move your rabbit as a pawn.
-      Cross small tiles, but never hexes—
+      Cross small tiles, but not the hexes—
       don’t move past a hexagon.`,
       `You may move towards your goal,
       or choose not to move at all.`,
