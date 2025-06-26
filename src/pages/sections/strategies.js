@@ -38,7 +38,7 @@ const strategySections = [{
       Otherwise, off-board you'll fall—
       yet keep your card, anywise. 
       And <b>the lottery</b> still holds—
-      either way, its prize applies.`,
+      either way, it works likewise.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
       The <i>shortfall</i> (how much you're off)
@@ -185,8 +185,8 @@ const strategySections = [{
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
     players may trade in cahoot:
-    meet to buy with diamond cards 
-    on their turn along their route.
+    meet to buy with diamond cards—
+    trade in their turn, or dispute.
     Keep concealed your hand’s rewards—
     strike a deal for your pursuit.
     If cards traded prove a farce,
