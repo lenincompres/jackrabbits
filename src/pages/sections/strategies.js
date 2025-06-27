@@ -36,9 +36,9 @@ const strategySections = [{
       pick a tower as a goal
       for <b>the journey</b> through the skies.
       Otherwise, off-board you'll fall—
-      yet keep your card, anywise. 
-      And <b>the lottery</b> still holds—
-      either way, it works likewise.`,
+      keep the card shown, anywise.
+      And whatever may befall,
+      play <b>the lottery</b> likewise.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
       The <i>shortfall</i> (how much you're off)
