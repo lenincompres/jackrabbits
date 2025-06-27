@@ -27,7 +27,7 @@ const strategySections = [{
       consigues completar la travesía;
       se cubre el resultado que te cobren
       con palos de la torre de partida.
-      Si vuelas de la torre que los tome,
+      Si acaso es la de tréboles, entonces,
       la carta pasaporte es permitida.`
     ],
     en: [
