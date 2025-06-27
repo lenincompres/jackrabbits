@@ -23,13 +23,13 @@ const morePage = {
       h3: {
         a: {
           text: Copy.text({
-            es: "Dossier Educativo",
             en: "Educational Dossier",
+            es: "Dossier Educativo",
           }),
           target: "_blank",
           href: Copy.text({
-            es: "./educationalDossier.pdf",
-            en: "./dossierEducativo.pdf",
+            en: "./educationalDossier.pdf",
+            es: "./dossierEducativo.pdf",
           }),
         }
       },
