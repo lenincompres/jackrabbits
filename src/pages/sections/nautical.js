@@ -22,7 +22,7 @@ const nauticalSections = [{
       se pone en el subsuelo en sus orillas.
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
-      También es la fontana de las conchas:
+      También, al deshacerte de tus conchas, 
       las cambia por el doble de la pila.
       Por turnos, un canjeo se te otorga;
       limítate a las cartas que recibas.`,

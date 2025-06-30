@@ -38,10 +38,10 @@ const frontierSections = [{
     p: versify(Copy.text({
       es: `El triángulo de negro (con el fuego)
         conéctalo al subsuelo por un lado.
-        Si pagas al estar en el subsuelo,
-        te irás a la salida sin descanso.
-        Y en turnos que te saquen del tablero,
-        o elijas la salida en un costado,
+        Si pagas al entrar en el subsuelo,
+        podrás atraversarlo sin descanso.
+        Si sales en tu turno del tablero,
+        ya sea por tu cuenta o sin buscarlo,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
       en: `Its triangle underground

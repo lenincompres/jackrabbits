@@ -50,7 +50,7 @@ const neoclassicSections = [{
       es: `En rumbos con caballos de los blancos,
       si muestras un corcel que haz adquirido,
       trasládate de gratis cabalgando,
-      igual que de los cruces del camino.`,
+      tal como de los cruces del camino.`,
       en: `On paths marked with a white steed,
       show a Cavalier at hand,
       and you’ll ride it as you need,
@@ -117,8 +117,8 @@ const neoclassicSections = [{
       es: `Al hongo lo reubicas de su puesto
       si acabas en el sitio en el que ronde.
       Tendrá que descartar el incremento
-      quienquiera que en su sitio lo recoge.
-      Decides su lugar en el comienzo
+      quienquiera que en su sitio se acomode.
+      Decide su lugar en el comienzo
       si sales con el último en el orden.`,
       en: `If you start with the last turn,
       choose its starting settlement.
@@ -175,8 +175,8 @@ const neoclassicSections = [{
       en: "Transfers at Allied Hexes",
     }),
     p: versify(Copy.text({
-      es: `Trasládate en canoas por los mares, 
-      pagando por el precio de los dados.
+      es: `Sus medios te permiten trasladarte
+      si pagas por el precio de los dados.
       La cueva, la taberna y comerciantes,
       también te proporcionan sus traslados.
       El vuelo de la torre, si hay restante,
