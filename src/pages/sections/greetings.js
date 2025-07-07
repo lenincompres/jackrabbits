@@ -13,7 +13,7 @@ const greetingsSection = {
       `<strong>Visita las casas nobles, adquiere tres cartas con insignias reales y tráelas a la ciudadela</strong>, en tal orden.`,
       `En ese orden, cuando digo «tal orden» no me refiero a alguna otra orden de conejos mensajeros ni a la orden del motivo de esta carta, sino al orden de los pasos para restaurar el orden en el reino.`,
       `¡En marcha! ¡El tiempo apremia!`,
-      `El Heraldo Blanco</br>Último de la Audiencia</br>Corredor de la Voz`,
+      `El Heraldo Blanco`,//</br>Último de la Audiencia</br>Corredor de la Voz`,
     ],
     en: [
       `Hear ye, glorious messengers,`,
