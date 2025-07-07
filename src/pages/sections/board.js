@@ -47,7 +47,7 @@ const boardSection = {
   })),
   img: ASSETS.guides,
   p_0: versify(Copy.text({
-    es: `Evita callejones sin salidas <sup>T</sup>,
+    es: `Evita callejones sin salidas <sup class="rotated">T</sup>,
       los vínculos de dos hexagonales <sup>x</sup>,
       y hacer la conexión consecutiva
       de piezas triangulares similares <sup>!</sup>.
@@ -55,7 +55,7 @@ const boardSection = {
       con una hexagonal a la que apartes;
       y observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`,
-    en: `Don't make a dead-ending road <sup>T</sup>,
+    en: `Don't make a dead-ending road <sup class="rotated">T</sup>,
       or join the roads from two hexes <sup>x</sup>,
       and keep triangles spread broad,
       instead of closely connected <sup>!</sup>.
