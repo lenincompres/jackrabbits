@@ -46,7 +46,7 @@ const turnSections = [{
       escoge si te irás por un camino.
       Señala el recorrido por <a class="pop" onclick="popUp('roadTiles')">las piezas</a>
       llevando tu conejo peregrino.
-      Y acaba el movimiento si tropiezas
+      Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
       `Recuerda que moverte es opcional;
       depende de tu meta a visitar.`,

@@ -175,7 +175,7 @@ const strategySections = [{
     en: "+ Interpersonal Trades",
   }),
   p_0: versify(Copy.text({
-    es: `Es válido el comercio con las manos,
+    es: `Es válido el comercio con las manos
     si añades el artículo a las reglas.
     Se vende por diamantes en un trato
     con alguien en el sitio que te encuentras;
