@@ -47,9 +47,9 @@ const boardSection = {
   })),
   img: ASSETS.guides,
   p_0: versify(Copy.text({
-    es: `Evita: callejones sin salidas <sup>T</sup>;
-      los vínculos de dos hexagonales <sup>x</sup>;
-      y hacer la conección consecutiva
+    es: `Evita callejones sin salidas <sup>T</sup>,
+      los vínculos de dos hexagonales <sup>x</sup>,
+      y hacer la conexión consecutiva
       de piezas triangulares similares <sup>!</sup>.
       Las islas que desees las inicias
       con una hexagonal a la que apartes;
