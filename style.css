@@ -309,6 +309,14 @@ body>header h1 {
   bottom: -0.7rem;
 }
 
+.rotated{
+  transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+}
+
 body>header h1>* {
   margin: 0 0.3rem;
 }

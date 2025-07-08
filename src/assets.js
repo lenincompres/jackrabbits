@@ -36,6 +36,11 @@ const ASSETS = {
     src: "./images/sample.png",
     alt: "Sample board",
   },
+  sampleThumbnail: {
+    tag: "img",
+    src: "./images/sampleThumbnail.png",
+    alt: "Sample board",
+  },
   guides: {
     tag: "img",
     src: "./images/guides.png",

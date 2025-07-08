@@ -12,27 +12,41 @@ const setupPage = {
       }),
       p: versify(
         Copy.text({
-          es: `El mapa que usarás en la partida
+          es: [`El mapa que usarás en la partida
           lo creas de improviso y previamente,
           con piezas que conectas por sus vías
           en cientos de maneras diferentes.`,
-          en: `To play a <b>Jack Rabbits</b> match,
+          `El reino de las cartas y sus templos
+          se ensambla en un diseño aleatorio;
+          comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
+          o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,],
+          en: [`To play a <b>Jack Rabbits</b> match,
           you must first complete a board—
           build a random land from scratch,
           a new map to be explored.`,
-        }),
-        ASSETS.thumbnailOf("sample", Copy.lang === Copy.LANG.es.code ? '15.5em' : '13em', e => popUp("sample")),
-        Copy.text({
-          es: `El reino de las cartas y sus templos
-          se ensambla en un diseño aleatorio;
-          comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
-          o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,
-          en: `The lands you’ll link, in this spread,
+          `The lands you’ll link, in this spread,
           house the royals from each throne. 
           On your first game, go ahead,
           build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as it's shown.
           Or play normally instead:
-          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own.`,
+          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own.`, ],
+        }),
+        ASSETS.thumbnailOf("sampleThumbnail", Copy.lang === Copy.LANG.es.code ? '7em' : '5em', e => popUp("sample")),
+        Copy.text({
+          es: [
+          `Limítate al ensamble de las tierras
+          si juegas con menores de los nueve.
+          Que exploren recorrer las carreteras
+          usando los conejos que se mueven.
+          Las cartas de adquirir a la nobleza
+          se añaden a medida que lo entienden.`],
+          en: [
+            `With children younger than nine,
+          just play at building the land.
+          Insist they roam the design,
+          and move the rabbits by hand.
+          Include the cards in due time,
+          as soon as they understand.`],
         })),
     }, {
       h2: 2,

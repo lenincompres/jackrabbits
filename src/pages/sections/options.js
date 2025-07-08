@@ -1,58 +1,8 @@
 import Copy from "../../../lib/Copy.js";
 import versify from "../../aux/versify.js";
 
-const optionalSections = [{
-  h4: Copy.text({
-    es: "Ases",
-    en: "Aces",
-  }),
-  section: [{
-    h5: Copy.text({
-      es: "Ases Ambivalentes",
-      en: "Ambivalent Aces",
-    }),
-    p: versify(Copy.text({
-      es: `Elige los valores de tus ases,
-        que cuentan por un <b>1</b> o por un <b>11</b>,
-        ya sea en el momento en que los gastes
-        o incluso en el momento que los compres.`,
-      en: `You may decide on their value
-        whenever using an ace:
-        <b>1</b> or <b>11</b>—what have you—
-        even in the marketplace.`,
-    })),
-  }, {
-    h5: Copy.text({
-      es: "Ases capitales",
-      en: "Capital Aces",
-    }),
-    p: versify(Copy.text({
-      es: `El <b>A</b>s que de primero desembolses,
-        descártalo y consérvalo en tu frente;
-        pues éste se valora por un <b>11</b>
-        y solo por un <b>1</b> tus siguientes.`,
-      en: `Your first <b>A</b>ce is worth <b>11</b>—
-        the others you spend are <b>1</b>s.
-        As a record that it's spent then, 
-        keep it in front of your hands.`,
-    })),
-  }, {
-    h5: Copy.text({
-      es: "Capitales adicionales",
-      en: "Additional capital",
-    }),
-    p: versify(Copy.text({
-      es: `Los <b>A</b>ses capitales que se exponen
-        se cuentan por un <b>1</b> permanente;
-        si el palo que precisas corresponde,
-        lo añades del que tienes en tu frente.`,
-      en: `Playing your capital <b>A</b>ce
-        grants a stable bonus tip:
-        if its suit suits at a place,
-        add it as one extra pip.`,
-    })),
-  }],
-}, {
+const optionalSections = [
+  {
   h4: Copy.text({
     es: "Piezas",
     en: "Tiles",
@@ -114,6 +64,57 @@ const optionalSections = [{
         connecting hexes directly
         and removing all <a class="pop" onclick="popUp('roadTiles')">road tiles</a>.`,
       })),*/
+  }],
+}, {
+  h4: Copy.text({
+    es: "Ases",
+    en: "Aces",
+  }),
+  section: [{
+    h5: Copy.text({
+      es: "Ases Ambivalentes",
+      en: "Ambivalent Aces",
+    }),
+    p: versify(Copy.text({
+      es: `Elige los valores de tus ases,
+        que cuentan por un <b>1</b> o por un <b>11</b>,
+        ya sea en el momento en que los gastes
+        o incluso en el momento que los compres.`,
+      en: `You may decide on their value
+        whenever using an ace:
+        <b>1</b> or <b>11</b>—what have you—
+        even in the marketplace.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Ases capitales",
+      en: "Capital Aces",
+    }),
+    p: versify(Copy.text({
+      es: `El <b>A</b>s que de primero desembolses,
+        descártalo y consérvalo en tu frente;
+        pues éste se valora por un <b>11</b>
+        y solo por un <b>1</b> tus siguientes.`,
+      en: `Your first <b>A</b>ce is worth <b>11</b>—
+        the others you spend are <b>1</b>s.
+        As a record that it's spent then, 
+        keep it in front of your hands.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Capitales adicionales",
+      en: "Additional capital",
+    }),
+    p: versify(Copy.text({
+      es: `Los <b>A</b>ses capitales que se exponen
+        se cuentan por un <b>1</b> permanente;
+        si el palo que precisas corresponde,
+        lo añades del que tienes en tu frente.`,
+      en: `Playing your capital <b>A</b>ce
+        grants a stable bonus tip:
+        if its suit suits at a place,
+        add it as one extra pip.`,
+    })),
   }],
 }, {
   h4: Copy.text({
