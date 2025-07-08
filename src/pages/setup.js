@@ -39,7 +39,7 @@ const setupPage = {
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
           Las cartas de adquirir a la nobleza
-          se añaden a medida que lo entienden.`],
+          se añaden a medida que comprenden.`],
           en: [
             `With children younger than nine,
           just play at building the land.
