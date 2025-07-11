@@ -32,7 +32,7 @@ const frontierSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Traslados del y al subsuelo",
+      es: "Traslados bajo el subsuelo",
       en: "Transfers via underground",
     }),
     p: versify(Copy.text({
@@ -88,7 +88,7 @@ const frontierSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Traslado de la Guardia",
+      es: "Traslado de Guardias",
       en: "Transfer the guards",
     }),
     p: versify(Copy.text({

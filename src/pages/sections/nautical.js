@@ -37,7 +37,7 @@ const nauticalSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Traslado por la Marea",
+      es: "Traslado desde el Mar",
       en: "Trasfer via tides",
     }),
     p: versify(Copy.text({
@@ -86,7 +86,7 @@ const nauticalSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Traslado con el Velero",
+      es: "Traslado mediante el Velero",
       en: "Transfer via sailboat",
     }),
     p: versify(Copy.text({
