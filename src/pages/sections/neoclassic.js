@@ -267,16 +267,16 @@ const neoclassicSections = [{
       en: "Wilderness Hexes",
     }),
     p: versify(Copy.text({
-      es: `Sus cuevas te conducen al subsuelo,
-      sin trámite de pago por traslado.
+      es: `Sus pozos te conducen al subsuelo;
+      subirlos es inválido de abajo.
       El lobo es obediente a tu señuelo;
-      se paga en el cubil por trasladarlo.
+      se paga en el cubil por su traslado.
       Y en cuanto a los caminos paralelos,
       se paga por el paso en sus atajos.`,
       en: `Any off-road crossing found
       must be paid before you pass it.
-      Caves that take you underground
-      have no transfer to bypass it.
+      Wells will take you underground—
+      these are only one way access.
       Pay with fleurs when you're around,
       and the wolf goes where you cast it.`,
     })),

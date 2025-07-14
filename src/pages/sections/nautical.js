@@ -186,17 +186,13 @@ const nauticalSections = [{
       o aíslas o conectas el glaciar:
       la torre hexagonal resbaladiza.
       Conéctala a un camino por el mar,
-      de vía carretera a las orillas.
-      La cueva del glaciar es singular, 
-      te deja en el subsuelo de caída.`,
+      de vía carretera a las orillas.`,
       en: `Count the icicles you hoard,
       show a sum of twelve at least,
       to connect—or move off-shore—
       the king tower wrapped by these.
       Link it to a road tile's port:
-      a road open to the seas.
-      There's a drop chute on its floor—
-      one way underground, it leads.`,
+      a road open to the seas.`,
       /*`If your turn will end off-board,
       or you're heading to the seas,
       count the icicles you hoard—
@@ -217,17 +213,17 @@ const nauticalSections = [{
       Y en este (exceptuando en el subsuelo)
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
-      se salen con el viento huracanado.`,
-      // Tan solo en el graciar con agujero,
-      // podrán ir al subsuelo y escaparlo.
+      se salen con el viento huracanado:
+      terminan con su turno en el destierro,
+      o esperan a que se haya trasladado.`,
       en: `Pay from anywhere you please,
       choose the hex the storm affects,
-      place on it the token piece—
-      underground, this storm deflects.
+      place on it the token piece
+      freezing those within the hex.
       Any visitor who flees
-      goes off-board from its effects.`,
-      // The icy toward, ar least,
-      // may drop underground its gest.
+      goes off-board from its effects.
+      Only normal hexes freeze—
+      underground, this storm deflects.`,
     })),
   }]
 }, ];
