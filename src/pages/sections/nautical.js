@@ -181,26 +181,26 @@ const nauticalSections = [{
       en: "Slide the glacier",
     }),
     p: versify(Copy.text({
-      es: `Con doce de tus témpanos (o más)
-      que muestres de cualquiera de las fichas,
-      o aíslas o conectas el glaciar:
-      la torre hexagonal resbaladiza.
-      Conéctala a un camino por el mar,
-      de vía carretera a las orillas.`,
-      en: `Count the icicles you hoard,
-      show a sum of twelve at least,
-      to connect—or move off-shore—
-      the king tower wrapped by these.
-      Link it to a road tile's port:
-      a road open to the seas.`,
-      /*`If your turn will end off-board,
-      or you're heading to the seas,
-      count the icicles you hoard—
-      show at least a sum of six.
-      You’ll be rescued and restored
-      to their icy tower's breeze.
-      There's a drop chute on its floor;
-      one way underground it leads.`,*/
+      es: /*`Con doce de tus témpanos (o más)
+      que muestres de cualquiera de las fichas,*/
+      `Aíslas o conectas el glaciar,
+      la torre hexagonal resbaladiza,
+      si muestras, en cualquier localidad,
+      un témpano al momento en el que tiras.
+      Si logras a tus dados alcanzar,
+      o el resto con tus témpanos liquidas,
+      conéctalo a un camino por el mar;
+      si no, lo desconectas de la orilla.`,
+      en: /*`Count the icicles you hoard,
+      show a sum of twelve at least,*/
+      `Bring their king's tower to shore—
+      even when not on this piece—
+      if you show one card before,
+      and your roll is not amiss.
+      Link it to a road tile's port;
+      but if short, drift it at sea.
+      Yet, remember when you're short,
+      ice may pay the shortfall fees.`,
     })),
   }, {
     h4: Copy.text({
@@ -213,17 +213,17 @@ const nauticalSections = [{
       Y en este (exceptuando en el subsuelo)
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
-      se salen con el viento huracanado:
+      se salen con el viento huracanado`,/*
       terminan con su turno en el destierro,
-      o esperan a que se haya trasladado.`,
+      o esperan a que se haya trasladado.`,*/
       en: `Pay from anywhere you please,
       choose the hex the storm affects,
       place on it the token piece
       freezing those within the hex.
       Any visitor who flees
-      goes off-board from its effects.
+      goes off-board from its effects.`,/*
       Only normal hexes freeze—
-      underground, this storm deflects.`,
+      underground, this storm deflects.`,*/
     })),
   }]
 }, ];
