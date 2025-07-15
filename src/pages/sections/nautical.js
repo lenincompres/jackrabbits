@@ -187,7 +187,7 @@ const nauticalSections = [{
       la torre hexagonal resbaladiza,
       si muestras, en cualquier localidad,
       un témpano al momento en el que tiras.
-      Si logras a tus dados alcanzar,
+      Si alcanzas a tus dados al lanzar,
       o el resto con tus témpanos liquidas,
       conéctalo a un camino por el mar;
       si no, lo desconectas de la orilla.`,

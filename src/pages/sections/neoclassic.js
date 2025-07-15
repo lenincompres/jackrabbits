@@ -140,9 +140,9 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: [`Los seis ayuntamientos y sus nobles;
       y dos de los conejos jugadores.
-      También en las tabernas de los jokers,
+      También a las tabernas de los jokers,
       se añade el comodín de los cañones.`,
-      `Los bordes en azul de sus hexágonos,
+      `Los bordes en azul de los hexágonos,
       se deben mantener desconectados.`
       ],
       en: [`Adds six royals and their tiles,
@@ -197,7 +197,7 @@ const neoclassicSections = [{
       es: `La Jota de la unión capitalista
       te vende lo que quieras por diamantes.
       Y en la otra te reponen, de la pila,
-      <strong>un</strong> tiro de tus cartas que descartes.`,
+      <strong>un</strong> grupo de tus cartas que descartes.`,
       en: `One Jack hex trades diamond cards—
       buy whatever suit you choose.
       The other grants <strong>one</strong> discard—
@@ -210,7 +210,7 @@ const neoclassicSections = [{
     }),
     p: versify(Copy.text({
       es: `Dispárate a la torre que prefieras,
-      sin miedo a terminar en las afueras.`,
+      sin riesgo a terminar en las afueras.`,
       en: `Take a trip across the air
       to the tower you prefer.`,
     })),
