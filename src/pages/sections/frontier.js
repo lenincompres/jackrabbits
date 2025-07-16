@@ -88,8 +88,8 @@ const frontierSections = [{
     })),
   }, {
     h4: Copy.text({
-      es: "Traslado de Guardias",
-      en: "Transfer the guards",
+      es: "Traslado de Guardia",
+      en: "Transfer the guard",
     }),
     p: versify(Copy.text({
       es: `La guardia obstaculiza las veredas:
@@ -147,7 +147,7 @@ const frontierSections = [{
       Entonces, si te alcanzan cabalgando,
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
-      te llevan a sus cuevas… o te buscan.`,
+      te llevan a sus cuevas, o te buscan.`,
       en: `Pay to summon a brown horse—
       on the islands where they're found.
       They will reach you from their source
@@ -177,14 +177,14 @@ const frontierSections = [{
       se añaden a la <i>pila sobrecargo</i>:
       su número de puntos, que incrementa,
       se suma al resultado de los dados.
-      En cuanto sobrepasa la decena,
+      En cuanto sobrepasa la docena,
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display
       adds them to the <i>overload</i>,
       and the sum this pile will weigh
       adds its points to the dice rolled.
       Please discard it right away
-      if there's ten points on the load.`,
+      if there's thirteen on the load.`,
     })),
   }, {
     h4: Copy.text({

@@ -187,8 +187,8 @@ const nauticalSections = [{
       la torre hexagonal resbaladiza,
       si muestras, en cualquier localidad,
       un témpano al momento en el que tiras.
-      Si alcanzas a tus dados al lanzar,
-      o el resto con tus témpanos liquidas,
+      Si alcanzas a tus dados al lanzar
+      o pagas lo <i>restante</i> de la cifra,
       conéctalo a un camino por el mar;
       si no, lo desconectas de la orilla.`,
       en: /*`Count the icicles you hoard,
