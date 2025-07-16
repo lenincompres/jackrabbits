@@ -120,8 +120,8 @@ const setupPage = {
         Copy.text({
           es: `Elige a la persona que comienza
           y el orden de los turnos que le siguen
-          (le importa en lo absoluto tu sistema
-          al noble mensajero que te escribe).`,
+          (me importa en lo absoluto tu sistema:
+          que lo hagas al azar o lo designes).`,
           en: `Now, select a starting player,
           and the order of the turns—
           the method for this endeavor
