@@ -38,15 +38,14 @@ const setupPage = {
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
-          Las cartas de adquirir a la nobleza
-          se añaden a medida que comprenden.`],
-          en: [
-            `With children younger than nine,
+          Y añádeles las cartas y sus reglas,
+          si ves que es el momento de que prueben.`],
+          en: `With children younger than nine,
           just play at building the land.
           Insist they roam the design,
           and move the rabbits by hand.
           Include the cards in due time,
-          as soon as they understand.`],
+          as soon as they understand.`,
         })),
     }, {
       h2: 2,
