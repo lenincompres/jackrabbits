@@ -24,7 +24,7 @@ const setupPage = {
           you must first complete a board—
           build a random land from scratch,
           a new map to be explored.`,
-          `The lands you’ll link, in this spread,
+          `Tiles you’ll link, within this spread,
           house the royals from each throne. 
           On your first game, go ahead,
           build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as it's shown.
