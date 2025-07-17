@@ -28,14 +28,14 @@ const priceSection = {
       charge the total on the dice. 
       It's OK to overpay; 
       you don't have to be precise. 
-      The suits allowed where you pay 
-      may be combined for the price.`,
-      `Show and leave out what you spend; 
+      You may mix the suits you play—
+      any marked there fits the price.`,
+      `Show and leave out what you spend— 
       it's <i>discarded</i> once you're done. 
       You may spend royals as <b>10</b>,
       and the aces are worth <b>1</b>.`,
       `If you spend a royal card,
-      return it to the court's aisle;
+      it returns to the court's aisle;
       and you must remove your mark,
       take your carrot off their tile.`,
     ]

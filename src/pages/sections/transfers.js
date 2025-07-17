@@ -16,10 +16,10 @@ const transferSections = [{
     you'll move freely on your round—
     even through an underpass
     (see the mountains farther down).
-    Road tiles offer—<a class="pop" onclick="popUp('price')">at a price</a>—
-    other ways to get around:
-    pay the sum that’s on your dice
-    with the suits marked on the ground.`,
+    Other methods have <a class="pop" onclick="popUp('price')">a price</a>,
+    paid in suits marked on the ground—
+    use the total on your dice
+    as the minimum amount.`,
   }), {
     marginTop: '1.2rem',
     tag: "h4",
