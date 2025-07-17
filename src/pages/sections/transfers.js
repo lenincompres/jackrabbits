@@ -12,10 +12,10 @@ const transferSections = [{
       marcados a mitad de los polígonos,
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de los símbolos.`,
-    en: `The journey along the paths
-    is always free on your round—
-    even through an underpass,
-    see the mountains (farther down).
+    en: `If you stay along the paths, 
+    you'll move freely on your round—
+    even through an underpass
+    (see the mountains farther down).
     Road tiles offer—<a class="pop" onclick="popUp('price')">at a price</a>—
     other ways to get around:
     pay the sum that’s on your dice
@@ -44,8 +44,8 @@ const transferSections = [{
   img: ASSETS.rhombi,
 }, {
   h4: Copy.text({
-    es: "traslado con Comerciantes",
-    en: "transfer via Merchants",
+    es: "Traslado con Comerciantes",
+    en: "Transfer via Merchants",
   }),
   p: versify(Copy.text({
     es: `Los cruces te permiten transportarte,
@@ -58,7 +58,7 @@ const transferSections = [{
       y arrivas por alguna carretera.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
-    en: `These tiles, where the road is forked,
+    en: `Junctions, where the road is forked,
       offer two choices to ride:
       reach a hex across the board,
       dashing over tiles in stride,
@@ -71,8 +71,8 @@ const transferSections = [{
   }), {
     tag: "h4",
     html: Copy.text({
-      es: "traslado con Comodines",
-      en: "transfer via Jokers",
+      es: "Traslado con Comodines",
+      en: "Transfer via Jokers",
     }),
   }, Copy.text({
     es: `Si <a class="pop" onclick="popUp('price')">pagas</a> al pasar por las tabernas,
@@ -81,14 +81,14 @@ const transferSections = [{
       lo montas y liberas de tu mano.`,
     en: `When you pass by any tavern,
       you may <a class="pop" onclick="popUp('price')">buy</a> a joker card;
-      choose when you would like to travel,
+      use it when you'd like to travel,
       then release it afterward.`,
   })),
   img: ASSETS.rides,
 }, {
   h4: Copy.text({
-    es: "traslado por Madrigueras",
-    en: "transfer via Rabbit holes",
+    es: "Traslado por Madrigueras",
+    en: "Transfer via Rabbit holes",
   }),
   p: versify(Copy.text({
     es: `Si <a class="pop" onclick="popUp('price')">pagas</a> en la entrada de las cuevas,
@@ -122,7 +122,7 @@ const transferSections = [{
       te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
     en: `If you choose to take a road
-      that leads to the edge (outbound),
+      leading to the edge (outbound),
       you'll end your turn off the board,
       with no <b>increment</b>—you've drowned.
       Your next <b>lottery</b>'s off-board,

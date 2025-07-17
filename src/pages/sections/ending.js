@@ -13,10 +13,10 @@ const endingSection = {
       si aquí en la <a class="pop" onclick="popUp('citadel')"><i>ciudadela</i></a> te regresas,
       cargando con las cartas del concejo: 
       tus tres representantes de nobleza.`,
-      en: `Return to the <a class="pop" onclick="popUp('citadel')"><i>citadel</b></i>  
-      with three royal cards in hand. 
-      In this race you must excel
-      to claim champion of the land.`,
+      en: `Reach this place where you begin, 
+      with three royal cards in hand.
+      Be the first and you shall win—
+      be the champion of the land.`,
     }),
     ASSETS.thumbnailOf("citadel", "6em", e => popUp("citadel")),
     Copy.text({
@@ -24,10 +24,10 @@ const endingSection = {
       se exige al colectivo de la mesa:
       que escoja, de lo simple a lo complejo,
       la clase de final que le interesa.`,
-      en: `Before the royal quest starts, 
-    choose a challenge for the mission;
-    look for the circular marks
-    that set the winning condition.`,
+      en: `But before the quest may start, 
+    choose a challenge for the mission—
+    use the circle as a mark 
+    to display the win condition.`,
     })),
   ul_exception: {
     li: Copy.text({

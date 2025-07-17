@@ -25,9 +25,9 @@ const overviewSection = {
         Win the game when you return—
         with three royal cards in hand.`,
         `<b>the acquisition</b> requires
-        ten points of a royal’s suit—
-        with every turn that transpires,
-        you'll score new cards as your loot. `,
+        ten or more points in a suit—
+        as each turn you take transpires,
+        you may score new cards as loot.`,
       ]
     }), 
     ASSETS.royals,
@@ -47,7 +47,7 @@ const overviewSection = {
         every road is free to course.
         Only pay on off-road treks,
         or to ride a boat or horse.`,
-        `Stop when you reach a hex tile,
+        `Stop when reaching a hex tile,
         and unless you're off the board,
         draw a new card from the pile—
         that's <b>the increment</b> you scored.`,

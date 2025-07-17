@@ -58,7 +58,7 @@ const turnSections = [{
       from the current hex you're on.
       Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected—
       let your rabbit venture on.
-      Cross small tiles, but not the hexes—
+      Cross small tiles but not the hexes—
       don’t move past a hexagon.`,
       `You may move towards your goal,
       or choose not to move at all.`,
@@ -86,14 +86,14 @@ const turnSections = [{
       reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
-      `Your goal is to claim the card
+      `It's your goal to claim the card
       of the hex where you've set foot.
       If unclaimed, you may discard 
-      ten or more points of their suit— 
+      ten or more points of its suit— 
       place a carrot as your mark, 
       and be done with this pursuit. `,
-      `You never pay as a guest,
-      but you must stop there to rest.`,
+      `You may simply be a guest—
+      don't discard and stop to rest.`,
       `Keep the card claimed in your hands—
       get <b>the increment</b> at once.`,
     ]
