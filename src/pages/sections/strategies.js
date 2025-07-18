@@ -161,14 +161,14 @@ const strategySections = [{
       que en estos por diamantes se canjean;
       o aceptan de cualquiera por el pago
       si el centro es el marcado con la estrella.`,
-    en: `All spent cards are being sold;
-      each Jack’s place sells its own suit.
+    en: `All spent cards are being sold—
+      every Jack’s hex sells its suit.
       Check what treasures these may hold—
-      when you play there, grab some loot.
+      on your visit trade for loot.
       What you take, replace with gold—
       see the markings underfoot.
-      Note the asterisk in bold;
-      it means any suit will suit.`,
+      Note the asterisk in bold—
+      any suit at all will suit.`,
   })),
   h5: Copy.text({
     es: "+ Comercio Interpersonal",

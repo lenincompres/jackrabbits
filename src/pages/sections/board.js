@@ -35,14 +35,14 @@ const boardSection = {
       there are twelve of every kind—
       as you hand each player theirs,
       the division will be fine.`,
-      `To place them, first choose a style
-      between a strict or free pace.
-      <b>Strict</b>: take turns placing one tile—
-      the one you flip, you must place.
-      <b>Free</b>: no turns, it's all freestyle—
-      flip all the tiles on their face. 
+      `For their placement, choose a style,
+      either strict or free in pace.
+      Strict: take turns placing one tile—
+      any tile you flip, you place.
+      Free: no turns, it’s all freestyle—
+      flip all tiles to see their face.
       These suggestions are worthwhile
-      as guidelines in either case:`,
+      as a guide in either case:`,
     ]
   })),
   img: ASSETS.guides,
@@ -55,14 +55,14 @@ const boardSection = {
       con una hexagonal a la que apartes;
       y observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`,
-    en: `Don't make a dead-ending road <sup class="rotated">T</sup>,
-      or join the roads from two hexes <sup>x</sup>,
-      and keep triangles spread broad,
-      instead of closely connected <sup>!</sup>.
-      To start an island abroad,
-      just place a hex disconnected.
-      The underground hex is odd,
-      and will remain unconnected.`,
+    en: `Don’t make dead-ends on the road.<sup class="rotated">T</sup>
+      Don’t connect roads from two hexes.<sup>x</sup>
+      Keep the triangles spread broad—
+      not in clusters when connected.<sup>!</sup>
+      If you'd like islands abroad,
+      place the hexes disconnected.
+      Note the underground is odd—
+      keep it always unconnected.`,
   })),
 };
 

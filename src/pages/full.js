@@ -14,7 +14,7 @@ const fullPage = {
         es: `Añade los artículos restantes
           al <a href="#intro"><b>juego introductorio</b></a> principiante.`,
         en: `The complete quest is afoot—
-          with new strategies per suit.`
+          with these strategies per suit.`
       })),
     },
     section: strategySections.sort(() => Math.random() - 0.5),

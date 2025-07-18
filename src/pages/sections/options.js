@@ -44,10 +44,10 @@ const optionalSections = [
       one set of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—
       meaning that with three contenders, 
       you'll remove a set and suit.
-      Verify your chosen ending 
-      fits with what the cards include—
-      having spades is recommended 
-      if it’s tribal, the pursuit.`,
+      Pick a fitting kind of ending—
+      one that cards allow you to.
+      Having spades is recommended 
+      on a tribal game pursuit.`,
     })),
     /*},{
       h5__: Copy.text({
@@ -113,7 +113,7 @@ const optionalSections = [
       en: `Playing your capital <b>A</b>ce
         grants a stable bonus tip:
         if its suit suits at a place,
-        add it as one extra pip.`,
+        add it as an extra pip.`,
     })),
   }],
 }, {
@@ -163,7 +163,7 @@ const optionalSections = [
         salirte sin parar a descansar.`,
       en: `You may visit and go on
         if your carrot's on a hex—
-        use one turn to move along
+        need not wait to move along
         to the place you're headed next.`,
     })),
   }]
