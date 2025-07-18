@@ -17,7 +17,7 @@ const neoclassicSections = [{
       La ficha con el hongo y sus poderes,
       que añades a las reglas si lo quieres.`,
       en: `Adds four royals and their tiles,
-      which have steeds and tracks for miles.
+      they have steeds and tracks for miles.
       Plus, a mushroom that's hostile—
       it rots cards that leave the pile.`,
     })),

@@ -10,12 +10,12 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Tu turno empezará con <strong>un</strong> presente,
-      rifado de la pila tras los dados.
-      Si <strong>un</strong> dado, de los dígitos que obtienes,
-      coincide con <strong>un</strong> número en tus manos,
-      demuestra con tu carta que lo tienes
-      y llévate la carta de regalo.`,
+      `Tu turno empezará con un presente:
+      un premio de la pila tras los dados.
+      Si un dado (de los dos independientes)
+      coincide con un número en tus manos,
+      demuestra con la pertinente
+      que ganas la que rifan de regalo.`,
       `El límite de cartas es de nueve;
       descarta la que quieras si te excedes.*`,
       `Conserva el resultado de los dados;
@@ -24,10 +24,10 @@ const turnSections = [{
     en: [
       `Start your turns rolling two dice
       to have their digits unfold.
-      You'll draw <strong>one</strong> card as a prize
-      if you show <strong>one</strong> card you hold,
-      proving that its number ties
-      to <strong>one</strong> of the dice you rolled.`,
+      You'll draw one card as a prize
+      if you show a card you hold,
+      one that matches number-wise
+      one of the two dice you rolled.`,
       `If you're ever holding ten, 
       discard down to nine again.*`,
       `Hold the outcome of the dice;

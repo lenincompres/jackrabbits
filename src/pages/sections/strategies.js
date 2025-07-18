@@ -35,8 +35,8 @@ const strategySections = [{
       if it beats the dice or ties,
       pick a tower as a goal
       for <b>the journey</b> through the skies.
-      Otherwise, off-board you'll fall—
-      keep the card shown, anywise.
+      Fail and off-board you will fall—
+      keep the card shown anywise.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
       `You'll still fly and won't fall off
@@ -133,14 +133,14 @@ const strategySections = [{
       adding hearts from cards you own.”
       Off-board players can't request—
       they're not fit to cast a stone.`,
-      `Yet those asking for your hearts
+      `Yet those asking for your cards
       must first show cards of their own—
       even if they're far apart—
       prove they're welcome in this zone.
-      If you fail to show your cards:
-      off the board, you’re swiftly thrown!
-      But succeed, and they'll depart—
-      thrown off, losing what they've shown.`,
+      If you fail to show them hearts,
+      off the board you’re swiftly thrown!
+      But succeed and they're disbarred:
+      thrown off losing what they’d shown.`,
     ]
   })),
 }, {
@@ -165,7 +165,7 @@ const strategySections = [{
       every Jack’s hex sells its suit.
       Check what treasures these may hold—
       on your visit trade for loot.
-      What you take, replace with gold—
+      Match or overpay with gold—
       see the markings underfoot.
       Note the asterisk in bold—
       any suit at all will suit.`,
@@ -185,8 +185,8 @@ const strategySections = [{
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
     players may trade in cahoot:
-    meet to buy with diamond cards—
-    in their turn, trade or dispute.
+    buy in turn with diamond cards—
+    meet to trade or to dispute.
     Keep concealed your hand’s rewards—
     strike a deal for your pursuit.
     If cards traded prove a farce,

@@ -25,7 +25,7 @@ const setupPage = {
           build a random land from scratch,
           a new map to be explored.`,
           `Link the tiles within this spread—
-          which house royals from each throne. 
+          they house royals from each throne. 
           On your first game, go ahead,
           build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as it's shown.
           Or play normally instead:
