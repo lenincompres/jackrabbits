@@ -41,10 +41,10 @@ const setupPage = {
           Y añádeles las cartas y sus reglas,
           si ves que es el momento de que prueben.`],
           en: `Younger children under nine
-          can at first just build the land,
+          may just play to build the land,
           then explore what they design 
           with a rabbit in their hand.
-          Add the card rules in due time—
+          Add the cards in their own time—
           once they start to understand.`,
         })),
     }, {

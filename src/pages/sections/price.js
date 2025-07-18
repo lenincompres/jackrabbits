@@ -30,7 +30,7 @@ const priceSection = {
       you don't have to be precise. 
       You may mix the suits you play—
       any marked there fits the price.`,
-      `Show and leave out what you spend— 
+      `Show and leave out what you spend—
       it's <i>discarded</i> once you're done. 
       You may spend royals as <b>10</b>,
       and the aces are worth <b>1</b>.`,
