@@ -16,7 +16,7 @@ const transferSections = [{
     you'll move freely on your round—
     even through an underpass
     (see the mountains farther down).
-    Other methods have <a class="pop" onclick="popUp('price')">a price</a>,
+    Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits marked on the ground—
     use the total on your dice
     as the minimum amount.`,
@@ -58,9 +58,9 @@ const transferSections = [{
       y arrivas por alguna carretera.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
-    en: `Junctions, where the road is forked,
+    en: `Junctions where the road is forked
       offer two choices to ride:
-      reach a hex across the board,
+      reach a hex across the board
       dashing over tiles in stride,
       or select a road to port
       as you row the seas outside.

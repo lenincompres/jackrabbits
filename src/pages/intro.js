@@ -34,8 +34,8 @@ const introPage = {
     p: versify(Copy.text({
       es: `El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante,
         con reglas que usarás en lo adelante.`,
-      en: `Play a <a href="#full"><b><big>full game</big></b></a> to conclude—
-        with new strategies per suit.`,
+      en: `The <a href="#full"><b><big>full game</big></b></a> is introduced
+      once the intro’s understood.`,
     })),
   },
 };

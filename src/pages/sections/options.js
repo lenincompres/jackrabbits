@@ -19,8 +19,8 @@ const optionalSections = [
       canjeas lo que quieras con diamantes;
       y puedes con tus tréboles volar,
       con palos cualesquiera de restante.`,
-      en: `There are three suitable assets
-      depicted in this reboot:
+      en: `There are three suitable assets,
+      which are marked in this reboot:
       hearts are used to judge the access;
       diamonds buy you any loot; 
       clubs will get you flying passes—
@@ -40,14 +40,14 @@ const optionalSections = [
       si acaso es imposible de obtener.
       También que, sin las picas y sus duelos,
       podría complicársete vencer.`,
-      en: `Have as many suits as players,
-      and one of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too;
-      for instance, with three contenders,
-      remove a set and a suit.
-      Consider choosing an ending
-      that fits what the cards include.
-      Having spades is recommended
-      if it's a tribal pursuit.`,
+      en: `Have as many suits as players—
+      one set of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—
+      meaning that with three contenders, 
+      you'll remove a set and suit.
+      Verify your chosen ending 
+      fits with what the cards include—
+      having spades is recommended 
+      if it’s tribal, the pursuit.`,
     })),
     /*},{
       h5__: Copy.text({
@@ -80,8 +80,8 @@ const optionalSections = [
         que cuentan por un <b>1</b> o por un <b>11</b>,
         ya sea en el momento en que los gastes
         o incluso en el momento que los compres.`,
-      en: `You may decide on their value
-        whenever using an ace:
+      en: `You decide the proper value 
+        any time you use an ace:
         <b>1</b> or <b>11</b>—what have you—
         even in the marketplace.`,
     })),
@@ -95,8 +95,8 @@ const optionalSections = [
         descártalo y consérvalo en tu frente;
         pues éste se valora por un <b>11</b>
         y solo por un <b>1</b> tus siguientes.`,
-      en: `Your first <b>A</b>ce is worth <b>11</b>—
-        the others you spend are <b>1</b>s.
+      en: `Your first <b>A</b>ce is worth <b>11</b>,
+        and the rest you spend are <b>1</b>s.
         As a record that it's spent then, 
         keep it in front of your hands.`,
     })),
@@ -131,7 +131,7 @@ const optionalSections = [
         se añaden al destino de los vuelos;
         podrás aterrizar en los hexágonos,
         excepto por supuesto en el subsuelo.`,
-      en: `When flying from any tower, 
+      en: `When you fly from any tower, 
         find more places to touch down:
         you may reach—with the clubs' power—
         any hex above the ground.`,
@@ -146,10 +146,10 @@ const optionalSections = [
         si exhibes corazones al pararte:
         tu mínimo de seis reglamentarios
         que juzgan a cualquiera al visitarte.`,
-      en: `Display, where you’ll take a rest,
-        at least a sum of six hearts,  
-        and you'll judge incoming guests—
-        the underground takes no part.`,
+      en: `Keep displayed as you take rest 
+      six or more hearts in your count;
+      you will judge incoming guests—
+      just don’t do this underground.`,
     })),
   }, {
     h5: Copy.text({
@@ -161,9 +161,9 @@ const optionalSections = [
         si está tu zanahoria en un lugar;
         pues puedes, en el turno que visitas,
         salirte sin parar a descansar.`,
-      en: `The journey may be prolonged
-        if your carrot's on a hex;
-        you may visit and go on
+      en: `You may visit and go on
+        if your carrot's on a hex—
+        use one turn to move along
         to the place you're headed next.`,
     })),
   }]
@@ -183,7 +183,7 @@ const optionalSections = [
         ya sea con las cartas que validas
         o incluso con un doble de los dados.`,
       en: `You may win more than one prize,
-        the lottery has no limits—
+        give the lottery no limits—
         whether cards that match the dice,
         or a roll of double digits.`,
     })),
@@ -207,7 +207,7 @@ const optionalSections = [
       es: `Si ocultas un exceso en lo que tomas,
         quienquiera que lo note te lo roba.`,
       en: `If you hoard cards and are found,
-        the caller robs your hand down.`,
+        your revealer robs you down.`,
     })),
   }, {
     h5: Copy.text({

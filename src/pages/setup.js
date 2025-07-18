@@ -113,7 +113,7 @@ const setupPage = {
           en: `See what fits <a class="pop" onclick="popUp('endings')"><b>ending the game</b></a>,
           and select the quest you're on—
           if a circle marks this aim, 
-          place it on this hexagon.`,
+          place it on the hexagon.`,
         }),
         ASSETS.endings,
         Copy.text({
@@ -132,7 +132,7 @@ const setupPage = {
     p: versify(Copy.text({
       es: `Después de preparado el territorio,
         comienzas con un <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
-      en: `Follow on to the frame, 
+      en: `Follow on to the next frame, 
         and complete an <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),
   },

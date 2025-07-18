@@ -8,13 +8,13 @@ const fullPage = {
     header: {
       h2: versify(Copy.text({
         es: "Las estrategias de cada palo",
-        en: "The strategies of each suit",
+        en: "The 4 Well-Suited Strategies",
       })),
       p: versify(Copy.text({
         es: `Añade los artículos restantes
           al <a href="#intro"><b>juego introductorio</b></a> principiante.`,
-        en: `This frame should be introduced 
-          once the <a href="#intro"><b>intro</b></a>'s understood.`
+        en: `The complete quest is afoot—
+          with new strategies per suit.`
       })),
     },
     section: strategySections.sort(() => Math.random() - 0.5),
