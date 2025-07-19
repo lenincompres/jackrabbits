@@ -41,7 +41,7 @@ const strategySections = [{
       play <b>the lottery</b> likewise.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
-      The <i>shortfall</i> (how much you're off)
+      The shortfall (how much you're off)
       is the price that will suffice.
       Pay with suits from the takeoff—
       the hex that flies the device.

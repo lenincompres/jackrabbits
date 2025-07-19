@@ -99,7 +99,7 @@ const setupPage = {
           y allí en la <a class="pop" onclick="popUp('citadel')"><i>ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
-          en: `Players must select their rabbits,
+          en: `Players choose their token rabbits,
           place them on the <a class="pop" onclick="popUp('citadel')"><i>citadel</i></a>,
           and pick up their matching carrots—
           they get three of these as well.`,

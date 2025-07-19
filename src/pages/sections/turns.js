@@ -22,11 +22,11 @@ const turnSections = [{
       los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`
     ],
     en: [
-      `Start your turns rolling two dice
-      to have their digits unfold.
-      You'll draw one card as a prize
+      `Start your turns rolling two dice,
+      so their two digits unfold.
+      You may draw a one-card prize
       if you show a card you hold,
-      one that matches number-wise
+      and it matches number-wise
       one of the two dice you rolled.`,
       `If you're ever holding ten, 
       discard down to nine again.*`,

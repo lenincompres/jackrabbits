@@ -12,8 +12,8 @@ const transferSections = [{
       marcados a mitad de los polígonos,
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de los símbolos.`,
-    en: `If you stay along the paths, 
-    you'll move freely on your round—
+    en: `Venture all along a path
+    to move freely on your round—
     even through an underpass
     (see the mountains farther down).
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
@@ -121,13 +121,13 @@ const transferSections = [{
       y en vez de ejecutar <b>la travesía</b>;
       te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
-    en: `If you choose to take a road
-      leading to the edge (outbound),
-      you'll end your turn off the board,
-      with no <b>increment</b>—you've drowned.
-      Your next <b>lottery</b>'s off-board,
-      then you'll <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
-      Get your <b>increment</b> restored,
+    en: `If you venture off the board
+      on a road that leads outbound,
+      then your turn ends overboard—
+      where no <b>increment</b> is found.
+      Next your <b>lottery</b>'s off-board
+      and your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
+      Get your <b>increment</b> restored
       while you wait another round.`,
   })),
   img: ASSETS.caves,

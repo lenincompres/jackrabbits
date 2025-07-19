@@ -185,7 +185,7 @@ const neoclassicSections = [{
       by horse, cannon or canoe.
       The merchants, tavern, and cave
       are there to sell transfers too.
-      The <i>shortfall</i> flights may be saved—
+      The shortfall flights may be saved—
       pay with either tower’s suit.`,
     })),
   }, {
