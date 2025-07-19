@@ -38,7 +38,7 @@ const transferSections = [{
       have two roads not far apart. 
       You may switch between these two,
       trekking through the center part.
-      To do this, <a class="pop" onclick="popUp('price')">pay with your suits</a>—
+      <a class="pop" onclick="popUp('price')">Pay your toll</a> with proper suits—
       see the marked club, spade, and heart.`,
   })),
   img: ASSETS.rhombi,
@@ -123,7 +123,7 @@ const transferSections = [{
       y eliges a la vuelta la salida.`,
     en: `If you venture off the board
       on a road that leads outbound,
-      then your turn ends overboard—
+      then your turn ends overboard
       where no <b>increment</b> is found.
       Next your <b>lottery</b>'s off-board
       and your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!

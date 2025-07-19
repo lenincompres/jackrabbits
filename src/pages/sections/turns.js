@@ -23,13 +23,13 @@ const turnSections = [{
     ],
     en: [
       `Start your turns rolling two dice,
-      so their two digits unfold.
+      so that two results unfold.
       You may draw a one-card prize
       if you show a card you hold,
-      and it matches number-wise
-      one of the two dice you rolled.`,
-      `If you're ever holding ten, 
-      discard down to nine again.*`,
+      and it matches value-wise
+      one of the results you rolled.`,
+      `If you're ever caught with ten,
+      then discard to nine again.*`,
       `Hold the outcome of the dice;
       tranfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
     ]
@@ -59,9 +59,9 @@ const turnSections = [{
       Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected—
       let your rabbit venture on.
       Cross small tiles but not the hexes—
-      don’t move past a hexagon.`,
+      stop if there’s a hexagon.`,
       `You may move towards your goal,
-      or choose not to move at all.`,
+      or perhaps not move at all.`,
       `For more transportation modes,
       see <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
     ]
@@ -87,14 +87,14 @@ const turnSections = [{
     ],
     en: [
       `It's your goal to claim the card
-      of the hex where you've set foot.
+      of the hex where you set foot.
       If unclaimed, you may discard 
       ten or more points of its suit— 
       place a carrot as your mark, 
       and be done with this pursuit. `,
       `You may simply be a guest—
-      don't discard and stop to rest.`,
-      `Keep the card claimed in your hands—
+      make no claim and stop to rest.`,
+      `Keep your claim within your hands—
       get <b>the increment</b> at once.`,
     ]
   })),
@@ -119,13 +119,13 @@ const turnSections = [{
     ],
     en: [
       `End your turns on a hex tile—
-      if you don't fall off the shore.** 
+      though you may end up ashore.** 
       Get a new card from the pile, 
       and your turn will be done for. 
-      If you find no cards, repile:
+      If you need to first repile,
       shuffle the spent lot once more.`,
       `*You may hold more than nine cards—
-      but if caught, you must discard.`,
+      anyone who's caught discards.`,
       `**Don't collect this turn's reward,
       if you ever end <a href="#intro/off"><b>off-board</b></a>.`,
     ]
