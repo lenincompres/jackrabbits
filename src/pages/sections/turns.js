@@ -94,7 +94,7 @@ const turnSections = [{
       and be done with this pursuit. `,
       `You may simply be a guest—
       make no claim and stop to rest.`,
-      `Keep your claim within your hands—
+      `Keep the royals in your hands—
       get <b>the increment</b> at once.`,
     ]
   })),
