@@ -61,7 +61,7 @@ const setupPage = {
           con cartas de los <i>jokers</i> y <i>reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
-          en: `Take out each <i>face card</i> and <i>joker</i>
+          en: `Gather each <i>face card</i> and <i>joker</i>
           after placing the last tile.
           Lay this <i>court</i> in any order
           to display a face-up aisle.
