@@ -20,14 +20,14 @@ const overviewSection = {
       recibes su real correspondencia. `,
       ],
       en: [
-        `Venture onward turn by turn,
-        making stops on royal land.
-        Win the game when you return—
-        with three royal cards in hand.`,
-        `<b>the acquisition</b> requires
-        ten or more points in a suit—
-        as each turn you take transpires,
-        you may score new cards as loot.`,
+        `Visit royals turn by turn,
+bringing numbered cards in hand.
+Win the game when you return—
+holding three to rule the land.`,
+        `To fulfill <b>the acquisition</b>, 
+        gather ten points in their suit.
+On your turns along the mission,
+you'll be scoring cards as loot.`,
       ]
     }), 
     ASSETS.royals,
@@ -45,10 +45,10 @@ const overviewSection = {
       en: [
         `Make <b>the journey</b> hex to hex—
         every road is free to course.
-        Only pay on off-road treks,
+        Pay to take the off-road treks,
         or to ride a boat or horse.`,
-        `Stop when reaching a hex tile,
-        and unless you're off the board,
+        `Rest upon a hex-shaped tile,
+        If you're standing on the board,
         draw a new card from the pile—
         that's <b>the increment</b> you scored.`,
       ],
