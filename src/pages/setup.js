@@ -44,7 +44,7 @@ const setupPage = {
           may just play to build the land,
           then explore what they design 
           with a rabbit in their hand.
-          Add the cards in their own time—
+          Add the cards and rules in time—
           once they start to understand.`,
         })),
     }, {
