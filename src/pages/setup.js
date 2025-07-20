@@ -62,7 +62,7 @@ const setupPage = {
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
           en: `Gather each <i>face card</i> and <i>joker</i>
-          after placing the last tile.
+          after placing every tile.
           Lay this <i>court</i> in any order
           to display a face-up aisle.
           Shuffle the rest as in poker—
