@@ -68,7 +68,7 @@ const setupPage = {
           Other cards that have a number, 
           and the <i>aces</i> of each style, 
           will be shuffled as in poker
-          to create a facedown drawing <i>pile</i>.`,
+          to create a facedown <i>pile</i>.`,
         }),
         ASSETS.cards,
         Copy.text({
