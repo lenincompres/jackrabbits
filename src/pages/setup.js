@@ -65,9 +65,9 @@ const setupPage = {
           after placing every tile.
           Lay this <i>court</i> in any order
           to display a face-up aisle.
-          Shuffle the rest as in poker—
-          make a facedown drawing <i>pile</i>,
-          which holds <i>pip cards</i> of a number
+          Now lets shuffle as in poker—
+          form a facedown drawing <i>pile</i>,
+          with the cards that have a number
           and the <i>aces</i> of each style.`,
         }),
         ASSETS.cards,
