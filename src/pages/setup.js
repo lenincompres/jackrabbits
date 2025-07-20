@@ -21,9 +21,9 @@ const setupPage = {
           comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,],
           en: [`For the setting of a match,
-          you must first complete a board—
-          build a random land from scratch,
-          a new map to be explored.`,
+          you must first complete a board. 
+          Build a random land from scratch—
+          map the realm to be explored.`,
           `Link the tiles within this spread—
           they house royals from each throne. 
           On your first game, go ahead,
