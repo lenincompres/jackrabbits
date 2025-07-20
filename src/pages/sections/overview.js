@@ -48,8 +48,8 @@ you'll be scoring cards as loot.`,
         Pay to take the off-road treks,
         or to ride a boat or horse.`,
         `Rest upon a hex-shaped tile,
-        If you're standing on the board,
-        draw a new card from the pile—
+        if you're standing on the board. 
+        Draw the card atop the pile—
         that's <b>the increment</b> you scored.`,
       ],
     })),
