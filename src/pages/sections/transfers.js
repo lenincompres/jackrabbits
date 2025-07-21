@@ -18,7 +18,7 @@ const transferSections = [{
     (see the mountains farther down).
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits marked on the ground—
-    use the total on your dice
+    Use the total on your dice
     as the minimum amount.`,
   }), {
     marginTop: '1.2rem',
@@ -38,8 +38,8 @@ const transferSections = [{
       have two roads not far apart. 
       You may switch between these two,
       trekking through the center part.
-      <a class="pop" onclick="popUp('price')">Pay your toll</a> with proper suits—
-      see the marked club, spade, and heart.`,
+      <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
+      see the marked Club, Spade, and Heart.`,
   })),
   img: ASSETS.rhombi,
 }, {
@@ -121,14 +121,14 @@ const transferSections = [{
       y en vez de ejecutar <b>la travesía</b>;
       te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
-    en: `If you venture off the board
+    en: `If you venture off the board,
       on a road that leads outbound,
-      then your turn ends overboard
+      end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
-      Next your <b>lottery</b>'s off-board
-      and your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
-      Get your <b>increment</b> restored
-      while you wait another round.`,
+      Once your <b>lottery</b>'s off-board,
+      take your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>—
+      where your <b>increment</b>'s restored,
+      and you'll wait another round.`,
   })),
   img: ASSETS.caves,
 }];

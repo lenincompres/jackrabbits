@@ -33,13 +33,13 @@ const boardSection = {
       even the small ones, face down.`,
       `Deal by tile shape, equal shares—
       there are twelve of every kind—
-      as you hand each player theirs,
+      As you hand each player theirs,
       the division will be fine.`,
       `For their placement, choose a style,
       either strict or free in pace.
-      Strict: take turns placing one tile—
-      any tile you flip, you place.
-      Free: no turns, it’s all freestyle—
+      Strict: with turns to place a tile—
+      pick a tile to flip and place.
+      Free: with turns in loose freestyle—
       flip all tiles to see their face.
       These suggestions are worthwhile
       as a guide in either case:`,

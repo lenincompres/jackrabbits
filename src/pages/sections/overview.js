@@ -44,13 +44,13 @@ you'll be scoring cards as loot.`,
       ],
       en: [
         `Make <b>the journey</b> hex to hex—
-        every road is free to course.
+        Every road is free to course.
         Pay to take the off-road treks,
         or to ride a boat or horse.`,
         `Rest upon a hex-shaped tile,
         if you're standing on the board. 
         Draw the card atop the pile—
-        that's <b>the increment</b> you scored.`,
+        That's <b>the increment</b> you scored.`,
       ],
     })),
 };

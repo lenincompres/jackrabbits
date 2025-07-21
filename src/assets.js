@@ -2,6 +2,7 @@ import imgCropStyle from "./aux/imgCropStyle.js";
 
 const ASSETS = {
   thumbnailOf: (key, h = "34%", click = () => undefined, model = {}) => ({
+    tag: 'figure',
     a: {
       class: 'thumbnail',
       img: Object.assign({

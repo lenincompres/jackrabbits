@@ -43,9 +43,9 @@ const setupPage = {
           en: `Younger children under nine
           may just play to build the land,
           then explore what they design 
-          with a rabbit in their hand.
-          Rules are added down the line—
-          once they start to understand.`,
+          with a rabbit in their hand—
+          introduce them down the line
+          to the rules they understand.`,
         })),
     }, {
       h2: 2,
@@ -65,9 +65,9 @@ const setupPage = {
           after placing every tile.
           Lay this <i>court</i> in any order
           to display a face-up aisle.
-          Other cards that have a number
-          and the <i>aces</i> of each style
-          will be shuffled as in poker
+          With the rest that have a number
+          and the <i>aces</i> of each style,
+          shuffle as you would in poker
           to create a facedown <i>pile</i>.`,
         }),
         ASSETS.cards,
@@ -83,7 +83,7 @@ const setupPage = {
           en: `Every player draws three cards 
           as their <i>hand</i> to start the chase:
           the resources each regards 
-          for <b>the journey</b> they must face,
+          for <b>the journey</b> they will face,
           and to pay for the rewards
           in <b>the acquisition</b> phase.`,
         }))
@@ -102,7 +102,7 @@ const setupPage = {
           en: `Players choose their token rabbits,
           place them on the <a class="pop" onclick="popUp('citadel')"><i>citadel</i></a>,
           and pick up their matching carrots—
-          they get three of these as well.`,
+          They get three of these as well.`,
         }),
         ASSETS.tokens,
         Copy.text({

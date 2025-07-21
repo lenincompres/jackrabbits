@@ -88,14 +88,14 @@ const turnSections = [{
     en: [
       `It's your goal to claim the card
       of the hex where you set foot.
-      If unclaimed, you may discard 
-      ten or more points of its suit— 
-      place a carrot as your mark, 
-      and be done with this pursuit. `,
-      `You may simply be a guest—
+      Claim it yours when you discard
+      ten or more points of its suit—
+      Place a carrot as your mark,
+      stopping all from its pursuit.`,
+      `You may always be a guest—
       make no claim and stop to rest.`,
       `Keep the royals in your hands—
-      get <b>the increment</b> at once.`,
+      Get <b>the increment</b> at once.`,
     ]
   })),
 }, {
@@ -123,7 +123,7 @@ const turnSections = [{
       Get a new card from the pile, 
       and your turn will be done for. 
       If you need to first repile,
-      shuffle the spent lot once more.`,
+      shuffle what was spent once more.`,
       `*You may hold more than nine cards—
       anyone who's caught discards.`,
       `**Don't collect this turn's reward,
