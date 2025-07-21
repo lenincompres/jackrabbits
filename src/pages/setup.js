@@ -20,13 +20,13 @@ const setupPage = {
           se ensambla en un diseño aleatorio;
           comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,],
-          en: [`For the setting of a match,
-          you must first complete a board. 
-          Build a random land from scratch—
-          map the realm to be explored.`,
-          `Link the tiles within this spread—
-          they house royals from each throne. 
-          On your first game, go ahead,
+          en: [`At the start of every match,
+          you must first complete a board.
+          Map it randomly from scratch,
+          or revisit one explored.`,
+          `Link the houses in this spread—
+          royal tiles from every throne. 
+          Try the model right ahead:
           build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as it's shown.
           Or play normally instead:
           <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own.`, ],
@@ -44,7 +44,7 @@ const setupPage = {
           may just play to build the land,
           then explore what they design 
           with a rabbit in their hand.
-          Add the cards and rules in time—
+          Rules are added down the line—
           once they start to understand.`,
         })),
     }, {
@@ -65,8 +65,8 @@ const setupPage = {
           after placing every tile.
           Lay this <i>court</i> in any order
           to display a face-up aisle.
-          Other cards that have a number, 
-          and the <i>aces</i> of each style, 
+          Other cards that have a number
+          and the <i>aces</i> of each style
           will be shuffled as in poker
           to create a facedown <i>pile</i>.`,
         }),

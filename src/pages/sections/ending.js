@@ -16,7 +16,7 @@ const endingSection = {
       en: `Reach this place where you begin, 
       with three royal cards in hand.
       Be the first and you shall win—
-      be the champion of the land.`,
+      hailed as champion of the land.`,
     }),
     ASSETS.thumbnailOf("citadel", "6em", e => popUp("citadel")),
     Copy.text({
