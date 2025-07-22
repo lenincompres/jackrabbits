@@ -2,7 +2,7 @@ import Copy from "../lib/Copy.js";
 
 Copy.add({
   header: {
-    es: "Conejos y Barajas",
+    es: "conejos y barajas",
     en: "Board Game",
   },
   home: {
