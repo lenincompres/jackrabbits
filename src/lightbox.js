@@ -36,8 +36,8 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `La pieza hexagonal en la que empiezas
         y acabas al traer a la nobleza.`,
-      en: `The hex where the journey starts
-        and ends with three royal cards.`
+      en: `This is where the journey starts—
+        where you'll bring three royal cards.`
     })),
   },
   underground: {
@@ -53,8 +53,8 @@ LightBox.add(new Pager({
         to reach caves in the next round.`,
       es: `La pieza hexagonal en la que esperas,
         sin pago por usar las madrigueras.`,
-      en: `The hex where you wait for free—
-        use the caves without a fee. `,
+      en: `This is where you wait for free—
+        reach the caves without a fee. `,
     })),
   },
   advancedCitadel: {
@@ -66,8 +66,8 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `La ficha del inicio es reforzada:
         con torre, con palacio y con su plaza.`,
-      en: `This citadel has more power:
-        a palace, plaza and tower.`
+      en: `Give the citadel more power—
+      palace, plaza, and a tower.`
     }))
   },
   roadTiles: {

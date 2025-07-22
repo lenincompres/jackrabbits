@@ -14,7 +14,7 @@ const introPage = {
         es: `Comprende el material preliminar
           al <a href="#full"><b>juego completivo</b></a> regular.`,
         en: `Learn each phase's role and name, 
-          then advance for a <a href="#full"><b>full game</b></a>.`,
+          then complete the <a href="#full"><b>standard game</b></a>.`,
       })),
     },
     section: turnSections,
@@ -35,7 +35,7 @@ const introPage = {
       es: `El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante,
         con reglas que usarás en lo adelante.`,
       en: `Once the intro’s understood, 
-      then the <a href="#full"><b><big>full game</big></b></a> is pursued.`,
+      then the <a href="#full"><b><big>standard game</big></b></a>'s pursued.`,
     })),
   },
 };

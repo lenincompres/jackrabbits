@@ -35,7 +35,7 @@ const strategySections = [{
       if it beats the dice or ties,
       pick a tower as a goal
       for <b>the journey</b> through the skies.
-      Fail and off-board you will fall—
+      Failure means an off-board fall—
       keep the card shown anywise.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
@@ -169,22 +169,22 @@ const strategySections = [{
       see the markings underfoot.
       Note the asterisk in bold—
       any suit at all will suit.`,
-  })),
+  })),/*
   h5: Copy.text({
     es: "+ Comercio Interpersonal",
     en: "+ Interpersonal Trades",
-  }),
+  }),*/
   p_0: versify(Copy.text({
-    es: `Es válido el comercio con las manos
-    si añades el artículo a las reglas.
-    Se vende por diamantes en un trato
+    es: `Es válido el <b>comercio consensuado</b>
+    si sumas el artículo a las reglas:
+    se vende por diamantes en un trato
     con alguien en el sitio que te encuentras;
     y mientras el negocio es concretado,
     se ocultan en las manos las ofertas.
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
-    players may trade in cahoot:
+    add <b>consensual trades</b> to boot:
     buy in turn with diamond cards—
     meet to trade or to dispute.
     Keep concealed your hand’s rewards—

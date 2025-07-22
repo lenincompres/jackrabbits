@@ -19,7 +19,7 @@ Copy.add({
   },
   full: {
     es: "Juego</br><small>Completivo</small>",
-    en: "Full game",
+    en: "Standard game",
   },
   more: {
     es: "Tienda</br><small>y más</small>",
