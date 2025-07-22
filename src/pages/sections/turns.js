@@ -14,7 +14,7 @@ const turnSections = [{
       un premio de la pila tras los dados.
       Si un dado (de los dos independientes)
       coincide con un número en tus manos,
-      demuestra con la pertinente
+      demuestra con la carta pertinente
       que ganas la que rifan de regalo.`,
       `El límite de cartas es de nueve;
       descarta la que quieras si te excedes.*`,

@@ -15,19 +15,19 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Preséntate con carta pasaporte,
+      `Preséntate con carta pasaporte:
       un trébol al lanzar <b>la lotería</b>,
       y harás <b>la travesía</b> por las torres
       si no lo sobrepasa lo que tiras.
       En cambio, si los dados son mayores,
-      te sales al destierro en las orillas;
-      igual el pasaporte lo recoges,
+      te sales al destierro en las orillas.
+      iIgual el pasaporte lo recoges
       y el premio si un acierto se confirma.
       Si pagas el <i>restante</i> que le sobre,
       consigues completar la travesía;
       se cubre el resultado que te cobren
       con palos de la torre de partida.
-      Si acaso es la de tréboles, entonces,
+      Si está con la del trébol tu transporte,
       la carta pasaporte es permitida.`
     ],
     en: [
@@ -65,16 +65,16 @@ const strategySections = [{
       `Ataca en un combate sin empates
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
-      sumándose las picas descartadas;
+      sumándose las picas descartadas,
       y cuando se terminen los avances,
       destierra a la persona derrotada.
       Si ganas el combate que empezaste,
       también asaltarías a  sus cartas:
-      le robas la primera que tocases
-      (a ciegas deberás seleccionarla).
+      le robas la primera que tocases,
+      a ciegas deberás seleccionarla.
       Te toca <b>el incremento</b> y que descanses,
-      si robas y la carta es de monarca;
-      tendrías que elegir la que descartes
+      si robas y la carta es de monarca.
+      Tendrías que elegir la que descartes
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
@@ -111,15 +111,15 @@ const strategySections = [{
     es: [
       `Anúnciate en la entrada de las reinas
       y espera que en la mesa te cuestionen:
-      si cargas con su carta de nobleza, 
+      si cargas con su carta de nobleza 
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.
       Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre previamente que las tenga,
-      las cartas con aquellas condiciones;
-      pues pierde lo mostrado y se destierra
+      las cartas con aquellas condiciones.
+      Pues pierde lo mostrado y se destierra
       si pruebas que te acusa sin razones.
       Tampoco se permiten exigencias
       de quien en el destierro las expone.`,
@@ -157,8 +157,8 @@ const strategySections = [{
   p: versify(Copy.text({
     es: `Los centros con los símbolos marcados
       te ofrecen sus artículos en venta:
-      las cartas descartadas de sus palos,
-      que en estos por diamantes se canjean;
+      las cartas descartadas de sus palos
+      que en estos por diamantes se canjean,
       o aceptan de cualquiera por el pago
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold—
@@ -178,7 +178,7 @@ const strategySections = [{
     es: `Es válido el <b>comercio consensuado</b>
     si sumas el artículo a las reglas:
     se vende por diamantes en un trato
-    con alguien en el sitio que te encuentras;
+    con alguien en el sitio que te encuentras,
     y mientras el negocio es concretado,
     se ocultan en las manos las ofertas.
     A quien se le descubra por engaño,

@@ -13,11 +13,11 @@ const optionalSections = [
       en: `<a class="pop" onclick="popUp('advancedCitadel')">Advanced Citadel</a>`,
     }),
     p: versify(Copy.text({
-      es: `Si elijes la carátula de atrás
+      es: `Si eliges la carátula de atrás,
       incluyes estrategias importantes:
-      se esperan corazones al entrar;
-      canjeas lo que quieras con diamantes;
-      y puedes con tus tréboles volar,
+      se esperan corazones al entrar,
+      canjeas lo que quieras con diamantes,
+      y puedes con tus tréboles volar
       con palos cualesquiera de restante.`,
       en: `There are three suitable assets,
       which are marked in this reboot:
@@ -33,12 +33,12 @@ const optionalSections = [
     }),
     p: versify(Copy.text({
       es: `Se juega con un palo por conejo
-      y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez;
-      con tres participantes, por ejemplo,
+      y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez.
+      Con tres participantes, por ejemplo,
       retírales un palo con un set.
       Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
       si acaso es imposible de obtener.
-      También que, sin las picas y sus duelos,
+      Si excluyes a las picas y sus duelos,
       podría complicársete vencer.`,
       en: `Have as many suits as players—
       one set of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—

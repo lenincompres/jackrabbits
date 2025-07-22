@@ -48,9 +48,9 @@ const transferSections = [{
     en: "Transfer via Merchants",
   }),
   p: versify(Copy.text({
-    es: `Los cruces te permiten transportarte,
+    es: `Los cruces te permiten transportarte
       viajando por las aguas o las tierras.
-      Por tierra: galopando sin pararte,
+      Por tierra: galopando sin pararte
       moviéndote al hexágono que quieras.
       Por agua: si el lugar de comerciantes
       colinda con un lado a las afueras,
@@ -94,8 +94,8 @@ const transferSections = [{
     es: `Si <a class="pop" onclick="popUp('price')">pagas</a> en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
-      metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato;
-      descansas por el turno y, a la vuelta, 
+      metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.
+      Descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
@@ -118,7 +118,7 @@ const transferSections = [{
       Olvida <b>el incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
       Mantén <b>la lotería</b> en las afueras,
-      y en vez de ejecutar <b>la travesía</b>;
+      y en vez de ejecutar <b>la travesía</b>,
       te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
     en: `If you venture off the board,

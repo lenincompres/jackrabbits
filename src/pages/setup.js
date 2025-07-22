@@ -38,7 +38,7 @@ const setupPage = {
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
-          Y añádeles las cartas y sus reglas,
+          Y añádeles las cartas y sus reglas
           si ves que es el momento de que prueben.`],
           en: `Younger children under nine
           may just play to build the land,
@@ -118,9 +118,9 @@ const setupPage = {
         ASSETS.endings,
         Copy.text({
           es: `Elige a la persona que comienza
-          y el orden de los turnos que le siguen
-          (me importa en lo absoluto tu sistema:
-          que lo hagas al azar o lo designes).`,
+          y el orden de los turnos que le siguen.
+          Me importa en lo absoluto tu sistema,
+          ya lo hagas al azar o lo designes.`,
           en: `As for choosing the first player
           and the order of the turns,
           what you do for this endeavor 

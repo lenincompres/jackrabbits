@@ -41,6 +41,14 @@ DOM.set({
         href: "#home",
         small_logoSuper: "Lenino's",
         span_logoName: "Jack Rabbits",
+        small_logoName_0: {
+          display: Copy.text({
+            es: "block",
+            en: "none",
+          }),
+          margin: "-0.5rem 0 1rem",
+          text: "(Conejos y Barajas)",
+        },
         small_logoSub: Copy.at.header,
       },
     },
@@ -95,7 +103,7 @@ DOM.set({
   footer: {
     p: versify(Copy.at.subscribe),
     menu_bulletMenu: {
-      lineHeight: "2.25em", 
+      lineHeight: "2.25em",
       content: DOM.linkMenu({
         text: Copy.at.buy,
         class: ["button", "buy"],
