@@ -14,9 +14,9 @@ const morePage = {
       p: versify(
         Copy.text({
           es: `Visítanos al vínculo de arrriba
-        y adquiere la edición en exclusiva.`,
-          en: `Visit our online store and get 
-        a physical copy of the game.`,
+          y adquiere la edición en exclusiva.`,
+          en: `Get your copy, stake your claim—
+          order your <b>Jack Rabbits</b> game.`,
         })
       ),
     }, {
@@ -33,14 +33,12 @@ const morePage = {
           }),
         }
       },
-      p: versify(
-        Copy.text({
-          es: `Jack Rabbits en un rol educativo,
+      p: versify(Copy.text({
+        es: `<b>Jack Rabbits</b>  en un rol educativo,
           con miras al análisis creativo.`,
-          en: `A tool for critical thinking,
+        en: `Let's promote critical thinking,
           storytelling, and world building.`,
-        }),
-      ),
+      })),
     }, {
       h3: {
         a: {
@@ -63,8 +61,9 @@ const morePage = {
       p: versify(
         Copy.text({
           es: `El juego de <b>Jack Rabbits</b> digital,
-        en línea y sin costo adicional.`,
-          en: "Play <b>Jack Rabbits</b> online with your friends."
+          en línea y sin costo adicional.`,
+          en: `Start a game for free online—
+          play with friends in real-time`,
         })
       ),
     }, {
@@ -81,8 +80,8 @@ const morePage = {
         Copy.text({
           es: `El test revelará tu identidad
         y el símbolo de más afinidad.`,
-          en: `This test will reveal the suit
-        that best fits your personality.`,
+          en: `Click this link and take the test—
+          see what suit would suit you best.`,
         })
       ),
     }, {
@@ -100,8 +99,8 @@ const morePage = {
         Copy.text({
           es: `El nuevo manuscrito en el que viajas 
         al reino de conejos y barajas.`,
-          en: `There's a manuscript of a novel
-        inspired in this same land of wonders.`,
+          en: `Venture through a tale untold—
+          wonders, bloodlines, swords, and gold.`,
         })
       ),
     }],

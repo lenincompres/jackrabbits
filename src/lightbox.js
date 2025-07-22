@@ -112,11 +112,12 @@ LightBox.add(new Pager({
       en: "Mailing list",
     }),
     p: {
-      textAlign: "left",
-      content: Copy.text({
-        es: "Pronto haremos una campaña de promoción y te avisaremos cuando esté lista.",
-        en: "We're preparing a promotional campaign, and can notify you when it's ready."
-      }),
+      content: versify(Copy.text({
+        es: `Suscríbete al listado de correos 
+          y apoya la campaña que tendremos.`,
+        en: `Join the list on this domain, 
+          stay in touch for our campaign.`,
+      })),
     },
     iframe: {
       width: "100%",
