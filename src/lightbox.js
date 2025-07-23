@@ -80,7 +80,7 @@ LightBox.add(new Pager({
       es: `Las piezas de los rombos y los triángulos,
         con vías que conectan los hexágonos.`,
       en: `These are tiles with rides and treks—
-        that will take you hex to hex.`
+        they will take you hex to hex.`
     })),
   },
   sample: {
