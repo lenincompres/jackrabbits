@@ -27,7 +27,7 @@ const setupPage = {
           `Link the houses in this spread—
           royal tiles from every throne. 
           Try the model right ahead:
-          build the <a class="pop" onclick="popUp('sample')"><b>sample</b></a> as it's shown.
+          <a class="pop" onclick="popUp('sample')"><b>build the sample</b></a> as it's shown.
           Or play normally instead:
           <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own.`, ],
         }),
@@ -39,7 +39,7 @@ const setupPage = {
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
           Y añádeles las cartas y sus reglas
-          si ves que es el momento de que prueben.`],
+          si captan a medida que las prueben.`],
           en: `Younger children under nine
           may just play to build the land,
           then explore what they design 
@@ -67,8 +67,8 @@ const setupPage = {
           to display a face-up aisle.
           With the rest that have a number
           and the <i>aces</i> of each style,
-          shuffle as you would in poker
-          to create a facedown <i>pile</i>.`,
+          shuffle as if playing poker
+          for the facedown drawing <i>pile</i>.`,
         }),
         ASSETS.cards,
         Copy.text({
