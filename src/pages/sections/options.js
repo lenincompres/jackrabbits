@@ -38,7 +38,7 @@ const optionalSections = [
       retírales un palo con un set.
       Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
       si acaso es imposible de obtener.
-      Si excluyes a las picas y sus duelos,
+      A veces, sin las picas y sus duelos,
       podría complicársete vencer.`,
       en: `Have as many suits as players—
       one set of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—

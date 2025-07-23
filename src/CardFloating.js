@@ -61,6 +61,7 @@ class CardFloating extends Card {
         this.rx += vrx * drag * sx;
         this.ry += vry * drag * sy;
         this.z += vz * this.acc * drag;
+        if (this.z < 0) {this.z = 0; vz *= -1;}
         if (this.rx > PI || this.rx < -PI) vrx *= -1;
         if (this.ry > PI || this.ry < -PI) vry *= -1;
       }
@@ -104,13 +105,13 @@ class CardFloating extends Card {
       let xProj = Math.sin(ang + this.rz);
       let yProj = Math.cos(ang + this.rz);
       let [x, y] = [z * xProj, z * yProj];
-      return `${map(x, 0, 1, 0.5, 6)}em ${map(y, 0, 1, 0.5, 5)}em 3px rgba(0,0,0,${map(z,0,1,0.4,0.1)})`;
+      return `${map(x, 0, 1, 0.4, 6)}em ${map(y, 0, 1, 0.4, 5)}em 3px rgba(0,0,0,${map(z,0,1,0.4,0.1)})`;
     }
 
     this.set({
       position: "absolute",
       boxShadow: this._t.as(t => `${getShadow()}`),
-      fontSize: this._t.as(t => `${map(this.z,0,1,0.5,0.7)}em`),
+      fontSize: this._t.as(t => `${map(this.z,0,1,0.4,0.7)}em`),
       zIndex: this._t.as(t => 100 + Math.round(this.z * 30)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),

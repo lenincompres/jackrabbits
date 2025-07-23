@@ -65,7 +65,7 @@ const transferSections = [{
       or select a road to port
       as you row the seas outside.
       You'll proceed to your next post
-      once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>.
+      once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>—
       Landlocked merchants won't have boats
       since they're not by the seaside.`,
   }), {

@@ -44,7 +44,7 @@ const strategySections = [{
       The shortfall (how much you're off)
       is the price that will suffice.
       Pay with suits from the takeoff—
-      the hex that flies the device.
+      where you board the flight device.
       You may trade the shown card off
       where the clubs fulfill the price.`,
     ]

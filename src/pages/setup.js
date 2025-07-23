@@ -21,7 +21,7 @@ const setupPage = {
           comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,],
           en: [`At the start of every match,
-          you must first complete a board.
+          you must first complete a board—
           Map it randomly from scratch,
           or revisit one explored.`,
           `Link the houses in this spread—
@@ -62,8 +62,8 @@ const setupPage = {
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
           en: `Gather each <i>face card</i> and <i>joker</i>
-          after placing every tile.
-          Lay this <i>court</i> in any order
+          after placing every tile;
+          lay this <i>court</i> in any order
           to display a face-up aisle.
           With the rest that have a number
           and the <i>aces</i> of each style,
