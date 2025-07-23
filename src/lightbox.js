@@ -98,7 +98,7 @@ LightBox.add(new Pager({
   mailingList: {
     id: "mailingList",
     img: {
-      margin: '1rem auto',
+      margin: '0 auto',
       width: '11rem',
       height: '12rem',
       alt: Copy.text({

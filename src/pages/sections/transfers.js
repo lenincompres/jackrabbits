@@ -80,8 +80,8 @@ const transferSections = [{
       lo cargas y, al momento en que requieras,
       lo montas y liberas de tu mano.`,
     en: `When you pass by any tavern,
-      you may <a class="pop" onclick="popUp('price')">buy</a> a joker card;
-      use it when you'd like to travel,
+      you may <a class="pop" onclick="popUp('price')">buy</a> a joker card.
+      Use it when you'd like to travel,
       then release it afterward.`,
   })),
   img: ASSETS.rides,
