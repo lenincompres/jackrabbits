@@ -27,17 +27,17 @@ const priceSection = {
       `Transfer posts along the way
       charge the total on the dice. 
       It's OK to overpay—
-      You don't have to be precise. 
+      you don't have to be precise. 
       You may mix the suits you play—
-      Any marked there fits the price.`,
+      any marked there fits the price.`,
       `Show and leave out what you spend—
-      It's <i>discarded</i> once you're done. 
+      it's <i>discarded</i> once you're done. 
       You may spend royals as <b>10</b>,
       and the aces are worth <b>1</b>.`,
       `If you spend a royal card,
-      it returns to the court's aisle;
-      and you must remove your mark—
-      Take your carrot off their tile.`,
+      it returns to the court's aisle.
+      And you must remove your mark—
+      take your carrot off their tile.`,
     ]
   }))
 };
