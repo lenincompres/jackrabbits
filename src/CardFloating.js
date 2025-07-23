@@ -111,7 +111,7 @@ class CardFloating extends Card {
     this.set({
       position: "absolute",
       boxShadow: this._t.as(t => `${getShadow()}`),
-      fontSize: this._t.as(t => `${map(this.z,0,1,0.4,0.7)}em`),
+      fontSize: this._t.as(t => `${map(this.z,0,1,0.5,0.7)}em`),
       zIndex: this._t.as(t => 100 + Math.round(this.z * 30)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),

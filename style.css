@@ -69,6 +69,25 @@ body {
     margin: 0.5rem;
     width: 100% !important;
   }
+
+  .carded.link a.button {
+    font-size: 1.1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 0;
+    z-index: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .carded.link {
+    border-width: 0.2rem !important;
+  }
+
 }
 
 h1,
@@ -177,7 +196,7 @@ a.button {
   background-color: navy;
   padding: 0 1em;
   line-height: 2.5em;
-  text-shadow: 1px 1px  2px black;
+  text-shadow: 1px 1px 2px black;
   border-radius: 0.4em;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -190,7 +209,8 @@ a.button:hover {
 }
 
 a.video {
-  border: solid 1px var(--home);;
+  border: solid 1px var(--home);
+  ;
   font-size: 1.2em;
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -309,12 +329,12 @@ body>header h1 {
   bottom: -0.7rem;
 }
 
-.rotated{
-  transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
-  -moz-transform:rotate(180deg);
-  -ms-transform:rotate(180deg);
-  -o-transform:rotate(180deg);
+.rotated {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 
 body>header h1>* {
@@ -340,33 +360,19 @@ article.main>article>section img {
   box-shadow: 1px 1px 3px black;
 }
 
-.carded.link{
-  border: solid 0.2rem darkgreen;
+.carded.link {
+  border: solid 0.33rem darkgreen;
 }
 
-.carded.link:hover{
-  border: solid 0.2rem var(--field);
+.carded.link:hover {
+  border-color: var(--field);
 }
 
-.carded.link:hover a{
+.carded.link:hover a {
   background-color: var(--field);
 }
 
-.carded.link a.button{
-  font-size: 1.1em;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  border-radius: 0;
-  z-index: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-}
-
-.carded.link img{
+.carded.link img {
   z-index: 1;
 }
 
@@ -475,7 +481,7 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-article.main{
+article.main {
   padding: 0.5rem 0 1.5rem;
 }
 
