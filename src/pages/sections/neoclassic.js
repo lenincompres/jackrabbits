@@ -198,9 +198,9 @@ const neoclassicSections = [{
       te vende lo que quieras por diamantes.
       Y en la otra te reponen, de la pila,
       <strong>un</strong> grupo de tus cartas que descartes.`,
-      en: `One Jack hex trades diamond cards—
+      en: `One will trade for diamond cards—
       buy whatever suit you choose.
-      The other grants <strong>one</strong> discard—
+      Pay the other <strong>one</strong> discard—
       draw as many as you lose.`,
     })),
   }, {
@@ -227,8 +227,8 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: `Un palo que carece de reales;
     con piezas y un conejo adicionales.`,
-      en: `There're no royals in this suit;
-    just tiles—and the rabbit's cute.`,
+      en: `There're no royals in this style;
+    just a rabbit and its tiles.`,
     })),
   },
   section: [{
@@ -254,12 +254,14 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: `El lobo se lo envías a un conejo,
       pagando en un cubil o en su paraje.
-      Tu víctima prefiere su destierro,
-      o apúntale a la carta que descarte.`,
-      en: `You pay at its post or den,
-      and send the wolf to a rabbit.
-      The victim goes off-board then,
-      or you'll steal a card—and scrap it.`,
+      Tu víctima termina en el destierro
+      y apúntale a la carta que descarte.`,
+      en: `At its post or from its den,
+      pay to send it to a rabbit.
+      Take your victim off-board then,
+      also steal a card—and scrap it.
+      It cannot swim for this end—
+      going underground's its habit.`,
     })),
   }, {
     h4: Copy.text({
