@@ -41,8 +41,8 @@ const boardSection = {
       pick a tile to flip and place.
       Free: with turns in loose freestyle—
       flip all tiles to see their face.
-      These suggestions are worthwhile
-      as a guide in either case:`,
+      These suggestions are worthwhile—
+      just to guide in either case:`,
     ]
   })),
   img: ASSETS.guides,

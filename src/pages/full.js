@@ -13,8 +13,8 @@ const fullPage = {
       p: versify(Copy.text({
         es: `Añade los artículos restantes
           al <a href="#intro"><b>juego introductorio</b></a> principiante.`,
-        en: `The complete quest is afoot—
-          with these strategies per suit.`
+        en: `Now the challenge is afoot—
+          Add these strategies per suit.`
       })),
     },
     section: strategySections.sort(() => Math.random() - 0.5),
