@@ -88,10 +88,10 @@ const turnSections = [{
     en: [
       `It's your goal to claim the card
       of the hex where you set foot.
-      Claim it yours when you discard
-      ten or more points of its suit—
-      Place a carrot as your mark,
-      stopping all from its pursuit.`,
+      Only there you may discard
+      ten or more points of its suit;
+      place a carrot as your mark,
+      and remove it from pursuit.`,
       `You may always be a guest—
       make no claim and stop to rest.`,
       `Keep the royals in your hands—
