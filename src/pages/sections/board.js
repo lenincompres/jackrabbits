@@ -30,7 +30,7 @@ const boardSection = {
       `Place the <i>citadel</i> hex first. 
       Leave aside the <i>underground</i>. 
       Pile and shuffle all the rest,
-      even the small ones, face down.`,
+      even smaller ones, face down.`,
       `Deal by tile shape, equal shares—
       there are twelve of every kind—
       As you hand each player theirs,
