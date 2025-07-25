@@ -35,7 +35,7 @@ const boardSection = {
       there are twelve of every kind—
       As you hand each player theirs,
       the division will be fine.`,
-      `For their placement, choose a style,
+      `You may choose a placement style,
       either strict or free in pace.
       Strict: with turns to place a tile—
       pick a tile to flip and place.
@@ -57,10 +57,10 @@ const boardSection = {
       se queda sin uniones laterales.`,
     en: `Don’t make dead-ends on the road.<sup class="rotated">T</sup>
       Don’t connect roads from two hexes.<sup>x</sup>
-      Keep the triangles spread broad—
+      Place triangles scattered broad—
       not in clusters when connected.<sup>!</sup>
-      If you'd like islands abroad,
-      place the hexes disconnected.
+      Islands may be placed abroad—
+      Start with hexes disconnected.
       Note the underground is odd—
       keep it always unconnected.`,
   })),
