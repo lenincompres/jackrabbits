@@ -39,7 +39,7 @@ const transferSections = [{
       You may switch between these two,
       trekking through the center part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
-      see the marked Club, Spade, and Heart.`,
+      Club or Spade or even Heart.`,
   })),
   img: ASSETS.rhombi,
 }, {

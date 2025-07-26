@@ -101,7 +101,7 @@ const setupPage = {
           las tres de los colores que les tocan.`,
           en: `Players choose their token rabbits,
           place them on the <a class="pop" onclick="popUp('citadel')"><i>citadel</i></a>,
-          and pick up their matching carrots—
+          and collect their matching carrots—
           They get three of these as well.`,
         }),
         ASSETS.tokens,
