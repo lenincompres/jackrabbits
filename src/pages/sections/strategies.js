@@ -21,7 +21,7 @@ const strategySections = [{
       si no lo sobrepasa lo que tiras.
       En cambio, si los dados son mayores,
       te sales al destierro en las orillas.
-      iIgual el pasaporte lo recoges
+      Igual el pasaporte lo recoges
       y el premio si un acierto se confirma.
       Si pagas el <i>restante</i> que le sobre,
       consigues completar la travesía;
