@@ -21,8 +21,8 @@ const fullPage = {
   }, {
     header: {
       h3: Copy.text({
-        es: "Reglas Opcionales",
-        en: "Optional Rules",
+        es: "+ Reglas Opcionales",
+        en: "+ Optional Rules",
       }),
       p: versify(Copy.text({
         es: `Renueva tus partidas habituales

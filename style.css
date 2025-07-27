@@ -243,7 +243,6 @@ b {
 }
 
 sup {
-  color: red;
   font-weight: bold;
   border-radius: 1rem;
   width: 1rem;
@@ -251,6 +250,10 @@ sup {
   margin: -0.3rem -0.3rem 0 -0.5rem;
   vertical-align: text-top;
   text-shadow: 1px 1px 0 black;
+}
+
+.warning {
+  color: red;
 }
 
 big {

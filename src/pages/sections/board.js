@@ -47,18 +47,18 @@ const boardSection = {
   })),
   img: ASSETS.guides,
   p_0: versify(Copy.text({
-    es: `Evita callejones sin salidas <sup class="rotated">T</sup>,
-      los vínculos de dos hexagonales <sup>x</sup>,
+    es: `Evita callejones sin salidas <sup class="warning rotated">T</sup>,
+      los vínculos de dos hexagonales <sup class="warning">x</sup>,
       y hacer la conexión consecutiva
-      de piezas triangulares similares <sup>!</sup>.
+      de piezas triangulares similares <sup class="warning">!</sup>.
       Las islas que desees las inicias
       con una hexagonal a la que apartes;
       y observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`,
-    en: `Don’t make dead-ends on the road.<sup class="rotated">T</sup>
-      Don’t connect roads from two hexes.<sup>x</sup>
+    en: `Don’t make dead-ends on the road.<sup class="warning rotated">T</sup>
+      Don’t connect roads from two hexes.<sup class="warning">x</sup>
       Place triangles scattered broad—
-      not in clusters when connected.<sup>!</sup>
+      not in clusters when connected.<sup class="warning">!</sup>
       Start an island patch abroad—
       use a hex placed disconnected.
       Note the underground is odd—

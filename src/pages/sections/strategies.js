@@ -175,7 +175,7 @@ const strategySections = [{
     en: "+ Interpersonal Trades",
   }),*/
   p_0: versify(Copy.text({
-    es: `Es válido el <b>comercio consensuado</b>
+    es: `Es válido el <b>comercio consensuado <sup>+</sup></b>
     si sumas el artículo a las reglas:
     se vende por diamantes en un trato
     con alguien en el sitio que te encuentras,
@@ -184,7 +184,7 @@ const strategySections = [{
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
-    add <b>consensual trades</b> to boot:
+    add <b>consensual trades <sup>+</sup></b> to boot:
     buy in turn with diamond cards—
     meet to trade or to dispute.
     Keep concealed your hand’s rewards—
