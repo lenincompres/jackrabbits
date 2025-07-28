@@ -187,7 +187,7 @@ const strategySections = [{
     add <b>consensual trades <sup>+</sup></b> to boot:
     deal in turn with diamond cards—
     meet to trade or to dispute.
-    Keep concealed your hand’s rewards—
+    Never show your hands’ rewards—
     strike a deal for your pursuit.
     If cards traded prove a farce,
     swindlers get the off-board boot.`,
