@@ -185,7 +185,7 @@ const strategySections = [{
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
     add <b>consensual trades <sup>+</sup></b> to boot:
-    buy in turn with diamond cards—
+    deal in turn with diamond cards—
     meet to trade or to dispute.
     Keep concealed your hand’s rewards—
     strike a deal for your pursuit.
