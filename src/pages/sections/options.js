@@ -19,7 +19,7 @@ const optionalSections = [
       canjeas lo que quieras con diamantes,
       y puedes con tus tréboles volar
       con palos cualesquiera de restante.`,
-      en: `There are three suitable assets,
+      en: `There are three distinctive assets,
       which are marked in this reboot:
       hearts are used to judge the access;
       diamonds buy you any loot; 
@@ -40,8 +40,8 @@ const optionalSections = [
       si acaso es imposible de obtener.
       A veces, sin las picas y sus duelos,
       podría complicársete vencer.`,
-      en: `Have as many suits as players—
-      one set of each <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—
+      en: `Have as many suits as players,
+      and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—
       meaning that with three contenders, 
       you'll remove a set and suit.
       Pick a fitting kind of ending—
@@ -146,8 +146,8 @@ const optionalSections = [
         si exhibes corazones al pararte:
         tu mínimo de seis reglamentarios
         que juzgan a cualquiera al visitarte.`,
-      en: `Keep displayed as you take rest 
-      six or more hearts in your count;
+      en: `Keep displayed as you take rest: 
+      more than five hearts in your count;
       you will judge incoming guests—
       just don’t do this underground.`,
     })),
@@ -163,7 +163,7 @@ const optionalSections = [
         salirte sin parar a descansar.`,
       en: `You may visit and go on
         if your carrot's on a hex—
-        need not wait to move along
+        needn't wait to move along
         to the place you're headed next.`,
     })),
   }]
@@ -219,11 +219,10 @@ const optionalSections = [
         los reyes, es por <b>13</b> que valoras;
         las reinas, subvalóralas por <b>12</b>;
         y es <b>11</b> (menos precio) por las jotas.`,
-      en: `Have unequal value levels—
-        if you don't think that is whack—
-        from <b>14</b> down to <b>11</b>,
-        for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack.
-        `,
+      en: `Have unequal value levels
+        for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack,
+        from <b>14</b> down to <b>11</b>—
+        then consider why it’s whack.`,
     })),
   }]
 }];
