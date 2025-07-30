@@ -34,10 +34,10 @@ const transferSections = [{
       cruzando por el centro en un atajo,
       marcado con los palos permitidos
       que <a class="pop" onclick="popUp('price')">pagas con tus cartas</a> al cruzarlo.`,
-    en: `Mountains, rivers and the woods,
+    en: `Mountains, rivers and the woods
       have two roads not far apart. 
-      You may switch between these two,
-      trekking through the center part.
+      You may switch between these two
+      if you hike the center part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       Club or Spade or even Heart.`,
   })),
@@ -81,8 +81,8 @@ const transferSections = [{
       lo montas y liberas de tu mano.`,
     en: `When you pass by any tavern,
       you may <a class="pop" onclick="popUp('price')">buy</a> a joker card.
-      Use it when you'd like to travel,
-      then release it afterward.`,
+      Keep it till you'd like to travel,
+      and release it afterward.`,
   })),
   img: ASSETS.rides,
 }, {
@@ -99,8 +99,8 @@ const transferSections = [{
       te sales por la cueva de tu agrado.`,
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
-      But if you would rather save,
-      take your rabbit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
+      Though you may prefer to save—
+      pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
       Wait in there to earn a waive—
       hop on out in the next round.`,
   }), {

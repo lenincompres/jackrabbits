@@ -20,14 +20,14 @@ const overviewSection = {
       recibes su real correspondencia. `,
       ],
       en: [
-        `Visit royals turn by turn,
-bringing numbered cards in hand.
-Win the game when you return—
-holding three to rule the land.`,
+        `Visit houses turn by turn,
+        bringing numbered cards in hand.
+        Claim their royals and return,
+        holding three to rule the land.`,
         `To fulfill <b>the acquisition</b>, 
         gather ten points in their suit.
-On your turns along the mission,
-you'll be scoring cards as loot.`,
+        On your turns along the mission,
+        you'll be scoring cards as loot.`,
       ]
     }), 
     ASSETS.royals,
@@ -45,7 +45,7 @@ you'll be scoring cards as loot.`,
       en: [
         `Make <b>the journey</b> hex to hex—
         Every road is free to course.
-        Pay to take the off-road treks,
+        Pay to hike the off-road treks,
         or to ride a boat or horse.`,
         `Rest upon a hex-shaped tile,
         if you don't end up off-board. 

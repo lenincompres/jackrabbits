@@ -35,15 +35,15 @@ const strategySections = [{
       if it beats the dice or ties,
       pick a tower as a goal
       for <b>the journey</b> through the skies.
-      Failure means an off-board fall—
+      Or you'll meet an off-board fall—
       keep the card shown anywise.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
       `You'll still fly and won't fall off
       if you pay to meet the dice.
-      The shortfall (how much you're off)
-      is the price that will suffice.
-      Pay with suits from the takeoff—
+      Verify how much you're off—
+      pay this shortfall to suffice.
+      Use the suits from the takeoff—
       where you board the flight device.
       You may trade the shown card off
       where the clubs fulfill the price.`,
@@ -135,7 +135,7 @@ const strategySections = [{
       they're not fit to cast a stone.`,
       `Yet those asking for your cards
       must first show cards of their own—
-      even if they're far apart—
+      even resting far apart—
       prove they're welcome in this zone.
       If you fail to show them hearts,
       off the board you’re swiftly thrown!
@@ -165,7 +165,7 @@ const strategySections = [{
       every Jack’s hex sells its suit.
       Check what treasures these may hold—
       on your visit trade for loot.
-      Match or overpay with gold—
+      Match or cover using gold—
       see the markings underfoot.
       Note the asterisk in bold—
       any suit at all will suit.`,

@@ -41,7 +41,7 @@ const setupPage = {
           Y añádeles las cartas y sus reglas
           si captan a medida que las prueben.`],
           en: `Younger children under nine
-          may just play to build the land,
+          may be asked to build the land,
           then explore what they design 
           with a rabbit in their hand—
           introduce them down the line
@@ -67,7 +67,7 @@ const setupPage = {
           to display a face-up aisle.
           With the rest that have a number
           and the <i>aces</i> of each style,
-          shuffle as if playing poker
+          give a shuffle as in poker 
           for the facedown drawing <i>pile</i>.`,
         }),
         ASSETS.cards,
@@ -100,7 +100,7 @@ const setupPage = {
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
           en: `Players choose their token rabbits,
-          place them on the <a class="pop" onclick="popUp('citadel')"><i>citadel</i></a>,
+          set them on the <a class="pop" onclick="popUp('citadel')"><i>citadel</i></a>,
           and collect their matching carrots—
           They get three of these as well.`,
         }),
@@ -113,7 +113,7 @@ const setupPage = {
           en: `See what fits <a class="pop" onclick="popUp('endings')"><b>ending the game</b></a>,
           and select the quest you're on—
           if a circle marks this aim, 
-          place it on the hexagon.`,
+          set it on the hexagon.`,
         }),
         ASSETS.endings,
         Copy.text({

@@ -27,7 +27,7 @@ const turnSections = [{
       You may draw a one-card prize
       if you show a card you hold,
       and it matches value-wise
-      one of the results you rolled.`,
+      any one result you rolled`,
       `If you're ever caught with ten,
       then discard to nine again.*`,
       `Hold the outcome of the dice;
@@ -58,8 +58,8 @@ const turnSections = [{
       from the current hex you're on.
       Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected—
       let your rabbit venture on.
-      Cross small tiles but not the hexes—
-      stop if there’s a hexagon.`,
+      Cross small tiles but never hexes—
+      reach the nearest hexagon.`,
       `You may move towards your goal,
       or perhaps not move at all.`,
       `For more transportation modes,
@@ -93,7 +93,7 @@ const turnSections = [{
       place a carrot as your mark,
       and remove it from pursuit.`,
       `You may always be a guest—
-      make no claim and stop to rest.`,
+      make no claim but stop to rest.`,
       `Keep the royals in your hands—
       Get <b>the increment</b> at once.`,
     ]
@@ -123,7 +123,7 @@ const turnSections = [{
       Get a new card from the pile, 
       and your turn will be done for. 
       If you need to first repile,
-      shuffle what was spent once more.`,
+      shuffle all that’s spent once more`,
       `*You may hold more than nine cards—
       anyone who's caught discards.`,
       `**Don't collect this turn's reward,
