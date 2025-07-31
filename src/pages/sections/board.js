@@ -59,10 +59,10 @@ const boardSection = {
       Don’t connect roads from two hexes.<sup class="warning">x</sup>
       Place triangles scattered broad—
       not in clusters when connected.<sup class="warning">!</sup>
-      Start an island patch abroad—
-      use a hex placed disconnected.
-      Note the underground is odd—
-      keep it always unconnected.`,
+      Add some islands to the board—
+      start with hexes disconnected.
+      Keep the underground abroad—
+      do not bother to connect it.`,
   })),
 };
 

@@ -401,7 +401,7 @@ article.main>article.shuffle>section {
   display: block;
   text-align: left;
   font-style: italic;
-  text-indent: 2rem;
+  text-indent: 1.8rem;
 }
 
 .letter p:last-child {
