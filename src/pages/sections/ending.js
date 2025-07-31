@@ -42,8 +42,8 @@ const endingSection = {
       en: [
         `<b>simple</b>: get three royal cards of any title (letter) or <i>suit</i> (symbol).`,
         `<b>diverse</b>: get three royal cards of any title, but with three different suits.`,
-        `<b>monarchic</b>: get a <b>K</b> + <b>Q</b> + <b>J</b> (any suits).`,
-        `<b>diverse + monarchic</b>: get a <b>K</b> + <b>Q</b> + <b>J</b>, of three different suits.`,
+        `<b>monarchic</b>: get a <b>K + Q + J</b> of any suits.`,
+        `<b>diverse + monarchic</b>: get a <b>K + Q + J</b> of three different suits.`,
         `<b>tribal</b>: get the three of the same suit.`,
       ]
     }),
