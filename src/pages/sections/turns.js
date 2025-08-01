@@ -26,11 +26,11 @@ const turnSections = [{
       so that two results unfold.
       You may draw a one-card prize
       if you show a card you hold,
-      and it matches value-wise
-      any one result you rolled`,
+      and it matches, value-wise,
+      either number you just rolled.`,
       `If you're ever caught with ten,
       then discard to nine again.*`,
-      `Hold the outcome of the dice;
+      `Hold the outcome of the dice—
       tranfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
     ]
   })),
@@ -89,12 +89,12 @@ const turnSections = [{
       `It's your goal to claim the card
       of the hex where you set foot.
       Only there you may discard
-      ten or more points of its suit;
+      ten or more points of its suit—
       place a carrot as your mark,
       and remove it from pursuit.`,
       `You may always be a guest—
       make no claim but stop to rest.`,
-      `Keep claimed royals in your hands—
+      `Keep the royals in your hands—
       Get <b>the increment</b> at once.`,
     ]
   })),
@@ -121,9 +121,9 @@ const turnSections = [{
       `End your turns on a hex tile—
       though you may end up ashore.** 
       Get a new card from the pile, 
-      and your turn will be done for. 
+      and your turn will be no more. 
       If you need to first repile,
-      shuffle all that’s spent once more`,
+      shuffle what was spent before.`,
       `*You may hold more than nine cards—
       anyone who's caught discards.`,
       `**Don't collect this turn's reward,
