@@ -41,8 +41,8 @@ const boardSection = {
       pick a tile to flip and place.
       Free: with turns in loose freestyle—
       flip all tiles to see their face.
-      These suggestions are worthwhile—
-      just to guide in either case:`,
+      These suggestions are worthwhile
+      as a guide in either case:`,
     ]
   })),
   img: ASSETS.guides,
@@ -55,10 +55,10 @@ const boardSection = {
       con una hexagonal a la que apartes;
       y observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`,
-    en: `Don’t make dead-ends on the road.<sup class="warning rotated">T</sup>
-      Don’t connect roads from two hexes.<sup class="warning">x</sup>
+    en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
+      don’t connect roads from two hexes.<sup class="warning">x</sup>
       Place triangles scattered broad—
-      not in clusters when connected.<sup class="warning">!</sup>
+      so they don’t end up connected.<sup class="warning">!</sup>
       Add some islands to the board—
       start with hexes disconnected.
       Keep the underground abroad—

@@ -13,7 +13,7 @@ const endingSection = {
       si aquí en la <a class="pop" onclick="popUp('citadel')"><i>ciudadela</i></a> te regresas,
       cargando con las cartas del concejo: 
       tus tres representantes de nobleza.`,
-      en: `Reach this place where you begin, 
+      en: `Reach <a class="pop" onclick="popUp('citadel')">this place</a> where you begin, 
       with three royal cards in hand.
       Be the first and you shall win—
       hailed as champion of the land.`,
