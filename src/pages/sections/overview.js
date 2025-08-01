@@ -48,7 +48,7 @@ const overviewSection = {
         Pay to hike the off-road treks,
         or to ride a boat or horse.`,
         `Rest upon a hex-shaped tile,
-        if you don't end up off-board. 
+        if you're standing on the board. 
         Draw the card atop the pile—
         That's <b>the increment</b> you scored.`,
       ],
