@@ -15,8 +15,8 @@ const morePage = {
         Copy.text({
           es: `Visítanos al vínculo de arrriba
           y adquiere la edición en exclusiva.`,
-          en: `Get your copy, stake your claim—
-          order your <b>Jack Rabbits</b> game.`,
+          en: `Buy your copy, stake your claim—
+          get your own <b>Jack Rabbits</b> game.`,
         })
       ),
     }, {
@@ -80,7 +80,7 @@ const morePage = {
         Copy.text({
           es: `El test revelará tu identidad
         y el símbolo de más afinidad.`,
-          en: `Click this link and take the test—
+          en: `Click this link to take the test—
           see what suit would suit you best.`,
         })
       ),

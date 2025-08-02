@@ -10,10 +10,10 @@ const endingSection = {
   p: versify(
     Copy.text({
       es: `Serás protagonista del festejo 
-      si aquí en la <a class="pop" onclick="popUp('citadel')"><i>ciudadela</i></a> te regresas,
+      si aquí en la <i>ciudadela</i> te regresas,
       cargando con las cartas del concejo: 
       tus tres representantes de nobleza.`,
-      en: `Reach <a class="pop" onclick="popUp('citadel')">this place</a> where you begin, 
+      en: `Reach this place where you begin, 
       with three royal cards in hand.
       Be the first, and you shall win—
       hailed as champion of the land.`,

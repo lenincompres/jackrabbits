@@ -6,7 +6,7 @@ Copy.add({
     es: "Adquiere Jack Rabbits!",
   },
   pageTitle: {
-    en: "Suit Yourself Test",
+    en: "Suit Yourself",
     es: "Echa tus cartas",
   },
   pageTitleDone: {
@@ -63,8 +63,8 @@ Copy.add({
     es: "Revela tu mano",
   },
   pageDescription: {
-    en: `This exercise will show the <b>suit order</b> that fits your personality. Card suits represent 4 major personality traits. Let's reveal which one you value the most.`,
-    es: `Este divertido test mostrará <b>el valor de tus símbolos</b> de acuerdo a tu personalidad. Los símbolos de las cartas representan 4 grandes rasgos de la personalidad. Con esta breve interacción podrás revelar cuál valoras más.`,
+    en: `This exercise will reveal the suit order that fits your personality. Card suits represent 4 major personality traits. Let's reveal which one you value the most.`,
+    es: `Este divertido test revelará el valor de tus símbolos de acuerdo a tu personalidad. Los símbolos de las cartas representan 4 grandes rasgos de la personalidad. Con esta breve interacción podrás revelar cuál valoras más.`,
   },
   shareHand: {
     en: "Share your hand",
@@ -99,8 +99,8 @@ Copy.add({
     es: "picas",
   },
   spadesMeaning: {
-    en: "courage, determination and work",
-    es: "la valentía, la determinación y el esfuerzo",
+    en: "courage, determination and might",
+    es: "la valentía, la determinación y el vigor",
   },
   hearts: {
     en: "hearts",

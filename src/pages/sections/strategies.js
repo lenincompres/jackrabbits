@@ -164,7 +164,7 @@ const strategySections = [{
     en: `All spent cards are being sold—
       every Jack will sell its suit.
       Check the lot their houses hold—
-      visit them to trade for loot.
+      where their guests may trade for loot.
       Match or overpay with gold—
       see the markings underfoot.
       Note the asterisk in bold—

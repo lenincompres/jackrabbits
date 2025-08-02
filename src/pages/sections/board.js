@@ -45,12 +45,28 @@ const boardSection = {
       as a guide in either case:`,
     ]
   })),
-  img: ASSETS.guides,
+  figure: {
+    position: 'relative',
+    width: 'fit-content',
+    margin: '0 auto',
+    p: {
+      position: 'absolute',
+      top: '1%',
+      left: '0',
+      width: '52%',
+      textAlign: 'center',
+      text: Copy.text({
+        en: 'Citadel',
+        es: 'Ciudadela',
+      }),
+    },
+    img: ASSETS.guides,
+  },
   p_0: versify(Copy.text({
-    es: `Evita callejones sin salidas <sup class="warning rotated">T</sup>,
-      los vínculos de dos hexagonales <sup class="warning">x</sup>,
+    es: `Evita callejones sin salidas,<sup class="warning rotated">T</sup>
+      los vínculos de dos hexagonales,<sup class="warning">x</sup>
       y hacer la conexión consecutiva
-      de piezas triangulares similares <sup class="warning">!</sup>.
+      de piezas triangulares similares.<sup class="warning">!</sup>
       Las islas que desees las inicias
       con una hexagonal a la que apartes;
       y observa que el subsuelo, en exclusiva,
