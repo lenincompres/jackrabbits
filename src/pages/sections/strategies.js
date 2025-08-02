@@ -162,10 +162,10 @@ const strategySections = [{
       o aceptan de cualquiera por el pago
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold—
-      every Jack’s hex sells its suit.
-      Check what treasures these may hold—
-      on your visit trade for loot.
-      Match or cover using gold—
+      every Jack will sell its suit.
+      Check the lot their houses hold—
+      visit them to trade for loot.
+      Match or overpay with gold—
       see the markings underfoot.
       Note the asterisk in bold—
       any suit at all will suit.`,
