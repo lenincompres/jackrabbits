@@ -99,7 +99,7 @@ const transferSections = [{
       te sales por la cueva de tu agrado.`,
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
-      Though you may prefer to save
+      Or you may prefer to save
       while you visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
       Wait in there to earn a waive—
       hop on out in the next round.`,
