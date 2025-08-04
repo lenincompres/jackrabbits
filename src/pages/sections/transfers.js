@@ -24,20 +24,20 @@ const transferSections = [{
     marginTop: '1.2rem',
     tag: "h4",
     html: Copy.text({
-      es: "Traslado por pasadizos",
+      es: "Traslado por matorrales",
       en: "Transfer via off-road",
     })
   }, Copy.text({
     es: `Los bosques, las montañas y los ríos,
       que ves en las imágenes de abajo,
       permiten que te cambies de camino
-      cruzando por el centro en un atajo,
-      marcado con los palos permitidos
-      que <a class="pop" onclick="popUp('price')">pagas con tus cartas</a> al cruzarlo.`,
+      cortando por el monte en un atajo.
+      <a class="pop" onclick="popUp('price')">Si pagas</a> con los palos permitidos,
+      te sales del camino que te trajo.`,
     en: `Mountains, rivers and the woods
       have two roads not far apart. 
-      You may switch between these two
-      if you hike the center part.
+      Hike your way between the two—
+      through the greener off-road part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       Club or Spade or even Heart.`,
   })),
