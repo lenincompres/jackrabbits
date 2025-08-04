@@ -26,7 +26,7 @@ const endingSection = {
       la clase de final que le interesa.`,
       en: `But before the quest may start, 
     choose a challenge for the mission;
-    use the circle as a mark 
+    set the circle as a mark 
     to display the win condition:`,
     })),
   ul_exception: {
