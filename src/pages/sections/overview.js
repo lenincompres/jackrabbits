@@ -27,7 +27,7 @@ const overviewSection = {
         `To fulfill <b>the acquisition</b>, 
         gather ten points in their suit.
         On your turns along the mission,
-        you'll be scoring cards as loot.`,
+        you'll be drawing cards as loot.`,
       ]
     }), 
     ASSETS.royals,
@@ -50,7 +50,7 @@ const overviewSection = {
         `Rest upon a hex-shaped tile,
         if you're standing on the board. 
         Draw the card atop the pile—
-        That's <b>the increment</b> you scored.`,
+        That's <b>the increment</b> reward.`,
       ],
     })),
 };
