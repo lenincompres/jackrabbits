@@ -25,7 +25,7 @@ const transferSections = [{
     tag: "h4",
     html: Copy.text({
       es: "Traslado por pasadizos",
-      en: "Transfer via shortcuts",
+      en: "Transfer via off-road",
     })
   }, Copy.text({
     es: `Los bosques, las montañas y los ríos,
@@ -45,7 +45,7 @@ const transferSections = [{
 }, {
   h4: Copy.text({
     es: "Traslado con Comerciantes",
-    en: "Transfer via Merchants",
+    en: "Transfer via Merchant",
   }),
   p: versify(Copy.text({
     es: `Los cruces te permiten transportarte
@@ -72,7 +72,7 @@ const transferSections = [{
     tag: "h4",
     html: Copy.text({
       es: "Traslado con Comodines",
-      en: "Transfer via Jokers",
+      en: "Transfer via Joker",
     }),
   }, Copy.text({
     es: `Si <a class="pop" onclick="popUp('price')">pagas</a> al pasar por las tabernas,
@@ -88,7 +88,7 @@ const transferSections = [{
 }, {
   h4: Copy.text({
     es: "Traslado por Madrigueras",
-    en: "Transfer via Rabbit holes",
+    en: "Transfer via Rabbit hole",
   }),
   p: versify(Copy.text({
     es: `Si <a class="pop" onclick="popUp('price')">pagas</a> en la entrada de las cuevas,

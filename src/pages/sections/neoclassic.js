@@ -8,7 +8,7 @@ const neoclassicSections = [{
   header: {
     h3: Copy.text({
       es: "Trenes y Corceles",
-      en: "Trains & Cavalry",
+      en: "Trains & Steeds",
     }),
     img: ASSETS.cavaliers,
     p: versify(Copy.text({
@@ -18,8 +18,8 @@ const neoclassicSections = [{
       que añades a las reglas si lo quieres.`,
       en: `Adds four royals and their tiles,
       they have steeds and tracks for miles.
-      Plus, a mushroom that's hostile—
-      it rots cards that leave the pile.`,
+      Plus a mushroom that's hostile—
+      blocking cards that leave the pile.`,
     })),
   },
   section: [{
@@ -114,18 +114,18 @@ const neoclassicSections = [{
           they can't claim their increment.`,
         })),*/
     p_: versify(Copy.text({
-      es: `Al hongo lo reubicas de su puesto
-      si acabas en el sitio en el que ronde.
-      Tendrá que descartar el incremento
-      quienquiera que en su sitio se acomode.
-      Decide su lugar en el comienzo
-      si sales con el último en el orden.`,
+      es: `Al hongo lo reubicas al momento 
+      si el tiro de tus dados es un doble.
+      Que olvide loterías e incrementos 
+      quienquiera que en su sitio se acomode. 
+      Desígnale su punto de comienzo 
+      si sales con el último en el orden. `,
       en: `If you start with the last turn,
       choose its starting settlement.
-      Those who visit it, in turn,
-      will discard their increment.
-      Move the mushroom end-of-turn
-      if you're resting where it's sent.`,
+      Strip its visitors in turn—
+      lottery and increment.
+      Roll a double to discern
+      where the mushroom should be sent.`,
     })),
   }],
 }, {
