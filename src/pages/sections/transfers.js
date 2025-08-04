@@ -37,7 +37,7 @@ const transferSections = [{
     en: `Mountains, rivers and the woods
       have two roads not far apart. 
       Hike your way between the two—
-      through the greener off-road part.
+      through the forest-greener part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       Club or Spade or even Heart.`,
   })),
@@ -60,10 +60,10 @@ const transferSections = [{
       y anuncies el transporte que prefieras.`,
     en: `Outposts where the road is forked
       lend a horse or boat to ride:
-      reach a hex across the board
-      dashing over tiles in stride,
-      or select a road to port
-      as you row the seas outside.
+      reach a hex across the board,
+      dashing over tiles in stride;
+      or select a road to port,
+      rowing on the seas outside.
       You'll proceed to your next post
       once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>—
       Landlocked merchants won't have boats
