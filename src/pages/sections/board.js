@@ -73,7 +73,7 @@ const boardSection = {
       se queda sin uniones laterales.`,
     en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
       don’t connect roads from two hexes.<sup class="warning">x</sup>
-      Place triangles scattered broad—
+      Place triangles scattered broad,
       so they don’t end up connected.<sup class="warning">!</sup>
       Add some islands to the board—
       start with hexes disconnected.

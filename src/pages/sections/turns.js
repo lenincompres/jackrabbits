@@ -10,8 +10,8 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Tu turno empezará con un presente:
-      un premio de la pila tras los dados.
+      `Tu turno empezará con un presente,
+      rifado de la pila tras los dados.
       Si un dado, de los dos independientes,
       coincide con un número en tus manos,
       demuestra con la carta pertinente
@@ -19,7 +19,7 @@ const turnSections = [{
       `El límite de cartas es de nueve;
       descarta la que quieras si te excedes.*`,
       `Conserva el resultado de los dados;
-      los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`
+      los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
     ],
     en: [
       `Start your turns rolling two dice,
