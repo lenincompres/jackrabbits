@@ -31,13 +31,13 @@ const transferSections = [{
     es: `Los bosques, las montañas y los ríos,
       que ves en las imágenes de abajo,
       permiten que te cambies de camino
-      cruzando por el monte en un atajo.
+      cruzando por el centro en un atajo.
       <a class="pop" onclick="popUp('price')">Si pagas</a> con cualquiera de sus símbolos,
       te cambias del camino que te trajo.`,
     en: `Mountains, rivers and the woods
       have two roads not far apart. 
       You may hike between the two—
-      crossing through the greenwood part.
+      crossing through the middle part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       Club or Spade or even Heart.`,
   })),
@@ -59,7 +59,7 @@ const transferSections = [{
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
     en: `Outposts where the road is forked
-      lend a horse or boat to ride:
+      have a horse or boat to ride:
       reach a hex across the board,
       dashing over tiles in stride;
       or select a road to port,
@@ -101,7 +101,7 @@ const transferSections = [{
       use this trick to hop around. 
       Or you may prefer to save
       while you visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
-      Wait in there to earn a waive—
+      You must wait to earn a waive—
       hop on out in the next round.`,
   }), {
     tag: "a",
