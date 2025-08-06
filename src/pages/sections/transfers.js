@@ -31,13 +31,13 @@ const transferSections = [{
     es: `Los bosques, las montañas y los ríos,
       que ves en las imágenes de abajo,
       permiten que te cambies de camino
-      cortando por el monte en un atajo.
-      <a class="pop" onclick="popUp('price')">Si pagas</a> con los palos permitidos,
-      te sales del camino que te trajo.`,
+      cruzando por el monte en un atajo.
+      <a class="pop" onclick="popUp('price')">Si pagas</a> con cualquiera de sus símbolos,
+      te cambias del camino que te trajo.`,
     en: `Mountains, rivers and the woods
       have two roads not far apart. 
-      Hike your way between the two—
-      through the forest-greener part.
+      You may hike between the two—
+      crossing through the greenwood part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       Club or Spade or even Heart.`,
   })),

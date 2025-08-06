@@ -77,7 +77,7 @@ const turnSections = [{
       `Tu meta es visitar a la nobleza
       si nadie se ha apropiado de sus cartas.
       Un mínimo de diez es lo que cuestan,
-      pagado con los palos de sus marcas.
+      pagado con las cartas de sus marcas.
       Se dejan zanahorias en las piezas,
       que indican los conejos que las cargan.`,
       `Es gratis acceder a los hexágonos;
@@ -108,7 +108,7 @@ const turnSections = [{
     es: [
       `Termina en un hexágono tus vueltas,
       a menos de que salgas a la orilla.**
-      Reclama al descansar tu recompensa:
+      Te toca reclamar tu recompensa:
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
       baraja las del lote y recopila.`,
