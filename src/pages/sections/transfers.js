@@ -37,7 +37,7 @@ const transferSections = [{
     en: `Mountains, rivers and the woods
       have two roads not far apart. 
       You may hike between the two—
-      crossing through the middle part.
+      cutting through the greener part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       Club or Spade or even Heart.`,
   })),

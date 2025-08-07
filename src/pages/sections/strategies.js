@@ -78,14 +78,14 @@ const strategySections = [{
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
-      `You may steal one card at random 
-      and kick someone off the board, 
+      `You may steal a card at random 
+      and kick someone else off-board, 
       if you meet to claim their item
       and attack them with a sword.
       You’ll go back and forth in tandem,
-      adding spades to beat what's scored.
-      When the battle stops, you sum them,
-      and the loser's kicked off-board.`,
+      adding spades to beat what's scored—
+      until one won't overcome them, 
+      and is beaten off the board.`,
       `Note that tying scores is barred.
       Please discard the spades outpoured.
       If your victim wins the war,
@@ -164,7 +164,7 @@ const strategySections = [{
     en: `All spent cards are being sold—
       every Jack will sell its suit.
       Check the lot their houses hold—
-      which their guests may trade for loot.
+      where you may obtain this loot.
       Match or overpay with gold—
       see the markings underfoot.
       Note the asterisk in bold—

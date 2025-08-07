@@ -106,14 +106,14 @@ const optionalSections = [
       en: "Additional capital",
     }),
     p: versify(Copy.text({
-      es: `Los <b>A</b>ses capitales que se exponen
+      es: `Los <b>ases capitales</b> que se exponen
         se cuentan por un <b>1</b> permanente;
         si el palo que precisas corresponde,
         lo añades del que tienes en tu frente.`,
-      en: `Playing your capital <b>A</b>ce
-        grants a stable bonus tip:
-        if its suit suits at a place,
-        add it as an extra pip.`,
+      en: `When you play <b>capital Aces</b>,
+        add this stable bonus tip:
+        at the suit-appropriate places,
+        they will grant an extra pip.`,
     })),
   }],
 }, {

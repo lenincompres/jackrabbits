@@ -15,7 +15,7 @@ const endingSection = {
       tus tres representantes de nobleza.`,
       en: `Reach this place where you begin, 
       with three royal cards in hand.
-      Be the first, and you shall win—
+      You must be the first to win—
       hailed as champion of the land.`,
     }),
     ASSETS.thumbnailOf("citadel", "6em", e => popUp("citadel")),
@@ -25,8 +25,8 @@ const endingSection = {
       que escoja, de lo simple a lo complejo,
       la clase de final que le interesa.`,
       en: `But before the quest may start, 
-    choose a challenge for the mission;
-    set the circle as a mark 
+    set a challenge for the mission;
+    place its circle as a mark 
     to display the win condition:`,
     })),
   ul_exception: {
