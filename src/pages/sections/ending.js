@@ -40,11 +40,11 @@ const endingSection = {
         `<b>tribal</b>: traer las tres de un mismo palo.`,
       ],
       en: [
-        `<b>simple</b>: get three royal cards of any sort.`,
-        `<b>diverse</b>: get three royal cards of any title (letter), but different suits (symbols).`,
-        `<b>monarchic</b>: get a <b>K + Q + J</b> of any suits.`,
-        `<b>diverse + monarchic</b>: get a <b>K + Q + J</b> of three different suits.`,
-        `<b>tribal</b>: get the three of the same suit.`,
+        `<b>simple</b>: get any three royal cards.`,
+        `<b>diverse</b>: get any three royals, each from a different suit.`,
+        `<b>monarchic</b>: get a <b>K + Q + J</b>, from any suits.`,
+        `<b>diverse + monarchic</b>: get a <b>K + Q + J</b>, each from a different suit.`,
+        `<b>tribal</b>: get three royals of the same suit.`,
       ]
     }),
   }
