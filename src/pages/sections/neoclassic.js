@@ -65,7 +65,7 @@ const neoclassicSections = [{
       es: `Las cartas de corceles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
-      y nunca al reclamar la ciudadela.`,
+      y nunca al reclamar la Ciudadela.`,
       en: `Their royal cards get acquired,
       like any royal you claim.
       To ride the steeds, they're required;

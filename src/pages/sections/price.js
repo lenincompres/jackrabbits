@@ -26,14 +26,14 @@ const priceSection = {
     en: [
       `Transfer posts along the way
       charge the total on the dice. 
-      It's OK to overpay—
-      you don't have to be precise. 
-      You may mix the suits you play—
-      any marked there fits the price.`,
+      It's OK to overpay
+      as an added sacrifice. 
+      You may mix the suits to pay—
+      see the marks that fit the price.`,
       `Show and leave out what you spend—
       it's <i>discarded</i> once you're done. 
       You may spend royals as <b>10</b>,
-      and the aces are worth <b>1</b>.`,
+      and the Aces are worth <b>1</b>.`,
       `If you spend a royal card,
       it returns to the court's aisle.
       And you must remove your mark—

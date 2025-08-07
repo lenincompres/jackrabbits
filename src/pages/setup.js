@@ -58,15 +58,15 @@ const setupPage = {
           es: `Después de que el tablero se termina
           y estén establecidos los lugares,
           la <i>corte</i> se separa bocarriba
-          con cartas de los <i>jokers</i> y <i>reales</i>:
+          con cartas de los <i>Jokers</i> y <i>Reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
-          en: `Gather each <i>face card</i> and <i>joker</i>
+          en: `Gather each <i>face card</i> and <i>Joker</i>
           after placing every tile;
           lay this <i>court</i> in any order
           to display a face-up aisle.
           With the rest that have a number
-          and the <i>aces</i> of each style,
+          and the <i>Aces</i> of each style,
           give a shuffle as in poker 
           for the facedown drawing <i>pile</i>.`,
         }),
@@ -96,11 +96,11 @@ const setupPage = {
       p: versify(
         Copy.text({
           es: `Asigna a las personas sus conejos
-          y allí en la <a class="pop" onclick="popUp('citadel')"><i>ciudadela</i></a> los colocan.
+          y allí en la <a class="pop" onclick="popUp('citadel')"><i>Ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
           en: `Players choose their token rabbits,
-          set them on the <a class="pop" onclick="popUp('citadel')"><i>citadel</i></a>,
+          set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>,
           and collect their matching carrots—
           They get three of these as well.`,
         }),
@@ -109,7 +109,7 @@ const setupPage = {
           es: `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
           descrito en el principio de las reglas;
           y a menos que se juegue por el simple,
-          su sello se pondrá en la ciudadela.`,
+          su sello se pondrá en la Ciudadela.`,
           en: `See what fits <a class="pop" onclick="popUp('endings')"><b>ending the game</b></a>,
           and select the quest you're on—
           if a circle marks this aim, 

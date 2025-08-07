@@ -63,7 +63,7 @@ const transferSections = [{
       reach a hex across the board,
       dashing over tiles in stride;
       or select a road to port,
-      rowing on the seas outside.
+      gliding on the seas outside.
       You'll proceed to your next post
       once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>—
       Landlocked merchants won't have boats

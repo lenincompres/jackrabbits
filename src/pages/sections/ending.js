@@ -10,7 +10,7 @@ const endingSection = {
   p: versify(
     Copy.text({
       es: `Serás protagonista del festejo 
-      si aquí en la <i>ciudadela</i> te regresas,
+      si aquí en la <i>Ciudadela</i> te regresas,
       cargando con las cartas del concejo: 
       tus tres representantes de nobleza.`,
       en: `Reach this place where you begin, 

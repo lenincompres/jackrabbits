@@ -26,8 +26,8 @@ const turnSections = [{
       so that two results unfold.
       You may draw a one-card prize
       if you show a card you hold,
-      and it matches, value-wise,
-      either number you just rolled.`,
+      and its value is precise—
+      matching either number rolled.`,
       `If you're ever caught with ten,
       then discard to nine again.*`,
       `Hold the outcome of the dice—

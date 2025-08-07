@@ -21,9 +21,9 @@ const optionalSections = [
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
       which are marked in this reboot:
-      hearts are used to judge the access;
-      diamonds buy you any loot; 
-      clubs will get you flying passes—
+      Hearts are used to judge the access;
+      Diamonds buy you any loot; 
+      Clubs will get you flying passes—
       shortfall's paid in any suit.`,
     })),
   }, {
@@ -46,7 +46,7 @@ const optionalSections = [
       you'll remove a set and suit.
       Pick a fitting kind of ending—
       one that cards allow you to.
-      Having spades is recommended 
+      Having Spades is recommended 
       on a tribal game pursuit.`,
     })),
     /*},{
@@ -80,9 +80,9 @@ const optionalSections = [
         que cuentan por un <b>1</b> o por un <b>11</b>,
         ya sea en el momento en que los gastes
         o incluso en el momento que los compres.`,
-      en: `You decide the proper value 
-        any time you use an ace:
-        <b>1</b> or <b>11</b>—what have you—
+      en: `Choose the value that you'll give them
+        any time you play an ace:
+        either <b>1</b> or an <b>11</b>—
         even in the marketplace.`,
     })),
   }, {
@@ -91,11 +91,11 @@ const optionalSections = [
       en: "Capital Aces",
     }),
     p: versify(Copy.text({
-      es: `El <b>A</b>s que de primero desembolses,
+      es: `El As que de primero desembolses,
         descártalo y consérvalo en tu frente;
         pues éste se valora por un <b>11</b>
         y solo por un <b>1</b> tus siguientes.`,
-      en: `Your first <b>A</b>ce is worth <b>11</b>,
+      en: `Your first Ace is worth <b>11</b>,
         and the rest you spend are <b>1</b>s.
         As a record that it's spent then, 
         keep it in front of your hands.`,
@@ -127,13 +127,13 @@ const optionalSections = [
       en: "Residential flights",
     }),
     p: versify(Copy.text({
-      es: `Las plazas, ciudadela y los palacios
+      es: `Las plazas, Ciudadela y los palacios
         se añaden al destino de los vuelos;
         podrás aterrizar en los hexágonos,
         excepto por supuesto en el subsuelo.`,
       en: `When you fly from any tower, 
         find more places to touch down:
-        you may reach—with the clubs' power—
+        you may reach with the Clubs' power
         any hex above the ground.`,
     })),
   }, {

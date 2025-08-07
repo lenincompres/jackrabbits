@@ -46,7 +46,7 @@ const strategySections = [{
       Use the suits from the takeoff—
       where you board the flight device.
       You may trade the shown card off
-      where the clubs fulfill the price.`,
+      where the Clubs fulfill the price.`,
     ]
   })),
 }, {
@@ -83,11 +83,11 @@ const strategySections = [{
       if you meet to claim their item
       and attack them with a sword.
       You’ll go back and forth in tandem,
-      adding spades to beat what's scored—
+      adding Spades to beat what's scored—
       until one won't overcome them, 
       and is beaten off the board.`,
-      `Note that tying scores is barred.
-      Please discard the spades outpoured.
+      `Note that tying scores is barred,
+      and discard the Spades outpoured.
       If your victim wins the war,
       they can’t steal the cards you hoard.
       If you steal a royal card, 
@@ -128,16 +128,16 @@ const strategySections = [{
       `As you visit a queen's hex,
       any player may intone:
       “Verify that you possess
-      the queen’s card that marks this throne,
+      the Queen’s card that marks this throne,
       or show six points to the rest,
-      adding hearts from cards you own.”
+      adding Hearts from cards you own.”
       Off-board players can't request—
       they're not fit to cast a stone.`,
       `Yet those asking for your cards
       must first show cards of their own—
       even resting far apart—
       prove they're welcome in this zone.
-      If you fail to show them hearts,
+      If you fail to show them Hearts,
       off the board you’re swiftly thrown!
       But succeed and they're disbarred:
       thrown off losing what they’d shown.`,
@@ -185,9 +185,9 @@ const strategySections = [{
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
     add <b>consensual trades <sup>+</sup></b> to boot:
-    deal in turn with diamond cards—
+    deal in turn with Diamond cards—
     meet to trade or to dispute.
-    Never show your hands’ rewards—
+    Never show your hand's rewards—
     strike a deal for your pursuit.
     If cards traded prove a farce,
     swindlers get the off-board boot.`,

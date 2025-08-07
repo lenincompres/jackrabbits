@@ -9,7 +9,7 @@ const boardSection = {
   }),
   p: versify(Copy.text({
     es: [
-      `Empieza por poner la <i>ciudadela</i>
+      `Empieza por poner la <i>Ciudadela</i>
       y el negro del <i>subsuelo</i>, separándolos.
       Revuelve bocabajo lo que queda:
       los rombos, los hexágonos y triángulos.`,
@@ -27,7 +27,7 @@ const boardSection = {
       contar con las siguientes sugerencias:`,
     ],
     en: [
-      `Place the <i>citadel</i> hex first. 
+      `Place the <i>Citadel</i> hex first. 
       Leave aside the <i>underground</i>. 
       Pile and shuffle all the rest,
       even smaller ones, face down.`,

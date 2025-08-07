@@ -66,7 +66,7 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `La ficha del inicio es reforzada:
         con torre, con palacio y con su plaza.`,
-      en: `Give the citadel more power—
+      en: `Give the Citadel more power—
       palace, plaza, and a tower.`
     }))
   },
