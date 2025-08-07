@@ -35,17 +35,17 @@ const strategySections = [{
       if it beats the dice or ties,
       pick a tower as a goal
       for <b>the journey</b> through the skies.
-      Or you'll meet an off-board fall—
+      Or you'll miss the board and fall—
       keep the card shown anywise.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
-      `You'll still fly and won't fall off
-      if you pay to meet the dice.
-      Verify how much you're off—
+      `Reach your goal and don’t fall off
+      if you pay to reach the dice. 
+      Count how far your points are off—
       pay this shortfall to suffice.
-      Use the suits from the takeoff—
-      where you board the flight device.
-      You may trade the shown card off
+      See the place where you took off—
+      just the suit from there applies.
+      You may trade the shown card off 
       where the Clubs fulfill the price.`,
     ]
   })),
@@ -78,13 +78,13 @@ const strategySections = [{
       si acaso la que robas es tu cuarta.`,
     ],
     en: [
-      `You may steal a card at random 
-      and kick someone else off-board, 
-      if you meet to claim their item
+      `You may steal a card at random,
+      kicking someone else off-board,
+      if you meet to claim their item 
       and attack them with a sword.
       You’ll go back and forth in tandem,
       adding Spades to beat what's scored—
-      until one won't overcome them, 
+      until one won't overcome them 
       and is beaten off the board.`,
       `Note that tying scores is barred,
       and discard the Spades outpoured.
