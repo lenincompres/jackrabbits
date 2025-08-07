@@ -65,10 +65,10 @@ const setupPage = {
           after placing every tile;
           lay this <i>court</i> in any order
           to display a face-up aisle.
-          With the rest that have a number
-          and the <i>Aces</i> of each style,
-          give a shuffle as in poker 
-          for the facedown drawing <i>pile</i>.`,
+          Give a shuffle as in poker 
+          for the facedown drawing <i>pile</i>—
+          with the rest that have a number
+          and the <i>Aces</i> of each style.`,
         }),
         ASSETS.cards,
         Copy.text({
