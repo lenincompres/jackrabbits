@@ -28,7 +28,7 @@ const priceSection = {
       charge the total on the dice. 
       If you were to overpay, 
       then consider it the price.
-      Add up any card you pay 
+      You may add a card to pay
       if its symbol qualifies.`,
       `Show and leave out what you spend—
       it's <i>discarded</i> once you're done. 
