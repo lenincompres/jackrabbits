@@ -80,10 +80,10 @@ const optionalSections = [
         que cuentan por un <b>1</b> o por un <b>11</b>,
         ya sea en el momento en que los gastes
         o incluso en el momento que los compres.`,
-      en: `Choose the value that you'll give them
-        any time you play an ace:
-        either <b>1</b> or an <b>11</b>—
-        even in the marketplace.`,
+      en: `Choose to use it as eleven
+      any time you play an ace—
+      or a one when it deserves it: 
+      lottery or marketplace`,
     })),
   }, {
     h5: Copy.text({
