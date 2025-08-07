@@ -24,12 +24,12 @@ const priceSection = {
       regresan a la corte en la que empiezan.`,
     ],
     en: [
-      `Transfer posts along the way
+      `Transfers marked along the way
       charge the total on the dice. 
-      It's OK to overpay
-      as an added sacrifice. 
-      You may mix the suits to pay—
-      see the marks that fit the price.`,
+      If you were to overpay, 
+      then consider it the price.
+      Add up any card you pay 
+      if its symbol qualifies.`,
       `Show and leave out what you spend—
       it's <i>discarded</i> once you're done. 
       You may spend royals as <b>10</b>,
