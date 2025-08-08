@@ -13,7 +13,7 @@ const introPage = {
       p: versify(Copy.text({
         es: `Comprende el material preliminar
           al <a href="#full"><b>juego completivo</b></a> regular.`,
-        en: `Learn each phase's role and name, 
+        en: `Learn each phase’s role and name, 
           then attempt the <a href="#full"><b>standard game</b></a>.`,
       })),
     },
@@ -35,7 +35,7 @@ const introPage = {
       es: `El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante,
         con reglas que usarás en lo adelante.`,
       en: `Once the <a href="#intro"><b>intro</b></a>’s understood, 
-      then the <a href="#full"><b><big>standard game</big></b></a>'s pursued.`,
+      then the <a href="#full"><b><big>standard game</big></b></a>’s pursued.`,
     })),
   },
 };

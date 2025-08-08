@@ -27,7 +27,7 @@ const overviewSection = {
         `To fulfill <b>the acquisition</b>, 
         gather ten points in their suit.
         On your turns along the mission,
-        you'll be drawing cards as loot.`,
+        you’ll be drawing cards as loot.`,
       ]
     }), 
     ASSETS.royals,
@@ -44,13 +44,13 @@ const overviewSection = {
       ],
       en: [
         `Make <b>the journey</b> hex to hex—
-        Every road is free to course.
+        every road is free to course.
         Pay to hike the off-road treks,
         or to ride a boat or horse.`,
         `Rest upon a hex-shaped tile,
-        if you're standing on the board. 
+        if you’re standing on the board. 
         Draw the card atop the pile—
-        That's <b>the increment</b> reward.`,
+        that’s <b>the increment</b> reward.`,
       ],
     })),
 };

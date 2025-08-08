@@ -4,12 +4,12 @@ import versify from "../../aux/versify.js";
 
 const strategySections = [{
   backgroundColor: "rgba(200,240,240,0.3)",
-  h3: Copy.text({
+  h3_clubs: Copy.text({
     es: "Tréboles <small>(Bastos)</small>",
     en: "Clovers <small>(Clubs)</small>",
   }),
   img: ASSETS.clubs,
-  h4: Copy.text({
+  h4_clubs: Copy.text({
     es: "Volar entre dos torres K",
     en: "Fly among King Towers",
   }),
@@ -35,28 +35,28 @@ const strategySections = [{
       if it beats the dice or ties,
       pick a tower as a goal
       for <b>the journey</b> through the skies.
-      Or you'll miss the board and fall—
+      Or you’ll miss the board and fall—
       keep the card shown anywise.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
-      `Reach your goal and don’t fall off
+      `Land your flight and don’t fall off
       if you pay to reach the dice. 
       Count how far your points are off—
       pay this shortfall to suffice.
       See the place where you took off—
       just the suit from there applies.
       You may trade the shown card off 
-      where the Clubs fulfill the price.`,
+      where the clubs fulfill the price.`,
     ]
   })),
 }, {
   backgroundColor: "rgba(220,200,255,0.4)",
-  h3: Copy.text({
+  h3_spades: Copy.text({
     es: "Picas <small>(Espadas)</small>",
     en: "Spades <small>(Swords)</small>",
   }),
   img: ASSETS.spades,
-  h4: Copy.text({
+  h4_spades: Copy.text({
     es: "Pelear por las cartas",
     en: "Fight players for cards",
   }),
@@ -83,27 +83,27 @@ const strategySections = [{
       if you meet to claim their item 
       and attack them with a sword.
       You’ll go back and forth in tandem,
-      adding Spades to beat what's scored—
-      until one won't overcome them 
+      adding spades to beat what’s scored—
+      until one won’t overcome them 
       and is beaten off the board.`,
       `Note that tying scores is barred,
-      and discard the Spades outpoured.
+      and discard the spades outpoured.
       If your victim wins the war,
       they can’t steal the cards you hoard.
       If you steal a royal card, 
-      discard one if it's your fourth—
-      take <b>the increment</b>'s reward,
-      and match carrots in accord.`,
+      discard one if it’s your fourth—
+      take <b>the increment</b>’s reward,
+      matching carrots in accord.`,
     ]
   })),
 }, {
   backgroundColor: "rgba(255,200,210,0.4)",
-  h3: Copy.text({
+  h3_hearts: Copy.text({
     es: "Corazones <small>(Copas)</small>",
     en: "Hearts <small>(Cups)</small>",
   }),
   img: ASSETS.hearts,
-  h4: Copy.text({
+  h4_hearts: Copy.text({
     es: "Juzgar en los palacios Q",
     en: "Judge at Queen Palaces",
   }),
@@ -125,32 +125,32 @@ const strategySections = [{
       de quien en el destierro las expone.`,
     ],
     en: [
-      `As you visit a queen's hex,
+      `As you visit a <b>Q</b>ueen’s hex,
       any player may intone:
       “Verify that you possess
-      the Queen’s card that marks this throne,
+      the <b>Q</b>ueen’s card that marks this throne,
       or show six points to the rest,
-      adding Hearts from cards you own.”
-      Off-board players can't request—
-      they're not fit to cast a stone.`,
+      adding hearts from cards you own.”
+      Off-board players can’t request—
+      they’re not fit to cast a stone.`,
       `Yet those asking for your cards
       must first show cards of their own—
       even resting far apart—
-      prove they're welcome in this zone.
-      If you fail to show them Hearts,
+      prove they’re welcome in this zone.
+      If you fail to show them hearts,
       off the board you’re swiftly thrown!
-      But succeed and they're disbarred:
+      But succeed and they’re disbarred:
       thrown off losing what they’d shown.`,
     ]
   })),
 }, {
   backgroundColor: "rgba(250,240,200,0.4)",
-  h3: Copy.text({
+  h3_diamonds: Copy.text({
     es: "Diamantes <small>(Oros)</small>",
     en: "Diamonds <small>(Gold)</small>",
   }),
   img: ASSETS.diamonds,
-  h4: Copy.text({
+  h4_diamonds: Copy.text({
     es: "Comerciar en las plazas J",
     en: "Trade at Jack Plazas",
   }),
@@ -162,7 +162,7 @@ const strategySections = [{
       o aceptan de cualquiera por el pago
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold—
-      every Jack will sell its suit.
+      every <b>J</b>ack will sell its suit.
       Check the lot their houses hold—
       where you may obtain this loot.
       Match or overpay with gold—
@@ -175,7 +175,7 @@ const strategySections = [{
     en: "+ Interpersonal Trades",
   }),*/
   p_0: versify(Copy.text({
-    es: `Es válido el <b>comercio consensuado <sup>+</sup></b>
+    es: `Es válido el <b class="diamonds">comercio consensuado <sup>+</sup></b>
     si sumas el artículo a las reglas:
     se vende por diamantes en un trato
     con alguien en el sitio que te encuentras,
@@ -184,10 +184,10 @@ const strategySections = [{
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
-    add <b>consensual trades <sup>+</sup></b> to boot:
-    deal in turn with Diamond cards—
+    add <b class="diamonds">consensual trades <sup>+</sup></b> to boot:
+    deal in turn with diamond cards—
     meet to trade or to dispute.
-    Never show your hand's rewards—
+    Never show your hand’s rewards—
     strike a deal for your pursuit.
     If cards traded prove a farce,
     swindlers get the off-board boot.`,

@@ -31,7 +31,7 @@ const turnSections = [{
       `If you're ever caught with ten,
       then discard to nine again.*`,
       `Hold the outcome of the dice—
-      tranfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
+      transfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
     ]
   })),
 }, {
@@ -55,7 +55,7 @@ const turnSections = [{
     ],
     en: [
       `You may choose a path to exit
-      from the current hex you're on.
+      from the current hex you’re on.
       Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected—
       let your rabbit venture on.
       Cross small tiles but never hexes—
@@ -86,7 +86,7 @@ const turnSections = [{
       reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
-      `It's your goal to claim the card
+      `It’s your goal to claim the card
       of the hex where you set foot.
       Only there you may discard
       ten or more points of its suit—
@@ -95,7 +95,7 @@ const turnSections = [{
       `You may always be a guest—
       make no claim but stop to rest.`,
       `Keep the royals in your hands—
-      Get <b>the increment</b> at once.`,
+      get <b>the increment</b> at once.`,
     ]
   })),
 }, {
@@ -125,8 +125,8 @@ const turnSections = [{
       If you need to first repile,
       shuffle what was spent before.`,
       `*You may hold more than nine cards—
-      anyone who's caught discards.`,
-      `**Don't collect this turn's reward,
+      anyone who’s caught discards.`,
+      `**Don’t collect this turn’s reward
       if you ever end <a href="#intro/off"><b>off-board</b></a>.`,
     ]
   })),

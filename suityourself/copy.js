@@ -75,7 +75,7 @@ Copy.add({
     es: "Esta es mi mano, como valoro los 4 principales rasgos de la personalidad en las cartas. Ven a conocerme."
   },
   mailingList: {
-    en: "Join Lenino's JACK RABBITS mailing list.",
+    en: "Join Lenino’s JACK RABBITS mailing list.",
     es: "Mantente al tanto de Lenino y sus JACK RABBITS."
   },
   name: {

@@ -58,17 +58,17 @@ const setupPage = {
           es: `Después de que el tablero se termina
           y estén establecidos los lugares,
           la <i>corte</i> se separa bocarriba
-          con cartas de los <i>Jokers</i> y <i>Reales</i>:
+          con cartas de los <i>jokers</i> y <i>reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
-          en: `Lay the <i>Court</i> in any order
+          en: `Lay the <i>court</i> in any order
           after placing every tile—
-          every <i>Royal Card</i> and <i>Joker</i>
+          every <i>royal card</i> and <i>joker</i>
           to display a face-up aisle.
           Give a shuffle as in poker 
-          for the facedown drawing <i>pile</i>—
+          for the face down drawing <i>pile</i>—
           with the rest that have a number
-          and the <i>Aces</i> of each style.`,
+          and the <i>aces</i> of each style.`,
         }),
         ASSETS.cards,
         Copy.text({
@@ -102,7 +102,7 @@ const setupPage = {
           en: `Players choose their token rabbits,
           set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>,
           and collect their matching carrots—
-          They get three of these as well.`,
+          they get three of these as well.`,
         }),
         ASSETS.tokens,
         Copy.text({
@@ -111,7 +111,7 @@ const setupPage = {
           y a menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
           en: `See what fits <a class="pop" onclick="popUp('endings')"><b>ending the game</b></a>,
-          and select the quest you're on—
+            and select the quest you’re on—
           if a circle marks this aim, 
           set it on the hexagon.`,
         }),

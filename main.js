@@ -24,8 +24,8 @@ Pager.add({
 const cardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
 
 DOM.set({
-  title: "Lenino's Jack Rabbits - " + Copy.at.header,
-  description: "Lenino's Jack Rabbits: The board game for playing cards on a land of wooden shards.",
+  title: "Lenino’s Jack Rabbits - " + Copy.at.header,
+  description: "Lenino’s Jack Rabbits: The board game for playing cards on a land of wooden shards.",
   keywords: "lenino, jack rabbits, board game, boardgame, alice in wonderlan, card game, playing cards",
   author: "Lenin Compres",
   image: {
@@ -39,7 +39,7 @@ DOM.set({
       a: {
         position: "relative",
         href: "#home",
-        small_logoSuper: "Lenino's",
+        small_logoSuper: "Lenino’s",
         span_logoName: "Jack Rabbits",
         small_logoSub: Copy.at.header,
       },

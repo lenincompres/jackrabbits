@@ -31,11 +31,11 @@ const priceSection = {
       You may add a card to pay
       if its symbol qualifies.`,
       `Show and leave out what you spend—
-      it's <i>discarded</i> once you're done. 
+      it’s <i>discarded</i> once you’re done. 
       You may spend royals as <b>10</b>,
-      and the Aces are worth <b>1</b>.`,
+      and the <b>a</b>ces are worth <b>1</b>.`,
       `If you spend a royal card,
-      it returns to the court's aisle.
+      it returns to the court’s aisle.
       And you must remove your mark—
       take your carrot off their tile.`,
     ]

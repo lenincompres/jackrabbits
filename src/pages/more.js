@@ -37,7 +37,7 @@ const morePage = {
         es: `<b>Jack Rabbits</b>  en un rol educativo,
           con miras al análisis creativo.`,
         en: `Let's promote critical thinking,
-          storytelling, and world building.`,
+          storytelling, and world-building.`,
       })),
     }, {
       h3: {

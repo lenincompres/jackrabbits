@@ -18,7 +18,7 @@ const transferSections = [{
     (see the mountains farther down).
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits marked on the ground—
-    Use the total on your dice
+    use the total on your dice
     as the minimum amount.`,
   }), {
     marginTop: '1.2rem',
@@ -39,7 +39,7 @@ const transferSections = [{
       You may hike between the two—
       cutting through the greener part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
-      Club or Spade or even Heart.`,
+      club or spade or even heart.`,
   })),
   img: ASSETS.rhombi,
 }, {
@@ -64,10 +64,10 @@ const transferSections = [{
       dashing over tiles in stride;
       or select a road to port,
       gliding on the seas outside.
-      You'll proceed to your next post
+      You’ll proceed to your next post
       once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>—
-      Landlocked merchants won't have boats
-      since they're not by the seaside.`,
+      Landlocked merchants won’t have boats
+      since they’re not by the seaside.`,
   }), {
     tag: "h4",
     html: Copy.text({
@@ -81,7 +81,7 @@ const transferSections = [{
       lo montas y liberas de tu mano.`,
     en: `When you pass by any tavern,
       you may <a class="pop" onclick="popUp('price')">buy</a> a joker card.
-      Keep it till you'd like to travel,
+      Keep it till you’d like to travel,
       and release it afterward.`,
   })),
   img: ASSETS.rides,
@@ -100,9 +100,9 @@ const transferSections = [{
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
       Or you may prefer to save
-      while you visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
-      You must wait to earn a waive—
-      hop on out in the next round.`,
+      while you visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>,
+      where you’ll wait to earn a waive 
+      and hop out the coming round.`,
   }), {
     tag: "a",
     name: "intro/off",
@@ -127,8 +127,8 @@ const transferSections = [{
       where no <b>increment</b> is found.
       Once your <b>lottery</b>'s off-board,
       take your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>—
-      where your <b>increment</b>'s restored,
-      and you'll wait another round.`,
+      where your <b>increment</b>’s restored,
+      and you’ll wait another round.`,
   })),
   img: ASSETS.caves,
 }];

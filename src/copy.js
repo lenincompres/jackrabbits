@@ -23,12 +23,12 @@ Copy.add({
   },
   more: {
     es: "Tienda</br><small>y más</small>",
-    en: "Store <small>&</small>more",
+    en: "Store <small>&</small> more",
   },
   subscribe: {
-    es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')"><b>Listado de Correos</b></a> 
+    es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')">listado de correos</a> 
 y apoya la campaña que tendremos.`,
-    en: `Join the <a class="pop" onclick="popUp('mailingList')"><b>List</b></a> on this domain—
+    en: `<a class="pop" onclick="popUp('mailingList')">Join the list</a> on this domain—
     stay in touch for our campaign.`,
   },
   buy: {

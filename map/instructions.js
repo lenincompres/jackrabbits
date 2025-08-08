@@ -10,7 +10,7 @@ DOM.set({
     src: 'url("../assets/Chalkboard.ttc")'
   }],
   meta: "utf-8",
-  title: "Lenino's Jack Rabbits - Instructions",
+  title: "Lenino’s Jack Rabbits - Instructions",
   viewport: "width=device-width, minimum-scale=1.0, maximum-scale=1.0",
   icon: "images/icon.png",
   padding: "10px",

@@ -21,10 +21,10 @@ const optionalSections = [
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
       which are marked in this reboot:
-      Hearts are used to judge the access;
-      Diamonds buy you any loot; 
-      Clubs will get you flying passes—
-      shortfall's paid in any suit.`,
+      hearts are used to judge the access;
+      diamonds buy you any loot; 
+      clubs will get you flying passes—
+      shortfall’s paid in any suit.`,
     })),
   }, {
     h5: Copy.text({
@@ -43,10 +43,10 @@ const optionalSections = [
       en: `Have as many suits as players,
       and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—
       meaning that with three contenders, 
-      you'll remove a set and suit.
+      you’ll remove a set and suit.
       Pick a fitting kind of ending—
       one that cards allow you to.
-      Having Spades is recommended 
+      Having spades is recommended 
       on a tribal game pursuit.`,
     })),
     /*},{
@@ -80,9 +80,9 @@ const optionalSections = [
         que cuentan por un <b>1</b> o por un <b>11</b>,
         ya sea en el momento en que los gastes
         o incluso en el momento que los compres.`,
-      en: `Choose to use it as eleven
-      any time you play an ace—
-      or a one when it deserves it: 
+      en: `Choose to use it as <b>11</b>
+      any time you play an <b>A</b>ce,
+      or a <b>1</b> when it deserves it—
       lottery or marketplace`,
     })),
   }, {
@@ -95,9 +95,9 @@ const optionalSections = [
         descártalo y consérvalo en tu frente;
         pues éste se valora por un <b>11</b>
         y solo por un <b>1</b> tus siguientes.`,
-      en: `Your first Ace is worth <b>11</b>,
+      en: `Your first <b>A</b>ce is worth <b>11</b>,
         and the rest you spend are <b>1</b>s.
-        As a record that it's spent then, 
+        As a record that it’s spent then, 
         keep it in front of your hands.`,
     })),
   }, {
@@ -122,7 +122,7 @@ const optionalSections = [
     en: "Strategies",
   }),
   section: [{
-    h5: Copy.text({
+    h5_hearts: Copy.text({
       es: "Vuelos Residenciales",
       en: "Residential flights",
     }),
@@ -133,11 +133,11 @@ const optionalSections = [
         excepto por supuesto en el subsuelo.`,
       en: `When you fly from any tower, 
         find more places to touch down:
-        you may reach with the Clubs' power
+        you may reach with the clubs’ power
         any hex above the ground.`,
     })),
   }, {
-    h5: Copy.text({
+    h5_clubs: Copy.text({
       es: "Palacios Provisionales",
       en: "Provisional Palaces",
     }),
@@ -162,9 +162,9 @@ const optionalSections = [
         pues puedes, en el turno que visitas,
         salirte sin parar a descansar.`,
       en: `You may visit and go on
-        if your carrot's on a hex—
-        needn't wait to move along
-        to the place you're headed next.`,
+        if your carrot’s on a hex—
+        needn’t wait to move along
+        to the place you’re headed next.`,
     })),
   }]
 }, {
