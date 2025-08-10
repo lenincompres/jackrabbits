@@ -26,7 +26,7 @@ const priceSection = {
     en: [
       `Transfers marked along the way
       charge the total on the dice. 
-      If you were to overpay, 
+      But in case you overpay, 
       then consider it the price.
       You may add a card to pay
       if its symbol qualifies.`,

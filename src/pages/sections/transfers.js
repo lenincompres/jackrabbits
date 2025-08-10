@@ -101,8 +101,8 @@ const transferSections = [{
       use this trick to hop around. 
       Or you may prefer to save
       while you visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>,
-      where you’ll wait to earn a waive 
-      and hop out the coming round.`,
+      Wait in there to earn a waive—
+      hop on out the coming round.`,
   }), {
     tag: "a",
     name: "intro/off",
