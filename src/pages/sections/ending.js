@@ -41,10 +41,10 @@ const endingSection = {
       ],
       en: [
         `<b>simple</b>: get any three royal cards.`,
-        `<b>diverse</b>: get any three royals, each from a different suit.`,
+        `<b>diverse</b>: get any three royals cards, each from a different suit.`,
         `<b>monarchic</b>: get a <b>K + Q + J</b>, from any suits.`,
         `<b>diverse + monarchic</b>: get a <b>K + Q + J</b>, each from a different suit.`,
-        `<b>tribal</b>: get three royals of the same suit.`,
+        `<b>tribal</b>: get the three of the same suit.`,
       ]
     }),
   }

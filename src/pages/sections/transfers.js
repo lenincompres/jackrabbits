@@ -17,7 +17,7 @@ const transferSections = [{
     even through an underpass
     (see the mountains farther down).
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
-    paid in suits marked on the ground—
+    paid in suits upon the ground—
     use the total on your dice
     as the minimum amount.`,
   }), {
