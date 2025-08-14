@@ -80,7 +80,7 @@ const setupPage = {
           a cada concursante, individuales.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
-          en: `Every player draws three cards 
+          en: `Every player gets three cards 
           as their <i>hand</i> to start the chase:
           the resources each regards 
           for <b>the journey</b> they will face,

@@ -93,7 +93,7 @@ const turnSections = [{
       place a carrot as your mark,
       and remove it from pursuit.`,
       `You may always be a guest—
-      make no claim but stop to rest.`,
+      make no claim and stop to rest.`,
       `Keep the royals in your hands—
       get <b>the increment</b> at once.`,
     ]

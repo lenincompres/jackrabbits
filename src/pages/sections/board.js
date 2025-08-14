@@ -31,9 +31,9 @@ const boardSection = {
       Leave aside the <i>underground</i>. 
       Pile and shuffle all the rest,
       even smaller ones, face down.`,
-      `Deal by tile shape, equal shares—
+      `Draw by tile shape, equal shares—
       there are twelve of every kind—
-      as you hand each player theirs,
+      as the players gather theirs,
       the division will be fine.`,
       `You may choose a placement style,
       either strict or free in pace.
