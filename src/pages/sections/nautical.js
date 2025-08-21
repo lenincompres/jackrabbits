@@ -30,10 +30,10 @@ const nauticalSections = [{
       is placed where the seas begin.
       It serves as a landing ground
       where boats are welcomed within.
-      If you discard shells around,
-      you'll double the cards you bin. 
+      Toss shell cards when you're around—
+      the pile doubles what you bin. 
       One trade per turn is allowed—
-      the pile provides what you win.`,
+      you must keep the cards you win.`,
     })),
   }, {
     h4: Copy.text({
@@ -183,7 +183,7 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: /*`Con doce de tus témpanos (o más)
       que muestres de cualquiera de las fichas,*/
-      `Aíslas o conectas el glaciar,
+      `Aíslas o conectas su glaciar,
       la torre hexagonal resbaladiza,
       si muestras, en cualquier localidad,
       un témpano al momento en el que tiras.
@@ -193,13 +193,13 @@ const nauticalSections = [{
       si no, lo desconectas de la orilla.`,
       en: /*`Count the icicles you hoard,
       show a sum of twelve at least,*/
-      `Bring their king's tower to shore—
-      even when not on this piece—
-      if you show one card before,
-      and your roll is not amiss.
-      Link it to a road tile's port;
-      but if short, drift it at sea.
-      Yet, remember when you're short,
+      `Move their tower by the shore
+      when you roll from any piece,
+      if you show one card before
+      which is equal or exceeds:
+      link it to a road tile's port—
+      otherwise, cast it at sea.
+      If your card has fallen short,
       ice may pay the shortfall fees.`,
     })),
   }, {
@@ -217,9 +217,9 @@ const nauticalSections = [{
       terminan con su turno en el destierro,
       o esperan a que se haya trasladado.`,*/
       en: `Pay from anywhere you please,
-      choose the hex the storm affects,
-      place on it the token piece
-      freezing those within the hex.
+      and you may select a hex.
+      Place the token on the piece,
+      where it freezes all its guests.
       Any visitor who flees
       goes off-board from its effects.`,/*
       Only normal hexes freeze—
