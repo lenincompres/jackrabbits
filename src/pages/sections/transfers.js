@@ -59,12 +59,12 @@ const transferSections = [{
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
     en: `Outposts where the road is forked
-      have a horse or boat to ride:
+      have a horse and boat to ride:
       reach a hex across the board,
       dashing over tiles in stride;
       or select a road to port,
       gliding on the seas outside.
-      You’ll proceed to your next post
+      Choose the ride to your next post
       once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>—
       Landlocked merchants won’t have boats
       since they’re not by the seaside.`,
