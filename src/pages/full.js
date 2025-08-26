@@ -18,6 +18,18 @@ const fullPage = {
       })),
     },
     section: strategySections.sort(() => Math.random() - 0.5),
+    footer: {
+      p: versify(Copy.text({
+        es: `Si sales en tu turno del tablero,
+        terminas sin tomar el <b>incremento</b>.
+        Si empiezas con el turno en el destierro,
+        tu fin de <b>travesía</b> es el subsuelo.`,
+        en: `If your turn ends off the board,
+        get no <b>increment</b> this round.
+        When turn begins off-board,
+        end your <b>journey</b> underground.`
+      })),
+    },
   }, {
     header: {
       h3: Copy.text({
