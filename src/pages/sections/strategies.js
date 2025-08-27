@@ -24,10 +24,10 @@ const strategySections = [{
       Igual el pasaporte lo recoges
       y el premio si un acierto se confirma.
       Si pagas el <i>restante</i> que le sobre,
-      consigues completar la travesía;
-      se cubre el resultado que te cobren
+      consigues completar la travesía,
+      cubriendo el resultado que te cobren
       con palos de la torre de partida.
-      Si se halla en la de trébol tu transporte,
+      Si partes de los tréboles entonces,
       la carta pasaporte es permitida.`
     ],
     en: [
