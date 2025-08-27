@@ -11,7 +11,7 @@ const transferSections = [{
       En cambio, si utilizas los traslados,
       marcados a mitad de los polígonos,
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
-      y pagas con las cartas de los símbolos.`,
+      y pagas con las cartas de sus símbolos.`,
     en: `Venture all along a path
     to move freely on your round—
     even through an underpass
@@ -32,7 +32,7 @@ const transferSections = [{
       que ves en las imágenes de abajo,
       permiten que te cambies de camino
       cruzando por el centro en un atajo.
-      <a class="pop" onclick="popUp('price')">Si pagas</a> con cualquiera de sus símbolos,
+      <a class="pop" onclick="popUp('price')">Si pagas</a> con cualquiera de los símbolos,
       te cambias del camino que te trajo.`,
     en: `Mountains, rivers and the woods
       have two roads not far apart. 
