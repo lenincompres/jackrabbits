@@ -11,7 +11,7 @@ const strategySections = [{
   img: ASSETS.clubs,
   h4_clubs: Copy.text({
     es: "Volar entre dos torres K",
-    en: "Fly among King Towers",
+    en: "Fly among <big>K</big>ing Towers",
   }),
   p: versify(Copy.text({
     es: [
@@ -104,8 +104,8 @@ const strategySections = [{
   }),
   img: ASSETS.hearts,
   h4_hearts: Copy.text({
-    es: "Juzgar en los palacios Q",
-    en: "Judge at Queen Palaces",
+    es: "Accesar a los palacios Q",
+    en: "Access the <big>Q</big>ueen Palaces",
   }),
   p: versify(Copy.text({
     es: [
@@ -152,7 +152,7 @@ const strategySections = [{
   img: ASSETS.diamonds,
   h4_diamonds: Copy.text({
     es: "Comerciar en las plazas J",
-    en: "Trade at Jack Plazas",
+    en: "Trade at <big>J</big>ack Plazas",
   }),
   p: versify(Copy.text({
     es: `Los centros con los símbolos marcados
