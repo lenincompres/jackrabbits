@@ -41,7 +41,7 @@ const strategySections = [{
       play <b>the lottery</b> likewise.`,
       `Land your flight and don’t fall off
       if you pay to reach the dice. 
-      Count how far your points are off—
+      Count how far your card is off—
       pay this shortfall to suffice.
       See the place where you took off—
       just the suit from there applies.
