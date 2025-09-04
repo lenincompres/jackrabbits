@@ -29,9 +29,9 @@ const boardSection = {
     en: [
       `Place the <i>Citadel</i> hex first. 
       Leave aside the <i>underground</i>. 
-      Pile and shuffle all the rest,
-      even smaller ones, face down.`,
-      `Draw by tile shape, equal shares—
+      Shuffle all the tiles that rest—
+      all three shapes are facing down.`,
+      `Draw by shape in equal shares—
       there are twelve of every kind—
       as the players gather theirs,
       the division will be fine.`,
@@ -72,13 +72,13 @@ const boardSection = {
       y observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`,
     en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
-      don’t connect roads from two hexes.<sup class="warning">x</sup>
+      don’t connect the roads from hexes.<sup class="warning">x</sup>
       Place triangles scattered broad,
       so they don’t end up connected.<sup class="warning">!</sup>
-      Add some islands to the board—
-      start with hexes disconnected.
-      Keep the underground abroad—
-      do not bother to connect it.`,
+      Hexes may be placed abroad, 
+      starting islands disconnected.
+      But the underground is odd—
+      only rabbit holes connect it.`,
   })),
 };
 

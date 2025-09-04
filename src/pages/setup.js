@@ -61,11 +61,11 @@ const setupPage = {
           y doce que contienen personajes.`,
           en: `Lay the <i>court</i> in any order
           after placing every tile—
-          every <i>royal card</i> and <i>joker</i>
+          all the <i>royals</i> and the <i>jokers</i>
           to display a face-up aisle.
           Give a shuffle as in poker 
-          for the face down drawing <i>pile</i>—
-          with the rest that have a number
+          for the face-down drawing <i>pile</i>—
+          the remaining <i>pips</i> in number,
           and the <i>aces</i> of each style.`,
         }),
         ASSETS.cards,
