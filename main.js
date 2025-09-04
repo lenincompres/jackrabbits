@@ -85,30 +85,23 @@ DOM.set({
   },
   footer: {
     p: versify(Copy.at.subscribe),
-    menu_bulletMenu: {
-      lineHeight: "2.25em",
-      content: DOM.linkMenu({
-        text: Copy.at.buy,
-        class: ["button", "buy"],
-        marginTop: "-1em",
-        href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
-        target: "_blank",
-      }, {
-        text: "Instagram",
-        href: "http://instagram.com/lenino.jackrabbits",
-        target: "_blank",
-      }, {
-        text: Copy.at.virtual,
-        href: "https://tabletopia.com/games/jack-rabbits",
-        target: "_blank",
-      }, {
-        text: Copy.at.novel,
-        class: "button",
-        marginTop: "-1em",
-        href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
-        target: "_blank",
-      }),
-    },
+    menu_bulletMenu: DOM.linkMenu({
+      class: ["button", "buy"],
+      marginTop: "-1em",
+      href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
+      target: "_blank",
+      text: Copy.at.buy,
+    }, {
+      href: "http://instagram.com/lenino.jackrabbits",
+      target: "_blank",
+      text: "Instagram",
+    }, {
+      class: "button",
+      marginTop: "-1em",
+      href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
+      target: "_blank",
+      text: Copy.at.novel,
+    }),
     section: {
       marginTop: "1em",
       markdown: Copy.text({

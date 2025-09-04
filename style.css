@@ -242,19 +242,19 @@ b {
   font-size: 0.86em;
 }
 
-.clubs{
+.clubs {
   color: teal;
 }
 
-.hearts{
+.hearts {
   color: brown;
 }
 
-.spades{
+.spades {
   color: darkslateblue;
 }
 
-.diamonds{
+.diamonds {
   color: darkgoldenrod;
 }
 
@@ -591,6 +591,10 @@ ul.exception>li:first-child:before {
 body>footer {
   padding: 1rem 1rem 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+.bulletMenu {
+  line-height: 2.25em;
 }
 
 .bulletMenu>ul {
