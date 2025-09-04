@@ -26,12 +26,10 @@ const setupPage = {
           or revisit one explored.`,
           `Link the houses in this spread—
           royal tiles from every throne. 
-          Try the model right ahead:
-          <a class="pop" onclick="popUp('sample')"><b>build the sample</b></a> as it's shown.
-          Or play normally instead:
-          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own.`, ],
+          Build <a class="pop" onclick="popUp('sample')"><b>the sample</b></a> right ahead,
+          or a <a class="pop" onclick="popUp('board')"><b>new board</b></a> of your own.`, ],
         }),
-        ASSETS.thumbnailOf("sampleThumbnail", Copy.lang === Copy.LANG.es.code ? '7em' : '5em', e => popUp("sample")),
+        ASSETS.thumbnailOf("sampleThumbnail", '8em', e => popUp("sample")),
         Copy.text({
           es: [
           `Limítate al ensamble de las tierras
