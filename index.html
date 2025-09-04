@@ -1,19 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="lib/DOM.js"></script>
-    <script src="main.js" type="module" defer></script>
-    <script src="./lib/DOM.js"></script>
-    <script src="main.js" type="module" defer></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q10N5CZLT2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-Q10N5CZLT2');
-    </script>
-  </head>
-  <body>
-  </body>
+
+<head>
+  <!-- Charset & Viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title & Description -->
+  <title>Jack Rabbit – A Fast-Paced Card Game of Strategy & Fun</title>
+  <meta name="description"
+    content="Discover Jack Rabbits, a thrilling board game of speed, wit, and strategy. Learn the rules, play online, or get your copy today!">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://jackrabbit.lenino.net/">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+
+  <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+  <meta property="og:title" content="Jack Rabbits – The board game for playing cards on a land of wooden shards">
+  <meta property="og:description"
+    content="A thrilling board game of speed, wit, and strategy. Learn the rules, play online, or get your copy today!">
+  <meta property="og:image" content="https://jackrabbits.lenino.net/images/jackrabbits.png">
+  <meta property="og:url" content="https://jackrabbits.lenino.net/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jack Rabbits – The board game for playing cards on a land of wooden shards">
+  <meta name="twitter:description" content="Jump into the action! Learn, play, and master Jack Rabbits.">
+  <meta name="twitter:image" content="https://jackrabbits.lenino.net/images/jackrabbits.png">
+
+  <!-- Structured Data (Schema.org JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Jack Rabbit Card Game",
+      "image": "https://jackrabbits.lenino.net/images/jackrabbits.png",
+      "description": "The board game for playing cards on a land of wooden shards.",
+      "brand": "Jack Rabbit",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://jackrabbits.lenino.net/",
+        "priceCurrency": "USD",
+        "price": "19.99",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  </script>
+
+  <!-- Framework and resouces -->
+  <script src="lib/DOM.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q10N5CZLT2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-Q10N5CZLT2');
+  </script>
+
+</head>
+
+<body>
+  <script src="main.js" type="module" defer></script>
+</body>
+
 </html>

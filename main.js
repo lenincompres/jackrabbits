@@ -21,18 +21,9 @@ Pager.add({
   expansion: expansionPage,
 });
 
-const cardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
+const CardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
 
 DOM.set({
-  title: "Lenino’s Jack Rabbits - " + Copy.at.header,
-  description: "Lenino’s Jack Rabbits: The board game for playing cards on a land of wooden shards.",
-  keywords: "lenino, jack rabbits, board game, boardgame, alice in wonderlan, card game, playing cards",
-  author: "Lenin Compres",
-  image: {
-    src: ASSETS.jackRabbits.src,
-    alt: "Jack Rabbits' logo",
-  },
-  icon: "./images/icon.png",
   link: "style.css",
   header: {
     h1: {
@@ -127,7 +118,7 @@ DOM.set({
     },
     onready: () => popUp('mailingList'),
   },
-  aside: Array(cardNum).fill().map(() => new CardFloating({
+  aside: Array(CardNum).fill().map(() => new CardFloating({
     root: 'suityourself/',
   })),
 });
