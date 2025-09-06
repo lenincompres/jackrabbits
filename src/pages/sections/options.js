@@ -21,7 +21,7 @@ const optionalSections = [
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
       which are marked in this reboot:
-      hearts are used to judge the access;
+      hearts are used to gain the access;
       diamonds buy you any loot; 
       clubs will get you flying passes—
       shortfall’s paid in any suit.`,
@@ -148,7 +148,7 @@ const optionalSections = [
         que juzgan a cualquiera al visitarte.`,
       en: `Keep displayed as you take rest: 
       more than five hearts in your count;
-      you will judge incoming guests—
+      question all incoming guests—
       just don’t do this underground.`,
     })),
   }, {
