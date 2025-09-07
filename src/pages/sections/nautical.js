@@ -29,11 +29,11 @@ const nauticalSections = [{
       en: `Its triangle underground
       will be set when games begin.
       It provides a landing ground
-      where the boats way reach within.
+      where the boats may reach within.
       You may draw when you're around—
       twice as many cards you bin. 
       Just a trade per turn's allowed—
-      you must keep the cards you win.`,
+      don't re-trade the cards you win.`,
     })),
   }, {
     h4: Copy.text({
@@ -52,7 +52,7 @@ const nauticalSections = [{
         Wash ashore its tower's port,
         where you're rescued for that fee.
         This location host a boat—
-        guests may sail from there for free. `,
+        guests may ride from there for free. `,
     })),
   }]
 }, {
@@ -68,7 +68,7 @@ const nauticalSections = [{
   section: [{
     h4: Copy.text({
       es: "Lastrar a la Nobleza",
-      en: "Weigh the Nobles Down",
+      en: "Weigh Nobles Down",
     }),
     p: versify(Copy.text({
       es: `Es válido, con <strong>una</strong> de tus anclas,
@@ -82,7 +82,7 @@ const nauticalSections = [{
       find its card in the court's aisle,
       place an anchor underneath:
       add its value for the while,
-      an discard it once they leave.`,
+      and discard it once they leave.`,
     })),
   }, {
     h4: Copy.text({
@@ -160,8 +160,8 @@ const nauticalSections = [{
       where the cave demands a fee
       to escape that lonesome tile.
       No one's safe from your decree—
-      just off-board they'll skip the trial.
-      Underground, this cave is free—
+      those off-board may face your trial.
+      Underground, the cave is free—
       added there to reach this isle.`,
     })),
   }]
@@ -195,12 +195,12 @@ const nauticalSections = [{
       show a sum of twelve at least,*/
       `Move its tower by the shore
       when you roll from any piece,
-      if you show one card before
-      which is equal or exceeds:
+      if you show one card before,
+      and it's equal or exceeds:
       link it to a road tile's port—
       otherwise, cast it at sea.
       If your card has fallen short,
-      ice may pay the shortfall fees.`,
+      ice may pay the shortfall fee.`,
     })),
   }, {
     h4: Copy.text({

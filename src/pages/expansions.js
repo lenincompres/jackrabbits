@@ -21,7 +21,7 @@ const expansionPage = {
     section: frontierSections.sort(() => Math.random() - 0.5),
     footer: {
       p: versify(Copy.text({
-        en: `Their hexes have sea-blue sides—
+        en: `Note the hexes' sea-blue sides—
           leave them open to the tides.
           The circles with suits inside
           let you transfer from outside.`,
@@ -47,8 +47,8 @@ const expansionPage = {
     section: nauticalSections.sort(() => Math.random() - 0.5),
     footer: {
       p: versify(Copy.text({
-        en: `Their hexes have sea-blue sides—
-          leave them open to the tides. 
+        en: `Note the hexes' sea-blue sides—
+          leave them open to the tides.
           The circles with suits inside
           let you transfer from outside.`,
         es: `Los bordes en azul de sus hexágonos,

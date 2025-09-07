@@ -149,7 +149,7 @@ const neoclassicSections = [{
       plus two rabbits with new styles;
       and a new joker's profile—
       add its card to the court's isle.`,
-      `Their hexes have sea-blue sides—
+      `Note the hexes' sea-blue sides—
       leave them open to the tides.`
       ],
     })),

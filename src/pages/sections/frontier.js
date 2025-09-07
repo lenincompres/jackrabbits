@@ -77,12 +77,12 @@ const frontierSections = [{
       si evitan la invasión, los recuperas.
       Prohibido en el subsuelo en absoluto.
       Tan solo es invadiendo que se ingresa.`,
-      en: `Show your shields—with ten or less—
+      en: `Show your shields—ten pips or less—
       seal the hex where you will stand.
       Only those incoming guests 
-      who discard a higher band,
+      who discard a higher band
       have your shields discarded next—
-      not return them to your hand.
+      so you lose them from your hand.
       No one else reaches the hex.
       Underground, this seal is banned.`,
     })),
@@ -184,7 +184,7 @@ const frontierSections = [{
       and the sum this pile will weigh
       hikes the price when dice are rolled.
       Please discard them right away
-      if they sum thirteen to load.`,
+      when thirteen are on the load.`,
     })),
   }, {
     h4: Copy.text({
@@ -200,12 +200,12 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-      en: `Pay wherever you may roam,
+      en: `Pay wherever you may roam
       to select where it is moved—
       choose a proper kind of zone:
       river, mountain, or the woods.
       Send off-board all those who come,
-      less they pay it as they should.
+      lest they pay it as they should.
       If you bring it where you're on,
       leave the board or cut right through.`,
     })),
