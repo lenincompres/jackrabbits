@@ -27,12 +27,12 @@ const nauticalSections = [{
       Por turnos, un canjeo se te otorga;
       limítate a las cartas que recibas.`,
       en: `Its triangle underground
-      is placed where the seas begin.
-      It serves as a landing ground
-      where boats are welcomed within.
-      Toss shell cards when you're around—
-      the pile doubles what you bin. 
-      One trade per turn is allowed—
+      will be set when games begin.
+      It provides a landing ground
+      where the boats way reach within.
+      You may draw when you're around—
+      twice as many cards you bin. 
+      Just a trade per turn's allowed—
       you must keep the cards you win.`,
     })),
   }, {
@@ -47,12 +47,12 @@ const nauticalSections = [{
         su torre que se encuentra en altamar.
         La góndola gratuita de su puerto
         te brinda la salida del lugar.`,
-      en: `Do not end your turn off-board
+      en: `You won't end your turn off-board
         if you pay with shells at sea.
         Wash ashore its tower's port,
         where you're rescued for that fee.
-        When you're ready to move forth,
-        you may sail its boat for free. `,
+        This location host a boat—
+        guests may sail from there for free. `,
     })),
   }]
 }, {
@@ -77,12 +77,12 @@ const nauticalSections = [{
       la sumas al valor con que se adquiera.
       La carta que pusiste se descarta
       si pagan por el noble de la pieza.`,
-      en: `When you're on a royal’s tile,
+      en: `When you visit a hex tile,
       make its claim hard to achieve, 
       find its card in the court's aisle,
-      and with one card underneath,
-      add its value for the while—
-      it's discarded once they leave.`,
+      place an anchor underneath:
+      add its value for the while,
+      an discard it once they leave.`,
     })),
   }, {
     h4: Copy.text({
@@ -104,7 +104,7 @@ const nauticalSections = [{
       you will summon it by sea;
       but you'll sail it to its hex—
       you must choose one of the three.
-      Check the anchor tower’s specs—
+      Note the anchor tower’s specs—
       trade the suits that you decree.`,
     })),
   }]
@@ -156,11 +156,11 @@ const nauticalSections = [{
       La otra que es gratuita es la de entrada,
       que empieza conectada en el subsuelo.`,
       en: `Pay wherever you may be,
-      and send anyone exiled.
+      and have anyone exiled—
+      where the cave demands a fee
+      to escape that lonesome tile.
       No one's safe from your decree—
       just off-board they'll skip the trial.
-      The cave there charges a fee
-      to escape that lonesome tile.
       Underground, this cave is free—
       added there to reach this isle.`,
     })),
@@ -193,7 +193,7 @@ const nauticalSections = [{
       si no, lo desconectas de la orilla.`,
       en: /*`Count the icicles you hoard,
       show a sum of twelve at least,*/
-      `Move their tower by the shore
+      `Move its tower by the shore
       when you roll from any piece,
       if you show one card before
       which is equal or exceeds:

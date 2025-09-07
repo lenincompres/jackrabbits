@@ -21,9 +21,9 @@ const optionalSections = [
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
       which are marked in this reboot:
-      hearts are used to gain the access;
+      hearts are questioned for the access;
       diamonds buy you any loot; 
-      clubs will get you flying passes—
+      clubs unlock the flying passes—
       shortfall’s paid in any suit.`,
     })),
   }, {
@@ -91,7 +91,7 @@ const optionalSections = [
       en: "Capital Aces",
     }),
     p: versify(Copy.text({
-      es: `El As que de primero desembolses,
+      es: `El as que de primero desembolses,
         descártalo y consérvalo en tu frente;
         pues éste se valora por un <b>11</b>
         y solo por un <b>1</b> tus siguientes.`,
@@ -122,7 +122,7 @@ const optionalSections = [
     en: "Strategies",
   }),
   section: [{
-    h5_hearts: Copy.text({
+    h5_clubs: Copy.text({
       es: "Vuelos Residenciales",
       en: "Residential flights",
     }),
@@ -137,7 +137,7 @@ const optionalSections = [
         any hex above the ground.`,
     })),
   }, {
-    h5_clubs: Copy.text({
+    h5_hearts: Copy.text({
       es: "Palacios Provisionales",
       en: "Provisional Palaces",
     }),
@@ -146,8 +146,8 @@ const optionalSections = [
         si exhibes corazones al pararte:
         tu mínimo de seis reglamentarios
         que juzgan a cualquiera al visitarte.`,
-      en: `Keep displayed as you take rest: 
-      more than five hearts in your count;
+      en: `Show your hearts while taking rest—
+      six or more within your count;
       question all incoming guests—
       just don’t do this underground.`,
     })),
@@ -161,10 +161,10 @@ const optionalSections = [
         si está tu zanahoria en un lugar;
         pues puedes, en el turno que visitas,
         salirte sin parar a descansar.`,
-      en: `You may visit and go on
-        if your carrot’s on a hex—
-        needn’t wait to move along
-        to the place you’re headed next.`,
+      en: `If your carrot’s on a hex,
+        you may visit and move on;
+        to the place you’re headed next—
+        needn’t wait to move along.`,
     })),
   }]
 }, {
@@ -182,7 +182,7 @@ const optionalSections = [
         por múltiples aciertos y regalos,
         ya sea con las cartas que validas
         o incluso con un doble de los dados.`,
-      en: `You may win more than one prize,
+      en: `Win a bundle as your prize,
         give the lottery no limits—
         whether cards that match the dice,
         or a roll of double digits.`,
@@ -206,7 +206,7 @@ const optionalSections = [
     p: versify(Copy.text({
       es: `Si ocultas un exceso en lo que tomas,
         quienquiera que lo note te lo roba.`,
-      en: `If you hoard cards and are found,
+      en: `If withholding cards you’re found,
         your revealer robs you down.`,
     })),
   }, {
@@ -215,7 +215,7 @@ const optionalSections = [
       en: "Patriarchal values",
     }),
     p: versify(Copy.text({
-      es: `Valoras a los <b>A</b>ses por <b>14</b>;
+      es: `Valoras a los ases por <b>14</b>;
         los reyes, es por <b>13</b> que valoras;
         las reinas, subvalóralas por <b>12</b>;
         y es <b>11</b> (menos precio) por las jotas.`,

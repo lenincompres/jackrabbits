@@ -23,12 +23,12 @@ const frontierSections = [{
       igual terminarás en el destierro;
       quienquiera que descanse en el lugar
       termina en las afueras del tablero.`,
-      en: `You may attack and defend,
-      using your torches like swords.
-      Yet steal or not, in the end,
-      the fight will hurl you off-board;
-      since everyone, there and then,
-      will be removed from the board.`,
+      en: `You may strike and may defend,
+      using torches just like swords.
+      Thieves and victims, in the end,
+      eitherway are hurled off-board;
+      since all players, there and then,
+      are ejected from the board.`,
     })),
   }, {
     h4: Copy.text({
@@ -45,8 +45,8 @@ const frontierSections = [{
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
       en: `Its triangle underground
-      adds two tricks by using fire:
-      you may leave in the same round, 
+      comes with two effects of fire:
+      leave this hex in the same round, 
       paying what the dice require.
       And when turns are off-board bound,
       if that’s not what you desire,
@@ -77,12 +77,12 @@ const frontierSections = [{
       si evitan la invasión, los recuperas.
       Prohibido en el subsuelo en absoluto.
       Tan solo es invadiendo que se ingresa.`,
-      en: `Display your shields—ten or less—
-      to seal the hex where you stand.
-      If any incoming guest 
-      discards more shields than your band, 
-      your shields are discarded next
-      and won't return to your hand.
+      en: `Show your shields—with ten or less—
+      seal the hex where you will stand.
+      Only those incoming guests 
+      who discard a higher band,
+      have your shields discarded next—
+      not return them to your hand.
       No one else reaches the hex.
       Underground, this seal is banned.`,
     })),
@@ -182,9 +182,9 @@ const frontierSections = [{
       en: `Leaving acorns on display
       adds them to the <i>overload</i>,
       and the sum this pile will weigh
-      adds its points to the dice rolled.
-      Please discard it right away
-      if there's thirteen on the load.`,
+      hikes the price when dice are rolled.
+      Please discard them right away
+      if they sum thirteen to load.`,
     })),
   }, {
     h4: Copy.text({
@@ -200,14 +200,14 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-      en: `The beast is placed on a zone—
+      en: `Pay wherever you may roam,
+      to select where it is moved—
+      choose a proper kind of zone:
       river, mountain, or the woods.
-      It sends off-board those who come,
-      unless they pay as they should.
-      You pay wherever you roam,
-      and choose where it will be moved—
-      if brought to the zone you're on,
-      you'll leave the board or cut through.`,
+      Send off-board all those who come,
+      less they pay it as they should.
+      If you bring it where you're on,
+      leave the board or cut right through.`,
     })),
   }]
 }, ];
