@@ -12,7 +12,7 @@ const expansionPage = {
         es: "Expansiones fronterizas",
       }),
       p: versify(Copy.text({
-        en: `Each suit comes with cards and tiles;
+        en: `Suits include their cards and tiles;
           plus a rodent with new styles.`,
         es: `Los palos con sus cartas de nobleza,
           te añaden un rodente con sus piezas.`,
@@ -21,9 +21,9 @@ const expansionPage = {
     section: frontierSections.sort(() => Math.random() - 0.5),
     footer: {
       p: versify(Copy.text({
-        en: `Note the hexes' sea-blue sides—
-          leave them open to the tides.
-          The circles with suits inside
+        en: `Tiles may have a sea-blue side—
+          leave it open to the tide.
+          Circles with a suit inside
           let you transfer from outside.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
@@ -38,7 +38,7 @@ const expansionPage = {
         es: "Expansiones navales",
       }),
       p: versify(Copy.text({
-        en: `Each suit comes with cards and tiles;
+        en: `Suits include their cards and tiles;
           plus a rodent with new styles.`,
         es: `Los palos con sus cartas de nobleza,
           te añaden un rodente con sus piezas.`,
@@ -47,9 +47,9 @@ const expansionPage = {
     section: nauticalSections.sort(() => Math.random() - 0.5),
     footer: {
       p: versify(Copy.text({
-        en: `Note the hexes' sea-blue sides—
-          leave them open to the tides.
-          The circles with suits inside
+        en: `Tiles may have a sea-blue side—
+          leave it open to the tide.
+          Circles with a suit inside
           let you transfer from outside.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
@@ -64,8 +64,8 @@ const expansionPage = {
         es: "Expansiones neoclásicas",
       }),
       p: versify(Copy.text({
-        en: `Read the first lines on these guides,
-          and find out what each provides.`,
+        en: `At the start of every guide,
+          you'll find out what they provide.`,
         es: `Los palos de la corte original
           se expanden con un vínculo especial.`,
       })),

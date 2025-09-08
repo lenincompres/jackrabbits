@@ -16,8 +16,8 @@ const neoclassicSections = [{
       y piezas que las unen por sus rieles.
       La ficha con el hongo y sus poderes,
       que añades a las reglas si lo quieres.`,
-      en: `Adds four royals and their tiles,
-      they have steeds and tracks for miles.
+      en: `Four more royals and their tiles—
+      these have steeds and tracks for miles.
       Plus a mushroom that's hostile—
       blocking cards that leave the pile.`,
     })),
@@ -35,7 +35,7 @@ const neoclassicSections = [{
       Procura que sus piezas se conecten,
       que no halles un carril desconectado.`,
       en: `Ride the trains without a cost—
-      there are no transfers allowed.
+      yet no transfers are allowed.
       Reach another hex train post—
       pass right through the underground.
       Tracks should not lead to the coast—
@@ -51,7 +51,7 @@ const neoclassicSections = [{
       si muestras un corcel que haz adquirido,
       trasládate de gratis cabalgando,
       tal como de los cruces del camino.`,
-      en: `On paths marked with a white steed,
+      en: `On the paths with a white steed,
       show a Cavalier at hand,
       and you’ll ride it as you need,
       reaching hexagons by land.`,
@@ -66,8 +66,8 @@ const neoclassicSections = [{
       igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la Ciudadela.`,
-      en: `Their royal cards get acquired,
-      like any royal you claim.
+      en: `Royal cards will get acquired,
+      just like any that you claim.
       To ride the steeds, they're required;
       but they will not end the game.`,
     })),
@@ -145,9 +145,9 @@ const neoclassicSections = [{
       `Los bordes en azul de los hexágonos,
       se deben mantener desconectados.`
       ],
-      en: [`Adds six royals and their tiles,
+      en: [`Six more royals and their tiles,
       plus two rabbits with new styles;
-      and a new joker's profile—
+      and the jokers' new profile—
       add its card to the court's isle.`,
       `Note the hexes' sea-blue sides—
       leave them open to the tides.`
@@ -228,7 +228,7 @@ const neoclassicSections = [{
       es: `Un palo que carece de reales;
     con piezas y un conejo adicionales.`,
       en: `There're no royals in this style;
-    just a rabbit and its tiles.`,
+    just a rabbit and more tiles.`,
     })),
   },
   section: [{
