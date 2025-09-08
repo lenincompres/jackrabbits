@@ -23,10 +23,10 @@ const frontierSections = [{
       igual terminarás en el destierro;
       quienquiera que descanse en el lugar
       termina en las afueras del tablero.`,
-      en: `You may strike and may defend,
+      en: `You may plunder and defend,
       using torches just like swords.
-      Thieves and victims, in the end,
-      eitherway are hurled off-board;
+      Still the winner, in the end, 
+      will be also hurled off-board;
       since all players, there and then,
       are ejected from the board.`,
     })),
@@ -45,8 +45,8 @@ const frontierSections = [{
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
       en: `Its triangle underground
-      comes with two effects of fire:
-      leave this hex in the same round, 
+      comes with two effects of fire.
+      Leave this hex in the same round, 
       paying what the dice require.
       And when turns are off-board bound,
       if that’s not what you desire,

@@ -63,12 +63,6 @@ const expansionPage = {
         en: "Neoclassic expansions",
         es: "Expansiones neoclásicas",
       }),
-      p: versify(Copy.text({
-        en: `At the start of every guide,
-          you'll find out what they provide.`,
-        es: `Los palos de la corte original
-          se expanden con un vínculo especial.`,
-      })),
     },
     section: classicSections.sort(() => Math.random() - 0.5),
   }],

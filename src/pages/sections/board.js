@@ -72,7 +72,7 @@ const boardSection = {
       y observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`,
     en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
-      don’t connect the roads from hexes.<sup class="warning">x</sup>
+      don’t connect two roads from hexes.<sup class="warning">x</sup>
       Place triangles scattered broad,
       so they don’t end up connected.<sup class="warning">!</sup>
       Hexes may be placed abroad, 

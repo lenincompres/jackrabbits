@@ -38,7 +38,7 @@ const nauticalSections = [{
   }, {
     h4: Copy.text({
       es: "Traslado desde el Mar",
-      en: "Trasfer via tides",
+      en: "Trasfer via rescue",
     }),
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
@@ -52,7 +52,7 @@ const nauticalSections = [{
         Wash ashore its tower's port,
         where you're rescued for that fee.
         This location host a boat—
-        guests may ride from there for free. `,
+        guests may leave from there for free. `,
     })),
   }]
 }, {
@@ -102,7 +102,7 @@ const nauticalSections = [{
       sail it anywhere for free. 
       If you pay at sea-bound treks,
       you will summon it by sea;
-      but you'll sail it to its hex—
+      sail it to and anchor hex—
       you must choose one of the three.
       Note the anchor tower’s specs—
       trade the suits that you decree.`,
@@ -155,14 +155,14 @@ const nauticalSections = [{
       que exige que se pague por su acceso.
       La otra que es gratuita es la de entrada,
       que empieza conectada en el subsuelo.`,
-      en: `Pay wherever you may be,
-      and have anyone exiled—
-      where the cave demands a fee
-      to escape that lonesome tile.
-      No one's safe from your decree—
-      those off-board may face your trial.
-      Underground, the cave is free—
-      added there to reach this isle.`,
+      en: `There’s a cave that has a fee 
+      to escape its lonesome tile.
+      Pay, wherever you may be, 
+      to have anyone exiled.
+      Even those off-board at sea 
+      may be sentenced to this isle.
+      Underground, this cave is free, 
+      and you're safe from facing trial.`,
     })),
   }]
 }, {
@@ -189,16 +189,16 @@ const nauticalSections = [{
       un témpano al momento en el que tiras.
       Si alcanzas a tus dados al lanzar
       o pagas lo <i>restante</i> de la cifra,
-      conéctalo a un camino por el mar;
-      si no, lo desconectas de la orilla.`,
+      conéctalo a un camino por el mar,
+      o elije despegarlo de la orilla.`,
       en: /*`Count the icicles you hoard,
       show a sum of twelve at least,*/
       `Move its tower by the shore
       when you roll from any piece,
       if you show one card before,
       and it's equal or exceeds:
-      link it to a road tile's port—
-      otherwise, cast it at sea.
+      link it to a road tile's port,
+      or maroon it at the sea.
       If your card has fallen short,
       ice may pay the shortfall fee.`,
     })),
@@ -218,7 +218,7 @@ const nauticalSections = [{
       o esperan a que se haya trasladado.`,*/
       en: `Pay from anywhere you please,
       and you may select a hex.
-      Place the token on the piece,
+      Place the token on that piece,
       where it freezes all its guests.
       Any visitor who flees
       goes off-board from its effects.`,/*

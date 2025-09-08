@@ -35,11 +35,11 @@ const neoclassicSections = [{
       Procura que sus piezas se conecten,
       que no halles un carril desconectado.`,
       en: `Ride the trains without a cost—
-      yet no transfers are allowed.
+      transfers here are not allowed.
       Reach another hex train post—
       pass right through the underground.
       Tracks should not lead to the coast—
-      close their links when they're set down.`,
+      close the links when they're set down.`,
     })),
   }, {
     h4: Copy.text({
@@ -51,7 +51,7 @@ const neoclassicSections = [{
       si muestras un corcel que haz adquirido,
       trasládate de gratis cabalgando,
       tal como de los cruces del camino.`,
-      en: `On the paths with a white steed,
+      en: `On the paths taht have a steed,
       show a Cavalier at hand,
       and you’ll ride it as you need,
       reaching hexagons by land.`,
@@ -66,10 +66,10 @@ const neoclassicSections = [{
       igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la Ciudadela.`,
-      en: `Royal cards will get acquired,
-      just like any that yous claim.
-      To ride the steeds, they're required;
-      but they will not end the game.`,
+      en: `To fullfil their royal's needs,
+      acquisition is the same.
+      They will grant you rides with steeds,
+      they're not fit to end the game.`,
     })),
   }, {
     h4: Copy.text({
@@ -120,12 +120,12 @@ const neoclassicSections = [{
       quienquiera que en su sitio se acomode. 
       Desígnale su punto de comienzo 
       si sales con el último en el orden. `,
-      en: `If you start with the last turn,
+      en: `If you start with the last turn, 
       choose its starting settlement.
-      Strip its visitors in turn—
+      Block what visitors may earn—
       lottery and increment.
-      Roll a double to discern
-      where the mushroom should be sent.`,
+      Any double rolled in turn 
+      grants a new re-settlement.`,
     })),
   }],
 }, {
@@ -149,8 +149,8 @@ const neoclassicSections = [{
       plus two rabbits with new styles;
       and the jokers' new profile—
       add its card to the court's isle.`,
-      `Note the hexes' sea-blue sides—
-      leave them open to the tides.`
+      `Tiles may have a sea-blue side—
+      leave it open to the tide.`
       ],
     })),
   },
