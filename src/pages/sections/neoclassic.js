@@ -67,7 +67,7 @@ const neoclassicSections = [{
       Las usas al viajar con los corceles,
       y nunca al reclamar la Ciudadela.`,
       en: `Royal cards will get acquired,
-      just like any that you claim.
+      just like any that yous claim.
       To ride the steeds, they're required;
       but they will not end the game.`,
     })),

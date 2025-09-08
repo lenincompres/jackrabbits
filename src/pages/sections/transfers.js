@@ -126,7 +126,7 @@ const transferSections = [{
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
       Once your <b>lottery</b>'s off-board,
-      take your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>—
+      end your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>—
       where your <b>increment</b>’s restored,
       and you’ll wait another round.`,
   })),
