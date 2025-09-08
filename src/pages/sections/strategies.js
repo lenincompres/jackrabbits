@@ -62,20 +62,24 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Ataca en un combate sin empates
+      `Asalta en un combate sin empates
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
       sumándose las picas descartadas,
       y cuando se terminen los avances,
       destierra a la persona derrotada.
       Si ganas el combate que empezaste,
-      también asaltarías a  sus cartas:
+      procedes al asalto de sus cartas:
       le robas la primera que tocases,
       a ciegas deberás seleccionarla.
       Te toca <b>el incremento</b> y que descanses,
       si robas y la carta es de monarca.
       Tendrías que elegir la que descartes
       si acaso la que robas es tu cuarta.`,
+      /*
+      Asalta en un combate sin empates, 
+      excepto en el subsuelo en tus andanzas.
+      */
     ],
     en: [
       `You may steal a card at random,
@@ -94,6 +98,12 @@ const strategySections = [{
       discard one if it’s your fourth—
       take <b>the increment</b>’s reward,
       matching carrots in accord.`,
+      /* 
+      Note that tying scores is barred; 
+      please discard the spades outpoured; 
+      underground will host no war; 
+      the defender steals no hoard.
+      */
     ]
   })),
 }, {

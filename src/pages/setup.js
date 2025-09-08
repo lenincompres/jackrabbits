@@ -62,9 +62,9 @@ const setupPage = {
           en: `Lay the <i>court</i> in any order
           after placing every tile—
           all the <i>royals</i> and the <i>jokers</i>
-          to display a face-up aisle.
+          to display a faceup aisle.
           Give a shuffle as in poker 
-          for the face-down drawing <i>pile</i>—
+          for the facedown drawing <i>pile</i>—
           the remaining <i>pips</i> in number,
           and the <i>aces</i> of each style.`,
         }),
