@@ -39,8 +39,8 @@ const fullPage = {
       p: versify(Copy.text({
         es: `Renueva tus partidas habituales
           jugando con las reglas opcionales</a>.`,
-        en: `Try these  additional options
-          once you have gone through the motions.`
+        en: `Try these optional additions,
+          once you finish many missions.`
       })),
     },
     section_optional: optionalSections,

@@ -61,7 +61,7 @@ const setupPage = {
           y doce que contienen personajes.`,
           en: `Lay the <i>court</i> in any order
           after placing every tile—
-          all the <i>royals</i> and the <i>jokers</i>
+          all the <i>royal</i> cards and <i>jokers</i>
           to display a faceup aisle.
           Give a shuffle as in poker 
           for the facedown drawing <i>pile</i>—
@@ -130,8 +130,8 @@ const setupPage = {
     p: versify(Copy.text({
       es: `Después de preparado el territorio,
         comienzas con un <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
-      en: `Follow on to the next frame, 
-        and complete an <a href="#intro"><b><big>intro game</big></b></a>.`,
+      en: `Follow here to find the frame
+        which explains the <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),
   },
 };

@@ -36,12 +36,12 @@ const strategySections = [{
       pick a tower as a goal
       for <b>the journey</b> through the skies.
       Or you’ll miss the board and fall—
-      keep the card shown anywise.
+      keep the card for future tries.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
       `Land your flight and don’t fall off
       if you pay to reach the dice. 
-      Count how far your card is off—
+      Count how far your card was off—
       pay this shortfall to suffice.
       See the place where you took off—
       just the suit from there applies.
@@ -84,7 +84,7 @@ const strategySections = [{
     en: [
       `You may steal a card at random,
       kicking someone else off-board,
-      if you meet to claim their item 
+      if you meet to seize their item 
       and attack them with a sword.
       You’ll go back and forth in tandem,
       adding spades to beat what’s scored—
@@ -144,12 +144,12 @@ const strategySections = [{
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `Yet those asking for your cards
-      must first show cards of their own—
+      must first show they hold their own—
       even resting far apart—
       prove they’re welcome in this zone.
       If you fail to show them hearts,
       off the board you’re swiftly thrown!
-      But succeed and they’re disbarred:
+      But succeed and they’ll depart:
       thrown off losing what they’d shown.`,
     ]
   })),
@@ -194,7 +194,7 @@ const strategySections = [{
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
     en: `If agreed when the game starts,
-    add <b class="diamonds">consensual trades <sup>+</sup></b> to boot:
+    add <b class="diamonds">consented trades <sup>+</sup></b> to boot:
     deal in turn with diamond cards—
     meet to trade or to dispute.
     Never show your hand’s rewards—

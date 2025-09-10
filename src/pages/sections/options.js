@@ -21,9 +21,9 @@ const optionalSections = [
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
       which are marked in this reboot:
-      hearts are questioned for the access;
-      diamonds buy you any loot; 
-      clubs unlock the flying passes—
+      question hearts to gain the access;
+      buy with diamonds any loot; 
+      show your clubs for flying passes—
       shortfall’s paid in any suit.`,
     })),
   }, {
@@ -43,7 +43,7 @@ const optionalSections = [
       en: `Have as many suits as players,
       and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—
       meaning that with three contenders, 
-      you’ll remove a set and suit.
+      you’ll remove one set and suit.
       Pick a fitting kind of ending—
       one that cards allow you to.
       Having spades is recommended 
@@ -80,10 +80,10 @@ const optionalSections = [
         que cuentan por un <b>1</b> o por un <b>11</b>,
         ya sea en el momento en que los gastes
         o incluso en el momento que los compres.`,
-      en: `Choose to use it as <b>11</b>
+      en: `Choose to use them as <b>11</b>,
       any time you play an <b>A</b>ce,
-      or a <b>1</b> when it deserves it—
-      lottery or marketplace`,
+      or a <b>1</b> when it's deserving—
+      lottery or marketplace.`,
     })),
   }, {
     h5: Copy.text({
@@ -149,7 +149,7 @@ const optionalSections = [
       en: `Show your hearts while taking rest—
       six or more within your count;
       question all incoming guests—
-      just don’t do this underground.`,
+      never do this underground.`,
     })),
   }, {
     h5: Copy.text({
@@ -185,7 +185,7 @@ const optionalSections = [
       en: `Win a bundle as your prize,
         give the lottery no limits—
         whether cards that match the dice,
-        or a roll of double digits.`,
+        or when rolling double digits.`,
     })),
   }, {
     h5: Copy.text({

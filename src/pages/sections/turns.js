@@ -22,7 +22,7 @@ const turnSections = [{
       los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
     ],
     en: [
-      `Start your turns rolling two dice,
+      `Start your turns by rolling dice,
       so that two results unfold.
       You may draw a one-card prize
       if you show a card you hold,
@@ -60,8 +60,8 @@ const turnSections = [{
       let your rabbit venture on.
       Cross small tiles but never hexes—
       reach the nearest hexagon.`,
-      `You may move towards your goal,
-      or perhaps not move at all.`,
+      `Move on closer to your goal,
+      or perhaps don't move at all.`,
       `For more transportation modes,
       see <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
     ]
@@ -89,7 +89,7 @@ const turnSections = [{
       `It’s your goal to claim the card
       of the hex where you set foot.
       Only there you may discard
-      ten or more points of its suit—
+      ten or more—in pips that suit—
       place a carrot as your mark,
       and remove it from pursuit.`,
       `You may always be a guest—
@@ -122,7 +122,7 @@ const turnSections = [{
       though you may end up ashore.** 
       Get a new card from the pile, 
       and your turn will be no more. 
-      If you need to first repile,
+      You may need to first repile:
       shuffle what was spent before.`,
       `*You may hold more than nine cards—
       anyone who’s caught discards.`,

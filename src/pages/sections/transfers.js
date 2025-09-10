@@ -19,7 +19,7 @@ const transferSections = [{
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits upon the ground—
     use the total on your dice
-    as the minimum amount.`,
+    as your minimum amount.`,
   }), {
     marginTop: '1.2rem',
     tag: "h4",

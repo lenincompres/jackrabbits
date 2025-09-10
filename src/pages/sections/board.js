@@ -34,7 +34,7 @@ const boardSection = {
       `Draw by shape in equal shares—
       there are twelve of every kind—
       as the players gather theirs,
-      the division will be fine.`,
+      the division comes out fine.`,
       `You may choose a placement style,
       either strict or free in pace.
       Strict: with turns to place a tile—
