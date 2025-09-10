@@ -2,11 +2,14 @@ import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
+const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
+const cMix = v => `color-mix(in srgb, var(--expansion) 90%, var(--${v}))`;
+
 const neoclassicSections = [{
+  backgroundColor: cMix("land"),
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#238b222a",
   header: {
-    h3: Copy.text({
+    h3_land: Copy.text({
       es: "Trenes y Corceles",
       en: "Trains & Steeds",
     }),
@@ -23,7 +26,7 @@ const neoclassicSections = [{
     })),
   },
   section: [{
-    h4: Copy.text({
+    h4_land: Copy.text({
       es: "Travesía en tren",
       en: "Journey by train",
     }),
@@ -42,7 +45,7 @@ const neoclassicSections = [{
       close the links when they're set down.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_land: Copy.text({
       es: "Traslado con los Corceles",
       en: "Transfer via Steeds",
     }),
@@ -57,7 +60,7 @@ const neoclassicSections = [{
       reaching hexagons by land.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_land: Copy.text({
       es: "Adquisición de Corceles",
       en: "Acquire the Cavaliers",
     }),
@@ -72,7 +75,7 @@ const neoclassicSections = [{
       but don't win with them the game.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_land: Copy.text({
       es: "+ Hongo Opcional",
       en: "+ Optional Mushroom",
     }),
@@ -129,10 +132,10 @@ const neoclassicSections = [{
     })),
   }],
 }, {
+  backgroundColor: cMix("sea"),
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#0169942a",
   header: {
-    h3: Copy.text({
+    h3_sea: Copy.text({
       es: "Alianzas Nobles",
       en: "Noble Alliances",
     }),
@@ -155,7 +158,7 @@ const neoclassicSections = [{
     })),
   },
   section: [{
-    h4: Copy.text({
+    h4_sea: Copy.text({
       es: "Alianzas Nobles",
       en: "Allied Noble Cards",
     }),
@@ -170,7 +173,7 @@ const neoclassicSections = [{
       split the cost in any parts.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_sea: Copy.text({
       es: "Traslados en los Hexágonos",
       en: "Transfers at Allied Hexes",
     }),
@@ -189,7 +192,7 @@ const neoclassicSections = [{
       payed with either tower’s suit.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_sea: Copy.text({
       es: "Comercio en Plazas Aliadas",
       en: "Trade at Allied Plazas",
     }),
@@ -204,7 +207,7 @@ const neoclassicSections = [{
       draw as many cards you lose.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_sea: Copy.text({
       es: "Comodín de cañones",
       en: "Cannonball Joker",
     }),
@@ -216,10 +219,10 @@ const neoclassicSections = [{
     })),
   }],
 }, {
+  backgroundColor: cMix("fleurs"),
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#9B49772a",
   header: {
-    h3: Copy.text({
+    h3_fleurs: Copy.text({
       es: "Flores",
       en: "Fleurs <small>(Flowers)</small>",
     }),
@@ -232,7 +235,7 @@ const neoclassicSections = [{
     })),
   },
   section: [{
-    h4: Copy.text({
+    h4_fleurs: Copy.text({
       es: "Substituye otros palos",
       en: "Substitute other suits",
     }),
@@ -247,7 +250,7 @@ const neoclassicSections = [{
       don't claim royals with these flowers.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_fleurs: Copy.text({
       es: "Traslado del lobo",
       en: "Transfer the wolf",
     }),
@@ -258,13 +261,13 @@ const neoclassicSections = [{
       y apúntale a la carta que descarte.`,
       en: `At its post or from its den,
       pay to send it to a rabbit.
-      Take your victim off-board then,
+      Take off-board your victim then,
       also steal a card—and scrap it.
-      It cannot swim for this end—
-      going underground's its habit.`,
+      Wolves may not swim this end—
+      going underground's their habit.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_fleurs: Copy.text({
       es: "Hexágonos silvestres",
       en: "Wilderness Hexes",
     }),

@@ -2,20 +2,23 @@ import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
+const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
+const cMix = v => `color-mix(in srgb, var(--expansion) 90%, var(--${v}))`;
+
 const nauticalSections = [{
+  backgroundColor: cMix("shells"),
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#d834762a",
   header: {
-    h3: Copy.text({
+    h3_shells: Copy.text({
       es: "Conchas",
       en: "Shells",
     }),
     img: ASSETS.shells,
   },
   section: [{
-    h4: Copy.text({
+    h4_shells: Copy.text({
       es: "Echar cartas al mar",
-      en: "Toss cards at sea",
+      en: "Toss shells undeground",
     }),
     p: versify(Copy.text({
       es: `Su triángulo de negro (el de la costa)
@@ -36,7 +39,7 @@ const nauticalSections = [{
       so you keep the cards you win.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_shells: Copy.text({
       es: "Traslado desde el Mar",
       en: "Transfer via rescue",
     }),
@@ -56,17 +59,17 @@ const nauticalSections = [{
     })),
   }]
 }, {
+  backgroundColor: cMix("anchors"),
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#7026702a",
   header: {
-    h3: Copy.text({
+    h3_anchors: Copy.text({
       es: "Anclas",
       en: "Anchors",
     }),
     img: ASSETS.anchors,
   },
   section: [{
-    h4: Copy.text({
+    h4_anchors: Copy.text({
       es: "Lastrar a la Nobleza",
       en: "Weigh Nobles Down",
     }),
@@ -85,7 +88,7 @@ const nauticalSections = [{
       and discard it once they leave.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_anchors: Copy.text({
       es: "Traslado mediante el Velero",
       en: "Transfer via sailboat",
     }),
@@ -109,17 +112,17 @@ const nauticalSections = [{
     })),
   }]
 }, {
+  backgroundColor: cMix("bells"),
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#b8a4272a",
   header: {
-    h3: Copy.text({
+    h3_bells: Copy.text({
       es: "Campanas",
       en: "Bells",
     }),
     img: ASSETS.bells,
   },
   section: [{
-    h4: Copy.text({
+    h4_bells: Copy.text({
       es: "Implorar por cartas",
       en: "Implore for cards",
     }),
@@ -142,7 +145,7 @@ const nauticalSections = [{
       //to plea all over the board.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_bells: Copy.text({
       es: "Traslado al aislamiento",
       en: "Transfer to the x-isle",
     }),
@@ -166,17 +169,17 @@ const nauticalSections = [{
     })),
   }]
 }, {
+  backgroundColor: cMix("icicles"),
   boxShadow: "1px 1px 3px black",
-  backgroundColor: "#00aac42a",
   header: {
-    h3: Copy.text({
+    h3_icicles: Copy.text({
       es: "Témpanos",
       en: "Icicles",
     }),
     img: ASSETS.icicles,
   },
   section: [{
-    h4: Copy.text({
+    h4_icicles: Copy.text({
       es: "Deslizar el glaciar",
       en: "Slide the glacier",
     }),
@@ -203,7 +206,7 @@ const nauticalSections = [{
       ice may pay the shortfall fee.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_icicles: Copy.text({
       es: "Traslado del Vórtice",
       en: "Transfer the vortex",
     }),

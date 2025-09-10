@@ -16,6 +16,22 @@
   --more: #e8d6c4;
   --expansion: #e8e8e8;
   --field: #228b21;
+
+  --clubs: #008480;
+  --hearts: #B41722;
+  --spades: darkslateblue;
+  --diamonds: darkgoldenrod;
+  --acorns: #6E6E23;
+  --horseshoes: #89420A;
+  --shields: #356C99;
+  --torches: #C73500;
+  --anchors: #7A1E74;
+  --shells: #D83476;
+  --icicles: #00ABC4;
+  --bells: #B8A527;
+  --land: #008200;
+  --sea: #006B98;
+  --fleurs: #9B4977;
 }
 
 html {
@@ -243,19 +259,63 @@ b {
 }
 
 .clubs {
-  color: teal;
+  color: var(--clubs);
 }
 
 .hearts {
-  color: brown;
+  color: var(--hearts);
 }
 
 .spades {
-  color: darkslateblue;
+  color: var(--spades);
 }
 
 .diamonds {
-  color: darkgoldenrod;
+  color: var(--diamonds);
+}
+
+.acorns {
+  color: var(--acorns);
+}
+
+.horseshoes {
+  color: var(--horseshoes);
+}
+
+.shields {
+  color: var(--shields);
+}
+
+.torches {
+  color: var(--torches);
+}
+
+.anchors {
+  color: var(--anchors);
+}
+
+.shells {
+  color: var(--shells);
+}
+
+.icicles {
+  color: var(--icicles);
+}
+
+.bells {
+  color: var(--bells);
+}
+
+.land {
+  color: var(--land);
+}
+
+.sea {
+  color: var(--sea);
+}
+
+.fleurs {
+  color: var(--fleurs);
 }
 
 sup {

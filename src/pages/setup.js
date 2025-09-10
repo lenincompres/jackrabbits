@@ -130,8 +130,8 @@ const setupPage = {
     p: versify(Copy.text({
       es: `Después de preparado el territorio,
         comienzas con un <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
-      en: `Follow here to find the frame
-        which explains the <a href="#intro"><b><big>intro game</big></b></a>.`,
+      en: `Follow on to find the frame
+        which is titled <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),
   },
 };

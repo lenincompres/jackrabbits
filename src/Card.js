@@ -138,7 +138,7 @@ class Card extends HTMLElement {
       alt: "cups",
       cast: "charmer",
       trait: "charm",
-      color: "brown",
+      color: "#B41722",
       image: "assets/suit-hearts.png",
     },
     C: {

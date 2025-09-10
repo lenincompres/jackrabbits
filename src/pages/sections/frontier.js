@@ -2,17 +2,21 @@ import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
+const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
+const cMix = v => `color-mix(in srgb, var(--expansion) 90%, var(--${v}))`;
+
+
 const frontierSections = [{
-  backgroundColor: "#b7410e33",
+  backgroundColor: cMix("torches"),
   header: {
-    h3: Copy.text({
+    h3_torches: Copy.text({
       es: "Antorchas",
       en: "Torches",
     }),
     img: ASSETS.torches,
   },
   section: [{
-    h4: Copy.text({
+    h4_torches: Copy.text({
       es: "Saquear con fuego",
       en: "Plunder with fire",
     }),
@@ -31,7 +35,7 @@ const frontierSections = [{
       are ejected from the board.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_torches: Copy.text({
       es: "Traslados bajo el subsuelo",
       en: "Transfers via underground",
     }),
@@ -55,16 +59,16 @@ const frontierSections = [{
     })),
   }],
 }, {
-  backgroundColor: "#436b9533",
+  backgroundColor: cMix("shields"),
   header: {
-    h3: Copy.text({
+    h3_shields: Copy.text({
       es: "Escudos",
       en: "Shields",
     }),
     img: ASSETS.shields,
   },
   section: [{
-    h4: Copy.text({
+    h4_shields: Copy.text({
       es: "Clausurar los hexágonos",
       en: "Seal the hexes",
     }),
@@ -87,7 +91,7 @@ const frontierSections = [{
       Underground, this seal is banned.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_shields: Copy.text({
       es: "Traslado de Guardia",
       en: "Transfer the guard",
     }),
@@ -107,16 +111,16 @@ const frontierSections = [{
     })),
   }]
 }, {
-  backgroundColor: "#bd6c3d33",
+  backgroundColor: cMix("horseshoes"),
   header: {
-    h3: Copy.text({
+    h3_horseshoes: Copy.text({
       es: "Herraduras",
       en: "Horseshoes",
     }),
     img: ASSETS.horseshoes,
   },
   section: [{
-    h4: Copy.text({
+    h4_horseshoes: Copy.text({
       es: "Trapichear en el subsuelo",
       en: "Hustle underground",
     }),
@@ -135,7 +139,7 @@ const frontierSections = [{
       horseshoes taken in their place.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_horseshoes: Copy.text({
       es: "Traslado en Bronco",
       en: "Transfer via Broncos",
     }),
@@ -159,16 +163,16 @@ const frontierSections = [{
     })),
   }]
 }, {
-  backgroundColor: "#6e6e3033",
+  backgroundColor: cMix("acorns"),
   header: {
-    h3: Copy.text({
+    h3_acorns: Copy.text({
       es: "Bellotas",
       en: "Acorns",
     }),
     img: ASSETS.acorns,
   },
   section: [{
-    h4: Copy.text({
+    h4_acorns: Copy.text({
       es: "Cargar los dados",
       en: "Load the dice",
     }),
@@ -187,7 +191,7 @@ const frontierSections = [{
       when thirteen are on the load.`,
     })),
   }, {
-    h4: Copy.text({
+    h4_acorns: Copy.text({
       es: "Traslado de la bestia",
       en: "Transfer the Beast",
     }),

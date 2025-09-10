@@ -40,7 +40,7 @@ const fullPage = {
         es: `Renueva tus partidas habituales
           jugando con las reglas opcionales</a>.`,
         en: `Try these optional additions,
-          once you finish many missions.`
+          and renew your future missions.`
       })),
     },
     section_optional: optionalSections,

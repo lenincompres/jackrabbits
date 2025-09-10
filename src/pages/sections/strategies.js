@@ -2,8 +2,11 @@ import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
+const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
+const cMix = v => `color-mix(in srgb, var(--full) 90%, var(--${v}))`;
+
 const strategySections = [{
-  backgroundColor: "rgba(200,240,240,0.3)",
+  backgroundColor: cMix("clubs"),
   h3_clubs: Copy.text({
     es: "Tréboles <small>(Bastos)</small>",
     en: "Clovers <small>(Clubs)</small>",
@@ -50,7 +53,7 @@ const strategySections = [{
     ]
   })),
 }, {
-  backgroundColor: "rgba(220,200,255,0.4)",
+  backgroundColor: cMix("spades"),
   h3_spades: Copy.text({
     es: "Picas <small>(Espadas)</small>",
     en: "Spades <small>(Swords)</small>",
@@ -107,7 +110,7 @@ const strategySections = [{
     ]
   })),
 }, {
-  backgroundColor: "rgba(255,200,210,0.4)",
+  backgroundColor: cMix("hearts"),
   h3_hearts: Copy.text({
     es: "Corazones <small>(Copas)</small>",
     en: "Hearts <small>(Cups)</small>",
@@ -154,7 +157,7 @@ const strategySections = [{
     ]
   })),
 }, {
-  backgroundColor: "rgba(250,240,200,0.4)",
+  backgroundColor: cMix("diamonds"),
   h3_diamonds: Copy.text({
     es: "Diamantes <small>(Oros)</small>",
     en: "Diamonds <small>(Gold)</small>",
@@ -179,11 +182,12 @@ const strategySections = [{
       see the markings underfoot.
       Note the asterisk in bold—
       any suit at all will suit.`,
-  })),/*
-  h5: Copy.text({
-    es: "+ Comercio Interpersonal",
-    en: "+ Interpersonal Trades",
-  }),*/
+  })),
+  /*
+    h5: Copy.text({
+      es: "+ Comercio Interpersonal",
+      en: "+ Interpersonal Trades",
+    }),*/
   p_0: versify(Copy.text({
     es: `Es válido el <b class="diamonds">comercio consensuado <sup>+</sup></b>
     si sumas el artículo a las reglas:
