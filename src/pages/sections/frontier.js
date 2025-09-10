@@ -25,9 +25,9 @@ const frontierSections = [{
       termina en las afueras del tablero.`,
       en: `You may plunder and defend,
       using torches just like swords.
-      Still the winner, in the end, 
-      will be also hurled off-board;
-      since all players, there and then,
+      But the winner, in the end, 
+      will be also hurled off-board.
+      Since all players, there and then,
       are ejected from the board.`,
     })),
   }, {
@@ -44,9 +44,9 @@ const frontierSections = [{
         ya sea por tu cuenta o sin buscarlo,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
-      en: `Its triangle underground
-      comes with two effects of fire.
-      Leave this hex in the same round, 
+      en: `Its extension underground
+      features two effects with fire.
+      Hop on out that very round, 
       paying what the dice require.
       And when turns are off-board bound,
       if that’s not what you desire,
@@ -98,12 +98,12 @@ const frontierSections = [{
         se pasa a la vereda de tu agrado.
         Si lo haces y te encuentras en la pieza,
         del sitio te regalan su traslado.`,
-      en: `Guards are placed to block the road,
-      sealing a triangle tile.
+      en: `Guards are placed to block the road—
+      any green three-sided tile.
       Pay wherever on the board,
       and you'll choose their post meanwhile—
-      if you're there, get this reward:
-      the tile's transfer in this style.`,
+      if you're there, get its reward:
+      have its transfer in this style.`,
     })),
   }]
 }, {
@@ -129,7 +129,7 @@ const frontierSections = [{
       las cartas de cualquiera de los palos.`,
       en: `Trade with horseshoes underground
       at its shady marketplace.
-      This triangle, dark and brown,
+      This extension, dark and brown,
       marks the expansion of the space.
       At this store, all suits are found—
       horseshoes taken in their place.`,

@@ -34,11 +34,11 @@ const neoclassicSections = [{
       te sacan del subsuelo de inmediato.
       Procura que sus piezas se conecten,
       que no halles un carril desconectado.`,
-      en: `Ride the trains without a cost—
-      transfers here are not allowed.
+      en: `Ride the trains without a cost,
+      with no transfering allowed.
       Reach another hex train post—
       pass right through the underground.
-      Tracks should not lead to the coast—
+      Tracks should never reach the coast—
       close the links when they're set down.`,
     })),
   }, {
@@ -51,7 +51,7 @@ const neoclassicSections = [{
       si muestras un corcel que haz adquirido,
       trasládate de gratis cabalgando,
       tal como de los cruces del camino.`,
-      en: `On the paths taht have a steed,
+      en: `On the paths that have a steed,
       show a Cavalier at hand,
       and you’ll ride it as you need,
       reaching hexagons by land.`,
@@ -66,10 +66,10 @@ const neoclassicSections = [{
       igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la Ciudadela.`,
-      en: `To fullfil their royal's needs,
+      en: `To fullfil their royal needs,
       acquisition is the same.
-      They will grant you rides with steeds,
-      they're not fit to end the game.`,
+      Show them when you ride the steeds,
+      but don't win with them the game.`,
     })),
   }, {
     h4: Copy.text({
@@ -147,7 +147,7 @@ const neoclassicSections = [{
       ],
       en: [`Six more royals and their tiles,
       plus two rabbits with new styles;
-      and the jokers' new profile—
+      and the joker's new profile—
       add its card to the court's isle.`,
       `Tiles may have a sea-blue side—
       leave it open to the tide.`
@@ -166,8 +166,8 @@ const neoclassicSections = [{
       y el otro, de misión naturalista.`,
       en: `There are three Capitalist
       and three Naturalist cards.
-      When you pay the cost they list
-      use both suits—in any parts.`,
+      Pay with both the suits they list—
+      split the cost in any parts.`,
     })),
   }, {
     h4: Copy.text({
@@ -181,12 +181,12 @@ const neoclassicSections = [{
       también te proporcionan sus traslados.
       El vuelo de la torre, si hay restante,
       se paga con cualquiera de sus palos.`,
-      en: `Find rides on land, air, or waves—
-      by horse, cannon or canoe.
-      The merchants, tavern, and cave
-      are there to sell transfers too.
-      The shortfall flights may be saved—
-      pay with either tower’s suit.`,
+      en: `Ride through valleys, air, or waves—
+      horses, cannons, or canoes.
+      Merchants, taverns, and the caves
+      may be used for transfers too.
+      Flights with shortfall may be saved—
+      payed with either tower’s suit.`,
     })),
   }, {
     h4: Copy.text({
@@ -198,10 +198,10 @@ const neoclassicSections = [{
       te vende lo que quieras por diamantes.
       Y en la otra te reponen, de la pila,
       <strong>un</strong> grupo de tus cartas que descartes.`,
-      en: `One will trade for diamond cards—
+      en: `One will trade your diamond cards—
       buy whatever suit you choose.
-      Pay the other <strong>one</strong> discard—
-      draw as many as you lose.`,
+      Pay the other one discard—
+      draw as many cards you lose.`,
     })),
   }, {
     h4: Copy.text({
@@ -211,8 +211,8 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: `Dispárate a la torre que prefieras,
       sin riesgo a terminar en las afueras.`,
-      en: `Take a trip across the air
-      to the tower you prefer.`,
+      en: `Take a trip across the air—
+      treach the tower you prefer.`,
     })),
   }],
 }, {

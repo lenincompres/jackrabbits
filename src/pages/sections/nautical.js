@@ -26,19 +26,19 @@ const nauticalSections = [{
       las cambia por el doble de la pila.
       Por turnos, un canjeo se te otorga;
       limítate a las cartas que recibas.`,
-      en: `Its triangle underground
+      en: `Its extension underground
       will be set when games begin.
       It provides a landing ground
       where the boats may reach within.
       You may draw when you're around—
       twice as many cards you bin. 
-      Just a trade per turn's allowed—
-      don't re-trade the cards you win.`,
+      Just a trade per turn's allowed,
+      so you keep the cards you win.`,
     })),
   }, {
     h4: Copy.text({
       es: "Traslado desde el Mar",
-      en: "Trasfer via rescue",
+      en: "Transfer via rescue",
     }),
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
@@ -47,12 +47,12 @@ const nauticalSections = [{
         su torre que se encuentra en altamar.
         La góndola gratuita de su puerto
         te brinda la salida del lugar.`,
-      en: `You won't end your turn off-board
-        if you pay with shells at sea.
-        Wash ashore its tower's port,
-        where you're rescued for that fee.
-        This location host a boat—
-        guests may leave from there for free. `,
+      en: `If you pay with shells at sea, 
+      you won't end your turn off-board. 
+      You'll be rescued for that fee—
+      wash ashore its tower's port.
+      Guests may leave this hex for free—
+      this location hosts a boat.`,
     })),
   }]
 }, {
@@ -102,7 +102,7 @@ const nauticalSections = [{
       sail it anywhere for free. 
       If you pay at sea-bound treks,
       you will summon it by sea;
-      sail it to and anchor hex—
+      sail it to an anchor hex—
       you must choose one of the three.
       Note the anchor tower’s specs—
       trade the suits that you decree.`,
@@ -132,11 +132,11 @@ const nauticalSections = [{
       que sumen sus campanas en el duelo.`,
       //Si imploras de la torre acampanada,
       //afectas al tablero por completo.`,
-      en: `When you start a duel with bells,
-      no one there will end off-board.
-      Every player where you dwell
+      en: `You may duel with bells as well, 
+      though no one will end off-board.
+      Every player where you dwell 
       gifts to you a card they hoard,
-      or add bells to duel as well—
+      or may duel and add their bells—
       if they win, your plea's ignored.`,
       //Implore from their tower's cell,
       //to plea all over the board.`,
@@ -157,7 +157,7 @@ const nauticalSections = [{
       que empieza conectada en el subsuelo.`,
       en: `There’s a cave that has a fee 
       to escape its lonesome tile.
-      Pay, wherever you may be, 
+      Pay wherever you may be 
       to have anyone exiled.
       Even those off-board at sea 
       may be sentenced to this isle.
@@ -195,7 +195,7 @@ const nauticalSections = [{
       show a sum of twelve at least,*/
       `Move its tower by the shore
       when you roll from any piece,
-      if you show one card before,
+      if you show a card before,
       and it's equal or exceeds:
       link it to a road tile's port,
       or maroon it at the sea.
