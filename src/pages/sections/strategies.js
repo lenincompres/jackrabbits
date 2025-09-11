@@ -95,7 +95,7 @@ const strategySections = [{
       and the struggler's kicked off-board.`,
       `Note that tying scores is barred,
       and discard the spades outpoured.
-      If your victim wins the war,
+      If your target wins the war,
       they can’t steal the cards you hoard.
       If you steal a royal card, 
       discard one if it’s your fourth—

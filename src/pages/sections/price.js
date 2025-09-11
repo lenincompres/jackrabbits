@@ -32,7 +32,7 @@ const priceSection = {
       if its symbol qualifies.`,
       `Show and leave out what you spend—
       it’s <i>discarded</i> once you’re done. 
-      You may spend royals as <b>10</b>,
+      Royals may be spent as <b>10</b>,
       and the <b>a</b>ces are worth <b>1</b>.`,
       `If you spend a royal card,
       it returns to the court’s aisle.

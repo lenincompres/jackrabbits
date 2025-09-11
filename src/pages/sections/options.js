@@ -219,9 +219,9 @@ const optionalSections = [
         los reyes, es por <b>13</b> que valoras;
         las reinas, subvalóralas por <b>12</b>;
         y es <b>11</b> (menos precio) por las jotas.`,
-      en: `Have unequal value levels
-        for the <b>A</b>ce, <b>K</b>ing, <b>Q</b>ueen & <b>J</b>ack,
-        from <b>14</b> down to <b>11</b>—
+      en: `Have unequal value levels:
+        <b>A</b>ce then <b>K</b>ing then <b>Q</b>ueen then <b>J</b>ack—
+        from <b>14</b> until <b>11</b>—
         then consider why it’s whack.`,
     })),
   }]
