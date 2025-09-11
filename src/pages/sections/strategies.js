@@ -150,10 +150,10 @@ const strategySections = [{
       they're obliged to show their own—
       even resting far apart—
       prove they’re welcome in this zone.
-      If you do reveal your hearts, 
+      If you prove at least six hearts, 
       they will lose the cards they’ve shown.
       Either one who's wrong departs—
-      off the board in shame is thrown.`,
+      off the board meddler's thrown.`,
     ]
   })),
 }, {
