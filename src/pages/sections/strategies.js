@@ -141,9 +141,9 @@ const strategySections = [{
       `As you reach a queenly hex,
       any player may intone:
       “Show six points to prove you're blessed,
-      adding hearts from cards you own—
-      if you're not the honored guest,
-      with the card that marks this throne.”
+      adding hearts from cards you own.”
+      But if you're the honored guest,
+      show the card that marks this throne.
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `But before they check your cards,
@@ -153,7 +153,7 @@ const strategySections = [{
       If you prove at least six hearts, 
       they will lose the cards they’ve shown.
       Either one who's wrong departs—
-      off the board meddler's thrown.`,
+      off the board the meddler's thrown.`,
     ]
   })),
 }, {
