@@ -39,7 +39,7 @@ const strategySections = [{
       pick a tower as a goal
       for <b>the journey</b> through the skies.
       Or you’ll miss the board and fall—
-      tumbler's keep the card that tries.
+      tumblers keep the card that tries.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
       `Land your flight and don’t fall off
@@ -203,7 +203,7 @@ const strategySections = [{
     meet to trade or to dispute.
     Never show your hand’s rewards—
     strike a deal for your pursuit.
-    If cards traded prove a farce,
+    If what's traded proves a farce,
     swindlers get the off-board boot.`,
   })),
 }];
