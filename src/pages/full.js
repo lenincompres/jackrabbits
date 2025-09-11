@@ -24,7 +24,7 @@ const fullPage = {
         terminas sin tomar el <b>incremento</b>.
         Si empiezas con el turno en el destierro,
         tu fin de <b>travesía</b> es el subsuelo.`,
-        en: `If your turn ends off the board,
+        en: `If your turn falls off the board,
         get no <b>increment</b> this round.
         When a turn begins off-board,
         end your <b>journey</b> underground.`
