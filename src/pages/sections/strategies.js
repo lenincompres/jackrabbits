@@ -140,7 +140,7 @@ const strategySections = [{
     en: [
       `As you reach a queenly hex,
       any player may intone:
-      “Show six points to prove you're blessed,
+      “Show six points to prove you're blest,
       adding hearts from cards you own.”
       But if you're the honored guest,
       show the card that marks this throne.

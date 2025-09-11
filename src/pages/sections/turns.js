@@ -89,7 +89,7 @@ const turnSections = [{
       `It’s your goal to claim the card
       of the hex where you set foot.
       Only there you may discard
-      ten or more—in pips that suit—
+      ten or more in pips that suit—
       place a carrot as your mark,
       and remove it from pursuit.`,
       `You may always be a guest—
