@@ -39,7 +39,7 @@ const strategySections = [{
       pick a tower as a goal
       for <b>the journey</b> through the skies.
       Or you’ll miss the board and fall—
-      keep the card for future tries.
+      tumbler's keep the card that tries.
       And whatever may befall,
       play <b>the lottery</b> likewise.`,
       `Land your flight and don’t fall off
@@ -86,13 +86,13 @@ const strategySections = [{
     ],
     en: [
       `You may steal a card at random,
-      kicking someone else off-board,
+      kicking someone off the board,
       if you meet to seize their item 
       and attack them with a sword.
       You’ll go back and forth in tandem,
       adding spades to beat what’s scored—
-      until one won’t overcome them 
-      and is beaten off the board.`,
+      until one won’t overcome them, 
+      and the struggler's kicked off-board.`,
       `Note that tying scores is barred,
       and discard the spades outpoured.
       If your victim wins the war,
