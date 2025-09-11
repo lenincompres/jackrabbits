@@ -46,7 +46,7 @@ const strategySections = [{
       if you pay to reach the dice. 
       Count how far your card was off—
       pay this shortfall to suffice.
-      See the place where you took off—
+      See the hex where you take off—
       just the suit from there applies.
       You may trade the shown card off 
       where the clubs fulfill the price.`,
