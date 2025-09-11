@@ -138,16 +138,16 @@ const strategySections = [{
       de quien en el destierro las expone.`,
     ],
     en: [
-      `As you visit a <b>Q</b>ueen’s hex,
+      `As you reach a queenly hex,
       any player may intone:
-      “Verify that you possess
-      the <b>Q</b>ueen’s card that marks this throne,
-      or show six points to the rest,
-      adding hearts from cards you own.”
+      “Show six points to prove you're blessed,
+      adding hearts from cards you own—
+      If you're not the honored guest,
+      with the card that marks this throne.”
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
-      `Yet those asking for your cards
-      must first show they hold their own—
+      `But before they check your cards,
+      they must show they hold their own—
       even resting far apart—
       prove they’re welcome in this zone.
       If you fail to show them hearts,

@@ -131,7 +131,7 @@ const setupPage = {
       es: `Después de preparado el territorio,
         comienzas con un <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
       en: `Follow on to find the frame
-        which is titled <a href="#intro"><b><big>intro game</big></b></a>.`,
+        which explains <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),
   },
 };
