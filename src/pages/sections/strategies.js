@@ -142,7 +142,7 @@ const strategySections = [{
       any player may intone:
       “Show six points to prove you're blessed,
       adding hearts from cards you own—
-      If you're not the honored guest,
+      if you're not the honored guest,
       with the card that marks this throne.”
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
