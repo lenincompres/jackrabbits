@@ -147,7 +147,7 @@ const strategySections = [{
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `But before they check your cards,
-      they must rightly show their own—
+      they're obliged to show their own—
       even resting far apart—
       prove they’re welcome in this zone.
       If you do reveal your hearts, 
