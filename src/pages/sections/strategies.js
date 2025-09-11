@@ -147,13 +147,13 @@ const strategySections = [{
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `But before they check your cards,
-      they must show they hold their own—
+      they must rightly show their own—
       even resting far apart—
       prove they’re welcome in this zone.
-      If you fail to show them hearts,
-      off the board you’re swiftly thrown!
-      But succeed and they’ll depart:
-      thrown off losing what they’d shown.`,
+      If you do reveal your hearts, 
+      they will lose the cards they’ve shown.
+      Either one who's wrong departs—
+      off the board in shame is thrown.`,
     ]
   })),
 }, {

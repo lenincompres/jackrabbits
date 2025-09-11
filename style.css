@@ -112,8 +112,13 @@ h3,
 h4,
 h5 {
   font-family: title;
+  line-height: 1.2em;
   text-transform: uppercase;
   margin: 0;
+}
+
+h1 {
+  line-height: initial;
 }
 
 h1 {
