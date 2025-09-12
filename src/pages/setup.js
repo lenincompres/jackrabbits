@@ -60,13 +60,13 @@ const setupPage = {
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
           en: `Lay the <i>court</i> in any order,
-          after placing every tile—
-          that's the <i>royal</i> cards and <i>jokers</i>,
-          which will form a faceup aisle.
-          Give a shuffle as in poker,
-          form the facedown drawing <i>pile</i>—
-          with the resting <i>pips</i> in number,
-          and the <i>aces</i> of each style.`,
+          after placing every tile.
+          With these <i>royal</i> cards and <i>jokers</i>,
+          you will form a faceup aisle.
+          What remains are <i>pips</i> in number,
+          and the <i>aces</i> of each style.
+          Give a shuffle as if in poker—
+          form the facedown drawing <i>pile</i>.`,
         }),
         ASSETS.cards,
         Copy.text({
@@ -97,9 +97,9 @@ const setupPage = {
           y allí en la <a class="pop" onclick="popUp('citadel')"><i>Ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
-          en: `Players choose their token rabbits,
-          set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>,
-          and collect their matching carrots—
+          en: `Players choose their token rabbits—
+          set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>.
+          And collect their matching carrots—
           they get three of these as well.`,
         }),
         ASSETS.tokens,
