@@ -21,7 +21,7 @@ const setupPage = {
           comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,],
           en: [`At the start of every match,
-          you must first complete a board—
+          you must first complete a board.
           Map it randomly from scratch,
           or revisit one explored.`,
           `Link the houses in this spread—
@@ -38,12 +38,12 @@ const setupPage = {
           usando los conejos que se mueven.
           Y añádeles las cartas y sus reglas
           si captan a medida que las prueben.`],
-          en: `Younger children under nine
-          may be asked to build the land,
-          then explore what they design 
-          with a rabbit in their hand—
-          introduce them down the line
-          to the rules they understand.`,
+          en: `With the children under nine,
+          have them play to build the land.
+          Then explore what they design—
+          with a rabbit in their hand.
+          Add the card deck down the line,
+          and the rules they understand.`,
         })),
     }, {
       h2: 2,
@@ -59,13 +59,13 @@ const setupPage = {
           con cartas de los <i>jokers</i> y <i>reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
-          en: `Lay the <i>court</i> in any order
+          en: `Lay the <i>court</i> in any order,
           after placing every tile—
-          all the <i>royal</i> cards and <i>jokers</i>
-          to display a faceup aisle.
-          Give a shuffle as in poker 
-          for the facedown drawing <i>pile</i>—
-          the remaining <i>pips</i> in number,
+          that's the <i>royal</i> cards and <i>jokers</i>,
+          which will form a faceup aisle.
+          Give a shuffle as in poker,
+          form the facedown drawing <i>pile</i>—
+          with the resting <i>pips</i> in number,
           and the <i>aces</i> of each style.`,
         }),
         ASSETS.cards,
@@ -78,11 +78,11 @@ const setupPage = {
           a cada concursante, individuales.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
-          en: `Every player gets three cards 
-          as their <i>hand</i> to start the chase:
-          the resources each regards 
-          for <b>the journey</b> they will face,
-          and to pay for the rewards
+          en: `Every player gets three cards— 
+          as their <i>hand</i> to start the chase.
+          They're resources each one guards—
+          for <b>the journey</b> they will face.
+          And they'll pay for the rewards—
           in <b>the acquisition</b> phase.`,
         }))
     }, {
@@ -108,9 +108,9 @@ const setupPage = {
           descrito en el principio de las reglas;
           y a menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
-          en: `See what fits <a class="pop" onclick="popUp('endings')"><b>ending the game</b></a>,
-            and select the quest you’re on—
-          if a circle marks this aim, 
+          en: `See what fits to <a class="pop" onclick="popUp('endings')"><b>end the game</b></a>,
+          and select the quest you’re on.
+          If a circle marks this aim, 
           set it on the hexagon.`,
         }),
         ASSETS.endings,
@@ -119,10 +119,10 @@ const setupPage = {
           y el orden de los turnos que le siguen.
           Me importa en lo absoluto tu sistema,
           ya lo hagas al azar o lo designes.`,
-          en: `As for choosing the first player
-          and the order of the turns,
-          what you do for this endeavor 
-          has no place in my concerns.`,
+          en: `Choose or roll for the first player, 
+          and the order of the turns.
+          Have your pick for this endeavor—
+          it is none of my concerns.`,
         })),
     }],
   },
@@ -130,8 +130,8 @@ const setupPage = {
     p: versify(Copy.text({
       es: `Después de preparado el territorio,
         comienzas con un <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
-      en: `Follow on to find the frame
-        which explains <a href="#intro"><b><big>intro game</big></b></a>.`,
+      en: `This concludes the setup frame. 
+      Next you'll find the  <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),
   },
 };

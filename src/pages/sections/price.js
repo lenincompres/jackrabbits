@@ -24,18 +24,18 @@ const priceSection = {
       regresan a la corte en la que empiezan.`,
     ],
     en: [
-      `Transfers marked along the way
-      charge the total on the dice. 
+      `For the Transfers on the way,
+      pay the total on the dice. 
       But in case you overpay, 
-      then consider it the price.
-      You may add a card to pay
-      if its symbol qualifies.`,
-      `Show and leave out what you spend—
-      it’s <i>discarded</i> once you’re done. 
+      then consider that the price.
+      Use as many cards to pay—
+      check each symbol qualifies.`,
+      `Set aside the cards you spend—
+      they’re <i>discarded</i> once you’re done. 
       Royals may be spent as <b>10</b>,
       and the <b>a</b>ces are worth <b>1</b>.`,
       `If you spend a royal card,
-      it returns to the court’s aisle.
+      place it in the courtly aisle.
       And you must remove your mark—
       take your carrot off their tile.`,
     ]

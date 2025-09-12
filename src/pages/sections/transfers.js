@@ -12,14 +12,14 @@ const transferSections = [{
       marcados a mitad de los polígonos,
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
-    en: `Venture all along a path
-    to move freely on your round—
+    en: `Venture all along a path—
+    you’ll move freely on your round;
     even through an underpass
     (see the mountains farther down).
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
-    paid in suits upon the ground—
-    use the total on your dice
-    as your minimum amount.`,
+    paid in suits upon the ground.
+    Use the total on your dice—
+    that's the minimum amount.`,
   }), {
     marginTop: '1.2rem',
     tag: "h4",
@@ -34,10 +34,10 @@ const transferSections = [{
       cruzando por el centro en un atajo.
       <a class="pop" onclick="popUp('price')">Si pagas</a> con cualquiera de los símbolos,
       te cambias del camino que te trajo.`,
-    en: `Mountains, rivers and the woods
-      have two roads not far apart. 
-      You may hike between the two—
-      cutting through the greener part.
+    en: `Mountains, rivers and the woods,
+      with two roads not far apart, 
+      let you hike between these two,
+      cutting through the middle part.
       <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       club or spade or even heart.`,
   })),
@@ -58,15 +58,15 @@ const transferSections = [{
       y arrivas por alguna carretera.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
-    en: `Outposts where the road is forked
-      have a horse and boat to ride:
+    en: `Check out where road is forked—
+      there's a horse and boat to ride. 
       reach a hex across the board,
-      dashing over tiles in stride;
-      or select a road to port,
+      dashing over tiles in stride.
+      Or select a road to port,
       gliding on the seas outside.
-      Choose and ride to your next post
-      once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>—
-      Landlocked merchants won’t have boats
+      Choose and ride to your next post—
+      once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>.
+      Landlocked merchants have no boats—
       since they’re not by the seaside.`,
   }), {
     tag: "h4",
@@ -99,8 +99,8 @@ const transferSections = [{
       te sales por la cueva de tu agrado.`,
     en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
       use this trick to hop around. 
-      Or you may prefer to save
-      while you visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
+      But if you prefer to save, 
+      pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
       Just a turn to wait and waive—
       hop on out the coming round.`,
   }), {
@@ -126,8 +126,8 @@ const transferSections = [{
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
       Once your <b>lottery</b>'s off-board,
-      end your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>—
-      where your <b>increment</b>’s restored,
+      end your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
+      There your <b>increment</b>’s restored,
       and you’ll wait another round.`,
   })),
   img: ASSETS.caves,

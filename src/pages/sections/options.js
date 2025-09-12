@@ -46,8 +46,8 @@ const optionalSections = [
       you’ll remove one set and suit.
       Pick a fitting kind of ending—
       one that cards allow you to.
-      Having spades is recommended 
-      on a tribal game pursuit.`,
+      Spades are often recommended—
+      best for tribal game pursuit.`,
     })),
     /*},{
       h5__: Copy.text({
@@ -81,8 +81,8 @@ const optionalSections = [
         ya sea en el momento en que los gastes
         o incluso en el momento que los compres.`,
       en: `Choose to use them as <b>11</b>,
-      any time you play an <b>A</b>ce,
-      or a <b>1</b> when it's deserving—
+      any time you play an <b>A</b>ce.
+      Or a <b>1</b> when it's deserving—
       lottery or marketplace.`,
     })),
   }, {
@@ -162,8 +162,8 @@ const optionalSections = [
         pues puedes, en el turno que visitas,
         salirte sin parar a descansar.`,
       en: `If your carrot’s on a hex,
-        you may visit and move on;
-        to the place you’re headed next—
+        you may visit and move on.
+        Go to where you're headed next—
         needn’t wait to move along.`,
     })),
   }]

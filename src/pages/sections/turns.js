@@ -24,14 +24,14 @@ const turnSections = [{
     en: [
       `Start your turns by rolling dice,
       so that two results unfold.
-      You may draw a one-card prize
-      if you show a card you hold,
-      and it matches value-wise
+      You may draw a one-card prize,
+      if you show a card you hold:
+      prove it matches value-wise—
       either number you just rolled.`,
-      `If you're ever caught with ten,
-      then discard to nine again.*`,
-      `Hold the outcome of the dice—
-      transfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
+      `If dicovered holding ten,
+      please discard to nine again.*`,
+      `Hold the outcome of the dice.
+      Transfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
     ]
   })),
 }, {
@@ -54,16 +54,16 @@ const turnSections = [{
       consulta <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
-      `You may choose a path to exit
-      from the current hex you’re on.
+      `You may choose a path to exit—
+      any from the hex you’re on.
       Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected—
       let your rabbit venture on.
       Cross small tiles but never hexes—
       reach the nearest hexagon.`,
-      `Move on closer to your goal,
-      or perhaps don't move at all.`,
-      `For more transportation modes,
-      see <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
+      `Move on closer to your goal.
+      Or perhaps don't move at all.`,
+      `Need more transportation modes?
+      See <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
     ]
   })),
 }, {
@@ -86,16 +86,16 @@ const turnSections = [{
       reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
-      `It’s your goal to claim the card
-      of the hex where you set foot.
-      Only there you may discard
-      ten or more in pips that suit—
-      place a carrot as your mark,
+      `It’s your goal to claim the card—
+      marked on hexes you set foot.
+      Only there you may discard—
+      ten or more in pips that suit.
+      Place a carrot as your mark,
       and remove it from pursuit.`,
-      `You may always be a guest—
-      make no claim and stop to rest.`,
-      `Keep the royals in your hands—
-      get <b>the increment</b> at once.`,
+      `You may always be a guest.
+      Make no claim and stop to rest.`,
+      `Keep the royals in your hands.
+      Get <b>the increment</b> at once.`,
     ]
   })),
 }, {
@@ -124,10 +124,10 @@ const turnSections = [{
       and your turn will be no more. 
       You may need to first repile:
       shuffle what was spent before.`,
-      `*You may hold more than nine cards—
-      anyone who’s caught discards.`,
-      `**Don’t collect this turn’s reward
-      if you ever end <a href="#intro/off"><b>off-board</b></a>.`,
+      `*Hands should not exceed nine cards.
+      Anyone who’s caught discards.`,
+      `**Off the board there's no reward.
+      See the section named <a href="#intro/off"><b>off-board</b></a>.`,
     ]
   })),
 }];

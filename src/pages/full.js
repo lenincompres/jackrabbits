@@ -13,8 +13,8 @@ const fullPage = {
       p: versify(Copy.text({
         es: `Añade los artículos restantes
           al <a href="#intro"><b>juego introductorio</b></a> principiante.`,
-        en: `Now the challenge is afoot—
-          add these strategies per suit.`
+        en: `Now the challenge is afoot.
+          Add these strategies per suit.`
       })),
     },
     section: strategySections.sort(() => Math.random() - 0.5),
@@ -39,8 +39,8 @@ const fullPage = {
       p: versify(Copy.text({
         es: `Renueva tus partidas habituales
           jugando con las reglas opcionales</a>.`,
-        en: `Try these optional additions,
-          and renew your future missions.`
+        en: `Try these optional additions.
+          They'll refresh your future missions.`
       })),
     },
     section_optional: optionalSections,

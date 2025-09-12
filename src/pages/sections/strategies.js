@@ -39,17 +39,17 @@ const strategySections = [{
       pick a tower as a goal
       for <b>the journey</b> through the skies.
       Or you’ll miss the board and fall—
-      tumblers keep the card that tries.
+      play <b>the lottery</b> likewise.
       And whatever may befall,
-      play <b>the lottery</b> likewise.`,
-      `Land your flight and don’t fall off
+      tumblers keep the card that tries.`,
+      `Land your flight and don’t fall off,
       if you pay to reach the dice. 
       Count how far your card was off—
       pay this shortfall to suffice.
-      See the hex where you take off—
+      See the hex where you took off—
       just the suit from there applies.
-      You may trade the shown card off 
-      where the clubs fulfill the price.`,
+      You may trade the shown card off,
+      if the clubs fulfill the price.`,
     ]
   })),
 }, {
@@ -98,7 +98,7 @@ const strategySections = [{
       If your target wins the war,
       they can’t steal the cards you hoard.
       If you steal a royal card, 
-      discard one if it’s your fourth—
+      give one up if it’s your fourth—
       take <b>the increment</b>’s reward,
       matching carrots in accord.`,
       /* 
@@ -176,7 +176,7 @@ const strategySections = [{
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold—
       every <b>J</b>ack will sell its suit.
-      Check the lot their houses hold—
+      See the lot their houses hold—
       where you may obtain this loot.
       Match or overpay with gold—
       see the markings underfoot.
@@ -197,7 +197,7 @@ const strategySections = [{
     se ocultan en las manos las ofertas.
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
-    en: `If agreed when the game starts,
+    en: `If agreed by all the parts,
     add <b class="diamonds">consented trades <sup>+</sup></b> to boot:
     deal in turn with diamond cards—
     meet to trade or to dispute.
