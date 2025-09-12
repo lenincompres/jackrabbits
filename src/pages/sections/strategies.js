@@ -34,7 +34,7 @@ const strategySections = [{
       la carta pasaporte es permitida.`
     ],
     en: [
-      `Show one card before you roll;
+      `Show one card before you roll,
       if it beats the dice or ties,
       pick a tower as a goal
       for <b>the journey</b> through the skies.
@@ -198,8 +198,8 @@ const strategySections = [{
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
     en: `If agreed by all the parts,
-    add <b class="diamonds">consented trades <sup>+</sup></b> to boot:
-    deal in turn with diamond cards—
+    add <b class="diamonds">consented trades <sup>+</sup></b> to boot.
+    Deal in turn with diamond cards—
     meet to trade or to dispute.
     Never show your hand’s rewards—
     strike a deal for your pursuit.

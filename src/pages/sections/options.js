@@ -20,8 +20,8 @@ const optionalSections = [
       y puedes con tus tréboles volar
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
-      which are marked in this reboot:
-      question hearts to gain the access;
+      which are marked in this reboot.
+      Question hearts to gain the access;
       buy with diamonds any loot; 
       show your clubs for flying passes—
       shortfall’s paid in any suit.`,
@@ -111,8 +111,8 @@ const optionalSections = [
         si el palo que precisas corresponde,
         lo añades del que tienes en tu frente.`,
       en: `When you play <b>capital Aces</b>,
-        add this stable bonus tip:
-        at the suit-appropriate places,
+        add a stable bonus tip.
+        At the suit-appropriate places,
         they will grant an extra pip.`,
     })),
   }],
@@ -132,8 +132,8 @@ const optionalSections = [
         podrás aterrizar en los hexágonos,
         excepto por supuesto en el subsuelo.`,
       en: `When you fly from any tower, 
-        find more places to touch down:
-        you may reach with the clubs’ power
+        find more places to touch down.
+        You may reach with the clubs’ power
         any hex above the ground.`,
     })),
   }, {
@@ -147,8 +147,8 @@ const optionalSections = [
         tu mínimo de seis reglamentarios
         que juzgan a cualquiera al visitarte.`,
       en: `Show your hearts while taking rest—
-      six or more within your count;
-      question all incoming guests—
+      six or more within your count.
+      Question all incoming guests—
       never do this underground.`,
     })),
   }, {
