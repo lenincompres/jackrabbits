@@ -88,10 +88,10 @@ const strategySections = [{
       `You may steal a card at random,
       kicking someone off the board,
       if you meet to seize their item, 
-      once you put them to the sword:
-      you go back and forth in tandem,
-      adding spades to beat what’s scored;
-      when no cards are thrown to sum them, 
+      once you put them to the sword.
+      You go back and forth in tandem,
+      adding spades to beat what’s scored.
+      When no cards are thrown to sum them, 
       then the struggler's kicked off-board.`,
       `Note that tying scores is barred,
       and discard the spades outpoured.
