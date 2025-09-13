@@ -24,7 +24,7 @@ const turnSections = [{
     en: [
       `Start your turns by rolling dice,
       so that two results unfold.
-      You may draw a one-card prize—
+      You may draw a one-card prize,
       if you show a card you hold.
       Prove it matches value-wise—
       either number you just rolled.`,
