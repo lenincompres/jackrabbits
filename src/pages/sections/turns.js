@@ -28,7 +28,7 @@ const turnSections = [{
       if you show a card you hold.
       Prove it matches value-wise—
       either number you just rolled.`,
-      `If dicovered holding ten,
+      `If discovered holding ten,
       please discard to nine again.*`,
       `Hold the outcome of the dice.
       Transfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
