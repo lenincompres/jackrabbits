@@ -148,7 +148,7 @@ const strategySections = [{
       they’re not fit to cast a stone.`,
       `But before they check your cards,
       they're obliged to show their own—
-      even resting far apart—
+      even standing far apart—
       prove they’re welcome in this zone.
       If you prove at least six hearts, 
       they will lose the cards they’ve shown.
