@@ -159,8 +159,8 @@ const optionalSections = [
     p: versify(Copy.text({
       es: `Podrás incrementar la travesía
         si está tu zanahoria en un lugar;
-        pues puedes, en el turno que visitas,
-        salirte sin parar a descansar.`,
+        logrando que el turno que visitas,
+        avances sin parar a descansar.`,
       en: `If your carrot’s on a hex,
         you may visit and move on.
         Go to where you're headed next—

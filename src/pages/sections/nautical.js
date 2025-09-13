@@ -29,9 +29,9 @@ const nauticalSections = [{
       las cambia por el doble de la pila.
       Por turnos, un canjeo se te otorga;
       limítate a las cartas que recibas.`,
-      en: `Its extension underground
-      will be set when games begin.
-      It provides a landing ground
+      en: `Its extension underground,
+      which is set when games begin,
+      will provide a landing ground,
       where the boats may reach within.
       You may draw when you're around—
       twice as many cards you bin. 
@@ -54,7 +54,7 @@ const nauticalSections = [{
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.
-      Guests may leave this hex for free—
+      Guests may leave from there for free—
       this location hosts a boat.`,
     })),
   }]
@@ -196,11 +196,11 @@ const nauticalSections = [{
       o elije despegarlo de la orilla.`,
       en: /*`Count the icicles you hoard,
       show a sum of twelve at least,*/
-      `Move its tower by the shore
-      when you roll from any piece,
+      `Move its tower by the shore,
+      when you roll from any piece
       if you show a card before,
-      and it's equal or exceeds:
-      link it to a road tile's port,
+      and it's equal or exceeds.
+      Link it to a road tile's port,
       or maroon it at the sea.
       If your card has fallen short,
       ice may pay the shortfall fee.`,

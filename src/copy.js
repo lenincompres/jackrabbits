@@ -26,8 +26,8 @@ Copy.add({
     en: "Store <small>&</small>more",
   },
   subscribe: {
-    es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')">listado de correos</a> 
-y apoya la campaña que tendremos.`,
+    es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')">listado de correos</a>.
+    Apoya la campaña que tendremos.`,
     en: `<a class="pop" onclick="popUp('mailingList')">Join the list</a> on this domain—
     stay in touch for our campaign.`,
   },

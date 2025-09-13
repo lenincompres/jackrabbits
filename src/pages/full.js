@@ -11,8 +11,8 @@ const fullPage = {
         en: "The 4 Well-Suited Strategies",
       })),
       p: versify(Copy.text({
-        es: `Añade los artículos restantes
-          al <a href="#intro"><b>juego introductorio</b></a> principiante.`,
+        es: `Añades el capítulo restante.
+          Con este jugarás en lo adelante.`,
         en: `Now the challenge is afoot.
           Add these strategies per suit.`
       })),
@@ -37,8 +37,8 @@ const fullPage = {
         en: "+ Optional Rules",
       }),
       p: versify(Copy.text({
-        es: `Renueva tus partidas habituales
-          jugando con las reglas opcionales</a>.`,
+        es: `Renueva tus partidas habituales.
+          Añádeles las reglas opcionales</a>.`,
         en: `Try these optional additions.
           They'll refresh your future missions.`
       })),

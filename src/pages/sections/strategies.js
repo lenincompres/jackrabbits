@@ -36,8 +36,8 @@ const strategySections = [{
     en: [
       `Show one card before you roll,
       if it beats the dice or ties,
-      pick a tower as a goal
-      for <b>the journey</b> through the skies.
+      pick a tower as a goal—
+      take <b>the journey</b> through the skies.
       Or you’ll miss the board and fall—
       play <b>the lottery</b> likewise.
       And whatever may befall,
@@ -87,12 +87,12 @@ const strategySections = [{
     en: [
       `You may steal a card at random,
       kicking someone off the board,
-      if you meet to seize their item 
-      and attack them with a sword.
-      You’ll go back and forth in tandem,
-      adding spades to beat what’s scored—
-      until one won’t overcome them, 
-      and the struggler's kicked off-board.`,
+      if you meet to seize their item, 
+      and you put them to the sword:
+      you go back and forth in tandem,
+      adding spades to beat what’s scored;
+      once no cards are thrown to sum them, 
+      then the struggler's kicked off-board.`,
       `Note that tying scores is barred,
       and discard the spades outpoured.
       If your target wins the war,
@@ -138,12 +138,12 @@ const strategySections = [{
       de quien en el destierro las expone.`,
     ],
     en: [
-      `As you reach a queenly hex,
-      any player may intone:
+      `Any player may contest, 
+      as you reach a queenly throne:
       “Show six points to prove you're blest,
       adding hearts from cards you own.”
-      But if you're the honored guest,
-      show the card that marks this throne.
+      Or declare you're honored guest—
+      with the Queen's card as it's known.
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `But before they check your cards,
@@ -176,11 +176,11 @@ const strategySections = [{
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold—
       every <b>J</b>ack will sell its suit.
-      See the lot their houses hold—
+      Browse the lot their houses hold,
       where you may obtain this loot.
       Match or overpay with gold—
       see the markings underfoot.
-      Note the asterisk in bold—
+      Note the asterisk in bold:
       any suit at all will suit.`,
   })),
   /*

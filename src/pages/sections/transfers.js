@@ -76,9 +76,9 @@ const transferSections = [{
     }),
   }, Copy.text({
     es: `Si <a class="pop" onclick="popUp('price')">pagas</a> al pasar por las tabernas,
-      tendrás un comodín desocupado;
-      lo cargas y, al momento en que requieras,
-      lo montas y liberas de tu mano.`,
+      tendrás un comodín desocupado.
+      Transpórtate en el turno que prefieras
+      y entonces lo liberas de tu mano.`,
     en: `When you pass by any tavern,
       you may <a class="pop" onclick="popUp('price')">buy</a> a joker card.
       Keep it till you’d like to travel,

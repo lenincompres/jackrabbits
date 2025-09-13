@@ -152,8 +152,8 @@ const neoclassicSections = [{
       plus two rabbits with new styles;
       and the joker's new profile—
       add its card to the court's isle.`,
-      `Tiles may have a sea-blue side—
-      leave it open to the tide.`
+      `Tiles may have a sea-blue side.
+      Leave it open to the tide.`
       ],
     })),
   },
@@ -214,8 +214,8 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: `Dispárate a la torre que prefieras,
       sin riesgo a terminar en las afueras.`,
-      en: `Take a trip across the air—
-      treach the tower you prefer.`,
+      en: `Take a trip across the air.
+      Reach the tower you prefer.`,
     })),
   }],
 }, {

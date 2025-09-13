@@ -48,9 +48,9 @@ const frontierSections = [{
         ya sea por tu cuenta o sin buscarlo,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
-      en: `Its extension underground
-      features two effects with fire.
-      Hop on out that very round, 
+      en: `Its extension underground,
+      which has two effects with fire,
+      lets you leave that very round, 
       paying what the dice require.
       And when turns are off-board bound,
       if that’s not what you desire,
@@ -131,7 +131,7 @@ const frontierSections = [{
       brindándole al subsuelo su mercado,
       que vende, por el cambio de tus sumas,
       las cartas de cualquiera de los palos.`,
-      en: `Trade with horseshoes underground
+      en: `Trade with horseshoes underground—
       at its shady marketplace.
       This extension, dark and brown,
       marks the expansion of the space.
@@ -154,11 +154,11 @@ const frontierSections = [{
       te llevan a sus cuevas, o te buscan.`,
       en: `Pay to summon a brown horse—
       on the islands where they're found.
-      They will reach you from their source
-      if it's possible by ground,
-      and they'll take you on your course,
-      even to the underground—
-      they may ride to the cave's doors
+      They will reach you from their source,
+      if it's possible by ground.
+      And they'll take you on your course,
+      even to the underground.
+      They may ride to the cave's doors,
       but will never venture down.`,
     })),
   }]
@@ -183,11 +183,11 @@ const frontierSections = [{
       se suma al resultado de los dados.
       En cuanto sobrepasa la docena,
       la pila se descarta de inmediato.`,
-      en: `Leaving acorns on display
-      adds them to the <i>overload</i>,
-      and the sum this pile will weigh
-      hikes the price when dice are rolled.
-      Please discard them right away
+      en: `Leaving acorns on display,
+      adds them to the <i>overload</i>.
+      Get a sum this pile will weigh—
+      add it to the dice when rolled.
+      Please discard it right away,
       when thirteen are on the load.`,
     })),
   }, {
@@ -204,9 +204,9 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-      en: `Pay wherever you may roam
-      to select where it is moved—
-      choose a proper kind of zone:
+      en: `Pay wherever you may roam,
+      and select where it is moved.
+      Choose a proper kind of zone:
       river, mountain, or the woods.
       Send off-board all those who come,
       lest they pay it as they should.

@@ -113,8 +113,8 @@ LightBox.add(new Pager({
     }),
     p: {
       content: versify(Copy.text({
-        es: `Suscríbete al listado de correos 
-          y apoya la campaña que tendremos.`,
+        es: `Suscríbete al listado de correos.
+          Apoya la campaña que tendremos.`,
         en: `Join the list on this domain—
           stay in touch for our campaign.`,
       })),
