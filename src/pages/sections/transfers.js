@@ -13,9 +13,9 @@ const transferSections = [{
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
     en: `Venture all along a path, 
-    you’ll move freely on your round;
-    even through an underpass
-    (see the mountains farther down).
+    and move freely on your round—
+    even through an underpass, 
+    see the mountains farther down.
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits upon the ground.
     Use the total on your dice:
