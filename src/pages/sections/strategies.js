@@ -98,7 +98,7 @@ const strategySections = [{
       If your target wins the war,
       they can’t steal the cards you hoard.
       If you steal a royal card, 
-      give one up if it’s your fourth;
+      give one up if it’s your fourth—
       take <b>the increment</b>’s reward,
       matching carrots in accord.`,
       /* 
