@@ -119,9 +119,9 @@ const setupPage = {
           y el orden de los turnos que le siguen.
           Me importa en lo absoluto tu sistema,
           ya lo hagas al azar o lo designes.`,
-          en: `Choose or roll for the first player, 
+          en: `Now select the starting player, 
           and the order of the turns.
-          Have your pick for this endeavor—
+          Choose your way for this endeavor—
           it is none of my concerns.`,
         })),
     }],
