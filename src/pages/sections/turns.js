@@ -62,7 +62,7 @@ const turnSections = [{
       reach the nearest hexagon.`,
       `Move on closer to your goal.
       Or perhaps don't move at all.`,
-      `Need more transportation modes?
+      `There are transportation modes.
       See <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
     ]
   })),
