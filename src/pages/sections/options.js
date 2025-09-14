@@ -41,10 +41,10 @@ const optionalSections = [
       A veces, sin las picas y sus duelos,
       podría complicársete vencer.`,
       en: `Have as many suits as players,
-      and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too—
-      meaning that with three contenders, 
+      and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
+      If there's only three contenders, 
       you’ll remove one set and suit.
-      Pick a fitting kind of ending—
+      Pick a fitting kind of ending:
       one that cards allow you to.
       Spades are often recommended—
       best for tribal game pursuit.`,
@@ -146,7 +146,7 @@ const optionalSections = [
         si exhibes corazones al pararte:
         tu mínimo de seis reglamentarios
         que juzgan a cualquiera al visitarte.`,
-      en: `Show your hearts while taking rest—
+      en: `Show your hearts while taking rest:
       six or more within your count.
       Question all incoming guests—
       never do this underground.`,
