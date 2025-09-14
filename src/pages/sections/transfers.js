@@ -60,13 +60,13 @@ const transferSections = [{
       y anuncies el transporte que prefieras.`,
     en: `Check out where road is forked—
       there's a horse and boat to ride. 
-      reach a hex across the board,
+      Reach a hex across the board,
       dashing over tiles in stride.
       Or select a road to port,
       gliding on the seas outside.
-      Choose and ride to your next post—
+      Choose and ride to your next post, 
       once you <a class="pop" onclick="popUp('price')">pay what has been priced</a>.
-      Landlocked merchants have no boats—
+      Landlocked merchants have no boats, 
       since they’re not by the seaside.`,
   }), {
     tag: "h4",
