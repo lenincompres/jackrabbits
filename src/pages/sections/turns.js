@@ -127,7 +127,7 @@ const turnSections = [{
       `*Hands should not exceed nine cards.
       Anyone who’s caught discards.`,
       `**Off the board there's no reward.
-      See the section named <a href="#intro/off"><b>off-board</b></a>.`,
+      See the rules about <a href="#intro/off"><b>off-board</b></a>.`,
     ]
   })),
 }];
