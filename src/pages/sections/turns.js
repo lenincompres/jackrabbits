@@ -28,8 +28,8 @@ const turnSections = [{
       if you show a card you hold.
       Prove it matches value-wise—
       either number you just rolled.`,
-      `Hands should hold less cards than ten.
-      Or discard to nine again.*`,
+      `Please discard if caught with ten.
+      Bring your hand to nine again.*`,
       `Hold the outcome of the dice.
       Transfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
     ]
