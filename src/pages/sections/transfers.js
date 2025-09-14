@@ -58,7 +58,7 @@ const transferSections = [{
       y arrivas por alguna carretera.
       Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
       y anuncies el transporte que prefieras.`,
-    en: `Check out where road is forked—
+    en: `Check out where road is forked, 
       there's a horse and boat to ride. 
       Reach a hex across the board,
       dashing over tiles in stride.
