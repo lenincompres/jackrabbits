@@ -36,8 +36,8 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `La pieza hexagonal en la que empiezas
         y acabas al traer a la nobleza.`,
-      en: `This is where the journey starts—
-        where you'll bring three royal cards.`
+      en: `Here is where the story starts.
+        Bring it forth three royal cards.`
     })),
   },
   underground: {
@@ -53,8 +53,8 @@ LightBox.add(new Pager({
         to reach caves in the next round.`,
       es: `La pieza hexagonal en la que esperas,
         sin pago por usar las madrigueras.`,
-      en: `This is where you wait for free—
-        reach the caves without a fee. `,
+      en: `Here is where you wait for free.
+        Reach the caves without a fee. `,
     })),
   },
   advancedCitadel: {
@@ -79,8 +79,8 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `Las piezas de los rombos y los triángulos,
         con vías que conectan los hexágonos.`,
-      en: `These are tiles with rides and treks—
-        they will take you hex to hex.`
+      en: `These are tiles with rides and treks.
+        They will take you hex to hex.`
     })),
   },
   sample: {
@@ -115,8 +115,8 @@ LightBox.add(new Pager({
       content: versify(Copy.text({
         es: `Suscríbete al listado de correos.
           Apoya la campaña que tendremos.`,
-        en: `Join the list on this domain—
-          stay in touch for our campaign.`,
+        en: `Join the list on this domain.
+          Stay in touch for our campaign.`,
       })),
     },
     iframe: {

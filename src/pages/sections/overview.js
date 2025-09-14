@@ -24,8 +24,8 @@ const overviewSection = {
         bringing numbered cards in hand.
         Claim their royals and return,
         holding three to rule the land.`,
-        `You must make <b>the acquisition</b>, 
-        with ten points that fit their suit.
+        `To fulfill <b>the acquisition</b>, 
+        add ten points that fit their suit.
         On your turns along the mission,
         you’ll be drawing cards as loot.`,
       ]

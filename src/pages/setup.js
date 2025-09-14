@@ -24,8 +24,8 @@ const setupPage = {
           you must first complete a board.
           Map it randomly from scratch,
           or revisit one explored.`,
-          `Link the houses in this spread—
-          royal tiles from every throne. 
+          `Link the hexes in this spread—
+          royal houses from each throne. 
           Build <a class="pop" onclick="popUp('sample')"><b>the sample</b></a> right ahead,
           or a <a class="pop" onclick="popUp('board')"><b>new board</b></a> of your own.`, ],
         }),

@@ -31,15 +31,15 @@ const boardSection = {
       Leave aside the <i>underground</i>. 
       Shuffle all the tiles that rest—
       all three shapes must lay facedown.`,
-      `Draw by shape in equal shares—
-      there are twelve of every kind—
-      as the players gather theirs,
+      `Draw by shape in equal shares,
+      there are twelve of every kind.
+      As the players gather theirs,
       the division comes out fine.`,
       `You may choose a placement style,
       either strict or free in pace.
-      Strict: with turns to place a tile—
+      Strict: with turns to place a tile,
       pick a tile to flip and place.
-      Free: with turns in loose freestyle—
+      Free: with turns in loose freestyle,
       flip all tiles to see their face.
       These suggestions are worthwhile
       as a guide in either case:`,

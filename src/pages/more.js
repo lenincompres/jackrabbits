@@ -15,8 +15,8 @@ const morePage = {
         Copy.text({
           es: `Visítanos al vínculo de arrriba
           y adquiere la edición en exclusiva.`,
-          en: `Buy your copy, stake your claim—
-          get your own <b>Jack Rabbits</b> game.`,
+          en: `Your own copy is here to claim.
+          Get a new <b>Jack Rabbits</b> game.`,
         })
       ),
     }, {
@@ -36,8 +36,8 @@ const morePage = {
       p: versify(Copy.text({
         es: `<b>Jack Rabbits</b>  en un rol educativo,
           con miras al análisis creativo.`,
-        en: `Let's promote critical thinking,
-          storytelling, and world-building.`,
+        en: `Let's promote critical thinking.
+          Play with stories and world-building.`,
       })),
     }, {
       h3: {
@@ -62,8 +62,8 @@ const morePage = {
         Copy.text({
           es: `El juego de <b>Jack Rabbits</b> digital,
           en línea y sin costo adicional.`,
-          en: `Start a game for free online—
-          play with friends in real-time`,
+          en: `Start a game for free online.
+          Play with friends in real-time`,
         })
       ),
     }, {
@@ -80,8 +80,8 @@ const morePage = {
         Copy.text({
           es: `El test revelará tu identidad
         y el símbolo de más afinidad.`,
-          en: `Click this link to take the test—
-          see what suit would suit you best.`,
+          en: `Click this link to take the test.
+          See what suit would suit you best.`,
         })
       ),
     }, {
@@ -98,8 +98,8 @@ const morePage = {
       p: versify(
         Copy.text({
           es: `El nuevo manuscrito en el que viajas 
-        al reino de conejos y barajas.`,
-          en: `Venture through a tale untold—
+          al reino de conejos y barajas.`,
+          en: `Venture through a tale untold:
           wonders, bloodlines, swords, and gold.`,
         })
       ),
