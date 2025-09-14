@@ -142,13 +142,13 @@ const strategySections = [{
       as you reach a queenly throne:
       “Show six points to prove you're blest,
       adding hearts from cards you own.”
-      Or declare you're honored guest—
+      Or declare you're honored guest, 
       with the Queen's card as is known.
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `But before they check your cards,
-      they're obliged to show their own—
-      even standing far apart—
+      they're obliged to show their own. 
+      Even standing far apart:
       prove they’re welcome in this zone.
       If you prove at least six hearts, 
       they will lose the cards they’ve shown.
