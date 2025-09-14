@@ -36,7 +36,7 @@ const strategySections = [{
     en: [
       `Show one card before you roll,
       if it beats the dice or ties,
-      pick a tower as a goal—
+      pick a tower as a goal, 
       take <b>the journey</b> through the skies.
       Or you’ll miss the board and fall—
       play <b>the lottery</b> likewise.
@@ -44,9 +44,9 @@ const strategySections = [{
       tumblers keep the card that tries.`,
       `Land your flight and don’t fall off,
       if you pay to reach the dice. 
-      Count how far your card was off—
+      Count how far your card was off:
       pay this shortfall to suffice.
-      See the hex where you took off—
+      See the hex where you took off, 
       just the suit from there applies.
       You may trade the shown card off,
       if the clubs fulfill the price.`,
@@ -98,7 +98,7 @@ const strategySections = [{
       If your target wins the war,
       they can’t steal the cards you hoard.
       If you steal a royal card, 
-      give one up if it’s your fourth—
+      give one up if it’s your fourth;
       take <b>the increment</b>’s reward,
       matching carrots in accord.`,
       /* 
@@ -174,11 +174,11 @@ const strategySections = [{
       que en estos por diamantes se canjean,
       o aceptan de cualquiera por el pago
       si el centro es el marcado con la estrella.`,
-    en: `All spent cards are being sold—
+    en: `All spent cards are being sold, 
       every <b>J</b>ack will sell its suit.
       Browse the lot their houses hold,
       where you may obtain this loot.
-      Match or overpay with gold—
+      Match or overpay with gold, 
       see the markings underfoot.
       Note the asterisk in bold:
       any suit at all will suit.`,
@@ -199,7 +199,7 @@ const strategySections = [{
     después del intercambio se destierra.`,
     en: `If agreed by all the parts,
     add <b class="diamonds">consented trades <sup>+</sup></b> to boot.
-    Deal in turn with diamond cards—
+    Deal in turn with diamond cards, 
     meet to trade or to dispute.
     Never show your hand’s rewards—
     strike a deal for your pursuit.
