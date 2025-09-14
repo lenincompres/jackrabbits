@@ -183,8 +183,8 @@ const optionalSections = [
         ya sea con las cartas que validas
         o incluso con un doble de los dados.`,
       en: `Win a bundle as your prize,
-        give the lottery no limits—
-        whether cards that match the dice,
+        give the lottery no limits.
+        Honor cards that match the dice,
         or when rolling double digits.`,
     })),
   }, {
