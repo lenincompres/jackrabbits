@@ -54,7 +54,7 @@ const turnSections = [{
       Consulta <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
-      `You may choose a path to exit—
+      `You may choose a path to exit, 
       any from the hex you’re on.
       Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected, 
       let your rabbit venture on.
