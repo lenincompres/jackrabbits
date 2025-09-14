@@ -86,9 +86,9 @@ const turnSections = [{
       reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
-      `It’s your goal to claim the card—
+      `It’s your goal to claim the card, 
       marked on hexes you set foot.
-      Only there you may discard—
+      Only there you may discard:
       ten or more in pips that suit.
       Place a carrot as your mark,
       and remove it from pursuit.`,
