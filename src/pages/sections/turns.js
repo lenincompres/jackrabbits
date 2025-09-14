@@ -56,7 +56,7 @@ const turnSections = [{
     en: [
       `You may choose a path to exit—
       any from the hex you’re on.
-      Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected—
+      Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected, 
       let your rabbit venture on.
       Cross small tiles but never hexes—
       reach the nearest hexagon.`,
