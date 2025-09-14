@@ -16,10 +16,10 @@ const turnSections = [{
       coincide con un número en tus manos,
       demuestra con la carta pertinente
       que ganas la que rifan de regalo.`,
-      `El límite de cartas es de nueve;
-      descarta la que quieras si te excedes.*`,
-      `Conserva el resultado de los dados;
-      los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
+      `El límite de cartas es de nueve. 
+      Descarta la que quieras si te excedes.*`,
+      `Conserva el resultado de los dados. 
+      Los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
     ],
     en: [
       `Start your turns by rolling dice,
@@ -48,10 +48,10 @@ const turnSections = [{
       llevando tu conejo peregrino.
       Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
-      `Recuerda que moverte es opcional;
-      depende de tu meta a visitar.`,
-      `Podrías expandir tus travesías;
-      consulta <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
+      `Recuerda que moverte es opcional. 
+      Depende de tu meta a visitar.`,
+      `Podrías expandir tus travesías. 
+      Consulta <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
       `You may choose a path to exit—
@@ -80,8 +80,8 @@ const turnSections = [{
       pagado con las cartas de sus marcas.
       Se dejan zanahorias en las piezas,
       que indican los conejos que las cargan.`,
-      `Es gratis acceder a los hexágonos;
-      mas debes detenerte visitándolos.`,
+      `Es gratis acceder a los hexágonos. 
+      Mas debes detenerte visitándolos.`,
       `Conserva lo que adquieras en tu mano;
       reclama <b>el incremento</b> de inmediato.`,
     ],
@@ -112,10 +112,10 @@ const turnSections = [{
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
       baraja las del lote y recopila.`,
-      `*Respeta lo del límite de cartas;
-      o ignóralo si nadie se percata.`,
-      `**Podrías terminar sin incremento;
-      revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
+      `*Respeta lo del límite de cartas. 
+      O ignóralo si nadie se percata.`,
+      `**Podrías terminar sin incremento. 
+      Revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
     ],
     en: [
       `End your turns on a hex tile—
