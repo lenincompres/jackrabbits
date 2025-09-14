@@ -12,13 +12,13 @@ const transferSections = [{
       marcados a mitad de los polígonos,
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
-    en: `Venture all along a path—
+    en: `Venture all along a path, 
     you’ll move freely on your round;
     even through an underpass
     (see the mountains farther down).
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits upon the ground.
-    Use the total on your dice—
+    Use the total on your dice:
     that's the minimum amount.`,
   }), {
     marginTop: '1.2rem',
@@ -38,7 +38,7 @@ const transferSections = [{
       with two roads not far apart, 
       let you hike between these two,
       cutting through the middle part.
-      <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
+      <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits:
       club or spade or even heart.`,
   })),
   img: ASSETS.rhombi,
@@ -97,11 +97,11 @@ const transferSections = [{
       metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.
       Descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
-    en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave—
+    en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave, 
       use this trick to hop around. 
       But if you prefer to save, 
       pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
-      Just a turn to wait and waive—
+      Just a turn to wait and waive, 
       hop on out the coming round.`,
   }), {
     tag: "a",
