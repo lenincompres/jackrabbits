@@ -87,7 +87,7 @@ const strategySections = [{
     en: [
       `You may steal a card at random,
       kicking someone off the board. 
-      Seek them out to seize their item— 
+      Be with them to seize their item— 
       once you put them to the sword.
       You go back and forth in tandem,
       adding spades to beat what’s scored.
