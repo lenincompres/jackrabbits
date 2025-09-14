@@ -65,7 +65,7 @@ const setupPage = {
           you will form a faceup aisle.
           What remains are <i>pips</i> in number,
           and the <i>aces</i> of each style.
-          Give a shuffle as if in poker—
+          Give a shuffle as if in poker, 
           form the facedown drawing <i>pile</i>.`,
         }),
         ASSETS.cards,
@@ -78,11 +78,11 @@ const setupPage = {
           a cada concursante, individuales.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
-          en: `Every player gets three cards— 
+          en: `Every player gets three cards, 
           as their <i>hand</i> to start the chase.
-          They're resources each one guards—
+          They're resources each one guards, 
           for <b>the journey</b> they will face.
-          And they'll pay for the rewards—
+          And they'll pay for the rewards, 
           in <b>the acquisition</b> phase.`,
         }))
     }, {
@@ -97,7 +97,7 @@ const setupPage = {
           y allí en la <a class="pop" onclick="popUp('citadel')"><i>Ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
-          en: `Players choose their token rabbits—
+          en: `Players choose their token rabbits, 
           set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>.
           And collect their matching carrots—
           they get three of these as well.`,
