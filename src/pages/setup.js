@@ -14,7 +14,7 @@ const setupPage = {
         Copy.text({
           es: [`El mapa que usarás en la partida
           lo creas de improviso y previamente.
-          Las piezas que conectas por sus vías
+          Las piezas se conectan por sus vías
           en cientos de maneras diferentes.`,
           `El reino de las cartas y sus templos
           se ensambla en un diseño aleatorio.
