@@ -34,8 +34,8 @@ LightBox.add(new Pager({
     }),
     img: ASSETS.citadel,
     p: versify(Copy.text({
-      es: `La pieza hexagonal en la que empiezas
-        y acabas al traer a la nobleza.`,
+      es: `La pieza hexagonal en la que empiezas.
+        Aquí regrezarás con la nobleza.`,
       en: `Here is where the story starts.
         Bring it forth three royal cards.`
     })),
@@ -47,12 +47,8 @@ LightBox.add(new Pager({
     }),
     img: ASSETS.underground,
     p: versify(Copy.text({
-      es: `La pieza hexagonal en la que esperas
-        si vas a atravesar las madrigueras.`,
-      en: `The hex where you wait around
-        to reach caves in the next round.`,
-      es: `La pieza hexagonal en la que esperas,
-        sin pago por usar las madrigueras.`,
+      es: `La pieza hexagonal en la que esperas.
+        Es gratis al cruzar las madrigueras.`,
       en: `Here is where you wait for free.
         Reach the caves without a fee. `,
     })),
@@ -77,8 +73,8 @@ LightBox.add(new Pager({
     }),
     img: ASSETS.roadTiles,
     p: versify(Copy.text({
-      es: `Las piezas de los rombos y los triángulos,
-        con vías que conectan los hexágonos.`,
+      es: `Las piezas de los rombos y los triángulos.
+        Las cruzas al moverte a los hexágonos.`,
       en: `These are tiles with rides and treks.
         They will take you hex to hex.`
     })),

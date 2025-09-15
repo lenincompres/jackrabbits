@@ -14,8 +14,8 @@ const boardSection = {
       Revuelve bocabajo lo que queda:
       los rombos, los hexágonos y triángulos.`,
       `Reparte, o que en la mesa las recojan,
-      iguales cantidades de las piezas;
-      por formas geométricas, les tocan:
+      iguales cantidades de las piezas.
+      Por formas geométricas, les tocan:
       de a doce, dividido por cabeza.`,
       `Es hora de empezar a colocarlas
       (por turnos o con libre preferencia).
@@ -68,8 +68,8 @@ const boardSection = {
       y hacer la conexión consecutiva
       de piezas triangulares similares.<sup class="warning">!</sup>
       Las islas que desees las inicias
-      con una hexagonal a la que apartes;
-      y observa que el subsuelo, en exclusiva,
+      con una hexagonal a la que apartes.
+      Observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`,
     en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
       don’t connect two roads from hexes.<sup class="warning">x</sup>
