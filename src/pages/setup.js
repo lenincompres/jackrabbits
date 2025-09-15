@@ -61,8 +61,8 @@ const setupPage = {
           y doce que contienen personajes.`,
           en: `Lay the <i>court</i> in any order,
           after placing every tile.
-          With these <i>royal</i> cards and <i>jokers</i>,
-          you will form a faceup aisle.
+          These are <i>royal</i> cards and <i>jokers</i>,
+          and will form a faceup aisle.
           What remains are <i>pips</i> in number,
           and the <i>aces</i> of each style.
           Give a shuffle as if in poker, 
