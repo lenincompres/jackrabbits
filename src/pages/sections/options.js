@@ -193,10 +193,10 @@ const optionalSections = [
       en: "Overtaxed Hands",
     }),
     p: versify(Copy.text({
-      es: `Las cartas se tendrán en escasez,
-        pues cargas con un máximo de seis.`,
-      en: `Cap the cards you may accrue—
-        up to six to hold on to.`,
+      es: `Las cartas se tendrán en escasez.
+        Se cuenta con un máximo de seis.`,
+      en: `Trim the cards to hold on to. 
+        Up to six you may accrue. `,
     })),
   }, {
     h5: Copy.text({
@@ -204,10 +204,10 @@ const optionalSections = [
       en: "Seized Surplus",
     }),
     p: versify(Copy.text({
-      es: `Si ocultas un exceso en lo que tomas,
-        quienquiera que lo note te lo roba.`,
-      en: `If withholding cards you’re found,
-        your revealer robs you down.`,
+      es: `Cuidado del exceso en lo que tomas.        
+        Quienquiera que lo note te lo roba.`,
+      en: `Those witholding cards get found.
+        Now revealers rob them down.`,
     })),
   }, {
     h5: Copy.text({

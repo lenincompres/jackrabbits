@@ -13,8 +13,8 @@ const transferSections = [{
       <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
     en: `Venture all along a path, 
-    and move freely on your round—
-    even through an underpass, 
+    and move freely on your round.
+    This includes the underpass—
     see the mountains farther down.
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits upon the ground.

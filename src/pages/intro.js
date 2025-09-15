@@ -11,8 +11,8 @@ const introPage = {
         en: "The 4 PHASES of each turn",
       })),
       p: versify(Copy.text({
-        es: `Comprende el material preliminar
-          al <a href="#full"><b>juego completivo</b></a> regular.`,
+        es: `Comprende el material preliminar.
+          Ya luego aprenderás el regular.`,
         en: `Learn each phase’s role and name. 
           Then attempt the <a href="#full"><b>standard game</b></a>.`,
       })),
@@ -32,8 +32,8 @@ const introPage = {
   }],
   footer: {
     p: versify(Copy.text({
-      es: `Primero jugarás el principiante.
-      El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante.`,
+      es: `El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante.
+      Primero jugarás el principiante.`,
       en: `First the <a href="#intro"><b>intro</b></a>’s understood.
       Then the <a href="#full"><b><big>standard game</big></b></a>’s pursued.`,
     })),
