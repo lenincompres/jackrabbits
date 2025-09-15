@@ -18,7 +18,7 @@ const transferSections = [{
     see the mountains farther down.
     Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
     paid in suits upon the ground.
-    Use the total on your dice:
+    Pay the total on your dice—
     that's the minimum amount.`,
   }), {
     marginTop: '1.2rem',
