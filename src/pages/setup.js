@@ -106,7 +106,7 @@ const setupPage = {
         Copy.text({
           es: `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
           descrito en el principio de las reglas.
-          Y a menos que se juegue por el simple,
+          A menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
           en: `See what fits to <a class="pop" onclick="popUp('endings')"><b>end the game</b></a>,
           and select the quest you’re on.
@@ -118,7 +118,7 @@ const setupPage = {
           es: `Elige a la persona que comienza
           y el orden de los turnos que le siguen.
           Me importa en lo absoluto tu sistema,
-          ya lo hagas al azar o lo designes.`,
+          que lo hagas al azar o lo designes.`,
           en: `Now select the starting player, 
           and the order of the turns.
           Choose your way for this endeavor—
