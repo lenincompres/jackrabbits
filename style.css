@@ -166,7 +166,12 @@ p:last-child {
   margin-bottom: 0;
 }
 
-p>div>span {
+li {
+  width: min-content;
+}
+
+p>div>span,
+li>div>span {
   display: inline-block;
   text-wrap: nowrap;
 }
@@ -637,20 +642,23 @@ article.main>article>section>section {
 
 ul.exception {
   text-align: left;
-  text-indent: -0.5rem;
-  padding-left: 0.5rem;
-  letter-spacing: -0.045em;
-  width: 18em;
+  padding-left: 1rem;
+  width: fit-content;
   margin: 0 auto;
 }
 
 ul.exception>li::before {
   content: "•";
-  margin-right: 0.25em;
+    float: left;
+    margin-left: -1em;
 }
 
 ul.exception>li:first-child:before {
   content: "○";
+}
+
+ul.exception>li>div {
+  width: min-content;
 }
 
 body>footer {

@@ -30,23 +30,24 @@ const endingSection = {
       to display the win condition:`,
     })),
   ul_exception: {
-    li: Copy.text({
+    li: versify(Copy.text({
       es: [
-        `<b>simple</b>: traer tres cartas reales, 
-        con cualquier letras o <i>palos</i> (símbolos);`,
-        `<b>diverso</b>: las tres serán de palos distintos;`,
-        `<b>monárquico</b>: traer exactamente una <b>K</b> + una <b>Q</b> + una <b>J</b>, sin importar sus palos;`,
-        `<b>diverso y monárquico</b>: traer una <b>K</b> + una <b>Q</b> + una <b>J</b>, de tres palos distintos;`,
-        `<b>tribal</b>: traer las tres de un mismo palo.`,
+        `El <b>simple</b>: con reales cualesquiera;`,
+        `<b>diverso</b>: que varíen en sus palos;`,
+        `<b>monárquico</b>: distintas en sus letras;`,
+        `<b>monárquico</b> y <b>diverso</b>: combinados;`,
+        `<b>tribal</b>: con las de palo que concuerdan.
+        El último es difícil de lograrlo.`,
       ],
       en: [
-        `<b>simple</b>: get any three royal cards.`,
-        `<b>diverse</b>: get any three royal cards, each from a different suit.`,
-        `<b>monarchic</b>: get a <b>K + Q + J</b>, from any suits.`,
-        `<b>diverse + monarchic</b>: get a <b>K + Q + J</b>, each from a different suit.`,
-        `<b>tribal</b>: get the three of the same suit.`,
+        `<b>simple</b>: any royal cards.`,
+        `Or <b>diverse</b>: distinct in suits.`,
+        `Or <b>monarchic</b>: <b>k</b>ing-<b>q</b>ueen-<b>j</b>ack.`,
+        `Or <b>diverse</b> <b>monarchic</b> too.`,
+        `Or the <b>tribal</b>, which is hard:
+        royals in one suit pursuit.`,
       ]
-    }),
+    })),
   }
 };
 

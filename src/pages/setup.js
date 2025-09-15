@@ -65,8 +65,8 @@ const setupPage = {
           and will form a faceup aisle.
           What remains are <i>pips</i> in number,
           and the <i>aces</i> of each style.
-          Give a shuffle as if in poker, 
-          form the facedown drawing <i>pile</i>.`,
+          Give a shuffle as in poker— 
+          form a facedown drawing <i>pile</i>.`,
         }),
         ASSETS.cards,
         Copy.text({
