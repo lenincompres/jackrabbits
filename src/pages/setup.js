@@ -13,12 +13,12 @@ const setupPage = {
       p: versify(
         Copy.text({
           es: [`El mapa que usarás en la partida
-          lo creas de improviso y previamente,
-          con piezas que conectas por sus vías
+          lo creas de improviso y previamente.
+          Las piezas que conectas por sus vías
           en cientos de maneras diferentes.`,
           `El reino de las cartas y sus templos
-          se ensambla en un diseño aleatorio;
-          comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
+          se ensambla en un diseño aleatorio.
+          Comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
           o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,],
           en: [`At the start of every match,
           you must first complete a board.
@@ -105,8 +105,8 @@ const setupPage = {
         ASSETS.tokens,
         Copy.text({
           es: `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
-          descrito en el principio de las reglas;
-          y a menos que se juegue por el simple,
+          descrito en el principio de las reglas.
+          Y a menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
           en: `See what fits to <a class="pop" onclick="popUp('endings')"><b>end the game</b></a>,
           and select the quest you’re on.

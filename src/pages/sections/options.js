@@ -107,8 +107,8 @@ const optionalSections = [
     }),
     p: versify(Copy.text({
       es: `Los <b>ases capitales</b> que se exponen
-        se cuentan por un <b>1</b> permanente;
-        si el palo que precisas corresponde,
+        se cuentan por un <b>1</b> permanente.
+        Si el palo que precisas corresponde,
         lo añades del que tienes en tu frente.`,
       en: `When you play <b>capital Aces</b>,
         add a stable bonus tip.
@@ -128,8 +128,8 @@ const optionalSections = [
     }),
     p: versify(Copy.text({
       es: `Las plazas, Ciudadela y los palacios
-        se añaden al destino de los vuelos;
-        podrás aterrizar en los hexágonos,
+        se añaden al destino de los vuelos.
+        Podrás aterrizar en los hexágonos,
         excepto por supuesto en el subsuelo.`,
       en: `When you fly from any tower, 
         find more places to touch down.
@@ -158,8 +158,8 @@ const optionalSections = [
     }),
     p: versify(Copy.text({
       es: `Podrás incrementar la travesía
-        si está tu zanahoria en un lugar;
-        logrando que el turno que visitas,
+        si está tu zanahoria en un lugar.
+        Permite que el turno que visitas
         avances sin parar a descansar.`,
       en: `If your carrot’s on a hex,
         you may visit and move on.
@@ -182,7 +182,7 @@ const optionalSections = [
         por múltiples aciertos y regalos,
         ya sea con las cartas que validas
         o incluso con un doble de los dados.`,
-      en: `Win a bundle as your prize,
+      en: `Win a bundle as the prize,
         give the lottery no limits.
         Honor cards that match the dice,
         or when rolling double digits.`,

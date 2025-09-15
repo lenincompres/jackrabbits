@@ -20,7 +20,7 @@ const priceSection = {
       y <b>10</b> por las reales o con letras.
       Recuerda: si es que gastas las reales,
       quitar tu zanahoria de sus piezas;
-      y, en vez de terminar en el descarte,
+      y no las dejarás en el descarte,
       regresan a la corte en la que empiezan.`,
     ],
     en: [
