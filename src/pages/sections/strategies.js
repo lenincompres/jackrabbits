@@ -35,7 +35,7 @@ const strategySections = [{
     ],
     en: [
       `Show one card before you roll,
-      for <b>the journey</b> through the skies.
+      take <b>the journey</b> to the skies.
       Pick a tower as a goal,
       if it beats the dice or ties. 
       Or you’ll miss the board and fall—

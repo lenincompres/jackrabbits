@@ -38,8 +38,8 @@ const setupPage = {
           usando los conejos que se mueven.
           Y añádeles las cartas y sus reglas
           si captan a medida que las prueben.`],
-          en: `With the children under nine,
-          have them play to build the land.
+          en: `If there's children under nine,
+          only play to build the land.
           Then explore what they design—
           with a rabbit in their hand.
           Add the card deck down the line,

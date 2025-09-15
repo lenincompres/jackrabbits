@@ -24,12 +24,12 @@ const priceSection = {
       regresan a la corte en la que empiezan.`,
     ],
     en: [
-      `For the Transfers on the way,
+      `For the transfers on the way,
       pay the total on the dice. 
       But in case you overpay, 
       then consider that the price.
       Use as many cards to pay—
-      check each symbol qualifies.`,
+      if each symbol qualifies.`,
       `Set aside the cards you spend—
       they’re <i>discarded</i> once you’re done. 
       Royals may be spent as <b>10</b>,

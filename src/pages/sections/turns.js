@@ -119,7 +119,7 @@ const turnSections = [{
     ],
     en: [
       `End your turns on a hex tile—
-      though you may end up ashore.** 
+      if you don't end up ashore.** 
       Get a new card from the pile, 
       and your turn will be no more. 
       You may need to first repile:
