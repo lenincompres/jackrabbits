@@ -98,7 +98,7 @@ const optionalSections = [
       en: `Your first <b>A</b>ce is worth <b>11</b>,
         and the rest you spend are <b>1</b>s.
         As a record that it’s spent then, 
-        keep it in front of your hands.`,
+        keep it laid before your hands.`,
     })),
   }, {
     h5: Copy.text({
