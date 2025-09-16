@@ -125,8 +125,8 @@ const transferSections = [{
       on a road that leads outbound,
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
-      Once your <b>lottery</b>'s off-board,
-      end your <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
+      Next your <b>lottery</b>'s off-board,
+      and you'll <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
       There your <b>increment</b>’s restored,
       and you’ll wait another round.`,
   })),

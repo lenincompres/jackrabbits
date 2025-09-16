@@ -58,7 +58,7 @@ const turnSections = [{
       from the current hex you’re on.
       Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected, 
       let your rabbit venture on.
-      Cross small tiles but never hexes—
+      Cross small tiles but stop at hexes—
       reach the nearest hexagon.`,
       `Move on closer to your goal.
       Or perhaps don't move at all.`,
@@ -89,7 +89,7 @@ const turnSections = [{
       `It’s your goal to claim the card, 
       marked on hexes you set foot.
       Only there you may discard:
-      ten or more in pips that suit.
+      ten or more in that card's suit.
       Place a carrot as your mark,
       and remove it from pursuit.`,
       `You may always be a guest.

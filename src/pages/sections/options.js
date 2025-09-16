@@ -185,7 +185,7 @@ const optionalSections = [
       en: `Win a bundle as the prize,
         give the lottery no limits.
         Honor cards that match the dice,
-        or when rolling double digits.`,
+        and when matching double digits.`,
     })),
   }, {
     h5: Copy.text({

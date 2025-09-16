@@ -45,8 +45,8 @@ const strategySections = [{
       `Land your flight and don’t fall off,
       if you pay to reach the dice. 
       Count how far your card was off:
-      pay this shortfall to suffice.
-      See the hex where you took off, 
+      pay this shortfall to suffice—
+      see the hex where you took off, 
       just the suit from there applies.
       You may trade the shown card off,
       if the clubs fulfill the price.`,
@@ -130,8 +130,8 @@ const strategySections = [{
       y niegas que tu suma se cerciore.
       Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
-      que muestre previamente que las tenga,
-      las cartas con aquellas condiciones.
+      que muestre corazones de su cuenta,
+      lo mínimo de aquellas condiciones.
       Pues pierde lo mostrado y se destierra
       si pruebas que te acusa sin razones.
       Tampoco se permiten exigencias
@@ -143,13 +143,13 @@ const strategySections = [{
       “Show six points to prove you're blest,
       adding hearts from cards you own.”
       Or declare you're honored guest, 
-      with the Queen's card as is known.
+      with the Queen's card from this zone.
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `But before they check your cards,
       they're obliged to show their own. 
       Even standing far apart:
-      prove they’re welcome in this zone.
+      prove their blessing state is known.
       If you prove at least six hearts, 
       they will lose the cards they’ve shown.
       Either one who's wrong departs—
@@ -198,9 +198,9 @@ const strategySections = [{
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
     en: `If agreed by all the parts,
-    add <b class="diamonds">consented trades <sup>+</sup></b> to boot.
-    Deal in turn with diamond cards, 
-    meet to trade or to dispute.
+    add <b class="diamonds">consented trades <sup>+</sup></b> to boot:
+    deal in turn with diamond cards, 
+    if you meet where they set foot.
     Never show your hand’s rewards—
     strike a deal for your pursuit.
     If what's traded proves a farce,
