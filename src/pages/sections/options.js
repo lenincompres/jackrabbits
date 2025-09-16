@@ -195,7 +195,7 @@ const optionalSections = [
     p: versify(Copy.text({
       es: `Las cartas se tendrán en escasez.
         Se cuenta con un máximo de seis.`,
-      en: `Trim the cards to hold on to. 
+      en: `Trim the cards you hold on to. 
         Up to six you may accrue. `,
     })),
   }, {
