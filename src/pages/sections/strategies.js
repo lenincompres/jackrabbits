@@ -143,7 +143,7 @@ const strategySections = [{
       “Show six points to prove you're blest,
       adding hearts from cards you own.”
       Or declare you're honored guest, 
-      with the Queen's card from this zone.
+      with the card that marks this zone.
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
       `But before they check your cards,
