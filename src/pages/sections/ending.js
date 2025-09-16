@@ -27,7 +27,7 @@ const endingSection = {
       en: `But before the quest may start, 
       choose a challenge for the mission.
       Set its circle as a mark,
-      for the trio's condition:`,
+      for the trio's win condition:`,
     })),
   ul_exception: {
     li: versify(Copy.text({
