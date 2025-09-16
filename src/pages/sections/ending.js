@@ -43,7 +43,7 @@ const endingSection = {
         `<b>simple</b>: any royal cards.`,
         `Or <b>diverse</b>: distinct in suits.`,
         `Or <b>monarchic</b>: <b>k</b>ing-<b>q</b>ueen-<b>j</b>ack.`,
-        `Or <b>diverse</b> <b>monarchic</b> too.`,
+        `Or <b>diverse</b>-<b>monarchic</b> too.`,
         `Or the <b>tribal</b>, which is hard:
         royals in one suit pursuit.`,
       ]
