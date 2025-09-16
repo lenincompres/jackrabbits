@@ -82,7 +82,7 @@ const setupPage = {
           that's their <i>hand</i> to start the chase.
           They're resources each one guards, 
           fund <b>the journey</b> they will face.
-          And pay royals your regards— 
+          And pay royals their regards— 
           see <b>the acquisition</b> phase.`,
         }))
     }, {
