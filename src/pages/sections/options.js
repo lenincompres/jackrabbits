@@ -43,7 +43,7 @@ const optionalSections = [
       en: `Have as many suits as players,
       and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
       If there's only three contenders, 
-      you’ll remove one set and suit.
+      you’ll remove a set and suit.
       Pick a fitting kind of ending:
       one that cards allow you to.
       Spades are often recommended—
