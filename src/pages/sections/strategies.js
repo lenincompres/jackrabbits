@@ -149,7 +149,7 @@ const strategySections = [{
       `But before they check your cards,
       they're obliged to show their own. 
       Even standing far apart:
-      prove their blessing state is known.
+      let the proof they're blest be known.
       If you prove at least six hearts, 
       they will lose the cards they’ve shown.
       Either one who's wrong departs—
