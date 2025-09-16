@@ -206,7 +206,7 @@ const optionalSections = [
     p: versify(Copy.text({
       es: `Cuidado del exceso en lo que tomas.        
         Quienquiera que lo note te lo roba.`,
-      en: `Those witholding cards get found.
+      en: `Don't get caught with cards abound.
         Now revealers rob them down.`,
     })),
   }, {
