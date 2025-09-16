@@ -83,7 +83,7 @@ const setupPage = {
           They're resources each one guards, 
           fund <b>the journey</b> they will face.
           And pay royals their regards— 
-          see <b>the acquisition</b> phase.`,
+          per <b>the acquisition</b> phase.`,
         }))
     }, {
       h2: 3,
