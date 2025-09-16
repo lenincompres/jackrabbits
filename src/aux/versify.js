@@ -3,11 +3,11 @@ function versify(...args) {
   args.forEach(arg => Array.isArray(arg) ? poem.push(...arg) : poem.push(arg));
   let stanzas = poem.map(p => {
     if (typeof p !== "string") return p;
-    let spans = p.split('\n').map((line, i) => line.trim() + (line.endsWith("—") || line.endsWith('--</span>') ? "" : "&nbsp;"));
+    let lines = p.split('\n').map((line, i) => line.trim());
     let divs = [];
-    for (let i = 0; i < spans.length; i += 2) {
+    for (let i = 0; i < lines.length; i += 2) {
       divs.push({
-        span: [spans[i], spans[i + 1]],
+        span: [lines[i], lines[i + 1]],
       });
     }
     return ({

@@ -73,7 +73,7 @@ body {
 
   article.main>article>section,
   html[lang="es"] article.main>article>section {
-    width: 20rem !important;
+    width: 21rem !important;
   }
 
   header>a.buy {
@@ -170,6 +170,12 @@ p>div>span,
 ul.exception>li>div>span {
   display: inline-block;
   text-wrap: nowrap;
+  margin: 0 0.25em;
+}
+
+p>div>span:first-child>span,
+ul.exception>li>div>span:first-child>span {
+  margin-right: -0.5em;
 }
 
 a {
@@ -624,7 +630,7 @@ article.main>article>section {
   justify-content: center !important;
   width: 21.5rem;
   margin: 0.5rem 0.25rem;
-  padding: 2rem 1rem;
+  padding: 2rem 0.6rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
