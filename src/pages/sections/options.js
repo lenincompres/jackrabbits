@@ -207,7 +207,7 @@ const optionalSections = [
       es: `Cuidado del exceso en lo que tomas.        
         Quienquiera que lo note te lo roba.`,
       en: `Don't get caught with cards abound.
-        Now revealers rob them down.`,
+        Your revealer robs you down.`,
     })),
   }, {
     h5: Copy.text({
