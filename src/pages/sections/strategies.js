@@ -202,7 +202,7 @@ const strategySections = [{
     deal in turn with diamond cards, 
     if you meet where they set foot.
     Never show your hand’s rewards—
-    strike a deal for your pursuit.
+    strike a deal beyond dispute.
     If what's traded proves a farce,
     swindlers get the off-board boot.`,
   })),
