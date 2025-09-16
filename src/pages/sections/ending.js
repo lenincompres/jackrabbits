@@ -33,8 +33,8 @@ const endingSection = {
     li: versify(Copy.text({
       es: [
         `El <b>simple</b>: con reales cualesquiera;`,
-        `<b>diverso</b>: que varíen en sus palos;`,
-        `<b>monárquico</b>: distintas en sus letras;`,
+        `<b>diverso</b>: que varíen en su palo;`,
+        `<b>monárquico</b>: distintas en su letra;`,
         `<b>monárquico</b> y <b>diverso</b>: combinados;`,
         `<b>tribal</b>: con las de palo que concuerdan.
         El último es difícil de lograrlo.`,
