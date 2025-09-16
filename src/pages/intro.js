@@ -33,7 +33,7 @@ const introPage = {
   footer: {
     p: versify(Copy.text({
       es: `El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante.
-      Primero jugarás el principiante.`,
+      Domina de primero el principiante.`,
       en: `First the <a href="#intro"><b>intro</b></a>’s understood.
       Then the <a href="#full"><b><big>standard game</big></b></a>’s pursued.`,
     })),
