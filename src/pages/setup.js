@@ -79,11 +79,11 @@ const setupPage = {
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
           en: `Every player gets three cards, 
-          as their <i>hand</i> to start the chase.
+          that's their <i>hand</i> to start the chase.
           They're resources each one guards, 
           for <b>the journey</b> they will face.
-          And they'll pay for the rewards, 
-          in <b>the acquisition</b> phase.`,
+          And they'll pay for the rewards— 
+          see <b>the acquisition</b> phase.`,
         }))
     }, {
       h2: 3,
