@@ -64,7 +64,7 @@ const transferSections = [{
       dashing over tiles in stride.
       Or select a road to port,
       gliding on the seas outside.
-      Choose a ride and reach your post, 
+      Choose a ride and reach your post—
       if you <a class="pop" onclick="popUp('price')">pay what has been priced</a>.
       Landlocked merchants have no boats, 
       since they’re not by the seaside.`,
