@@ -45,8 +45,8 @@ const strategySections = [{
       `Land your flight and don’t fall off,
       if you pay to reach the dice. 
       Count how far your card was off:
-      pay this shortfall to suffice—
-      see the hex where you took off, 
+      pay this shortfall to suffice. 
+      Note the hex where you took off, 
       just the suit from there applies.
       You may trade the shown card off,
       if the clubs fulfill the price.`,
