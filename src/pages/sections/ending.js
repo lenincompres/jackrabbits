@@ -36,7 +36,7 @@ const endingSection = {
         `<b>diverso</b>: que varíen en su palo;`,
         `<b>monárquico</b>: distintas en su letra;`,
         `<b>monárquico</b> y <b>diverso</b>: combinados;`,
-        `<b>tribal</b>: con las de palo que concuerdan.
+        `<b>tribal</b>: en la que el palo les concuerda.
         El último es difícil de lograrlo.`,
       ],
       en: [
