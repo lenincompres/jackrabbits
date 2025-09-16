@@ -146,7 +146,7 @@ const strategySections = [{
       with the card that marks this zone.
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
-      `But before they check your cards,
+      `Yet before they check your cards,
       they're obliged to show their own. 
       Even standing far apart:
       let the proof they're blest be known.
