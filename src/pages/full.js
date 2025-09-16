@@ -12,7 +12,7 @@ const fullPage = {
       })),
       p: versify(Copy.text({
         es: `Añades el capítulo restante.
-          Con este jugarás en lo adelante.`,
+          Con estas jugarás en lo adelante.`,
         en: `Now the challenge is afoot.
           Add these strategies per suit.`
       })),
