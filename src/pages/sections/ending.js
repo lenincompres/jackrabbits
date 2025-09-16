@@ -35,7 +35,7 @@ const endingSection = {
         `El <b>simple</b>: con reales cualesquiera;`,
         `<b>diverso</b>: que varíen en su palo;`,
         `<b>monárquico</b>: distintas en su letra;`,
-        `<b>monárquico</b> y <b>diverso</b>: combinados;`,
+        `<b>monárquico</b> y <b>diverso</b> combinado;`,
         `<b>tribal</b>: en la que el palo les concuerda.
         El último es difícil de lograrlo.`,
       ],
