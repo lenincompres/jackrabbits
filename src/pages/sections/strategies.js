@@ -77,7 +77,7 @@ const strategySections = [{
       a ciegas deberás seleccionarla.
       Te toca <b>el incremento</b> y que descanses,
       si robas y la carta es de monarca;
-      también eligiras la que descartes, 
+      también eligirás la que descartes, 
       si acaso la que robas es tu cuarta.`,
       /*
       Asalta en un combate sin empates, 
