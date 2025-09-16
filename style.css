@@ -166,12 +166,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-li {
-  width: min-content;
-}
-
 p>div>span,
-li>div>span {
+ul.exception>li>div>span {
   display: inline-block;
   text-wrap: nowrap;
 }
@@ -655,6 +651,10 @@ ul.exception>li::before {
 
 ul.exception>li:first-child:before {
   content: "○";
+}
+
+ul.exception>li {
+  width: min-content;
 }
 
 ul.exception>li>div {
