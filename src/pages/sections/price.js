@@ -24,7 +24,7 @@ const priceSection = {
       regresan a la corte en la que empiezan.`,
     ],
     en: [
-      `For the transfers on the way,
+      `For all transfers on the way,
       pay the total on the dice. 
       But in case you overpay, 
       then consider that the price.
