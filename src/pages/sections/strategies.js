@@ -151,7 +151,7 @@ const strategySections = [{
       Even standing far apart:
       let the proof they're blest be known.
       If you prove at least six hearts, 
-      they will lose the cards they’ve shown.
+      they'll discard what they have shown.
       Either one who's wrong departs—
       off the board the meddler's thrown.`,
     ]
