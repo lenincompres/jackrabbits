@@ -133,7 +133,7 @@ const optionalSections = [
         excepto por supuesto en el subsuelo.`,
       en: `When you fly from any tower, 
         find more places to touch down.
-        You may reach with the clubs’ power
+        Clubs expand their flying power—
         any hex above the ground.`,
     })),
   }, {
