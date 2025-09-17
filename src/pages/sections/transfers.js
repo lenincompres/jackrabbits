@@ -38,7 +38,7 @@ const transferSections = [{
       with two roads not far apart, 
       let you hike between these two,
       cutting through the middle part.
-      <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits:
+      <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
       club or spade or even heart.`,
   })),
   img: ASSETS.rhombi,
@@ -101,7 +101,7 @@ const transferSections = [{
       use this trick to hop around. 
       But if you prefer to save, 
       pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
-      Take this turn to wait and waive, 
+      Take this turn to wait and waive— 
       hop on out the coming round.`,
   }), {
     tag: "a",

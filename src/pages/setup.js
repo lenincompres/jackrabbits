@@ -16,18 +16,18 @@ const setupPage = {
           lo creas de improviso y previamente.
           Las piezas se conectan por sus vías
           en cientos de maneras diferentes.`,
-          `El reino de las cartas y sus templos
-          se ensambla en un diseño aleatorio.
-          Comienza por armar el del <a class="pop" onclick="popUp('sample')"><b>ejemplo</b></a>
-          o anímate a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,],
+          `El mapa es un diseño aleatorio
+          del reino de las cartas y sus templos.
+          Dirígetea  <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>
+          o intenta replicar el del ejemplo.`,],
           en: [`At the start of every match,
           you must first complete a board.
           Map it randomly from scratch,
           or revisit one explored.`,
           `Link the hexes in this spread—
           royal houses from each throne. 
-          Build <a class="pop" onclick="popUp('sample')"><b>the sample</b></a> right ahead,
-          or a <a class="pop" onclick="popUp('board')"><b>new board</b></a> of your own.`, ],
+          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a>  right ahead,
+          or this sample as is shown.`, ],
         }),
         ASSETS.thumbnailOf("sampleThumbnail", '8em', e => popUp("sample")),
         Copy.text({
@@ -129,7 +129,7 @@ const setupPage = {
   footer: {
     p: versify(Copy.text({
       es: `Ya tienes la misión y el territorio.
-        Comienza con un <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
+        Comienza con el <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
       en: `This concludes the setup frame. 
       Next you'll find the  <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),

@@ -146,9 +146,9 @@ const optionalSections = [
         decretas corazones por acceso,
         y acusas a cualquiera al visitarte,
         si no te detuviste en el subsuelo.`,
-      en: `Show one card of hearts and rest,
+      en: `Show one card of hearts and rest—
         anywhere but underground.
-        You'll contest incoming guests—
+        You'll contest incoming guests,
         who must meet that blest amount.`,
     })),
   }, {

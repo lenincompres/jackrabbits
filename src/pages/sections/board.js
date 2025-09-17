@@ -30,7 +30,7 @@ const boardSection = {
       `Place the <i>Citadel</i> hex first. 
       Leave aside the <i>underground</i>. 
       Shuffle all the tiles that rest—
-      all three shapes must lay facedown.`,
+      all three shapes are facing down.`,
       `Draw by shape in equal shares,
       there are twelve of every kind.
       As the players gather theirs,

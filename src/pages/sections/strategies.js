@@ -48,7 +48,7 @@ const strategySections = [{
       pay this shortfall to suffice. 
       Note the hex where you took off, 
       just the suit from there applies.
-      You may trade the shown card off,
+      You may trade the shown card off—
       if the clubs fulfill the price.`,
     ]
   })),
@@ -180,7 +180,7 @@ const strategySections = [{
       where you may obtain this loot.
       Match or overpay with gold, 
       see the markings underfoot.
-      Note the asterisk in bold:
+      Note the asterisk in bold—
       any suit at all will suit.`,
   })),
   /*
