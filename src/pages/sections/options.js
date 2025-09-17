@@ -144,12 +144,12 @@ const optionalSections = [
     p: versify(Copy.text({
       es: `Conviertes residencias en palacios
         si exhibes corazones al pararte:
-        tu mínimo de seis reglamentarios
-        que juzgan a cualquiera al visitarte.`,
-      en: `Show your hearts while taking rest:
-      six or more within your count.
-      Question all incoming guests—
-      never do this underground.`,
+        defines el valor reglamentario,
+        y acusas a cualquiera al visitarte.`,
+      en: `Show some hearts where you'll take rest, 
+        anywhere but underground.
+        You'll contest incoming guests—
+        who must meet that blest amount.`,
     })),
   }, {
     h5: Copy.text({
