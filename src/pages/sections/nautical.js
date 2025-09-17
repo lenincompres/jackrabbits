@@ -163,7 +163,7 @@ const nauticalSections = [{
       Pay wherever you may be 
       to have anyone exiled.
       Even those off-board at sea 
-      may be banished to this isle.
+      may be stranded in this isle.
       Underground, this cave is free, 
       and you're safe from facing trial.`,
     })),
