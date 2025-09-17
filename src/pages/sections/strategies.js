@@ -35,7 +35,7 @@ const strategySections = [{
     ],
     en: [
       `Show one card before you roll,
-      for <b>the journey</b> to the skies.
+      set <b>the journey</b> to the skies.
       Pick a tower as a goal,
       if it beats the dice or ties. 
       Or you’ll miss the board and fall—
@@ -49,7 +49,7 @@ const strategySections = [{
       Note the hex where you took off, 
       just the suit from there applies.
       You may trade the shown card off—
-      if the clubs fulfill the price.`,
+      where the clubs fulfill the price.`,
     ]
   })),
 }, {
