@@ -81,9 +81,9 @@ const frontierSections = [{
         si no te la elimina, se destierra.
         Prohibido en el subsuelo en absoluto.
         Lo puedes repetir si la perdieras.`,
-      en: `Show one card of shields at guests, 
-        as they visit where you stand.
-        They must leave off-board repressed, 
+      en: `Show one card of shields at guests: 
+        those who enter where you stand.
+        Make them leave off-board opressed, 
         or discard as much to land. 
         If they meet your shield's request, 
         you'll discard it from your hand.
