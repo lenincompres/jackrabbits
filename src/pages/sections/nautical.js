@@ -54,8 +54,8 @@ const nauticalSections = [{
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.
-      Guests may leave from there for free—
-      this location hosts a boat.`,
+      Guests may leave from there for free, 
+      riding on the tower's boat.`,
     })),
   }]
 }, {
