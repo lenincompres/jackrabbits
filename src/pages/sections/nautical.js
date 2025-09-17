@@ -159,11 +159,11 @@ const nauticalSections = [{
       La otra que es gratuita es la de entrada,
       que empieza conectada en el subsuelo.`,
       en: `There’s a cave that has a fee 
-      to escape its lonesome tile.
+      to escape its tower's tile.
       Pay wherever you may be 
       to have anyone exiled.
       Even those off-board at sea 
-      may be sentenced to this isle.
+      may be banished to this isle.
       Underground, this cave is free, 
       and you're safe from facing trial.`,
     })),
