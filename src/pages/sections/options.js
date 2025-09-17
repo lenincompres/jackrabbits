@@ -134,7 +134,7 @@ const optionalSections = [
       en: `When you fly from any tower, 
         find more places to touch down.
         Clubs expand their flying power—
-        any hex above the ground.`,
+        reach a hex above the ground.`,
     })),
   }, {
     h5_hearts: Copy.text({
