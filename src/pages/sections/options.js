@@ -148,7 +148,7 @@ const optionalSections = [
         si no te detuviste en el subsuelo.`,
       en: `Show one card of hearts and rest,
         anywhere but underground.
-        You'll contest incoming guests--
+        You'll contest incoming guests—
         who must meet that blest amount.`,
     })),
   }, {
