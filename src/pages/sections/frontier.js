@@ -73,7 +73,7 @@ const frontierSections = [{
       en: "Seal the hexes",
     }),
     p: versify(Copy.text({
-      es: Con una de tus cartas con escudos,
+      es: `Con una de tus cartas con escudos,
         que muestres a cualquiera que se acerca, 
         le exiges descartarlos con los suyos:
         que alcance su valor con las que pueda.
