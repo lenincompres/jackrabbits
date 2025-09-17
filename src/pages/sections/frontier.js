@@ -185,7 +185,7 @@ const frontierSections = [{
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display,
       adds them to the <i>overload</i>.
-      Get a sum this pile will weigh—
+      Get the sum this pile will weigh—
       add it to the dice when rolled.
       Please discard it right away,
       when thirteen are on the load.`,
