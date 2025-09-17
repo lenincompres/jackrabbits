@@ -142,11 +142,11 @@ const optionalSections = [
       en: "Provisional Palaces",
     }),
     p: versify(Copy.text({
-      es: `Conviertes residencias en palacios
-        si exhibes corazones al pararte:
-        defines el valor reglamentario,
-        y acusas a cualquiera al visitarte.`,
-      en: `Show some hearts where you'll take rest, 
+      es: `Si exhibes corazones al pararte,
+        su cuenta es el valor por el acceso,
+        que acusas a cualquiera al visitarte,
+        si no te detuviste en el subsuelo.`,
+      en: `Show some hearts when you take rest, 
         anywhere but underground.
         You'll contest incoming guests—
         who must meet that blest amount.`,
