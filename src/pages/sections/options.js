@@ -138,18 +138,18 @@ const optionalSections = [
     })),
   }, {
     h5_hearts: Copy.text({
-      es: "Palacios Provisionales",
-      en: "Provisional Palaces",
+      es: "Palacios Presenciales",
+      en: "Presential Palaces",
     }),
     p: versify(Copy.text({
       es: `Cuestionas al igual que en los palacios,
         con pruebas y destierro consecuentes,
         a quien se te presente en tu descanso,
         si no es en el subsuelo que te encuentres.`,
-      en: `Show one card of hearts and rest—
-        anywhere but underground.
-        You'll contest incoming guests,
-        who must meet that blest amount.`,
+      en: `When a guest comes where you rest,
+        say you're both on queenly grounds.
+        And as such, you may contest—
+        anywhere but underground.`,
     })),
   }, {
     h5: Copy.text({
