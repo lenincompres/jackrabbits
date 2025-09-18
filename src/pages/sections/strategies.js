@@ -96,7 +96,7 @@ const strategySections = [{
       `Note that tying scores is barred,
       and discard the spades outpoured.
       If your target wins the war,
-      they can’t steal the cards you hoard.
+      they can’t steal a card you hoard.
       If you steal a royal card, 
       give one up if it’s your fourth—
       take <b>the increment</b>’s reward,
