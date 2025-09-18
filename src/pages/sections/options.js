@@ -146,9 +146,9 @@ const optionalSections = [
         con pruebas y destierro consecuentes,
         a quien se te presente en tu descanso,
         si no es en el subsuelo que te encuentres.`,
-      en: `When a guest comes where you rest,
-        say you're both on queenly grounds.
-        This means that you may contest—
+      en: `If a guest comes where you rest,
+        claim you're both on queenly ground.
+        With this rule you may contest—
         anywhere but underground.`,
     })),
   }, {
