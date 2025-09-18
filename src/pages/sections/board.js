@@ -12,11 +12,9 @@ const boardSection = {
       `Empieza por poner la <i>Ciudadela</i>
       y el negro del <i>subsuelo</i>, separándolos.
       Revuelve bocabajo lo que queda:
-      los rombos, los hexágonos y triángulos.`,
-      `Reparte, o que en la mesa las recojan,
-      iguales cantidades de las piezas.
-      Por formas geométricas, les tocan:
-      de a doce, dividido por cabeza.`,
+      los rombos, los hexágonos y triángulos.
+      Repártelas por formas geométricas:
+      iguales cantidades en el cálculo.`,
       `Es hora de empezar a colocarlas
       (por turnos o con libre preferencia).
       Por <b>turnos</b>: se mantienen sin mirarlas,
@@ -29,20 +27,18 @@ const boardSection = {
     en: [
       `Place the <i>Citadel</i> hex first. 
       Leave aside the <i>underground</i>. 
-      Shuffle all the tiles that rest—
-      all three shapes are facing down.`,
-      `Draw by shape in equal shares,
-      there are twelve of every kind.
-      As the players gather theirs,
-      the division comes out fine.`,
+      Shuffle all the tiles that rest,
+      twelve of three shapes facing down.
+      Draw them out in equal shares—
+      players get the same ammount.`,
       `You may choose a placement style,
       either strict or free in pace.
       Strict: with turns to place a tile,
       pick a tile to flip and place.
       Free: with turns in loose freestyle,
       flip all tiles to see their face.
-      These suggestions are worthwhile
-      as a guide in either case:`,
+      These suggestions are worthwhile—
+      loosely meant in either case:`,
     ]
   })),
   figure: {

@@ -87,7 +87,7 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `Es útil en un juego introductorio.
         Lo típico es <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,
-      en: `Should be easy, nice and steady.
+      en: `Start your first game nice and steady.
         <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> when you're ready.`,
     })),
     img: ASSETS.sample,

@@ -653,12 +653,13 @@ ul.exception {
 
 ul.exception>li::before {
   content: "•";
-    float: left;
-    margin-left: -1em;
+  float: left;
+  margin-left: -0.5em;
 }
 
 ul.exception>li:first-child:before {
   content: "○";
+  content: "";
 }
 
 ul.exception>li {
