@@ -73,22 +73,22 @@ const frontierSections = [{
       en: "Seal the hexes",
     }),
     p: versify(Copy.text({
-      es: `Con una de tus cartas con escudos,
-        que muestres a cualquiera que se acerca, 
-        le exiges descartarlos con los suyos:
-        que alcance su valor con las que pueda.
-        Recuerda que la muestras en su turno;
-        si no te la elimina, se destierra.
-        Prohibido en el subsuelo en absoluto.
-        Lo puedes repetir si la perdieras.`,
-      en: `Show one card of shields at guests: 
-        those who enter where you stand.
-        Make them leave off-board opressed, 
-        or discard as much to land. 
-        If they meet your shield's request, 
-        you'll discard it from your hand.
-        You may show another next.
-        Underground, this shield is banned.`,
+      es: `Si exhibes en la mesa tus escudos,
+      clausuras el lugar en el que esperas.
+      Podría descartarlos con los suyos
+      quienquiera que te invada y los supera.
+      Un máximo de diez es tu recurso;
+      si evitan la invasión, los recuperas.
+      Prohibido en el subsuelo en absoluto.
+      Tan solo es invadiendo que se ingresa.`,
+      en: `Show your shields—ten pips or less—
+      seal the hex where you will stand.
+      Only those incoming guests 
+      who discard a higher band
+      have your shields discarded next—
+      so you lose them from your hand.
+      No one else reaches the hex.
+      Underground, this seal is banned.`,
     })),
   }, {
     h4_shields: Copy.text({
