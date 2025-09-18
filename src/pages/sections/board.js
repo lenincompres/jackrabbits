@@ -29,7 +29,7 @@ const boardSection = {
       Leave aside the <i>underground</i>. 
       Shuffle all the tiles that rest,
       twelve of three shapes facing down.
-      Draw them out in equal shares—
+      Spread them out for every guest—
       players get the same ammount.`,
       `You may choose a placement style,
       either strict or free in pace.
