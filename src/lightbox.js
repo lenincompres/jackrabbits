@@ -60,10 +60,10 @@ LightBox.add(new Pager({
     }),
     img: ASSETS.advancedCitadel,
     p: versify(Copy.text({
-      es: `La ficha del inicio es reforzada:
-        con torre, con palacio y con su plaza.`,
-      en: `Give the Citadel more power—
-      palace, plaza, and a tower.`
+      es: `La ficha del inicio es reforzada.
+        Es torre y es palacio con su plaza.`,
+      en: `Give the Citadel more power.
+        It's a palace-plaza-tower.`
     }))
   },
   roadTiles: {
