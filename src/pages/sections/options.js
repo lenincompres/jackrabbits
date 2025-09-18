@@ -142,10 +142,10 @@ const optionalSections = [
       en: "Provisional Palaces",
     }),
     p: versify(Copy.text({
-      es: `Con una de tus cartas, al pararte,
-        decretas corazones por acceso,
-        y acusas a cualquiera al visitarte,
-        si no te detuviste en el subsuelo.`,
+      es: `Cuestionas al igual que en los palacios,
+        con pruebas y destierro consecuentes,
+        a quien se te presente en tu descanso,
+        si no es en el subsuelo que te encuentres.`,
       en: `Show one card of hearts and rest—
         anywhere but underground.
         You'll contest incoming guests,
