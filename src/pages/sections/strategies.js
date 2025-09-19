@@ -200,7 +200,7 @@ const strategySections = [{
     en: `If agreed by all the parts,
     add <b class="diamonds">consented trades <sup>+</sup></b> to boot:
     deal in turn with diamond cards, 
-    meeting them where they set foot.
+    where both players have set foot.
     Never show your hand’s rewards—
     strike a deal beyond dispute.
     If what's traded proves a farce,
