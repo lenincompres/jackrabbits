@@ -147,7 +147,7 @@ const optionalSections = [
         a quien se te presente en tu descanso,
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
-        claim that you're on queenly ground.
+        you may stand your queenly ground.
         This allows you to contest—
         anywhere but underground.`,
     })),
