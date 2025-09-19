@@ -82,8 +82,8 @@ const turnSections = [{
       que indican los conejos que las cargan.`,
       `Es gratis acceder a los hexágonos. 
       Procura detenerte visitándolos.`,
-      `Conserva lo que adquieras en tu mano;
-      reclama <b>el incremento</b> de inmediato.`,
+      `Conserva lo que adquieras en tu mano. 
+      Reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
       `It’s your goal to claim the card—
