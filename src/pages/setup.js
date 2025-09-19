@@ -18,7 +18,7 @@ const setupPage = {
           en cientos de maneras diferentes.`,
           `El mapa es un diseño aleatorio
           del reino de las cartas y sus templos.
-          Dirígetea  <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>
+          Dirígete a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>
           o intenta replicar el del ejemplo.`,],
           en: [`At the start of every match,
           you must first complete a board.
