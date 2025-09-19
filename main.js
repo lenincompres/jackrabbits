@@ -114,4 +114,4 @@ DOM.set({
   aside: Array(CardNum).fill().map(() => new CardFloating({
     root: 'suityourself/',
   })),
-});
+}, true);
