@@ -3,6 +3,49 @@ import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
 const transferSections = [{
+  img: ASSETS.roadTiles,
+  section: {
+    class: "note",
+    h4: Copy.text({
+      es: "El precio",
+      en: "The price",
+    }),
+    p: versify(Copy.text({
+      es: [
+        `Las vías con los símbolos de cartas
+      te ofrecen un <i>traslado</i> de lugar.
+      La suma de los dados es la tasa
+      o el mínimo que tienes que pagar. 
+      Se pierde el sobrepago si te pasas;
+      los símbolos se pueden combinar.`,
+        `Las cartas se <i>descartan</i> al usarse,
+      dejándolas a un lado de la mesa.
+      Es <b>1</b> lo que cuentas por los ases,
+      y <b>10</b> por las reales o con letras.
+      Recuerda: si es que gastas las reales,
+      quitar tu zanahoria de sus piezas;
+      y no las dejarás en el descarte,
+      regresan a la corte en la que empiezan.`,
+      ],
+      en: [
+        `For all transfers on the way,
+      pay the total on the dice. 
+      But in case you overpay, 
+      then consider that the price.
+      Use as many cards to pay—
+      check each symbol qualifies.`,
+        `Set aside the cards you spend—
+      they’re <i>discarded</i> once you’re done. 
+      Royals may be spent as <b>10</b>,
+      and the <b>a</b>ces are worth <b>1</b>.`,
+        `If you spend a royal card,
+      place it in the courtly aisle.
+      And you must remove your mark—
+      take your carrot off their tile.`,
+      ]
+    })),
+  },
+}, {
   p: versify(Copy.text({
     es: `Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
@@ -10,13 +53,13 @@ const transferSections = [{
       se cruzan por sus túneles gratuitos.
       En cambio, si utilizas los traslados,
       marcados a mitad de los polígonos,
-      <a class="pop" onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
+      <b>el precio</b> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
-    en: `Venture all along a path, 
-    and move freely on your round.
+    en: `If you venture on the paths, 
+    you'll move freely on your round.
     This includes the underpass—
     see the mountains farther down.
-    Other movements have <a class="pop" onclick="popUp('price')">a price</a>,
+    Other movements have a price,
     paid in suits upon the ground.
     Pay the total on your dice—
     that's the minimum amount.`,
@@ -32,13 +75,13 @@ const transferSections = [{
       que ves en las imágenes de abajo,
       permiten que te cambies de camino
       cruzando por el centro en un atajo.
-      <a class="pop" onclick="popUp('price')">Si pagas</a> con cualquiera de los símbolos,
+      Si pagas con cualquiera de los símbolos,
       te cambias del camino que te trajo.`,
     en: `Mountains, rivers and the woods,
       with two roads not far apart, 
       let you hike between these two,
       cutting through the middle part.
-      <a class="pop" onclick="popUp('price')">Pay with cards</a> of proper suits—
+      Pay with cards of proper suits—
       club or spade or even heart.`,
   })),
   img: ASSETS.rhombi,
@@ -56,16 +99,16 @@ const transferSections = [{
       colinda con un lado a las afueras,
       te sales navegando por los mares
       y arrivas por alguna carretera.
-      Saldrás en el momento en el que <a class="pop" onclick="popUp('price')">pagues</a> 
+      Saldrás en el momento en el que pagues 
       y anuncies el transporte que prefieras.`,
-    en: `Wherever the road is forked, 
+    en: `On the tiles the road is forked,
       there's a horse and boat to ride. 
       Reach a hex across the board,
       dashing over tiles in stride.
       Or select a road to port,
       gliding on the seas outside.
       Choose a ride and reach your post—
-      if you <a class="pop" onclick="popUp('price')">pay what has been priced</a>.
+      if you pay what has been priced.
       Landlocked merchants have no boats, 
       since they’re not by the seaside.`,
   }), {
@@ -75,12 +118,12 @@ const transferSections = [{
       en: "Transfer via Joker",
     }),
   }, Copy.text({
-    es: `Si <a class="pop" onclick="popUp('price')">pagas</a> al pasar por las tabernas,
+    es: `Si al pasar por las tabernas,
       tendrás un comodín desocupado.
       Transpórtate en el turno que prefieras
       y entonces lo liberas de tu mano.`,
     en: `When you pass by any tavern,
-      you may <a class="pop" onclick="popUp('price')">buy</a> a joker card.
+      you may buy a joker card.
       Keep it till you’d like to travel,
       and release it afterward.`,
   })),
@@ -91,13 +134,13 @@ const transferSections = [{
     en: "Transfer via Rabbit hole",
   }),
   p: versify(Copy.text({
-    es: `Si <a class="pop" onclick="popUp('price')">pagas</a> en la entrada de las cuevas,
+    es: `Si en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
       metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.
       Descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
-    en: `<a class="pop" onclick="popUp('price')">Pay to travel</a> cave to cave, 
+    en: `Pay to travel cave to cave, 
       use this trick to hop around. 
       But if you prefer to save, 
       pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.

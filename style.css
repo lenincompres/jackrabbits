@@ -51,7 +51,7 @@ body {
   width: 100vw;
 }
 
-@media (width <=88rem) {
+@media (width <=90rem) {
   body {
     max-width: 45rem;
   }
@@ -476,6 +476,18 @@ article.main>article>section.letter {
   box-shadow: 1px 1px 3px black;
 }
 
+section.note {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px 3px black;
+  height: fit-content;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
 
 article.main>article.shuffle {
   display: flex;
@@ -598,7 +610,7 @@ article.main .heading,
 article.main>header {
   width: 100%;
   padding: 1rem;
-  margin: 1rem 2rem 0;
+  margin: 1rem 1rem 0;
   border: solid 1.7px black;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;

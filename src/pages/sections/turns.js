@@ -19,7 +19,7 @@ const turnSections = [{
       `El límite de cartas es de nueve. 
       Descarta la que quieras si te excedes.*`,
       `Conserva el resultado de los dados. 
-      Los usas en <a class="pop" onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
+      Los usas en <b>el precio</b> de traslados.`,
     ],
     en: [
       `Start your turns by rolling dice,
@@ -31,7 +31,7 @@ const turnSections = [{
       `Please discard if caught with ten.
       Bring your hand to nine again.*`,
       `Hold the outcome of the dice.
-      Transfers use it as <a class="pop" onclick="popUp('price')"><b>the price</b></a>.`
+      Transfers use it as <b>the price</b>.`
     ]
   })),
 }, {
@@ -56,7 +56,7 @@ const turnSections = [{
     en: [
       `You may choose a path to exit, 
       from the current hex you’re on.
-      Move along <a class="pop" onclick="popUp('roadTiles')">the road</a> selected, 
+      Move along the road selected, 
       let your rabbit venture on.
       Cross small tiles but stop at hexes—
       reach the nearest hexagon.`,

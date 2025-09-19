@@ -15,7 +15,7 @@ const optionalSections = [
     p: versify(Copy.text({
       es: `Si eliges la carátula de atrás,
       incluyes estrategias importantes:
-      se esperan corazones al entrar,
+      cuestionas corazones al entrar,
       canjeas lo que quieras con diamantes,
       y puedes con tus tréboles volar
       con palos cualesquiera de restante.`,
@@ -147,8 +147,8 @@ const optionalSections = [
         a quien se te presente en tu descanso,
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
-        claim you're both on queenly ground.
-        With this rule you may contest—
+        claim that you're on queenly ground.
+        This allows you to contest—
         anywhere but underground.`,
     })),
   }, {
