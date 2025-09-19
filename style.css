@@ -34,6 +34,10 @@
   --fleurs: #9B4977;
 }
 
+#pre-show {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
