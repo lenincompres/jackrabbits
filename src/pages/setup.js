@@ -36,7 +36,7 @@ const setupPage = {
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
-          Y añádeles las cartas y sus reglas
+          Añádeles las cartas y sus reglas
           si captan a medida que las prueben.`],
           en: `If there're children under nine,
           only play to build the land.
