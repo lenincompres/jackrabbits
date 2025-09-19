@@ -25,6 +25,7 @@ const CardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.inne
 
 DOM.set({
   link: "style.css",
+  content: "",
   header: {
     h1: {
       a: {
@@ -114,4 +115,4 @@ DOM.set({
   aside: Array(CardNum).fill().map(() => new CardFloating({
     root: 'suityourself/',
   })),
-}, true);
+});
