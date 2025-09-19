@@ -148,7 +148,7 @@ const optionalSections = [
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
         you may stand your queenly ground.
-        This allows you to contest—
+        So their presence you'll contest—
         anywhere but underground.`,
     })),
   }, {
