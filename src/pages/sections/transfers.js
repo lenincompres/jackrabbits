@@ -28,9 +28,9 @@ const transferSections = [{
       regresan a la corte en la que empiezan.`,
       ],
       en: [
-        `For all transfers on the way,
+        `To get transfers on the way,
       pay the total on the dice. 
-      But in case you overpay, 
+      And in case you overpay, 
       then consider that the price.
       Use as many cards to pay—
       check each symbol qualifies.`,

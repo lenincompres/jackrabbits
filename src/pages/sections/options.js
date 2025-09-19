@@ -21,7 +21,7 @@ const optionalSections = [
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
       which are marked in this reboot.
-      Question hearts to gain the access;
+      Question hearts to grant the access;
       buy with diamonds any loot; 
       show your clubs for flying passes—
       shortfall’s paid in any suit.`,
@@ -148,7 +148,7 @@ const optionalSections = [
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
         you may stand your queenly ground.
-        So their presence you'll contest—
+        Show enough hearts to contest—
         anywhere but underground.`,
     })),
   }, {

@@ -5,7 +5,6 @@ import LightBox from "../lib/LightBox.js";
 import Pager from "../lib/Pager.js";
 import homePage from "./pages/home.js";
 import boardSection from "./pages/sections/board.js";
-import priceSection from "./pages/sections/price.js";
 
 window.popUp = key => LightBox.open(key);
 
@@ -96,7 +95,6 @@ LightBox.add(new Pager({
     content: homePage.article.section[3],
   },
   board: boardSection,
-  price: priceSection,
   mailingList: {
     id: "mailingList",
     img: {
