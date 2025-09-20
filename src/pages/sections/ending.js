@@ -36,8 +36,8 @@ const endingSection = {
         `<b>diverso</b>: que varíen en su palo;`,
         `<b>monárquico</b>: distintas en su letra;`,
         `<b>monárquico</b> y <b>diverso</b> combinado;`,
-        `<b>tribal</b>: con las de palo que concuerda.
-        El último es difícil de lograrlo.`,
+        `<b>tribal</b>: con las de palo que concuerda, 
+        que advierto es desafiante de lograrlo.`,
       ],
       en: [
         `<b>simple</b>: any royal cards.`,
