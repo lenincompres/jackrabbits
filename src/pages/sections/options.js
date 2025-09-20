@@ -162,9 +162,9 @@ const optionalSections = [
         Permite que el turno que visitas
         avances sin parar a descansar.`,
       en: `If your carrot’s on a hex,
-        you may visit and move on.
+        you may visit in a round.
         Go to where you're headed next—
-        needn’t wait to move along.`,
+        you don't need to wait around.`,
     })),
   }]
 }, {
