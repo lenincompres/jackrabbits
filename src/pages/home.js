@@ -15,7 +15,7 @@ const homePage = {
     ],
     footer: {
       p: versify(Copy.text({
-        es: `Dirígete al <a href="#setup"><b>Inicio</b></a></br> de partida. 
+        es: `Dirígete al <a href="#setup"><b>Inicio</b></a> de partida. 
 De un dúo a un cuarteto se convida.`,
         en: `Let's begin the <a href="#setup"><b><big>Setup</big></b></a> phase. 
 Up to four contesters race.`,
