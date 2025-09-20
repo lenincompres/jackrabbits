@@ -42,6 +42,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.nextArrow {
+  font-size: 4rem;
+  color: var(--field);
+  position: absolute;
+  top: 50%;
+  right: -0.5em;
+  text-shadow: 1px 1px 2px black;
+}
+
 body {
   background-image: url(./images/bg.png);
   background-position: top center;
@@ -68,6 +77,19 @@ body {
   html[lang="es"] article.main>article>section {
     width: 40rem !important;
   }
+
+  .nextArrow {
+    transform: rotate(90deg);
+    top: auto;
+    left: auto;
+    right: calc(50% - 0.24em);
+    bottom: -0.8em;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
 }
 
 

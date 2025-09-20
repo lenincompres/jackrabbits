@@ -18,7 +18,7 @@ const endingSection = {
       You must be the first to win—
       hailed as champion of the land.`,
     }),
-    ASSETS.thumbnailOf("citadel", "6em", e => popUp("citadel")),
+    ASSETS.thumbnailOf("citadel", "8.4em", e => popUp("citadel")),
     Copy.text({
       es: `Tan pronto se repartan los conejos,
       se exige al colectivo de la mesa:
