@@ -15,8 +15,10 @@ const homePage = {
     ],
     footer: {
       p: versify(Copy.text({
-        es: `<a href="#setup"><b><big>Inicio</big></b> del juego</a></br>Hasta cuatro participantes`,
-        en: `<a href="#setup"><b><big>Setup</big></b></a></br>Up to four players`,
+        es: `Dirígete al <a href="#setup"><b>Inicio</b></a></br> de partida. 
+De un dúo a un cuarteto se convida.`,
+        en: `Let's begin the <a href="#setup"><b><big>Setup</big></b></a> phase. 
+Up to four contesters race.`,
       })),
     },
   },
