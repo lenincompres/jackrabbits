@@ -134,7 +134,7 @@ const transferSections = [{
     en: "Transfer via Rabbit hole",
   }),
   p: versify(Copy.text({
-    es: `Si en la entrada de las cuevas,
+    es: `Si pagas en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
       metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.
