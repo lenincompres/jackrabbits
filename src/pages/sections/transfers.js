@@ -118,7 +118,7 @@ const transferSections = [{
       en: "Transfer via Joker",
     }),
   }, Copy.text({
-    es: `Si al pasar por las tabernas,
+    es: `Si pagas al pasar por las tabernas,
       tendrás un comodín desocupado.
       Transpórtate en el turno que prefieras
       y entonces lo liberas de tu mano.`,
