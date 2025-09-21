@@ -10,7 +10,7 @@ Copy.add({
     en: "Welcome",
   },
   setup: {
-    es: "Inicio</br><small>del juego</small>",
+    es: "Inicio</br><small>de partida</small>",
     en: "Setup",
   },
   intro: {
