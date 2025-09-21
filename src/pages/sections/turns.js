@@ -28,7 +28,7 @@ const turnSections = [{
       You may draw a one-card prize—
       if you show a card you hold. 
       Prove it matches value-wise, 
-      either number you have rolled.`,
+      either number you just rolled.`,
       `Please discard if caught with ten.
       Bring your hand to nine again.*`,
       `Hold the outcome of the dice.
