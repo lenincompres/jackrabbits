@@ -46,8 +46,10 @@ html {
   font-size: 4rem;
   color: var(--field);
   position: absolute;
+  width: 0;
+  width: 0;
   top: 50%;
-  right: -0.5em;
+  right: 0;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -82,13 +84,13 @@ body {
     transform: rotate(90deg);
     top: auto;
     left: auto;
-    right: calc(50% - 0.24em);
-    bottom: -0.8em;
+    right: calc(50%);
+    bottom: -0.5em;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
-}
+  }
 
 }
 

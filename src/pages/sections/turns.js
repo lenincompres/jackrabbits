@@ -8,7 +8,7 @@ const turnSections = [{
     es: "1.<small>a</small> La lotería",
     en: "1<small>st</small> The Lottery",
   }),
-  d_nextArrow: '➧',
+  b_nextArrow: '➧',
   p: versify(Copy.text({
     es: [
       `Tu turno empezará con un presente,
@@ -41,7 +41,7 @@ const turnSections = [{
     es: "2.<small>a</small> La travesía",
     en: "2<small>nd</small> The Journey",
   }),
-  d_nextArrow: '➧',
+  b_nextArrow: '➧',
   p: versify(Copy.text({
     es: [
       `Del sitio hexagonal en el que empiezas,
@@ -74,7 +74,7 @@ const turnSections = [{
     es: "3.<small>a</small> La adquisición",
     en: "3<small>rd</small> The Acquisition",
   }),
-  d_nextArrow: '➧',
+  b_nextArrow: '➧',
   p: versify(Copy.text({
     es: [
       `Tu meta es visitar a la nobleza
