@@ -32,7 +32,7 @@ const transferSections = [{
       pay the total on the dice. 
       And in case you overpay, 
       then consider that the price.
-      Use as many cards to pay—
+      Use as many cards to pay,
       check each symbol qualifies.`,
         `Set aside the cards you spend—
       they’re <i>discarded</i> once you’re done. 
@@ -77,11 +77,11 @@ const transferSections = [{
       cruzando por el centro en un atajo.
       Si pagas con cualquiera de los símbolos,
       te cambias del camino que te trajo.`,
-    en: `Mountains, rivers and the woods,
-      with two roads not far apart, 
-      let you hike between these two,
+    en: `See the mountains, rivers, woods—
+      with two roads not far apart.
+      You may hike between the two,
       cutting through the middle part.
-      Pay with cards of proper suits—
+      Pay with cards of proper suits:
       club or spade or even heart.`,
   })),
   img: ASSETS.rhombi,

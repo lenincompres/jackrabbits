@@ -5,7 +5,7 @@ import versify from "../../aux/versify.js";
 const endingSection = {
   h2: Copy.text({
     es: "Fin del juego",
-    en: "Ending the Game",
+    en: "Objective",
   }),
   p: versify(
     Copy.text({

@@ -108,7 +108,7 @@ const setupPage = {
           descrito en el principio de las reglas.
           A menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
-          en: `See what fits to <a class="pop" onclick="popUp('endings')"><b>end the game</b></a>,
+          en: `See <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
           and select the quest you’re on.
           If a circle marks this aim, 
           set it on the hexagon.`,
