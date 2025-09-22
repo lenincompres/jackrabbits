@@ -147,7 +147,7 @@ const optionalSections = [
         a quien se te presente en tu descanso,
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
-        you may stand your queenly ground.
+        you may stand your noble ground.
         Use the heart rules to contest—
         anywhere but underground.`,
     })),

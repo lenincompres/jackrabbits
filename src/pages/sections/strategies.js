@@ -197,10 +197,10 @@ const strategySections = [{
     se ocultan en las manos las ofertas.
     A quien se le descubra por engaño,
     después del intercambio se destierra.`,
-    en: `If agreed by all the parts,
+    en: `If agreed when setup starts,
     add <b class="diamonds">consented trades <sup>+</sup></b> to boot:
     deal in turn with diamond cards, 
-    where both players have set foot.
+    where the players both set foot.
     Never show your hand’s rewards—
     strike a deal beyond dispute.
     If what's traded proves a farce,
