@@ -59,7 +59,7 @@ const transferSections = [{
     you'll move freely on your round.
     This includes the underpass—
     see the mountains farther down.
-    Other movements have a price,
+    Other movements charge <b>the price</b>,
     paid in suits upon the ground.
     Pay the total on your dice—
     that's the minimum amount.`,
@@ -101,13 +101,13 @@ const transferSections = [{
       y arrivas por alguna carretera.
       Saldrás en el momento en el que pagues 
       y anuncies el transporte que prefieras.`,
-    en: `On the tiles the road is forked,
+    en: `Stationed where the road is forked,
       there's a horse and boat to ride. 
       Reach a hex across the board,
       dashing over tiles in stride.
       Or select a road to port,
       gliding on the seas outside.
-      Choose a ride and reach your post—
+      Choose a ride and reach your post,
       if you pay what has been priced.
       Landlocked merchants have no boats, 
       since they’re not by the seaside.`,
