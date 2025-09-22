@@ -57,8 +57,8 @@ const transferSections = [{
       y pagas con las cartas de sus símbolos.`,
     en: `If you venture on the paths, 
     you'll move freely on your round.
-    This includes the underpass—
-    see the mountains farther down.
+    This includes the underpass,
+    shown in mountains farther down.
     Other movements charge <b>the price</b>,
     paid in suits upon the ground.
     Pay the total on your dice—
