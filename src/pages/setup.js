@@ -74,8 +74,8 @@ const setupPage = {
           los <i>palos numerales</i> y los <i>ases</i>,
           después de barajarlas y reunirlas,
           del mazo bocabajo las repartes.
-          Entrégales sus tres, sin exhibirlas,
-          a cada concursante, individuales.
+          Entrégales sus tres sin exhibirlas,
+          que cada concursante las agarre.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
           en: `Every player gets three cards, 
