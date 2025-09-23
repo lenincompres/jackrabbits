@@ -191,7 +191,7 @@ const strategySections = [{
   p_0: versify(Copy.text({
     es: `Consulta si <b class="diamonds">comercios especiales <sup>+</sup></b>
     se aceptan al sumárselo a las reglas:
-    canjeas lo que quieras por diamantes, 
+    canjeas lo que quieras por diamantes 
     con alguien en el sitio que te encuentras;
     y mientras los negocios se debaten, 
     se ocultan en las manos las ofertas.
