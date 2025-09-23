@@ -189,8 +189,8 @@ const strategySections = [{
       en: "+ Interpersonal Trades",
     }),*/
   p_0: versify(Copy.text({
-    es: `Es válido el <b class="diamonds">comercio consensuado <sup>+</sup></b>
-    si sumas el artículo a las reglas:
+    es: `Consulta si el <b class="diamonds">comercio consensuado <sup>+</sup></b>
+    se acepta si lo sumas a las reglas:
     se vende por diamantes en un trato
     con alguien en el sitio que te encuentras,
     y mientras el negocio es concretado,
