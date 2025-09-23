@@ -23,7 +23,7 @@ const optionalSections = [
       which are marked in this reboot.
       Question hearts to grant the access;
       buy with diamonds any loot; 
-      and show clubs for flying passes—
+      show your clubs for flying passes—
       shortfall’s paid in any suit.`,
     })),
   }, {
