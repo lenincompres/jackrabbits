@@ -23,12 +23,12 @@ const transferSections = [{
       Es <b>1</b> lo que cuentas por los ases,
       y <b>10</b> por las reales o con letras.
       En caso de que gastes las reales,
-saldrá tu zanahoria de sus piezas,
-y en vez de que la carta la descartes,
-regrésala a la corte en la que empieza.`
+      saldrá tu zanahoria de sus piezas,
+      y en vez de que la carta la descarte,
+      regrésala a la corte en la que empieza.`
       ],
       en: [
-        `To get transfers on the way,
+        `For the transfers on the way,
       pay the total on the dice. 
       And in case you overpay, 
       then consider that the price.
