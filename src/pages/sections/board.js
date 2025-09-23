@@ -9,10 +9,10 @@ const boardSection = {
   }),
   p: versify(Copy.text({
     es: [
-      `Empieza por poner la <i>Ciudadela</i>
-      y el negro del <i>subsuelo</i>, separándolos.
-      Revuelve bocabajo lo que queda:
-      los rombos, los hexágonos y triángulos.
+      `Colocas a la ficha <i>Ciudadela</i>,
+      y el resto las revuélves bocabajo.
+      Separas el <i>subsuelo</i>, que es la negra,
+      de hexágonos, de rombos y de triángulos.
       Repártelas por formas geométricas:
       iguales cantidades en el cálculo.`,
       `Es hora de empezar a colocarlas
