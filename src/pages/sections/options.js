@@ -138,8 +138,8 @@ const optionalSections = [
     })),
   }, {
     h5_hearts: Copy.text({
-      es: "Palacios Presenciales",
-      en: "Presential Palaces",
+      es: "Accesos Preferenciales",
+      en: "Preferential Access",
     }),
     p: versify(Copy.text({
       es: `Cuestionas al igual que en los palacios,
