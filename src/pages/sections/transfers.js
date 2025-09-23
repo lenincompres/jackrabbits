@@ -24,13 +24,13 @@ const transferSections = [{
       y <b>10</b> por las reales o con letras.
       En caso de que gastes las reales,
       saldrá tu zanahoria de sus piezas,
-      y en vez de que la carta la descarte,
+      y en vez de que la carta la descartes,
       regrésala a la corte en la que empieza.`
       ],
       en: [
         `For the transfers on the way,
       pay the total on the dice. 
-      And in case you overpay, 
+      But in case you overpay, 
       then consider that the price.
       Use as many cards to pay,
       check each symbol qualifies.`,
@@ -51,8 +51,8 @@ const transferSections = [{
       si sigues por los vínculos continuos.
       Incluso las montañas, más abajo,
       se cruzan por sus túneles gratuitos.
-      En cambio, si utilizas los traslados,
-      marcados a mitad de los polígonos,
+      Se paga solamente los traslados,
+      marcados a mitad de los polígonos;
       <b>el precio</b> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
     en: `If you venture on the paths, 

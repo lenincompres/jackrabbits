@@ -25,8 +25,8 @@ const strategySections = [{
       En cambio, si los dados son mayores,
       te sales al destierro en las orillas.
       Igual el pasaporte lo recoges
-      y el premio si un acierto se confirma.
-      Si pagas el <i>restante</i> que le sobre,
+      y el premio si un acierto se confirma.`,
+      `Si pagas el <i>restante</i> que le sobre,
       consigues completar la travesía,
       cubriendo el resultado que te cobren
       con palos de la torre de partida.
@@ -70,8 +70,8 @@ const strategySections = [{
       Se lucha superando los ataques,
       sumándose las picas descartadas,
       y cuando se terminen los avances,
-      destierra a la persona derrotada.
-      Si ganas el combate que empezaste,
+      destierra a la persona derrotada.`,
+      `Si ganas el combate que empezaste,
       procedes al asalto de sus cartas:
       le robas la primera que tocases,
       a ciegas deberás seleccionarla.
@@ -127,8 +127,8 @@ const strategySections = [{
       si cargas con su carta de nobleza 
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
-      y niegas que tu suma se cerciore.
-      Mas antes de mostrar tus pertenencias,
+      y niegas que tu suma se cerciore.`,
+      `Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre corazones de su cuenta,
       lo mínimo de aquellas condiciones.
@@ -168,11 +168,11 @@ const strategySections = [{
     en: "Trade at <big>J</big>ack Plazas",
   }),
   p: versify(Copy.text({
-    es: `Los centros con los símbolos marcados
+    es: `Los centros con los símbolos de canje 
       te ofrecen sus artículos en venta:
-      las cartas descartadas de sus palos
+      las cartas de sus palos del descarte 
       que en estos por diamantes se canjean,
-      o aceptan de cualquiera por el pago
+      o aceptan de cualquiera que les paques 
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold, 
       every <b>J</b>ack will sell its suit.
@@ -189,16 +189,16 @@ const strategySections = [{
       en: "+ Interpersonal Trades",
     }),*/
   p_0: versify(Copy.text({
-    es: `Consulta si el <b class="diamonds">comercio consensuado <sup>+</sup></b>
-    se acepta si lo sumas a las reglas:
-    se vende por diamantes en un trato
-    con alguien en el sitio que te encuentras,
-    y mientras el negocio es concretado,
+    es: `Consulta si <b class="diamonds">comercios especiales <sup>+</sup></b>
+    se aceptan al sumárselo a las reglas:
+    canjeas lo que quieras por diamantes, 
+    con alguien en el sitio que te encuentras;
+    y mientras los negocios se debaten, 
     se ocultan en las manos las ofertas.
-    A quien se le descubra por engaño,
+    A quien se le descubra por chantaje, 
     después del intercambio se destierra.`,
     en: `If agreed when setup starts,
-    add <b class="diamonds">consented trades <sup>+</sup></b> to boot:
+    add the <b class="diamonds">special trades <sup>+</sup></b> to boot:
     deal in turn with diamond cards, 
     where the players both set foot.
     Never show your hand’s rewards—

@@ -123,8 +123,8 @@ const optionalSections = [
   }),
   section: [{
     h5_clubs: Copy.text({
-      es: "Vuelos Residenciales",
-      en: "Residential flights",
+      es: "Vuelos Especiales",
+      en: "Special flights",
     }),
     p: versify(Copy.text({
       es: `Las plazas, Ciudadela y los palacios
@@ -133,13 +133,13 @@ const optionalSections = [
         excepto por supuesto en el subsuelo.`,
       en: `When you fly from any tower, 
         find more places to touch down.
-        Clubs expand their flying power—
-        reach a hex above the ground.`,
+        Clubs expand their landing power—
+        any hex above the ground.`,
     })),
   }, {
     h5_hearts: Copy.text({
-      es: "Accesos Preferenciales",
-      en: "Preferential Access",
+      es: "Accesos Especiales",
+      en: "Special Access",
     }),
     p: versify(Copy.text({
       es: `Cuestionas al igual que en los palacios,
@@ -222,7 +222,7 @@ const optionalSections = [
       en: `Have unequal value levels:
         <b>A</b>ce then <b>K</b>ing then <b>Q</b>ueen then <b>J</b>ack—
         from <b>14</b> until <b>11</b>—
-        then consider why it’s whack.`,
+        contemplate why this is whack.`,
     })),
   }]
 }];
