@@ -119,7 +119,7 @@ const transferSections = [{
     }),
   }, Copy.text({
     es: `Si pagas al pasar por las tabernas,
-      tendrás un comodín desocupado.
+      te marchas con un joker cortesano.
       Transpórtate en el turno que prefieras
       y entonces lo liberas de tu mano.`,
     en: `When you pass by any tavern,
