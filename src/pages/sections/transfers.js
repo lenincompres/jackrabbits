@@ -22,10 +22,10 @@ const transferSections = [{
       dejándolas a un lado de la mesa.
       Es <b>1</b> lo que cuentas por los ases,
       y <b>10</b> por las reales o con letras.
-      Recuerda: si es que gastas las reales,
-      quitar tu zanahoria de sus piezas;
-      y no las dejarás en el descarte,
-      regresan a la corte en la que empiezan.`,
+      En caso de que gastes las reales,
+saldrá tu zanahoria de sus piezas,
+y en vez de que la carta la descartes,
+regrésala a la corte en la que empieza.`
       ],
       en: [
         `To get transfers on the way,
