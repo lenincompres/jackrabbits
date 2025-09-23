@@ -16,7 +16,7 @@ const setupPage = {
           lo creas de improviso y previamente.
           Las piezas se conectan por sus vías
           en cientos de maneras diferentes.`,
-          `El mapa es un diseño aleatorio
+          `Ensamblas un diseño aleatorio
           del reino de las cartas y sus templos.
           Dirígete a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>
           o intenta replicar el del ejemplo.`,],
