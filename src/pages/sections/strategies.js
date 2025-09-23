@@ -172,7 +172,7 @@ const strategySections = [{
       te ofrecen sus artículos en venta:
       las cartas de sus palos del descarte 
       que en estos por diamantes se canjean,
-      o aceptan de cualquiera que les paques 
+      o aceptan de cualquiera que les pagues 
       si el centro es el marcado con la estrella.`,
     en: `All spent cards are being sold, 
       every <b>J</b>ack will sell its suit.
