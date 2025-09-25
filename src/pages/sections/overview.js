@@ -16,7 +16,7 @@ const overviewSection = {
       luciéndote con tres de las reales.`,
         `Dirígete a las casas de monarcas
       a hacer <b>la adquisición</b> en su presencia.
-      Con diez de los puntitos de sus marcas,
+      Con diez de los puntitos de sus marcas
       recibes su real correspondencia. `,
       ],
       en: [

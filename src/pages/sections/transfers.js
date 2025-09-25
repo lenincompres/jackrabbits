@@ -2,10 +2,29 @@ import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
+const introText = versify(Copy.text({
+  es: `Es gratis desplazarte a los hexágonos
+      si sigues por los vínculos continuos.
+      Incluso las montañas, más abajo,
+      se cruzan por sus túneles gratuitos.
+      Se paga solamente los traslados,
+      marcados a mitad de los polígonos;
+      <b>el precio</b> es el fijado por los dados
+      y pagas con las cartas de sus símbolos.`,
+  en: `If you venture on the paths, 
+    you'll move freely on your round.
+    This includes the underpass,
+    shown in mountains farther down.
+    Other movements charge <b>the price</b>,
+    paid in suits upon the ground.
+    Pay the total on your dice—
+    that's the minimum amount.`,
+}));
+
 const transferSections = [{
+  p_vertical: introText,
   img: ASSETS.roadTiles,
-  section: {
-    class: "note",
+  aside_note: {
     h4: Copy.text({
       es: "El precio",
       en: "The price",
@@ -46,31 +65,16 @@ const transferSections = [{
     })),
   },
 }, {
-  p: versify(Copy.text({
-    es: `Es gratis desplazarte a los hexágonos
-      si sigues por los vínculos continuos.
-      Incluso las montañas, más abajo,
-      se cruzan por sus túneles gratuitos.
-      Se paga solamente los traslados,
-      marcados a mitad de los polígonos;
-      <b>el precio</b> es el fijado por los dados
-      y pagas con las cartas de sus símbolos.`,
-    en: `If you venture on the paths, 
-    you'll move freely on your round.
-    This includes the underpass,
-    shown in mountains farther down.
-    Other movements charge <b>the price</b>,
-    paid in suits upon the ground.
-    Pay the total on your dice—
-    that's the minimum amount.`,
-  }), {
+  p_horizontal: introText,
+  h4: {
     marginTop: '1.2rem',
     tag: "h4",
     html: Copy.text({
       es: "Traslado por matorrales",
       en: "Transfer via off-road",
     })
-  }, Copy.text({
+  },
+  p: versify(Copy.text({
     es: `Los bosques, las montañas y los ríos,
       que ves en las imágenes de abajo,
       permiten que te cambies de camino
@@ -93,12 +97,12 @@ const transferSections = [{
   p: versify(Copy.text({
     es: `Los cruces te permiten transportarte
       viajando por las aguas o las tierras.
-      Por tierra: galopando sin pararte
+      Por tierra galopando sin pararte,
       moviéndote al hexágono que quieras.
-      Por agua: si el lugar de comerciantes
+      Por agua si el lugar de comerciantes
       colinda con un lado a las afueras,
       te sales navegando por los mares
-      y arrivas por alguna carretera.
+      y arribas por alguna carretera.
       Saldrás en el momento en el que pagues 
       y anuncies el transporte que prefieras.`,
     en: `Stationed where the road is forked,
@@ -119,7 +123,7 @@ const transferSections = [{
     }),
   }, Copy.text({
     es: `Si pagas al pasar por las tabernas,
-      te marchas con un joker cortesano.
+      te marchas con un jóker cortesano.
       Transpórtate en el turno que prefieras
       y entonces lo liberas de tu mano.`,
     en: `When you pass by any tavern,

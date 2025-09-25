@@ -56,7 +56,7 @@ const setupPage = {
           es: `Después de que el tablero se termina
           y estén establecidos los lugares,
           la <i>corte</i> se separa bocarriba
-          con cartas de los <i>jokers</i> y <i>reales</i>:
+          con cartas de los <i>jókers</i> y <i>reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`,
           en: `Lay the <i>court</i> in any order,
@@ -80,8 +80,8 @@ const setupPage = {
           y harán <b>la adquisición</b> de las reales.`,
           en: `Every player gets three cards, 
           that's their <i>hand</i> to start the chase.
-          These resources each one guards, 
-          fund <b>the journey</b> they will face.
+          They're resources each one guards, 
+          for <b>the journey</b> they will face.
           And pay royals their regards— 
           per <b>the acquisition</b> phase.`,
         }))
@@ -108,8 +108,8 @@ const setupPage = {
           descrito en el principio de las reglas.
           A menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
-          en: `See <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
-          and select the quest you’re on.
+          en: `For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
+          you may choose the quest you’re on.
           If a circle marks this aim, 
           set it on the hexagon.`,
         }),

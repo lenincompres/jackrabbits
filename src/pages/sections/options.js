@@ -182,9 +182,9 @@ const optionalSections = [
         por múltiples aciertos y regalos,
         ya sea con las cartas que validas
         o incluso con un doble de los dados.`,
-      en: `Win a bundle as the prize,
+      en: `Claim your prizes as a batch,
         give the lottery no limits.
-        Honor cards that match the dice,
+        Honor all the cards that match,
         and when matching double digits.`,
     })),
   }, {

@@ -17,9 +17,9 @@ const boardSection = {
       iguales cantidades en el cálculo.`,
       `Es hora de empezar a colocarlas
       (por turnos o con libre preferencia).
-      Por <b>turnos</b>: se mantienen sin mirarlas,
+      Por turnos se mantienen sin mirarlas,
       y pieza que volteen, la conectan.
-      O <b>libre</b>: se permiten voltearlas,
+      O libre se permiten voltearlas,
       sin turnos ni descansos al ponerlas.
       Igual se recomienda, al conectarlas,
       contar con las siguientes sugerencias:`,
@@ -29,13 +29,13 @@ const boardSection = {
       Leave aside the <i>underground</i>. 
       Shuffle all the tiles that rest:
       twelve of all three shapes facedown.
-      Spread them out for every guest—
-      players get the same ammount.`,
+      Deal by shape to every guest—
+      each will get the same amount.`,
       `You may choose a placement style,
       either strict or free in pace.
-      Strict: with turns to place a tile,
+      Strict with turns to place a tile,
       pick a tile to flip and place.
-      Free: with turns in loose freestyle,
+      Free with turns in loose freestyle,
       flip all tiles to see their face.
       These suggestions are worthwhile—
       loosely meant in either case:`,

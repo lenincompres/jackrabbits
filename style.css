@@ -67,6 +67,14 @@ body {
   width: 100vw;
 }
 
+  .horizontal {
+    display: block;
+  }
+
+  .vertical {
+    display: none;
+  }
+
 @media (width <=90rem) {
   body {
     max-width: 45rem;
@@ -90,6 +98,14 @@ body {
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
+  }
+
+  .horizontal {
+    display: none;
+  }
+
+  .vertical {
+    display: block;
   }
 
 }
@@ -505,7 +521,7 @@ article.main>article>section.letter {
   box-shadow: 1px 1px 3px black;
 }
 
-section.note {
+.note {
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.5);

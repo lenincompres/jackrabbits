@@ -16,7 +16,7 @@ const homePage = {
     footer: {
       p: versify(Copy.text({
         es: `Dirígete al <a href="#setup"><b><big>Inicio</big></b> de partida</a>.
-        Un máximo de cuatro participa.`,
+        De un máximo de cuatro es permitida.`,
         en: `Let's begin the <a href="#setup"><b><big>Setup</big></b></a> phase. 
         Up to four contenders race.`,
       })),
