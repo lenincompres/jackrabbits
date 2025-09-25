@@ -8,7 +8,6 @@ const turnSections = [{
     es: "1.<small>a</small> La lotería",
     en: "1<small>st</small> The Lottery",
   }),
-  b_nextArrow: '➧',
   p: versify(Copy.text({
     es: [
       `Tu turno empezará con un presente,
@@ -35,13 +34,13 @@ const turnSections = [{
       Transfers use it as <b>the price</b>.`
     ]
   })),
+  b_nextArrow: '➧',
 }, {
   img: ASSETS.journey,
   h3: Copy.text({
     es: "2.<small>a</small> La travesía",
     en: "2<small>nd</small> The Journey",
   }),
-  b_nextArrow: '➧',
   p: versify(Copy.text({
     es: [
       `Del sitio hexagonal en el que empiezas,
@@ -64,17 +63,17 @@ const turnSections = [{
       reach the nearest hexagon.`,
       `Move on closer to your goal.
       Or perhaps don't move at all.`,
-      `There are transportation modes.
+      `There are other travel modes.
       See <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
     ]
   })),
+  b_nextArrow: '➧',
 }, {
   img: ASSETS.acquisition,
   h3: Copy.text({
     es: "3.<small>a</small> La adquisición",
     en: "3<small>rd</small> The Acquisition",
   }),
-  b_nextArrow: '➧',
   p: versify(Copy.text({
     es: [
       `Tu meta es visitar a la nobleza
@@ -101,6 +100,7 @@ const turnSections = [{
       Get <b>the increment</b> at once.`,
     ]
   })),
+  b_nextArrow: '➧',
 }, {
   img: ASSETS.increment,
   h3: Copy.text({
