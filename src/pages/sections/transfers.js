@@ -119,7 +119,7 @@ const transferSections = [{
     tag: "h4",
     html: Copy.text({
       es: classifyChars("Comodines", "hearts", " diamonds"),
-      en: classifyChars("Minstrels", "hearts", " diamonds"),
+      en: classifyChars("Jesters", "hearts", " diamonds"),
     }),
   }, Copy.text({
     es: `Si pagas al pasar por las tabernas,
