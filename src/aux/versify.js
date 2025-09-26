@@ -17,4 +17,9 @@ function versify(...args) {
   return stanzas;
 };
 
+export function classifyChars(line, ...args) {
+  let chars = line.split('');
+  return chars.map((char, i) => `<span class="${args[i%args.length]}">${char}</span>`).join('');
+}
+
 export default versify;

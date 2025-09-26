@@ -96,7 +96,7 @@ const optionalSections = [
         pues éste se valora por un <b>11</b>
         y solo por un <b>1</b> tus siguientes.`,
       en: `Your first <b>A</b>ce is worth <b>11</b>,
-        and the rest you spend are <b>1</b>s.
+        and the rest you'll use are <b>1</b>s.
         As a record that it’s spent then, 
         keep it laid before your hands.`,
     })),

@@ -51,7 +51,7 @@ const ASSETS = {
     tag: "img",
     src: "./images/cards.png",
     alt: "Cards setup",
-    height: "8.5rem",
+    height: "8.6rem",
   },
   tokens: {
     tag: "img",

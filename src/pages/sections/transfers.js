@@ -1,6 +1,6 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
-import versify from "../../aux/versify.js";
+import versify, { classifyChars } from "../../aux/versify.js";
 
 const introText = versify(Copy.text({
   es: `Es gratis desplazarte a los hexágonos
@@ -70,8 +70,8 @@ const transferSections = [{
     marginTop: '1.2rem',
     tag: "h4",
     html: Copy.text({
-      es: "Traslado por matorrales",
-      en: "Off-road Transfers",
+      es: classifyChars("Vericuetos", "clubs", "spades", " hearts"),
+      en: classifyChars("Trailways", "clubs", "spades", " hearts"),
     })
   },
   p: versify(Copy.text({
@@ -91,8 +91,8 @@ const transferSections = [{
   img: ASSETS.rhombi,
 }, {
   h4: Copy.text({
-    es: "Traslado con Comerciantes",
-    en: "Merchant Transfers",
+    es: classifyChars("Comerciantes", "spades", " diamonds"),
+    en: classifyChars("Merchants", "spades", " diamonds"),
   }),
   p: versify(Copy.text({
     es: `Los cruces te permiten transportarte
@@ -111,19 +111,19 @@ const transferSections = [{
       dashing over tiles in stride.
       Or select a road to port,
       gliding on the seas outside.
-      Choose a ride and reach your post,
-      if you pay what has been priced.
+      Pay and move to your next post,
+      on the ride that you decide.
       Landlocked merchants have no boats, 
       since they’re not by the seaside.`,
   }), {
     tag: "h4",
     html: Copy.text({
-      es: "Traslado con Comodines",
-      en: "Joker Transfers",
+      es: classifyChars("Comodines", "hearts", " diamonds"),
+      en: classifyChars("Minstrels", "hearts", " diamonds"),
     }),
   }, Copy.text({
     es: `Si pagas al pasar por las tabernas,
-      te marchas con un jóker cortesano.
+      te marchas con el jóker de tu agrado.
       Transpórtate en el turno que prefieras
       y entonces lo liberas de tu mano.`,
     en: `When you pass by any tavern,
@@ -134,8 +134,8 @@ const transferSections = [{
   img: ASSETS.rides,
 }, {
   h4: Copy.text({
-    es: "Traslado por Madrigueras",
-    en: "Rabbit hole Transfers",
+    es: classifyChars("Madrigueras", "clubs", " diamonds"),
+    en: classifyChars("Rabbit holes", "clubs", " diamonds"),
   }),
   p: versify(Copy.text({
     es: `Si pagas en la entrada de las cuevas,
@@ -154,7 +154,7 @@ const transferSections = [{
     tag: "a",
     name: "intro/off",
   }, {
-    tag: "h3",
+    tag: "h4",
     html: Copy.text({
       es: "El Destierro",
       en: "Off-board",
