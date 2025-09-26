@@ -42,7 +42,7 @@ const setupPage = {
           only play to build the land.
           Then explore what they design—
           with a rabbit in their hand.
-          Add the card deck down the line,
+          Bring the cards in down the line,
           and the rules they understand.`,
         })),
     }, {
@@ -109,7 +109,7 @@ const setupPage = {
           A menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
           en: `For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
-          you may choose the quest you’re on.
+          choose the royal quest you’re on.
           If a circle marks this aim, 
           set it on the hexagon.`,
         }),
@@ -121,8 +121,8 @@ const setupPage = {
           que lo hagas al azar o lo designes.`,
           en: `Now select the starting player, 
           and the order of the turns.
-          Choose your way for this endeavor—
-          it is none of my concerns.`,
+          Choose your ways for this endeavor—
+          none of these are my concerns.`,
         })),
     }],
   },

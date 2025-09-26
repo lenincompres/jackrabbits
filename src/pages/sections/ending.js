@@ -15,7 +15,7 @@ const endingSection = {
       tus tres representantes de nobleza.`,
       en: `Reach this place where you begin, 
       with three royal cards in hand.
-      You must be the first to win—
+      You must be the first to win,
       hailed as champion of the land.`,
     }),
     ASSETS.thumbnailOf("citadel", "8.4em", e => popUp("citadel")),

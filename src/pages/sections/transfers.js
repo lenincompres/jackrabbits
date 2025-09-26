@@ -15,7 +15,7 @@ const introText = versify(Copy.text({
     you'll move freely on your round.
     This includes the underpass,
     shown in mountains farther down.
-    Other moves demand the price,  <b>the price</b>,
+    Other moves demand <b>the price</b>,
     paid in suits upon the ground.
     Pay the total on your dice—
     that's the minimum amount.`,
