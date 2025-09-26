@@ -129,7 +129,7 @@ const transferSections = [{
     en: `When you pass by any tavern,
       you may buy a joker card.
       Keep it till you’d like to travel,
-      then release it afterward.`,
+      and release it afterward.`,
   })),
   img: ASSETS.rides,
 }, {
