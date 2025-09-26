@@ -47,7 +47,7 @@ const neoclassicSections = [{
   }, {
     h4_land: Copy.text({
       es: "Traslado con los Corceles",
-      en: "Transfer via Steeds",
+      en: "Steed Transfers",
     }),
     p: versify(Copy.text({
       es: `En rumbos con caballos de los blancos,

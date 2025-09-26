@@ -71,7 +71,7 @@ const transferSections = [{
     tag: "h4",
     html: Copy.text({
       es: "Traslado por matorrales",
-      en: "Transfer via off-road",
+      en: "Off-road Transfers",
     })
   },
   p: versify(Copy.text({
@@ -92,7 +92,7 @@ const transferSections = [{
 }, {
   h4: Copy.text({
     es: "Traslado con Comerciantes",
-    en: "Transfer via Merchant",
+    en: "Merchant Transfers",
   }),
   p: versify(Copy.text({
     es: `Los cruces te permiten transportarte
@@ -119,7 +119,7 @@ const transferSections = [{
     tag: "h4",
     html: Copy.text({
       es: "Traslado con Comodines",
-      en: "Transfer via Joker",
+      en: "Joker Transfers",
     }),
   }, Copy.text({
     es: `Si pagas al pasar por las tabernas,
@@ -129,13 +129,13 @@ const transferSections = [{
     en: `When you pass by any tavern,
       you may buy a joker card.
       Keep it till you’d like to travel,
-      and release it afterward.`,
+      then release it afterward.`,
   })),
   img: ASSETS.rides,
 }, {
   h4: Copy.text({
     es: "Traslado por Madrigueras",
-    en: "Transfer via Rabbit hole",
+    en: "Rabbit hole Transfers",
   }),
   p: versify(Copy.text({
     es: `Si pagas en la entrada de las cuevas,

@@ -37,7 +37,7 @@ const frontierSections = [{
   }, {
     h4_torches: Copy.text({
       es: "Traslados bajo el subsuelo",
-      en: "Transfers via underground",
+      en: "Underground Transfers",
     }),
     p: versify(Copy.text({
       es: `El triángulo de negro (con el fuego)
@@ -141,7 +141,7 @@ const frontierSections = [{
   }, {
     h4_horseshoes: Copy.text({
       es: "Traslado en Bronco",
-      en: "Transfer via Broncos",
+      en: "Bronco Transfers",
     }),
     p: versify(Copy.text({
       es: `Si pagas por llamar a sus caballos,

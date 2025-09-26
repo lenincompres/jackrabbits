@@ -41,7 +41,7 @@ const nauticalSections = [{
   }, {
     h4_shells: Copy.text({
       es: "Traslado desde el Mar",
-      en: "Transfer via rescue",
+      en: "Rescue Transfers",
     }),
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
@@ -90,7 +90,7 @@ const nauticalSections = [{
   }, {
     h4_anchors: Copy.text({
       es: "Traslado mediante el Velero",
-      en: "Transfer via sailboat",
+      en: "Sailboat Transfers",
     }),
     p: versify(Copy.text({
       es: `Si abordas por la vía del velero,
