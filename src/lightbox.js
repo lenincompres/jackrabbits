@@ -74,8 +74,8 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `Las piezas de los rombos y los triángulos.
         Las cruzas al moverte a los hexágonos.`,
-      en: `These tiles take you hex to hex.
-And they offer rides ans treks.`
+      en: `These will take you hex to hex.
+And they offer rides and treks.`
     })),
   },
   sample: {
