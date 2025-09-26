@@ -24,10 +24,10 @@ const setupPage = {
           you must first complete a board.
           Map it randomly from scratch,
           or revisit one explored.`,
-          `Link the hexes in this spread—
-          royal houses from each throne. 
-          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a>  right ahead,
-          or this sample as is shown.`, ],
+          `Link the houses from each throne, 
+          which are hexes in this spread. 
+          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a>  of your own,
+          or the sample right ahead.`, ],
         }),
         ASSETS.thumbnailOf("sampleThumbnail", '8em', e => popUp("sample")),
         Copy.text({
