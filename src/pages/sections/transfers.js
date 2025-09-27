@@ -91,7 +91,7 @@ const transferSections = [{
   img: ASSETS.rhombi,
 }, {
   h4: Copy.text({
-    es: classifyChars("Comerciantes", "spades", " diamonds"),
+    es: classifyChars("Mercaderes", "spades", " diamonds"),
     en: classifyChars("Merchants", "spades", " diamonds"),
   }),
   p: versify(Copy.text({
