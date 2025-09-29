@@ -147,8 +147,8 @@ const optionalSections = [
         a quien se te presente en tu descanso,
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
-        you may stand your noble ground.
-        Use the heart rules to contest—
+        hearts can help you turn them down.
+        With their rules you may contest—
         anywhere but underground.`,
     })),
   }, {
