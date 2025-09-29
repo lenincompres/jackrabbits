@@ -56,11 +56,11 @@ const transferSections = [{
         `Set aside the cards you spend—
       they’re <i>discarded</i> once you’re done. 
       Royals may be spent as <b>10</b>,
-      and the <b>a</b>ces are worth <b>1</b>.`,
-        `If you spend a royal card,
-      place it in the courtly aisle.
-      And you must remove your mark—
-      take your carrot off their tile.`,
+      and the <b>a</b>ces are worth <b>1</b>.
+      But when royal cards are spent,
+      they go back where they begun.
+      And remove your carrot then,
+      since the claim has been undone.`
       ]
     })),
   },
