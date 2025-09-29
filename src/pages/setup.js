@@ -65,8 +65,8 @@ const setupPage = {
           and will form a faceup aisle.
           What remains are <i>pips</i> in number,
           and the <i>aces</i> of each style.
-          Give a shuffle as in poker— 
-          form a facedown drawing <i>pile</i>.`,
+          Give a shuffle as in poker—
+          set a facedown drawing <i>pile</i>.`,
         }),
         ASSETS.cards,
         Copy.text({
@@ -82,7 +82,7 @@ const setupPage = {
           that's their <i>hand</i> to start the chase.
           They're resources each one guards, 
           for <b>the journey</b> they will face.
-          And pay royals their regards— 
+          And pay royals their regards,
           per <b>the acquisition</b> phase.`,
         }))
     }, {
