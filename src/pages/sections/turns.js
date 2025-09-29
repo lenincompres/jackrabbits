@@ -88,8 +88,8 @@ const turnSections = [{
       Reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
-      `It’s your goal to claim the card—
-      royals marked where you set foot.
+      `It’s your goal to gain their card—
+      claim the royal where you stood.
       Only there you may discard:
       ten or more in that card's suit.
       Place a carrot as your mark,
