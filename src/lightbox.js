@@ -35,8 +35,8 @@ LightBox.add(new Pager({
     p: versify(Copy.text({
       es: `La pieza hexagonal en la que empiezas.
         Aquí regrezarás con la nobleza.`,
-      en: `Here is where the story starts.
-        Bring it forth three royal cards.`
+      en: `This is where the story starts.
+        Here you'll bring three royal cards.`
     })),
   },
   underground: {
