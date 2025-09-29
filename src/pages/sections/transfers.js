@@ -60,7 +60,7 @@ const transferSections = [{
       But when royal cards are spent,
       they go back where they begun.
       And remove your carrot then,
-      since the claim has been undone.`
+      since your claim has been undone.`
       ]
     })),
   },
