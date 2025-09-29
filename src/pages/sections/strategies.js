@@ -75,7 +75,7 @@ const strategySections = [{
       procedes al asalto de sus cartas:
       le robas la primera que tocases,
       a ciegas deberás seleccionarla.
-      Te toca <b>el incremento</b> y que descanses,
+      Te toca <b>el incremento</b> y que la marques,
       si robas y la carta es de monarca;
       también elegirás la que descartes
       si acaso la que robas es tu cuarta.`,
