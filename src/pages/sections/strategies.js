@@ -90,7 +90,7 @@ const strategySections = [{
       You must meet to seize their item, 
       and attack them with a sword.
       Both go back and forth in tandem,
-      adding spades to beat each forth.
+      adding spades to beat what's scored.
       When no cards are thrown to sum them, 
       then the struggler's kicked off-board.`,
       `Note that tying scores is barred,
@@ -98,7 +98,7 @@ const strategySections = [{
       If your target wins the war,
       they can’t steal a card you hoard.
       If you steal a royal card,
-      that's <b>the acquisition</b> scored—
+      set <b>the acquisition</b> forth—
       place your carrot as the mark,
       give one up if it’s your fourth.`,
       /* 
