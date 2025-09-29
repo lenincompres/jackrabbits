@@ -88,7 +88,7 @@ const turnSections = [{
       Reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
-      `It’s your goal to gain their card—
+      `It’s your goal to gain the card—
       claim the royal where you stood.
       Only there you may discard:
       ten or more in that card's suit.
