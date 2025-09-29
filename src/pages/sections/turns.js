@@ -89,7 +89,7 @@ const turnSections = [{
     ],
     en: [
       `It’s your goal to claim the card—
-      marked on hexes you set foot.
+      royals marked where you set foot.
       Only there you may discard:
       ten or more in that card's suit.
       Place a carrot as your mark,
