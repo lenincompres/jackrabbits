@@ -25,9 +25,9 @@ const fullPage = {
         Si empiezas con el turno en el destierro,
         tu fin de <b>travesía</b> es el subsuelo.`,
         en: `If your turn falls off the board,
-        take no <b>increment</b> this round.
+        skip <b>the increment</b> this round.
         When a turn begins off-board,
-        end your <b>journey</b> underground.`
+        end <b>the journey</b> underground.`
       })),
     },
   }, {
