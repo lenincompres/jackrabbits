@@ -31,13 +31,12 @@ const setupPage = {
         }),
         ASSETS.thumbnailOf("sampleThumbnail", '8em', e => popUp("sample")),
         Copy.text({
-          es: [
-          `Limítate al ensamble de las tierras
+          es: `Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
           Añádeles las cartas y sus reglas
-          si captan a medida que las prueben.`],
+          si captan a medida que las prueben.`,
           en: `If there're children under nine,
           only play to build the land.
           Then explore what they design—
@@ -75,7 +74,7 @@ const setupPage = {
           después de barajarlas y reunirlas,
           del mazo bocabajo las repartes.
           Entrégales sus tres sin exhibirlas,
-          que cada concursante las agarre.
+          brindándoles las <i>manos</i> iniciales.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
           en: `Every player gets three cards, 
