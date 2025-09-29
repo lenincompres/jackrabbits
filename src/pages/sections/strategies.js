@@ -90,7 +90,7 @@ const strategySections = [{
       You must meet to seize their item, 
       and attack them with a sword.
       Both go back and forth in tandem,
-      adding spades to beat what’s scored.
+      adding spades to beat each forth.
       When no cards are thrown to sum them, 
       then the struggler's kicked off-board.`,
       `Note that tying scores is barred,
