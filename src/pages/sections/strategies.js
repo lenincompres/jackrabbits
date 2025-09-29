@@ -97,15 +97,15 @@ const strategySections = [{
       and discard the spades outpoured.
       If your target wins the war,
       they can’t steal a card you hoard.
-      If you steal a royal card, 
-      give one up if it’s your fourth—
-      take <b>the increment</b>’s reward,
-      matching carrots in accord.`,
+      If you steal a royal card,
+      that's <b>the acquisition</b>’s scored—
+      place your carrot as the mark,
+      give one up if it’s your fourth.`,
       /* 
-      Note that tying scores is barred; 
-      please discard the spades outpoured; 
-      underground will host no war; 
-      the defender steals no hoard.
+      Note that tying scores is barred, 
+      please discard the spades outpoured
+      underground will host no war, 
+      and defenders steal no hoard.
       */
     ]
   })),
