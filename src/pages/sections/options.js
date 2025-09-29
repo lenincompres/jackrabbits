@@ -20,8 +20,8 @@ const optionalSections = [
       y puedes con tus tréboles volar
       con palos cualesquiera de restante.`,
       en: `There are three distinctive assets,
-      on this flip-side tile reboot.
-      Question hearts to grant the access;
+      on this flip-side tile reboot:
+      question hearts to grant the access;
       buy with diamonds any loot; 
       show your clubs for flying passes—
       shortfall’s paid in any suit.`,
