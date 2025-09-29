@@ -29,7 +29,7 @@ const boardSection = {
       Leave aside the <i>underground</i>. 
       Shuffle all the tiles that rest:
       twelve of all three shapes facedown.
-      Deal by shape to every guest—
+      Deal by shape to every guest,
       each will get the same amount.`,
       `You may choose a placement style,
       either strict or free in pace.
@@ -37,7 +37,7 @@ const boardSection = {
       pick a tile to flip and place.
       Free with turns in loose freestyle,
       flip all tiles to see their face.
-      These suggestions are worthwhile—
+      These suggestions are worthwhile,
       loosely meant in either case:`,
     ]
   })),
