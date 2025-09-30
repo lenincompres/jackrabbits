@@ -45,7 +45,7 @@ const overviewSection = {
       en: [
         `Make <b>the journey</b> hex to hex—
         every road is free to course.
-        Pay to hike the off-road treks,
+        Pay to cut through trailway treks,
         or to ride a boat or horse.`,
         `Rest upon a hex-shaped tile,
         if you’re standing on the board. 
