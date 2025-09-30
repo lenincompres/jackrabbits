@@ -1,25 +1,12 @@
 import versify from "./src/aux/versify.js";
 import Copy from "./lib/Copy.js";
-import Pager from "./lib/Pager.js";
 import ASSETS from "./src/assets.js";
 import CardFloating from "./src/CardFloating.js";
 import "./src/copy.js";
-import morePage from "./src/pages/more.js";
-import fullPage from "./src/pages/full.js";
-import introPage from "./src/pages/intro.js";
-import setupPage from "./src/pages/setup.js";
-import homePage from "./src/pages/home.js";
 import "./src/lightbox.js";
-import expansionPage from "./src/pages/expansions.js";
 
-Pager.add({
-  home: homePage,
-  setup: setupPage,
-  intro: introPage,
-  full: fullPage,
-  more: morePage,
-  expansion: expansionPage,
-});
+const pageNames = ["home", "setup", "intro", "full", "more", "expansion"];
+const pageName = window.location.pathname.split("/").pop().split(".").shift();
 
 const CardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
 
@@ -38,27 +25,29 @@ DOM.set({
     menu_bulletMenu: Copy.getLinkMenu(),
   },
   main: {
-    nav_main: Pager.getLinkMenu(key => ({
+    nav_main: DOM.linkMenu(pageNames.map(key => ({
       transition: '0.3s ease',
-      color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
-      backgroundColor: Pager._key.as(val => val === key ? `var(--${key})` : 'transparent'),
+      color: pageName === key ? 'black' : `var(--${key})`,
+      backgroundColor: pageName === key ? `var(--${key})` : 'transparent',
       name: key,
+      alt: key,
+      href: `${key}.html`,
       html: Copy.at[key],
-    })),
+    }))),
     figure: {
       position: 'relative',
       padding: '1em 1em 0',
-      backgroundColor: Pager._key.as(key => `var(--${key})`),
+      backgroundColor: `var(--${pageName})`,
       img: {
         width: '100%',
         alt: 'Jack Rabbits boardgame photo',
-        src: Pager._key.as({
+        src: ({
           home: 'images/photo00.png',
           setup: 'images/photo01.png',
           intro: 'images/photo02.png',
           full: 'images/photo03.png',
           more: 'images/photo04.png',
-        }),
+        })[pageName],
         width: '100%',
         maxWidth: '1000px',
         maxHeight: '16em',
@@ -69,7 +58,7 @@ DOM.set({
         overflow: 'hidden',
       },
       a_button_video: {
-        display: Pager._key.as(val => val === 'home' ? 'block' : 'none'),
+        display: pageName === 'home' ? 'block' : 'none',
         position: 'absolute',
         text: Copy.text({
           es: "Video tutorial",
@@ -78,14 +67,16 @@ DOM.set({
         click: e => popUp("video"),
       },
     },
-    main: {
+    article_main: {
       id: "content",
-      backgroundColor: Pager._key.as(key => `var(--${key})`),
-      content: Pager._content,
+      backgroundColor: `var(--${pageName})`,
+      content: DOM.get("#content"),
     },
   },
   footer: {
-    p: versify(Copy.at.subscribe),
+    section_verse: {
+      p: Copy.at.subscribe,
+    },
     menu_bulletMenu: DOM.linkMenu({
       class: ["button", "buy"],
       marginTop: "-1em",
@@ -116,3 +107,8 @@ DOM.set({
     root: 'suityourself/',
   })),
 });
+
+
+DOM.get(".verse p, .verse li").forEach(v => v.let("content", versify(v.innerHTML)));
+
+DOM.get("img[name]").forEach(img => img.let("content", ASSETS[img.get("name")]));

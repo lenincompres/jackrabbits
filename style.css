@@ -83,11 +83,11 @@ body {
     max-width: 45rem;
   }
 
-  article.main>article>section {
+  #content>article>section {
     width: 39rem !important;
   }
 
-  html[lang="es"] article.main>article>section {
+  html[lang="es"] #content>article>section {
     width: 40rem !important;
   }
 
@@ -119,8 +119,8 @@ body {
     max-width: 30rem;
   }
 
-  article.main>article>section,
-  html[lang="es"] article.main>article>section {
+  #content>article>section,
+  html[lang="es"] #content>article>section {
     width: 21rem !important;
   }
 
@@ -210,19 +210,17 @@ p {
   margin: 0 auto 0.7rem;
 }
 
-p:last-child {
+#content>article p:last-child {
   margin-bottom: 0;
 }
 
-p>div>span,
-ul.exception>li>div>span {
+line>span {
   display: inline-block;
   text-wrap: nowrap;
   margin: 0 0.25em;
 }
 
-p>div>span:first-child>span,
-ul.exception>li>div>span:first-child>span {
+line>span:first-child>span {
   margin-right: -0.5em;
 }
 
@@ -484,14 +482,18 @@ body>header h1>* {
   margin: 0 0.3rem;
 }
 
-article.main img {
+#content {
+  background-color: var(--home);
+}
+
+#content img {
   display: block;
   font-family: 'Courier New', Courier, monospace;
   max-width: 100%;
   margin: 0 auto;
 }
 
-article.main>article>section img {
+#content>article>section img {
   margin: 0 auto 0.5rem;
   width: auto;
 }
@@ -503,7 +505,7 @@ article.main>article>section img {
   box-shadow: 1px 1px 3px black;
 }
 
-.carded.link {
+#content .carded.link {
   border: solid 0.33rem darkgreen;
   justify-content: center !important;
 }
@@ -520,7 +522,7 @@ article.main>article>section img {
   z-index: 1;
 }
 
-article.main>article>section.letter {
+#content>article>section.letter {
   max-width: fit-content;
   padding-left: 2em;
   padding-right: 2em;
@@ -541,11 +543,11 @@ article.main>article>section.letter {
 }
 
 
-article.main>article.shuffle {
+#content>article.shuffle {
   display: flex;
 }
 
-article.main>article.shuffle>section {
+#content>article.shuffle>section {
   box-shadow: 1px 1px 3px black;
   background-color: #ffffff66;
 }
@@ -638,16 +640,16 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-article.main {
+#content {
   padding: 0.5rem 0 1.5rem;
 }
 
-article.main>article:not(:first-child) {
+#content>article:not(:first-child) {
   padding-top: 1rem;
 }
 
-article.main,
-article.main>article {
+#content,
+#content>article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -657,9 +659,9 @@ article.main>article {
 }
 
 
-article.main>article>header,
-article.main .heading,
-article.main>header {
+#content>article>header,
+#content .heading,
+#content>header {
   width: 100%;
   padding: 1rem;
   margin: 1rem 1rem 0;
@@ -671,13 +673,13 @@ article.main>header {
   -o-border-radius: 0.5rem;
 }
 
-article.main>article>footer,
-article.main>footer {
+#content>article>footer,
+#content>footer {
   width: 100%;
   margin: 0.5rem 2rem 0;
 }
 
-article.main>article>header>main {
+#content>article>header>main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -685,11 +687,11 @@ article.main>article>header>main {
   margin-bottom: 1rem;
 }
 
-article.main>article>header>main>* {
+#content>article>header>main>* {
   margin: 0 0.2rem;
 }
 
-article.main>article>section {
+#content>article>section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -704,33 +706,33 @@ article.main>article>section {
   -o-border-radius: 0.5rem;
 }
 
-article.main>article>section>section {
+#content>article>section>section {
   margin: 0.3rem 0;
 }
 
-ul.exception {
+#content>article>section ul {
   text-align: left;
   padding-left: 1rem;
   width: fit-content;
   margin: 0 auto;
 }
 
-ul.exception>li::before {
+#content>article>section ul>li::before {
   content: "•";
   float: left;
   margin-left: -0.5em;
 }
 
-ul.exception>li:first-child:before {
+#content>article>section ul>li:first-child:before {
   content: "○";
   content: "";
 }
 
-ul.exception>li {
+#content>article>section ul>li {
   width: min-content;
 }
 
-ul.exception>li>div {
+#content>article>section ul>li>line {
   width: min-content;
 }
 

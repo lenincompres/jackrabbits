@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Charset & Viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Title & Description -->
+  <title>Jack Rabbit – Official Card & Board Game</title>
+  <meta name="description"
+    content="Discover Jack Rabbits, a thrilling board game of speed, wit, and strategy. Learn the rules, play online, or get your copy today!">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://jackrabbit.lenino.net/">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+
+  <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+  <meta property="og:title" content="Jack Rabbits – The board game for playing cards on a land of wooden shards">
+  <meta property="og:description"
+    content="A thrilling board game of speed, wit, and strategy. Learn the rules, play online, or get your copy today!">
+  <meta property="og:image" content="https://jackrabbits.lenino.net/images/jackrabbits.png">
+  <meta property="og:url" content="https://jackrabbits.lenino.net/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jack Rabbits – The board game for playing cards on a land of wooden shards">
+  <meta name="twitter:description" content="Jump into the action! Learn, play, and master Jack Rabbits.">
+  <meta name="twitter:image" content="https://jackrabbits.lenino.net/images/jackrabbits.png">
+
+  <!-- Structured Data (Schema.org JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Jack Rabbit Card Game",
+      "image": "https://jackrabbits.lenino.net/images/jackrabbits.png",
+      "description": "The board game for playing cards on a land of wooden shards.",
+      "brand": "Jack Rabbit",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://jackrabbits.lenino.net/",
+        "priceCurrency": "USD",
+        "price": "19.99",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q10N5CZLT2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-Q10N5CZLT2');
+  </script>
+
+  <!-- Framework and resouces -->
+  <script src="lib/DOM.js"></script>
+  <script src="hat.js" type="module" defer></script>
+</head>
+
+<body>
+  <main id="content" style="background-color: var(--setup);">
+    <article>
+      <section class="verse">
+        <h2>1</h2>
+        <h3>Build the Board</h3>
+        <p>
+          At the start of every match,
+          you must first complete a board.
+          Map it randomly from scratch,
+          or revisit one explored.
+        </p>
+        <p>
+          Link the houses from each throne,
+          which are hexes in this spread.
+          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> of your own,
+          or the sample right ahead.
+        </p>
+        <figure id="p"><a class="thumbnail"><img height="8em" src="./images/sampleThumbnail.png" alt="Sample board"
+              style="height: 8em;"></a></figure>
+        <p>
+          If there're children under nine,
+          only play to build the land.
+          Then explore what they design—
+          with a rabbit in their hand.
+          Bring the cards in down the line,
+          and the rules they understand.
+        </p>
+      </section>
+      <section class="verse">
+        <h2>2</h2>
+        <h3>Deal the cards</h3>
+        <p>
+          Lay the <i>court</i> in any order,
+          after placing every tile.
+          These are <i>royal</i> cards and <i>jokers</i>,
+          and will form a faceup aisle.
+          What remains are <i>pips</i> in number,
+          and the <i>aces</i> of each style.
+          Give a shuffle as in poker—
+          set a facedown drawing
+          <i>pile</i>.
+        </p><img src="./images/cards.png" alt="Cards setup" height="8.6rem" id="p" style="height: 8.6rem;">
+        <p>
+          Every player gets three cards,
+          that's their <i>hand</i> to start the chase.
+          They're resources each one guards,
+          for <b>the journey</b> they will face.
+          And pay royals their regards,
+          per <b>the acquisition</b> phase.
+        </p>
+      </section>
+      <section class="verse">
+        <h2>3</h2>
+        <h3>Set the tokens</h3>
+        <p>
+          Players choose their token rabbits,
+          set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>.
+          And collect their matching carrots—
+          they get three of
+          these as well.
+        </p>
+        <img src="./images/tokens.png" alt="tokens" height="7rem" id="p" style="height: 7rem;">
+        <p>
+          For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
+          choose the royal quest you’re on.
+          If a circle marks this aim,
+          set it on the hexagon.
+        </p>
+        <img src="./images/endings.png" alt="Endings tokens" height="3rem" id="p" style="height: 3rem;">
+        <p>
+          Now select the starting player,
+          and the order of the turns.
+          Choose your ways for this endeavor—
+          none of these are
+          my concerns.
+        </p>
+      </section>
+    </article>
+    <footer class="verse">
+      <p>
+        This concludes the setup frame.
+        Next you'll find the <a href="#intro"><b><big>intro game</big></b></a>.
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>
