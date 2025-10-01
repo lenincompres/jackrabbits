@@ -147,7 +147,7 @@ const optionalSections = [
         a quien se te presente en tu descanso,
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
-        hearts can help you turn them down.
+        show your hearts to turn them down.
         With their rules you may contest—
         anywhere but underground.`,
     })),

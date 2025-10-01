@@ -98,21 +98,21 @@ const transferSections = [{
     es: `Los cruces te permiten transportarte
       viajando por las aguas o las tierras.
       Por tierra galopando sin pararte,
-      moviéndote al hexágono que quieras.
+      moviéndote a la pieza que prefieras.
       Por agua si el lugar de comerciantes
       colinda con un lado a las afueras,
       te sales navegando por los mares
       y arribas por alguna carretera.
       Saldrás en el momento en el que pagues 
-      y anuncies el transporte que prefieras.`,
+      y anuncies el transporte que requieras.`,
     en: `Stationed where the road is forked,
       there's a horse and boat to ride. 
-      Reach a hex across the board,
+      Reach a place across the board,
       dashing over tiles in stride.
       Or select a road to port,
       gliding on the seas outside.
       Pay and move to your next post,
-      on the ride that you decide.
+      choose the ride that you decide.
       Landlocked merchants have no boats, 
       since they’re not by the seaside.`,
   }), {
