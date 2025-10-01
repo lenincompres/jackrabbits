@@ -112,7 +112,7 @@ const transferSections = [{
       Or select a road to port,
       gliding on the seas outside.
       Pay and move to your next post,
-      on the ride that you decide.
+      choose the ride that you decide.
       Landlocked merchants have no boats, 
       since they’re not by the seaside.`,
   }), {
