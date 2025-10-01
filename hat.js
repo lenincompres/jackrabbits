@@ -5,13 +5,23 @@ import CardFloating from "./src/CardFloating.js";
 import "./src/copy.js";
 import "./src/lightbox.js";
 
-const pageNames = ["home", "setup", "intro", "full", "more", "expansion"];
+// Save current body content to restore later
+const bodyHTML = document.body.innerHTML;
+
+// Determine current page from URL
 const pageName = window.location.pathname.split("/").pop().split(".").shift();
 
-const CardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
+// List of all page names for the menu
+const pageNames = ["home", "setup", "intro", "full", "more", "expansion"];
 
+// Choose how many floating cards to show based on screen size
+const cardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
+
+// Set up the whole page structure
 DOM.set({
   link: "style.css",
+  script: "https://cdn.jsdelivr.net/npm/marked/marked.min.js",
+  content: "",
   header: {
     h1: {
       a: {
@@ -67,10 +77,9 @@ DOM.set({
         click: e => popUp("video"),
       },
     },
-    article_main: {
+    article: {
       id: "content",
       backgroundColor: `var(--${pageName})`,
-      content: DOM.get("#content"),
     },
   },
   footer: {
@@ -101,14 +110,22 @@ DOM.set({
         en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
       }),
     },
-    onready: () => popUp('mailingList'),
   },
-  aside: Array(CardNum).fill().map(() => new CardFloating({
+  aside: Array(cardNum).fill().map(() => new CardFloating({
     root: 'suityourself/',
   })),
 });
 
+// Restore original body content
+content.let("content", bodyHTML); 
 
-DOM.get(".verse p, .verse li").forEach(v => v.let("content", versify(v.innerHTML)));
+// Show mailing list popup if not coming from same site (to avoid showing it again when navigating internally)
+if (!document.referrer || (new URL(document.referrer)).origin !== window.location.origin) {
+  popUp('mailingList');
+}
 
-DOM.get("img[name]").forEach(img => img.let("content", ASSETS[img.get("name")]));
+// Apply versify to all paragraphs and list items inside elements with class "verse"
+DOM.get(".verse p, .verse li").forEach(versify);
+
+// Replace all images with name attribute with the corresponding asset
+DOM.get("a.thumbnail, img[name]").forEach(ASSETS.set);

@@ -1,4 +1,5 @@
 function versify(...args) {
+  if(args[0].tagName) return args[0].let("content", versify(args[0].innerHTML));
   let poem = [];
   args.forEach(arg => Array.isArray(arg) ? poem.push(...arg) : poem.push(arg));
   let stanzas = poem.map(p => {

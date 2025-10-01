@@ -5,7 +5,6 @@
   <!-- Charset & Viewport -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
 
   <!-- Title & Description -->
   <title>Jack Rabbit – Official Card & Board Game</title>
@@ -65,93 +64,98 @@
 
   <!-- Framework and resouces -->
   <script src="lib/DOM.js"></script>
+  <link rel="stylesheet" href="style.css">
   <script src="hat.js" type="module" defer></script>
 </head>
 
 <body>
-  <main id="content">
-    <article>
-      <section class="verse carded link" style="cursor: pointer;">
-        <img src="./images/jackRabbits.png" alt="Jack Rabbits">
-        <p>
-          The board game for playing cards
-          on a land of wooden shards
-        </p><a target="_blank" href="https://www.etsy.com/listing/1724318334/leninos-jack-rabbits"
-          class="button buy">Buy the game</a>
-      </section>
-      <section class="letter">
-        <h2>Greetings</h2>
-        <p>Hear ye, glorious messengers,</p>
-        <p>An auspicious quest is in order: the Order of Messenger Rabbits of the Citadel hereby orders a race to
-          procure royals for the ordinance of a Council of Thirds—the highest order ever
-          issued to a rabbit of this Order.</p>
-        <p><strong>Visit the noble houses, acquire the cards of three royals, and bring them to the Citadel</strong>, in
-          that order.</p>
-        <p>Note that I wrote “that order” not in reference to any other order of messenger rabbits, nor the order that
-          drives this letter, but the order of the steps you must take in order to fully restore the realm's order.</p>
-        <p>So, hoppity hop in orderly fashion. Our rabbits don’t evade rules.</p>
-        <p>The White Herald</p>
-      </section>
-      <section class="verse">
-        <h2>Overview</h2>
-        <p>
-          Visit houses turn by turn,
-          bringing numbered cards in hand.
-          Claim their royals and return,
-          holding three to rule the land.
-        </p>
-        <p>
-          To fulfill <b>the acquisition</b>,
-          add ten points that fit their suit.
-          On your turns along the mission,
-          you’ll be drawing cards as loot.
-        </p>
-        <img name="royals">
-        <p>
-          Make <b>the journey</b> hex to hex—
-          every road is free to course.
-          Pay to cut through trailway treks,
-          or to ride a boat or horse.
-        </p>
-        <p>
-          Rest upon a hex-shaped tile,
-          if you’re standing on the board.
-          Draw the card atop the pile—
-          that’s <b>the increment</b> reward.
-        </p>
-      </section>
-      <section class="verse">
-        <h2>Objective</h2>
-        <p>
-          Reach this place where you begin,
-          with three royal cards in hand.
-          You must be the first to win,
-          hailed as champion of the land.
-        </p>
-        <a class="thumbnail" onclick="popUp('citadel')"><img style="height: 8.4em;" name="citadel"></a>
-        <p>
-          But before the quest may start,
-          choose a challenge for the mission.
-          Set its circle as a mark,
-          for the trio's win condition:
-        </p>
-        <ul>
-          <li><b>simple</b>: any royal cards.</li>
-          <li>Or <b>diverse</b>: distinct in suits.</li>
-          <li>Or <b>monarchic</b>: <b>k</b>ing-<b>q</b>ueen-<b>j</b>ack.</li>
-          <li>Or <b>diverse</b>-<b>monarchic</b> too.</li>
-          <li>Or the <b>tribal</b>, which is hard:
+  <article>
+    <section class="verse carded link">
+      <img name="jackRabbits">
+      <p>
+        The board game for playing cards
+        on a land of wooden shards
+      </p>
+      <a target="_blank" href="https://www.etsy.com/listing/1724318334/leninos-jack-rabbits" class="button buy">Buy the game</a>
+    </section>
+    <section class="letter">
+      <h2>Greetings</h2>
+      <p>Hear ye, glorious messengers,</p>
+      <p>An auspicious quest is in order: the Order of Messenger Rabbits of the Citadel hereby orders a race to
+        procure royals for the ordinance of a Council of Thirds—the highest order ever
+        issued to a rabbit of this Order.</p>
+      <p><strong>Visit the noble houses, acquire the cards of three royals, and bring them to the Citadel</strong>, in
+        that order.</p>
+      <p>Note that I wrote “that order” not in reference to any other order of messenger rabbits, nor the order that
+        drives this letter, but the order of the steps you must take in order to fully restore the realm's order.</p>
+      <p>So, hoppity hop in orderly fashion. Our rabbits don’t evade rules.</p>
+      <p>The White Herald</p>
+    </section>
+    <section class="verse">
+      <h2>Overview</h2>
+      <p lang="en">
+        Visit houses turn by turn,
+        bringing numbered cards in hand.
+        Claim their royals and return,
+        holding three to rule the land.
+      </p>
+      <p lang="es">
+        Irás a transitar por los caminos
+        cargando con tus cartas numerales.
+        La meta es que regreses al castillo
+        luciéndote con tres de las reales.
+      </p>
+      <p>
+        To fulfill <b>the acquisition</b>,
+        add ten points that fit their suit.
+        On your turns along the mission,
+        you’ll be drawing cards as loot.
+      </p>
+      <img name="royals">
+      <p>
+        Make <b>the journey</b> hex to hex—
+        every road is free to course.
+        Pay to cut through trailway treks,
+        or to ride a boat or horse.
+      </p>
+      <p>
+        Rest upon a hex-shaped tile,
+        if you’re standing on the board.
+        Draw the card atop the pile—
+        that’s <b>the increment</b> reward.
+      </p>
+    </section>
+    <section class="verse">
+      <h2>Objective</h2>
+      <p>
+        Reach this place where you begin,
+        with three royal cards in hand.
+        You must be the first to win,
+        hailed as champion of the land.
+      </p>
+      <a class="thumbnail" name="citadel" height="8.4em"></a>
+      <p>
+        But before the quest may start,
+        choose a challenge for the mission.
+        Set its circle as a mark,
+        for the trio's win condition:
+      </p>
+      <ul>
+        <li><b>simple</b>: any royal cards.</li>
+        <li>Or <b>diverse</b>: distinct in suits.</li>
+        <li>Or <b>monarchic</b>: <b>k</b>ing-<b>q</b>ueen-<b>j</b>ack.</li>
+        <li>Or <b>diverse</b>-<b>monarchic</b> too.</li>
+        <li>Or the <b>tribal</b>, which is hard:
           royals in one suit pursuit.</li>
-        </ul>
-      </section>
-      <footer class="verse">
-        <p>
-          Let's begin the <a href="setup.html"><b><big>Setup</big></b></a> phase.
-          Up to four contenders race.
-        </p>
-      </footer>
-    </article>
-  </main>
+      </ul>
+    </section>
+    <footer class="verse">
+      <p>
+        Let's begin the <a href="setup.html"><b><big>Setup</big></b></a> phase.
+        Up to four contenders race.
+      </p>
+    </footer>
+  </article>
 </body>
 
 </html>

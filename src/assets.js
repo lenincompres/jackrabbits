@@ -1,6 +1,19 @@
 import imgCropStyle from "./aux/imgCropStyle.js";
 
 const ASSETS = {
+  set: (el) => {
+    const name = el.get("name");
+    if (el.tagName.toLowerCase() === "a") return el.set({
+      onclick: () => popUp(el.get("name")),
+      img: {
+        height: el.get("height"),
+        name: el.get("name"),
+        ready: ASSETS.set,
+      }
+    })
+    if (el.tagName.toLowerCase() === "img") return el.let("content", ASSETS[name]);
+    console.log(el.tagName);
+  },
   thumbnailOf: (key, h = "34%", click = () => undefined, model = {}) => ({
     tag: 'figure',
     a: {
