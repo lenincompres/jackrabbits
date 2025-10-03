@@ -90,7 +90,7 @@ const turnSections = [{
     en: [
       `It’s your goal to claim the card—
       claim the royal where you stood.
-      Only there you may discard:
+      Pay a visit and discard:
       ten or more in that card's suit.
       Place a carrot as your mark,
       and remove it from pursuit.`,
