@@ -98,8 +98,8 @@ const strategySections = [{
       If your target wins the war,
       they can’t steal a card you hoard.
       If you steal a royal card,
-      set <b>the acquisition</b> forth—
-      place your carrot as the mark,
+      set <b>the acquisition</b> forth:
+      place your carrot as the mark—
       give one up if it’s your fourth.`,
       /* 
       Note that tying scores is barred, 
