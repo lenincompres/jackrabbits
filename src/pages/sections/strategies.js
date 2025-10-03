@@ -199,8 +199,8 @@ const strategySections = [{
     después del intercambio se destierra.`,
     en: `If agreed when setup starts,
     add the <b class="diamonds">special trades <sup>+</sup></b> to boot:
-    deal in turn with diamond cards, 
-    where the players both set foot.
+    players trade with diamond cards, 
+    done in turn where both set foot.
     Never show your hand’s rewards—
     strike a deal beyond dispute.
     If what's traded proves a farce,
