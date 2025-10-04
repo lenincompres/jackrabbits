@@ -98,8 +98,8 @@ const strategySections = [{
       If your target wins the war,
       they can’t steal a card you hoard.
       If you steal a royal card,
-      set <b>the acquisition</b> forth—
-      place your carrot as the mark,
+      set <b>the acquisition</b> forth:
+      place your carrot as the mark—
       give one up if it’s your fourth.`,
       /* 
       Note that tying scores is barred, 
@@ -199,8 +199,8 @@ const strategySections = [{
     después del intercambio se destierra.`,
     en: `If agreed when setup starts,
     add the <b class="diamonds">special trades <sup>+</sup></b> to boot:
-    deal in turn with diamond cards, 
-    where the players both set foot.
+    player trades with diamond cards, 
+    done in turn where both set foot.
     Never show your hand’s rewards—
     strike a deal beyond dispute.
     If what's traded proves a farce,
