@@ -112,7 +112,7 @@ DOM.set({
     },
     onready: () => popUp('mailingList'),
   },
-  aside: Array(CardNum).fill().map(() => new CardFloating({
+  div: Array(CardNum).fill().map(() => new CardFloating({
     root: 'suityourself/',
   })),
 });

@@ -13,7 +13,7 @@ class CardFloating extends Card {
     suit = Card.SUIT.D,
     root = "",
     permanent = false,
-  }) {
+  } = {}) {
     super({
       number: number,
       suit: suit,

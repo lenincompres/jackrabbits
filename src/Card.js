@@ -9,7 +9,7 @@ class Card extends HTMLElement {
     root = "",
     numeral = true,
     flipped = false,
-  }) {
+  } = {}) {
     super();
 
     this.binderSet({
