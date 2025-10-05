@@ -108,7 +108,7 @@ const setupPage = {
           A menos que se juegue por el simple,
           su sello se pondrá en la Ciudadela.`,
           en: `For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
-          choose the royal quest you’re on.
+          choose the kind of quest you’re on.
           If a circle marks this aim, 
           set it on the hexagon.`,
         }),
@@ -130,7 +130,7 @@ const setupPage = {
       es: `Ya tienes la misión y el territorio.
         Comienza con el <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
       en: `This concludes the setup frame. 
-      Next you'll find the  <a href="#intro"><b><big>intro game</big></b></a>.`,
+      Now complete the  <a href="#intro"><b><big>intro game</big></b></a>.`,
     })),
   },
 };

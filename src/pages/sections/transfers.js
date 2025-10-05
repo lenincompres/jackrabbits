@@ -1,6 +1,8 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
-import versify, { classifyChars } from "../../aux/versify.js";
+import versify, {
+  classifyChars
+} from "../../aux/versify.js";
 
 const introText = versify(Copy.text({
   es: `Es gratis desplazarte a los hexágonos
@@ -150,17 +152,19 @@ const transferSections = [{
       pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
       Take this turn to wait and waive— 
       hop on out the coming round.`,
-  }), {
-    tag: "a",
-    name: "intro/off",
-  }, {
-    tag: "h4",
-    html: Copy.text({
-      es: "El Destierro",
-      en: "Off-board",
-    })
-  }, Copy.text({
-    es: `A veces te conviene que salieras,
+  })),
+  aside_note: {
+    a: {
+      name: "intro/off",
+    },
+    h4: {
+      html: Copy.text({
+        es: "El Destierro",
+        en: "Off-board",
+      })
+    },
+    p: versify(Copy.text({
+      es: `A veces te conviene que salieras,
       cayendo de un camino a las orillas.
       Olvida <b>el incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
@@ -168,7 +172,7 @@ const transferSections = [{
       y en vez de ejecutar <b>la travesía</b>,
       te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
-    en: `If you venture off the board,
+      en: `If you venture off the board,
       on a road that leads outbound,
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
@@ -176,7 +180,8 @@ const transferSections = [{
       and you'll <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
       There your <b>increment</b>’s restored,
       and you’ll wait another round.`,
-  })),
+    })),
+  },
   img: ASSETS.caves,
 }];
 

@@ -9,18 +9,18 @@ const optionalSections = [
   }),
   section: [{
     h5: Copy.text({
-      es: `<a class="pop" onclick="popUp('advancedCitadel')">Ciudadela Avanzada</a>`,
-      en: `<a class="pop" onclick="popUp('advancedCitadel')">Advanced Citadel</a>`,
+      es: `Ciudadela Avanzada`,
+      en: `Advanced Citadel`,
     }),
     p: versify(Copy.text({
-      es: `Si eliges la carátula de atrás,
+      es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel')">carátula de atrás</a>,
       incluyes estrategias importantes:
       cuestionas corazones al entrar,
       canjeas lo que quieras con diamantes,
       y puedes con tus tréboles volar
       con palos cualesquiera de restante.`,
       en: `There are three depicted assets,
-      on this flip-side tile reboot:
+      on this <a class="pop" onclick="popUp('advancedCitadel')">flip-side tile</a> reboot:
       question hearts to grant the access;
       buy with diamonds any loot; 
       show your clubs for flying passes—
@@ -123,8 +123,8 @@ const optionalSections = [
   }),
   section: [{
     h5_clubs: Copy.text({
-      es: "Vuelos Especiales",
-      en: "Special flights",
+      es: "Vuelos Opcionales",
+      en: "Extended flights",
     }),
     p: versify(Copy.text({
       es: `Las plazas, Ciudadela y los palacios
@@ -138,8 +138,8 @@ const optionalSections = [
     })),
   }, {
     h5_hearts: Copy.text({
-      es: "Accesos Especiales",
-      en: "Special Access",
+      es: "Accesos Opcionales",
+      en: "Extended Access",
     }),
     p: versify(Copy.text({
       es: `Cuestionas al igual que en los palacios,
