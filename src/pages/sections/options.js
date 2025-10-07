@@ -123,8 +123,8 @@ const optionalSections = [
   }),
   section: [{
     h5_clubs: Copy.text({
-      es: "Vuelos Opcionales",
-      en: "Extended flights",
+      es: "Vuelos Especiales",
+      en: "Special flights",
     }),
     p: versify(Copy.text({
       es: `Las plazas, Ciudadela y los palacios
@@ -138,8 +138,8 @@ const optionalSections = [
     })),
   }, {
     h5_hearts: Copy.text({
-      es: "Accesos Opcionales",
-      en: "Extended Access",
+      es: "Accesos Especiales",
+      en: "Special Access",
     }),
     p: versify(Copy.text({
       es: `Cuestionas al igual que en los palacios,

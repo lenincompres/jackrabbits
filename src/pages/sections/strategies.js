@@ -189,7 +189,7 @@ const strategySections = [{
       en: "+ Interpersonal Trades",
     }),*/
   p_0: versify(Copy.text({
-    es: `Consulta si <b class="diamonds">comercios opcionales <sup>+</sup></b>
+    es: `Consulta si <b class="diamonds">comercios especiales <sup>+</sup></b>
     se aceptan al sumárselo a las reglas:
     canjeas lo que quieras por diamantes 
     con alguien en el sitio que te encuentras;
@@ -198,7 +198,7 @@ const strategySections = [{
     A quien se le descubra por chantaje, 
     después del intercambio se destierra.`,
     en: `If agreed when setup starts,
-    add <b class="diamonds">extended trades <sup>+</sup></b> to boot:
+    add the <b class="diamonds">special trades <sup>+</sup></b> to boot:
     player trades with diamond cards, 
     done in turn where both set foot.
     Never show your hand’s rewards—
