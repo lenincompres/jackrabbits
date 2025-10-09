@@ -83,6 +83,10 @@ body {
     max-width: 45rem;
   }
 
+  line {
+    white-space: nowrap;
+  }
+
   #content>article>section {
     width: 39rem !important;
   }
@@ -117,6 +121,10 @@ body {
 @media (width <=45rem) {
   body {
     max-width: 30rem;
+  }
+
+  line {
+    white-space: initial;
   }
 
   #content>article>section,
