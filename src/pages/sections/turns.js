@@ -122,7 +122,7 @@ const turnSections = [{
     ],
     en: [
       `End upon a hex-shaped tile—
-      if you don't end up ashore.** 
+      if you don't fall off the shore.** 
       Draw the card atop the pile, 
       and your turn will be no more. 
       You may need to first repile:
