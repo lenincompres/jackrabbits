@@ -161,10 +161,10 @@ const optionalSections = [
         si está tu zanahoria en un lugar.
         Permite que en el turno que visitas
         avances sin parar a descansar.`,
-      en: `If your carrot’s on a hex,
-        you may visit in a round.
-        Go to where you're headed next—
-        you don't need to wait around.`,
+      en: `Once your carrot’s been in place,
+        you won't need to wait around.
+        Hexes claimed provide a trace—
+        you may leave in the same round.`,
     })),
   }]
 }, {
