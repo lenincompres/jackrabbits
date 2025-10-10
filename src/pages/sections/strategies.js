@@ -61,7 +61,7 @@ const strategySections = [{
   img: ASSETS.spades,
   h4_spades: Copy.text({
     es: "Pelear por las cartas",
-    en: "Fight players for cards",
+    en: "Duel players for cards",
   }),
   p: versify(Copy.text({
     es: [
@@ -117,8 +117,8 @@ const strategySections = [{
   }),
   img: ASSETS.hearts,
   h4_hearts: Copy.text({
-    es: "Accesar a los palacios Q",
-    en: "Access the <big>Q</big>ueen Palaces",
+    es: "Vetar los palacios Q",
+    en: "Vet the <big>Q</big>ueen Palaces",
   }),
   p: versify(Copy.text({
     es: [
@@ -189,16 +189,16 @@ const strategySections = [{
       en: "+ Interpersonal Trades",
     }),*/
   p_0: versify(Copy.text({
-    es: `Consulta si <b class="diamonds">comercios especiales <sup>+</sup></b>
-    se aceptan al sumárselo a las reglas:
-    canjeas lo que quieras por diamantes 
+    es: `Si quieres <b class="diamonds">potenciar a los diamantes <sup>+</sup></b>,
+    añádele el acápite a las reglas:
+    permite los canjeos personales
     con alguien en el sitio que te encuentras;
     y mientras los negocios se debaten, 
     se ocultan en las manos las ofertas.
     A quien se le descubra por chantaje, 
     después del intercambio se destierra.`,
     en: `If agreed when setup starts,
-    add the <b class="diamonds">special trades <sup>+</sup></b> to boot:
+    you may add the <b class="diamonds">diamonds boost <sup>+</sup></b>:
     player trades with diamond cards, 
     done in turn where both set foot.
     Never show your hand’s rewards—

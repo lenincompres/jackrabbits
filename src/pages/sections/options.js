@@ -21,7 +21,7 @@ const optionalSections = [
       con palos cualesquiera de restante.`,
       en: `There are three depicted assets,
       on this <a class="pop" onclick="popUp('advancedCitadel')">flip-side tile</a> reboot:
-      question hearts to grant the access;
+      vet the hearts to grant the access;
       buy with diamonds any loot; 
       show your clubs for flying passes—
       shortfall’s paid in any suit.`,
@@ -38,8 +38,8 @@ const optionalSections = [
       retírales un palo con un set.
       Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
       si acaso es imposible de obtener.
-      Si juegas sin las picas y sus duelos,
-      podría complicársete vencer.`,
+      Si juegas con las picas y sus duelos,
+      con esto se potencia su poder.`,
       en: `Have as many suits as players,
       and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
       If there's only three contenders, 
@@ -47,7 +47,7 @@ const optionalSections = [
       Pick a fitting kind of ending:
       one that cards allow you to.
       Spades are often recommended—
-      best for tribal game pursuit.`,
+      with tight suits they get a boost.`,
     })),
     /*},{
       h5__: Copy.text({
@@ -123,8 +123,8 @@ const optionalSections = [
   }),
   section: [{
     h5_clubs: Copy.text({
-      es: "Vuelos Especiales",
-      en: "Special flights",
+      es: "Tréboles Potenciados",
+      en: "Clovers Boost",
     }),
     p: versify(Copy.text({
       es: `Las plazas, Ciudadela y los palacios
@@ -138,8 +138,8 @@ const optionalSections = [
     })),
   }, {
     h5_hearts: Copy.text({
-      es: "Accesos Especiales",
-      en: "Special Access",
+      es: "Corazones Potenciados",
+      en: "Hearts Boost",
     }),
     p: versify(Copy.text({
       es: `Cuestionas al igual que en los palacios,
@@ -148,7 +148,7 @@ const optionalSections = [
         si no es en el subsuelo que te encuentres.`,
       en: `If a guest comes where you rest,
         show your hearts to turn them down.
-        With their rules you may contest—
+        Use their vetting to contest—
         anywhere but underground.`,
     })),
   }, {
