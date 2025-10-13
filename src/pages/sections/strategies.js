@@ -40,7 +40,7 @@ const strategySections = [{
       if it beats the dice or ties. 
       Or you’ll miss the board and fall—
       play <b>the lottery</b> likewise.
-      And whatever may befall,
+      Even off-board there's no toll,
       tumblers keep the card that tries.`,
       `Land your flight and don’t fall off,
       if you pay to reach the dice. 
@@ -61,7 +61,7 @@ const strategySections = [{
   img: ASSETS.spades,
   h4_spades: Copy.text({
     es: "Pelear por las cartas",
-    en: "Duel players for cards",
+    en: "Fight others for cards",
   }),
   p: versify(Copy.text({
     es: [
