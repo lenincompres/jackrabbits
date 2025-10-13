@@ -13,8 +13,8 @@ const strategySections = [{
   }),
   img: ASSETS.clubs,
   h4_clubs: Copy.text({
-    es: "Volar entre dos torres K",
-    en: "Fly among <big>K</big>ing Towers",
+    es: "Volar entre las torres K",
+    en: "Fly from <big>K</big>ing Towers",
   }),
   p: versify(Copy.text({
     es: [
@@ -22,8 +22,8 @@ const strategySections = [{
       un trébol al lanzar <b>la lotería</b>,
       y harás <b>la travesía</b> por las torres
       si no lo sobrepasa lo que tiras.
-      Un tiro con los números mayores,
-      te lleva a desterrarte en las orillas.
+      Si el tiro soprepasa lo que expones,
+      te vas a desterrar en las orillas.
       Igual el pasaporte lo recoges
       y el premio si un acierto se confirma.`,
       `Si pagas el <i>restante</i> que le sobre,
