@@ -35,12 +35,12 @@ const strategySections = [{
     ],
     en: [
       `Show one card before you roll,
-      set <b>the journey</b> to the skies.
+      cast <b>the journey</b> to the skies.
       Pick a tower as a goal,
       if it beats the dice or ties. 
       Or you’ll miss the board and fall—
       play <b>the lottery</b> likewise.
-      And off-board or standing tall,
+      Off the board or standing tall,
       tumblers keep the card that tries.`,
       `Land your flight and don’t fall off,
       if you pay to reach the dice. 
