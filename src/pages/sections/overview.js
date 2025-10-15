@@ -36,7 +36,7 @@ const overviewSection = {
         `Es gratis completar <b>la travesía</b>
         si viajas por alguna carretera.
         Se pagan <b>los traslados</b> de las vías:
-        transporte, matorral o madriguera.`,
+        transporte, vericueto o madriguera.`,
         `Detente en los hexágonos que llegues
         y toma <b>el incremento</b> de tus cartas,
         a menos que te salgas o <i>destierres</i>
