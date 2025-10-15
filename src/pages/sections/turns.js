@@ -121,7 +121,7 @@ const turnSections = [{
       Revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
     ],
     en: [
-      `End upon a hex-shaped tile—
+      `End your turns on a hex tile—
       if you don't fall off the shore.** 
       Draw the card atop the pile, 
       and your turn will be no more. 
