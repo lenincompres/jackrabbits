@@ -143,9 +143,9 @@ const optionalSections = [
     }),
     p: versify(Copy.text({
       es: `Cuestionas al igual que en los palacios,
-        con pruebas y destierro consecuentes,
+        con pruebas y destierro consecuente,
         a quien se te presente en tu descanso,
-        si no es en el subsuelo que te encuentres.`,
+        si no es en el subsuelo que te encuentre.`,
       en: `If a guest comes where you rest,
         show your hearts to turn them down.
         Use their vetting to contest—
