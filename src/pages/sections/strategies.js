@@ -139,7 +139,7 @@ const strategySections = [{
     ],
     en: [
       `Any player may contest, 
-      as you reach a queenly throne:
+      as you reach a queen’s own throne:
       “Show six points to prove you're blest,
       adding hearts from cards you own.”
       Or declare you're honored guest, 
