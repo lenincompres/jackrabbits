@@ -26,7 +26,7 @@ const fullPage = {
         tu fin de <b>travesía</b> es el subsuelo.`,
         en: `If your turn falls off the board,
         skip <b>the increment</b> this round.
-        When a turn begins off-board,
+        When your turn begins off-board,
         end <b>the journey</b> underground.`
       })),
     },

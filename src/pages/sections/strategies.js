@@ -40,7 +40,7 @@ const strategySections = [{
       if it beats the dice or ties. 
       Or you’ll miss the board and fall—
       play <b>the lottery</b> likewise.
-      Off the board or standing tall,
+      Dropped off-board or standing tall,
       tumblers keep the card that tries.`,
       `Land your flight and don’t fall off,
       if you pay to reach the dice. 

@@ -27,7 +27,7 @@ const optionalSections = [
       shortfall’s paid in any suit.`,
     })),
   }, {
-    h5: Copy.text({
+    h5_spades: Copy.text({
       es: "Palos Justos",
       en: "Tight Suits",
     }),
