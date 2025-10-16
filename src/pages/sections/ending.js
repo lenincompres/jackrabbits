@@ -37,7 +37,7 @@ la clase de final que le interesa:`,
         `<b>monárquico</b>: distintas en su letra;`,
         `<b>monárquico</b> y <b>diverso</b> combinado;`,
         `<b>tribal</b>: con las de palo que concuerda, 
-        que advierto es desafiante de lograrlo.`,
+        que al fin es desafiante de lograrlo.`,
       ],
       en: [
         `<b>simple</b>: any royal cards.`,
