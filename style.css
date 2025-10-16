@@ -87,6 +87,10 @@ body {
     white-space: nowrap;
   }
 
+  li>line>span {
+    display: block;
+  }
+
   #content>article>section {
     width: 39rem !important;
   }
