@@ -197,7 +197,7 @@ const nauticalSections = [{
       en: /*`Count the icicles you hoard,
       show a sum of twelve at least,*/
       `Move its tower by the shore,
-      when you roll from any piece
+      when you roll from any piece,
       if you show a card before,
       and it's equal or exceeds.
       Link it to a road tile's port,

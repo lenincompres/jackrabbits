@@ -49,8 +49,8 @@ const frontierSections = [{
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
       en: `Its extension underground,
-      which has two effects with fire,
-      lets you leave that very round, 
+      carries two effects with fire.
+      Lets you leave that very round, 
       paying what the dice require.
       And when turns are off-board bound,
       if that’s not what you desire,
@@ -83,10 +83,10 @@ const frontierSections = [{
       Tan solo es invadiendo que se ingresa.`,
       en: `Show your shields—ten pips or less—
       seal the hex where you will stand.
-      Only those incoming guests 
-      who discard a higher band
-      have your shields discarded next—
-      so you lose them from your hand.
+      It will only welcome guests 
+      who discard a higher band.
+      If this happens while you rest,
+      lose the shown ones from your hand.
       No one else reaches the hex.
       Underground, this seal is banned.`,
     })),
@@ -103,11 +103,11 @@ const frontierSections = [{
         Si lo haces y te encuentras en la pieza,
         del sitio te regalan su traslado.`,
       en: `Guards are placed to block the road—
-      any green three-sided tile.
+      on a green three-sided tile.
       Pay wherever on the board,
-      and you'll choose their post meanwhile—
-      if you're there, get its reward:
-      have its transfer in this style.`,
+      and you'll choose their post meanwhile.
+      If you're there, get its reward:
+      the tile's transfer in this style.`,
     })),
   }]
 }, {

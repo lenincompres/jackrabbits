@@ -19,10 +19,10 @@ const neoclassicSections = [{
       y piezas que las unen por sus rieles.
       La ficha con el hongo y sus poderes,
       que añades a las reglas si lo quieres.`,
-      en: `Four more royals and their tiles—
-      these have steeds and tracks for miles.
-      Plus a mushroom that's hostile—
-      blocking cards that leave the pile.`,
+      en: `Four more royals and their tiles,
+      which have steeds and tracks for miles.
+      And the mushroom that's hostile—
+      it blocks drawing from the pile.`,
     })),
   },
   section: [{
