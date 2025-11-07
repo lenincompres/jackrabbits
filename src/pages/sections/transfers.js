@@ -113,10 +113,10 @@ const transferSections = [{
       dashing over tiles in stride.
       Or select a road to port,
       gliding on the seas outside.
-      Pay and move to your next post,
-      choose the ride that you decide.
-      Landlocked merchants have no boats, 
-      since they’re not by the seaside.`,
+      Landlocked merchants have no boats,
+      since they’re not by the seaside.
+      Merchants send you from their post—
+      right as soon as you decide.`,
   }), {
     tag: "h4",
     html: Copy.text({
@@ -128,10 +128,10 @@ const transferSections = [{
       te marchas con el jóker de tu agrado.
       Transpórtate en el turno que prefieras
       y entonces lo liberas de tu mano.`,
-    en: `When you pass by any tavern,
-      you may buy a joker card.
-      Keep it till you’d like to travel,
-      and release it afterward.`,
+    en: `Taverns offer rides they host,
+      as you're passing by their side.
+      Choose a Joker card to hold,
+      and release to claim their ride.`,
   })),
   img: ASSETS.rides,
 }, {
