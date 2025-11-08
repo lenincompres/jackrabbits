@@ -128,9 +128,9 @@ const transferSections = [{
       te marchas con el jóker de tu agrado.
       Transpórtate en el turno que prefieras
       y entonces lo liberas de tu mano.`,
-    en: `Taverns offer rides they host,
-      as you're passing by their side.
-      Choose a Joker card to hold,
+    en: `Taverns sell the rides they host,
+      but the travel’s kept aside.
+      Choose a joker card to hold,
       and release to claim their ride.`,
   })),
   img: ASSETS.rides,
