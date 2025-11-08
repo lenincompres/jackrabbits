@@ -105,8 +105,8 @@ const transferSections = [{
       colinda con un lado a las afueras,
       te sales navegando por los mares
       y arribas por alguna carretera.
-      Saldrás en el momento en el que pagues 
-      y anuncies el transporte que requieras.`,
+      Los cruces te trasladan al instante,
+      partiendo en el transporte que requieras.`,
     en: `Stationed where the road is forked,
       there's a horse and boat to ride. 
       Reach a place across the board,
@@ -124,10 +124,10 @@ const transferSections = [{
       en: classifyChars("Jesters", "hearts", " diamonds"),
     }),
   }, Copy.text({
-    es: `Si pagas al pasar por las tabernas,
-      te marchas con el jóker de tu agrado.
-      Transpórtate en el turno que prefieras
-      y entonces lo liberas de tu mano.`,
+    es: `Los jókers te conceden un pasaje,
+      si pagas al pasar por las tabernas.
+      Lo sueltas de tu mano al trasladarte,
+      moviéndote en el turno que prefieras.`,
     en: `Taverns sell the rides they host,
       but the travel’s kept aside.
       Choose a joker card to hold,
