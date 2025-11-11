@@ -16,34 +16,37 @@ const setupPage = {
           lo creas de improviso y previamente.
           Las piezas se conectan por sus vías
           en cientos de maneras diferentes.`,
-          `Ensamblas un diseño aleatorio
+            `Ensamblas un diseño aleatorio
           del reino de las cartas y sus templos.
           Dirígete a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>
-          o intenta replicar el del ejemplo.`,],
+          o intenta replicar el del ejemplo.`,
+          ],
           en: [`At the start of every match,
           you must first complete a board.
           Map it randomly from scratch,
           or revisit one explored.`,
-          `Link the houses from each throne, 
+            `Link the houses from each throne, 
           which are hexes in this spread. 
           <a class="pop" onclick="popUp('board')"><b>build a new board</b></a>  of your own,
-          or the sample right ahead.`, ],
+          or the sample right ahead.`,
+          ],
         }),
         ASSETS.thumbnailOf("sampleThumbnail", '8em', e => popUp("sample")),
-        Copy.text({
-          es: `Limítate al ensamble de las tierras
+      ),
+      p_note: versify(Copy.text({
+        es: `Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
           Añádeles las cartas y sus reglas
           si captan a medida que las prueben.`,
-          en: `If there're children under nine,
+        en: `If there're children under nine,
           only play to build the land.
           Then explore what they design—
           with a rabbit in their hand.
           Bring the cards in down the line,
           and the rules they understand.`,
-        })),
+      })),
     }, {
       h2: 2,
       h3: Copy.text({
@@ -73,8 +76,8 @@ const setupPage = {
           los <i>palos numerales</i> y los <i>ases</i>,
           después de barajarlas y reunirlas,
           del mazo bocabajo las repartes.
-          Entrégales sus tres sin exhibirlas,
-          brindándoles las <i>manos</i> iniciales.
+          Se empieza con las <i>manos</i> de partida,
+          ocultas y de a tres por concursante.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
           en: `Every player gets three cards, 
