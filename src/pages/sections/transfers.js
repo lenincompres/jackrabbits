@@ -101,12 +101,12 @@ const transferSections = [{
       viajando por las aguas o las tierras.
       Por tierra galopando sin pararte,
       moviéndote a la pieza que prefieras.
-      Por agua si el lugar de comerciantes
+      Por agua si cualquera de sus calles
       colinda con un lado a las afueras,
       te sales navegando por los mares
       y arribas por alguna carretera.
       Los cruces te trasladan al instante,
-      partiendo en el transporte que requieras.`,
+      partiendo tras el pago que les dieras.`,
     en: `Stationed where the road is forked,
       there's a horse and boat to ride. 
       Reach a place across the board,
