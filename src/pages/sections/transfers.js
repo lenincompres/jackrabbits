@@ -153,18 +153,17 @@ const transferSections = [{
       Take this turn to wait and waive— 
       hop on out the coming round.`,
   })),
-  aside_note: {
-    a: {
-      name: "intro/off",
-    },
-    h4: {
-      html: Copy.text({
-        es: "El Destierro",
-        en: "Off-board",
-      })
-    },
-    p: versify(Copy.text({
-      es: `A veces te conviene que salieras,
+  a: {
+    name: "intro/off",
+  },
+  h4_: {
+    html: Copy.text({
+      es: "El Destierro",
+      en: "Off-board",
+    })
+  },
+  p_: versify(Copy.text({
+    es: `A veces te conviene que salieras,
       cayendo de un camino a las orillas.
       Olvida <b>el incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
@@ -172,7 +171,7 @@ const transferSections = [{
       y en vez de ejecutar <b>la travesía</b>,
       te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
-      en: `If you venture off the board,
+    en: `If you venture off the board,
       on a road that leads outbound,
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
@@ -180,8 +179,7 @@ const transferSections = [{
       and you'll <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
       There your <b>increment</b>’s restored,
       and you’ll wait another round.`,
-    })),
-  },
+  })),
   img: ASSETS.caves,
 }];
 
