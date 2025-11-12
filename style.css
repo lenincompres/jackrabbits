@@ -232,6 +232,15 @@ line>span {
   margin: 0 0.25em;
 }
 
+
+line>span.highighted {
+  background: #fd68;
+  border-radius: 0.5em;
+  font-weight: bold;
+  text-shadow: 0 0 2px gold;
+  box-shadow: 0 0 0.5em gold;
+}
+
 line>span:first-child>span {
   margin-right: -0.5em;
 }
