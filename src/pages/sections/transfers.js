@@ -115,8 +115,8 @@ const transferSections = [{
       gliding on the seas outside.
       Landlocked merchants have no boats,
       since they’re not by the seaside.
-      Merchants send you from their post—
-      right as soon as you decide.`,
+      Merchants send you from their post,
+      once your payment’s been applied.`,
   }), {
     tag: "h4",
     html: Copy.text({
@@ -127,7 +127,7 @@ const transferSections = [{
     es: `Los jókers te conceden un pasaje,
       si pagas al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
-      moviéndote en el turno que prefieras.`,
+      moviéndote en el turno en que lo quieras.`,
     en: `Taverns sell the rides they host,
       but the travel’s kept aside.
       Choose a joker card to hold,
