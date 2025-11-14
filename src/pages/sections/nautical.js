@@ -41,7 +41,7 @@ const nauticalSections = [{
   }, {
     h4_shells: Copy.text({
       es: "Traslado desde el Mar",
-      en: "Rescue Transfers",
+      en: "Transfer with the tides",
     }),
     p: versify(Copy.text({
       es: `En turnos en que sales al destierro,
@@ -54,7 +54,9 @@ const nauticalSections = [{
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.
-      Guests may leave from there for free, 
+      And this island, you will see,
+      is a traveler's resort:
+      guests may leave from there for free, 
       riding on the tower's boat.`,
     })),
   }]
@@ -80,12 +82,14 @@ const nauticalSections = [{
       la sumas al valor con que se adquiera.
       La carta que pusiste se descarta
       si pagan por el noble de la pieza.`,
-      en: `When you visit a hex tile,
+      en: `When you're visiting a tile,
       make its claim hard to achieve, 
-      find its card in the court's aisle,
-      place an anchor underneath:
-      add its value for the while,
-      and discard it once they leave.`,
+      Choose its noble from the aisle
+      where the royals take their leave.
+      Use an anchor to beguile—
+      set it as a weight beneath.
+      Add its value for the while,
+      and discard it when they leave.`,
     })),
   }, {
     h4_anchors: Copy.text({
@@ -136,7 +140,9 @@ const nauticalSections = [{
       //Si imploras de la torre acampanada,
       //afectas al tablero por completo.`,
       en: `You may duel with bells as well, 
-      though no one will end off-board.
+      but unlike you do with swords,
+      it’s a gentler sort of spell
+      where no one will fall off-board.
       Every player where you dwell 
       gifts to you a card they hoard,
       or may duel and add their bells—
@@ -163,7 +169,7 @@ const nauticalSections = [{
       Pay wherever you may be 
       to have anyone exiled.
       Even those off-board at sea 
-      may be stranded in this isle.
+      may be transferred to this isle.
       Underground, this cave is free, 
       and you're safe from facing trial.`,
     })),
@@ -224,9 +230,9 @@ const nauticalSections = [{
       Place the token on that piece,
       where it freezes all its guests.
       Any visitor who flees
-      goes off-board from its effects.`,/*
+      goes off-board from its effects.
       Only normal hexes freeze—
-      underground, this storm deflects.`,*/
+      underground, this storm deflects.`,
     })),
   }]
 }, ];

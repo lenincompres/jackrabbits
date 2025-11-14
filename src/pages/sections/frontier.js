@@ -28,7 +28,9 @@ const frontierSections = [{
       quienquiera que descanse en el lugar
       termina en las afueras del tablero.`,
       en: `You may plunder and defend,
-      using torches just like swords.
+      using torches just like swords,
+      so to steal a card from them,
+      picked at random as before.
       But the winner, in the end, 
       will be also hurled off-board.
       Since all players, there and then,
@@ -87,7 +89,7 @@ const frontierSections = [{
       who discard a higher band.
       If this happens while you rest,
       lose the shown ones from your hand.
-      No one else reaches the hex.
+      No one else will reach the hex.
       Underground, this seal is banned.`,
     })),
   }, {
@@ -106,8 +108,10 @@ const frontierSections = [{
       on a green three-sided tile.
       Pay wherever on the board,
       and you'll choose their post meanwhile.
-      If you're there, get its reward:
-      the tile's transfer in this style.`,
+      If you're there where they're restored,
+      you have transferred them with guile;
+      hit the tile for a reward:
+      get its transfer in this style.`,
     })),
   }]
 }, {
@@ -133,10 +137,12 @@ const frontierSections = [{
       las cartas de cualquiera de los palos.`,
       en: `Trade with horseshoes underground—
       at its shady marketplace.
-      This extension, dark and brown,
-      marks the expansion of the space.
+      This triangle, dark and brown,
+      is connected to this space.
       At this store, all suits are found—
-      horseshoes taken in their place.`,
+      horseshoes taken in their place.
+      You may trade your sums around,
+      for whatever suits you chase.`,
     })),
   }, {
     h4_horseshoes: Copy.text({
@@ -185,6 +191,8 @@ const frontierSections = [{
       la pila se descarta de inmediato.`,
       en: `Leaving acorns on display,
       adds them to the <i>overload</i>.
+      Do this when you end your play,
+      it impacts those down the road.
       Get the sum this pile will weigh—
       add it to the dice when rolled.
       Please discard it right away,
