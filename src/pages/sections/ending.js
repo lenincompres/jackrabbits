@@ -32,8 +32,8 @@ la clase de final que le interesa:`,
   ul_exception: {
     li: versify(Copy.text({
       es: [
-        `El <b>simple</b>: con reales cualesquiera;`,
-        `<b>diverso</b>: que varíen en su palo;`,
+        `<b>sencillo</b>: con reales cualesquiera;`,
+        `<b>diverso</b>: si varían en su palo;`,
         `<b>monárquico</b>: distintas en su letra;`,
         `<b>monárquico</b> y <b>diverso</b> combinado;`,
         `<b>tribal</b>: con las de palo que concuerda, 

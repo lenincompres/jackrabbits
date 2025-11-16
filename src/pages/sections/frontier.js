@@ -39,10 +39,10 @@ const frontierSections = [{
   }, {
     h4_torches: Copy.text({
       es: "Traslados bajo el subsuelo",
-      en: "Underground Transfers",
+      en: "Transfers Underground",
     }),
     p: versify(Copy.text({
-      es: `El triángulo de negro (con el fuego)
+      es: `El triángulo de negro con el fuego
         conéctalo al subsuelo por un lado.
         Si pagas al entrar en el subsuelo,
         podrás atraversarlo sin descanso.
@@ -87,7 +87,7 @@ const frontierSections = [{
       seal the hex where you will stand.
       It will only welcome guests 
       who discard a higher band.
-      If this happens while you rest,
+      If invaded while you rest,
       lose the shown ones from your hand.
       No one else will reach the hex.
       Underground, this seal is banned.`,
@@ -109,8 +109,8 @@ const frontierSections = [{
       Pay wherever on the board,
       and you'll choose their post meanwhile.
       If you're there where they're restored,
-      you have transferred them with guile;
-      hit the tile for a reward:
+      you have transferred them with guile:
+      hit the tile for a reward—
       get its transfer in this style.`,
     })),
   }]
@@ -129,7 +129,7 @@ const frontierSections = [{
       en: "Hustle underground",
     }),
     p: versify(Copy.text({
-      es: `Su plaza triangular (la que es oscura),
+      es: `Su plaza triangular, la que es oscura,
       conéctala al subsuelo en un costado.
       Permite comerciar con herraduras,
       brindándole al subsuelo su mercado,
@@ -147,7 +147,7 @@ const frontierSections = [{
   }, {
     h4_horseshoes: Copy.text({
       es: "Traslado en Bronco",
-      en: "Bronco Transfers",
+      en: "Transfer on a Bronco",
     }),
     p: versify(Copy.text({
       es: `Si pagas por llamar a sus caballos,

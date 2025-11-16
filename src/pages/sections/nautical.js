@@ -21,8 +21,8 @@ const nauticalSections = [{
       en: "Toss shells undeground",
     }),
     p: versify(Copy.text({
-      es: `Su triángulo de negro (el de la costa)
-      se pone en el subsuelo en sus orillas.
+      es: `Su triángulo de negro, el de la costa,
+      conéctalo al subsuelo en sus orillas.
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
       También, al deshacerte de tus conchas, 
@@ -55,8 +55,8 @@ const nauticalSections = [{
       You'll be rescued for that fee—
       wash ashore its tower's port.
       And this island, you will see,
-      is a traveler's resort:
-      guests may leave from there for free, 
+      is a traveler's resort.
+      Guests may leave from there for free, 
       riding on the tower's boat.`,
     })),
   }]
@@ -83,10 +83,10 @@ const nauticalSections = [{
       La carta que pusiste se descarta
       si pagan por el noble de la pieza.`,
       en: `When you're visiting a tile,
-      make its claim hard to achieve, 
-      Choose its noble from the aisle
+      make its claim hard to achieve.
+      Choose its noble from the aisle,
       where the royals take their leave.
-      Use an anchor to beguile—
+      Use an anchor to beguile:
       set it as a weight beneath.
       Add its value for the while,
       and discard it when they leave.`,
@@ -94,7 +94,7 @@ const nauticalSections = [{
   }, {
     h4_anchors: Copy.text({
       es: "Traslado mediante el Velero",
-      en: "Sailboat Transfers",
+      en: "Transfer by Sailboat",
     }),
     p: versify(Copy.text({
       es: `Si abordas por la vía del velero,
@@ -109,7 +109,7 @@ const nauticalSections = [{
       sail it anywhere for free. 
       If you pay at sea-bound treks,
       you will summon it by sea;
-      sail it to an anchor hex—
+      sail it to an anchor hex,
       you must choose one of the three.
       Note the anchor tower’s specs—
       trade the suits that you decree.`,
@@ -131,7 +131,7 @@ const nauticalSections = [{
       en: "Implore for cards",
     }),
     p: versify(Copy.text({
-      es: `Si imploras (con un <i>duelo</i> de campanas)
+      es: `Si imploras, con un <i>duelo</i> de campanas,
       afectas al hexágono completo:
       te entregan la que elijan de sus cartas
       sin que haya que salirse del tablero.
@@ -158,8 +158,8 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
-      Se aísla de cualquiera de las áreas,
-      excepto las afueras del tablero.
+      Tan solo en el destierro se te escapan,
+      trasladas inclusive en el destierro.
       La cueva en el destino es la sellada,
       que exige que se pague por su acceso.
       La otra que es gratuita es la de entrada,
@@ -195,7 +195,7 @@ const nauticalSections = [{
       `Aíslas o conectas su glaciar,
       la torre hexagonal resbaladiza,
       si muestras, en cualquier localidad,
-      un témpano al momento en el que tiras.
+      un témpano al lanzar la lotería.
       Si alcanzas a tus dados al lanzar
       o pagas lo <i>restante</i> de la cifra,
       conéctalo a un camino por el mar,
@@ -219,7 +219,7 @@ const nauticalSections = [{
     p: versify(Copy.text({
       es: `Si pagas dondequiera con tus témpanos,
       al vórtice lo mueves a un hexágono.
-      Y en este (exceptuando en el subsuelo)
+      Y en este, exceptuando en el subsuelo,
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
       se salen con el viento huracanado`,/*
@@ -227,7 +227,7 @@ const nauticalSections = [{
       o esperan a que se haya trasladado.`,*/
       en: `Pay from anywhere you please,
       and you may select a hex.
-      Place the token on that piece,
+      Place the vortex on that piece,
       where it freezes all its guests.
       Any visitor who flees
       goes off-board from its effects.

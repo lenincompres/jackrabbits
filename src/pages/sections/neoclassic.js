@@ -42,7 +42,7 @@ const neoclassicSections = [{
       Reach another hex train post—
       pass right through the underground.
       Tracks should never reach the coast—
-      close the links when they're set down.`,
+      link all tracks when they're set down.`,
     })),
   }, {
     h4_land: Copy.text({
@@ -71,7 +71,7 @@ const neoclassicSections = [{
       y nunca al reclamar la Ciudadela.`,
       en: `To fullfil their royal needs,
       acquisition is the same.
-      Show them when you ride the steeds,
+      These are used to ride the steeds,
       but don't win with them the game.`,
     })),
   }, {
@@ -145,14 +145,14 @@ const neoclassicSections = [{
       y dos de los conejos jugadores.
       También a las tabernas de los jokers,
       se añade el comodín de los cañones.`,
-      `Los bordes en azul de los hexágonos,
+        `Los bordes en azul de los hexágonos,
       se deben mantener desconectados.`
       ],
       en: [`Six more royals and their tiles,
       plus two rabbits with new styles;
       and the joker's new profile—
       add its card to the court's isle.`,
-      `Tiles may have a sea-blue side.
+        `Tiles may have a sea-blue side.
       Leave it open to the tide.`
       ],
     })),
@@ -227,25 +227,19 @@ const neoclassicSections = [{
       en: "Fleurs <small>(Flowers)</small>",
     }),
     img: ASSETS.fleurs,
-    p: versify(Copy.text({
-      es: `Un palo que carece de reales;
-    con piezas y un conejo adicionales.`,
-      en: `There're no royals in this style;
-    just a rabbit and more tiles.`,
-    })),
   },
   section: [{
-    h4_fleurs: Copy.text({
-      es: "Substituye otros palos",
-      en: "Substitute other suits",
-    }),
     p: versify(Copy.text({
       es: `Las flores se usarán en los traslados
       y nunca al adquirir a la nobleza.
-      Suplantan a los palos (de los clásicos)
-      excepto en el poder de su estrategia.`,
+      Suplantan a los palos de los clásicos,
+      excepto en el poder de su estrategia.
+      Los usas en el pago de los triángulos,
+      y en rombos al cambiar de carretera.`,
       en: `Fleurs are classic suits' replacements,
-      but won't have their special powers.
+      but won't have their special powers:
+      fighting spades, or heart engagements,
+      diamond trades, or clover towers.
       They fulfill the transfer payments—
       don't claim royals with these flowers.`,
     })),
@@ -261,15 +255,15 @@ const neoclassicSections = [{
       y apúntale a la carta que descarte.`,
       en: `At its post or from its den,
       pay to send it to a rabbit.
-      Take off-board your victim then,
-      also steal a card—and scrap it.
+      Send them hopping off-board then,
+      also choose a card and scrap it.
       Wolves may not swim this end—
-      going underground's their habit.`,
+      travel underground's their habit.`,
     })),
   }, {
     h4_fleurs: Copy.text({
-      es: "Hexágonos silvestres",
-      en: "Wilderness Hexes",
+      es: "Hexágonos",
+      en: "Hexagons",
     }),
     p: versify(Copy.text({
       es: `Sus pozos te conducen al subsuelo;
@@ -286,6 +280,14 @@ const neoclassicSections = [{
       and the wolf goes where you cast it.`,
     })),
   }],
+  footer: {
+    p: versify(Copy.text({
+      es: `Añades un conejo con sus piezas;
+      y flores sin sus nobles a la mesa.`,
+      en: `There're no royals in this style;
+      just a rabbit and more tiles.`,
+    })),
+  }
 }, ];
 
 export default neoclassicSections;

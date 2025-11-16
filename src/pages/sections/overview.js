@@ -34,7 +34,7 @@ const overviewSection = {
     Copy.text({
       es: [
         `Es gratis completar <b>la travesía</b>
-        si viajas por alguna carretera.
+        si viajas solamente en carretera.
         Se pagan <b>los traslados</b> de las vías:
         transporte, vericueto o madriguera.`,
         `Detente en los hexágonos que llegues
