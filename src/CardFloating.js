@@ -31,12 +31,12 @@ class CardFloating extends Card {
 
     let n = 300;
     let m = n / 3000;
-    let flip = () => [vrx, vry, vrz] = [m * rand(), m * rand(), m * rand()];
-    let jerk = () => {
+    const flip = () => [vrx, vry, vrz] = [m * rand(), m * rand(), m * rand()];
+    const jerk = () => {
       [vx, vy, vz] = [rand() / n, rand() / n, rand() / n];
       flip();
     }
-    let flick = () => {
+    const flick = () => {
       this.still = false;
       this.acc = 20 * (1 - (vx + vy) / 2);
       jerk();
@@ -116,8 +116,8 @@ class CardFloating extends Card {
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
       transform: this._t.as(t => `rotateX(${this.rx}rad) rotateY(${this.ry}rad)  rotateZ(${this.rz}rad)`),
-      //onmouseout: () => flick(),
-      onmouseover: () => {this.still = true; flick()},
+      onmouseout: () => flick(),
+      onmouseover: () => this.still = true,
       onready: elt => setTimeout(() => flick(), 1000),
     });
     setTimeout(() => flick(), 100);

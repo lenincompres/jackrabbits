@@ -1,12 +1,30 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
+import Song from "../../Song.js";
 
-const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
+const mixColor = (v, p = 10, b = "white") => `color-mix(in srgb, var(--${v}) ${p}%, ${b})`;
 const cMix = v => `color-mix(in srgb, var(--full) 90%, var(--${v}))`;
 
+let songClovers = new Song("home", Copy.text({
+  es: "songs/Tréboles, a volar entre las torres.mp3",
+  en: "songs/Clovers, Fly from King Towers.mp3",
+}));
+let songSpades = new Song("home", Copy.text({
+  es: "songs/Picas, a pelear por las cartas.mp3",
+  en: "songs/Spades, Fight Others for Cards.mp3",
+}));
+let songHearts = new Song("home", Copy.text({
+  es: "songs/Corazones, a vetar los palacios.mp3",
+  en: "songs/Hearts, Vet the Queen Palaces.mp3",
+}));
+let songDiamonds = new Song("home", Copy.text({
+  es: "songs/Diamantes, a comerciar en las plazas.mp3",
+  en: "songs/Diamonds, Trade at Jack Plazas.mp3",
+}));
+
 const strategySections = [{
-  backgroundColor: cMix("clubs"),
+  backgroundColor: mixColor("clubs"),
   h3_clubs: Copy.text({
     es: "Tréboles <small>(Bastos)</small>",
     en: "Clovers <small>(Clubs)</small>",
@@ -52,8 +70,9 @@ const strategySections = [{
       where the clubs fulfill the price.`,
     ]
   })),
+  a_button_song: songClovers.link,
 }, {
-  backgroundColor: cMix("spades"),
+  backgroundColor: mixColor("spades"),
   h3_spades: Copy.text({
     es: "Picas <small>(Espadas)</small>",
     en: "Spades <small>(Swords)</small>",
@@ -109,8 +128,9 @@ const strategySections = [{
       */
     ]
   })),
+  a_button_song: songSpades.link,
 }, {
-  backgroundColor: cMix("hearts"),
+  backgroundColor: mixColor("hearts"),
   h3_hearts: Copy.text({
     es: "Corazones <small>(Copas)</small>",
     en: "Hearts <small>(Cups)</small>",
@@ -156,8 +176,9 @@ const strategySections = [{
       off the board the meddler's thrown.`,
     ]
   })),
+  a_button_song: songHearts.link,
 }, {
-  backgroundColor: cMix("diamonds"),
+  backgroundColor: mixColor("diamonds"),
   h3_diamonds: Copy.text({
     es: "Diamantes <small>(Oros)</small>",
     en: "Diamonds <small>(Gold)</small>",
@@ -206,6 +227,7 @@ const strategySections = [{
     If what's traded proves a farce,
     swindlers get the off-board boot.`,
   })),
+  a_button_song: songDiamonds.link,
 }];
 
 export default strategySections;

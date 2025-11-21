@@ -124,10 +124,10 @@ const transferSections = [{
       en: classifyChars("Jesters", "hearts", " diamonds"),
     }),
   }, Copy.text({
-    es: `Un jóker te conceden un pasaje,
+    es: `Un jóker se te otorga de pasaje,
       si pagas al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
-      moviéndote en el turno en que lo quieras.`,
+      moviéndote en el turno que lo quieras.`,
     en: `Taverns sell the rides they host,
       but the travel’s kept aside.
       Choose a joker card to hold,

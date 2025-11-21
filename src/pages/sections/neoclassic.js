@@ -10,74 +10,49 @@ const neoclassicSections = [{
   boxShadow: "1px 1px 3px black",
   header: {
     h3_land: Copy.text({
-      es: "Trenes y Corceles",
-      en: "Trains & Steeds",
+      es: "+ Trenes y Corceles",
+      en: "+ Trains & Steeds",
     }),
     img: ASSETS.cavaliers,
-    p: versify(Copy.text({
-      es: `Las cuatro residencias de corceles;
-      y piezas que las unen por sus rieles.
-      La ficha con el hongo y sus poderes,
-      que añades a las reglas si lo quieres.`,
-      en: `Four more royals and their tiles,
-      which have steeds and tracks for miles.
-      And the mushroom that's hostile—
-      it blocks drawing from the pile.`,
-    })),
   },
   section: [{
-    h4_land: Copy.text({
-      es: "Travesía en tren",
-      en: "Journey by train",
-    }),
     p: versify(Copy.text({
-      es: `Es gratis desplazarte con los trenes,
-      mas viajas sin opciones de traslado.
-      Las cuevas que atravieses por sus rieles
-      te sacan del subsuelo de inmediato.
-      Procura que sus piezas se conecten,
-      que no halles un carril desconectado.`,
-      en: `Ride the trains without a cost,
-      with no transfering allowed.
-      Reach another hex train post—
-      pass right through the underground.
-      Tracks should never reach the coast—
-      link all tracks when they're set down.`,
-    })),
-  }, {
-    h4_land: Copy.text({
-      es: "Traslado con los Corceles",
-      en: "Steed Transfers",
-    }),
-    p: versify(Copy.text({
-      es: `En rumbos con caballos de los blancos,
-      si muestras un corcel que haz adquirido,
-      trasládate de gratis cabalgando,
-      tal como de los cruces del camino.`,
-      en: `On the paths that have a steed,
-      show a Cavalier at hand,
-      and you’ll ride it as you need,
-      reaching hexagons by land.`,
-    })),
-  }, {
-    h4_land: Copy.text({
-      es: "Adquisición de Corceles",
-      en: "Acquire the Cavaliers",
-    }),
-    p: versify(Copy.text({
-      es: `Las cartas de corceles las adquieres,
+      es: [`Añades el cuarteto de corceles.
+      Sus piezas se vinculan por los rieles.`,
+        `Las cartas de corceles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la Ciudadela.`,
-      en: `To fullfil their royal needs,
-      acquisition is the same.
-      These are used to ride the steeds,
-      but don't win with them the game.`,
+        `Es gratis desplazarte con los trenes,
+      que cruzan el subsuelo de inmediato.
+      Procura, en el diseño de sus rieles,
+      que no halles un final desconectado.`,
+        `En vías con caballos de los blancos,
+        si muestras un corcel que haz adquirido,
+        trasládate de gratis cabalgando,
+        tal como de los cruces del camino.`,
+      ],
+      en: [`Four more royals add their tiles.
+      These have steeds and tracks for miles.`,
+        `They are used to ride the steeds,
+      and may never win the game.
+      To fullfill their royal needs,
+      acquisition is the same.`,
+        `Ride their trains without a cost—
+      pass right through the underground.
+      Reach another hex train post—
+      link all tracks when they're set down.`,
+        `On the paths that have a steed,
+        show a Cavalier at hand,
+        and you’ll ride it as you need—
+        travel anywhere by land.`,
+      ],
     })),
   }, {
+    class: "note",
     h4_land: Copy.text({
-      es: "+ Hongo Opcional",
-      en: "+ Optional Mushroom",
+      es: "+ Hongo de la Pila",
+      en: "+ Pile's Mushroom",
     }),
     /*
         h5: Copy.text({
@@ -117,18 +92,18 @@ const neoclassicSections = [{
           they can't claim their increment.`,
         })),*/
     p_: versify(Copy.text({
-      es: `Al hongo lo reubicas al momento 
-      si el tiro de tus dados es un doble.
+      es: `Desígnale su punto de comienzo 
+      si sales con el último en el orden. 
       Que olvide loterías e incrementos 
       quienquiera que en su sitio se acomode. 
-      Desígnale su punto de comienzo 
-      si sales con el último en el orden. `,
+      Reubícalo a tu agrado en el momento 
+      si acabas en el sitio en el que ronde.`,
       en: `If you start with the last turn, 
       choose its starting settlement.
       Block what visitors may earn—
       lottery and increment.
-      Any double rolled in turn 
-      grants a new re-settlement.`,
+      If you end up there in turn 
+      pick its new re-settlement.`,
     })),
   }],
 }, {
@@ -136,112 +111,114 @@ const neoclassicSections = [{
   boxShadow: "1px 1px 3px black",
   header: {
     h3_sea: Copy.text({
-      es: "Alianzas Nobles",
-      en: "Noble Alliances",
+      es: "+ Alianzas Nobles",
+      en: "+ Noble Alliances",
     }),
     img: ASSETS.allies,
     p: versify(Copy.text({
-      es: [`Los seis ayuntamientos y sus nobles;
-      y dos de los conejos jugadores.
-      También a las tabernas de los jokers,
-      se añade el comodín de los cañones.`,
-        `Los bordes en azul de los hexágonos,
-      se deben mantener desconectados.`
-      ],
-      en: [`Six more royals and their tiles,
-      plus two rabbits with new styles;
-      and the joker's new profile—
-      add its card to the court's isle.`,
-        `Tiles may have a sea-blue side.
-      Leave it open to the tide.`
-      ],
+      es: `Los seis ayuntamientos y sus nobles;
+      y dos de los conejos jugadores.`,
+      en: `Two new rabbits bring their styles.
+      Six more royals add their tiles.`,
     })),
   },
   section: [{
-    h4_sea: Copy.text({
-      es: "Alianzas Nobles",
-      en: "Allied Noble Cards",
-    }),
     p: versify(Copy.text({
-      es: `Los palos de las cartas que visitas,
-      se deben combinar al adquirirlas.
-      Un trío es de la unión capitalista;
-      y el otro, de misión naturalista.`,
-      en: `There are three Capitalist
-      and three Naturalist cards.
-      Pay with both the suits they list—
-      split the cost in any parts.`,
+      es: [`Los símbolos de alianzas que visitas,
+        se deben combinar al adquirirlas.
+        Un trío es de la unión capitalista;
+        y el otro, de misión naturalista.`,
+        `Las casas te permiten trasladarte
+        si pagas por los medios ilustrados.
+        El vuelo de la torre, si hay restante,
+        se paga con cualquiera de sus palos.`,
+        `La Jota de la unión capitalista
+        te vende lo que quieras por diamantes.
+        En la otra te reponen, de la pila,
+        <strong>un</strong> tiro de tus cartas que descartes.`
+      ],
+      en: [`These are three Capitalists
+        and three Naturalist cards.
+        Pay them both the suits they list—
+        split the cost in any parts.`,
+        `They have merchants, taverns, caves,
+        horses, cannons, or canoes.
+        Flights from towers may be saved—
+        pay with any of their suits.`,
+        `Pay one plaza diamond cards—
+        buy whatever suit you choose.
+        Pay the other one discard—
+        draw as many cards you lose.`
+      ],
     })),
   }, {
+    class: "note",
     h4_sea: Copy.text({
-      es: "Traslados en los Hexágonos",
-      en: "Transfers at Allied Hexes",
+      es: "+ Comodín cañonero",
+      en: "+ Cannonball Joker",
     }),
     p: versify(Copy.text({
-      es: `Sus medios te permiten trasladarte
-      si pagas por el precio de los dados.
-      La cueva, la taberna y comerciantes,
-      también te proporcionan sus traslados.
-      El vuelo de la torre, si hay restante,
-      se paga con cualquiera de sus palos.`,
-      en: `Ride through valleys, air, or waves—
-      horses, cannons, or canoes.
-      Merchants, taverns, and the caves
-      may be used for transfers too.
-      Flights with shortfall may be saved—
-      payed with either tower’s suit.`,
-    })),
-  }, {
-    h4_sea: Copy.text({
-      es: "Comercio en Plazas Aliadas",
-      en: "Trade at Allied Plazas",
-    }),
-    p: versify(Copy.text({
-      es: `La Jota de la unión capitalista
-      te vende lo que quieras por diamantes.
-      Y en la otra te reponen, de la pila,
-      <strong>un</strong> grupo de tus cartas que descartes.`,
-      en: `One will trade your diamond cards—
-      buy whatever suit you choose.
-      Pay the other one discard—
-      draw as many cards you lose.`,
-    })),
-  }, {
-    h4_sea: Copy.text({
-      es: "Comodín de cañones",
-      en: "Cannonball Joker",
-    }),
-    p: versify(Copy.text({
-      es: `Dispárate a la torre que prefieras,
-      sin riesgo a terminar en las afueras.`,
-      en: `Take a trip across the air.
-      Reach the tower you prefer.`,
+      es: `El joker cañonero se te suma,
+      te lanza a la taverna que prefieras.
+      Su forma de volar es muy segura,
+      sin riesgos de acabar en las afueras.`,
+      en: `Jokers have a new addition,
+      granting trips across the air.
+      Get it with the same conditions—
+      reach the tavern you prefer.`,
     })),
   }],
+  footer: {
+    p: versify(Copy.text({
+      es: `Los bordes en azul de los hexágonos,
+          se deben mantener desconectados.`,
+      en: `Hexes have a sea-blue side.
+          Leave it open to the tide.`,
+    })),
+  }
 }, {
   backgroundColor: cMix("fleurs"),
   boxShadow: "1px 1px 3px black",
   header: {
     h3_fleurs: Copy.text({
-      es: "Flores",
-      en: "Fleurs <small>(Flowers)</small>",
+      es: "+ Flores",
+      en: "+ Fleurs <small>(Flowers)</small>",
     }),
     img: ASSETS.fleurs,
   },
   section: [{
     p: versify(Copy.text({
-      es: `Las flores se usarán en los traslados
+      es: [`Añades un conejo con sus piezas;
+      y flores sin sus nobles a la mesa.`,
+      `Las flores se usarán en los traslados
       y nunca al adquirir a la nobleza.
       Suplantan a los palos de los clásicos,
       excepto en el poder de su estrategia.
       Los usas en el pago de los triángulos,
       y en rombos al cambiar de carretera.`,
-      en: `Fleurs are classic suits' replacements,
+        
+        `En parques con caminos paralelos,
+      se paga el vericueto en sus atajos.
+      Sus pozos te conducen al subsuelo;
+      subirlos es inválido de abajo.
+      El lobo es obediente a tu señuelo,
+      si pagas al venir por su traslado.`
+      ],
+      en: [`There're no royals in this style;
+      just a rabbit and more tiles.`, 
+      `Fleurs are classic suits' replacements,
       but won't have their special powers:
       fighting spades, or heart engagements,
       diamond trades, or clover towers.
       They fulfill the transfer payments—
       don't claim royals with these flowers.`,
+        `Any trailway crossing found
+      must be paid before you pass it.
+      Wells take rabbits underground—
+      but to them's a one way access.
+      Pay with fleurs when you're around,
+      and the wolf goes where you cast it.`
+      ]
     })),
   }, {
     h4_fleurs: Copy.text({
@@ -250,44 +227,19 @@ const neoclassicSections = [{
     }),
     p: versify(Copy.text({
       es: `El lobo se lo envías a un conejo,
-      pagando en un cubil o en su paraje.
-      Tu víctima termina en el destierro
-      y apúntale a la carta que descarte.`,
-      en: `At its post or from its den,
-      pay to send it to a rabbit.
+      si pagas en un parque o su paraje.
+      Las víctimas terminan en destierro
+      y apúntale a la carta que descarten.
+      Lo puedes trasladar por el subsuelo,
+      mas nunca navegando por los mares.`,
+      en: `At its post or from a den,
+      cast the wolf to any rabbits.
       Send them hopping off-board then,
-      also choose a card and scrap it.
-      Wolves may not swim this end—
-      travel underground's their habit.`,
-    })),
-  }, {
-    h4_fleurs: Copy.text({
-      es: "Hexágonos",
-      en: "Hexagons",
-    }),
-    p: versify(Copy.text({
-      es: `Sus pozos te conducen al subsuelo;
-      subirlos es inválido de abajo.
-      El lobo es obediente a tu señuelo;
-      se paga en el cubil por su traslado.
-      Y en cuanto a los caminos paralelos,
-      se paga por el paso en sus atajos.`,
-      en: `Any off-road crossing found
-      must be paid before you pass it.
-      Wells will take you underground—
-      these are only one way access.
-      Pay with fleurs when you're around,
-      and the wolf goes where you cast it.`,
+      also take a card to scrap it.
+      It may not swim for this end—
+      travel underground's its habit.`,
     })),
   }],
-  footer: {
-    p: versify(Copy.text({
-      es: `Añades un conejo con sus piezas;
-      y flores sin sus nobles a la mesa.`,
-      en: `There're no royals in this style;
-      just a rabbit and more tiles.`,
-    })),
-  }
 }, ];
 
 export default neoclassicSections;

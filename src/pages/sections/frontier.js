@@ -42,8 +42,8 @@ const frontierSections = [{
       en: "Transfers Underground",
     }),
     p: versify(Copy.text({
-      es: `El triángulo de negro con el fuego
-        conéctalo al subsuelo por un lado.
+      es: `El túnel cavernoso con el fuego
+        se ubica en el subsuelo por un lado.
         Si pagas al entrar en el subsuelo,
         podrás atraversarlo sin descanso.
         Si sales en tu turno del tablero,
@@ -129,8 +129,8 @@ const frontierSections = [{
       en: "Hustle underground",
     }),
     p: versify(Copy.text({
-      es: `Su plaza triangular, la que es oscura,
-      conéctala al subsuelo en un costado.
+      es: `La plaza clandestina que es oscura
+      se instala en el subsuelo por un lado.
       Permite comerciar con herraduras,
       brindándole al subsuelo su mercado,
       que vende, por el cambio de tus sumas,

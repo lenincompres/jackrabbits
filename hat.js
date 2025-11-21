@@ -106,8 +106,8 @@ DOM.set({
     section: {
       marginTop: "1em",
       markdown: Copy.text({
-        es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md). Musica de [Lenino](https://incompetech.com) usando [SUNO]().",
+        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md). Music by [Lenino](https://incompetech.com) using [SUNO]().",
       }),
     },
   },

@@ -21,10 +21,10 @@ const expansionPage = {
     section: frontierSections.sort(() => Math.random() - 0.5),
     footer: {
       p: versify(Copy.text({
-        en: `Tiles may have a sea-blue side.
-          Leave it open to the tide.
-          Circles with a suit inside
-          let you transfer from outside.`,
+        en: `Hexes have a sea-blue side—
+          leave it open to the tide.
+          Circles have a suit inside—
+          these grant transfers from outside.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
           Los pagos con un círculo en sus palos
@@ -47,10 +47,10 @@ const expansionPage = {
     section: nauticalSections.sort(() => Math.random() - 0.5),
     footer: {
       p: versify(Copy.text({
-        en: `Tiles may have a sea-blue side.
-          Leave it open to the tide.
-          Circles with a suit inside
-          let you transfer from outside.`,
+        en: `Hexes have a sea-blue side—
+          leave it open to the tide.
+          Circles have a suit inside—
+          these grant transfers from outside.`,
         es: `Los bordes en azul de sus hexágonos,
           se deben mantener desconectados.
           Los pagos con un círculo en sus palos
@@ -66,6 +66,7 @@ const expansionPage = {
     },
     section: classicSections.sort(() => Math.random() - 0.5),
   }],
+  ondone: elt => paginate(elt),
 };
 
 export default expansionPage;

@@ -1,6 +1,13 @@
 import Copy from "../../lib/Copy.js";
 import ASSETS from "../assets.js";
+import paginate from "../aux/paginate.js";
 import versify from "../aux/versify.js";
+import Song from "../Song.js";
+
+let song = new Song("home", Copy.text({
+  es: "songs/La partida.mp3",
+  en: "songs/Setty-Up.mp3",
+}));
 
 const setupPage = {
   article: {
@@ -32,21 +39,20 @@ const setupPage = {
           ],
         }),
         ASSETS.thumbnailOf("sampleThumbnail", '8em', e => popUp("sample")),
-      ),
-      p_note: versify(Copy.text({
-        es: `Limítate al ensamble de las tierras
+        Copy.text({
+          es: `Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
           Añádeles las cartas y sus reglas
           si captan a medida que las prueben.`,
-        en: `If there're children under nine,
+          en: `If there're children under nine,
           only play to build the land.
           Then explore what they design—
           with a rabbit in their hand.
           Bring the cards in down the line,
           and the rules they understand.`,
-      })),
+        })),
     }, {
       h2: 2,
       h3: Copy.text({
@@ -127,14 +133,19 @@ const setupPage = {
           none of these are my concerns.`,
         })),
     }],
-  },
-  footer: {
-    p: versify(Copy.text({
-      es: `Ya tienes la misión y el territorio.
+    footer: {
+      a_button_song: {
+        marginBottom: "1em",
+        content: song.link,
+      },
+      p: versify(Copy.text({
+        es: `Ya tienes la misión y el territorio.
         Comienza con el <a href="#intro"><b><big>juego introductorio</big></b></a>.`,
-      en: `This concludes the setup frame. 
+        en: `This concludes the setup frame. 
       Now complete the  <a href="#intro"><b><big>intro game</big></b></a>.`,
-    })),
+      })),
+    },
+    ondone: elt => paginate(elt),
   },
 };
 

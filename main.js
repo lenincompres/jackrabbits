@@ -35,7 +35,10 @@ DOM.set({
         small_logoSub: Copy.at.header,
       },
     },
-    menu_bulletMenu: Copy.getLinkMenu(),
+    menu_bulletMenu: {
+      id: "languageMenu",
+      content: Copy.getLinkMenu(),
+    }
   },
   main: {
     nav_main: Pager.getLinkMenu(key => ({
@@ -60,11 +63,11 @@ DOM.set({
           more: 'images/photo04.png',
         }),
         width: '100%',
-        maxWidth: '1000px',
-        maxHeight: '16em',
+        maxWidth: '65rem',
+        maxHeight: '16rem',
         height: '54vw',
         objectFit: 'cover',
-        borderRadius: '.5em',
+        borderRadius: '.5rem',
         boxShadow: '1px 1px 3px black',
         overflow: 'hidden',
       },
@@ -106,8 +109,8 @@ DOM.set({
     section: {
       marginTop: "1em",
       markdown: Copy.text({
-        es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md). Musica de [Lenino](https://lenino.net) usando [SUNO](https://suno.com/playlist/aa6d3874-63b6-41ed-a52e-f8171da72745).",
+        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md). Music by [Lenino](https://lenino.net) using [SUNO](https://suno.com/playlist/2dcb994d-fda3-462f-92df-3f53cabbec30).",
       }),
     },
     onready: () => popUp('mailingList'),

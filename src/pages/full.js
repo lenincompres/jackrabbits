@@ -2,13 +2,14 @@ import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
 import strategySections from "./sections/strategies.js";
 import optionalSections from "./sections/options.js";
+import paginate from "../aux/paginate.js";
 
 const fullPage = {
   article_shuffle: [{
     header: {
       h2: versify(Copy.text({
         es: "Las estrategias de cada palo",
-        en: "The 4 Well-Suited Strategies",
+        en: "Four Well-Suited Strategies",
       })),
       p: versify(Copy.text({
         es: `Añades el capítulo restante.
@@ -30,6 +31,7 @@ const fullPage = {
         end <b>the journey</b> underground.`
       })),
     },
+    ondone: elt => paginate(elt),
   }, {
     header: {
       h3: Copy.text({
@@ -44,6 +46,7 @@ const fullPage = {
       })),
     },
     section_optional: optionalSections,
+    ondone: elt => paginate(elt),
   }],
 };
 

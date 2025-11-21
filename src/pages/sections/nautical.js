@@ -21,8 +21,8 @@ const nauticalSections = [{
       en: "Toss shells undeground",
     }),
     p: versify(Copy.text({
-      es: `Su triángulo de negro, el de la costa,
-      conéctalo al subsuelo en sus orillas.
+      es: `La gruta coralina de la costa
+      se extiende del subsuelo en sus orillas.
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
       También, al deshacerte de tus conchas, 
@@ -190,23 +190,19 @@ const nauticalSections = [{
       en: "Slide the glacier",
     }),
     p: versify(Copy.text({
-      es: /*`Con doce de tus témpanos (o más)
-      que muestres de cualquiera de las fichas,*/
-      `Aíslas o conectas su glaciar,
-      la torre hexagonal resbaladiza,
-      si muestras, en cualquier localidad,
-      un témpano al lanzar la lotería.
-      Si alcanzas a tus dados al lanzar
+      es: `Aíslas o conectas su glaciar,
+      la torre que en las aguas se desliza,
+      si muestras en cualquier localidad
+      un témpano al tratar la lotería.
+      Si alcanza el resultado tras lanzar
       o pagas lo <i>restante</i> de la cifra,
-      conéctalo a un camino por el mar,
-      o elije despegarlo de la orilla.`,
-      en: /*`Count the icicles you hoard,
-      show a sum of twelve at least,*/
-      `Move its tower by the shore,
+      deslízala a un camino por el mar
+      o elije despegarla de la orilla.`,
+      en: `Move its tower by the shore,
       when you roll from any piece,
       if you show a card before,
       and it's equal or exceeds.
-      Link it to a road tile's port,
+      Link to any road its port,
       or maroon it at the sea.
       If your card has fallen short,
       ice may pay the shortfall fee.`,
@@ -222,12 +218,12 @@ const nauticalSections = [{
       Y en este, exceptuando en el subsuelo,
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
-      se salen con el viento huracanado`,/*
+      se expulsan con el viento huracanado`,/*
       terminan con su turno en el destierro,
       o esperan a que se haya trasladado.`,*/
       en: `Pay from anywhere you please,
       and you may select a hex.
-      Place the vortex on that piece,
+      Bring the vortex to that piece,
       where it freezes all its guests.
       Any visitor who flees
       goes off-board from its effects.

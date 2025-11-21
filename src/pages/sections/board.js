@@ -1,12 +1,22 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
+import Song from "../../Song.js";
+
+let song = new Song("home", Copy.text({
+  es: "songs/Un nuevo territorio.mp3",
+  en: "songs/A New Board of Your Own.mp3",
+}));
 
 const boardSection = {
   h3: Copy.text({
     es: "Crear el territorio",
     en: "Build a new Board",
   }),
+  a_button_song: {
+    margin: "0.5em 0 1em",
+    content: song.link,
+  },
   p: versify(Copy.text({
     es: [
       `Colocas a la ficha <i>Ciudadela</i>,
