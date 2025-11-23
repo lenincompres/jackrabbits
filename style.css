@@ -252,6 +252,19 @@ audio.playing {
     border-width: 0.2rem !important;
   }
 
+  footer .bulletMenu ul {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  footer .bulletMenu>ul>li{
+    margin: 0.5rem 0;
+  }
+
+  footer .bulletMenu>ul>li:not(:first-child)::before {
+    display: none;
+  }
+
 }
 
 h1,
