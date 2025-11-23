@@ -23,9 +23,6 @@ LightBox.add(new Pager({
       }),
     },
     section: {
-      width: "fit-content",
-      margin: "0 auto",
-      display: "flex",
       img: {
         alt: "Four suits banners",
         src: "images/albumCover.jpg",
