@@ -4,11 +4,6 @@ import paginate from "../aux/paginate.js";
 import versify from "../aux/versify.js";
 import Song from "../Song.js";
 
-let song = new Song("home", Copy.text({
-  es: "songs/La partida.mp3",
-  en: "songs/Setty-Up.mp3",
-}));
-
 const setupPage = {
   article: {
     section: [{
@@ -136,7 +131,7 @@ const setupPage = {
     footer: {
       a_button_song: {
         marginBottom: "1em",
-        content: song.link,
+        content: Song.List[1].link,
       },
       p: versify(Copy.text({
         es: `Ya tienes la misión y el territorio.

@@ -5,7 +5,7 @@ import optionalSections from "./sections/options.js";
 import paginate from "../aux/paginate.js";
 
 const fullPage = {
-  article_shuffle: [{
+  article_shuffle: {
     header: {
       h2: versify(Copy.text({
         es: "Las estrategias de cada palo",
@@ -30,24 +30,25 @@ const fullPage = {
         When your turn begins off-board,
         end <b>the journey</b> underground.`
       })),
-    },
-    ondone: elt => paginate(elt),
-  }, {
-    header: {
-      h3: Copy.text({
-        es: "+ Reglas Opcionales",
-        en: "+ Optional Rules",
-      }),
-      p: versify(Copy.text({
-        es: `Renueva tus partidas habituales.
+      article: {
+        class: "menu",
+        header: {
+          h3: Copy.text({
+            es: "+ Reglas Opcionales",
+            en: "+ Optional Rules",
+          }),
+          p: versify(Copy.text({
+            es: `Renueva tus partidas habituales.
           Añádeles las reglas opcionales</a>.`,
-        en: `Try these optional additions.
+            en: `Try these optional additions.
           They'll refresh your future missions.`
-      })),
+          })),
+        },
+        section_optional: optionalSections,
+      }
     },
-    section_optional: optionalSections,
     ondone: elt => paginate(elt),
-  }],
+  },
 };
 
 export default fullPage;

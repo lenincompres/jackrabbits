@@ -24,26 +24,6 @@ const morePage = {
       h3: {
         a: {
           text: Copy.text({
-            en: "Educational Dossier",
-            es: "Dossier Educativo",
-          }),
-          target: "_blank",
-          href: Copy.text({
-            en: "./educationalDossier.pdf",
-            es: "./dossierEducativo.pdf",
-          }),
-        }
-      },
-      p: versify(Copy.text({
-        es: `<b>Jack Rabbits</b>  en un rol educativo,
-          con miras al análisis creativo.`,
-        en: `Let's promote critical thinking.
-          Play with stories and world-building.`,
-      })),
-    }, {
-      h3: {
-        a: {
-          text: Copy.text({
             es: "Listado de correo",
             en: `Mailing list`,
           }),
@@ -88,6 +68,25 @@ const morePage = {
     }, {
       h3: {
         a: {
+          text: Copy.text({
+            es: "Disfruta del Album",
+            en: "Experience the Music",
+          }),
+          target: "_blank",
+          click: () => popUp('playlist'),
+        }
+      },
+      p: versify(
+        Copy.text({
+          es: `Prepárate a ambientar tu travesía,
+          con cantos de aventura y fantasía.`,
+          en: `The rulebook's an epic song.
+          Set the mood and sing along.`,
+        })
+      ),
+    }, {
+      h3: {
+        a: {
           text: Copy.at.novel,
           target: "_blank",
           href: Copy.text({
@@ -102,6 +101,45 @@ const morePage = {
           al reino de conejos y barajas.`,
           en: `Venture through a tale untold:
           wonders, bloodlines, swords, and gold.`,
+        })
+      ),
+    }, {
+      h3: {
+        a: {
+          text: Copy.text({
+            en: "Educational Dossier",
+            es: "Dossier Educativo",
+          }),
+          target: "_blank",
+          href: Copy.text({
+            en: "./educationalDossier.pdf",
+            es: "./dossierEducativo.pdf",
+          }),
+        }
+      },
+      p: versify(Copy.text({
+        es: `<b>Jack Rabbits</b>  en un rol educativo,
+          con miras al análisis creativo.`,
+        en: `Let's promote critical thinking.
+          Play with stories and world-building.`,
+      })),
+    }, {
+      h3: {
+        a: {
+          text: Copy.text({
+            es: "Visita a Lenino",
+            en: "Visit Lenino",
+          }),
+          target: "_blank",
+          href: "http://lenino.net",
+        }
+      },
+      p: versify(
+        Copy.text({
+          es: `Conoce al inventor de la experienca:
+            polímata del arte y de la ciencia.`,
+          en: `Meet the mind behind the game.
+            His portfolio is insane.`,
         })
       ),
     }],

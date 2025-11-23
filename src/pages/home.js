@@ -7,11 +7,6 @@ import greetingsSection from "./sections/greetings.js";
 import overviewSection from "./sections/overview.js";
 import splashSection from "./sections/splash.js";
 
-let song = new Song("home", Copy.text({
-  es: "songs/Finales posibles.mp3",
-  en: "songs/The Royal Quest.mp3",
-}));
-
 const homePage = {
   article: {
     section: [
@@ -23,7 +18,7 @@ const homePage = {
     footer: {
       a_button_song: {
         marginBottom: "1em",
-        content: song.link,
+        content: Song.List[0].link,
       },
       p: versify(Copy.text({
         es: `Dirígete al <a href="#setup"><b><big>Inicio</big></b> de partida</a>.

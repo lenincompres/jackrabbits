@@ -6,23 +6,6 @@ import Song from "../../Song.js";
 const mixColor = (v, p = 10, b = "white") => `color-mix(in srgb, var(--${v}) ${p}%, ${b})`;
 const cMix = v => `color-mix(in srgb, var(--full) 90%, var(--${v}))`;
 
-let songClovers = new Song("home", Copy.text({
-  es: "songs/Tréboles, a volar entre las torres.mp3",
-  en: "songs/Clovers, Fly from King Towers.mp3",
-}));
-let songSpades = new Song("home", Copy.text({
-  es: "songs/Picas, a pelear por las cartas.mp3",
-  en: "songs/Spades, Fight Others for Cards.mp3",
-}));
-let songHearts = new Song("home", Copy.text({
-  es: "songs/Corazones, a vetar los palacios.mp3",
-  en: "songs/Hearts, Vet the Queen Palaces.mp3",
-}));
-let songDiamonds = new Song("home", Copy.text({
-  es: "songs/Diamantes, a comerciar en las plazas.mp3",
-  en: "songs/Diamonds, Trade at Jack Plazas.mp3",
-}));
-
 const strategySections = [{
   backgroundColor: mixColor("clubs"),
   h3_clubs: Copy.text({
@@ -70,7 +53,7 @@ const strategySections = [{
       where the clubs fulfill the price.`,
     ]
   })),
-  a_button_song: songClovers.link,
+  a_button_song: Song.List[6].link,
 }, {
   backgroundColor: mixColor("spades"),
   h3_spades: Copy.text({
@@ -128,7 +111,7 @@ const strategySections = [{
       */
     ]
   })),
-  a_button_song: songSpades.link,
+  a_button_song: Song.List[7].link,
 }, {
   backgroundColor: mixColor("hearts"),
   h3_hearts: Copy.text({
@@ -176,7 +159,7 @@ const strategySections = [{
       off the board the meddler's thrown.`,
     ]
   })),
-  a_button_song: songHearts.link,
+  a_button_song: Song.List[5].link,
 }, {
   backgroundColor: mixColor("diamonds"),
   h3_diamonds: Copy.text({
@@ -227,7 +210,7 @@ const strategySections = [{
     If what's traded proves a farce,
     swindlers get the off-board boot.`,
   })),
-  a_button_song: songDiamonds.link,
+  a_button_song: Song.List[4].link,
 }];
 
 export default strategySections;

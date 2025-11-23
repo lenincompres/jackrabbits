@@ -49,49 +49,12 @@ const neoclassicSections = [{
       ],
     })),
   }, {
-    class: "note",
-    h4_land: Copy.text({
+    class: "note land",
+    h4: Copy.text({
       es: "+ Hongo de la Pila",
       en: "+ Pile's Mushroom",
     }),
-    /*
-        h5: Copy.text({
-          es: `+ Sabotaje esporádico`,
-          en: `+ Sporadic Sabotage`,
-        }),
-        p: versify(Copy.text({
-          es: `Aduéñate del hongo en el momento
-          si el tiro de tus dados es un doble.
-          Le niegas a quienquiera su incremento,
-          pidiendo que descarte lo que tome.
-          Lo pierdes a raíz de sus efectos
-          o si alguien con un doble lo recoge.`,
-          en: `If you roll and get a double, 
-          claim the mushroom for a spent—
-          give it up to force another
-          to discard their increment.
-          You will not remain its holder
-          should a claim be pertinent.`,
-        })),
-        h5_: Copy.text({
-          es: `+ Hexágono Colonizado`,
-          en: `+ Hexagonal Molding`,
-        }),
-        p_: versify(Copy.text({
-          es: `Al hongo lo reubicas de su puesto
-          si el tiro de tus dados es un doble,
-          también si al descansar en tu trayecto
-          terminas en el sitio en el que ronde.
-          Tendrá que descartar el incremento
-          quienquiera que en su sitio lo recoge.`,
-          en: `If you roll and get a double,
-          or it's there where your turns end,
-          move the mushroom to cause trouble—
-          choose a hex with ill intent.
-          Those who visit face a struggle:
-          they can't claim their increment.`,
-        })),*/
-    p_: versify(Copy.text({
+    p: versify(Copy.text({
       es: `Desígnale su punto de comienzo 
       si sales con el último en el orden. 
       Que olvide loterías e incrementos 
@@ -135,7 +98,9 @@ const neoclassicSections = [{
         `La Jota de la unión capitalista
         te vende lo que quieras por diamantes.
         En la otra te reponen, de la pila,
-        <strong>un</strong> tiro de tus cartas que descartes.`
+        <strong>un</strong> tiro de tus cartas que descartes.`,
+        `Los bordes en azul de los hexágonos,
+          se deben mantener desconectados.`,
       ],
       en: [`These are three Capitalists
         and three Naturalist cards.
@@ -148,12 +113,14 @@ const neoclassicSections = [{
         `Pay one plaza diamond cards—
         buy whatever suit you choose.
         Pay the other one discard—
-        draw as many cards you lose.`
+        draw as many cards you lose.`,
+        `Hexes have a sea-blue side.
+          Leave it open to the tide.`,
       ],
     })),
   }, {
-    class: "note",
-    h4_sea: Copy.text({
+    class: "note sea",
+    h4: Copy.text({
       es: "+ Comodín cañonero",
       en: "+ Cannonball Joker",
     }),
@@ -168,14 +135,6 @@ const neoclassicSections = [{
       reach the tavern you prefer.`,
     })),
   }],
-  footer: {
-    p: versify(Copy.text({
-      es: `Los bordes en azul de los hexágonos,
-          se deben mantener desconectados.`,
-      en: `Hexes have a sea-blue side.
-          Leave it open to the tide.`,
-    })),
-  }
 }, {
   backgroundColor: cMix("fleurs"),
   boxShadow: "1px 1px 3px black",
@@ -190,13 +149,13 @@ const neoclassicSections = [{
     p: versify(Copy.text({
       es: [`Añades un conejo con sus piezas;
       y flores sin sus nobles a la mesa.`,
-      `Las flores se usarán en los traslados
+        `Las flores se usarán en los traslados
       y nunca al adquirir a la nobleza.
       Suplantan a los palos de los clásicos,
       excepto en el poder de su estrategia.
       Los usas en el pago de los triángulos,
       y en rombos al cambiar de carretera.`,
-        
+
         `En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
       Sus pozos te conducen al subsuelo;
@@ -205,8 +164,8 @@ const neoclassicSections = [{
       si pagas al venir por su traslado.`
       ],
       en: [`There're no royals in this style;
-      just a rabbit and more tiles.`, 
-      `Fleurs are classic suits' replacements,
+      just a rabbit and more tiles.`,
+        `Fleurs are classic suits' replacements,
       but won't have their special powers:
       fighting spades, or heart engagements,
       diamond trades, or clover towers.
@@ -221,7 +180,7 @@ const neoclassicSections = [{
       ]
     })),
   }, {
-    h4_fleurs: Copy.text({
+    h4: Copy.text({
       es: "Traslado del lobo",
       en: "Transfer the wolf",
     }),

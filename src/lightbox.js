@@ -5,10 +5,44 @@ import LightBox from "../lib/LightBox.js";
 import Pager from "../lib/Pager.js";
 import homePage from "./pages/home.js";
 import boardSection from "./pages/sections/board.js";
+import Song from "./Song.js";
 
 window.popUp = key => LightBox.open(key);
 
 LightBox.add(new Pager({
+  playlist: {
+    class: "playlist",
+    header: {
+      h3: Copy.text({
+        es: "Conejos Y Barajas",
+        en: "Jack Rabbits",
+      }),
+      p: Copy.text({
+        es: "El albúm musical",
+        en: "The musical experience",
+      }),
+    },
+    section: {
+      width: "fit-content",
+      margin: "0 auto",
+      display: "flex",
+      img: {
+        alt: "Four suits banners",
+        src: "images/albumCover.jpg",
+      },
+      ul: {
+        li: Song.List.map(song => ({
+          a: {
+            class: {
+              playing: Song._currentSong.as(v => v === song),
+            },
+            text: song.title,
+            onclick: Song._currentSong.as(v => () => v === song ? song.end() : song.start(true)),
+          }
+        })),
+      }
+    }
+  },
   video: {
     iframe: {
       attributes: {

@@ -3,11 +3,6 @@ import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 import Song from "../../Song.js";
 
-let song = new Song("home", Copy.text({
-  es: "songs/Un nuevo territorio.mp3",
-  en: "songs/A New Board of Your Own.mp3",
-}));
-
 const boardSection = {
   h3: Copy.text({
     es: "Crear el territorio",
@@ -15,7 +10,7 @@ const boardSection = {
   }),
   a_button_song: {
     margin: "0.5em 0 1em",
-    content: song.link,
+    content: Song.List[8].link,
   },
   p: versify(Copy.text({
     es: [
@@ -80,7 +75,7 @@ const boardSection = {
     en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
       don’t link roads if it's two hexes.<sup class="warning">x</sup>
       Place triangles scattered broad,
-      so they don’t end up connected.<sup class="warning">!</sup>
+      not the ones alike connected.<sup class="warning">!</sup>
       Hexes may be placed abroad, 
       starting islands disconnected.
       But the underground is odd—

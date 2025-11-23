@@ -82,26 +82,39 @@ body {
 }
 
 a.button.next {
-  background-color: darkgoldenrod;
+  background-color: rgb(146, 116, 41);
   display: none;
 }
 
 a.button.next:hover {
-  background-color: goldenrod;
+  background-color: rgb(187, 151, 59);
 }
 
 audio {
   position: fixed;
-  bottom: 0;
+  bottom: -2em;
   left: 0;
   width: 100%;
-  height: 1.8rem;
-  z-index: 100;
-  accent-color: red; /* fallback for browsers that support accent-color */
-  filter: invert(100%) hue-rotate(180deg); /* makes everything dark */
+  height: 2rem;
+  z-index: 10000;
+  accent-color: red;
+  /*fallbackforbrowsersthatsupportaccent-color*/
+  filter: invert(100%) hue-rotate(180deg);
+  /*makeseverythingdark*/
+  : ;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
 }
 
-@media (width >90rem) {
+audio.playing {
+  bottom: 0;
+  display: block;
+}
+
+@media (width >88rem) {
 
   #languageMenu {
     position: absolute;
@@ -109,22 +122,31 @@ audio {
     right: 0;
   }
 
-  #content>article:not(.menu)>section {
+  article:not(.menu)>section {
     background-color: white;
     box-shadow: 1px 1px 3px black;
-    margin-left: -21rem !important;
+    margin-left: -20.8rem !important;
   }
 
-  #content>article:not(.menu)>section:hover {
+  article:not(.menu)>section>* {
+    pointer-events: none;
+  }
+
+  article:not(.menu)>section:hover,
+  article:not(.menu)>section.peak {
     margin-left: -10rem !important;
   }
 
-  #content>article:not(.menu)>section.opened,
-  #content>article:not(.menu)>section:first-child {
+  article:not(.menu)>section.opened,
+  article:not(.menu)>section:first-child {
     margin-left: 0 !important;
   }
 
-  #content>article>footer,
+  article:not(.menu)>section.opened>* {
+    pointer-events: initial;
+  }
+
+  article>footer,
   .nextArrow {
     display: none;
   }
@@ -133,29 +155,32 @@ audio {
     display: block;
   }
 
-  #content>article.opened>footer,
+  article.opened>footer,
   .opened .nextArrow {
     display: block;
   }
 
   .optional,
-  #content>article.shuffle>section {
+  article.shuffle>section {
     background-color: white;
   }
 
-  .letter{
+  .letter {
     color: darkgreen;
+  }
+
+  .accent {
+    background-color: black !important;
   }
 
   .note {
     box-shadow: none !important;
-    background-color: none !important;
-    color: darkgreen;
+    background-color: var(--home) !important;
   }
 
 }
 
-@media (width <=90rem) {
+@media (width <=88rem) {
   body {
     max-width: 45rem;
   }
@@ -168,11 +193,11 @@ audio {
     display: block;
   }
 
-  #content>article>section {
+  article>section {
     width: 39rem !important;
   }
 
-  html[lang="es"] #content>article>section {
+  html[lang="es"] article>section {
     width: 40rem !important;
   }
 
@@ -208,8 +233,8 @@ audio {
     white-space: initial;
   }
 
-  #content>article>section,
-  html[lang="es"] #content>article>section {
+  article>section,
+  html[lang="es"] article>section {
     width: 21rem !important;
   }
 
@@ -221,20 +246,6 @@ audio {
   main>ul {
     margin: 0.5rem;
     width: 100% !important;
-  }
-
-  .carded.link a.button {
-    font-size: 1.1em;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    border-radius: 0;
-    z-index: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
   }
 
   .carded.link {
@@ -299,7 +310,7 @@ p {
   margin: 0 auto 0.7rem;
 }
 
-#content>article p:last-child {
+article p:last-child {
   margin-bottom: 0;
 }
 
@@ -447,7 +458,7 @@ a.button.song.playing {
   box-shadow: 0 0 0.5em red;
 }
 
-#content>article.shuffle>section a.button.song small {
+article.shuffle>section a.button.song small {
   display: none !important;
 }
 
@@ -668,7 +679,7 @@ body>header h1>* {
   margin: 0 auto;
 }
 
-#content>article>section img {
+article>section img {
   margin: 0 auto 0.5rem;
   width: auto;
 }
@@ -697,7 +708,21 @@ body>header h1>* {
   z-index: 1;
 }
 
-#content>article>section.letter {
+.carded.link a.button {
+  font-size: 1.3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  border-radius: 0;
+  z-index: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+article>section.letter {
   max-width: fit-content;
   padding-left: 2em;
   padding-right: 2em;
@@ -717,12 +742,72 @@ body>header h1>* {
   -o-border-radius: 0.5rem;
 }
 
+.playlist header {
+  background-color: white;
+}
 
-#content>article.shuffle {
+.playlist section {
+  background: darkred;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}
+
+.playlist ul {
+  text-align: left;
+  width: -webkit-fill-available;
+}
+
+.playlist li {
+  width: 100% !important;
+}
+
+.playlist img {
+  width: max-content;
+  max-width: 33%;
+  height: auto;
+  object-fit: cover;
+}
+
+.playlist a {
+  display: block;
+  white-space: nowrap;
+  padding: 0.3rem 0.8rem;
+  font-size: 1.2rem;
+  font-family: title;
+  font-variant: small-caps;
+  color: var(--home);
+  width: 100%;
+}
+
+.playlist a.playing {
+  background-color: red;
+}
+
+.playlist a:hover {
+  background-color: #b00;
+}
+
+.playlist a::before {
+  display: inline-block;
+  content: "⏹";
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.playlist a.playing::before {
+  content: "▶";
+}
+
+article.shuffle {
   display: flex;
 }
 
-#content>article.shuffle>section {
+article.shuffle>section {
   box-shadow: 1px 1px 3px black;
   background-color: white;
 }
@@ -819,12 +904,12 @@ body>main {
   padding: 0.5rem 0 1.5rem;
 }
 
-#content>article:not(:first-child) {
+article:not(:first-child) {
   padding-top: 1rem;
 }
 
 #content,
-#content>article {
+article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -834,7 +919,7 @@ body>main {
 }
 
 
-#content>article>header,
+article>header,
 #content .heading,
 #content>header {
   width: 100%;
@@ -848,13 +933,13 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-#content>article>footer,
+article>footer,
 #content>footer {
   width: 100%;
-  margin: 0.5rem 2rem 0;
+  margin-top: 0.5rem;
 }
 
-#content>article>header>main {
+article>header>main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -862,11 +947,11 @@ body>main {
   margin-bottom: 1rem;
 }
 
-#content>article>header>main>* {
+article>header>main>* {
   margin: 0 0.2rem;
 }
 
-#content>article>section {
+article>section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -881,33 +966,34 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-#content>article>section>section {
+article>section>section {
   margin: 0.3rem 0;
 }
 
-#content>article>section ul {
+article>section ul {
   text-align: left;
   padding-left: 1rem;
   width: fit-content;
   margin: 0 auto;
 }
 
-#content>article>section ul>li::before {
+article>section ul>li::before {
   content: "•";
   float: left;
   margin-left: -0.5em;
 }
 
-#content>article>section ul>li:first-child:before {
+article>section ul>li:first-child:before {
   content: "○";
   content: "";
 }
 
-#content>article>section ul>li {
+article>section ul>li,
+.playlist ul>li {
   width: min-content;
 }
 
-#content>article>section ul>li>line {
+article>section ul>li>line {
   width: min-content;
 }
 

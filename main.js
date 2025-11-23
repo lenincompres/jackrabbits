@@ -96,9 +96,19 @@ DOM.set({
       target: "_blank",
       text: Copy.at.buy,
     }, {
-      href: "http://instagram.com/lenino.jackrabbits",
+      /*
+            href: "http://instagram.com/lenino.jackrabbits",
+            target: "_blank",
+            text: "Instagram",
+          }, {*/
+      class: "button song",
+      marginTop: "-1em",
       target: "_blank",
-      text: "Instagram",
+      text: Copy.text({
+        es: "Disfruta del Album",
+        en: "Experience the Music",
+      }),
+      onclick: () => popUp('playlist'),
     }, {
       class: "button",
       marginTop: "-1em",
@@ -109,8 +119,8 @@ DOM.set({
     section: {
       marginTop: "1em",
       markdown: Copy.text({
-        es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md). Musica de [Lenino](https://lenino.net) usando [SUNO](https://suno.com/playlist/aa6d3874-63b6-41ed-a52e-f8171da72745).",
-        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md). Music by [Lenino](https://lenino.net) using [SUNO](https://suno.com/playlist/2dcb994d-fda3-462f-92df-3f53cabbec30).",
+        es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md) y [SUNO](https://suno.com/playlist/aa6d3874-63b6-41ed-a52e-f8171da72745).",
+        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md) and [SUNO](https://suno.com/playlist/2dcb994d-fda3-462f-92df-3f53cabbec30).",
       }),
     },
     onready: () => popUp('mailingList'),

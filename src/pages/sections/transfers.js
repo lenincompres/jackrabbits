@@ -24,6 +24,8 @@ const introText = versify(Copy.text({
 }));
 
 const transferSections = [{
+  class: "accent",
+  paddingTop: "3rem",
   p_vertical: introText,
   img: ASSETS.roadTiles,
   aside_note: {
@@ -121,7 +123,7 @@ const transferSections = [{
     tag: "h4",
     html: Copy.text({
       es: classifyChars("Comodines", "hearts", " diamonds"),
-      en: classifyChars("Jesters", "hearts", " diamonds"),
+      en: classifyChars("Jokers", "hearts", " diamonds"),
     }),
   }, Copy.text({
     es: `Un jóker se te otorga de pasaje,

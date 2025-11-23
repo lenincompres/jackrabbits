@@ -3,6 +3,7 @@ import versify from "../aux/versify.js";
 import classicSections from "./sections/neoclassic.js";
 import frontierSections from "./sections/frontier.js";
 import nauticalSections from "./sections/nautical.js";
+import paginate from "../aux/paginate.js";
 
 const expansionPage = {
   article_shuffle: [{
@@ -31,6 +32,7 @@ const expansionPage = {
           se aceptan de lugares alejados.`,
       })),
     },
+    ondone: elt => paginate(elt),
   }, {
     header: {
       h2: Copy.text({
@@ -56,7 +58,8 @@ const expansionPage = {
           Los pagos con un círculo en sus palos
           se aceptan de lugares alejados.`,
       })),
-    }
+    },
+    ondone: elt => paginate(elt),
   }, {
     header: {
       h2: Copy.text({
@@ -65,8 +68,8 @@ const expansionPage = {
       }),
     },
     section: classicSections.sort(() => Math.random() - 0.5),
+    ondone: elt => paginate(elt),
   }],
-  ondone: elt => paginate(elt),
 };
 
 export default expansionPage;
