@@ -20,7 +20,7 @@ class Song {
     });
     document.body.append(this.audio);
     this.link = DOM.let("a", {
-      span: Song._currentSong.as(v => v === this ? Copy.text({
+      span: Song._currentSong.as(v => v != this ? Copy.text({
         es: "Oye esta canción ▶",
         en: "Play this song ▶",
       }) : Copy.text({
