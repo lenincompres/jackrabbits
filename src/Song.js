@@ -78,6 +78,7 @@ class Song {
   static playNext() {
     const i = Song.List.indexOf(Song.currentSong) + 1;
     if (Song.List[i]) Song.List[i].start(true);
+    else Song.currentSong.end();
   }
 
 }

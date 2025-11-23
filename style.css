@@ -804,11 +804,12 @@ article>section.letter {
 .playlist a {
   display: block;
   white-space: nowrap;
+  line-height: 1.3em;
   padding: 0.3rem;
   font-size: 1.3rem;
   font-family: title;
   font-variant: small-caps;
-  color: var(--home);
+  color: white;
   width: 100%;
 }
 
