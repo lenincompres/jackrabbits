@@ -798,12 +798,13 @@ article>section.letter {
   width: max-content;
   height: auto;
   object-fit: cover;
+  padding-right: 0.5rem;
 }
 
 .playlist a {
   display: block;
   white-space: nowrap;
-  padding: 0.3rem 0.8rem;
+  padding: 0.3rem;
   font-size: 1.3rem;
   font-family: title;
   font-variant: small-caps;
