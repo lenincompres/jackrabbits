@@ -24,8 +24,8 @@ class Song {
         es: "Oye esta canción ▶",
         en: "Play this song ▶",
       }) : Copy.text({
-        es: "Para esta canción ⏹",
-        en: "Stop this song ⏹",
+        es: "Para esta canción ◼",
+        en: "Stop this song ◼",
       })),
       class: {
         playing: Song._currentSong.as(v => v === this),
