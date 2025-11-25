@@ -95,7 +95,7 @@ audio {
   bottom: -2em;
   left: 0;
   width: 100%;
-  height: 2rem;
+  height: 2.5rem;
   z-index: 10000;
   accent-color: red;
   /*fallbackforbrowsersthatsupportaccent-color*/
@@ -771,12 +771,12 @@ article>section.letter {
 .playlist section {
   position: relative;
   background: darkred;
-  padding: 0.8rem;
-  border-radius: 0.6rem;
-  -webkit-border-radius: 0.6rem;
-  -moz-border-radius: 0.6rem;
-  -ms-border-radius: 0.6rem;
-  -o-border-radius: 0.6rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   width: fit-content;
   max-width: -webkit-fill-available;
   margin: 0 auto;
@@ -811,6 +811,11 @@ article>section.letter {
   font-variant: small-caps;
   color: white;
   width: 100%;
+}
+
+.playlist a small{
+  font-family: title;
+  font-variant: small-caps;
 }
 
 .playlist a.playing {

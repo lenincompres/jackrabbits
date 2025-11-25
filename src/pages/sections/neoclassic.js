@@ -49,7 +49,7 @@ const neoclassicSections = [{
       ],
     })),
   }, {
-    class: "note land",
+    class: "note",
     h4: Copy.text({
       es: "+ Hongo de la Pila",
       en: "+ Pile's Mushroom",
@@ -119,7 +119,7 @@ const neoclassicSections = [{
       ],
     })),
   }, {
-    class: "note sea",
+    class: "note",
     h4: Copy.text({
       es: "+ Comodín cañonero",
       en: "+ Cannonball Joker",

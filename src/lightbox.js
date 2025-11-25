@@ -33,12 +33,19 @@ LightBox.add(new Pager({
             class: {
               playing: Song._currentSong.as(v => v === song),
             },
-            text: song.title,
+            html: song.title,
             onclick: Song._currentSong.as(v => () => v === song ? song.end() : song.start(true)),
           }
         })),
       }
-    }
+    },
+    footer: {
+      fontSize: "0.8rem",
+      p: Copy.text({
+        en: `Music generated with Suno AI under a paid user account.`,
+        es: `Música generada con Suno AI bajo una cuenta de usuario paga.`,
+      }),
+    },
   },
   video: {
     iframe: {

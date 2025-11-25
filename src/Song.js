@@ -5,6 +5,9 @@ class Song {
     this.id = id;
     this.src = src;
     this.title = title ? title : src.split("/").pop().split(".")[0];
+    if(this.title.includes(": ")) {
+      this.title = this.title.replaceAll(": ", ": <small>") + "</small>";
+    }
     this.audio = new Audio(src);
     this.audio.set({
       controls: true,
@@ -100,23 +103,23 @@ new Song("home", Copy.text({
 }));
 new Song("home", Copy.text({
   es: "songs/Los traslados y el destierro.mp3",
-  en: "songs/Off the Roads and Off-board.mp3",
+  en: "songs/Off the Roads and Off-Board.mp3",
 }));
 new Song("home", Copy.text({
-  es: "songs/Diamantes, a comerciar en las plazas.mp3",
-  en: "songs/Diamonds, Trade at Jack Plazas.mp3",
+  es: "songs/Diamantes: a comerciar en las plazas.mp3",
+  en: "songs/Diamonds: Trade at Jack Plazas.mp3",
 }));
 new Song("home", Copy.text({
-  es: "songs/Corazones, a vetar los palacios.mp3",
-  en: "songs/Hearts, Vet the Queen Palaces.mp3",
+  es: "songs/Corazones: a vetar los palacios.mp3",
+  en: "songs/Hearts: Vet the Queen Palaces.mp3",
 }));
 new Song("home", Copy.text({
-  es: "songs/Tréboles, a volar entre las torres.mp3",
-  en: "songs/Clovers, Fly from King Towers.mp3",
+  es: "songs/Tréboles: a volar entre las torres.mp3",
+  en: "songs/Clovers: Fly from King Towers.mp3",
 }));
 new Song("home", Copy.text({
-  es: "songs/Picas, a pelear por las cartas.mp3",
-  en: "songs/Spades, Fight Others for Cards.mp3",
+  es: "songs/Picas: a pelear por las cartas.mp3",
+  en: "songs/Spades: Fight Others for Cards.mp3",
 }));
 new Song("home", Copy.text({
   es: "songs/Un nuevo territorio.mp3",
