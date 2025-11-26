@@ -41,7 +41,24 @@ LightBox.add(new Pager({
     },
     footer: {
       fontSize: "0.8rem",
-      p: Copy.text({
+      menu: {
+        span: [{
+          label: "Autoplay: ",
+          input: {
+            type: "checkbox",
+            checked: Song._autoplay,
+            onchange: (e) => Song.autoplay = e.target.checked,
+          }, 
+        },{
+          label: "Repeat: ",
+          input: {
+            type: "checkbox",
+            checked: Song._repeat,
+            onchange: (e) => Song.repeat = e.target.checked,
+          }
+        }],
+      },
+      div: Copy.text({
         en: `Music generated with Suno AI under a paid user account.`,
         es: `Música generada con Suno AI bajo una cuenta de usuario paga.`,
       }),

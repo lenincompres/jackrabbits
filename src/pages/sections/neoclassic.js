@@ -185,18 +185,18 @@ const neoclassicSections = [{
       en: "Transfer the wolf",
     }),
     p: versify(Copy.text({
-      es: `El lobo se lo envías a un conejo,
+      es: `Trasládalo a un paraje con conejos
       si pagas en un parque o su paraje.
       Las víctimas terminan en destierro
       y apúntale a la carta que descarten.
       Lo puedes trasladar por el subsuelo,
       mas nunca navegando por los mares.`,
       en: `At its post or from a den,
-      cast the wolf to any rabbits.
-      Send them hopping off-board then,
-      also take a card to scrap it.
-      It may not swim for this end—
-      travel underground's its habit.`,
+      send the wolf to any rabbit.
+      Spook—off-board—those there and then,
+      take a card from each and scrap it.
+      Move the wolf by ground when sent—
+      crossing underground's its habit.`,
     })),
   }],
 }, ];
