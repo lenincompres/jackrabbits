@@ -11,58 +11,59 @@ window.popUp = key => LightBox.open(key);
 
 LightBox.add(new Pager({
   playlist: {
-    class: "playlist",
-    header: {
-      h3: Copy.text({
-        es: "Conejos Y Barajas",
-        en: "Jack Rabbits",
-      }),
-      p: Copy.text({
-        es: "El albúm musical",
-        en: "The musical experience",
-      }),
-    },
-    section: {
-      img: {
-        alt: "Four suits banners",
-        src: "images/albumCover.jpg",
+    div_playlist: {
+      header: {
+        h3: Copy.text({
+          es: "Conejos Y Barajas",
+          en: "Jack Rabbits",
+        }),
+        p: Copy.text({
+          es: "El albúm musical",
+          en: "The musical experience",
+        }),
       },
-      ul: {
-        li: Song.List.map(song => ({
-          a: {
-            class: {
-              playing: Song._currentSong.as(v => v === song),
+      section: {
+        img: {
+          alt: "Four suits banners",
+          src: "images/albumCover.jpg",
+        },
+        ul: {
+          li: Song.List.map(song => ({
+            a: {
+              class: {
+                playing: Song._currentSong.as(v => v === song),
+              },
+              html: song.title,
+              onclick: Song._currentSong.as(v => () => v === song ? song.end() : song.start(true)),
+            }
+          })),
+        }
+      },
+      footer: {
+        fontSize: "0.8rem",
+        menu: {
+          span: [{
+            label: "Autoplay: ",
+            input: {
+              type: "checkbox",
+              checked: Song._autoplay,
+              onchange: (e) => Song.autoplay = e.target.checked,
             },
-            html: song.title,
-            onclick: Song._currentSong.as(v => () => v === song ? song.end() : song.start(true)),
-          }
-        })),
-      }
-    },
-    footer: {
-      fontSize: "0.8rem",
-      menu: {
-        span: [{
-          label: "Autoplay: ",
-          input: {
-            type: "checkbox",
-            checked: Song._autoplay,
-            onchange: (e) => Song.autoplay = e.target.checked,
-          }, 
-        },{
-          label: "Repeat: ",
-          input: {
-            type: "checkbox",
-            checked: Song._repeat,
-            onchange: (e) => Song.repeat = e.target.checked,
-          }
-        }],
+          }, {
+            label: "Repeat: ",
+            input: {
+              type: "checkbox",
+              checked: Song._repeat,
+              onchange: (e) => Song.repeat = e.target.checked,
+            }
+          }],
+        },
+        div: Copy.text({
+          en: `Music generated with Suno AI under a paid user account.`,
+          es: `Música generada con Suno AI bajo una cuenta de usuario paga.`,
+        }),
       },
-      div: Copy.text({
-        en: `Music generated with Suno AI under a paid user account.`,
-        es: `Música generada con Suno AI bajo una cuenta de usuario paga.`,
-      }),
-    },
+    }
   },
   video: {
     iframe: {
