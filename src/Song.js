@@ -102,7 +102,7 @@ class Song {
   static playNext() {
     const i = Song.List.indexOf(Song.currentSong) + 1;
     if (Song.List[i]) Song.List[i].start(Song.autoplay);
-    if (Song.repeat) Song.List[0].start(Song.autoplay);
+    else if (Song.repeat) Song.List[0].start(Song.autoplay);
     else Song.currentSong.end();
   }
 
