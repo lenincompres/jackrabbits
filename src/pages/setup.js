@@ -96,7 +96,7 @@ const setupPage = {
       }),
       p: versify(
         Copy.text({
-          es: `Asigna a las personas sus conejos
+          es: `Asigna a las personas un conejo,
           y allí en la <a class="pop" onclick="popUp('citadel')"><i>Ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
