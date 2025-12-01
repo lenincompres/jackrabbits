@@ -119,7 +119,7 @@ new Song(Copy.text({
   en: "The Royal Quest",
 }));
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/c2c57bd0-1bb5-4edd-8784-f680c540f10f.m4a",
+  es: "https://cdn1.suno.ai/cdd9dfa9-2252-44a2-a33f-36fc8801e76b.m4a",
   en: "https://cdn1.suno.ai/b12198a4-b5f3-40b1-ae26-64fbb077a8b1.m4a",
 }), Copy.text({
   es: "La partida",

@@ -20,8 +20,8 @@ const boardSection = {
       de hexágonos, de rombos y de triángulos.
       Repártelas por formas geométricas:
       iguales cantidades en el cálculo.`,
-      `Es hora de empezar a colocarlas
-      (por turnos o con libre preferencia).
+      `Es hora de empezar a colocarlas:
+      por turnos o con libre preferencia.
       Por turnos se mantienen sin mirarlas,
       y pieza que volteen, la conectan.
       O libre se permiten voltearlas,

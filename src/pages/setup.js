@@ -40,7 +40,7 @@ const setupPage = {
           Que exploren recorrer las carreteras
           usando los conejos que se mueven.
           Añádeles las cartas y sus reglas
-          si captan a medida que las prueben.`,
+          si entienden a medida que las prueben.`,
           en: `If there're children under nine,
           only play to build the land.
           Then explore what they design—

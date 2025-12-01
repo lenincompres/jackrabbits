@@ -166,7 +166,7 @@ audio.playing {
   }
 
   .letter {
-    color: darkgreen;
+    color: #444;
   }
 
   .accent {
@@ -414,13 +414,13 @@ line>span:first-child>span {
 }
 
 a {
-  color: darkblue;
-  text-decoration: none;
+  color: darkgreen;
+  text-decoration: underline;
   cursor: pointer;
 }
 
 a:hover {
-  color: blue;
+  color: var(--field);
 }
 
 a.thumbnail:hover img {
@@ -448,8 +448,13 @@ a[target="_blank"]::after {
   display: inline-block;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 a.button {
   text-transform: uppercase;
+  text-decoration: none;
   font-family: 'title';
   display: inline-block;
   margin: 0 auto;
