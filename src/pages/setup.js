@@ -83,7 +83,7 @@ const setupPage = {
           y harán <b>la adquisición</b> de las reales.`,
           en: `Every player gets three cards, 
           that's their <i>hand</i> to start the chase.
-          These resources each one guards, 
+          These resources, each one guards, 
           fund <b>the journey</b> they will face.
           And pay royals their regards,
           per <b>the acquisition</b> phase.`,
