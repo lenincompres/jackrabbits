@@ -82,6 +82,7 @@ body {
 }
 
 a.button.next {
+  display: none;
   background-color: transparent;
   border: solid 0.5px darkgreen;
   color: darkgreen;
