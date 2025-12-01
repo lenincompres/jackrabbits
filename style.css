@@ -82,12 +82,18 @@ body {
 }
 
 a.button.next {
-  background-color: rgb(146, 116, 41);
-  display: none;
+  background-color: transparent;
+  border: solid 0.5px darkgreen;
+  color: darkgreen;
+  text-shadow: none;
+  box-shadow: 0 0 2px;
 }
 
 a.button.next:hover {
-  background-color: rgb(187, 151, 59);
+  background-color: transparent;
+  color: var(--field);
+  border-color: var(--field);
+  box-shadow: 0 0 2px var(--field);
 }
 
 audio {
@@ -480,8 +486,24 @@ a.button.song:hover {
   background-color: #b00;
 }
 
+main a.button.song {
+  background-color: transparent;
+  border: solid 0.5px darkred;
+  color: darkred;
+  text-shadow: none;
+  box-shadow: 0 0 2px;
+}
+
+main a.button.song:hover {
+  background-color: transparent;
+  color: #b00;
+  border-color: #b00;
+  box-shadow: 0 0 2px #b00;
+}
+
 a.button.song.playing {
-  background-color: #f00;
+  color: red;
+  border-color: red;
   box-shadow: 0 0 0.5em red;
 }
 
@@ -778,7 +800,7 @@ article>section.letter {
   flex-direction: row;
 }
 
-.playlist menu>*{
+.playlist menu>* {
   margin: 0.5rem;
 }
 
@@ -827,7 +849,7 @@ article>section.letter {
   width: 100%;
 }
 
-.playlist a small{
+.playlist a small {
   font-family: title;
   font-variant: small-caps;
 }
@@ -971,15 +993,10 @@ article {
 article>header,
 #content .heading,
 #content>header {
-  width: 100%;
-  padding: 1rem;
-  margin: 1rem 1rem 0;
-  border: solid 1.7px black;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 1rem 0;
+    border-top: solid 2px #0008;
 }
 
 article>footer,
