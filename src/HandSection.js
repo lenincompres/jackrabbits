@@ -35,7 +35,7 @@ export class HandSection extends HTMLElement {
       if (!title) title = section.get("h4");
       //if (!title) title = section.get("*");
       if (title) {
-        if(Array.isArray(title)) title = title.map(s => s.innerText).join(" & ");
+        if (Array.isArray(title)) title = title.map(s => s.innerText).join(" & ");
         else title = title.innerText;
         this.titles.push(title);
       }
@@ -43,19 +43,20 @@ export class HandSection extends HTMLElement {
 
     this.nextName = this.titles[current + 1];
 
-    this.aButton = DOM.let("a_button_next", {
-      text: this._nextName.as(name => Copy.text({
-        en: `Next: ${name} ➧`,
-        es: `Sigue: ${name} ➧`,
-      })),
-      alignContent: "end",
-      margin: "0.5rem 40% 0",
-      zIndex: this.total + 1,
-      onmouseover: () => this.peakPage = this.currentPage + 1,
-      onmouseout: () => this.peakPage = undefined,
-      onclick: () => this.nextPage(),
+    this.set({
+      a_button_next: {
+        text: this._nextName.as(name => Copy.text({
+          en: `Next: ${name} ➧`,
+          es: `Sigue: ${name} ➧`,
+        })),
+        alignContent: "end",
+        margin: "0.5rem 40% 0",
+        zIndex: this.total + 1,
+        onmouseover: () => this.peakPage = this.currentPage + 1,
+        onmouseout: () => this.peakPage = undefined,
+        onclick: () => this.nextPage(),
+      }
     });
-    this.append(this.aButton);
   }
 
 
@@ -64,16 +65,12 @@ export class HandSection extends HTMLElement {
     if (index === undefined) index = this.currentPage + 1;
     else if (index < this.currentPage) return;
     this.currentPage = index;
-    if (index >= this.total - 1) {
-      this.set({
-        class: {
-          opened: true
-        }
-      });
-      this.aButton.remove();
-      return;
-    }
+    if (index >= this.total - 1) return this.open();
     this.nextName = this.titles[index + 1];
+  }
+
+  open() {
+    this.classList.add("opened");
   }
 
 }

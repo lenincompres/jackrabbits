@@ -158,7 +158,7 @@ audio.playing {
     display: none;
   }
 
-  a.button.next {
+  .handSection:not(.opened) a.button.next {
     display: block;
   }
 
@@ -470,7 +470,6 @@ a.button {
   background-color: darkblue;
   padding: 0 1em;
   line-height: 2.5em;
-  text-shadow: 1px 1px 2px black;
   border-radius: 0.4em;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -490,7 +489,6 @@ main a.button.song {
   background-color: transparent;
   border: solid 1px darkred;
   color: darkred;
-  text-shadow: none;
   box-shadow: 0 0 2px;
 }
 
@@ -505,6 +503,7 @@ a.button.song.playing {
   color: red;
   border-color: red;
   box-shadow: 0 0 0.5em #F008, 0 0 0.5em #F008 inset;
+  text-shadow: 0 0 0.5em #F008;
 }
 
 .handSection.shuffle>section a.button.song small {
@@ -839,6 +838,7 @@ body>header h1>* {
 
 .playlist a {
   display: block;
+  text-decoration: none;
   white-space: nowrap;
   line-height: 1.3em;
   padding: 0.3rem;
@@ -889,7 +889,7 @@ body>header h1>* {
   text-align: left;
   font-style: italic;
   text-indent: 1.8rem;
-  color: #555;
+  color: #676;
 }
 
 .letter p:last-child {
@@ -1079,13 +1079,29 @@ body>footer {
 }
 
 .bulletMenu>ul a.selected {
-  color: #555;
+  color: #666;
   pointer-events: none;
 }
 
 .bulletMenu>ul>li:not(:first-child)::before {
   content: "•";
   margin: 0 0.5rem;
+}
+
+light-box {
+  display: flex;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+}
+
+light-box.opened {
+  opacity: 1;
+  pointer-events: initial;
 }
 
 light-box>section {

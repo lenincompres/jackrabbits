@@ -25,7 +25,7 @@ const introPage = {
       section: new HandSection({
         header: {
           a: {
-            name: "intro/tranfers",
+            name: "intro/transfers",
           },
           h3: Copy.text({
             es: "Los traslados",

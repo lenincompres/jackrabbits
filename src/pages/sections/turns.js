@@ -60,7 +60,7 @@ const turnSections = [{
       `Recuerda que moverte es opcional. 
       Depende de tu meta a visitar.`,
       `Podrías expandir tus travesías. 
-      Consulta <a href="#intro/tranfers"><b>los traslados</b></a> en las vías.`
+      Consulta <a href="#intro/transfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
       `You may choose a path to exit, 
@@ -72,7 +72,7 @@ const turnSections = [{
       `Move on closer to your goal.
       Or perhaps don't move at all.`,
       `There are other travel modes.
-      See <a href="#intro/tranfers"><b>the transfers</b></a> off the roads.`,
+      See <a href="#intro/transfers"><b>the transfers</b></a> off the roads.`,
     ]
   })),
   b_nextArrow: '➧',
