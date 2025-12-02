@@ -71,7 +71,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   position: relative;
-  width: 100vw;
+  width: 100%;
 }
 
 .horizontal {
@@ -122,7 +122,7 @@ audio.playing {
   display: block;
 }
 
-@media (width >88rem) {
+@media (width > 88rem) {
 
   #languageMenu {
     position: absolute;
@@ -135,7 +135,7 @@ audio.playing {
     background-color: white;
     box-shadow: 1px 1px 3px black;
   }
-  .handSection>section.optional {
+  .handSection.menu>section {
     background-color: #fff8;
   }
 
