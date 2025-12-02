@@ -54,16 +54,12 @@ class Song {
   }
 
   start(auto) {
-    if (Song.currentSong) {
-      if (Song.currentSong !== this) {
-        Song.currentSong.end();
-        this.callBack();
-      }
-    } else {
-      this.callBack();
+    if (Song.currentSong && Song.currentSong !== this) {
+      Song.currentSong.end();
     }
     if (!this.isPlaying) {
       this.audio.play();
+      this.callBack();
     }
     Song._currentSong.value = this;
     Song._autoplay.value = !!auto;
@@ -204,4 +200,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Un nuevo territorio",
   en: "A New Board of Your Own",
-}), () => popUp("board"));
+}), () => {
+  visitSong("setup");
+  popUp("board");
+});
