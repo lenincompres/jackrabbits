@@ -30,9 +30,9 @@ export class HandSection extends HTMLElement {
         },
         onclick: this._currentPage.as(v => v < index ? () => this.nextPage(index) : null),
       });
-      let title = section.get("h3");
+      let title = section.get("h4");
+      if (!title) title = section.get("h3");
       if (!title) title = section.get("h2");
-      if (!title) title = section.get("h4");
       //if (!title) title = section.get("*");
       if (title) {
         if (Array.isArray(title)) title = title.map(s => s.innerText).join(" & ");

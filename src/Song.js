@@ -1,6 +1,8 @@
 import Copy from "../lib/Copy.js";
 import LightBox from "../lib/LightBox.js";
 import Pager from "../lib/Pager.js";
+import Card from "./Card.js";
+import CardFloating from "./CardFloating.js";
 
 class Song {
   constructor(src, title, callBack = () => null) {
@@ -110,10 +112,11 @@ class Song {
 
 export default Song;
 
-async function visitSong(key, anchor) {
+async function visitSong(key, suit = null) {
   window.scrollTo(0, 0);
   Pager.key = key;
   LightBox.close();
+  CardFloating._forcedSuit.value = suit;
   await setTimeout(() => {
     let hands = document.body.get("hand-section");
     if (hands) {
@@ -168,7 +171,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Diamantes: a comerciar en las plazas",
   en: "Diamonds: Trade at Jack Plazas",
-}), () => visitSong("full"));
+}), () => visitSong("full", Card.SUIT.D));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/b5b6b497-e2e1-43dc-82a7-f7592ee21c6e.m4a",
@@ -176,7 +179,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
   en: "Hearts: Vet the Queen Palaces",
-}), () => visitSong("full"));
+}), () => visitSong("full", Card.SUIT.H));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/b0e6b8b4-15a8-42db-ad11-8fcfe6eb6316.m4a",
@@ -184,7 +187,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Tréboles: a volar entre las torres",
   en: "Clovers: Fly from King Towers",
-}), () => visitSong("full"));
+}), () => visitSong("full", Card.SUIT.C));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/c8705c09-adc7-4a00-b412-517adf594c09.m4a",
@@ -192,7 +195,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Picas: a pelear por las cartas",
   en: "Spades: Fight Others for Cards",
-}), () => visitSong("full"));
+}), () => visitSong("full", Card.SUIT.S));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/ebd768bf-5898-4c08-8601-d5b9b40972b7.m4a",

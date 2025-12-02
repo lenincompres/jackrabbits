@@ -11,6 +11,7 @@ import setupPage from "./src/pages/setup.js";
 import homePage from "./src/pages/home.js";
 import "./src/lightbox.js";
 import expansionPage from "./src/pages/expansions.js";
+import { mixColor } from "./src/aux/color.js";
 
 Pager.add({
   home: homePage,
@@ -22,6 +23,8 @@ Pager.add({
 });
 
 const CardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
+
+const bkColor = (key, suit, match) => (match && match != key) ? `transparent` : suit ? mixColor(suit.symbol) : `var(--${key})`;
 
 DOM.set({
   link: "style.css",
@@ -44,14 +47,14 @@ DOM.set({
     nav_main: Pager.getLinkMenu(key => ({
       transition: '0.3s ease',
       color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
-      backgroundColor: Pager._key.as(val => val === key ? `var(--${key})` : 'transparent'),
+      backgroundColor: Pager._key.with(CardFloating._forcedSuit).as((k, s) => bkColor(k, s, key)),
       name: key,
       html: Copy.at[key],
     })),
     figure: {
       position: 'relative',
       padding: '1em 1em 0',
-      backgroundColor: Pager._key.as(key => `var(--${key})`),
+      backgroundColor:  Pager._key.with(CardFloating._forcedSuit).as(bkColor),
       img: {
         width: '100%',
         alt: 'Jack Rabbits boardgame photo',
@@ -83,7 +86,7 @@ DOM.set({
     },
     article: {
       id: "content",
-      backgroundColor: Pager._key.as(key => `var(--${key})`),
+      backgroundColor: Pager._key.with(CardFloating._forcedSuit).as(bkColor),
       content: Pager._content,
     },
   },

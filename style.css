@@ -13,9 +13,10 @@
   --setup: #d9eafb;
   --intro: #daf3ea;
   --full: #f6e9f6;
-  --more: #f0dfcd;
+  --more: hsl(39, 40%, 87%);
   --expansion: #e8e8e8;
   --field: #228b21;
+  --ink: #132a;
 
   --clubs: #008480;
   --hearts: #B41722;
@@ -129,9 +130,12 @@ audio.playing {
     right: 0;
   }
 
-  .handSection:not(.menu)>section {
+  .handSection>section {
     background-color: white;
     box-shadow: 1px 1px 3px black;
+  }
+
+  .handSection:not(.menu)>section {
     margin-left: -20.8rem !important;
   }
 
@@ -298,10 +302,12 @@ h1 {
 
 h2 {
   font-size: 1.6em;
+  color: var(--ink)
 }
 
 h3 {
   font-size: 1.3em;
+  color: var(--ink)
 }
 
 h4 {
@@ -889,7 +895,7 @@ body>header h1>* {
   text-align: left;
   font-style: italic;
   text-indent: 1.8rem;
-  color: #676;
+  color: var(--ink) !important;
 }
 
 .letter p:last-child {
@@ -990,13 +996,12 @@ body>main {
   width: 100%;
 }
 
-
 .handSection>header,
 #content>header {
   width: 100%;
   padding: 2rem 1rem 1rem;
   margin: 1rem 1rem 0;
-  border-top: solid 2px #0008;
+  border-top: solid 2px var(--ink);
 }
 
 .handSection>footer,
@@ -1005,16 +1010,10 @@ body>main {
   margin-top: 0.5rem;
 }
 
-.handSection>header>main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.handSection>header>main>* {
-  margin: 0 0.2rem;
+#content>.handSection>header:first-child{
+  margin-top: 0;
+  padding-top: 1rem;
+  border: none;
 }
 
 .handSection>section {

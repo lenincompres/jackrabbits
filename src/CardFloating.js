@@ -61,7 +61,10 @@ class CardFloating extends Card {
         this.rx += vrx * drag * sx;
         this.ry += vry * drag * sy;
         this.z += vz * this.acc * drag;
-        if (this.z < 0) {this.z = 0; vz *= -1;}
+        if (this.z < 0) {
+          this.z = 0;
+          vz *= -1;
+        }
         if (this.rx > PI || this.rx < -PI) vrx *= -1;
         if (this.ry > PI || this.ry < -PI) vry *= -1;
       }
@@ -72,8 +75,8 @@ class CardFloating extends Card {
       // apply velocity
       let rect = this.getBoundingClientRect();
       let [xmax, ymax] = [rect.width / window.innerWidth, rect.height / window.innerHeight];
-      if(Math.abs(vx) > xmax) vx *= xmax / Math.abs(vx);
-      if(Math.abs(vy) > ymax) vy *= ymax / Math.abs(vy);
+      if (Math.abs(vx) > xmax) vx *= xmax / Math.abs(vx);
+      if (Math.abs(vy) > ymax) vy *= ymax / Math.abs(vy);
       this.x += vx * this.acc * drag;
       this.y += vy * this.acc * drag;
       // handle bounds
@@ -125,8 +128,13 @@ class CardFloating extends Card {
 
   random(min = 1, max = 13) {
     this.number = min + Math.round(Math.random() * (max - min));
+    if (CardFloating._forcedSuit.value) {
+      return this.suit = CardFloating._forcedSuit.value
+    }
     this.suit = Card.SUIT[Object.keys(Card.SUIT)[Math.floor((Math.random() * 4))]];
   }
+
+  static _forcedSuit = new Binder();
 
 }
 

@@ -1,10 +1,8 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
+import { mixColor } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import Song from "../../Song.js";
-
-const mixColor = (v, p = 10, b = "white") => `color-mix(in srgb, var(--${v}) ${p}%, ${b})`;
-const cMix = v => `color-mix(in srgb, var(--full) 90%, var(--${v}))`;
 
 const strategySections = [{
   backgroundColor: mixColor("clubs"),

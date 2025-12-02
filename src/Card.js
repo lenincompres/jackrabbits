@@ -142,8 +142,8 @@ class Card extends HTMLElement {
       image: "assets/suit-hearts.png",
     },
     C: {
-      symbol: "clovers",
-      alt: "clubs",
+      symbol: "clubs",
+      alt: "clovers",
       cast: "sage",
       trait: "wisdom",
       color: "teal",
