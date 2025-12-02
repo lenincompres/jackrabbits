@@ -25,7 +25,6 @@ const introText = versify(Copy.text({
 
 const transferSections = [{
   class: "accent",
-  paddingTop: "3rem",
   p_vertical: introText,
   img: ASSETS.roadTiles,
   aside_note: {

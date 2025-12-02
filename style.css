@@ -178,6 +178,7 @@ audio.playing {
 
   .accent {
     background-color: black !important;
+    justify-content: center !important;
   }
 
   .note {
@@ -202,6 +203,7 @@ audio.playing {
 
   article>section {
     width: 39rem !important;
+    padding: 1rem 0.6rem !important;
   }
 
   html[lang="es"] article>section {
@@ -489,7 +491,7 @@ a.button.song:hover {
 
 main a.button.song {
   background-color: transparent;
-  border: solid 0.5px darkred;
+  border: solid 1px darkred;
   color: darkred;
   text-shadow: none;
   box-shadow: 0 0 2px;
@@ -504,8 +506,8 @@ main a.button.song:hover {
 
 a.button.song.playing {
   color: red;
-  border-color: red;
-  box-shadow: 0 0 0.5em red;
+  border-color: #F66;
+  box-shadow: 0 0 0.5em #F66, 0 0 0.5em #F66 inset;
 }
 
 article.shuffle>section a.button.song small {
@@ -995,7 +997,7 @@ article>header,
 #content .heading,
 #content>header {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem 1rem 1rem;
     margin: 1rem 1rem 0;
     border-top: solid 2px #0008;
 }
@@ -1103,6 +1105,8 @@ light-box>section {
 }
 
 light-box>section>a {
+  color: black;
+  text-decoration: none;
   position: absolute;
   line-height: 0.7rem;
   top: 1rem;

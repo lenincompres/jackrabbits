@@ -27,7 +27,7 @@ const optionalSections = [
       shortfall’s paid in any suit.`,
     })),
   }, {
-    h5_spades: Copy.text({
+    h5: Copy.text({
       es: "Palos Justos",
       en: "Tight Suits",
     }),
@@ -38,16 +38,16 @@ const optionalSections = [
       retírales un palo con un set.
       Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
       si acaso es imposible de obtener.
-      Si juegas con las picas y sus duelos,
-      con esto se potencia su poder.`,
+      <b class="spades">Potencias a las picas</b> y sus duelos
+      con cartas de nobleza en escasez.`,
       en: `Have as many suits as players,
       and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
       If there's only three contenders, 
       you’ll remove a set and suit.
       Pick a fitting kind of ending:
       one that cards allow you to.
-      Spades are often recommended—
-      with tight suits they get a boost.`,
+      Whether meant or unintended,
+      this will give the <b class="spades">spades a boost</b>.`,
     })),
     /*},{
       h5__: Copy.text({

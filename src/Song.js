@@ -24,10 +24,10 @@ class Song {
     document.body.append(this.audio);
     this.link = DOM.let("a", {
       span: Song._currentSong.as(v => v != this ? Copy.text({
-        es: "Oye esta canción ▶",
+        es: "Escucha la canción ▶",
         en: "Play this song ▶",
       }) : Copy.text({
-        es: "Para esta canción ◼",
+        es: "Detén esta canción ◼",
         en: "Stop this song ◼",
       })),
       class: {
