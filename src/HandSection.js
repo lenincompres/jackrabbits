@@ -15,7 +15,6 @@ export class HandSection extends HTMLElement {
     this.binderSet({
       currentPage: current,
       peakPage: null,
-      nextName: "",
     })
     this.titles = [];
     this.total = this.sections.length;
@@ -33,7 +32,7 @@ export class HandSection extends HTMLElement {
       let title = section.get("h4");
       if (!title) title = section.get("h3");
       if (!title) title = section.get("h2");
-      //if (!title) title = section.get("*");
+      if (!title) title = section.get("*");
       if (title) {
         if (Array.isArray(title)) title = title.map(s => s.innerText).join(" & ");
         else title = title.innerText;
@@ -41,13 +40,11 @@ export class HandSection extends HTMLElement {
       }
     });
 
-    this.nextName = this.titles[current + 1];
-
     this.set({
       a_button_next: {
-        text: this._nextName.as(name => Copy.text({
-          en: `Next: ${name} ➧`,
-          es: `Sigue: ${name} ➧`,
+        text: this._currentPage.as(val => Copy.text({
+          en: `Next: ${this.titles[val + 1]} ➧`,
+          es: `Sigue: ${this.titles[val + 1]} ➧`,
         })),
         alignContent: "end",
         margin: "0.5rem 40% 0",
@@ -57,6 +54,7 @@ export class HandSection extends HTMLElement {
         onclick: () => this.nextPage(),
       }
     });
+
   }
 
 
@@ -66,7 +64,6 @@ export class HandSection extends HTMLElement {
     else if (index < this.currentPage) return;
     this.currentPage = index;
     if (index >= this.total - 1) return this.open();
-    this.nextName = this.titles[index + 1];
   }
 
   open() {
