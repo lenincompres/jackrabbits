@@ -1,9 +1,8 @@
 import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
-import paginate from "../aux/paginate.js";
 
 const morePage = {
-  article_shuffle_menu: {
+  section_shuffle_menu_handSection: {
     section: [{
       h3: {
         a: {

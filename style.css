@@ -129,31 +129,31 @@ audio.playing {
     right: 0;
   }
 
-  article:not(.menu)>section {
+  .handSection:not(.menu)>section {
     background-color: white;
     box-shadow: 1px 1px 3px black;
     margin-left: -20.8rem !important;
   }
 
-  article:not(.menu)>section>* {
+  .handSection:not(.menu)>section>* {
     pointer-events: none;
   }
 
-  article:not(.menu)>section:hover,
-  article:not(.menu)>section.peak {
+  .handSection:not(.menu)>section:hover,
+  .handSection:not(.menu)>section.peak {
     margin-left: -10rem !important;
   }
 
-  article:not(.menu)>section.opened,
-  article:not(.menu)>section:first-child {
+  .handSection:not(.menu)>section.opened,
+  .handSection:not(.menu)>section:first-child {
     margin-left: 0 !important;
   }
 
-  article:not(.menu)>section.opened>* {
+  .handSection:not(.menu)>section.opened>* {
     pointer-events: initial;
   }
 
-  article>footer,
+  .handSection>footer,
   .nextArrow {
     display: none;
   }
@@ -162,18 +162,14 @@ audio.playing {
     display: block;
   }
 
-  article.opened>footer,
+  .handSection.opened>footer,
   .opened .nextArrow {
     display: block;
   }
 
   .optional,
-  article.shuffle>section {
+  .handSection.shuffle>section {
     background-color: white;
-  }
-
-  .letter {
-    color: #444;
   }
 
   .accent {
@@ -197,12 +193,12 @@ audio.playing {
     white-space: nowrap;
   }
 
-  article>section {
+  .handSection>section {
     width: 39rem !important;
     padding: 1rem 0.6rem !important;
   }
 
-  html[lang="es"] article>section {
+  html[lang="es"] .handSection>section {
     width: 40rem !important;
   }
 
@@ -238,8 +234,8 @@ audio.playing {
     white-space: initial;
   }
 
-  article>section,
-  html[lang="es"] article>section {
+  .handSection>section,
+  html[lang="es"] .handSection>section {
     width: 21rem !important;
   }
 
@@ -337,7 +333,7 @@ p {
   margin: 0 auto 0.7rem;
 }
 
-article p:last-child {
+.handSection p:last-child {
   margin-bottom: 0;
 }
 
@@ -507,11 +503,11 @@ main a.button.song:hover {
 
 a.button.song.playing {
   color: red;
-  border-color: #F66;
-  box-shadow: 0 0 0.5em #F66, 0 0 0.5em #F66 inset;
+  border-color: red;
+  box-shadow: 0 0 0.5em #F008, 0 0 0.5em #F008 inset;
 }
 
-article.shuffle>section a.button.song small {
+.handSection.shuffle>section a.button.song small {
   display: none !important;
 }
 
@@ -732,7 +728,7 @@ body>header h1>* {
   margin: 0 auto;
 }
 
-article>section img {
+.handSection>section img {
   margin: 0 auto 0.5rem;
   width: auto;
 }
@@ -775,7 +771,7 @@ article>section img {
   -o-border-radius: 0;
 }
 
-article>section.letter {
+.handSection>section.letter {
   max-width: fit-content;
   padding-left: 2em;
   padding-right: 2em;
@@ -878,11 +874,11 @@ article>section.letter {
   content: "▶";
 }
 
-article.shuffle {
+.handSection.shuffle {
   display: flex;
 }
 
-article.shuffle>section {
+.handSection.shuffle>section {
   box-shadow: 1px 1px 3px black;
   background-color: white;
 }
@@ -893,6 +889,7 @@ article.shuffle>section {
   text-align: left;
   font-style: italic;
   text-indent: 1.8rem;
+  color: #555;
 }
 
 .letter p:last-child {
@@ -979,12 +976,12 @@ body>main {
   padding: 0.5rem 0 1.5rem;
 }
 
-article:not(:first-child) {
+.handSection:not(:first-child) {
   padding-top: 1rem;
 }
 
 #content,
-article {
+.handSection {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -994,8 +991,7 @@ article {
 }
 
 
-article>header,
-#content .heading,
+.handSection>header,
 #content>header {
   width: 100%;
   padding: 2rem 1rem 1rem;
@@ -1003,13 +999,13 @@ article>header,
   border-top: solid 2px #0008;
 }
 
-article>footer,
+.handSection>footer,
 #content>footer {
   width: 100%;
   margin-top: 0.5rem;
 }
 
-article>header>main {
+.handSection>header>main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1017,15 +1013,15 @@ article>header>main {
   margin-bottom: 1rem;
 }
 
-article>header>main>* {
+.handSection>header>main>* {
   margin: 0 0.2rem;
 }
 
-article>section {
+.handSection>section {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start !important;
+  justify-content: flex-start;
   width: 21.5rem;
   margin: 0.5rem 0.25rem;
   padding: 2rem 0.6rem;
@@ -1036,11 +1032,11 @@ article>section {
   -o-border-radius: 0.5rem;
 }
 
-article>section>section {
+.handSection>section>section {
   margin: 0.3rem 0;
 }
 
- ul.exception {
+ul.exception {
   text-align: left;
   padding-left: 1rem;
   width: fit-content;
@@ -1054,7 +1050,7 @@ ul.exception>li::before {
 }
 
 ul.exception>li:first-child:before,
-article>section ul>li:first-child:before {
+.handSection>section ul>li:first-child:before {
   content: "○";
 }
 

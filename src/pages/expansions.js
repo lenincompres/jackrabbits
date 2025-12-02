@@ -3,10 +3,10 @@ import versify from "../aux/versify.js";
 import classicSections from "./sections/neoclassic.js";
 import frontierSections from "./sections/frontier.js";
 import nauticalSections from "./sections/nautical.js";
-import paginate from "../aux/paginate.js";
+import HandSection from "../HandSection.js";
 
 const expansionPage = {
-  article_shuffle: [{
+  section_shuffle: [new HandSection({
     header: {
       h2: Copy.text({
         en: "Frontier expansions",
@@ -32,8 +32,7 @@ const expansionPage = {
           se aceptan de lugares alejados.`,
       })),
     },
-    ondone: elt => paginate(elt),
-  }, {
+  }), new HandSection({
     header: {
       h2: Copy.text({
         en: "Nautical Expansions",
@@ -59,8 +58,7 @@ const expansionPage = {
           se aceptan de lugares alejados.`,
       })),
     },
-    ondone: elt => paginate(elt),
-  }, {
+  }), new HandSection({
     header: {
       h2: Copy.text({
         en: "Neoclassic expansions",
@@ -68,8 +66,7 @@ const expansionPage = {
       }),
     },
     section: classicSections.sort(() => Math.random() - 0.5),
-    ondone: elt => paginate(elt),
-  }],
+  })],
 };
 
 export default expansionPage;

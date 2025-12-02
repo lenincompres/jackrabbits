@@ -3,10 +3,10 @@ import versify from "../aux/versify.js";
 import transferSections from "./sections/transfers.js";
 import turnSections from "./sections/turns.js";
 import Song from "../Song.js";
-import paginate from "../aux/paginate.js";
+import HandSection from "../HandSection.js";
 
 const introPage = {
-  article: [{
+  article: new HandSection({
     header: {
       h2: versify(Copy.text({
         es: "Turno en cuatro FASES",
@@ -22,7 +22,7 @@ const introPage = {
     section: turnSections,
     footer: {
       a_button_song: Song.List[2].link,
-      article: {
+      section: new HandSection({
         header: {
           a: {
             name: "intro/tranfers",
@@ -45,11 +45,9 @@ const introPage = {
       Then the <a href="#full"><b><big>standard game</big></b></a>’s pursued.`,
           })),
         },
-        ondone: elt => paginate(elt, 1),
-      }
+      }, 1),
     },
-    ondone: elt => paginate(elt),
-  }],
+  }),
 };
 
 export default introPage;

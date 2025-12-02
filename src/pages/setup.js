@@ -1,11 +1,11 @@
 import Copy from "../../lib/Copy.js";
 import ASSETS from "../assets.js";
-import paginate from "../aux/paginate.js";
 import versify from "../aux/versify.js";
+import HandSection from "../HandSection.js";
 import Song from "../Song.js";
 
 const setupPage = {
-  article: {
+  section: new HandSection({
     section: [{
       h2: 1,
       h3: Copy.text({
@@ -140,8 +140,7 @@ const setupPage = {
       Now complete the  <a href="#intro"><b><big>intro game</big></b></a>.`,
       })),
     },
-    ondone: elt => paginate(elt),
-  },
+  }),
 };
 
 export default setupPage;

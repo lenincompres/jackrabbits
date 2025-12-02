@@ -1,6 +1,6 @@
 import Copy from "../../lib/Copy.js";
-import paginate from "../aux/paginate.js";
 import versify from "../aux/versify.js";
+import HandSection from "../HandSection.js";
 import Song from "../Song.js";
 import endingSection from "./sections/ending.js";
 import greetingsSection from "./sections/greetings.js";
@@ -8,7 +8,7 @@ import overviewSection from "./sections/overview.js";
 import splashSection from "./sections/splash.js";
 
 const homePage = {
-  article: {
+  section: new HandSection({
     section: [
       splashSection,
       greetingsSection,
@@ -27,8 +27,7 @@ const homePage = {
         Up to four contenders race.`,
       })),
     },
-    ondone: elt => paginate(elt, 1),
-  },
+  }, 1),
 };
 
 export default homePage;

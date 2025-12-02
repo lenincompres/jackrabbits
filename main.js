@@ -81,7 +81,7 @@ DOM.set({
         click: e => popUp("video"),
       },
     },
-    main: {
+    article: {
       id: "content",
       backgroundColor: Pager._key.as(key => `var(--${key})`),
       content: Pager._content,

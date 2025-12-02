@@ -2,10 +2,10 @@ import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
 import strategySections from "./sections/strategies.js";
 import optionalSections from "./sections/options.js";
-import paginate from "../aux/paginate.js";
+import HandSection from "../HandSection.js";
 
 const fullPage = {
-  article_shuffle: {
+  section_shuffle: new HandSection({
     header: {
       h2: versify(Copy.text({
         es: "Las estrategias de cada palo",
@@ -30,7 +30,7 @@ const fullPage = {
         When your turn begins off-board,
         end <b>the journey</b> underground.`
       })),
-      article: {
+      section_handSection: {
         class: "menu",
         header: {
           h3: Copy.text({
@@ -47,8 +47,7 @@ const fullPage = {
         section_optional: optionalSections,
       }
     },
-    ondone: elt => paginate(elt),
-  },
+  }),
 };
 
 export default fullPage;

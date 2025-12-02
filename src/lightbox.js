@@ -6,6 +6,7 @@ import Pager from "../lib/Pager.js";
 import homePage from "./pages/home.js";
 import boardSection from "./pages/sections/board.js";
 import Song from "./Song.js";
+import endingSection from "./pages/sections/ending.js";
 
 window.popUp = key => LightBox.open(key);
 
@@ -148,7 +149,7 @@ And they offer rides and treks.`
     img: ASSETS.sample,
   },
   endings: {
-    content: homePage.article.section[3],
+    content: endingSection,
   },
   board: boardSection,
   mailingList: {
