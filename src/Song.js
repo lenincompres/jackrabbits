@@ -114,8 +114,10 @@ class Song {
 export default Song;
 
 async function visitSong(key, suit = undefined) {
-  window.scrollTo(0, 0);
-  Pager.key = key;
+  if (Pager.key != key) {
+    window.scrollTo(0, 0);
+    Pager.key = key;
+  }
   LightBox.close();
   CardFloating._forcedSuit.value = suit;
   await setTimeout(() => {
@@ -127,9 +129,7 @@ async function visitSong(key, suit = undefined) {
   }, 300);
   await setTimeout(() => {
     const a = document.querySelector("a.button.playing");
-    if (a) a.scrollIntoView({
-      block: "nearest"
-    });
+    if (a) a.scrollIntoView(false);
   }, 300);
 }
 

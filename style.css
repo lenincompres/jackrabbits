@@ -490,6 +490,7 @@ a.button {
 
 a.button.song {
   background-color: darkred;
+  scroll-margin-bottom: 3.5rem;
 }
 
 a.button.song:hover {
