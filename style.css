@@ -197,10 +197,6 @@ audio.playing {
     white-space: nowrap;
   }
 
-  li>line>span {
-    display: block;
-  }
-
   article>section {
     width: 39rem !important;
     padding: 1rem 0.6rem !important;
@@ -349,6 +345,11 @@ line>span {
   display: inline-block;
   text-wrap: nowrap;
   margin: 0 0.25em;
+}
+
+
+li>line>span {
+  display: block;
 }
 
 
@@ -996,10 +997,10 @@ article {
 article>header,
 #content .heading,
 #content>header {
-    width: 100%;
-    padding: 2rem 1rem 1rem;
-    margin: 1rem 1rem 0;
-    border-top: solid 2px #0008;
+  width: 100%;
+  padding: 2rem 1rem 1rem;
+  margin: 1rem 1rem 0;
+  border-top: solid 2px #0008;
 }
 
 article>footer,
@@ -1039,30 +1040,30 @@ article>section>section {
   margin: 0.3rem 0;
 }
 
-article>section ul {
+ ul.exception {
   text-align: left;
   padding-left: 1rem;
   width: fit-content;
   margin: 0 auto;
 }
 
-article>section ul>li::before {
+ul.exception>li::before {
   content: "•";
   float: left;
   margin-left: -0.5em;
 }
 
+ul.exception>li:first-child:before,
 article>section ul>li:first-child:before {
   content: "○";
-  content: "";
 }
 
-article>section ul>li,
+ul.exception>li,
 .playlist ul>li {
   width: min-content;
 }
 
-article>section ul>li>line {
+ul.exception>li>line {
   width: min-content;
 }
 
