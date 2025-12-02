@@ -8,8 +8,8 @@ const fullPage = {
   section_shuffle: new HandSection({
     header: {
       h2: versify(Copy.text({
-        es: "Las estrategias de cada palo",
-        en: "Four Well-Suited Strategies",
+        es: "Estrategias de cada palo",
+        en: "4 Well-Suited Strategies",
       })),
       p: versify(Copy.text({
         es: `Añades el capítulo restante.

@@ -73,6 +73,7 @@ class Song {
       this.audio.currentTime = 0;
     }
     Song._currentSong.value = null;
+    CardFloating._forcedSuit.value = null;
   }
 
   static _currentSong = new Binder();
@@ -112,7 +113,7 @@ class Song {
 
 export default Song;
 
-async function visitSong(key, suit = null) {
+async function visitSong(key, suit = undefined) {
   window.scrollTo(0, 0);
   Pager.key = key;
   LightBox.close();

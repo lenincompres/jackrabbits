@@ -112,7 +112,7 @@ class CardFloating extends Card {
     }
 
     this.set({
-      position: "absolute",
+      position: CardFloating._forcedSuit.as(val => val ? "fixed" : "absolute"),
       boxShadow: this._t.as(t => `${getShadow()}`),
       fontSize: this._t.as(t => `${map(this.z,0,1,0.5,0.7)}em`),
       zIndex: this._t.as(t => 100 + Math.round(this.z * 30)),
@@ -124,17 +124,23 @@ class CardFloating extends Card {
       onready: elt => setTimeout(() => flick(), 1000),
     });
     setTimeout(() => flick(), 100);
+
+    CardFloating.cards.push(this);
   }
 
   random(min = 1, max = 13) {
     this.number = min + Math.round(Math.random() * (max - min));
     if (CardFloating._forcedSuit.value) {
-      return this.suit = CardFloating._forcedSuit.value
+      this.suit = CardFloating._forcedSuit.value
+    } else {
+      this.suit = Card.SUIT[Object.keys(Card.SUIT)[Math.floor((Math.random() * 4))]];
     }
-    this.suit = Card.SUIT[Object.keys(Card.SUIT)[Math.floor((Math.random() * 4))]];
+    if(CardFloating.cards.filter(c => c !== this & c.number === this.number && this.suit === c.suit).length) this.random();
   }
 
   static _forcedSuit = new Binder();
+
+  static cards = [];
 
 }
 

@@ -6,8 +6,14 @@ import Song from "../Song.js";
 
 const setupPage = {
   section: new HandSection({
+    header: {
+      h2: Copy.text({
+        es: "Prepara la Mesa en 3 pasos",
+        en: "3 Steps to set the table",
+      }),
+    },
     section: [{
-      h2: "1. </br>" + Copy.text({
+      h3: "1. </br>" + Copy.text({
         es: "Arma el tablero",
         en: "Build the Board",
       }),
@@ -48,7 +54,7 @@ const setupPage = {
           and the rules they understand.`,
         })),
     }, {
-      h2: "2. </br>" + Copy.text({
+      h3: "2. </br>" + Copy.text({
         es: "Reparte las cartas",
         en: "Deal the cards",
       }),
@@ -87,7 +93,7 @@ const setupPage = {
           per <b>the acquisition</b> phase.`,
         }))
     }, {
-      h2:"3. </br>" + Copy.text({
+      h3:"3. </br>" + Copy.text({
         es: "Sitúa las fichas",
         en: "Set the tokens",
       }),

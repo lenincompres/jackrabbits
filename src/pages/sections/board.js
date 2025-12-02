@@ -4,7 +4,7 @@ import versify from "../../aux/versify.js";
 import Song from "../../Song.js";
 
 const boardSection = {
-  h3: Copy.text({
+  h2: Copy.text({
     es: "Crear el territorio",
     en: "Build a new Board",
   }),

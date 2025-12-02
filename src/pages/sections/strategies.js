@@ -1,11 +1,13 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
-import { mixColor } from "../../aux/color.js";
+import { mixColor, suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
+import Card from "../../Card.js";
+import CardFloating from "../../CardFloating.js";
 import Song from "../../Song.js";
 
 const strategySections = [{
-  backgroundColor: mixColor("clubs"),
+  style: suitStyle(Card.SUIT.C),
   h3_clubs: Copy.text({
     es: "Tréboles <small>(Bastos)</small>",
     en: "Clovers <small>(Clubs)</small>",
@@ -53,7 +55,7 @@ const strategySections = [{
   })),
   a_button_song: Song.List[6].link,
 }, {
-  backgroundColor: mixColor("spades"),
+  style: suitStyle(Card.SUIT.S),
   h3_spades: Copy.text({
     es: "Picas <small>(Espadas)</small>",
     en: "Spades <small>(Swords)</small>",
@@ -111,7 +113,7 @@ const strategySections = [{
   })),
   a_button_song: Song.List[7].link,
 }, {
-  backgroundColor: mixColor("hearts"),
+  style: suitStyle(Card.SUIT.H),
   h3_hearts: Copy.text({
     es: "Corazones <small>(Copas)</small>",
     en: "Hearts <small>(Cups)</small>",
@@ -159,7 +161,7 @@ const strategySections = [{
   })),
   a_button_song: Song.List[5].link,
 }, {
-  backgroundColor: mixColor("diamonds"),
+  style: suitStyle(Card.SUIT.D),
   h3_diamonds: Copy.text({
     es: "Diamantes <small>(Oros)</small>",
     en: "Diamonds <small>(Gold)</small>",
