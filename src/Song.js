@@ -72,6 +72,7 @@ class Song {
       this.audio.pause();
       this.audio.currentTime = 0;
     }
+    document.querySelectorAll(".playing").forEach(h => h.classList.remove("playing"));
     Song._currentSong.value = null;
     CardFloating._forcedSuit.value = null;
   }
@@ -127,6 +128,7 @@ async function visitSong(key, suit) {
   await setTimeout(() => {
     let elt = document.querySelector("a.button.playing");
     if (elt) elt = elt.parentElement.parentElement;
+    elt.classList.add("playing");
     const sections = elt.querySelectorAll("section:not(.letter):not(.link)");
     if (sections.length) elt = sections[0];
     elt.scrollIntoView();
@@ -152,7 +154,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/f0ce09a2-2a2b-4dee-9045-80ee22f4ee62.m4a",
-  en: "https://cdn1.suno.ai/8fc02588-7800-4bfa-bffd-bf03ba6dce08.m4a",
+  en: "https://cdn1.suno.ai/ccbabe38-bc4d-4f79-a3d7-eed835bb0fd5.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
   en: "Four Phases of a Turn",

@@ -16,7 +16,8 @@
   --more: hsl(39, 40%, 87%);
   --expansion: #e8e8e8;
   --field: #228b21;
-  --ink: #222a;
+  --ink: #221b;
+  --shade: #3304;
 
   --clubs: #008480;
   --hearts: #B41722;
@@ -88,14 +89,12 @@ a.button.next {
   border: solid 0.5px darkgreen;
   color: darkgreen;
   text-shadow: none;
-  box-shadow: 0 0 2px;
 }
 
 a.button.next:hover {
   background-color: transparent;
   color: var(--field);
   border-color: var(--field);
-  box-shadow: 0 0 2px var(--field);
 }
 
 audio {
@@ -131,10 +130,44 @@ audio.playing {
     right: 0;
   }
 
-  .handSection>section {
+  .handSection>section,
+  light-box>section:has(a.song) {
     background-color: white;
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
   }
+
+  .handSection.playing>section:not(.accent):not(.link):not(.letter),
+  light-box>section.playing:has(a.song) {
+    background-color: #300c;
+    color: white;
+    box-shadow: 0 0 2rem #300 inset, 1px 1px 3px black;
+  }
+  light-box>section.playing:has(a.song) {
+    background-color: #211 !important;
+  }
+
+  .handSection.playing>section:not(.accent):not(.link):not(.letter) h2,
+  .handSection.playing>section:not(.accent):not(.link):not(.letter) h3,
+  .handSection.playing>section:not(.accent):not(.link):not(.letter) h4,
+  light-box>section.playing:has(a.song) h2,
+  light-box>section.playing a {
+    color: #fff9;
+  }
+
+
+  .handSection.playing>section h4>span {
+    text-shadow: 0 0 2px black;
+  }
+
+  .handSection.playing>section p a {
+    color: #cfc;
+  }
+
   .handSection.menu>section {
     background-color: #fff8;
   }
@@ -181,13 +214,9 @@ audio.playing {
   }
 
   .accent {
-    background-color: black !important;
+    background-color: transparent !important;
     justify-content: center !important;
-  }
-
-  .note {
     box-shadow: none !important;
-    background-color: var(--home) !important;
   }
 
 }
@@ -496,18 +525,18 @@ a.button.song:hover {
   background-color: #b00;
 }
 
-main a.button.song {
+main a.button.song,
+light-box a.button.song {
   background-color: transparent;
   border: solid 1px darkred;
   color: darkred;
-  box-shadow: 0 0 2px;
 }
 
-main a.button.song:hover {
+main a.button.song:hover,
+light-box a.button.song:hover {
   background-color: transparent;
   color: #b00;
   border-color: #b00;
-  box-shadow: 0 0 2px #b00;
 }
 
 a.button.song.playing {
@@ -738,10 +767,11 @@ body>header h1>* {
   margin: 0 auto;
 }
 
-.handSection>section{
+.handSection>section {
   scroll-margin: 4rem;
 }
-.handSection.shuffle>section{
+
+.handSection.shuffle>section {
   scroll-margin: 1rem;
 }
 
@@ -754,7 +784,7 @@ body>header h1>* {
   background-image: url(./images/bg.png);
   background-size: cover;
   background-position: center center;
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
 }
 
 #content .carded.link {
@@ -793,15 +823,17 @@ body>header h1>* {
   padding-left: 2em;
   padding-right: 2em;
   background-color: white;
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
 }
 
 .note {
   padding: 0.33rem 0;
-  border-radius: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 1px 1px 3px black;
   height: fit-content;
+  box-shadow: none !important;
+  color: var(--home);
+  text-shadow: 0 0 2px black;
+  background-color: var(--field) !important;
+  border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
@@ -897,7 +929,7 @@ body>header h1>* {
 }
 
 .handSection.shuffle>section {
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
   background-color: white;
 }
 
@@ -1137,7 +1169,6 @@ light-box>section>a {
   right: 1rem;
   padding: 0.7rem;
   margin: -1rem;
-  background-color: white;
   z-index: 110;
   border-radius: 2em;
   -webkit-border-radius: 2em;

@@ -89,8 +89,8 @@ const turnSections = [{
     ],
     en: [
       `It’s your goal to claim the card—
-      claim the royal where you stood.
-      Pay a visit and discard:
+      claim the royal you salute.
+      You must visit and discard:
       ten or more in that card's suit.
       Place a carrot as your mark,
       and remove it from pursuit.`,

@@ -227,8 +227,8 @@ const nauticalSections = [{
       where it freezes all its guests.
       Any visitor who flees
       goes off-board from its effects.
-      Only normal hexes freeze—
-      underground, this storm deflects.`,
+      Note the underground won't freeze—
+      it's not a hex where this affects.`,
     })),
   }]
 }, ];

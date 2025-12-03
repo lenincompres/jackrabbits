@@ -4,6 +4,7 @@ import versify from "../../aux/versify.js";
 import Song from "../../Song.js";
 
 const boardSection = {
+  id: "guides",
   h2: Copy.text({
     es: "Crear el territorio",
     en: "Build a new Board",
@@ -78,7 +79,7 @@ const boardSection = {
       only rabbit holes connect it.`,
   })),
   a_button_song: {
-    margin: "0.5em 0 1em",
+    marginTop: "0.5em",
     content: Song.List[8].link,
   },
 };

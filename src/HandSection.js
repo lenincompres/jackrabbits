@@ -19,10 +19,10 @@ export class HandSection extends HTMLElement {
     this.titles = [];
     this.total = this.sections.length;
 
-    function getTitle(elt, num = 4){
-      if(num <= 1) return elt.get("*");
+    function getTitle(elt, num = 1){
+      if(num > 4) return elt.get("*");
       let title = elt.get(`h${num}`);
-      if(!title) return getTitle(elt, num -= 1);
+      if(!title) return getTitle(elt, num += 1);
       if (!Array.isArray(title)) title = title.innerText;
       else title = title.map(s => s.innerText).join(" & ");
       return title;
@@ -31,7 +31,6 @@ export class HandSection extends HTMLElement {
     this.sections.forEach((section, index) => {
       section.set({
         zIndex: this.total - index,
-        transition: "0.2s ease-in-out",
         class: {
           opened: this._currentPage.as(v => v >= index),
             peak: this._peakPage.as(v => v === index),
