@@ -8,10 +8,6 @@ const boardSection = {
     es: "Crear el territorio",
     en: "Build a new Board",
   }),
-  a_button_song: {
-    margin: "0.5em 0 1em",
-    content: Song.List[8].link,
-  },
   p: versify(Copy.text({
     es: [
       `Colocas a la ficha <i>Ciudadela</i>,
@@ -81,6 +77,10 @@ const boardSection = {
       But the underground is odd—
       only rabbit holes connect it.`,
   })),
+  a_button_song: {
+    margin: "0.5em 0 1em",
+    content: Song.List[8].link,
+  },
 };
 
 export default boardSection;

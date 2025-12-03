@@ -146,7 +146,7 @@ class Card extends HTMLElement {
       alt: "clovers",
       cast: "sage",
       trait: "wisdom",
-      color: "teal",
+      color: "#008480",
       image: "assets/suit-clovers.png",
     },
     S: {

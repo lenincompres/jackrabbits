@@ -114,10 +114,7 @@ class Song {
 export default Song;
 
 async function visitSong(key, suit = undefined) {
-  if (Pager.key != key) {
-    window.scrollTo(0, 0);
-    Pager.key = key;
-  }
+  if (Pager.key != key) Pager.key = key;
   LightBox.close();
   CardFloating._forcedSuit.value = suit;
   CardFloating._forcedRoyal.value = key === "home";
