@@ -16,9 +16,9 @@
   --more: hsl(48, 45%, 87%);
   --expansion: hsl(39, 40%, 87%);
   --field: #228B22;
-  --ink: hsl(48, 34%, 24%);
-  --highlight: hsl(48, 40%, 40%);
-  --shade: hsla(48, 40%, 50%, 0.5);
+  --ink: hsl(48, 40%, 20%);
+  --highlight: hsl(48, 45%, 40%);
+  --shade: hsla(48, 45%, 45%, 0.6);
 
   --clubs: #008480;
   --hearts: #a52a2a;
