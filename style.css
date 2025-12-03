@@ -15,10 +15,10 @@
   --full: hsl(300, 42%, 93%);
   --more: hsl(48, 45%, 87%);
   --expansion: hsl(39, 40%, 87%);
-  --field: #238b22;
-  --ink: hsl(48, 20%, 23%);
+  --field: #228B22;
+  --ink: hsl(48, 34%, 24%);
   --highlight: hsl(48, 40%, 40%);
-  --shade: hsla(48, 45%, 43%, 0.5);
+  --shade: hsla(48, 40%, 50%, 0.5);
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -32,7 +32,7 @@
   --shells: #c74375;
   --icicles: #3aa8c1;
   --bells: #b5a642;
-  --land: #008200;
+  --land: #228B22;
   --sea: #016994;
   --fleurs: #9B4977;
 }
