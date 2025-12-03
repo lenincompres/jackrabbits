@@ -133,7 +133,7 @@ audio.playing {
   .handSection>section,
   light-box>section:has(a.song) {
     background-color: white;
-    box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
+    box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px var(--ink);
     transition: 0.2s ease-in-out;
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
