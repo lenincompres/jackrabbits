@@ -131,7 +131,7 @@ audio.playing {
   }
 
   .handSection>section,
-  light-box>section:has(a.song) {
+  light-box>section:has(a.song.playing) {
     background-color: white;
     box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px var(--ink);
     transition: 0.2s ease-in-out;
@@ -142,19 +142,20 @@ audio.playing {
   }
 
   .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter),
-  light-box>section:has(a.playing):has(a.song) {
+  light-box>section:has(a.song.playing) {
     background-color: var(--ink);
     color: white;
   }
-  light-box>section:has(a.playing) {
-    background-color: hsl(43, 100%, 2%) !important;
+  
+  light-box>section:has(a.song.playing) {
+    background-color: var(--ink) !important;
   }
 
   .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h2,
   .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h3,
   .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h4,
-  light-box>section:has(a.playing) h2,
-  light-box>section:has(a.playing) a {
+  light-box>section:has(a.song.playing) h2,
+  light-box>section:has(a.song.playing) a {
     color: var(--highlight);
   }
 
