@@ -12,7 +12,7 @@
   --home: hsl(60, 100%, 93%);
   --setup: hsl(198, 99%, 93%);
   --intro: hsl(119, 61%, 93%);
-  --full: hsl(300, 42%, 93%);
+  --full: hsl(319, 26%, 93%);
   --more: hsl(40, 35%, 80%);
   --expansion: hsl(40, 35%, 80%);
   --field: #228B22;
@@ -34,7 +34,7 @@
   --bells: #b5a642;
   --land: #228B22;
   --sea: #016994;
-  --fleurs: #9B4977;
+  --fleurs: #b784a7; /* opera mauve, rose gold */
 }
 
 #pre-show {
@@ -146,7 +146,7 @@ audio.playing {
     background-color: var(--ink);
     color: white;
   }
-  
+
   light-box>section:has(a.song.playing) {
     background-color: var(--ink) !important;
   }
@@ -160,8 +160,8 @@ audio.playing {
   }
 
   .handSection:has(a.playing)>section:has(a.song:not(.playing)) h2,
-  .handSection:has(a.playing)>section:has(a.song:not(.playing))  h3,
-  .handSection:has(a.playing)>section:has(a.song:not(.playing))  h4 {
+  .handSection:has(a.playing)>section:has(a.song:not(.playing)) h3,
+  .handSection:has(a.playing)>section:has(a.song:not(.playing)) h4 {
     color: var(--ink) !important;
   }
 
@@ -214,6 +214,18 @@ audio.playing {
     display: block;
   }
 
+  section:has(section.note.footnote) {
+    height: calc(100% - 2rem);
+  }
+
+  .note.footnote {
+    top: 1rem;
+    position: relative;
+    height: 100%;
+    padding-bottom: 1.6rem;
+    margin-top: -1rem !important;
+  }
+
   .optional,
   .handSection.shuffle>section {
     background-color: white;
@@ -227,7 +239,7 @@ audio.playing {
 
 }
 
-@media (width <= 88rem) {
+@media (width <=88rem) {
   body {
     max-width: 45rem;
   }
@@ -553,7 +565,7 @@ light-box a.button.song:hover {
 a.button.song.playing {
   border-color: var(--highlight);
   color: var(--highlight);
-  box-shadow: 0 0 0.5em  var(--highlight), 0 0 0.5em  var(--highlight) inset;
+  box-shadow: 0 0 0.5em var(--highlight), 0 0 0.5em var(--highlight) inset;
 }
 
 .handSection.shuffle>section a.button.song small {
@@ -844,6 +856,16 @@ body>header h1>* {
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
+}
+
+.note.footnote {
+  margin: 0 -0.6rem -1rem;
+  width: calc(100% + 1.2rem);
+  border-radius: 0 0 0.5rem 0.5rem;
+  -webkit-border-radius: 0 0 0.5rem 0.5rem;
+  -moz-border-radius: 0 0 0.5rem 0.5rem;
+  -ms-border-radius: 0 0 0.5rem 0.5rem;
+  -o-border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .playlist header {

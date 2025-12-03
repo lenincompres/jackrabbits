@@ -48,7 +48,7 @@ const neoclassicSections = [{
       ],
     })),
   }, {
-    class: "note",
+    class: "note footnote",
     h4: Copy.text({
       es: "+ Hongo de la Pila",
       en: "+ Pile's Mushroom",
@@ -118,7 +118,7 @@ const neoclassicSections = [{
       ],
     })),
   }, {
-    class: "note",
+    class: "note footnote",
     background: "var(--sea) !important",
     h4: Copy.text({
       es: "+ Comodín cañonero",
@@ -173,8 +173,8 @@ const neoclassicSections = [{
       don't claim royals with these flowers.`,
         `Any trailway crossing found
       must be paid before you pass it.
-      Wells take rabbits underground—
-      but to them's a one way access.
+      Wells may take you underground—
+      note this is a one way access.
       Pay with fleurs when you're around,
       and the wolf goes where you cast it.`
       ]
@@ -193,7 +193,7 @@ const neoclassicSections = [{
       mas nunca navegando por los mares.`,
       en: `At its post or from a den,
       send the wolf to any rabbit.
-      Spook—off-board—those there and then,
+      Spook (off-board) those there and then,
       take a card from each and scrap it.
       Move the wolf by ground when sent—
       crossing underground's its habit.`,
