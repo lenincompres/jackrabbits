@@ -120,6 +120,7 @@ async function visitSong(key, suit = undefined) {
   }
   LightBox.close();
   CardFloating._forcedSuit.value = suit;
+  CardFloating._forcedRoyal.value = key === "home";
   await setTimeout(() => {
     let hands = document.body.get("hand-section");
     if (hands) {
@@ -129,7 +130,7 @@ async function visitSong(key, suit = undefined) {
   }, 300);
   await setTimeout(() => {
     const a = document.querySelector("a.button.playing");
-    if (a) a.scrollIntoView(false);
+    if (a) a.parentElement.parentElement.scrollIntoView();
   }, 300);
 }
 
@@ -164,7 +165,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Los traslados y el destierro",
   en: "Off the Roads and Off-Board",
-}), () => visitSong("intro", "transfers"));
+}), () => visitSong("intro"));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5404975e-f15a-4010-a48d-983117382af4.m4a",

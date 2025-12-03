@@ -14,3 +14,5 @@ export const suitStyle = (suit) => ({
   color: CardFloating._forcedSuit.as(val => txColor(val, suit)),
   boxShadow: CardFloating._forcedSuit.as(val => val === suit ? `0 0 3rem var(--${suit.symbol}) inset, 1px 1px 3px black` : ""),
 });
+
+export const suitColor = (key, suit, match) => (match && match != key) ? `transparent` : suit && key === "full" ? mixColor(suit.symbol, 30) : `var(--${key})`;

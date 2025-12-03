@@ -7,6 +7,13 @@ const PI2 = Math.PI / 2;
 const PI4 = Math.PI / 4;
 const map = (value, start1, stop1, start2, stop2) => ((value - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
 
+
+
+const pixelArea = (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
+const cardArea = 260 * 260;
+const base = Math.floor(pixelArea / cardArea);
+const screenScale = Math.max(1, Math.min(base / 3.5, 1.5));
+
 class CardFloating extends Card {
   constructor({
     number = Card.MIN,
@@ -57,7 +64,14 @@ class CardFloating extends Card {
         this.rx = this.ry = PI;
         this.z = 1;
       } else {
-        [sx, sy] = [sx, sy].map(s => 2 * (s + 1.05));
+        let sd = 1.05;
+        if (
+          (CardFloating._forcedSuit.value && CardFloating._forcedSuit.value !== this.suit) ||
+          (CardFloating._forcedRoyal.value && this.number < 10)
+        ) {
+          sd = 2;
+        }
+        [sx, sy] = [sx, sy].map(s => 2 * (s + sd));
         this.rx += vrx * drag * sx;
         this.ry += vry * drag * sy;
         this.z += vz * this.acc * drag;
@@ -112,9 +126,9 @@ class CardFloating extends Card {
     }
 
     this.set({
-      position: CardFloating._forcedSuit.as(val => val ? "fixed" : "absolute"),
+      position: CardFloating._forcedSuit.with(CardFloating._forcedRoyal).as((suit, royal) => suit || royal ? "fixed" : "absolute"),
       boxShadow: this._t.as(t => `${getShadow()}`),
-      fontSize: this._t.as(t => `${map(this.z,0,1,0.5,0.7)}em`),
+      fontSize: this._t.as(t => `${map(this.z, 0, 1, 0.5, 0.7) * screenScale}em`),
       zIndex: this._t.as(t => 100 + Math.round(this.z * 30)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
@@ -129,18 +143,23 @@ class CardFloating extends Card {
   }
 
   random(min = 1, max = 13) {
+    if (CardFloating._forcedRoyal.value) min = 11;
     this.number = min + Math.round(Math.random() * (max - min));
     if (CardFloating._forcedSuit.value) {
       this.suit = CardFloating._forcedSuit.value
     } else {
       this.suit = Card.SUIT[Object.keys(Card.SUIT)[Math.floor((Math.random() * 4))]];
     }
-    if(CardFloating.cards.filter(c => c !== this & c.number === this.number && this.suit === c.suit).length) this.random();
+    if (CardFloating.cards.filter(c => c !== this & c.number === this.number && this.suit === c.suit).length) this.random();
   }
 
   static _forcedSuit = new Binder();
 
+  static _forcedRoyal = new Binder();
+
   static cards = [];
+
+  static CardNum = Math.min(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 2 : 3, base);
 
 }
 

@@ -490,7 +490,6 @@ a.button {
 
 a.button.song {
   background-color: darkred;
-  scroll-margin-bottom: 3.5rem;
 }
 
 a.button.song:hover {
@@ -737,6 +736,10 @@ body>header h1>* {
   font-family: 'Courier New', Courier, monospace;
   max-width: 100%;
   margin: 0 auto;
+}
+
+.handSection>section{
+  scroll-margin: 1rem;
 }
 
 .handSection>section img {

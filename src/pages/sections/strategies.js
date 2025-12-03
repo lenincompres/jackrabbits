@@ -53,7 +53,9 @@ const strategySections = [{
       where the clubs fulfill the price.`,
     ]
   })),
-  a_button_song: Song.List[6].link,
+  footer: {
+    a_button_song: Song.List[6].link,
+  }
 }, {
   style: suitStyle(Card.SUIT.S),
   h3_spades: Copy.text({
@@ -111,7 +113,9 @@ const strategySections = [{
       */
     ]
   })),
-  a_button_song: Song.List[7].link,
+  footer: {
+    a_button_song: Song.List[7].link,
+  }
 }, {
   style: suitStyle(Card.SUIT.H),
   h3_hearts: Copy.text({
@@ -159,7 +163,9 @@ const strategySections = [{
       off the board the meddler's thrown.`,
     ]
   })),
-  a_button_song: Song.List[5].link,
+  footer: {
+    a_button_song: Song.List[5].link,
+  }
 }, {
   style: suitStyle(Card.SUIT.D),
   h3_diamonds: Copy.text({
@@ -210,7 +216,9 @@ const strategySections = [{
     If what's traded proves a farce,
     swindlers get the off-board boot.`,
   })),
-  a_button_song: Song.List[4].link,
+  footer: {
+    a_button_song: Song.List[4].link,
+  }
 }];
 
 export default strategySections;

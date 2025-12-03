@@ -11,7 +11,7 @@ import setupPage from "./src/pages/setup.js";
 import homePage from "./src/pages/home.js";
 import "./src/lightbox.js";
 import expansionPage from "./src/pages/expansions.js";
-import { mixColor } from "./src/aux/color.js";
+import { mixColor, suitColor } from "./src/aux/color.js";
 
 Pager.add({
   home: homePage,
@@ -21,10 +21,6 @@ Pager.add({
   more: morePage,
   expansion: expansionPage,
 });
-
-const CardNum = Math.min(3, Math.floor(Math.sqrt(window.innerWidth * window.innerHeight / window.devicePixelRatio) / 250));
-
-const suitColor = (key, suit, match) => (match && match != key) ? `transparent` : suit && key === "full" ? mixColor(suit.symbol, 30) : `var(--${key})`;
 
 DOM.set({
   link: "style.css",
@@ -128,7 +124,7 @@ DOM.set({
     },
     onready: () => popUp('mailingList'),
   },
-  div: Array(CardNum).fill().map(() => new CardFloating({
+  div: Array(CardFloating.CardNum).fill().map(() => new CardFloating({
     root: 'suityourself/',
   })),
 });
