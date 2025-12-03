@@ -739,7 +739,10 @@ body>header h1>* {
 }
 
 .handSection>section{
-  scroll-margin: 3rem;
+  scroll-margin: 4rem;
+}
+.handSection.shuffle>section{
+  scroll-margin: 1rem;
 }
 
 .handSection>section img {
