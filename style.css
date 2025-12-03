@@ -16,9 +16,9 @@
   --more: hsl(48, 45%, 87%);
   --expansion: hsl(39, 40%, 87%);
   --field: #238b22;
-  --ink: hsl(48, 25%, 30%);
-  --highlight: hsla(48, 50%, 40%, 0.75);
-  --shade: hsla(48, 100%, 10%, 0.6);
+  --ink: hsl(48, 20%, 23%);
+  --highlight: hsl(48, 40%, 40%);
+  --shade: hsla(48, 45%, 45%, 0.5);
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -145,7 +145,6 @@ audio.playing {
   light-box>section:has(a.playing):has(a.song) {
     background-color: var(--ink);
     color: white;
-    box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
   }
   light-box>section:has(a.playing) {
     background-color: hsl(43, 100%, 2%) !important;
@@ -154,9 +153,15 @@ audio.playing {
   .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h2,
   .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h3,
   .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h4,
-  light-box>section:has(a.playing)) h2,
+  light-box>section:has(a.playing) h2,
   light-box>section:has(a.playing) a {
-    color: #fff9;
+    color: var(--highlight);
+  }
+
+  .handSection:has(a.playing)>section:has(a.song:not(.playing)) h2,
+  .handSection:has(a.playing)>section:has(a.song:not(.playing))  h3,
+  .handSection:has(a.playing)>section:has(a.song:not(.playing))  h4 {
+    color: var(--ink) !important;
   }
 
 
