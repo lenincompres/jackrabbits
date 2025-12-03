@@ -19,6 +19,15 @@ export class HandSection extends HTMLElement {
     this.titles = [];
     this.total = this.sections.length;
 
+    function getTitle(elt, num = 4){
+      if(num <= 1) return elt.get("*");
+      let title = elt.get(`h${num}`);
+      if(!title) return getTitle(elt, num -= 1);
+      if (!Array.isArray(title)) title = title.innerText;
+      else title = title.map(s => s.innerText).join(" & ");
+      return title;
+    }
+
     this.sections.forEach((section, index) => {
       section.set({
         zIndex: this.total - index,
@@ -29,15 +38,7 @@ export class HandSection extends HTMLElement {
         },
         onclick: this._currentPage.as(v => v < index ? () => this.nextPage(index) : null),
       });
-      let title = section.get("h4");
-      if (!title) title = section.get("h3");
-      if (!title) title = section.get("h2");
-      if (!title) title = section.get("*");
-      if (title) {
-        if (Array.isArray(title)) title = title.map(s => s.innerText).join(" & ");
-        else title = title.innerText;
-        this.titles.push(title);
-      }
+      this.titles.push(getTitle(section));
     });
 
     this.set({

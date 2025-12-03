@@ -104,30 +104,32 @@ class Song {
 
   static playNext() {
     const i = Song.List.indexOf(Song.currentSong) + 1;
-    if (Song.List[i]) Song.List[i].start(Song.autoplay);
-    else if (Song.repeat) Song.List[0].start(Song.autoplay);
-    else Song.currentSong.end();
+    if (Song.List[i]) return Song.List[i].start(Song.autoplay);
+    if (Song.repeat) return Song.List[0].start(Song.autoplay);
+    Song.currentSong.end();
   }
 
 }
 
 export default Song;
 
-async function visitSong(key, suit = undefined) {
+async function visitSong(key, suit) {
   if (Pager.key != key) Pager.key = key;
   LightBox.close();
+  if (typeof suit === "boolean") {
+    CardFloating._forcedRoyal.value = suit;
+    suit = undefined;
+  } else {
+    CardFloating._forcedRoyal.value = undefined;
+  }
   CardFloating._forcedSuit.value = suit;
-  CardFloating._forcedRoyal.value = key === "home";
+  await setTimeout(() => document.querySelectorAll("hand-section").forEach(h => h.nextPage(h.total)), 300);
   await setTimeout(() => {
-    let hands = document.body.get("hand-section");
-    if (hands) {
-      if (!Array.isArray(hands)) hands = [hands];
-      hands.forEach(h => h.nextPage(h.total));
-    }
-  }, 300);
-  await setTimeout(() => {
-    const a = document.querySelector("a.button.playing");
-    if (a) a.parentElement.parentElement.scrollIntoView();
+    let elt = document.querySelector("a.button.playing");
+    if (elt) elt = elt.parentElement.parentElement;
+    const sections = elt.querySelectorAll("section:not(.letter):not(.link)");
+    if (sections.length) elt = sections[0];
+    elt.scrollIntoView();
   }, 300);
 }
 
