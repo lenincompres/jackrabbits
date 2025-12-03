@@ -1,13 +1,12 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
+import { suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
-
-const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
-const cMix = v => `color-mix(in srgb, var(--expansion) 90%, var(--${v}))`;
+import CardExpanded from "../../CardExpanded.js";
 
 const nauticalSections = [{
-  backgroundColor: cMix("shells"),
-  boxShadow: "1px 1px 3px black",
+  style: suitStyle(CardExpanded.SUIT.NS),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NS.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_shells: Copy.text({
       es: "Conchas",
@@ -61,8 +60,8 @@ const nauticalSections = [{
     })),
   }]
 }, {
-  backgroundColor: cMix("anchors"),
-  boxShadow: "1px 1px 3px black",
+  style: suitStyle(CardExpanded.SUIT.NA),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NA.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_anchors: Copy.text({
       es: "Anclas",
@@ -116,8 +115,8 @@ const nauticalSections = [{
     })),
   }]
 }, {
-  backgroundColor: cMix("bells"),
-  boxShadow: "1px 1px 3px black",
+  style: suitStyle(CardExpanded.SUIT.NB),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NB.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_bells: Copy.text({
       es: "Campanas",
@@ -175,8 +174,8 @@ const nauticalSections = [{
     })),
   }]
 }, {
-  backgroundColor: cMix("icicles"),
-  boxShadow: "1px 1px 3px black",
+  style: suitStyle(CardExpanded.SUIT.NI),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NI.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_icicles: Copy.text({
       es: "Témpanos",

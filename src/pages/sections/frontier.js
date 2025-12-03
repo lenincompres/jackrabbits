@@ -1,13 +1,12 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
+import { suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
-
-const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
-const cMix = v => `color-mix(in srgb, var(--expansion) 90%, var(--${v}))`;
-
+import CardExpanded from "../../CardExpanded.js";
 
 const frontierSections = [{
-  backgroundColor: cMix("torches"),
+  style: suitStyle(CardExpanded.SUIT.FT),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FT.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_torches: Copy.text({
       es: "Antorchas",
@@ -61,7 +60,8 @@ const frontierSections = [{
     })),
   }],
 }, {
-  backgroundColor: cMix("shields"),
+  style: suitStyle(CardExpanded.SUIT.FS),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FS.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_shields: Copy.text({
       es: "Escudos",
@@ -115,7 +115,8 @@ const frontierSections = [{
     })),
   }]
 }, {
-  backgroundColor: cMix("horseshoes"),
+  style: suitStyle(CardExpanded.SUIT.FH),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FH.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_horseshoes: Copy.text({
       es: "Herraduras",
@@ -169,7 +170,8 @@ const frontierSections = [{
     })),
   }]
 }, {
-  backgroundColor: cMix("acorns"),
+  style: suitStyle(CardExpanded.SUIT.FA),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FA.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_acorns: Copy.text({
       es: "Bellotas",

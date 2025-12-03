@@ -14,8 +14,8 @@
   --intro: #daf3ea;
   --full: #f6e9f6;
   --more: hsl(39, 40%, 87%);
-  --expansion: #e8e8e8;
-  --field: #228b21;
+  --expansion: hsl(39, 40%, 87%);
+  --field: #238b22;
   --ink: #221b;
   --shade: #3304;
 
@@ -23,16 +23,16 @@
   --hearts: #B41722;
   --spades: darkslateblue;
   --diamonds: darkgoldenrod;
-  --acorns: #6E6E23;
-  --horseshoes: #89420A;
-  --shields: #356C99;
-  --torches: #C73500;
-  --anchors: #7A1E74;
-  --shells: #D83476;
-  --icicles: #00ABC4;
-  --bells: #B8A527;
+  --acorns: #6e6e30;
+  --horseshoes: #89420a;
+  --shields: #436b95;
+  --torches: #b7410d;
+  --anchors: #702670;
+  --shells: #c74375;
+  --icicles: #3aa8c1;
+  --bells: #b5a642;
   --land: #008200;
-  --sea: #006B98;
+  --sea: #016994;
   --fleurs: #9B4977;
 }
 

@@ -1,13 +1,12 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
+import { suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
-
-const mixColor = (v, p = 50, b = "white") => `color-mix(in srgb, ${v} ${p}%, ${b})`;
-const cMix = v => `color-mix(in srgb, var(--expansion) 90%, var(--${v}))`;
+import CardExpanded from "../../CardExpanded.js";
 
 const neoclassicSections = [{
-  backgroundColor: cMix("land"),
-  boxShadow: "1px 1px 3px black",
+  style: suitStyle(CardExpanded.SUIT.T),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.T.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_land: Copy.text({
       es: "+ Trenes y Corceles",
@@ -70,8 +69,8 @@ const neoclassicSections = [{
     })),
   }],
 }, {
-  backgroundColor: cMix("sea"),
-  boxShadow: "1px 1px 3px black",
+  style: suitStyle(CardExpanded.SUIT.A),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.A.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_sea: Copy.text({
       es: "+ Alianzas Nobles",
@@ -120,6 +119,7 @@ const neoclassicSections = [{
     })),
   }, {
     class: "note",
+    background: "var(--sea) !important",
     h4: Copy.text({
       es: "+ Comodín cañonero",
       en: "+ Cannonball Joker",
@@ -136,8 +136,8 @@ const neoclassicSections = [{
     })),
   }],
 }, {
-  backgroundColor: cMix("fleurs"),
-  boxShadow: "1px 1px 3px black",
+  style: suitStyle(CardExpanded.SUIT.F),
+  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.F.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_fleurs: Copy.text({
       es: "+ Flores",
