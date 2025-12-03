@@ -9,16 +9,16 @@
 }
 
 :root {
-  --home: hsl(58, 90%, 93%);
+  --home: hsl(60, 100%, 93%);
   --setup: hsl(198, 99%, 93%);
   --intro: hsl(119, 61%, 93%);
   --full: hsl(300, 42%, 93%);
-  --more: hsl(48, 45%, 87%);
-  --expansion: hsl(39, 40%, 87%);
+  --more: hsl(40, 35%, 80%);
+  --expansion: hsl(40, 35%, 80%);
   --field: #228B22;
-  --ink: hsl(48, 40%, 20%);
-  --highlight: hsl(48, 45%, 40%);
-  --shade: hsla(48, 45%, 45%, 0.6);
+  --ink: hsl(60, 40%, 18%);
+  --highlight: hsl(60, 45%, 40%);
+  --shade: hsla(60, 40%, 60%, 0.5);
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -523,6 +523,11 @@ a.button {
   -o-border-radius: 0.4em;
 }
 
+
+a.button:hover {
+  background-color: hsl(198, 99%, 40%);
+}
+
 a.button.song {
   background-color: var(--ink);
 }
@@ -553,11 +558,6 @@ a.button.song.playing {
 
 .handSection.shuffle>section a.button.song small {
   display: none !important;
-}
-
-
-a.button:hover {
-  background-color: #08c;
 }
 
 a.video {
@@ -793,7 +793,7 @@ body>header h1>* {
 }
 
 #content .carded.link {
-  border: solid 0.33rem darkgreen;
+  overflow: hidden;
   justify-content: center !important;
 }
 
@@ -810,6 +810,7 @@ body>header h1>* {
 }
 
 .carded.link a.button {
+  overflow: hidden;
   font-size: 1.3em;
   position: absolute;
   top: 0;
