@@ -9,18 +9,19 @@
 }
 
 :root {
-  --home: #FDFCDE;
-  --setup: #d9eafb;
-  --intro: #daf3ea;
-  --full: #f6e9f6;
+  --home: hsl(58, 89%, 93%);
+  --setup: hsl(198, 99%, 93%);
+  --intro: hsl(119, 61%, 93%);
+  --full: hsl(300, 42%, 93%);
   --more: hsl(39, 40%, 87%);
   --expansion: hsl(39, 40%, 87%);
   --field: #238b22;
-  --ink: #221b;
+  --ink: #382800bb;
+  --highlight: #873b;
   --shade: #3304;
 
   --clubs: #008480;
-  --hearts: #B41722;
+  --hearts: #a52a2a;
   --spades: darkslateblue;
   --diamonds: darkgoldenrod;
   --acorns: #6e6e30;
@@ -104,7 +105,6 @@ audio {
   width: 100%;
   height: 2.5rem;
   z-index: 10000;
-  accent-color: red;
   /*fallbackforbrowsersthatsupportaccent-color*/
   filter: invert(100%) hue-rotate(180deg);
   /*makeseverythingdark*/
@@ -143,12 +143,12 @@ audio.playing {
 
   .handSection.playing>section:not(.accent):not(.link):not(.letter),
   light-box>section.playing:has(a.song) {
-    background-color: #300c;
+    background-color: var(--ink);
     color: white;
-    box-shadow: 0 0 2rem #300 inset, 1px 1px 3px black;
+    box-shadow: 0 0 2rem var(--ink) inset, 1px 1px 3px black;
   }
   light-box>section.playing:has(a.song) {
-    background-color: #211 !important;
+    background-color: hsl(43, 100%, 2%) !important;
   }
 
   .handSection.playing>section:not(.accent):not(.link):not(.letter) h2,
@@ -507,7 +507,7 @@ a.button {
   width: fit-content;
   white-space: nowrap;
   color: var(--home);
-  background-color: darkblue;
+  background-color: var(--sea);
   padding: 0 1em;
   line-height: 2.5em;
   border-radius: 0.4em;
@@ -518,32 +518,31 @@ a.button {
 }
 
 a.button.song {
-  background-color: darkred;
+  background-color: var(--ink);
 }
 
 a.button.song:hover {
-  background-color: #b00;
+  background-color: var(--highlight);
 }
 
 main a.button.song,
 light-box a.button.song {
   background-color: transparent;
-  border: solid 1px darkred;
-  color: darkred;
+  border: solid 1px var(--ink);
+  color: var(--ink);
 }
 
 main a.button.song:hover,
 light-box a.button.song:hover {
   background-color: transparent;
-  color: #b00;
-  border-color: #b00;
+  color: var(--highlight);
+  border-color: var(--highlight);
 }
 
 a.button.song.playing {
-  color: red;
-  border-color: red;
-  box-shadow: 0 0 0.5em #F008, 0 0 0.5em #F008 inset;
-  text-shadow: 0 0 0.5em #F008;
+  border-color: var(--highlight);
+  color: var(--highlight);
+  box-shadow: 0 0 0.5em  var(--highlight), 0 0 0.5em  var(--highlight) inset;
 }
 
 .handSection.shuffle>section a.button.song small {
@@ -552,7 +551,7 @@ a.button.song.playing {
 
 
 a.button:hover {
-  background-color: blue;
+  background-color: #08c;
 }
 
 a.video {
@@ -855,7 +854,7 @@ body>header h1>* {
 
 .playlist section {
   position: relative;
-  background: darkred;
+  background: var(--ink);
   padding: 0.5rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -905,11 +904,11 @@ body>header h1>* {
 }
 
 .playlist a.playing {
-  background-color: red;
+  background-color: var(--ink);
 }
 
 .playlist a:hover {
-  background-color: #b00;
+  background-color: var(--highlight);
 }
 
 .playlist a::before {
