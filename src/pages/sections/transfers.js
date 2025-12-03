@@ -94,8 +94,8 @@ const transferSections = [{
   img: ASSETS.rhombi,
 }, {
   h4: Copy.text({
-    es: classifyChars("Mercaderes", "spades", " diamonds"),
-    en: classifyChars("Merchants", "spades", " diamonds"),
+    es: classifyChars("Mercaderes", " diamonds", "spades"),
+    en: classifyChars("Merchants", " diamonds", "spades"),
   }),
   p: versify(Copy.text({
     es: `Los cruces te permiten transportarte
@@ -121,8 +121,8 @@ const transferSections = [{
   }), {
     tag: "h4",
     html: Copy.text({
-      es: classifyChars("Comodines", "hearts", " diamonds"),
-      en: classifyChars("Jokers", "hearts", " diamonds"),
+      es: classifyChars("Comodines", " diamonds", "hearts"),
+      en: classifyChars("Jokers", " diamonds", "hearts"),
     }),
   }, Copy.text({
     es: `Un jóker se te otorga de pasaje,
@@ -137,8 +137,8 @@ const transferSections = [{
   img: ASSETS.rides,
 }, {
   h4: Copy.text({
-    es: classifyChars("Madrigueras", "clubs", " diamonds"),
-    en: classifyChars("Rabbit holes", "clubs", " diamonds"),
+    es: classifyChars("Madrigueras", " diamonds", "clubs"),
+    en: classifyChars("Rabbit holes", " diamonds", "clubs"),
   }),
   p: versify(Copy.text({
     es: `Si pagas en la entrada de las cuevas,

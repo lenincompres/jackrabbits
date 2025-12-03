@@ -72,7 +72,6 @@ class Song {
       this.audio.pause();
       this.audio.currentTime = 0;
     }
-    document.querySelectorAll(".playing").forEach(h => h.classList.remove("playing"));
     Song._currentSong.value = null;
     CardFloating._forcedSuit.value = null;
   }
@@ -124,11 +123,12 @@ async function visitSong(key, suit) {
     CardFloating._forcedRoyal.value = undefined;
   }
   CardFloating._forcedSuit.value = suit;
-  await setTimeout(() => document.querySelectorAll("hand-section").forEach(h => h.nextPage(h.total)), 300);
+  await setTimeout(() => {
+    document.querySelectorAll("hand-section").forEach(h => h.nextPage(h.total));
+  }, 300);
   await setTimeout(() => {
     let elt = document.querySelector("a.button.playing");
     if (elt) elt = elt.parentElement.parentElement;
-    elt.classList.add("playing");
     const sections = elt.querySelectorAll("section:not(.letter):not(.link)");
     if (sections.length) elt = sections[0];
     elt.scrollIntoView();

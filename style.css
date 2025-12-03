@@ -9,16 +9,16 @@
 }
 
 :root {
-  --home: hsl(58, 89%, 93%);
+  --home: hsl(58, 90%, 93%);
   --setup: hsl(198, 99%, 93%);
   --intro: hsl(119, 61%, 93%);
   --full: hsl(300, 42%, 93%);
-  --more: hsl(39, 40%, 87%);
+  --more: hsl(48, 45%, 87%);
   --expansion: hsl(39, 40%, 87%);
   --field: #238b22;
-  --ink: #382800bb;
-  --highlight: #873b;
-  --shade: #3304;
+  --ink: hsl(48, 25%, 30%);
+  --highlight: hsla(48, 50%, 40%, 0.75);
+  --shade: hsla(48, 100%, 10%, 0.6);
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -141,31 +141,31 @@ audio.playing {
     -o-transition: 0.2s ease-in-out;
   }
 
-  .handSection.playing>section:not(.accent):not(.link):not(.letter),
-  light-box>section.playing:has(a.song) {
+  .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter),
+  light-box>section:has(a.playing):has(a.song) {
     background-color: var(--ink);
     color: white;
-    box-shadow: 0 0 2rem var(--ink) inset, 1px 1px 3px black;
+    box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
   }
-  light-box>section.playing:has(a.song) {
+  light-box>section:has(a.playing) {
     background-color: hsl(43, 100%, 2%) !important;
   }
 
-  .handSection.playing>section:not(.accent):not(.link):not(.letter) h2,
-  .handSection.playing>section:not(.accent):not(.link):not(.letter) h3,
-  .handSection.playing>section:not(.accent):not(.link):not(.letter) h4,
-  light-box>section.playing:has(a.song) h2,
-  light-box>section.playing a {
+  .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h2,
+  .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h3,
+  .handSection:has(a.playing)>section:not(.accent):not(.link):not(.letter) h4,
+  light-box>section:has(a.playing)) h2,
+  light-box>section:has(a.playing) a {
     color: #fff9;
   }
 
 
-  .handSection.playing>section h4>span {
+  .handSection:has(a.playing)>section h4>span {
     text-shadow: 0 0 2px black;
   }
 
-  .handSection.playing>section p a {
-    color: #cfc;
+  .handSection:has(a.playing)>section p a {
+    color: var(--home);
   }
 
   .handSection.menu>section {
@@ -221,7 +221,7 @@ audio.playing {
 
 }
 
-@media (width <=88rem) {
+@media (width <= 88rem) {
   body {
     max-width: 45rem;
   }
@@ -230,7 +230,7 @@ audio.playing {
     white-space: nowrap;
   }
 
-  .handSection>section {
+  .handSection>section:not(.letter) {
     width: 39rem !important;
     padding: 1rem 0.6rem !important;
   }
@@ -558,7 +558,7 @@ a.video {
   border: solid 1px var(--home);
   ;
   font-size: 1.2em;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--shade);
   position: absolute;
   top: calc(50% - 1em);
   left: calc(50% - 5em);
@@ -855,6 +855,7 @@ body>header h1>* {
 .playlist section {
   position: relative;
   background: var(--ink);
+  box-shadow: 0 0 2rem var(--shade) inset !important;
   padding: 0.5rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -904,7 +905,7 @@ body>header h1>* {
 }
 
 .playlist a.playing {
-  background-color: var(--ink);
+  background-color: var(--shade);
 }
 
 .playlist a:hover {
