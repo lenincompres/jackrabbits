@@ -146,6 +146,10 @@ audio.playing {
   border-radius: .5rem;
   box-shadow: 1px 1px 3px black;
   overflow: hidden;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
 }
 
 .handSection:has(a.song.playing)>section:not(.accent):not(.link):not(.letter) h2,
@@ -275,7 +279,11 @@ light-box>section:has(a.song.playing) {
     white-space: nowrap;
   }
 
-  .handSection>section:not(.letter) {
+  #hero img  {
+    width: 39rem;
+  }
+
+  .handSection>section:not(.letter)  {
     width: 39rem !important;
     padding: 1rem 0.6rem !important;
   }
@@ -318,6 +326,10 @@ light-box>section:has(a.song.playing) {
 
   line>span {
     display: block !important;
+  }
+
+  #hero img  {
+    width: 100%;
   }
 
   .handSection>section,
@@ -789,10 +801,6 @@ body>header h1>* {
   margin: 0 0.3rem;
 }
 
-#content {
-  background-color: var(--home);
-}
-
 #content img {
   display: block;
   font-family: 'Courier New', Courier, monospace;
@@ -1059,7 +1067,8 @@ body>main {
 }
 
 #content {
-  padding: 0.5rem 0 1.5rem;
+  padding: 0.5rem 0 2rem;
+  background-color: var(--home);
 }
 
 .handSection:not(:first-child) {
@@ -1143,12 +1152,11 @@ ul.exception>li>line {
 }
 
 body>footer {
-  padding: 1rem 1rem 1.5rem;
-  margin-bottom: 1rem;
+  padding: 2rem 1rem;
 }
 
 .bulletMenu>ul {
-  margin-top: 1.5rem;
+  margin: 1rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

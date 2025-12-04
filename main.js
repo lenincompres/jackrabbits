@@ -79,7 +79,6 @@ DOM.set({
     p: versify(Copy.at.subscribe),
     menu_bulletMenu: DOM.linkMenu({
       class: ["button", "buy"],
-      marginTop: "-1em",
       href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       target: "_blank",
       text: Copy.at.buy,
@@ -90,7 +89,6 @@ DOM.set({
             text: "Instagram",
           }, {*/
       class: "button song",
-      marginTop: "-1em",
       target: "_blank",
       text: Copy.text({
         es: "Disfruta del Album",
@@ -99,13 +97,11 @@ DOM.set({
       onclick: () => popUp('playlist'),
     }, {
       class: "button",
-      marginTop: "-1em",
       href: `https://${Copy.lang === Copy.LANG.es.code ? 'terrafirma' : 'www'}.yonderlands.net`,
       target: "_blank",
       text: Copy.at.novel,
     }),
     section: {
-      marginTop: "1em",
       markdown: Copy.text({
         es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
         en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
