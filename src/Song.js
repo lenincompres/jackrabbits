@@ -71,9 +71,10 @@ class Song {
     if (this.isPlaying) {
       this.audio.pause();
       this.audio.currentTime = 0;
+      CardFloating._forcedRoyal.value = undefined;
+      CardFloating._forcedRoyal.value = undefined;
     }
     Song._currentSong.value = null;
-    CardFloating._forcedSuit.value = null;
   }
 
   static _currentSong = new Binder();
@@ -147,7 +148,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Finales posibles",
   en: "The Royal Quest",
-}), () => visitSong("home"));
+}), () => visitSong("home", true));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/cdd9dfa9-2252-44a2-a33f-36fc8801e76b.m4a",
