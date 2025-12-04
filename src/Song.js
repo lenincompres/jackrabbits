@@ -134,6 +134,8 @@ async function visitSong(key, suit) {
     if (elt) elt = elt.parentElement.parentElement;
     const sections = elt.querySelectorAll("section:not(.letter):not(.link)");
     if (sections.length) elt = sections[0];
+    const header = elt.querySelector("header");
+    if (header) elt = header;
     elt.scrollIntoView();
   }, 300);
 }
