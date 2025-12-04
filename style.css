@@ -717,24 +717,6 @@ i {
   font-style: italic;
 }
 
-/*
-i::before {
-  content: "“";
-}
-
-i::after {
-  content: "”";
-}
-
-html[lang="es"] i::before {
-  content: "«";
-}
-
-html[lang="es"] i::after {
-  content: "»";
-}
-*/
-
 img[src=""],
 img:not([src]) {
   display: none;
