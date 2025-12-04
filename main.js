@@ -48,11 +48,9 @@ DOM.set({
       html: Copy.at[key],
     })),
     figure: {
-      position: 'relative',
-      padding: '1em 1em 0',
+      id: "hero",
       backgroundColor:  Pager._key.with(CardFloating._forcedSuit).as(suitColor),
       img: {
-        width: '100%',
         alt: 'Jack Rabbits boardgame photo',
         src: Pager._key.as({
           home: 'images/photo00.png',
@@ -61,18 +59,9 @@ DOM.set({
           full: 'images/photo03.png',
           more: 'images/photo04.png',
         }),
-        width: '100%',
-        maxWidth: '65rem',
-        maxHeight: '16rem',
-        height: '54vw',
-        objectFit: 'cover',
-        borderRadius: '.5rem',
-        boxShadow: '1px 1px 3px black',
-        overflow: 'hidden',
       },
       a_button_video: {
         display: Pager._key.as(val => val === 'home' ? 'block' : 'none'),
-        position: 'absolute',
         text: Copy.text({
           es: "Video tutorial",
           en: "Video tutorial",

@@ -12,7 +12,6 @@ const map = (value, start1, stop1, start2, stop2) => ((value - start1) / (stop1 
 const pixelArea = (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
 const cardArea = 260 * 260;
 const base = Math.floor(pixelArea / cardArea);
-const screenScale = Math.max(1, Math.min(base / 3.5, 1.5));
 
 class CardFloating extends Card {
   constructor({
@@ -128,7 +127,7 @@ class CardFloating extends Card {
     this.set({
       position: CardFloating._forcedSuit.with(CardFloating._forcedRoyal).as((suit, royal) => suit || royal ? "fixed" : "absolute"),
       boxShadow: this._t.as(t => `${getShadow()}`),
-      fontSize: this._t.as(t => `${map(this.z, 0, 1, 0.5, 0.7) * screenScale}em`),
+      fontSize: this._t.as(t => `${map(this.z, 0, 1, 0.5, 0.7) * CardFloating.sizeScale}em`),
       zIndex: this._t.as(t => 100 + Math.round(this.z * 30)),
       left: this._t.as(t => `calc((100vw - 12em)  * ${this.x} - ${document.body.getBoundingClientRect().left}px)`),
       top: this._t.as(t => `calc((100% - 12em) * ${this.y})`),
@@ -159,7 +158,9 @@ class CardFloating extends Card {
 
   static cards = [];
 
-  static CardNum = Math.min(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 2 : 3, base);
+  static CardNum = Math.max(1, Math.min(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 2 : 3, base));
+  
+  static sizeScale = Math.max(1.25, Math.min(base / 3.5, 1.5));
 
 }
 
