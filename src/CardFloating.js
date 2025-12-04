@@ -270,7 +270,7 @@ class CardFloating extends Card {
     Math.min(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 2 : 3, base)
   );
 
-  static sizeScale = Math.max(1.25, Math.min(base / 3.5, 1.5));
+  static sizeScale = Math.max(1.25, Math.min(base / 4.5, 2));
 }
 
 customElements.define("jk-card-float", CardFloating);
