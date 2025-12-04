@@ -184,6 +184,8 @@ class SuitYourself extends HTMLElement {
       maxWidth: TEXT_WIDTH,
       marginBottom: "1em",
       h1: {
+        fontSize: "2.5em",
+        whiteSpace: "nowrap",
         content: this._stage.as(stage => stage === STAGE_DONE, Copy.at.pageTitle, Copy.at.pageTitleDone),
       },
       section: {
@@ -204,10 +206,19 @@ class SuitYourself extends HTMLElement {
       ul: {
         id: "mainContent",
         display: "flex",
-        flexWrap: "wrap",
+        flexWrap: "nowrap",
         placeContent: "center",
+        width: "100%",
         li: this.cards.map((card, i) => new Object({
           width: "8em",
+          width: this._stage.as(stage => {
+            if (stage < 4) return `8em`;
+            return 0;
+          }),
+          maxWidth: "25%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "anchor-center",
           zIndex: this._stage.as(stage => stage === STAGE_DONE ?
             4 - this.orderedCards.indexOf(card) : 4 - i),
           transition: "0.5s",
@@ -222,7 +233,7 @@ class SuitYourself extends HTMLElement {
             if (!stage) return "1em";
             if (stage < 2) return `${2 * stage}em`;
             if (stage < 4) return `${-0.4 * stage}em`;
-            return "-8em";
+            return `0`;
           }),
           marginTop: this._stage.as(stage => {
             if (stage === STAGE_INTRO || stage === STAGE_DONE) return 0;
