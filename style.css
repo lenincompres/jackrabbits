@@ -34,7 +34,8 @@
   --bells: #b5a642;
   --land: #228B22;
   --sea: #016994;
-  --fleurs: #b784a7; /* opera mauve, rose gold */
+  --fleurs: #b784a7;
+  /* opera mauve, rose gold */
 }
 
 #pre-show {
@@ -43,6 +44,11 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+section,
+header {
+  scroll-margin: 4rem;
 }
 
 .nextArrow {
@@ -119,6 +125,10 @@ audio {
 audio.playing {
   bottom: 0;
   display: block;
+}
+
+#languageMenu {
+  margin: 0;
 }
 
 @media (width > 88rem) {
@@ -784,10 +794,6 @@ body>header h1>* {
   margin: 0 auto;
 }
 
-.handSection>section {
-  scroll-margin: 4rem;
-}
-
 .handSection.shuffle>section {
   scroll-margin: 1rem;
 }
@@ -1042,7 +1048,6 @@ body>main {
   display: flex;
   flex-direction: column;
   box-shadow: 1px 1px 3px black;
-  margin: 0.5rem 0;
   overflow: hidden;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -1140,11 +1145,8 @@ body>footer {
   margin-bottom: 1rem;
 }
 
-.bulletMenu {
-  line-height: 2.25em;
-}
-
 .bulletMenu>ul {
+  margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

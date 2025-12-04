@@ -114,18 +114,21 @@ class Song {
 export default Song;
 
 async function visitSong(key, suit) {
-  if (Pager.key != key) Pager.key = key;
   LightBox.close();
+  if (Pager.key != key) Pager.key = key;
+  // Handle forced suit or royal
+  CardFloating._forcedRoyal.value = undefined;
   if (typeof suit === "boolean") {
+    // if boolean, it's for royal
     CardFloating._forcedRoyal.value = suit;
     suit = undefined;
-  } else {
-    CardFloating._forcedRoyal.value = undefined;
   }
   CardFloating._forcedSuit.value = suit;
+  // Display all pages
   await setTimeout(() => {
     document.querySelectorAll("hand-section").forEach(h => h.nextPage(h.total));
   }, 300);
+  // Scroll to song
   await setTimeout(() => {
     let elt = document.querySelector("a.button.playing");
     if (elt) elt = elt.parentElement.parentElement;
