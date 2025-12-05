@@ -3,10 +3,10 @@ import ASSETS from "../../assets.js";
 import { suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import CardExpanded from "../../CardExpanded.js";
+import Song from "../../Song.js";
 
 const neoclassicSections = [{
   style: suitStyle(CardExpanded.SUIT.T),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.T.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_land: Copy.text({
       es: "+ Trenes y Corceles",
@@ -48,6 +48,9 @@ const neoclassicSections = [{
       ],
     })),
   }, {
+    tag: "footer",
+    a_button_song: Song.getAlbum(1)[9].link,
+  },{
     class: "note footnote",
     h4: Copy.text({
       es: "+ Hongo de la Pila",
@@ -67,10 +70,9 @@ const neoclassicSections = [{
       If you end up there in turn 
       pick its new re-settlement.`,
     })),
-  }],
+  }]
 }, {
   style: suitStyle(CardExpanded.SUIT.A),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.A.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_sea: Copy.text({
       es: "+ Alianzas Nobles",
@@ -118,6 +120,9 @@ const neoclassicSections = [{
       ],
     })),
   }, {
+    tag: "footer",
+    a_button_song: Song.getAlbum(1)[10].link,
+  }, {
     class: "note footnote",
     background: "var(--sea) !important",
     h4: Copy.text({
@@ -137,7 +142,6 @@ const neoclassicSections = [{
   }],
 }, {
   style: suitStyle(CardExpanded.SUIT.F),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.F.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_fleurs: Copy.text({
       es: "+ Flores",
@@ -180,7 +184,7 @@ const neoclassicSections = [{
       ]
     })),
   }, {
-    h4: Copy.text({
+    h4_fleurs: Copy.text({
       es: "Traslado del lobo",
       en: "Transfer the wolf",
     }),
@@ -199,6 +203,9 @@ const neoclassicSections = [{
       crossing underground's its habit.`,
     })),
   }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[8].link,
+  }
 }, ];
 
 export default neoclassicSections;

@@ -1,67 +1,14 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
-import { suitStyle } from "../../aux/color.js";
+import {
+  suitStyle
+} from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import CardExpanded from "../../CardExpanded.js";
+import Song from "../../Song.js";
 
 const frontierSections = [{
-  style: suitStyle(CardExpanded.SUIT.FT),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FT.symbol}) inset, 1px 1px 3px black`,
-  header: {
-    h3_torches: Copy.text({
-      es: "Antorchas",
-      en: "Torches",
-    }),
-    img: ASSETS.torches,
-  },
-  section: [{
-    h4_torches: Copy.text({
-      es: "Saquear con fuego",
-      en: "Plunder with fire",
-    }),
-    p: versify(Copy.text({
-      es: `Podrás con tus antorchas pelear,
-      igual que con las picas en sus duelos.
-      Excepto que si robas al final,
-      igual terminarás en el destierro;
-      quienquiera que descanse en el lugar
-      termina en las afueras del tablero.`,
-      en: `You may plunder and defend,
-      using torches just like swords,
-      so to steal a card from them,
-      picked at random as before.
-      But the winner, in the end, 
-      will be also hurled off-board.
-      Since all players, there and then,
-      are ejected from the board.`,
-    })),
-  }, {
-    h4_torches: Copy.text({
-      es: "Traslados bajo el subsuelo",
-      en: "Transfers Underground",
-    }),
-    p: versify(Copy.text({
-      es: `El túnel cavernoso con el fuego
-        se ubica en el subsuelo por un lado.
-        Si pagas al entrar en el subsuelo,
-        podrás atraversarlo sin descanso.
-        Si sales en tu turno del tablero,
-        ya sea por tu cuenta o sin buscarlo,
-        pagando evitarías el destierro,
-        moviéndote al subsuelo de inmediato.`,
-      en: `Its extension underground,
-      carries two effects with fire.
-      Lets you leave that very round, 
-      paying what the dice require.
-      And when turns are off-board bound,
-      if that’s not what you desire,
-      you may pay to transfer down—
-      to the underground campfire.`,
-    })),
-  }],
-}, {
   style: suitStyle(CardExpanded.SUIT.FS),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FS.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_shields: Copy.text({
       es: "Escudos",
@@ -113,10 +60,69 @@ const frontierSections = [{
       hit the tile for a reward—
       get its transfer in this style.`,
     })),
-  }]
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[0].link,
+  }
+}, {
+  style: suitStyle(CardExpanded.SUIT.FT),
+  header: {
+    h3_torches: Copy.text({
+      es: "Antorchas",
+      en: "Torches",
+    }),
+    img: ASSETS.torches,
+  },
+  section: [{
+    h4_torches: Copy.text({
+      es: "Saquear con fuego",
+      en: "Plunder with fire",
+    }),
+    p: versify(Copy.text({
+      es: `Podrás con tus antorchas pelear,
+      igual que con las picas en sus duelos.
+      Excepto que si robas al final,
+      igual terminarás en el destierro;
+      quienquiera que descanse en el lugar
+      termina en las afueras del tablero.`,
+      en: `You may plunder and defend,
+      using torches just like swords,
+      so to steal a card from them,
+      picked at random as before.
+      But the winner, in the end, 
+      will be also hurled off-board.
+      Since all players, there and then,
+      are ejected from the board.`,
+    }))
+  }, {
+    h4_torches: Copy.text({
+      es: "Traslados bajo el subsuelo",
+      en: "Transfers Underground",
+    }),
+    p: versify(Copy.text({
+      es: `El túnel cavernoso con el fuego
+        se ubica en el subsuelo por un lado.
+        Si pagas al entrar en el subsuelo,
+        podrás atraversarlo sin descanso.
+        Si sales en tu turno del tablero,
+        ya sea por tu cuenta o sin buscarlo,
+        pagando evitarías el destierro,
+        moviéndote al subsuelo de inmediato.`,
+      en: `Its extension underground,
+      carries two effects with fire.
+      Lets you leave that very round, 
+      paying what the dice require.
+      And when turns are off-board bound,
+      if that’s not what you desire,
+      you may pay to transfer down—
+      to the underground campfire.`,
+    })),
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[1].link,
+  }
 }, {
   style: suitStyle(CardExpanded.SUIT.FH),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FH.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_horseshoes: Copy.text({
       es: "Herraduras",
@@ -168,10 +174,12 @@ const frontierSections = [{
       They may ride to the cave's doors,
       but will never venture down.`,
     })),
-  }]
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[2].link,
+  }
 }, {
   style: suitStyle(CardExpanded.SUIT.FA),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.FA.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_acorns: Copy.text({
       es: "Bellotas",
@@ -223,7 +231,10 @@ const frontierSections = [{
       If you bring it where you're on,
       leave the board or cut right through.`,
     })),
-  }]
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[3].link,
+  }
 }, ];
 
 export default frontierSections;

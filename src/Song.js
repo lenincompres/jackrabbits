@@ -104,7 +104,7 @@ class Song {
 
   static List = [];
 
-  static getAlbum(num) {
+  static getAlbum(num = 0) {
     return Song.List.filter(s => s.album === num);
   }
 
@@ -120,7 +120,7 @@ class Song {
 
 export default Song;
 
-async function visitSong(key, suit) {
+window.visitSong = (key, suit) => {
   LightBox.close();
   if (Pager.key != key) Pager.key = key;
   // Handle forced suit or royal
@@ -132,21 +132,19 @@ async function visitSong(key, suit) {
   }
   CardFloating._forcedSuit.value = suit;
   // Display all pages
-  await setTimeout(() => {
+  setTimeout(() => {
     document.querySelectorAll("hand-section").forEach(h => h.nextPage(h.total));
-  }, 300);
-  // Scroll to song
-  await setTimeout(() => {
-    let elt = document.querySelector("a.button.playing");
-    if (elt) elt = elt.parentElement.parentElement;
-    const sections = elt.querySelectorAll("section:not(.letter):not(.link)");
-    if (sections.length) elt = sections[0];
-    const header = elt.querySelector("header");
-    if (header) elt = header;
-    elt.scrollIntoView();
+    setTimeout(() => {
+      let elt = document.querySelector("a.button.playing");
+      if (elt) elt = elt.parentElement.parentElement;
+      const sections = elt.querySelectorAll("section:not(.letter):not(.link)");
+      if (sections.length) elt = sections[0];
+      const header = elt.querySelector("header");
+      if (header) elt = header;
+      elt.scrollIntoView();
+    }, 300);
   }, 300);
 }
-
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/685698d2-34aa-4eb1-9829-6a5157f99062.m4a",

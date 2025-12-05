@@ -54,7 +54,7 @@ const strategySections = [{
     ]
   })),
   footer: {
-    a_button_song: Song.List[6].link,
+    a_button_song: Song.getAlbum(0)[6].link,
   }
 }, {
   style: suitStyle(Card.SUIT.S),
@@ -114,7 +114,7 @@ const strategySections = [{
     ]
   })),
   footer: {
-    a_button_song: Song.List[7].link,
+    a_button_song: Song.getAlbum(0)[7].link,
   }
 }, {
   style: suitStyle(Card.SUIT.H),
@@ -164,7 +164,7 @@ const strategySections = [{
     ]
   })),
   footer: {
-    a_button_song: Song.List[5].link,
+    a_button_song: Song.getAlbum(0)[5].link,
   }
 }, {
   style: suitStyle(Card.SUIT.D),
@@ -217,7 +217,7 @@ const strategySections = [{
     swindlers get the off-board boot.`,
   })),
   footer: {
-    a_button_song: Song.List[4].link,
+    a_button_song: Song.getAlbum(0)[4].link,
   }
 }];
 

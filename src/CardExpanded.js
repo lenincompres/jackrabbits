@@ -1,4 +1,6 @@
+import Copy from "../lib/Copy.js";
 import Card from "./Card.js";
+import Song from "./Song.js";
 
 export class CardExpanded extends Card {
   constructor({
@@ -76,7 +78,7 @@ export class CardExpanded extends Card {
       image: "assets/suit-anchors.png",
     },
     T: {
-      symbol: "field",
+      symbol: "land",
       color: "#008480",
     },
     A: {
@@ -89,3 +91,92 @@ export class CardExpanded extends Card {
 customElements.define("jk-card-expanded", CardExpanded);
 
 export default CardExpanded;
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/ce2403cf-146a-4757-bb64-58c5072d8119.m4a",
+  en: "https://cdn1.suno.ai/94021eba-cbb0-4c65-b07c-1a158a77564b.m4a",
+}), Copy.text({
+  es: "Escudos",
+  en: "Sheilds",
+}), () => visitSong("expansion", CardExpanded.SUIT.FS), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/5c356eba-4514-4e3c-98f1-f605198c1fbf.m4a",
+  en: "https://cdn1.suno.ai/79985bf0-cc84-47f2-81a7-017ea44a9d74.m4a",
+}), Copy.text({
+  es: "Antorchas",
+  en: "Torches",
+}), () => visitSong("expansion", CardExpanded.SUIT.FT), 1);
+
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/a2368e94-85d5-4d5d-b707-316787c86f79.mp3",
+  en: "https://cdn1.suno.ai/24959c8d-a81f-4736-94ad-6a07242c3e82.mp3",
+}), Copy.text({
+  es: "Herraduras",
+  en: "Horseshoes",
+}), () => visitSong("expansion", CardExpanded.SUIT.FH), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/efbce1a8-f3d1-4762-b452-fa8faf01d428.mp3",
+  en: "https://cdn1.suno.ai/613f5d7b-8db9-4d53-a686-0c211e2c34bc.m4a",
+}), Copy.text({
+  es: "Bellotas",
+  en: "Acorns",
+}), () => visitSong("expansion", CardExpanded.SUIT.FA), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/0e6eea32-4ff7-4b3c-9ee5-6e1bfcc73c1c.mp3",
+  en: "https://cdn1.suno.ai/24959c8d-a81f-4736-94ad-6a07242c3e82.mp3",
+}), Copy.text({
+  es: "Campanas",
+  en: "Bells",
+}), () => visitSong("expansion", CardExpanded.SUIT.NB), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.mp3",
+  en: "https://cdn1.suno.ai/61480d88-ad55-4a02-8655-744438044e9c.mp3",
+}), Copy.text({
+  es: "Anclas",
+  en: "Anchors",
+}), () => visitSong("expansion", CardExpanded.SUIT.NA), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/9b770383-e1b4-4041-b8c3-70edb1cff9f4.mp3",
+  en: "https://cdn1.suno.ai/04d70910-3371-4998-8047-f0a160b44f54.mp3",
+}), Copy.text({
+  es: "Conchas",
+  en: "Shells",
+}), () => visitSong("expansion", CardExpanded.SUIT.NS), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/a00660b6-5e9a-420e-92b8-f6298869b6de.mp3",
+  en: "https://cdn1.suno.ai/d7a9ca27-d350-45ec-860d-452dba4d3c47.mp3",
+}), Copy.text({
+  es: "Témpanos",
+  en: "Icicles",
+}), () => visitSong("expansion", CardExpanded.SUIT.NI), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/972d84e0-7e6d-4ee3-9cbe-41167556dcc2.mp3",
+  en: "https://cdn1.suno.ai/d31b3ce7-9f08-48f4-9e85-0127c81e31da.mp3",
+}), Copy.text({
+  es: "Fleurs",
+  en: "Fleurs",
+}), () => visitSong("expansion", CardExpanded.SUIT.F), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/655d1c46-a5fc-4c8c-b49d-00481c3dd467.mp3",
+  en: "https://cdn1.suno.ai/655d1c46-a5fc-4c8c-b49d-00481c3dd467.mp3",
+}), Copy.text({
+  es: "Trenes y Corceles",
+  en: "Trains & Steeds",
+}), () => visitSong("expansion"), 1);
+
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/6626203c-349f-4239-9f9c-8d8b5a47340e.mp3",
+  en: "https://cdn1.suno.ai/6626203c-349f-4239-9f9c-8d8b5a47340e.mp3",
+}), Copy.text({
+  es: "Alianzas Nobles",
+  en: "Noble Alliances",
+}), () => visitSong("expansion"), 1);

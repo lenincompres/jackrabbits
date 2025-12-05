@@ -4,8 +4,27 @@ import classicSections from "./sections/neoclassic.js";
 import frontierSections from "./sections/frontier.js";
 import nauticalSections from "./sections/nautical.js";
 import HandSection from "../HandSection.js";
+import Song from "../Song.js";
 
 const expansionPage = {
+  menu: {
+    span: [{
+      label: "Autoplay: ",
+      input: {
+        type: "checkbox",
+        checked: Song._autoplay,
+        onchange: (e) => Song.autoplay = e.target.checked,
+      },
+    }, {
+      marginLeft: "1rem",
+      label: "Repeat: ",
+      input: {
+        type: "checkbox",
+        checked: Song._repeat,
+        onchange: (e) => Song.repeat = e.target.checked,
+      }
+    }],
+  },
   section_shuffle: [new HandSection({
     header: {
       h2: Copy.text({

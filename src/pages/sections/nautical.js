@@ -3,120 +3,10 @@ import ASSETS from "../../assets.js";
 import { suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import CardExpanded from "../../CardExpanded.js";
+import Song from "../../Song.js";
 
 const nauticalSections = [{
-  style: suitStyle(CardExpanded.SUIT.NS),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NS.symbol}) inset, 1px 1px 3px black`,
-  header: {
-    h3_shells: Copy.text({
-      es: "Conchas",
-      en: "Shells",
-    }),
-    img: ASSETS.shells,
-  },
-  section: [{
-    h4_shells: Copy.text({
-      es: "Echar cartas al mar",
-      en: "Toss shells undeground",
-    }),
-    p: versify(Copy.text({
-      es: `La gruta coralina de la costa
-      se extiende del subsuelo en sus orillas.
-      Podrás desembarcar si te transportas,
-      pues cuenta con un puerto de visitas.
-      También, al deshacerte de tus conchas, 
-      las cambia por el doble de la pila.
-      Por turnos, un canjeo se te otorga;
-      limítate a las cartas que recibas.`,
-      en: `Its extension underground,
-      which is set when games begin,
-      will provide a landing ground,
-      where the boats may reach within.
-      You may draw when you're around—
-      twice as many cards you bin. 
-      Just a trade per turn's allowed,
-      so you keep the cards you win.`,
-    })),
-  }, {
-    h4_shells: Copy.text({
-      es: "Traslado desde el Mar",
-      en: "Transfer with the tides",
-    }),
-    p: versify(Copy.text({
-      es: `En turnos en que sales al destierro,
-        si pagas con tus conchas en el mar,
-        trasládate a su islote en el momento:
-        su torre que se encuentra en altamar.
-        La góndola gratuita de su puerto
-        te brinda la salida del lugar.`,
-      en: `If you pay with shells at sea, 
-      you won't end your turn off-board. 
-      You'll be rescued for that fee—
-      wash ashore its tower's port.
-      And this island, you will see,
-      is a traveler's resort.
-      Guests may leave from there for free, 
-      riding on the tower's boat.`,
-    })),
-  }]
-}, {
-  style: suitStyle(CardExpanded.SUIT.NA),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NA.symbol}) inset, 1px 1px 3px black`,
-  header: {
-    h3_anchors: Copy.text({
-      es: "Anclas",
-      en: "Anchors",
-    }),
-    img: ASSETS.anchors,
-  },
-  section: [{
-    h4_anchors: Copy.text({
-      es: "Lastrar a la Nobleza",
-      en: "Weigh Nobles Down",
-    }),
-    p: versify(Copy.text({
-      es: `Es válido, con <strong>una</strong> de tus anclas,
-      usarla al visitar a la nobleza.
-      Poniéndola debajo de su carta,
-      la sumas al valor con que se adquiera.
-      La carta que pusiste se descarta
-      si pagan por el noble de la pieza.`,
-      en: `When you're visiting a tile,
-      make its claim hard to achieve.
-      Choose its noble from the aisle,
-      where the royals take their leave.
-      Use an anchor to beguile:
-      set it as a weight beneath.
-      Add its value for the while,
-      and discard it when they leave.`,
-    })),
-  }, {
-    h4_anchors: Copy.text({
-      es: "Traslado mediante el Velero",
-      en: "Transfer by Sailboat",
-    }),
-    p: versify(Copy.text({
-      es: `Si abordas por la vía del velero,
-      navégalo sin costo y libremente.
-      Si pagas a la orilla del tablero,
-      te mueves al que quieras de sus muelles;
-      el barco te recoge en el proceso,
-      y a un puerto de las anclas te transfieres.
-      Su torre es un mercado heterogéneo:
-      comercia con los palos que prefieres.`,
-      en: `If you board the sailboat’s deck,
-      sail it anywhere for free. 
-      If you pay at sea-bound treks,
-      you will summon it by sea;
-      sail it to an anchor hex,
-      you must choose one of the three.
-      Note the anchor tower’s specs—
-      trade the suits that you decree.`,
-    })),
-  }]
-}, {
   style: suitStyle(CardExpanded.SUIT.NB),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NB.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_bells: Copy.text({
       es: "Campanas",
@@ -172,10 +62,126 @@ const nauticalSections = [{
       Underground, this cave is free, 
       and you're safe from facing trial.`,
     })),
-  }]
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[4].link,
+  }
+}, {
+  style: suitStyle(CardExpanded.SUIT.NA),
+  header: {
+    h3_anchors: Copy.text({
+      es: "Anclas",
+      en: "Anchors",
+    }),
+    img: ASSETS.anchors,
+  },
+  section: [{
+    h4_anchors: Copy.text({
+      es: "Lastrar a la Nobleza",
+      en: "Weigh Nobles Down",
+    }),
+    p: versify(Copy.text({
+      es: `Es válido, con <strong>una</strong> de tus anclas,
+      usarla al visitar a la nobleza.
+      Poniéndola debajo de su carta,
+      la sumas al valor con que se adquiera.
+      La carta que pusiste se descarta
+      si pagan por el noble de la pieza.`,
+      en: `When you're visiting a tile,
+      make its claim hard to achieve.
+      Choose its noble from the aisle,
+      where the royals take their leave.
+      Use an anchor to beguile:
+      set it as a weight beneath.
+      Add its value for the while,
+      and discard it when they leave.`,
+    })),
+  }, {
+    h4_anchors: Copy.text({
+      es: "Traslado mediante el Velero",
+      en: "Transfer by Sailboat",
+    }),
+    p: versify(Copy.text({
+      es: `Si abordas por la vía del velero,
+      navégalo sin costo y libremente.
+      Si pagas a la orilla del tablero,
+      te mueves al que quieras de sus muelles;
+      el barco te recoge en el proceso,
+      y a un puerto de las anclas te transfieres.
+      Su torre es un mercado heterogéneo:
+      comercia con los palos que prefieres.`,
+      en: `If you board the sailboat’s deck,
+      sail it anywhere for free. 
+      If you pay at sea-bound treks,
+      you will summon it by sea;
+      sail it to an anchor hex,
+      you must choose one of the three.
+      Note the anchor tower’s specs—
+      trade the suits that you decree.`,
+    })),
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[5].link,
+  }
+}, {
+  style: suitStyle(CardExpanded.SUIT.NS),
+  header: {
+    h3_shells: Copy.text({
+      es: "Conchas",
+      en: "Shells",
+    }),
+    img: ASSETS.shells,
+  },
+  section: [{
+    h4_shells: Copy.text({
+      es: "Echar cartas al mar",
+      en: "Toss shells undeground",
+    }),
+    p: versify(Copy.text({
+      es: `La gruta coralina de la costa
+      se extiende del subsuelo en sus orillas.
+      Podrás desembarcar si te transportas,
+      pues cuenta con un puerto de visitas.
+      También, al deshacerte de tus conchas, 
+      las cambia por el doble de la pila.
+      Por turnos, un canjeo se te otorga;
+      limítate a las cartas que recibas.`,
+      en: `Its extension underground,
+      which is set when games begin,
+      will provide a landing ground,
+      where the boats may reach within.
+      You may draw when you're around—
+      twice as many cards you bin. 
+      Just a trade per turn's allowed,
+      so you keep the cards you win.`,
+    })),
+  }, {
+    h4_shells: Copy.text({
+      es: "Traslado desde el Mar",
+      en: "Transfer with the tides",
+    }),
+    p: versify(Copy.text({
+      es: `En turnos en que sales al destierro,
+        si pagas con tus conchas en el mar,
+        trasládate a su islote en el momento:
+        su torre que se encuentra en altamar.
+        La góndola gratuita de su puerto
+        te brinda la salida del lugar.`,
+      en: `If you pay with shells at sea, 
+      you won't end your turn off-board. 
+      You'll be rescued for that fee—
+      wash ashore its tower's port.
+      And this island, you will see,
+      is a traveler's resort.
+      Guests may leave from there for free, 
+      riding on the tower's boat.`,
+    })),
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[6].link,
+  }
 }, {
   style: suitStyle(CardExpanded.SUIT.NI),
-  boxShadow: `0 0 2.5rem var(--${CardExpanded.SUIT.NI.symbol}) inset, 1px 1px 3px black`,
   header: {
     h3_icicles: Copy.text({
       es: "Témpanos",
@@ -229,7 +235,10 @@ const nauticalSections = [{
       Note the underground won't freeze—
       it's not a hex where this affects.`,
     })),
-  }]
+  }],
+  footer: {
+    a_button_song: Song.getAlbum(1)[7].link,
+  }
 }, ];
 
 export default nauticalSections;

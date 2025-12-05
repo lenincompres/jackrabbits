@@ -15,10 +15,14 @@
   --full: hsl(319, 35%, 93%);
   --more: hsl(40, 35%, 80%);
   --expansion: hsl(40, 35%, 80%);
-  --field: #228B22;
-  --ink: hsl(60, 40%, 18%);
-  --highlight: hsl(60, 45%, 40%);
+
+  --ink: hsl(60, 60%, 20%);
+  --light: hsl(60, 45%, 40%);
   --shade: hsla(60, 40%, 50%, 0.5);
+  --dark: hsla(60, 60%, 15%, 0.4);
+
+  --land: #228B22;
+  --sea: #016994;
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -28,14 +32,12 @@
   --horseshoes: #89420a;
   --shields: #436b95;
   --torches: #b7410d;
-  --anchors: #702670;
-  --shells: #c74375;
+  --anchors: #702963;
+  --shells: #d9463e; /* #c74375; */
   --icicles: #3aa8c1;
   --bells: #b5a642;
-  --land: #228B22;
-  --sea: #016994;
-  --fleurs: #b784a7;
-  /* opera mauve, rose gold */
+  --fleurs: #d65282;
+  /* #b784a7; opera mauve, rose gold */
 }
 
 #pre-show {
@@ -53,7 +55,7 @@ header {
 
 .nextArrow {
   font-size: 4rem;
-  color: var(--field);
+  color: var(--land);
   position: absolute;
   height: 1em;
   width: 1em;
@@ -80,7 +82,7 @@ header {
 
 .handSection>header.margin h2 {
   rotate: 90deg;
-  color: var(--shade);
+  color: var(--dark);
 }
 
 .handSection>header.margin h2:after {
@@ -121,8 +123,8 @@ a.button.next {
 
 a.button.next:hover {
   background-color: transparent;
-  color: var(--field);
-  border-color: var(--field);
+  color: var(--land);
+  border-color: var(--land);
 }
 
 audio {
@@ -178,7 +180,7 @@ audio.playing {
 .handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter) h4,
 light-box>section:has(a.song.playing) h2,
 light-box>section:has(a.song.playing) a {
-  color: var(--highlight);
+  color: var(--light);
 }
 
 .handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter),
@@ -268,7 +270,7 @@ light-box>section:has(a.song.playing) {
     position: relative;
     height: 100%;
     padding-bottom: 1.6rem;
-    margin-top: -1rem !important;
+    margin-top: -0.5rem !important;
   }
 
   .optional,
@@ -317,13 +319,13 @@ light-box>section:has(a.song.playing) {
   }
 
   .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) {
-    box-shadow: 0 0 2rem var(--highlight) inset;
+    box-shadow: 0 0 2rem var(--light) inset;
   }
 
   .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h2,
   .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h3,
   .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h4 {
-    color: var(--highlight);
+    color: var(--light);
   }
 
   .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter),
@@ -570,7 +572,7 @@ a {
 }
 
 a:hover {
-  color: var(--field);
+  color: var(--land);
 }
 
 a.thumbnail:hover img {
@@ -631,7 +633,7 @@ a.button.song {
 }
 
 a.button.song:hover {
-  background-color: var(--highlight);
+  background-color: var(--light);
 }
 
 main a.button.song,
@@ -644,14 +646,14 @@ light-box a.button.song {
 main a.button.song:hover,
 light-box a.button.song:hover {
   background-color: transparent;
-  color: var(--highlight);
-  border-color: var(--highlight);
+  color: var(--light);
+  border-color: var(--light);
 }
 
 a.button.song.playing {
-  border-color: var(--highlight);
-  color: var(--highlight);
-  box-shadow: 0 0 0.5em var(--highlight), 0 0 0.5em var(--highlight) inset;
+  border-color: var(--light);
+  color: var(--light);
+  box-shadow: 0 0 0.5em var(--light), 0 0 0.5em var(--light) inset;
 }
 
 .handSection.shuffle>section a.button.song small {
@@ -662,7 +664,7 @@ a.video {
   border: solid 1px var(--home);
   ;
   font-size: 1.2em;
-  background-color: #0006;
+  background-color: var(--dark);
   position: absolute;
   top: calc(50% - 1em);
   left: calc(50% - 5em);
@@ -683,7 +685,7 @@ a.buy {
 }
 
 a.buy:hover {
-  background-color: var(--field);
+  background-color: var(--land);
 }
 
 b {
@@ -871,11 +873,11 @@ body>header h1>* {
 }
 
 .carded.link:hover {
-  border-color: var(--field);
+  border-color: var(--land);
 }
 
 .carded.link:hover a {
-  background-color: var(--field);
+  background-color: var(--land);
 }
 
 .carded.link img {
@@ -911,7 +913,7 @@ body>header h1>* {
   box-shadow: none !important;
   color: var(--home);
   text-shadow: 0 0 2px black;
-  background-color: var(--field) !important;
+  background-color: var(--land) !important;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
@@ -999,7 +1001,7 @@ body>header h1>* {
 }
 
 .playlist a:hover {
-  background-color: var(--highlight);
+  background-color: var(--light);
 }
 
 .playlist a::before {
