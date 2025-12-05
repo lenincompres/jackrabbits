@@ -67,6 +67,27 @@ header {
   pointer-events: none !important;
 }
 
+.handSection {
+  position: relative;
+}
+
+.handSection>header.margin {
+  position: absolute;
+  left: 66em;
+  top: -1em;
+  width: 0;
+}
+
+.handSection>header.margin h2 {
+  rotate: 90deg;
+  color: #0007;
+}
+
+.handSection>header.margin h2:after {
+  content: "↓";
+  margin-left: 0.3em;
+}
+
 body {
   background-image: url(./images/bg.png);
   background-position: top center;
@@ -152,15 +173,15 @@ audio.playing {
   -o-border-radius: .5rem;
 }
 
-.handSection:has(a.song.playing)>section:not(.accent):not(.link):not(.letter) h2,
-.handSection:has(a.song.playing)>section:not(.accent):not(.link):not(.letter) h3,
-.handSection:has(a.song.playing)>section:not(.accent):not(.link):not(.letter) h4,
+.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter) h2,
+.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter) h3,
+.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter) h4,
 light-box>section:has(a.song.playing) h2,
 light-box>section:has(a.song.playing) a {
   color: var(--highlight);
 }
 
-.handSection:has(a.song.playing)>section:not(.accent):not(.link):not(.letter),
+.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter),
 light-box>section:has(a.song.playing) {
   background-color: var(--ink);
   color: white;
@@ -173,11 +194,11 @@ light-box>section:has(a.song.playing) {
 }
 
 
-.handSection:has(a.song.playing)>section h4>span {
+.handSection:has(>footer>a.song.playing)>section h4>span {
   text-shadow: 0 0 2px black;
 }
 
-.handSection:has(a.song.playing)>section p a {
+.handSection:has(>footer>a.song.playing)>section p a {
   color: var(--home);
 }
 
@@ -279,13 +300,43 @@ light-box>section:has(a.song.playing) {
     white-space: nowrap;
   }
 
-  #hero img  {
+  #hero img {
     width: 39rem;
   }
 
-  .handSection>section:not(.letter)  {
+  .handSection>section:not(.letter) {
     width: 39rem !important;
-    padding: 1rem 0.6rem !important;
+    padding: 2rem 0.6rem !important;
+  }
+
+  .handSection:not(.shuffle)>section:not(.letter):not(.carded) {
+    margin: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .handSection:not(.shuffle)>section:last-of-type {
+    margin-bottom: 0.2rem !important;
+    padding-bottom: 1.3rem !important;
+  }
+
+  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) {
+    box-shadow: 0 0 2rem var(--highlight) inset;
+  }
+
+  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h2,
+  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h3,
+  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h4 {
+    color: var(--highlight);
+  }
+
+  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter),
+  light-box>section:has(a.song.playing) {
+    background-color: var(--ink);
+    color: white;
   }
 
   html[lang="es"] .handSection>section {
@@ -328,7 +379,7 @@ light-box>section:has(a.song.playing) {
     display: block !important;
   }
 
-  #hero img  {
+  #hero img {
     width: 100%;
   }
 
@@ -764,7 +815,7 @@ body>header a:hover {
   color: var(--ink);
 }
 
-body>header h1 a{
+body>header h1 a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1100,7 +1151,7 @@ body>main {
   margin-top: 0.5rem;
 }
 
-#content>.handSection>header:first-child {
+#content>.handSection>header:first-of-type {
   margin-top: 0;
   padding-top: 1rem;
   border: none;

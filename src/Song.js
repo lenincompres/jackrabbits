@@ -5,9 +5,10 @@ import Card from "./Card.js";
 import CardFloating from "./CardFloating.js";
 
 class Song {
-  constructor(src, title, callBack = () => null) {
+  constructor(src, title, callBack = () => null, album = 0) {
     this.callBack = callBack;
     this.src = src;
+    this.album = album;
     this.title = title ? title : src.split("/").pop().split(".")[0];
     if (this.title.includes(": ")) {
       this.title = this.title.replaceAll(": ", ": <small>") + "</small>";
@@ -103,10 +104,15 @@ class Song {
 
   static List = [];
 
+  static getAlbum(num) {
+    return Song.List.filter(s => s.album === num);
+  }
+
   static playNext() {
-    const i = Song.List.indexOf(Song.currentSong) + 1;
-    if (Song.List[i]) return Song.List[i].start(Song.autoplay);
-    if (Song.repeat) return Song.List[0].start(Song.autoplay);
+    let songs = Song.getAlbum(Song.currentSong.album);
+    const i = songs.indexOf(Song.currentSong) + 1;
+    if (songs[i]) return songs[i].start(Song.autoplay);
+    if (Song.repeat) return songs[0].start(Song.autoplay);
     Song.currentSong.end();
   }
 

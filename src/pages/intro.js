@@ -9,8 +9,8 @@ const introPage = {
   article: new HandSection({
     header: {
       h2: versify(Copy.text({
-        es: "Turno en 4 FASES",
-        en: "4 PHASES of each turn",
+        es: "Fases de cada turno",
+        en: "Phases of each turn",
       })),
       p: versify(Copy.text({
         es: `Comprende el material preliminar.

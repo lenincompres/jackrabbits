@@ -59,7 +59,7 @@ class CardFloating extends Card {
       zIndex: this._t.as(() => 100 + Math.round(this.z * 30)),
       left: this._t.with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
         .as((t, s, r) => `calc((100vw - 10em) * ${this.x} - ${s || r ? 0 : document.body.getBoundingClientRect().left}px)`),
-      top: this._t.as(() => `calc((100% - 10em) * ${this.y})`),
+      top: this._t.as(() => `calc((100% - 12em) * ${this.y})`),
       transform: this._t.as(() => `rotateX(${this.rx}rad) rotateY(${this.ry}rad) rotateZ(${this.rz}rad)`),
       onmouseout: (e) => this.flick(e),
       onmouseover: () => (this.isStill = true),

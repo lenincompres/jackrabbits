@@ -11,7 +11,10 @@ import setupPage from "./src/pages/setup.js";
 import homePage from "./src/pages/home.js";
 import "./src/lightbox.js";
 import expansionPage from "./src/pages/expansions.js";
-import { mixColor, suitColor } from "./src/aux/color.js";
+import {
+  mixColor,
+  suitColor
+} from "./src/aux/color.js";
 
 Pager.add({
   home: homePage,
@@ -49,7 +52,7 @@ DOM.set({
     })),
     figure: {
       id: "hero",
-      backgroundColor:  Pager._key.with(CardFloating._forcedSuit).as(suitColor),
+      backgroundColor: Pager._key.with(CardFloating._forcedSuit).as(suitColor),
       img: {
         alt: 'Jack Rabbits boardgame photo',
         src: Pager._key.as({
@@ -97,10 +100,15 @@ DOM.set({
       text: Copy.at.novel,
     }),
     section: {
-      markdown: Copy.text({
-        es: "Creado por [Lenin A. Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-        en: "Built by [Lenin A. Comprés](https://lenino.net). Coded using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-      }),
+      p: [{
+        markdown: Copy.text({
+          es: "Creado por [Lenin A. Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+          en: "Made by [Lenin A. Comprés](https://lenino.net). Website built with [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        }),
+      }, Copy.text({
+        es: "© 2024 Lenino LLC Todos los derechos reservados.",
+        en: "© 2024 Lenino LLC All rights reserved.",
+      })],
     },
     onready: () => popUp('mailingList'),
   },

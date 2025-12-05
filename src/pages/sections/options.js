@@ -1,71 +1,7 @@
 import Copy from "../../../lib/Copy.js";
 import versify from "../../aux/versify.js";
 
-const optionalSections = [
-  {
-  h4: Copy.text({
-    es: "Piezas",
-    en: "Tiles",
-  }),
-  section: [{
-    h5: Copy.text({
-      es: `Ciudadela Avanzada`,
-      en: `Advanced Citadel`,
-    }),
-    p: versify(Copy.text({
-      es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel')">carátula de atrás</a>,
-      incluyes estrategias importantes:
-      cuestionas corazones al entrar,
-      canjeas lo que quieras con diamantes,
-      y puedes con tus tréboles volar
-      con palos cualesquiera de restante.`,
-      en: `There are three depicted assets,
-      on this <a class="pop" onclick="popUp('advancedCitadel')">flip-side tile</a> reboot:
-      vet the hearts to grant the access;
-      buy with diamonds any loot; 
-      show your clubs for flying passes—
-      shortfall’s paid in any suit.`,
-    })),
-  }, {
-    h5: Copy.text({
-      es: "Palos Justos",
-      en: "Tight Suits",
-    }),
-    p: versify(Copy.text({
-      es: `Se juega con un palo por conejo
-      y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez.
-      Con tres participantes, por ejemplo,
-      retírales un palo con un set.
-      Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
-      si acaso es imposible de obtener.
-      <b class="spades">Potencias a las picas</b> y sus duelos
-      con cartas de nobleza en escasez.`,
-      en: `Have as many suits as players,
-      and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
-      If there's only three contenders, 
-      you’ll remove a set and suit.
-      Pick a fitting kind of ending:
-      one that cards allow you to.
-      Whether meant or unintended,
-      this will give the <b class="spades">spades a boost</b>.`,
-    })),
-    /*},{
-      h5__: Copy.text({
-        es: "Tablero Urbano",
-        en: "Urban Board",
-      }),
-      p__: versify(Copy.text({
-        es: `Conecta los hexágonos directo,
-        y olvídate <a class="pop" onclick="popUp('roadTiles')">de rombos y de triángulos</a>;
-        la falta de traslado en los trayectos
-        hará que se incrementen los obstáculos.`,
-        en: `To play this version correctly,
-        make a land of shorter miles,
-        connecting hexes directly
-        and removing all <a class="pop" onclick="popUp('roadTiles')">road tiles</a>.`,
-      })),*/
-  }],
-}, {
+const optionalSections = [{
   h4: Copy.text({
     es: "Ases",
     en: "Aces",
@@ -115,6 +51,69 @@ const optionalSections = [
         At the suit-appropriate places,
         they will grant an extra pip.`,
     })),
+  }],
+}, {
+  h4: Copy.text({
+    es: "Piezas",
+    en: "Tiles",
+  }),
+  section: [{
+    h5: Copy.text({
+      es: `Ciudadela Avanzada`,
+      en: `Advanced Citadel`,
+    }),
+    p: versify(Copy.text({
+      es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel')">carátula de atrás</a>,
+      incluyes estrategias importantes:
+      cuestionas corazones al entrar,
+      canjeas lo que quieras con diamantes,
+      y puedes con tus tréboles volar
+      con palos cualesquiera de restante.`,
+      en: `There are three depicted assets,
+      on this <a class="pop" onclick="popUp('advancedCitadel')">flip-side tile</a> reboot:
+      vet the hearts to grant the access;
+      buy with diamonds any loot; 
+      show your clubs for flying passes—
+      shortfall’s paid in any suit.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Palos Justos",
+      en: "Tight Suits",
+    }),
+    p: versify(Copy.text({
+      es: `Se juega con un palo por conejo
+      y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez.
+      Con tres participantes, por ejemplo,
+      retírales un palo con un set.
+      Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
+      si acaso es imposible de obtener.
+      <b class="spades">Potencias a las picas</b> y sus duelos
+      con cartas de nobleza en escasez.`,
+      en: `Have as many suits as players,
+      and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
+      If there's only three contenders, 
+      you’ll remove a set and suit.
+      Pick a fitting kind of ending:
+      one that cards allow you to.
+      Whether meant or unintended,
+      this will give the <b class="spades">spades</b> a <b class="spades">boost</b>.`,
+    })),
+    /*},{
+      h5__: Copy.text({
+        es: "Tablero Urbano",
+        en: "Urban Board",
+      }),
+      p__: versify(Copy.text({
+        es: `Conecta los hexágonos directo,
+        y olvídate <a class="pop" onclick="popUp('roadTiles')">de rombos y de triángulos</a>;
+        la falta de traslado en los trayectos
+        hará que se incrementen los obstáculos.`,
+        en: `To play this version correctly,
+        make a land of shorter miles,
+        connecting hexes directly
+        and removing all <a class="pop" onclick="popUp('roadTiles')">road tiles</a>.`,
+      })),*/
   }],
 }, {
   h4: Copy.text({

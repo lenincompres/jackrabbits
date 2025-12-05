@@ -2,7 +2,7 @@ import Copy from "../../../lib/Copy.js";
 
 const greetingsSection = {
   class: "letter",
-  h2: Copy.text({
+  h3: Copy.text({
     es: "Bienvenida",
     en: "Greetings",
   }),

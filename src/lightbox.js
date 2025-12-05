@@ -29,7 +29,7 @@ LightBox.add(new Pager({
           src: "images/albumCover.jpg",
         },
         ul: {
-          li: Song.List.map(song => ({
+          li: Song.getAlbum(0).map(song => ({
             a: {
               class: {
                 playing: Song._currentSong.as(v => v === song),

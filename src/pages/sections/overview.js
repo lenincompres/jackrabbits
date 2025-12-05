@@ -3,7 +3,7 @@ import ASSETS from "../../assets.js";
 import versify from "../../aux/versify.js";
 
 const overviewSection = {
-  h2: Copy.text({
+  h3: Copy.text({
     es: "Visión General",
     en: "Overview",
   }),
