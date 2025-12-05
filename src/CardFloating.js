@@ -53,22 +53,14 @@ class CardFloating extends Card {
     this._interval = setInterval(() => this.step(), 24);
 
     this.set({
-      position: CardFloating._forcedSuit
-        .with(CardFloating._forcedRoyal)
-        .as((suit, royal) => (suit || royal ? "fixed" : "absolute")),
+      position: "absolute",
       boxShadow: this._t.as(() => this.getShadow()),
-      fontSize: this._t.as(
-        () => `${map(this.z, 0, 1, 0.5, 0.7) * CardFloating.sizeScale}em`
-      ),
+      fontSize: this._t.as(() => `${map(this.z, 0, 1, 0.5, 0.7) * CardFloating.sizeScale}em`),
       zIndex: this._t.as(() => 100 + Math.round(this.z * 30)),
-      left: this._t.as(
-        () =>
-        `calc((100vw - 12em) * ${this.x} - ${document.body.getBoundingClientRect().left}px)`
-      ),
-      top: this._t.as(() => `calc((100% - 12em) * ${this.y})`),
-      transform: this._t.as(
-        () => `rotateX(${this.rx}rad) rotateY(${this.ry}rad) rotateZ(${this.rz}rad)`
-      ),
+      left: this._t.with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
+        .as((t, s, r) => `calc((100vw - 10em) * ${this.x} - ${s || r ? 0 : document.body.getBoundingClientRect().left}px)`),
+      top: this._t.as(() => `calc((100% - 10em) * ${this.y})`),
+      transform: this._t.as(() => `rotateX(${this.rx}rad) rotateY(${this.ry}rad) rotateZ(${this.rz}rad)`),
       onmouseout: (e) => this.flick(e),
       onmouseover: () => (this.isStill = true),
       onready: () => setTimeout(() => this.flick(), 1000),
@@ -200,7 +192,7 @@ class CardFloating extends Card {
       this.vz *= -1;
     }
 
-    if (this.x > 1 || this.x < 0) {
+    if (this.x >= 1 || this.x < 0) {
       this.x = Math.round(this.x);
       this.vx *= -1;
       this.vy *= 1 + rand();
@@ -230,13 +222,7 @@ class CardFloating extends Card {
     const x = z * xProj;
     const y = z * yProj;
 
-    return `${map(x, 0, 1, 0.4, 6)}em ${map(y, 0, 1, 0.4, 5)}em 3px rgba(0,0,0,${map(
-      z,
-      0,
-      1,
-      0.4,
-      0.1
-    )})`;
+    return `${map(x, 0, 1, 0.4, 6)}em ${map(y, 0, 1, 0.4, 5)}em 3px rgba(0,0,0,${map(z, 0, 1, 0.4, 0.1)})`;
   }
 
   // ---- existing logic ----
@@ -271,8 +257,18 @@ class CardFloating extends Card {
   );
 
   static sizeScale = Math.max(1.25, Math.min(base / 4.5, 2));
+
+  static set(num) {
+    if( num === undefined) num = CardFloating.CardNum;
+    DOM.set({
+      div: Array(num).fill().map(() => new CardFloating({
+        root: 'suityourself/',
+      })),
+    });
+  }
 }
 
 customElements.define("jk-card-float", CardFloating);
+
 
 export default CardFloating;

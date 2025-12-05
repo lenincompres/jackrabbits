@@ -71,9 +71,9 @@ class Song {
     if (this.isPlaying) {
       this.audio.pause();
       this.audio.currentTime = 0;
-      CardFloating._forcedRoyal.value = undefined;
-      CardFloating._forcedRoyal.value = undefined;
     }
+    CardFloating._forcedRoyal.value = undefined;
+    CardFloating._forcedSuit.value = undefined;
     Song._currentSong.value = null;
   }
 

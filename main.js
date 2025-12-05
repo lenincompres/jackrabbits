@@ -83,11 +83,6 @@ DOM.set({
       target: "_blank",
       text: Copy.at.buy,
     }, {
-      /*
-            href: "http://instagram.com/lenino.jackrabbits",
-            target: "_blank",
-            text: "Instagram",
-          }, {*/
       class: "button song",
       target: "_blank",
       text: Copy.text({
@@ -103,13 +98,12 @@ DOM.set({
     }),
     section: {
       markdown: Copy.text({
-        es: "Creado por [Lenin Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-        en: "Created by [Lenin Comprés](https://lenino.net) using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        es: "Creado por [Lenin A. Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
+        en: "Built by [Lenin A. Comprés](https://lenino.net). Coded using [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
       }),
     },
     onready: () => popUp('mailingList'),
   },
-  div: Array(CardFloating.CardNum).fill().map(() => new CardFloating({
-    root: 'suityourself/',
-  })),
 });
+
+CardFloating.set();

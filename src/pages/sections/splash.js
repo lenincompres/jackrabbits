@@ -17,8 +17,8 @@ const splashSection = {
   p: versify(Copy.text({
     es: `El juego de tablero en el que viajas
       al reino de conejos y barajas.`,
-    en: `The board game for playing cards
-      on a land of wooden shards`,
+    en: `Board the game of playing cards.
+      Wander lands of wooden shards.`,
   })),
   onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits","_blank"),
 };

@@ -530,7 +530,7 @@ a:hover {
 }
 
 a.thumbnail:hover img {
-  background-color: rgba(0, 0, 255, 0.3);
+  background-color: #01699466;
 }
 
 a.pop:after {
@@ -764,29 +764,30 @@ body>header a:hover {
   color: var(--ink);
 }
 
-body>header h1 {
+body>header h1 a{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
   padding-top: 1.5rem;
+  width: fit-content;
 }
 
 .logoName {
   white-space: nowrap;
+  line-height: 0.8em;
 }
 
 .logoSuper {
-  position: absolute;
-  left: 0;
-  top: -0.7rem;
+  align-self: flex-start;
 }
 
 .logoSub {
-  position: absolute;
-  right: 0;
-  bottom: -0.7rem;
+  color: var(--ink);
+  align-self: flex-end;
+  white-space: nowrap;
+  font-style: italic;
 }
 
 .rotated {
