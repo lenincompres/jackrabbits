@@ -18,7 +18,7 @@
   --field: #228B22;
   --ink: hsl(60, 40%, 18%);
   --highlight: hsl(60, 45%, 40%);
-  --shade: hsla(60, 40%, 60%, 0.5);
+  --shade: hsla(60, 40%, 50%, 0.5);
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -80,7 +80,7 @@ header {
 
 .handSection>header.margin h2 {
   rotate: 90deg;
-  color: #0007;
+  color: var(--shade);
 }
 
 .handSection>header.margin h2:after {
@@ -165,7 +165,7 @@ audio.playing {
   height: 54vw;
   object-fit: cover;
   border-radius: .5rem;
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 1px 1px 4px black;
   overflow: hidden;
   -webkit-border-radius: .5rem;
   -moz-border-radius: .5rem;
@@ -186,13 +186,6 @@ light-box>section:has(a.song.playing) {
   background-color: var(--ink);
   color: white;
 }
-
-.handSection:has(a.playing)>section:has(a.song:not(.playing)) h2,
-.handSection:has(a.playing)>section:has(a.song:not(.playing)) h3,
-.handSection:has(a.playing)>section:has(a.song:not(.playing)) h4 {
-  color: var(--ink) !important;
-}
-
 
 .handSection:has(>footer>a.song.playing)>section h4>span {
   text-shadow: 0 0 2px black;
@@ -218,7 +211,7 @@ light-box>section:has(a.song.playing) {
   .handSection>section,
   light-box>section:has(a.song.playing) {
     background-color: white;
-    box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px var(--ink);
+    box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px var(--ink);
     transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
     -webkit-transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
     -moz-transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
@@ -797,7 +790,7 @@ body>aside {
   background-color: white;
   padding: 2rem 1rem 0;
   margin: 1.5rem 0 2rem;
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 1px 1px 4px black;
   border-radius: 0.5rem;
 }
 
@@ -869,7 +862,7 @@ body>header h1>* {
   background-image: url(./images/bg.png);
   background-size: cover;
   background-position: center center;
-  box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
+  box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px black;
 }
 
 #content .carded.link {
@@ -909,7 +902,7 @@ body>header h1>* {
   padding-left: 2em;
   padding-right: 2em;
   background-color: white;
-  box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
+  box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px black;
 }
 
 .note {
@@ -952,7 +945,7 @@ body>header h1>* {
 .playlist section {
   position: relative;
   background: var(--ink);
-  box-shadow: 0 0 2rem var(--shade) inset !important;
+  box-shadow: 0 0 3rem var(--shade) inset !important;
   padding: 0.5rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -1026,7 +1019,7 @@ body>header h1>* {
 }
 
 .handSection.shuffle>section {
-  box-shadow: 0 0 2rem var(--shade) inset, 1px 1px 3px black;
+  box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px black;
   background-color: white;
 }
 
@@ -1109,7 +1102,7 @@ nav.main>ul>li>a.active {
 body>main {
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 1px 1px 4px black;
   overflow: hidden;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;

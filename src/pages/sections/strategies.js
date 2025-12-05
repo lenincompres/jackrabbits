@@ -8,7 +8,6 @@ import Song from "../../Song.js";
 
 const strategySections = [{
   style: suitStyle(Card.SUIT.C),
-  boxShadow: `0 0 2.5rem var(--${Card.SUIT.C.symbol}) inset, 1px 1px 3px black`,
   h3_clubs: Copy.text({
     es: "Tréboles <small>(Bastos)</small>",
     en: "Clovers <small>(Clubs)</small>",
@@ -59,7 +58,6 @@ const strategySections = [{
   }
 }, {
   style: suitStyle(Card.SUIT.S),
-  boxShadow: `0 0 2.5rem var(--${Card.SUIT.S.symbol}) inset, 1px 1px 3px black`,
   h3_spades: Copy.text({
     es: "Picas <small>(Espadas)</small>",
     en: "Spades <small>(Swords)</small>",
@@ -120,7 +118,6 @@ const strategySections = [{
   }
 }, {
   style: suitStyle(Card.SUIT.H),
-  boxShadow: `0 0 2.5rem var(--${Card.SUIT.H.symbol}) inset, 1px 1px 3px black`,
   h3_hearts: Copy.text({
     es: "Corazones <small>(Copas)</small>",
     en: "Hearts <small>(Cups)</small>",
@@ -171,7 +168,6 @@ const strategySections = [{
   }
 }, {
   style: suitStyle(Card.SUIT.D),
-  boxShadow: `0 0 2.5rem var(--${Card.SUIT.D.symbol}) inset, 1px 1px 3px black`,
   h3_diamonds: Copy.text({
     es: "Diamantes <small>(Oros)</small>",
     en: "Diamonds <small>(Gold)</small>",
