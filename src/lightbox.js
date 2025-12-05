@@ -57,6 +57,13 @@ LightBox.add(new Pager({
               checked: Song._repeat,
               onchange: (e) => Song.repeat = e.target.checked,
             }
+          }, {
+            label: "Shuffle: ",
+            input: {
+              type: "checkbox",
+              checked: Song._shuffle,
+              onchange: (e) => Song.shuffle = e.target.checked,
+            }
           }],
         },
         div: Copy.text({

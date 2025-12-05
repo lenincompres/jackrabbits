@@ -23,6 +23,14 @@ const expansionPage = {
         checked: Song._repeat,
         onchange: (e) => Song.repeat = e.target.checked,
       }
+    }, {
+      marginLeft: "1rem",
+      label: "Shuffle: ",
+      input: {
+        type: "checkbox",
+        checked: Song._shuffle,
+        onchange: (e) => Song.shuffle = e.target.checked,
+      }
     }],
   },
   section_shuffle: [new HandSection({

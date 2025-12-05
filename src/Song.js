@@ -25,7 +25,6 @@ class Song {
         if (Song.repeat) return Song.currentSong.start();
         this.end();
       },
-      //timeupdate: () => this.update(),
     });
     document.body.append(this.audio);
     this.link = DOM.let("a", {
@@ -64,8 +63,8 @@ class Song {
       this.audio.play();
       this.callBack();
     }
-    Song._currentSong.value = this;
-    Song._autoplay.value = !!auto;
+    Song.currentSong = this;
+    Song.autoplay = !!auto;
   }
 
   end() {
@@ -79,37 +78,63 @@ class Song {
   }
 
   static _currentSong = new Binder();
-
   static get currentSong() {
     return Song._currentSong.value;
   }
+  static set currentSong(s) {
+    Song._currentSong.value = s;
+    Song.album = s.album;
+  }
+
+  static _album = new Binder(0);
+  static get album() {
+    return Song._album.value;
+  }
+  static set album(num) {
+    Song._album.value = num;
+    Song._shuffle = !!Song.shuffle;
+  }
+
 
   static _autoplay = new Binder(false);
-
   static get autoplay() {
-    return this._autoplay.value;
+    return Song._autoplay.value;
   }
   static set autoplay(val) {
-    this._autoplay.value = !!val;
+    Song._autoplay.value = !!val;
   }
 
   static _repeat = new Binder(false);
-
   static get repeat() {
-    return this._repeat.value;
+    return Song._repeat.value;
   }
   static set repeat(val) {
-    this._repeat.value = !!val;
+    Song._repeat.value = !!val;
+  }
+
+  static _shuffle = new Binder(false);
+  static get shuffle() {
+    return Song._shuffle.value;
+  }
+  static set shuffle(val) {
+    let list = Song.getAlbum(Song.album).map(s => s);
+    list.sort((a, b) => Math.random() - 0.5);
+    Song.Shuffle = list;
+    Song._shuffle.value = !!val;
   }
 
   static List = [];
 
-  static getAlbum(num = 0) {
+  static Shuffle = [];
+
+  static getAlbum(num) {
+    if (num === undefined) num = Song.album;
     return Song.List.filter(s => s.album === num);
   }
 
   static playNext() {
-    let songs = Song.getAlbum(Song.currentSong.album);
+    let songs = Song.getAlbum(Song.album);
+    if (Song.shuffle) songs = Song.Shuffle;
     const i = songs.indexOf(Song.currentSong) + 1;
     if (songs[i]) return songs[i].start(Song.autoplay);
     if (Song.repeat) return songs[0].start(Song.autoplay);
