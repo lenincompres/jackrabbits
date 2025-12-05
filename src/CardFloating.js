@@ -53,7 +53,7 @@ class CardFloating extends Card {
     this._interval = setInterval(() => this.step(), 24);
 
     this.set({
-      position: "absolute",
+      position: CardFloating._forcedSuit.with(CardFloating._forcedRoyal).as((s, r) => s || r ? "fixed" : "absolute"),
       boxShadow: this._t.as(() => this.getShadow()),
       fontSize: this._t.as(() => `${map(this.z, 0, 1, 0.5, 0.7) * CardFloating.sizeScale}em`),
       zIndex: this._t.as(() => 100 + Math.round(this.z * 30)),
@@ -259,7 +259,7 @@ class CardFloating extends Card {
   static sizeScale = Math.max(1.25, Math.min(base / 4.5, 2));
 
   static set(num) {
-    if( num === undefined) num = CardFloating.CardNum;
+    if (num === undefined) num = CardFloating.CardNum;
     DOM.set({
       div: Array(num).fill().map(() => new CardFloating({
         root: 'suityourself/',
