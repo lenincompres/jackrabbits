@@ -33,7 +33,8 @@
   --shields: #436b95;
   --torches: #b7410d;
   --anchors: #702963;
-  --shells: #d9463e; /* #c74375; */
+  --shells: #d9463e;
+  /* #c74375; */
   --icicles: #3aa8c1;
   --bells: #b5a642;
   --fleurs: #d65282;
@@ -201,6 +202,14 @@ light-box>section:has(a.song.playing) {
   background-color: var(--ink) !important;
 }
 
+.note.footnote {
+  top: 1rem;
+  position: relative;
+  height: 100%;
+  padding-bottom: 1.6rem;
+  margin-top: -0.5rem !important;
+}
+
 @media (width > 88rem) {
 
   #languageMenu {
@@ -263,14 +272,6 @@ light-box>section:has(a.song.playing) {
 
   section:has(section.note.footnote) {
     height: calc(100% - 2rem);
-  }
-
-  .note.footnote {
-    top: 1rem;
-    position: relative;
-    height: 100%;
-    padding-bottom: 1.6rem;
-    margin-top: -0.5rem !important;
   }
 
   .optional,

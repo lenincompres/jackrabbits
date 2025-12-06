@@ -237,7 +237,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/ebd768bf-5898-4c08-8601-d5b9b40972b7.m4a",
-  en: "https://cdn1.suno.ai/1373cd44-f010-4913-8789-31cb4edfe5c1.m4a",
+  en: "https://cdn1.suno.ai/a1c28688-3dda-4133-b412-0fcb65473fff.m4a",
 }), Copy.text({
   es: "Un nuevo territorio",
   en: "A New Board of Your Own",

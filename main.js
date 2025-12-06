@@ -100,15 +100,17 @@ DOM.set({
       text: Copy.at.novel,
     }),
     section: {
-      p: [{
-        markdown: Copy.text({
-          es: "Creado por [Lenin A. Comprés](https://lenino.net) usando [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-          en: "Made by [Lenin A. Comprés](https://lenino.net). Website built with [DOM.js](https://github.com/lenincompres/DOM.js/blob/main/README.md).",
-        }),
-      }, Copy.text({
-        es: "© 2024 Lenino LLC Todos los derechos reservados.",
-        en: "© 2024 Lenino LLC All rights reserved.",
-      })],
+      p: [
+        versify(Copy.text({
+          es: `Creado por [Lenin A. Comprés](https://lenino.net),
+          usando <a href:"https://github.com/lenincompres/DOM.js/blob/main/README.md">DOM.js</a>.`,
+          en: `Made by <a href="https://lenino.net">Lenin A. Comprés</a>.
+          Website built with <a href="https://github.com/lenincompres/DOM.js/blob/main/README.md">DOM.js</a>.`,
+        })), Copy.text({
+          es: "© 2024 Lenino LLC Todos los derechos reservados.",
+          en: "© 2024 Lenino LLC All rights reserved.",
+        })
+      ],
     },
     onready: () => popUp('mailingList'),
   },

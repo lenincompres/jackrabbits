@@ -8,131 +8,6 @@ import CardExpanded from "../../CardExpanded.js";
 import Song from "../../Song.js";
 
 const neoclassicSections = [{
-  style: suitStyle(CardExpanded.SUIT.T),
-  h3_land: Copy.text({
-    es: "+ Trenes y Corceles",
-    en: "+ Trains & Steeds",
-  }),
-  img: ASSETS.cavaliers,
-  p: versify(Copy.text({
-    es: [`Añades el cuarteto de corceles.
-      Sus piezas se vinculan por los rieles.`,
-      `Las cartas de corceles las adquieres,
-      igual que las demás de la nobleza.
-      Las usas al viajar con los corceles,
-      y nunca al reclamar la Ciudadela.`,
-      `Es gratis desplazarte con los trenes,
-      que cruzan el subsuelo de inmediato.
-      Procura, en el diseño de sus rieles,
-      que no halles un final desconectado.`,
-      `En vías con caballos de los blancos,
-        si muestras un corcel que haz adquirido,
-        trasládate de gratis cabalgando,
-        tal como de los cruces del camino.`,
-    ],
-    en: [`Four more royals add their tiles.
-      These have steeds and tracks for miles.`,
-      `They are used to ride the steeds,
-      and may never win the game.
-      To fullfill their royal needs,
-      acquisition is the same.`,
-      `Ride their trains without a cost—
-      pass right through the underground.
-      Reach another hex train post—
-      link all tracks when they're set down.`,
-      `On the paths that have a steed,
-        show a Cavalier at hand,
-        and you’ll ride it as you need—
-        travel anywhere by land.`,
-    ],
-  })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[9].link,
-  },
-  div_note_footnote: {
-    h4: Copy.text({
-      es: "+ Hongo de la Pila",
-      en: "+ Pile's Mushroom",
-    }),
-    p: versify(Copy.text({
-      es: `Desígnale su punto de comienzo 
-      si sales con el último en el orden. 
-      Que olvide loterías e incrementos 
-      quienquiera que en su sitio se acomode. 
-      Reubícalo a tu agrado en el momento 
-      si acabas en el sitio en el que ronde.`,
-      en: `If you start with the last turn, 
-      choose its starting settlement.
-      Block what visitors may earn—
-      lottery and increment.
-      If you end up there in turn 
-      pick its new re-settlement.`,
-    })),
-  },
-}, {
-  style: suitStyle(CardExpanded.SUIT.A),
-  h3_sea: Copy.text({
-    es: "+ Alianzas Nobles",
-    en: "+ Noble Alliances",
-  }),
-  img: ASSETS.allies,
-  p: versify(Copy.text({
-    es: [`Los seis ayuntamientos y sus nobles;
-      y dos de los conejos jugadores.`,
-      `Los símbolos de alianzas que visitas,
-        se deben combinar al adquirirlas.
-        Un trío es de la unión capitalista;
-        y el otro, de misión naturalista.`,
-      `Las casas te permiten trasladarte
-        si pagas por los medios ilustrados.
-        El vuelo de la torre, si hay restante,
-        se paga con cualquiera de sus palos.`,
-      `La Jota de la unión capitalista
-        te vende lo que quieras por diamantes.
-        En la otra te reponen, de la pila,
-        <strong>un</strong> tiro de tus cartas que descartes.`,
-      `Los bordes en azul de los hexágonos,
-          se deben mantener desconectados.`,
-    ],
-    en: [`Two new rabbits bring their styles.
-      Six more royals add their tiles.`,
-      `These are three Capitalists
-        and three Naturalist cards.
-        Pay them both the suits they list—
-        split the cost in any parts.`,
-      `They have merchants, taverns, caves,
-        horses, cannons, or canoes.
-        Flights from towers may be saved—
-        pay with any of their suits.`,
-      `Pay one plaza diamond cards—
-        buy whatever suit you choose.
-        Pay the other one discard—
-        draw as many cards you lose.`,
-      `Hexes have a sea-blue side.
-          Leave it open to the tide.`,
-    ],
-  })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[10].link,
-  },
-  div_note_footnote: {
-    background: "var(--sea) !important",
-    h4: Copy.text({
-      es: "+ Comodín cañonero",
-      en: "+ Cannonball Joker",
-    }),
-    p: versify(Copy.text({
-      es: `El joker cañonero se te suma,
-      te lanza a la taverna que prefieras.
-      Su forma de volar es muy segura,
-      sin riesgos de acabar en las afueras.`,
-      en: `Jokers have a new addition,
-      granting trips across the air.
-      Get it with the same conditions—
-      reach the tavern you prefer.`,
-    })),
-  },
-}, {
   style: suitStyle(CardExpanded.SUIT.F),
   h3_fleurs: Copy.text({
     es: "+ Flores",
@@ -185,7 +60,7 @@ const neoclassicSections = [{
       mas nunca navegando por los mares.`,
     en: `At its post or from a den,
       send the wolf to any rabbit.
-      Spook (off-board) those there and then,
+      Spook off-board those there and then,
       take a card from each and scrap it.
       Move the wolf by ground when sent—
       crossing underground's its habit.`,
@@ -193,6 +68,135 @@ const neoclassicSections = [{
   footer: {
     a_button_song: Song.getAlbum(1)[8].link,
   }
+},{
+  style: suitStyle(CardExpanded.SUIT.T),
+  h3_land: Copy.text({
+    es: "+ Trenes y Corceles",
+    en: "+ Trains & Steeds",
+  }),
+  //img: ASSETS.cavaliers,
+  p: versify(Copy.text({
+    es: [`Añades el cuarteto de corceles.
+      Sus piezas se vinculan por los rieles.`,
+      `Las cartas de corceles las adquieres,
+      igual que las demás de la nobleza.
+      Las usas al viajar con los corceles,
+      y nunca al reclamar la Ciudadela.`,
+      `Es gratis desplazarte con los trenes,
+      que cruzan el subsuelo de inmediato.
+      Procura, en el diseño de sus rieles,
+      que no halles un final desconectado.`,
+      `En vías con caballos de los blancos,
+        si muestras un corcel que haz adquirido,
+        trasládate de gratis cabalgando,
+        tal como de los cruces del camino.`,
+    ],
+    en: [`Four more royals add their tiles,
+      each from every classic suit.
+      Tiles have steeds and tracks for miles,
+      which will aid in your commute.`,
+      `They are used to ride the steeds,
+      and may never win the game.
+      To fullfill their royal needs,
+      acquisition is the same.`,
+      `Ride their trains without a cost—
+      pass right through the underground.
+      Reach another hex train post—
+      link all tracks when they're set down.`,
+      `On the paths that have a steed,
+        show a Cavalier at hand,
+        and you’ll ride it as you need—
+        travel anywhere by land.`,
+    ],
+  })),
+  footer: {
+    a_button_song: Song.getAlbum(1)[9].link,
+  },
+  div_note_footnote: {
+    h4: Copy.text({
+      es: "+ Hongo de la Pila",
+      en: "+ Pile's Mushroom",
+    }),
+    p: versify(Copy.text({
+      es: `Desígnale su punto de comienzo 
+      si sales con el último en el orden. 
+      Que olvide loterías e incrementos 
+      quienquiera que en su sitio se acomode. 
+      Reubícalo a tu agrado en el momento 
+      si acabas en el sitio en el que ronde.`,
+      en: `If you start with the last turn, 
+      choose its starting settlement.
+      Block the pile from guests to earn—
+      lottery and increment.
+      If you end up there in turn,
+      pick its new re-settlement.`,
+    })),
+  },
+}, {
+  style: suitStyle(CardExpanded.SUIT.A),
+  h3_sea: Copy.text({
+    es: "+ Alianzas Nobles",
+    en: "+ Noble Alliances",
+  }),
+  //img: ASSETS.allies,
+  p: versify(Copy.text({
+    es: [`Los seis ayuntamientos y sus nobles;
+      y dos de los conejos jugadores.`,
+      `Los símbolos de alianzas que visitas,
+        se deben combinar al adquirirlas.
+        Un trío es de la unión capitalista;
+        y el otro, de misión naturalista.`,
+      `Las casas te permiten trasladarte
+        si pagas por los medios ilustrados.
+        El vuelo de la torre, si hay restante,
+        se paga con cualquiera de sus palos.`,
+      `La Jota de la unión capitalista
+        te vende lo que quieras por diamantes.
+        En la otra te reponen, de la pila,
+        <strong>un</strong> tiro de tus cartas que descartes.`,
+      `Los bordes en azul de los hexágonos,
+          se deben mantener desconectados.`,
+    ],
+    en: [`Two new rabbits bring their styles,
+      yet the classic suits are played.
+      Six more royals add their tiles,
+      with alliances portrayed.`,
+      `These are three Capitalists
+        and three Naturalist cards.
+        Pay them both the suits they list—
+        split the cost in any parts.`,
+      `They have merchants, taverns, caves,
+        horses, cannons, or canoes.
+        Flights from towers may be saved—
+        pay with any of their suits.`,
+      `Pay one plaza diamond cards—
+        buy whatever suit you choose.
+        Pay the other one discard—
+        draw as many cards you lose.`,
+      `Hexes have a sea-blue side.
+          Leave it open to the tide.`,
+    ],
+  })),
+  footer: {
+    a_button_song: Song.getAlbum(1)[10].link,
+  },
+  div_note_footnote: {
+    background: "var(--sea) !important",
+    h4: Copy.text({
+      es: "+ Comodín cañonero",
+      en: "+ Cannonball Joker",
+    }),
+    p: versify(Copy.text({
+      es: `El joker cañonero se te suma,
+      te lanza a la taverna que prefieras.
+      Su forma de volar es muy segura,
+      sin riesgos de acabar en las afueras.`,
+      en: `Jokers have this card to add,
+      granting trips across the air.
+      Leap from any tile you're at—
+      reach the tavern you prefer.`,
+    })),
+  },
 }];
 
 export default neoclassicSections;
