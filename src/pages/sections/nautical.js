@@ -162,7 +162,7 @@ const nauticalSections = [{
       And this island, you will see,
       is a traveler's resort.
       Guests may leave from there for free, 
-      riding on the tower's boat.`,
+      on the boat they're free to board.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[6].link,

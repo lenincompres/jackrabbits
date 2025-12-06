@@ -158,7 +158,7 @@ const neoclassicSections = [{
           se deben mantener desconectados.`,
     ],
     en: [`Two new rabbits bring their styles,
-      yet the classic suits are played.
+      as the classic suits are played.
       Six more royals add their tiles,
       with alliances portrayed.`,
       `These are three Capitalists

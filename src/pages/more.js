@@ -15,7 +15,7 @@ const morePage = {
         Copy.text({
           es: `Visítanos al vínculo de arrriba
           y adquiere la edición en exclusiva.`,
-          en: `Your own copy is here to claim.
+          en: `Here's a box for you to claim.
           Get a new <b>Jack Rabbits</b> game.`,
         })
       ),
@@ -79,7 +79,7 @@ const morePage = {
         Copy.text({
           es: `Prepárate a ambientar tu travesía,
           con cantos de aventura y fantasía.`,
-          en: `The rulebook's an epic song.
+          en: `Rules relate an epic song.
           Set the mood and sing along.`,
         })
       ),
@@ -138,8 +138,8 @@ const morePage = {
           es: `Conoce al inventor de la experienca:
             polímata del arte y de la ciencia.`,
           en: `Meet the mind behind the game.
-            His portfolio is insane.`,
-        })
+            See the face who bears the name.`,
+        }),
       ),
     }],
   },
