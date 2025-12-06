@@ -42,7 +42,7 @@ const neoclassicSections = [{
       `Any trailway crossing found
       must be paid before you pass it.
       Wells may take you underground—
-      note this is a one way access.
+      they provide a one way access.
       Pay with fleurs when you're around,
       and the wolf goes where you cast it.`
     ]
@@ -63,7 +63,7 @@ const neoclassicSections = [{
       Spook off-board those there and then,
       take a card from each and scrap it.
       Move the wolf by ground when sent—
-      crossing underground's its habit.`,
+      crossing caves is also habit.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[8].link,
@@ -168,7 +168,7 @@ const neoclassicSections = [{
       `They have merchants, taverns, caves,
         horses, cannons, or canoes.
         Flights from towers may be saved—
-        pay with any of their suits.`,
+        payed with any of their suits.`,
       `Pay one plaza diamond cards—
         buy whatever suit you choose.
         Pay the other one discard—
