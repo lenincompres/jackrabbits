@@ -53,24 +53,13 @@ DOM.set({
     figure: {
       id: "hero",
       backgroundColor: Pager._key.with(CardFloating._forcedSuit).as(suitColor),
-      img: {
-        alt: 'Jack Rabbits boardgame photo',
-        src: Pager._key.as({
-          home: 'images/photo00.png',
-          setup: 'images/photo01.png',
-          intro: 'images/photo02.png',
-          full: 'images/photo03.png',
-          more: 'images/photo04.png',
-        }),
-      },
-      a_button_video: {
-        display: Pager._key.as(val => val === 'home' ? 'block' : 'none'),
-        text: Copy.text({
-          es: "Video tutorial",
-          en: "Video tutorial",
-        }) + " ▶",
-        click: e => popUp("video"),
-      },
+      content: Pager._key.as({
+        home: ASSETS.getMedia('images/video/home.mp4'),
+        setup: ASSETS.getMedia('images/video/setup.mp4'),
+        intro: ASSETS.getMedia('images/video/intro.mp4'),
+        full: ASSETS.getMedia('images/photo03.png'),
+        more: ASSETS.getMedia('images/photo04.png'),
+      }),
     },
     article: {
       id: "content",

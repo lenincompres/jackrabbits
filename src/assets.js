@@ -1,6 +1,37 @@
+import Copy from "../lib/Copy.js";
+import Pager from "../lib/Pager.js";
 import imgCropStyle from "./aux/imgCropStyle.js";
 
 const ASSETS = {
+  getMedia(src) {
+    const a = {
+      class: 'button video',
+      text: Copy.text({
+        es: "Video tutorial",
+        en: "Video tutorial",
+      }) + " ▶",
+      click: e => popUp("video"),
+    };
+    if (src.endsWith("mp4")) return ({
+      video: {
+        source: {
+          src: src,
+          type: 'video/mp4',
+        },
+        autoplay: true,
+        loop: true,
+        muted: true,
+      },
+      a: a,
+    });
+    return ({
+      img: {
+        tag: 'img',
+        src: src,
+      },
+      a: a,
+    });
+  },
   set: (el) => {
     const name = el.get("name");
     if (el.tagName.toLowerCase() === "a") return el.set({

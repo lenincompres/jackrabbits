@@ -161,7 +161,8 @@ audio.playing {
   background-color: var(--home);
 }
 
-#hero img {
+#hero img,
+#hero video {
   width: 100%;
   max-width: 65rem;
   max-height: 16rem;
@@ -290,7 +291,8 @@ light-box>section:has(a.song.playing) {
     white-space: nowrap;
   }
 
-  #hero img {
+  #hero img,
+  #hero video {
     width: 39rem;
   }
 
@@ -369,7 +371,8 @@ light-box>section:has(a.song.playing) {
     display: block !important;
   }
 
-  #hero img {
+  #hero img,
+  #hero video {
     width: 100%;
   }
 
