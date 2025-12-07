@@ -232,11 +232,11 @@ light-box>section:has(a.song.playing) {
     background-color: #fff8;
   }
 
-  .handSection:not(.menu)>section {
+  .handSection:not(.menu)>section:not(.opened) {
     margin-left: -20.8rem !important;
   }
 
-  .handSection:not(.menu)>section>* {
+  .handSection:not(.menu)>section:not(.opened) a {
     pointer-events: none;
   }
 
@@ -248,10 +248,6 @@ light-box>section:has(a.song.playing) {
   .handSection:not(.menu)>section.opened,
   .handSection:not(.menu)>section:first-child {
     margin-left: 0 !important;
-  }
-
-  .handSection:not(.menu)>section.opened>* {
-    pointer-events: initial;
   }
 
   .handSection>footer,
