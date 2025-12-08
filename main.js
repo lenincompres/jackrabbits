@@ -54,7 +54,7 @@ DOM.set({
       id: "hero",
       backgroundColor: Pager._key.with(CardFloating._forcedSuit).as(suitColor),
       content: Pager._key.as({
-        home: ASSETS.getMedia('images/video/home.mp4'),
+        default: ASSETS.getMedia('images/video/home.mp4'),
         setup: ASSETS.getMedia('images/video/setup.mp4'),
         intro: ASSETS.getMedia('images/video/intro.mp4'),
         full: ASSETS.getMedia('images/photo03.png'),
