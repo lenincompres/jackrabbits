@@ -1,5 +1,6 @@
 import Copy from "../../../lib/Copy.js";
 import ASSETS from "../../assets.js";
+import RoyalTrio from "../../aux/RoyalTrio.js";
 import versify from "../../aux/versify.js";
 
 const overviewSection = {
@@ -30,7 +31,7 @@ const overviewSection = {
         you’ll be drawing cards as loot.`,
       ]
     }), 
-    ASSETS.royals,
+    new RoyalTrio(),
     Copy.text({
       es: [
         `Es gratis completar <b>la travesía</b>

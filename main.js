@@ -91,7 +91,7 @@ DOM.set({
     section: {
       p: [
         versify(Copy.text({
-          es: `Creado por [Lenin A. Comprés](https://lenino.net),
+          es: `Creado por <a href="https://lenino.net">Lenin A. Comprés</a>
           usando <a href:"https://github.com/lenincompres/DOM.js/blob/main/README.md">DOM.js</a>.`,
           en: `Made by <a href="https://lenino.net">Lenin A. Comprés</a>.
           Website built with <a href="https://github.com/lenincompres/DOM.js/blob/main/README.md">DOM.js</a>.`,

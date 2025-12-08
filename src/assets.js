@@ -71,6 +71,11 @@ const ASSETS = {
     src: "./images/citadel.png",
     alt: "Citadel",
   },
+  rabbitPawn: {
+    tag: "img",
+    src: "./images/rabbitPawn.png",
+    alt: "Rabbit Pawn",
+  },
   underground: {
     tag: "img",
     src: "./images/underground.png",

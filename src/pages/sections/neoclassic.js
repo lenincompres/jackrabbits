@@ -68,7 +68,7 @@ const neoclassicSections = [{
   footer: {
     a_button_song: Song.getAlbum(1)[8].link,
   }
-},{
+}, {
   style: suitStyle(CardExpanded.SUIT.T),
   h3_land: Copy.text({
     es: "+ Trenes y Corceles",
@@ -76,8 +76,10 @@ const neoclassicSections = [{
   }),
   //img: ASSETS.cavaliers,
   p: versify(Copy.text({
-    es: [`Añades el cuarteto de corceles.
-      Sus piezas se vinculan por los rieles.`,
+    es: [`Añades el cuarteto de corceles
+      al clásico conjunto de los palos.
+      Sus piezas se vinculan por los rieles
+      y vienen por sus vías con caballos.`,
       `Las cartas de corceles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
@@ -87,9 +89,9 @@ const neoclassicSections = [{
       Procura, en el diseño de sus rieles,
       que no halles un final desconectado.`,
       `En vías con caballos de los blancos,
-        si muestras un corcel que haz adquirido,
-        trasládate de gratis cabalgando,
-        tal como de los cruces del camino.`,
+      si muestras un corcel que haz adquirido,
+      trasládate de gratis cabalgando,
+      tal como de los cruces del camino.`,
     ],
     en: [`Four more royals add their tiles,
       each from every classic suit.
@@ -140,22 +142,24 @@ const neoclassicSections = [{
   }),
   //img: ASSETS.allies,
   p: versify(Copy.text({
-    es: [`Los seis ayuntamientos y sus nobles;
-      y dos de los conejos jugadores.`,
+    es: [`Los seis ayuntamientos y sus nobles
+      combinan a los palos iniciales.
+      Y dos de los conejos jugadores
+      se pueden resultar adicionales.`,
       `Los símbolos de alianzas que visitas,
-        se deben combinar al adquirirlas.
-        Un trío es de la unión capitalista;
-        y el otro, de misión naturalista.`,
+      se deben combinar al adquirirlas.
+      Un trío es de la unión capitalista;
+      y el otro, de misión naturalista.`,
       `Las casas te permiten trasladarte
-        si pagas por los medios ilustrados.
-        El vuelo de la torre, si hay restante,
-        se paga con cualquiera de sus palos.`,
+      si pagas por los medios ilustrados.
+      El vuelo de la torre, si hay restante,
+      se paga con cualquiera de sus palos.`,
       `La Jota de la unión capitalista
-        te vende lo que quieras por diamantes.
-        En la otra te reponen, de la pila,
-        <strong>un</strong> tiro de tus cartas que descartes.`,
+      te vende lo que quieras por diamantes.
+      En la otra te reponen, de la pila,
+      <strong>un</strong> tiro de tus cartas que descartes.`,
       `Los bordes en azul de los hexágonos,
-          se deben mantener desconectados.`,
+      se deben mantener desconectados.`,
     ],
     en: [`Two new rabbits bring their styles,
       as the classic suits are played.
