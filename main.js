@@ -89,7 +89,7 @@ DOM.set({
       text: Copy.at.novel,
     }),
     section: {
-      marginTop: "2rem",
+      marginTop: "1.5rem",
       p: [
         versify(Copy.text({
           es: `Creado por <a href="https://lenino.net">Lenin A. Comprés</a>
