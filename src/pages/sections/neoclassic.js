@@ -31,19 +31,19 @@ const neoclassicSections = [{
       El lobo es obediente a tu señuelo,
       si pagas al venir por su traslado.`
     ],
-    en: [`There're no royals in this style;
-      just a rabbit and more tiles.`,
-      `Fleurs are classic suits' replacements,
+    en: [`Fleurs are classic suits' replacements,
       but won't have their special powers:
       fighting spades, or heart engagements,
       diamond trades, or clover towers.
       They fulfill the transfer payments—
       don't claim royals with these flowers.`,
-      `Any trailway crossing found
+      `There're no royals in this style;
+      just a rabbit and more tiles.`,
+      `Any trailway through their grounds
       must be paid before you pass it.
       Wells may take you underground—
       these provide a one way access.
-      Pay with fleurs when you're around,
+      Pay with fleurs where dens are found,
       and the wolf goes where you cast it.`
     ]
   })),
