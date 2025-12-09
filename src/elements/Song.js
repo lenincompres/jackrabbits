@@ -1,6 +1,6 @@
-import Copy from "../lib/Copy.js";
-import LightBox from "../lib/LightBox.js";
-import Pager from "../lib/Pager.js";
+import Copy from "../../lib/Copy.js";
+import LightBox from "../../lib/LightBox.js";
+import Pager from "../../lib/Pager.js";
 import Card from "./Card.js";
 import CardFloating from "./CardFloating.js";
 

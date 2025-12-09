@@ -2,8 +2,8 @@ import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
 import transferSections from "./sections/transfers.js";
 import turnSections from "./sections/turns.js";
-import Song from "../Song.js";
-import HandSection from "../HandSection.js";
+import Song from "../elements/Song.js";
+import HandSection from "../elements/HandSection.js";
 
 const introPage = {
   article: new HandSection({

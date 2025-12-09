@@ -1,4 +1,4 @@
-import CardFloating from "../CardFloating.js";
+import CardFloating from "../elements/CardFloating.js";
 
 export const mixColor = (v, p = 20, b = "white") => `color-mix(in srgb, var(--${v}) ${p}%, ${b})`;
 

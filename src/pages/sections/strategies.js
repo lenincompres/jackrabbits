@@ -1,10 +1,10 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../assets.js";
+import ASSETS from "../../aux/assets.js";
 import { mixColor, suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
-import Card from "../../Card.js";
-import CardFloating from "../../CardFloating.js";
-import Song from "../../Song.js";
+import Card from "../../elements/Card.js";
+import CardFloating from "../../elements/CardFloating.js";
+import Song from "../../elements/Song.js";
 
 const strategySections = [{
   style: suitStyle(Card.SUIT.C),

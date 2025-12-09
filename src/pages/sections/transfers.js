@@ -1,5 +1,5 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../assets.js";
+import ASSETS from "../../aux/assets.js";
 import versify, {
   classifyChars
 } from "../../aux/versify.js";

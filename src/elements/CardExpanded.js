@@ -1,4 +1,4 @@
-import Copy from "../lib/Copy.js";
+import Copy from "../../lib/Copy.js";
 import Card from "./Card.js";
 import Song from "./Song.js";
 

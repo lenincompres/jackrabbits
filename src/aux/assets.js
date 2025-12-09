@@ -1,15 +1,15 @@
-import Copy from "../lib/Copy.js";
-import Pager from "../lib/Pager.js";
-import imgCropStyle from "./aux/imgCropStyle.js";
+import Copy from "../../lib/Copy.js";
+import Pager from "../../lib/Pager.js";
+import imgCropStyle from "./imgCropStyle.js";
 
 const ASSETS = {
-  getMedia(src, srcImg = "images/photo01.png") {
+  getMedia(src, still = "images/photo01.png") {
     const isVideo = src.toLowerCase().endsWith('.mp4') || src.toLowerCase().endsWith('.webm') || src.toLowerCase().endsWith('.ogg');
     const _videoStarted = new Binder(false);
     return ({
       img: {
-        display: !isVideo ? null : _videoStarted.as('inline-block', 'none'),
-        src: isVideo ? srcImg : src,
+        display: !isVideo ? undefined : _videoStarted.as('inline-block', 'none'),
+        src: isVideo ? still : src,
         alt: "Video tutorial thumbnail",
       },
       video: !isVideo ? null : {

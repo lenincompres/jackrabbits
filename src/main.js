@@ -1,20 +1,20 @@
-import versify from "./src/aux/versify.js";
-import Copy from "./lib/Copy.js";
-import Pager from "./lib/Pager.js";
-import ASSETS from "./src/assets.js";
-import CardFloating from "./src/CardFloating.js";
-import "./src/copy.js";
-import morePage from "./src/pages/more.js";
-import fullPage from "./src/pages/full.js";
-import introPage from "./src/pages/intro.js";
-import setupPage from "./src/pages/setup.js";
-import homePage from "./src/pages/home.js";
-import "./src/lightbox.js";
-import expansionPage from "./src/pages/expansions.js";
+import versify from "./aux/versify.js";
+import Copy from "../lib/Copy.js";
+import Pager from "../lib/Pager.js";
+import ASSETS from "./aux/assets.js";
+import CardFloating from "./elements/CardFloating.js";
+import "./copy.js";
+import morePage from "./pages/more.js";
+import fullPage from "./pages/full.js";
+import introPage from "./pages/intro.js";
+import setupPage from "./pages/setup.js";
+import homePage from "./pages/home.js";
+import "./lightbox.js";
+import expansionPage from "./pages/expansions.js";
 import {
   mixColor,
   suitColor
-} from "./src/aux/color.js";
+} from "./aux/color.js";
 
 Pager.add({
   home: homePage,

@@ -1,11 +1,11 @@
-import ASSETS from "./assets.js";
+import ASSETS from "./aux/assets.js";
 import versify from "./aux/versify.js";
 import Copy from "../lib/Copy.js";
 import LightBox from "../lib/LightBox.js";
 import Pager from "../lib/Pager.js";
 import homePage from "./pages/home.js";
 import boardSection from "./pages/sections/board.js";
-import Song from "./Song.js";
+import Song from "./elements/Song.js";
 import endingSection from "./pages/sections/ending.js";
 
 window.popUp = key => LightBox.open(key);

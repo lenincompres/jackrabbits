@@ -2,7 +2,7 @@ import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
 import strategySections from "./sections/strategies.js";
 import optionalSections from "./sections/options.js";
-import HandSection from "../HandSection.js";
+import HandSection from "../elements/HandSection.js";
 
 const fullPage = {
   section_shuffle: new HandSection({

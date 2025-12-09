@@ -1,4 +1,4 @@
-import Copy from "../lib/Copy.js";
+import Copy from "../../lib/Copy.js";
 
 export class HandSection extends HTMLElement {
 

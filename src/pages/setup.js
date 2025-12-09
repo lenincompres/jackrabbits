@@ -1,8 +1,8 @@
 import Copy from "../../lib/Copy.js";
-import ASSETS from "../assets.js";
+import ASSETS from "../aux/assets.js";
 import versify from "../aux/versify.js";
-import HandSection from "../HandSection.js";
-import Song from "../Song.js";
+import HandSection from "../elements/HandSection.js";
+import Song from "../elements/Song.js";
 
 const setupPage = {
   section: new HandSection({

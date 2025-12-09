@@ -3,8 +3,8 @@ import versify from "../aux/versify.js";
 import classicSections from "./sections/neoclassic.js";
 import frontierSections from "./sections/frontier.js";
 import nauticalSections from "./sections/nautical.js";
-import HandSection from "../HandSection.js";
-import Song from "../Song.js";
+import HandSection from "../elements/HandSection.js";
+import Song from "../elements/Song.js";
 
 const expansionPage = {
   menu: {

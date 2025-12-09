@@ -1,11 +1,11 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../assets.js";
+import ASSETS from "../../aux/assets.js";
 import {
   suitStyle
 } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
-import CardExpanded from "../../CardExpanded.js";
-import Song from "../../Song.js";
+import CardExpanded from "../../elements/CardExpanded.js";
+import Song from "../../elements/Song.js";
 
 const neoclassicSections = [{
   style: suitStyle(CardExpanded.SUIT.F),
