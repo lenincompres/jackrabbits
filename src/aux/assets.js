@@ -19,10 +19,13 @@ const ASSETS = {
         muted: true,
         preload: "auto",
         src: src,
-        playing: () => _videoStarted.value = true,
+        oncanplay: ev => {
+          ev.target.muted = true;
+          ev.target.play();
+          _videoStarted.value = true;
+        },
       },
-      a: {
-        class: 'button video',
+      a_button_video: {
         text: Copy.text({
           es: "Video tutorial",
           en: "Video tutorial",

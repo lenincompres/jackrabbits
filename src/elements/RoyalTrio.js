@@ -12,7 +12,7 @@ export class RoyalTrio extends HTMLElement {
     setInterval(() => this.counter += 1, 2000);
     this._counter.bind(val => val % 2 && (this.state = (this.state + 1) % 5));
 
-    this.suits = [];
+    this.suits = RoyalTrio.SUITS.map(s => s);
     this._state.bind(val => this.suits = RoyalTrio.SUITS.map(s => s).sort(() => 0.5 - Math.random()));
 
     this.set({
@@ -77,7 +77,7 @@ export class RoyalTrio extends HTMLElement {
             if (s > 3) return this.suits[0].color;
             if ([1, 3].includes(s)) {
               this.suits.shift();
-              return this.suits[0].color;
+              if (this.suits[0]) return this.suits[0].color;
             }
             return "#333";
           }),
