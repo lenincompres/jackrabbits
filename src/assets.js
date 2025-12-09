@@ -3,33 +3,32 @@ import Pager from "../lib/Pager.js";
 import imgCropStyle from "./aux/imgCropStyle.js";
 
 const ASSETS = {
-  getMedia(src) {
-    const a = {
-      class: 'button video',
-      text: Copy.text({
-        es: "Video tutorial",
-        en: "Video tutorial",
-      }) + " ▶",
-      click: e => popUp("video"),
-    };
-    if (src.endsWith("mp4")) return ({
-      video: {
-        source: {
-          src: src,
-          type: 'video/mp4',
-        },
+  getMedia(src, srcImg = "images/photo01.png") {
+    const isVideo = src.toLowerCase().endsWith('.mp4') || src.toLowerCase().endsWith('.webm') || src.toLowerCase().endsWith('.ogg');
+    const _videoStarted = new Binder(false);
+    return ({
+      img: {
+        display: !isVideo ? null : _videoStarted.as('inline-block', 'none'),
+        src: isVideo ? srcImg : src,
+        alt: "Video tutorial thumbnail",
+      },
+      video: !isVideo ? null : {
+        display: _videoStarted.as('none', 'inline-block'),
         autoplay: true,
         loop: true,
         muted: true,
-      },
-      a: a,
-    });
-    return ({
-      img: {
-        tag: 'img',
+        preload: "auto",
         src: src,
+        playing: () => _videoStarted.value = true,
       },
-      a: a,
+      a: {
+        class: 'button video',
+        text: Copy.text({
+          es: "Video tutorial",
+          en: "Video tutorial",
+        }) + " ▶",
+        click: e => popUp("video"),
+      },
     });
   },
   set: (el) => {
