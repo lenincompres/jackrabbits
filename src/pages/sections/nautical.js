@@ -29,7 +29,7 @@ const nauticalSections = [{
       but unlike you do with swords,
       it’s a gentler sort of spell
       where no one will fall off-board.
-      Every player where you dwell 
+      Every player, where you dwell,
       gifts to you a card they hoard,
       or may duel and add their bells—
       if they win, your plea's ignored.`,
@@ -81,8 +81,8 @@ const nauticalSections = [{
       make its claim hard to achieve.
       Choose its noble from the aisle,
       where the royals take their leave.
-      Use an anchor to beguile:
-      set it as a weight beneath.
+      Set an anchor as its pile:
+      one card weighing underneath.
       Add its value for the while,
       and discard it when they leave.`,
   })),
@@ -106,7 +106,7 @@ const nauticalSections = [{
       sail it to an anchor hex,
       you must choose one of the three.
       Note the anchor tower’s specs—
-      trade the suits that you decree.`,
+      trade with suits that you decree.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[5].link,
@@ -133,12 +133,12 @@ const nauticalSections = [{
       limítate a las cartas que recibas.`,
     en: `Its connection underground,
       which is set when games begin,
-      will provide a landing ground,
-      where the boats may reach within.
-      You may draw when you're around—
+      now provides a landing ground—
+      where the boats may venture in.
+      You may draw when you're around,
       twice as many cards you bin. 
-      One discard per turn's allowed,
-      so you keep the cards you win.`,
+      Toss your shells beneath the ground,
+      for a double card-count win.`,
   })),
   h4_shells_: Copy.text({
     es: "Traslado desde el Mar",

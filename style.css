@@ -51,7 +51,7 @@ html {
 
 section,
 header {
-  scroll-margin: 2.5rem;
+  scroll-margin: 3rem;
 }
 
 .nextArrow {
@@ -557,10 +557,6 @@ line>span.highlighted {
     -ms-transform: translateY(00.2em);
     -o-transform: translateY(00.2em);
   }
-}
-
-line>span:first-child>span {
-  margin-right: -0.5em;
 }
 
 a {

@@ -184,7 +184,7 @@ const frontierSections = [{
     en: `Leaving acorns on display,
       adds them to the <i>overload</i>.
       Do this when you end your play,
-      it impacts those down the road.
+      it impacts turns down the road.
       Get the sum this pile will weigh—
       add it to the dice when rolled.
       Please discard it right away,
