@@ -42,7 +42,7 @@ const neoclassicSections = [{
       `Any trailway crossing found
       must be paid before you pass it.
       Wells may take you underground—
-      they provide a one way access.
+      these provide a one way access.
       Pay with fleurs when you're around,
       and the wolf goes where you cast it.`
     ]

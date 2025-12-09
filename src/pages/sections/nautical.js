@@ -25,8 +25,6 @@ const nauticalSections = [{
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
       que sumen sus campanas en el duelo.`,
-    //Si imploras de la torre acampanada,
-    //afectas al tablero por completo.`,
     en: `You may duel with bells as well, 
       but unlike you do with swords,
       it’s a gentler sort of spell
@@ -35,8 +33,6 @@ const nauticalSections = [{
       gifts to you a card they hoard,
       or may duel and add their bells—
       if they win, your plea's ignored.`,
-    //Implore from their tower's cell,
-    //to plea all over the board.`,
   })),
   h4_bells_: Copy.text({
     es: "Traslado al aislamiento",
@@ -50,7 +46,7 @@ const nauticalSections = [{
       La cueva en el destino es la sellada,
       que exige que se pague por su acceso.
       La otra que es gratuita es la de entrada,
-      que empieza conectada en el subsuelo.`,
+      que veta su poder en el subsuelo.`,
     en: `There’s a cave that has a fee 
       to escape its tower's tile.
       Pay wherever you may be 
@@ -58,7 +54,7 @@ const nauticalSections = [{
       Even those off-board at sea 
       may be transferred to this isle.
       Underground, this cave is free, 
-      and you're safe from facing trial.`,
+      and you're safe from this suit's trial.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[4].link,
@@ -102,7 +98,7 @@ const nauticalSections = [{
       el barco te recoge en el proceso,
       y a un puerto de las anclas te transfieres.
       Su torre es un mercado heterogéneo:
-      comercia con los palos que prefieres.`,
+      comercia lo que sea que prefieres.`,
     en: `If you board the sailboat’s deck,
       sail it anywhere for free. 
       If you pay at sea-bound treks,
@@ -135,13 +131,13 @@ const nauticalSections = [{
       las cambia por el doble de la pila.
       Por turnos, un canjeo se te otorga;
       limítate a las cartas que recibas.`,
-    en: `Its extension underground,
+    en: `Its connection underground,
       which is set when games begin,
       will provide a landing ground,
       where the boats may reach within.
       You may draw when you're around—
       twice as many cards you bin. 
-      Just a trade per turn's allowed,
+      One discard per turn's allowed,
       so you keep the cards you win.`,
   })),
   h4_shells_: Copy.text({
@@ -207,9 +203,6 @@ const nauticalSections = [{
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
       se expulsan con el viento huracanado`,
-    /*
-          terminan con su turno en el destierro,
-          o esperan a que se haya trasladado.`,*/
     en: `Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex on that piece,
