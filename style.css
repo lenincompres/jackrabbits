@@ -424,7 +424,7 @@ h3,
 h4,
 h5 {
   font-family: title;
-  line-height: 1.2em;
+  line-height: 1em;
   text-transform: uppercase;
   margin: 0;
 }
@@ -456,6 +456,10 @@ h5 {
   font-size: .9em;
 }
 
+h4:not(:first-of-type){
+  margin-top: 0.5rem;
+}
+
 strong {
   font-weight: normal;
   /*font-style: italic;*/
@@ -474,7 +478,7 @@ li {
 }
 
 p {
-  margin: 0 auto 0.7rem;
+  margin: 0.4rem auto 0.6rem;
 }
 
 .handSection p:last-child {
@@ -852,6 +856,14 @@ body>header h1>* {
 .handSection>section img {
   margin: 0 auto 0.5rem;
   width: auto;
+}
+
+.handSection.shuffle>section img {
+  margin: 0.5rem auto 0.8rem !important;
+}
+
+.handSection.shuffle>section a.button {
+  margin-top: 0.5rem !important;
 }
 
 .carded {

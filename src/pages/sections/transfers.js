@@ -68,15 +68,12 @@ const transferSections = [{
     })),
   },
 }, {
+  h4_horizontal: "Off the road",
   p_horizontal: introText,
-  h4: {
-    marginTop: '1.2rem',
-    tag: "h4",
-    html: Copy.text({
-      es: classifyChars("Vericuetos", "clubs", "spades", " hearts"),
-      en: classifyChars("Trailways", "clubs", "spades", " hearts"),
-    })
-  },
+  h4_: Copy.text({
+    es: classifyChars("Vericuetos", "clubs", "spades", " hearts"),
+    en: classifyChars("Trailways", "clubs", "spades", " hearts"),
+  }),
   p: versify(Copy.text({
     es: `Los bosques, las montañas y los ríos,
       que ves en las imágenes de abajo,
