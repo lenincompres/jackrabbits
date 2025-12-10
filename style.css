@@ -31,9 +31,9 @@
   --acorns: #6e6e30;
   --horseshoes: #89420a;
   --shields: #436b95;
-  --torches: #b7410d;
-  --anchors: #702963;
-  --shells: #d9463e;
+  --torches: #c04000;
+  --anchors: #8e4585; /* #702963; */
+  --shells: #dc5349;
   /* #c74375; */
   --icicles: #3aa8c1;
   --bells: #b5a642;
@@ -863,7 +863,7 @@ body>header h1>* {
 }
 
 .handSection.shuffle>section a.button {
-  margin-top: 0.5rem !important;
+  margin-top: 0.6rem !important;
 }
 
 .carded {

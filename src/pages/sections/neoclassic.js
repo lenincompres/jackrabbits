@@ -63,7 +63,7 @@ const neoclassicSections = [{
       Spook off-board those there and then,
       take a card from each and scrap it.
       Move the wolf by ground when sent—
-      crossing caves is also habit.`,
+      using caves and wells as habit.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[8].link,
@@ -158,7 +158,7 @@ const neoclassicSections = [{
       te vende lo que quieras por diamantes.
       En la otra te reponen, de la pila,
       <strong>un</strong> tiro de tus cartas que descartes.`,
-      `Los bordes en azul de los hexágonos,
+      `Respétales el puerto en sus hexágonos;
       se deben mantener desconectados.`,
     ],
     en: [`Two new rabbits bring their styles,

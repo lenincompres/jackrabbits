@@ -145,7 +145,7 @@ class Song {
 
 export default Song;
 
-window.visitSong = (key, suit) => {
+window.visitSong = (key, suit, royals) => {
   LightBox.close();
   if (Pager.key != key) Pager.key = key;
   // Handle forced suit or royal
@@ -154,6 +154,9 @@ window.visitSong = (key, suit) => {
     // if boolean, it's for royal
     CardFloating._forcedRoyal.value = suit;
     suit = undefined;
+  }
+  if (typeof royals === "boolean") {
+    CardFloating._forcedRoyal.value = royals;
   }
   CardFloating._forcedSuit.value = suit;
   // Display all pages

@@ -163,7 +163,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Fleurs",
   en: "Fleurs",
-}), () => visitSong("expansion", CardExpanded.SUIT.F), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/655d1c46-a5fc-4c8c-b49d-00481c3dd467.m4a",

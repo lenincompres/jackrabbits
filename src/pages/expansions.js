@@ -42,8 +42,8 @@ const expansionPage = {
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
           plus a rodent with new styles.`,
-        es: `Los palos con sus cartas de nobleza,
-          te añaden un rodente con sus piezas.`,
+        es: `Sus palos incrementan nobleza,
+          y añaden un rodente con sus piezas.`,
       })),
     },
     section: frontierSections.sort(() => Math.random() - 0.5),
@@ -53,10 +53,10 @@ const expansionPage = {
           leave it open to the tide.
           Circles have a suit inside—
           these grant transfers from outside.`,
-        es: `Los bordes en azul de sus hexágonos,
+        es: `Respétales el puerto en sus hexágonos;
           se deben mantener desconectados.
-          Los pagos con un círculo en sus palos
-          se aceptan de lugares alejados.`,
+          Y fíjate en los círculos con palos;
+          se pagan de lugares alejados.`,
       })),
     },
   }), new HandSection({
@@ -68,8 +68,8 @@ const expansionPage = {
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
           plus a rodent with new styles.`,
-        es: `Los palos con sus cartas de nobleza,
-          te añaden un rodente con sus piezas.`,
+        es: `Sus palos incrementan nobleza,
+          y añaden un rodente con sus piezas.`,
       })),
     },
     section: nauticalSections.sort(() => Math.random() - 0.5),
@@ -79,10 +79,10 @@ const expansionPage = {
           leave it open to the tide.
           Circles have a suit inside—
           these grant transfers from outside.`,
-        es: `Los bordes en azul de sus hexágonos,
+        es: `Respétales el puerto en sus hexágonos;
           se deben mantener desconectados.
-          Los pagos con un círculo en sus palos
-          se aceptan de lugares alejados.`,
+          Y fíjate en los círculos con palos;
+          se pagan de lugares alejados.`,
       })),
     },
   }), new HandSection({
