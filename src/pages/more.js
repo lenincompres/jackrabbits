@@ -59,9 +59,9 @@ const morePage = {
       p: versify(
         Copy.text({
           es: `El test revelará tu identidad
-        y el símbolo de más afinidad.`,
-          en: `Click this link to take the test.
-          See what suit would suit you best.`,
+          y el símbolo de más afinidad.`,
+          en: `See what suit would suit you best.
+          Click this link to take the test.`,
         })
       ),
     }, {
@@ -71,7 +71,6 @@ const morePage = {
             es: "Disfruta del Album",
             en: "Experience the Music",
           }),
-          target: "_blank",
           click: () => popUp('playlist'),
         }
       },

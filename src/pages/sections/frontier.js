@@ -151,7 +151,7 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas, o te buscan.`,
-    en: `Pay to summon a brown horse—
+    en: `Pay to summon a wild horse—
       on the islands where they're found.
       They will reach you from their source,
       if it's possible by ground.

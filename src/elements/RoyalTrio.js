@@ -4,13 +4,14 @@ import ASSETS from "../aux/assets.js";
 export class RoyalTrio extends HTMLElement {
   constructor() {
     super();
+
     this.binderSet({
       counter: 0,
       state: 0,
     });
 
-    setInterval(() => this.counter += 1, 2000);
-    this._counter.bind(val => val % 2 && (this.state = (this.state + 1) % 5));
+    setInterval(() => this.parentElement.classList.contains("opened") ? this.counter += 1 : this.counter = 0, 2000);
+    this._counter.bind(val => val % 2 && (this.state = Math.floor(this.counter / 2) % 5));
 
     this.suits = RoyalTrio.SUITS.map(s => s);
     this._state.bind(val => this.suits = RoyalTrio.SUITS.map(s => s).sort(() => 0.5 - Math.random()));
@@ -23,7 +24,7 @@ export class RoyalTrio extends HTMLElement {
       img: {
         zIndex: 1,
         position: "relative",
-        content: ASSETS.rabbitPawn
+        content: ASSETS.rabbitPawn,
       },
       i: {
         lineHeight: "1em",
@@ -58,11 +59,11 @@ export class RoyalTrio extends HTMLElement {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          justifyContent: "center",
           width: "1.5em",
           height: "2.1em",
           fontSize: "1.4rem",
           lineHeight: "1rem",
-          paddingTop: "0.2em",
           marginLeft: "-0.8em",
           transition: "all 0.5s ease",
           transitionDelay: `0.${i+1}s`,
@@ -71,8 +72,8 @@ export class RoyalTrio extends HTMLElement {
           backgroundColor: "white",
           boxShadow: "1px 1px 3px black",
           position: "absolute",
-          bottom: this._counter.as(s => `${s%2 * 1.6 - 0.2 * i}em`),
-          opacity: this._counter.as(s => s % 2),
+          bottom: this._counter.as(c => `${(c % 2) * 1.6 - 0.2 * i}em`),
+          opacity: this._counter.as(c => c % 2),
           color: this._state.as(s => {
             if (s > 3) return this.suits[0].color;
             if ([1, 3].includes(s)) {
@@ -82,12 +83,12 @@ export class RoyalTrio extends HTMLElement {
             return "#333";
           }),
           small: this._state.as(s => {
-            if (s > 3) return this.suits[0].symbol + "</br>";
-            if ([1, 3].includes(s)) return this.suits[0].symbol + "</br>";
-            return "♔</br>";
+            if (s > 3) return this.suits[0].symbol;
+            if ([1, 3].includes(s)) return this.suits[0].symbol;
+            return "";
           }),
           b: {
-            text: this._state.as(s => s < 2 ? "?" : ["K", "Q", "J"][i]),
+            text: this._state.as(s => s < 2 ? "♔" : ["K", "Q", "J"][i]),
           },
         }
       })),

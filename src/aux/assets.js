@@ -94,6 +94,7 @@ const ASSETS = {
     alt: "Sample board",
   },
   guides: {
+    height: "17rem",
     tag: "img",
     src: "./images/guides.png",
     alt: "Guides",
