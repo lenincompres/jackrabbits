@@ -28,17 +28,18 @@
   --hearts: #a52a2a;
   --spades: darkslateblue;
   --diamonds: darkgoldenrod;
+
   --acorns: #6e6e30;
   --horseshoes: #89420a;
   --shields: #436b95;
   --torches: #c04000;
-  --anchors: #8e4585; /* #702963; */
+
+  --anchors: #8e4585; 
   --shells: #dc5349;
-  /* #c74375; */
   --icicles: #3aa8c1;
   --bells: #b5a642;
+  
   --fleurs: #d65282;
-  /* #b784a7; opera mauve, rose gold */
 }
 
 #pre-show {
