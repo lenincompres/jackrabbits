@@ -1,6 +1,6 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import versify from "../../aux/versify.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 
 const splashSection = {
   class: "carded link",
@@ -13,7 +13,7 @@ const splashSection = {
       en: "Purchase the game",
     }),
   },
-  img: ASSETS.jackRabbits,
+  img: new MediaFigure("jackRabbits"),
   p: versify(Copy.text({
     es: `El juego de tablero en el que viajas
       al reino de conejos y barajas.`,

@@ -1,8 +1,9 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
+import imgCropStyle from "../../aux/imgCropStyle.js";
 import versify, {
   classifyChars
 } from "../../aux/versify.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 
 const introText = versify(Copy.text({
   es: `Es gratis desplazarte a los hexágonos
@@ -26,7 +27,7 @@ const introText = versify(Copy.text({
 const transferSections = [{
   class: "accent",
   p_vertical: introText,
-  img: ASSETS.roadTiles,
+  img: new MediaFigure("roadTiles"),
   aside_note: {
     h4: Copy.text({
       es: "El precio",
@@ -88,7 +89,9 @@ const transferSections = [{
       Pay with cards of proper suits:
       club or spade or even heart.`,
   })),
-  img: ASSETS.rhombi,
+  img: new MediaFigure("roads", {
+    img: imgCropStyle("17rem", "5.5rem", "left"),
+  }),
 }, {
   h4: Copy.text({
     es: classifyChars("Mercaderes", " diamonds", "spades"),
@@ -131,7 +134,9 @@ const transferSections = [{
       Choose a joker card to hold,
       and release to claim their ride.`,
   })),
-  img: ASSETS.rides,
+  img: new MediaFigure("roads", {
+    img: imgCropStyle("17rem", "5.5rem"),
+  }),
 }, {
   h4: Copy.text({
     es: classifyChars("Madrigueras", " diamonds", "clubs"),
@@ -178,7 +183,9 @@ const transferSections = [{
       There your <b>increment</b>’s restored,
       and you’ll wait another round.`,
   })),
-  img: ASSETS.caves,
+  figure: new MediaFigure("roads", {
+    img: imgCropStyle("17rem", "5.5rem", "right"),
+  }),
 }];
 
 export default transferSections;

@@ -1,5 +1,5 @@
 import Copy from "../../lib/Copy.js";
-import ASSETS from "../aux/assets.js";
+import MediaFigure from "./MediaFigure.js";
 
 export class RoyalTrio extends HTMLElement {
   constructor() {
@@ -24,7 +24,7 @@ export class RoyalTrio extends HTMLElement {
       img: {
         zIndex: 1,
         position: "relative",
-        content: ASSETS.rabbitPawn,
+        content: new MediaFigure("rabbitPawn"),
       },
       i: {
         lineHeight: "1em",

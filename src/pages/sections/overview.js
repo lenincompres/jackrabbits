@@ -1,5 +1,4 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import RoyalTrio from "../../elements/RoyalTrio.js";
 import versify from "../../aux/versify.js";
 

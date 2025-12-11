@@ -1,6 +1,6 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import versify from "../../aux/versify.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const boardSection = {
@@ -58,7 +58,7 @@ const boardSection = {
         es: 'Ciudadela',
       }),
     },
-    img: ASSETS.guides,
+    figure: new MediaFigure("guides"),
   },
   p_0: versify(Copy.text({
     es: `Evita callejones sin salidas,<sup class="warning rotated">T</sup>

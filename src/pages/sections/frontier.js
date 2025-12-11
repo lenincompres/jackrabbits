@@ -1,10 +1,10 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import {
   suitStyle
 } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import CardExpanded from "../../elements/CardExpanded.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const frontierSections = [{
@@ -13,7 +13,7 @@ const frontierSections = [{
     es: "Escudos",
     en: "Shields",
   }),
-  img: ASSETS.shields,
+  img: new MediaFigure("shields"),
   h4_shields: Copy.text({
     es: "Clausurar los hexágonos",
     en: "Seal the hexes",
@@ -65,7 +65,7 @@ const frontierSections = [{
     es: "Antorchas",
     en: "Torches",
   }),
-  img: ASSETS.torches,
+  img: new MediaFigure("torches"),
   h4_torches: Copy.text({
     es: "Saquear con fuego",
     en: "Plunder with fire",
@@ -117,7 +117,7 @@ const frontierSections = [{
     es: "Herraduras",
     en: "Horseshoes",
   }),
-  img: ASSETS.horseshoes,
+  img: new MediaFigure("horseshoes"),
   h4_horseshoes: Copy.text({
     es: "Trapichear en el subsuelo",
     en: "Hustle underground",
@@ -169,7 +169,7 @@ const frontierSections = [{
     es: "Bellotas",
     en: "Acorns",
   }),
-  img: ASSETS.acorns,
+  img: new MediaFigure("acorns"),
   h4_acorns: Copy.text({
     es: "Cargar los dados",
     en: "Load the dice",

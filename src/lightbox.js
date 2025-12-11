@@ -1,4 +1,3 @@
-import ASSETS from "./aux/assets.js";
 import versify from "./aux/versify.js";
 import Copy from "../lib/Copy.js";
 import LightBox from "../lib/LightBox.js";
@@ -7,6 +6,7 @@ import homePage from "./pages/home.js";
 import boardSection from "./pages/sections/board.js";
 import Song from "./elements/Song.js";
 import endingSection from "./pages/sections/ending.js";
+import MediaFigure from "./elements/MediaFigure.js";
 
 window.popUp = key => LightBox.open(key);
 
@@ -95,7 +95,7 @@ LightBox.add(new Pager({
       es: "Ciudadela",
       en: "Citadel",
     }),
-    img: ASSETS.citadel,
+    img: new MediaFigure("citadel"),
     p: versify(Copy.text({
       es: `La pieza hexagonal en la que empiezas.
         Aquí regrezarás con la nobleza.`,
@@ -108,7 +108,7 @@ LightBox.add(new Pager({
       es: "Subsuelo",
       en: "underground",
     }),
-    img: ASSETS.underground,
+    img: new MediaFigure("underground"),
     p: versify(Copy.text({
       es: `La pieza hexagonal en la que esperas.
         Es gratis al cruzar las madrigueras.`,
@@ -121,7 +121,7 @@ LightBox.add(new Pager({
       es: "Ciudadela Avanzada",
       en: "Advanced Citadel",
     }),
-    img: ASSETS.advancedCitadel,
+    img: new MediaFigure("advancedCitadel"),
     p: versify(Copy.text({
       es: `La ficha del inicio es reforzada.
         La torre es un palacio con su plaza.`,
@@ -134,7 +134,7 @@ LightBox.add(new Pager({
       es: "Vías carreteras",
       en: "Road tiles",
     }),
-    img: ASSETS.roadTiles,
+    img: new MediaFigure("roadTiles"),
     p: versify(Copy.text({
       es: `Las piezas de los rombos y los triángulos.
         Las cruzas al moverte a los hexágonos.`,
@@ -153,7 +153,7 @@ And they offer rides and treks.`
       en: `Start your first game nice and steady.
         <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> when you're ready.`,
     })),
-    img: ASSETS.sample,
+    img: new MediaFigure("sample"),
   },
   endings: {
     content: endingSection,

@@ -1,10 +1,10 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import {
   suitStyle
 } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import CardExpanded from "../../elements/CardExpanded.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const neoclassicSections = [{
@@ -13,7 +13,7 @@ const neoclassicSections = [{
     es: "+ Flores",
     en: "+ Fleurs <small>(Flowers)</small>",
   }),
-  img: ASSETS.fleurs,
+  img: new MediaFigure("fleurs"),
   p: versify(Copy.text({
     es: [`Añades un conejo con sus piezas;
       y flores sin sus nobles a la mesa.`,
@@ -74,7 +74,7 @@ const neoclassicSections = [{
     es: "+ Trenes y Corceles",
     en: "+ Trains & Steeds",
   }),
-  //img: ASSETS.cavaliers,
+  //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
     es: [`Añades el cuarteto de corceles
       al clásico conjunto de los palos.
@@ -140,7 +140,7 @@ const neoclassicSections = [{
     es: "+ Alianzas Nobles",
     en: "+ Noble Alliances",
   }),
-  //img: ASSETS.allies,
+  //img: new MediaFigure("allies,
   p: versify(Copy.text({
     es: [`Los seis ayuntamientos y sus nobles
       combinan a los palos iniciales.

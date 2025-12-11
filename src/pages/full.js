@@ -5,7 +5,7 @@ import optionalSections from "./sections/options.js";
 import HandSection from "../elements/HandSection.js";
 
 const fullPage = {
-  section_shuffle: new HandSection({
+  section_shuffle_suits: new HandSection({
     header: {
       h2: versify(Copy.text({
         es: "Estrategias de cada palo",

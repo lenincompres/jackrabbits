@@ -1,10 +1,10 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import {
   suitStyle
 } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import CardExpanded from "../../elements/CardExpanded.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const nauticalSections = [{
@@ -13,7 +13,7 @@ const nauticalSections = [{
     es: "Campanas",
     en: "Bells",
   }),
-  img: ASSETS.bells,
+  img: new MediaFigure("bells"),
   h4_bells: Copy.text({
     es: "Implorar por cartas",
     en: "Implore for cards",
@@ -65,7 +65,7 @@ const nauticalSections = [{
     es: "Anclas",
     en: "Anchors",
   }),
-  img: ASSETS.anchors,
+  img: new MediaFigure("anchors"),
   h4_anchors: Copy.text({
     es: "Lastrar a la Nobleza",
     en: "Weigh Nobles Down",
@@ -117,7 +117,7 @@ const nauticalSections = [{
     es: "Conchas",
     en: "Shells",
   }),
-  img: ASSETS.shells,
+  img: new MediaFigure("shells"),
   h4_shells: Copy.text({
     es: "Echar cartas al mar",
     en: "Toss shells undeground",
@@ -169,7 +169,7 @@ const nauticalSections = [{
     es: "Témpanos",
     en: "Icicles",
   }),
-  img: ASSETS.icicles,
+  img: new MediaFigure("icicles"),
   h4_icicles: Copy.text({
     es: "Deslizar el glaciar",
     en: "Slide the glacier",

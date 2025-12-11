@@ -1,9 +1,9 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import versify from "../../aux/versify.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 
 const turnSections = [{
-  img: ASSETS.lottery,
+  img: new MediaFigure("lottery"),
   h3: Copy.text({
     es: "1<small>.a</small> </br>La lotería",
     en: "1<small>st</small> </br>The Lottery",
@@ -36,7 +36,7 @@ const turnSections = [{
   })),
   b_nextArrow: '➧',
 }, {
-  img: ASSETS.journey,
+  img: new MediaFigure("journey"),
   h3: Copy.text({
     es: "2<small>.a</small></br> La travesía",
     en: "2<small>nd</small></br> The Journey",
@@ -69,7 +69,7 @@ const turnSections = [{
   })),
   b_nextArrow: '➧',
 }, {
-  img: ASSETS.acquisition,
+  img: new MediaFigure("acquisition"),
   h3: Copy.text({
     es: "3<small>.a</small></br> La adquisición",
     en: "3<small>rd</small></br> The Acquisition",
@@ -102,7 +102,7 @@ const turnSections = [{
   })),
   b_nextArrow: '➧',
 }, {
-  img: ASSETS.increment,
+  img: new MediaFigure("increment"),
   h3: Copy.text({
     es: "4<small>.a</small></br> El Incremento",
     en: "4<small>th</small></br> The increment",

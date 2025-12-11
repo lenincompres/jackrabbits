@@ -1,7 +1,7 @@
 import Copy from "../../lib/Copy.js";
-import ASSETS from "../aux/assets.js";
 import versify from "../aux/versify.js";
 import HandSection from "../elements/HandSection.js";
+import MediaFigure from "../elements/MediaFigure.js";
 import Song from "../elements/Song.js";
 
 const setupPage = {
@@ -38,7 +38,10 @@ const setupPage = {
           or the sample right ahead.`,
           ],
         }),
-        ASSETS.thumbnailOf("sampleThumbnail", '8em', e => popUp("sample")),
+        new MediaFigure("sampleThumbnail", {
+          height: '8em',
+          onclick: e => popUp("sample"),
+        }),
         Copy.text({
           es: `Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
@@ -75,7 +78,9 @@ const setupPage = {
           Give a shuffle as in poker—
           set a facedown drawing <i>pile</i>.`,
         }),
-        ASSETS.cards,
+        new MediaFigure("cards", {
+          height: '9em',
+        }),
         Copy.text({
           es: `En cuanto a las que restan en la <i>pila</i>,
           los <i>palos numerales</i> y los <i>ases</i>,
@@ -93,7 +98,7 @@ const setupPage = {
           per <b>the acquisition</b> phase.`,
         }))
     }, {
-      h3:"3. </br>" + Copy.text({
+      h3: "3. </br>" + Copy.text({
         es: "Sitúa las fichas",
         en: "Set the tokens",
       }),
@@ -108,7 +113,9 @@ const setupPage = {
           And collect their matching carrots—
           they get three of these as well.`,
         }),
-        ASSETS.tokens,
+        new MediaFigure("tokens", {
+          height: '7.5em',
+        }),
         Copy.text({
           es: `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
           descrito en el principio de las reglas.
@@ -119,7 +126,9 @@ const setupPage = {
           If a circle marks this aim, 
           set it on the hexagon.`,
         }),
-        ASSETS.endings,
+        new MediaFigure("endings", {
+          height: '3em',
+        }),
         Copy.text({
           es: `Elige a la persona que comienza
           y el orden de los turnos que le siguen.

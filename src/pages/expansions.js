@@ -33,7 +33,7 @@ const expansionPage = {
       }
     }],
   },
-  section_shuffle: [new HandSection({
+  section_shuffle_suits: [new HandSection({
     header: {
       h2: Copy.text({
         en: "Frontier expansions",

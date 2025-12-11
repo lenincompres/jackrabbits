@@ -1,9 +1,9 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import { mixColor, suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import Card from "../../elements/Card.js";
 import CardFloating from "../../elements/CardFloating.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const strategySections = [{
@@ -12,7 +12,7 @@ const strategySections = [{
     es: "Tréboles <small>(Bastos)</small>",
     en: "Clovers <small>(Clubs)</small>",
   }),
-  img: ASSETS.clubs,
+  img: new MediaFigure("clubs"),
   h4_clubs: Copy.text({
     es: "Volar entre las torres K",
     en: "Fly from <big>K</big>ing Towers",
@@ -62,7 +62,7 @@ const strategySections = [{
     es: "Picas <small>(Espadas)</small>",
     en: "Spades <small>(Swords)</small>",
   }),
-  img: ASSETS.spades,
+  img: new MediaFigure("spades"),
   h4_spades: Copy.text({
     es: "Pelear por las cartas",
     en: "Fight others for cards",
@@ -122,7 +122,7 @@ const strategySections = [{
     es: "Corazones <small>(Copas)</small>",
     en: "Hearts <small>(Cups)</small>",
   }),
-  img: ASSETS.hearts,
+  img: new MediaFigure("hearts"),
   h4_hearts: Copy.text({
     es: "Vetar los palacios Q",
     en: "Vet the <big>Q</big>ueen Palaces",
@@ -172,7 +172,7 @@ const strategySections = [{
     es: "Diamantes <small>(Oros)</small>",
     en: "Diamonds <small>(Gold)</small>",
   }),
-  img: ASSETS.diamonds,
+  img: new MediaFigure("diamonds"),
   h4_diamonds: Copy.text({
     es: "Comerciar en las plazas J",
     en: "Trade at <big>J</big>ack Plazas",

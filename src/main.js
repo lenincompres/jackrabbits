@@ -1,7 +1,6 @@
 import versify from "./aux/versify.js";
 import Copy from "../lib/Copy.js";
 import Pager from "../lib/Pager.js";
-import ASSETS from "./aux/assets.js";
 import CardFloating from "./elements/CardFloating.js";
 import "./copy.js";
 import morePage from "./pages/more.js";
@@ -15,6 +14,7 @@ import {
   mixColor,
   suitColor
 } from "./aux/color.js";
+import MediaFigure from "./elements/MediaFigure.js";
 
 Pager.add({
   home: homePage,
@@ -24,6 +24,18 @@ Pager.add({
   more: morePage,
   expansion: expansionPage,
 });
+
+const heroOptions = {
+  a: {
+    class: "button video",
+    text: Copy.text({
+      es: "Video tutorial",
+      en: "Video tutorial",
+    }) + " ▶",
+    click: e => popUp("video"),
+  },
+};
+const heroStill = "images/photo01.png";
 
 DOM.set({
   link: "style.css",
@@ -43,22 +55,22 @@ DOM.set({
     }
   },
   main: {
-    nav_main: Pager.getLinkMenu(key => ({
+    nav: Pager.getLinkMenu(key => ({
       transition: '0.3s ease',
       color: Pager._key.as(val => val === key ? 'black' : `var(--${key})`),
       backgroundColor: Pager._key.with(CardFloating._forcedSuit).as((k, s) => suitColor(k, s, key)),
       name: key,
       html: Copy.at[key],
     })),
-    figure: {
+    section: {
       id: "hero",
       backgroundColor: Pager._key.with(CardFloating._forcedSuit).as(suitColor),
       content: Pager._key.as({
-        default: ASSETS.getMedia('images/video/home.mp4'),
-        setup: ASSETS.getMedia('images/video/setup.mp4'),
-        intro: ASSETS.getMedia('images/video/intro.mp4'),
-        full: ASSETS.getMedia('images/photo03.png'),
-        more: ASSETS.getMedia('images/photo04.png'),
+        default: new MediaFigure('images/video/home.mp4', heroOptions, heroStill),
+        setup: new MediaFigure('images/video/setup.mp4', heroOptions, heroStill),
+        intro: new MediaFigure('images/video/intro.mp4', heroOptions, heroStill),
+        full: new MediaFigure('images/photo03.png', heroOptions),
+        more: new MediaFigure('images/photo04.png', heroOptions),
       }),
     },
     article: {

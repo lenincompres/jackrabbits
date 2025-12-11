@@ -1,6 +1,6 @@
 import Copy from "../../../lib/Copy.js";
-import ASSETS from "../../aux/assets.js";
 import versify from "../../aux/versify.js";
+import MediaFigure from "../../elements/MediaFigure.js";
 
 const endingSection = {
   h3: Copy.text({
@@ -18,7 +18,12 @@ const endingSection = {
       You must be the first to win,
       hailed as champion of the land.`,
     }),
-    ASSETS.thumbnailOf("citadel", "8.4em", e => popUp("citadel")),
+    new MediaFigure("citadel", {
+      model: {
+        height: '9.5em',
+        onclick: e => popUp("citadel"),
+      },
+    }),
     Copy.text({
       es: `Tan pronto se repartan los conejos,
 que escoja el colectivo de la mesa,
