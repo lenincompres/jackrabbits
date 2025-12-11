@@ -49,7 +49,7 @@ const boardSection = {
     margin: '0 auto',
     p: {
       position: 'absolute',
-      top: 0,
+      top: '-0.5rem',
       left: 0,
       width: '52%',
       textAlign: 'center',
