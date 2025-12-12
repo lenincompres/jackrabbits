@@ -229,6 +229,7 @@ class CardFloating extends Card {
 
   random(min = 1, max = 13) {
     if (CardFloating._forcedRoyal.value) min = 11;
+    else if (CardFloating._forcedRoyal.value === false) max = 10;
     this.number = min + Math.round(Math.random() * (max - min));
 
     if (CardFloating._forcedSuit.value) {

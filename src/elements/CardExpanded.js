@@ -98,7 +98,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Escudos",
   en: "Sheilds",
-}), () => visitSong("expansion", CardExpanded.SUIT.FS), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.FS, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5c356eba-4514-4e3c-98f1-f605198c1fbf.m4a",
@@ -106,7 +106,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Antorchas",
   en: "Torches",
-}), () => visitSong("expansion", CardExpanded.SUIT.FT), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.FT, false), 1);
 
 
 new Song(Copy.text({
@@ -115,7 +115,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Herraduras",
   en: "Horseshoes",
-}), () => visitSong("expansion", CardExpanded.SUIT.FH), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.FH, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/efbce1a8-f3d1-4762-b452-fa8faf01d428.m4a",
@@ -123,7 +123,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
-}), () => visitSong("expansion", CardExpanded.SUIT.FA), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.FA, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/0e6eea32-4ff7-4b3c-9ee5-6e1bfcc73c1c.m4a",
@@ -131,7 +131,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
-}), () => visitSong("expansion", CardExpanded.SUIT.NB), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.NB, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.m4a",
@@ -139,7 +139,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
-}), () => visitSong("expansion", CardExpanded.SUIT.NA), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.NA, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/9b770383-e1b4-4041-b8c3-70edb1cff9f4.m4a",
@@ -147,7 +147,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
-}), () => visitSong("expansion", CardExpanded.SUIT.NS), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.NS, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a00660b6-5e9a-420e-92b8-f6298869b6de.m4a",
@@ -155,7 +155,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Témpanos",
   en: "Icicles",
-}), () => visitSong("expansion", CardExpanded.SUIT.NI), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.NI, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/972d84e0-7e6d-4ee3-9cbe-41167556dcc2.m4a",
