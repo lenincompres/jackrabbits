@@ -238,7 +238,8 @@ light-box>section:has(a.song.playing) {
     margin-left: -20.8rem !important;
   }
 
-  .handSection:not(.menu)>section:not(.opened) a {
+  .handSection:not(.menu)>section:not(.opened) a,
+  .handSection:not(.menu)>section:not(.opened) media-figure  {
     pointer-events: none;
   }
 

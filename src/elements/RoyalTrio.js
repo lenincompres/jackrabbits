@@ -10,7 +10,9 @@ export class RoyalTrio extends HTMLElement {
       state: 0,
     });
 
-    setInterval(() => this.parentElement.classList.contains("opened") ? this.counter += 1 : this.counter = 0, 2000);
+    this.figure = new MediaFigure("rabbitPawn");
+
+    setInterval(() => this.counter > 0 || getComputedStyle(this.figure).pointerEvents !== "none" ? this.counter += 1 : this.counter = 0, 2000);
     this._counter.bind(val => val % 2 && (this.state = Math.floor(this.counter / 2) % 5));
 
     this.suits = RoyalTrio.SUITS.map(s => s);
@@ -24,7 +26,7 @@ export class RoyalTrio extends HTMLElement {
       img: {
         zIndex: 1,
         position: "relative",
-        content: new MediaFigure("rabbitPawn"),
+        content: this.figure,
       },
       i: {
         lineHeight: "1em",
