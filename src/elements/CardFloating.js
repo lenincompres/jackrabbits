@@ -175,13 +175,8 @@ class CardFloating extends Card {
     if (this.rz > PIE) this.rz -= PIE;
     else if (this.rz < -PIE) this.rz += PIE;
 
-    // apply velocity in screen space
-    const rect = this.getBoundingClientRect();
-    const xmax = rect.width / window.innerWidth;
-    const ymax = rect.height / window.innerHeight;
-
-    if (Math.abs(this.vx) > xmax) this.vx *= xmax / Math.abs(this.vx);
-    if (Math.abs(this.vy) > ymax) this.vy *= ymax / Math.abs(this.vy);
+    if (Math.abs(this.vx) > 0.001) this.vx *= 0.99;
+    if (Math.abs(this.vy) > 0.001) this.vy *= 0.99;
 
     this.x += this.vx * this.acc * drag;
     this.y += this.vy * this.acc * drag;
