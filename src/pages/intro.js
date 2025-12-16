@@ -27,7 +27,7 @@ const introPage = {
           a: {
             name: "intro/transfers",
           },
-          h3: Copy.text({
+          h2: Copy.text({
             es: "Los traslados",
             en: "The Transfers",
           }),
@@ -45,7 +45,7 @@ const introPage = {
       Then the <a href="#full"><b><big>standard game</big></b></a>’s pursued.`,
           })),
         },
-      }, 1),
+      }),
     },
   }),
 };

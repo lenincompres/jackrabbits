@@ -131,7 +131,7 @@ const frontierSections = [{
       las cartas de cualquiera de los palos.`,
     en: `Trade with horseshoes underground—
       at its shady marketplace.
-      This triangle, dark and brown,
+      This expansion, dark and brown,
       is connected to this space.
       At this store, all suits are found—
       horseshoes taken in their place.

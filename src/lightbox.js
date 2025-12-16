@@ -129,6 +129,47 @@ LightBox.add(new Pager({
         It's a palace-plaza-tower.`
     }))
   },
+  price: {
+    h3: Copy.text({
+      es: "El precio",
+      en: "The price",
+    }),
+    p: versify(Copy.text({
+      es: [
+        `Las vías con los símbolos de cartas
+      te ofrecen un <i>traslado</i> de lugar.
+      La suma de los dados es la tasa
+      o el mínimo que tienes que pagar. 
+      Se pierde el sobrepago si te pasas;
+      los símbolos se pueden combinar.`,
+        `Las cartas se <i>descartan</i> al usarse,
+      dejándolas a un lado de la mesa.
+      Es <b>1</b> lo que cuentas por los ases,
+      y <b>10</b> por las reales o con letras.
+      En caso de que gastes las reales,
+      saldrá tu zanahoria de sus piezas,
+      y en vez de que la carta la descartes,
+      regrésala a la corte en la que empieza.`
+      ],
+      en: [
+        `For the transfers on the way,
+      pay the total on the dice. 
+      But in case you overpay, 
+      then consider that the price.
+      Use as many cards to pay,
+      check each symbol qualifies.`,
+        `Set aside the cards you spend—
+      they’re <i>discarded</i> once you’re done. 
+      Royals may be spent as <b>10</b>,
+      and the <b>a</b>ces are worth <b>1</b>.
+      But when royal cards are spent,
+      they go back where they begun.
+      And remove your carrot then,
+      since your claim has been undone.`
+      ]
+    })),
+    img: new MediaFigure("roadTiles"),
+  },
   roadTiles: {
     h3: Copy.text({
       es: "Vías carreteras",

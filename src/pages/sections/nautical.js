@@ -52,9 +52,9 @@ const nauticalSections = [{
       Pay wherever you may be 
       to have anyone exiled.
       Even those off-board at sea 
-      may be transferred to this isle.
+      may be sentenced to this isle.
       Underground, this cave is free, 
-      and you're safe from this suit's trial.`,
+      and you're safe from facing trial.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[4].link,
