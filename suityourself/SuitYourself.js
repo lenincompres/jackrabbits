@@ -1,5 +1,5 @@
-import Card from "../src/Card.js";
-import CardValued from "../src/CardValued.js";
+import Card from "../src/elements/Card.js";
+import CardValued from "../src/elements/CardValued.js";
 import Copy from "../lib/Copy.js";
 import {
   stringItems,

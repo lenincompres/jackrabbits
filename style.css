@@ -428,7 +428,6 @@ h5 {
   font-family: title;
   line-height: 1em;
   text-transform: uppercase;
-  margin: 0;
 }
 
 h1 {
@@ -455,11 +454,12 @@ h4 {
 }
 
 h5 {
-  font-size: .9em;
+  font-size: .95em;
 }
 
 h3:not(:first-child),
-h4:not(:first-child){
+h4:not(:first-child),
+h5:not(:first-child){
   margin-top: 0.5rem;
 }
 
