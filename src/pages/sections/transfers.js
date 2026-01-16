@@ -6,7 +6,10 @@ import versify, {
 import MediaFigure from "../../elements/MediaFigure.js";
 
 const transferSections = [{
-  h3: "Off the road",
+  h3: Copy.text({
+    es: "Fuera del Camino",
+    en: "Off the Road",
+  }),
   p: versify(Copy.text({
     es: `Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
