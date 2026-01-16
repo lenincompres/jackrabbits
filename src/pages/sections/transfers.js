@@ -7,7 +7,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 
 const transferSections = [{
   h3: Copy.text({
-    es: "Fuera del Camino",
+    es: "Los Traslados",
     en: "Off the Road",
   }),
   p: versify(Copy.text({
