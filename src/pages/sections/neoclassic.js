@@ -15,15 +15,15 @@ const neoclassicSections = [{
   }),
   img: new MediaFigure("fleurs"),
   p: versify(Copy.text({
-    es: [`Añades un conejo con sus piezas;
-      y flores sin sus nobles a la mesa.`,
+    es: [
       `Las flores se usarán en los traslados
       y nunca al adquirir a la nobleza.
       Suplantan a los palos de los clásicos,
       excepto en el poder de su estrategia.
       Los usas en el pago de los triángulos,
       y en rombos al cambiar de carretera.`,
-
+      `Añades un conejo con sus piezas;
+      y flores sin sus nobles a la mesa.`,
       `En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
       Sus pozos te conducen al subsuelo;

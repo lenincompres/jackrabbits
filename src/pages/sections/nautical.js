@@ -41,7 +41,7 @@ const nauticalSections = [{
   p_: versify(Copy.text({
     es: `Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
-      Tan solo en el destierro se te escapan,
+      Tan solo en el subsuelo se te escapan,
       trasladas inclusive en el destierro.
       La cueva en el destino es la sellada,
       que exige que se pague por su acceso.
@@ -120,7 +120,7 @@ const nauticalSections = [{
   img: new MediaFigure("shells"),
   h4_shells: Copy.text({
     es: "Echar cartas al mar",
-    en: "Toss shells undeground",
+    en: "Toss shells underground",
   }),
   p: versify(Copy.text({
     es: `La gruta coralina de la costa
@@ -181,8 +181,8 @@ const nauticalSections = [{
       un témpano al tratar la lotería.
       Si alcanza el resultado tras lanzar
       o pagas lo <i>restante</i> de la cifra,
-      deslízala a un camino por el mar
-      o elije despegarla de la orilla.`,
+      deslízalo a un camino por el mar
+      o elije despegarlo de la orilla.`,
     en: `Move its tower by the shore,
       when you roll from any piece,
       if you show a card before,
@@ -202,7 +202,7 @@ const nauticalSections = [{
       Y en este, exceptuando en el subsuelo,
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
-      se expulsan con el viento huracanado`,
+      se expulsan con el viento huracanado.`,
     en: `Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex on that piece,
