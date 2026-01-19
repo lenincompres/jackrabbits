@@ -127,8 +127,8 @@ const neoclassicSections = [{
       Reubícalo a tu agrado en el momento 
       si acabas en el sitio en el que ronde.`,
       en: `If you start with the last turn, 
-      choose its starting settlement.
-      Block the pile from guests to earn—
+      choose its starting settlement:
+      guests won't be allowed to earn—
       lottery and increment.
       If you end up there in turn,
       pick its new re-settlement.`,
