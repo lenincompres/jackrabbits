@@ -183,7 +183,7 @@ new Song(Copy.text({
 }), () => visitSong("home", true));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/4cf29f9c-a4cc-43ab-9d9d-b2afbab5a7b5.m4a",
+  es: "https://cdn1.suno.ai/66364c8c-c7c2-437e-919c-2752a56c6218.m4a",
   en: "https://cdn1.suno.ai/b12198a4-b5f3-40b1-ae26-64fbb077a8b1.m4a",
 }), Copy.text({
   es: "La partida",
