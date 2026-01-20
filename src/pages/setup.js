@@ -25,8 +25,8 @@ const setupPage = {
           en cientos de maneras diferentes.`,
             `Ensamblas un diseño aleatorio
           del reino de las cartas y sus templos.
-          Dirígete a <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>
-          o intenta replicar el del ejemplo.`,
+          Invéntales <a class="pop" onclick="popUp('board')"><b>un nuevo territorio</b></a>
+          o inicia replicando el del ejemplo.`,
           ],
           en: [`At the start of every match,
           you must first complete a board.
@@ -34,7 +34,7 @@ const setupPage = {
           or revisit one explored.`,
             `Link the houses from each throne, 
           which are hexes in this spread. 
-          <a class="pop" onclick="popUp('board')"><b>build a new board</b></a>  of your own,
+          Build <a class="pop" onclick="popUp('board')"><b>a new board  of your own</b></a>,
           or the sample right ahead.`,
           ],
         }),

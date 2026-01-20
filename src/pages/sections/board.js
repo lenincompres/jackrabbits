@@ -6,8 +6,8 @@ import Song from "../../elements/Song.js";
 const boardSection = {
   id: "guides",
   h2: Copy.text({
-    es: "Crear el territorio",
-    en: "Build a new Board",
+    es: "Un nuevo territorio",
+    en: "A new Board of your own",
   }),
   p: versify(Copy.text({
     es: [
