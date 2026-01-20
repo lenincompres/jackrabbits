@@ -8,8 +8,8 @@ const setupPage = {
   section: new HandSection({
     header: {
       h2: Copy.text({
-        es: "Preparación de la mesa",
-        en: "Steps to start the game",
+        es: "La Partida",
+        en: "Setting up the Game",
       }),
     },
     section: [{
