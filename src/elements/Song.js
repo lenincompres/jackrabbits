@@ -183,7 +183,7 @@ new Song(Copy.text({
 }), () => visitSong("home", true));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/cdd9dfa9-2252-44a2-a33f-36fc8801e76b.m4a",
+  es: "https://cdn1.suno.ai/e5f82c52-991b-4948-860e-87e6cfb7df38.m4a",
   en: "https://cdn1.suno.ai/b12198a4-b5f3-40b1-ae26-64fbb077a8b1.m4a",
 }), Copy.text({
   es: "La partida",
@@ -202,8 +202,8 @@ new Song(Copy.text({
   es: "https://cdn1.suno.ai/36911f51-fdcd-4cb6-b6f3-4ae213b06a4f.m4a",
   en: "https://cdn1.suno.ai/9c78dd69-d670-4dbf-92f1-ce8e6e335739.m4a",
 }), Copy.text({
-  es: "Los traslados y el destierro",
-  en: "Off the Road and Off-Board",
+  es: "Fuera de las vías",
+  en: "Off the Road",
 }), () => visitSong("intro"));
 
 new Song(Copy.text({

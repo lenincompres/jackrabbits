@@ -10,7 +10,7 @@ const introPage = {
     header: {
       h2: versify(Copy.text({
         es: "Turno en Cuatro Fases",
-        en: "Phases of each turn",
+        en: "Four Phases of a Turn",
       })),
       p: versify(Copy.text({
         es: `Comprende el material preliminar.
@@ -29,7 +29,7 @@ const introPage = {
           },
           h2: Copy.text({
             es: "Fuera de las vías",
-            en: "The Transfers",
+            en: "Off the Road",
           }),
         },
         section: transferSections,

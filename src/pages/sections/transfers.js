@@ -8,7 +8,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 const transferSections = [{
   h3: Copy.text({
     es: "Los Traslados",
-    en: "Off the Road",
+    en: "The Transfers",
   }),
   p: versify(Copy.text({
     es: `Es gratis desplazarte a los hexágonos
