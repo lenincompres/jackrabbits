@@ -28,7 +28,7 @@ const introPage = {
             name: "intro/transfers",
           },
           h2: Copy.text({
-            es: "Salidas de las vías",
+            es: "Fuera de las vías",
             en: "The Transfers",
           }),
         },
