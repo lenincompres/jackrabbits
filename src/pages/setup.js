@@ -46,7 +46,7 @@ const setupPage = {
           es: `Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
-          usando los conejos que se mueven.
+          llevando los conejos que se mueven.
           Añádeles las cartas y sus reglas
           si entienden a medida que las prueben.`,
           en: `If there're children under nine,
