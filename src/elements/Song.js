@@ -183,7 +183,7 @@ new Song(Copy.text({
 }), () => visitSong("home", true));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/12ee6d78-6b77-4646-8a32-abcf9f27b2e6.m4a",
+  es: "https://cdn1.suno.ai/6d1f8aac-f316-49ac-a64e-a9cf28d5427a.m4a",
   en: "https://cdn1.suno.ai/b12198a4-b5f3-40b1-ae26-64fbb077a8b1.m4a",
 }), Copy.text({
   es: "La partida",
@@ -192,7 +192,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/f0ce09a2-2a2b-4dee-9045-80ee22f4ee62.m4a",
-  en: "https://cdn1.suno.ai/ccbabe38-bc4d-4f79-a3d7-eed835bb0fd5.m4a",
+  en: "https://cdn1.suno.ai/b7614c1f-439d-46ed-90ba-f80c015c0f29.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
   en: "Four Phases of a Turn",
@@ -215,7 +215,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/af0cd419-bbf0-4e1c-95e4-2cb9e72cfe29.m4a",
+  es: "https://cdn1.suno.ai/0b639e97-4a53-4029-9f92-52f1303cc9ec.m4a",
   en: "https://cdn1.suno.ai/03691c02-bac3-4aa4-9765-2a63fe8ccb7e.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",

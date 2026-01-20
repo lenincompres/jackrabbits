@@ -86,7 +86,7 @@ const transferSections = [{
        <a onclick="popUp('price')">si pagas</a> al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
-    en: `Taverns  <a onclick="popUp('price')">sell you rides</a> they host,
+    en: `Taverns  <a onclick="popUp('price')">sell the rides</a> they host,
       but the travel’s kept aside.
       Choose a joker card to hold,
       and release to claim their ride.`,
