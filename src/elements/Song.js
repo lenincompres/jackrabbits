@@ -215,7 +215,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/16f71b6d-707e-4ad6-9b0a-0fece091ab94.m4a",
+  es: "https://cdn1.suno.ai/af0cd419-bbf0-4e1c-95e4-2cb9e72cfe29.m4a",
   en: "https://cdn1.suno.ai/03691c02-bac3-4aa4-9765-2a63fe8ccb7e.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
