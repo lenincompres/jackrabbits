@@ -129,8 +129,8 @@ const nauticalSections = [{
       pues cuenta con un puerto de visitas.
       También, al deshacerte de tus conchas, 
       las cambia por el doble de la pila.
-      Por turnos, un canjeo se te otorga;
-      limítate a las cartas que recibas.`,
+      La suma de sus números se ignora;
+      duplica independiente lo que tires.`,
     en: `Its connection underground,
       which is set when games begin,
       now provides a landing ground—
@@ -202,7 +202,7 @@ const nauticalSections = [{
       Y en este, exceptuando en el subsuelo,
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
-      se expulsan con el viento huracanado.`,
+      lanzados por el viento huracanado.`,
     en: `Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex on that piece,
