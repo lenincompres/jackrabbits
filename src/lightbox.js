@@ -228,7 +228,11 @@ And they offer rides and treks.`
       width: "100%",
       height: "13rem",
       src: "../mailinglist.html",
-    }
+    },
+    menu_bulletMenu: {
+      id: "languageMenu",
+      content: Copy.getLinkMenu(),
+    },
   },
   suitYourself: {
     iframe: {
