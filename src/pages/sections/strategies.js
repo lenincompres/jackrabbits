@@ -149,7 +149,7 @@ const strategySections = [{
       as you reach a queen’s own throne:
       “Show six points to prove you're blest,
       adding hearts from cards you own.”
-      Or declare you're honored guest, 
+      Or proceed like honored guest, 
       if your carrot marks this zone.
       Off-board players can’t request—
       they’re not fit to cast a stone.`,
