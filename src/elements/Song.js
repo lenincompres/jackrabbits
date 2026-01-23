@@ -200,7 +200,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8bb55d01-9d51-4a67-be93-da6dc78ec059.m4a",
-  en: "https://cdn1.suno.ai/9c78dd69-d670-4dbf-92f1-ce8e6e335739.m4a",
+  en: "https://cdn1.suno.ai/997949a0-44c9-4c81-b4cb-cd15b9f89281.m4a",
 }), Copy.text({
   es: "Trucos del camino",
   en: "Off the Road",
@@ -219,7 +219,7 @@ new Song(Copy.text({
   en: "https://cdn1.suno.ai/03691c02-bac3-4aa4-9765-2a63fe8ccb7e.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
-  en: "Hearts: Vet the Queen Palaces",
+  en: "Hearts: Vet Queen Palaces",
 }), () => visitSong("full", Card.SUIT.H));
 
 new Song(Copy.text({

@@ -9,7 +9,7 @@ const fullPage = {
     header: {
       h2: versify(Copy.text({
         es: "Estrategias de cada palo",
-        en: "Well-Suited Strategies",
+        en: "Four Well-Suited Strategies",
       })),
       p: versify(Copy.text({
         es: `Añades el capítulo restante.

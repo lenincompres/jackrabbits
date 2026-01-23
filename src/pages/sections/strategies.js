@@ -125,7 +125,7 @@ const strategySections = [{
   img: new MediaFigure("hearts"),
   h4_hearts: Copy.text({
     es: "Vetar los palacios Q",
-    en: "Vet the <big>Q</big>ueen Palaces",
+    en: "Vet <big>Q</big>ueen Palaces",
   }),
   p: versify(Copy.text({
     es: [

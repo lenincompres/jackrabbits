@@ -162,7 +162,7 @@ const optionalSections = [{
         avances sin parar a descansar.`,
       en: `Once your carrot’s been in place,
         you won't need to wait around.
-        Hexes claimed provide a trace—
+        Royals claimed provide a trace—
         you may leave in the same round.`,
     })),
   }]
