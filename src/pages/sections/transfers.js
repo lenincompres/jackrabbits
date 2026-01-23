@@ -22,7 +22,7 @@ const transferSections = [{
     en: `If you venture on the paths, 
     you'll move freely on your round.
     This includes the underpass,
-    shown in mountains farther down.
+    found in mountains farther down.
     Other moves demand <a onclick="popUp('price')"><b>the price</b></a>,
     paid in suits upon the ground.
     Pay the total on your dice—
