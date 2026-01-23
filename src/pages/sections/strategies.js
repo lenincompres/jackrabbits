@@ -151,7 +151,7 @@ const strategySections = [{
       adding hearts from cards you own.”
       Or proceed like honored guest, 
       if your carrot marks this zone.
-      Off-board players can’t request—
+      Off-board players can’t protest—
       they’re not fit to cast a stone.`,
       `Yet before they check your cards,
       they're obliged to show their own. 
