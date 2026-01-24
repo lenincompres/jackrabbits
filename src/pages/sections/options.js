@@ -96,8 +96,8 @@ const optionalSections = [{
       you’ll remove a set and suit.
       Pick a fitting kind of ending:
       one that cards allow you to.
-      Whether meant or unintended,
-      tight suits give the <b class="spades">spades</b> a <b class="spades">boost</b>.`,
+      Whether this is unintended,
+      playing tight gives <b class="spades">spades</b> a <b class="spades">boost</b>.`,
     })),
     /*},{
       h5__: Copy.text({
