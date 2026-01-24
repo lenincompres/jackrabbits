@@ -199,7 +199,7 @@ new Song(Copy.text({
 }), () => visitSong("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/8bb55d01-9d51-4a67-be93-da6dc78ec059.m4a",
+  es: "https://cdn1.suno.ai/9e28619f-be65-43c1-9b85-fafa81a1d495.m4a",
   en: "https://cdn1.suno.ai/21915c11-c6ce-495e-8ec6-eb759c1e9f33.m4a",
 }), Copy.text({
   es: "Trucos del camino",
