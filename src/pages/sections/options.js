@@ -92,8 +92,8 @@ const optionalSections = [{
       con cartas de nobleza en escasez.`,
       en: `Have as many suits as players,
       and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
-      If there's only three contenders, 
-      you’ll remove a set and suit.
+      Say there's only three contenders, 
+      then remove a set and suit.
       Pick a fitting kind of ending:
       one that cards allow you to.
       Whether this is unintended,
