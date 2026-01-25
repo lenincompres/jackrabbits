@@ -175,7 +175,7 @@ window.visitSong = (key, suit, royals) => {
 }
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/7a8c504a-dc26-4a86-bc79-e8171a7443a4.m4a",
+  es: "https://cdn1.suno.ai/9c98c8bb-a7b1-46f6-94f4-94b1de96c14f.m4a",
   en: "https://cdn1.suno.ai/0e885992-312e-4a38-a59a-e0aaf5387688.m4a",
 }), Copy.text({
   es: "Finales posibles",
@@ -191,7 +191,7 @@ new Song(Copy.text({
 }), () => visitSong("setup"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/f0ce09a2-2a2b-4dee-9045-80ee22f4ee62.m4a",
+  es: "https://cdn1.suno.ai/18cb4670-f067-42e8-a0f1-55e958e44549.m4a",
   en: "https://cdn1.suno.ai/ce312c0e-9ad6-4c21-8432-51050ec3f6e9.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
