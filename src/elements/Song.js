@@ -184,7 +184,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/702c1250-9fd2-42f8-80c0-a96ec55cdde0.m4a",
-  en: "https://cdn1.suno.ai/13908449-b0fa-4786-8a24-d7e70dd57541.m4a",
+  en: "https://cdn1.suno.ai/1f08c5c2-ab94-4276-8035-5f914bef1ec7.m4a",
 }), Copy.text({
   es: "La partida",
   en: "Setty-Up",
@@ -192,15 +192,15 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/f0ce09a2-2a2b-4dee-9045-80ee22f4ee62.m4a",
-  en: "https://cdn1.suno.ai/2b79b3c5-7e6f-4d09-8156-c9f4c441290b.m4a",
+  en: "https://cdn1.suno.ai/ce312c0e-9ad6-4c21-8432-51050ec3f6e9.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
   en: "Four Phases of a Turn",
 }), () => visitSong("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/9e28619f-be65-43c1-9b85-fafa81a1d495.m4a",
-  en: "https://cdn1.suno.ai/21915c11-c6ce-495e-8ec6-eb759c1e9f33.m4a",
+  es: "https://cdn1.suno.ai/723e02cd-779f-4474-a1eb-0563ea8d8e86.m4a",
+  en: "https://cdn1.suno.ai/ec073cbe-0d59-4c7d-8e45-b5ff696f1d65.m4a",
 }), Copy.text({
   es: "Trucos del camino",
   en: "Off the Road",
