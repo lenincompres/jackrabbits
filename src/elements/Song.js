@@ -207,7 +207,7 @@ new Song(Copy.text({
 }), () => visitSong("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/371dba01-8974-4f37-b302-8346cb8a8d24.m4a",
+  es: "https://cdn1.suno.ai/56b72bfc-0869-41e8-a649-d6c04f5c1d0e.m4a",
   en: "https://cdn1.suno.ai/ad521e3a-5d5a-4089-9ce0-ba1f900b0c36.m4a",
 }), Copy.text({
   es: "Diamantes: a comerciar en las plazas",
@@ -215,7 +215,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/0b639e97-4a53-4029-9f92-52f1303cc9ec.m4a",
+  es: "https://cdn1.suno.ai/5e5188c0-f02b-466b-848c-aa81240723de.m4a",
   en: "https://cdn1.suno.ai/1ec2012d-175f-4ffa-a735-a4f399c05b04.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
@@ -223,7 +223,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.H));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/b0e6b8b4-15a8-42db-ad11-8fcfe6eb6316.m4a",
+  es: "https://cdn1.suno.ai/375b6726-de0c-4073-8f67-7d30a6a8f5ad.m4a",
   en: "https://cdn1.suno.ai/3b8e9746-7213-4f44-9150-ad2d884d07f3.m4a",
 }), Copy.text({
   es: "Tréboles: a volar entre las torres",
@@ -231,7 +231,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.C));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/669108fd-6c8e-4e12-889f-c881f207001d.m4a",
+  es: "https://cdn1.suno.ai/18eb163a-3bd6-4dfe-83b5-7f72d41dec84.m4a",
   en: "https://cdn1.suno.ai/811ffdef-0057-4be3-9922-efc52b70f8bf.m4a",
 }), Copy.text({
   es: "Picas: a pelear por las cartas",
@@ -239,7 +239,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.S));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/47895c1c-ae10-4efd-bfe6-22fc96364e20.m4a",
+  es: "https://cdn1.suno.ai/59e9f512-52ad-4f9d-aa12-2e9d326752c7.m4a",
   en: "https://cdn1.suno.ai/a1c28688-3dda-4133-b412-0fcb65473fff.m4a",
 }), Copy.text({
   es: "Un nuevo territorio",
