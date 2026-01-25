@@ -176,7 +176,7 @@ window.visitSong = (key, suit, royals) => {
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/7a8c504a-dc26-4a86-bc79-e8171a7443a4.m4a",
-  en: "https://cdn1.suno.ai/30bb5df5-b5cb-4760-b238-43e31b217662.m4a",
+  en: "https://cdn1.suno.ai/0e885992-312e-4a38-a59a-e0aaf5387688.m4a",
 }), Copy.text({
   es: "Finales posibles",
   en: "The Royal Quest",
