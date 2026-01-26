@@ -191,7 +191,7 @@ new Song(Copy.text({
 }), () => visitSong("setup"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/18cb4670-f067-42e8-a0f1-55e958e44549.m4a",
+  es: "https://cdn1.suno.ai/e47eda8a-09ef-4abb-bf9f-fefaeabebb8d.m4a",
   en: "https://cdn1.suno.ai/ce312c0e-9ad6-4c21-8432-51050ec3f6e9.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
