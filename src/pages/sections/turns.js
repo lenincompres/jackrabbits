@@ -49,7 +49,7 @@ const turnSections = [{
       llevando tu conejo peregrino.
       Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
-      `Recuerda que moverte es opcional. 
+      `Moverte de la pieza es opcional. 
       Depende de tu meta a visitar.`,
       `Podrías expandir tus travesías. 
       Consulta <a href="#intro/transfers"><b>los traslados</b></a> en las vías.`
