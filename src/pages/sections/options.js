@@ -96,7 +96,7 @@ const optionalSections = [{
       then remove a set and suit.
       Pick a fitting kind of ending:
       one that cards allow you to.
-      Whether this is unintended,
+      Even if it’s unintended,
       playing tight gives <b class="spades">spades</b> a <b class="spades">boost</b>.`,
     })),
     /*},{
