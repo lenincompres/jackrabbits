@@ -208,7 +208,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/56b72bfc-0869-41e8-a649-d6c04f5c1d0e.m4a",
-  en: "https://cdn1.suno.ai/ad521e3a-5d5a-4089-9ce0-ba1f900b0c36.m4a",
+  en: "https://cdn1.suno.ai/89c8dcdb-b59c-49df-a8ca-8f0adf1c98a2.m4a",
 }), Copy.text({
   es: "Diamantes: a comerciar en las plazas",
   en: "Diamonds: Trade at Jack Plazas",
@@ -216,7 +216,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5e5188c0-f02b-466b-848c-aa81240723de.m4a",
-  en: "https://cdn1.suno.ai/1ec2012d-175f-4ffa-a735-a4f399c05b04.m4a",
+  en: "https://cdn1.suno.ai/ac128aea-06ad-49ca-b90a-3d0f3686e5be.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
   en: "Hearts: Vet Queen Palaces",
@@ -224,7 +224,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/375b6726-de0c-4073-8f67-7d30a6a8f5ad.m4a",
-  en: "https://cdn1.suno.ai/3b8e9746-7213-4f44-9150-ad2d884d07f3.m4a",
+  en: "https://cdn1.suno.ai/03f50acb-1edb-43af-a784-ab2e661ce9a2.m4a",
 }), Copy.text({
   es: "Tréboles: a volar entre las torres",
   en: "Clovers: Fly from King Towers",
@@ -232,7 +232,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a001b846-4892-4afb-ae36-1c4475ca1a29.m4a",
-  en: "https://cdn1.suno.ai/811ffdef-0057-4be3-9922-efc52b70f8bf.m4a",
+  en: "https://cdn1.suno.ai/195a2ca4-e162-4913-8ff8-e028b5bc2227.m4a",
 }), Copy.text({
   es: "Picas: a pelear por las cartas",
   en: "Spades: Fight Others for Cards",
