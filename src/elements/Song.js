@@ -216,7 +216,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5e5188c0-f02b-466b-848c-aa81240723de.m4a",
-  en: "https://cdn1.suno.ai/ac128aea-06ad-49ca-b90a-3d0f3686e5be.m4a",
+  en: "https://cdn1.suno.ai/88826dd1-04b9-4661-8069-15a4b0e57d4b.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
   en: "Hearts: Vet Queen Palaces",
