@@ -231,7 +231,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.C));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/18eb163a-3bd6-4dfe-83b5-7f72d41dec84.m4a",
+  es: "https://cdn1.suno.ai/a001b846-4892-4afb-ae36-1c4475ca1a29.m4a",
   en: "https://cdn1.suno.ai/811ffdef-0057-4be3-9922-efc52b70f8bf.m4a",
 }), Copy.text({
   es: "Picas: a pelear por las cartas",
