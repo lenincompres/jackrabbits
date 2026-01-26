@@ -23,7 +23,7 @@ const boardSection = {
       y pieza que volteen, la conectan.
       O libre se permiten voltearlas,
       sin turnos ni descansos al ponerlas.
-      Igual se recomienda, al conectarlas,
+      Igual se recomienda al conectarlas
       contar con las siguientes sugerencias:`,
     ],
     en: [
