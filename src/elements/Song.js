@@ -239,7 +239,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.S));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/59e9f512-52ad-4f9d-aa12-2e9d326752c7.m4a",
+  es: "https://cdn1.suno.ai/2138a737-a063-4ee8-ade4-53ef8d08906f.m4a",
   en: "https://cdn1.suno.ai/a1c28688-3dda-4133-b412-0fcb65473fff.m4a",
 }), Copy.text({
   es: "Un nuevo territorio",
