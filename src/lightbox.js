@@ -189,10 +189,10 @@ And they offer rides and treks.`
       en: "Sample board",
     }),
     p: versify(Copy.text({
-      es: `Empléalo en un juego introductorio.
-        Lo típico es <a class="pop" onclick="popUp('board')"><b>crear el territorio</b></a>.`,
+      es: `Empléalo en tu juego introductorio.
+        Reanudas con <a class="pop" onclick="popUp('board')"><b>un nuevo territorio</b></a>.`,
       en: `Start your first game nice and steady.
-        <a class="pop" onclick="popUp('board')"><b>build a new board</b></a> when you're ready.`,
+        Build <a class="pop" onclick="popUp('board')"><b>a new board</b></a> when you're ready.`,
     })),
     img: new MediaFigure("sample"),
   },
