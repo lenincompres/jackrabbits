@@ -51,7 +51,7 @@ const setupPage = {
           si entienden a medida que las prueben.`,
           en: `If there're children under nine,
           only play to build the land.
-          Then explore what they design—
+          Let them roam what they design—
           with a rabbit in their hand.
           Bring the cards in down the line,
           and the rules they understand.`,

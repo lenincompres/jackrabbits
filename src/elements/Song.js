@@ -184,7 +184,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/702c1250-9fd2-42f8-80c0-a96ec55cdde0.m4a",
-  en: "https://cdn1.suno.ai/1f08c5c2-ab94-4276-8035-5f914bef1ec7.m4a",
+  en: "https://cdn1.suno.ai/2a5ee956-531a-452f-bad6-d2d8af4486f7.m4a",
 }), Copy.text({
   es: "La partida",
   en: "Setty-Up",
@@ -216,7 +216,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5e5188c0-f02b-466b-848c-aa81240723de.m4a",
-  en: "https://cdn1.suno.ai/887f31ab-ba50-45c5-b60a-b7af6f0c0a64.m4a",
+  en: "https://cdn1.suno.ai/b9c665a7-eced-4db7-972c-f8ac1250a65d.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
   en: "Hearts: Vet Queen Palaces",
