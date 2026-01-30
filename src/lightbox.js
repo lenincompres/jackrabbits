@@ -44,21 +44,30 @@ LightBox.add(new Pager({
         fontSize: "0.8rem",
         menu: {
           span: [{
-            label: "Autoplay: ",
+            label: Copy.text({
+              en: "Autoplay: ",
+              es: "Continuo: ",
+            }),
             input: {
               type: "checkbox",
               checked: Song._autoplay,
               onchange: (e) => Song.autoplay = e.target.checked,
             },
           }, {
-            label: "Repeat: ",
+            label: Copy.text({
+              en: "Repeat: ",
+              es: "Repetición: ",
+            }),
             input: {
               type: "checkbox",
               checked: Song._repeat,
               onchange: (e) => Song.repeat = e.target.checked,
             }
           }, {
-            label: "Shuffle: ",
+            label: Copy.text({
+              en: "Shuffle: ",
+              es: "Aleatorio: ",
+            }),
             input: {
               type: "checkbox",
               checked: Song._shuffle,
