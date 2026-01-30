@@ -7,8 +7,10 @@ function versify(...args) {
     let lines = p.split('\n').map((line, i) => line.trim()).filter(line => line);
     let divs = [];
     for (let i = 0; i < lines.length; i += 2) {
+      let sp1 = lines[i].includes("—") ? "" : "&nbsp;";
+      let sp0 = i ? "&nbsp;" : "";
       divs.push({
-        span: [lines[i] + " ", lines[i + 1]],
+        span: [sp0 + lines[i] + sp1, lines[i + 1]],
       });
     }
     return ({

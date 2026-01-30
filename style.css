@@ -491,7 +491,6 @@ p {
 line>span {
   display: inline-block;
   text-wrap: nowrap;
-  margin: 0 0.25em;
 }
 
 
@@ -1208,7 +1207,8 @@ ul.exception {
 ul.exception>li::before {
   content: "•";
   float: left;
-  margin-left: -0.5em;
+  margin-left: -0.7em;
+  margin-right: 0.2em;
 }
 
 ul.exception>li:first-child:before,

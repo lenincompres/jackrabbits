@@ -41,7 +41,7 @@ const transferSections = [{
       te cambias del camino que te trajo.`,
     en: `See the mountains, rivers, woods—
       with two roads not far apart.
-      You may hike between the two,
+      You may hike between these two,
       cutting through the middle part.
        <a onclick="popUp('price')">Pay with cards</a> of proper suits:
       club or spade or even heart.`,

@@ -31,7 +31,7 @@ const turnSections = [{
       `Please discard if caught with ten.
       Bring your hand to nine again.*`,
       `Hold the outcome of the dice.
-      Transfers use it as <b>the price</b>.`
+      Transfers use it as <a onclick="popUp('price')"><b>the price</b></a>.`
     ]
   })),
   b_nextArrow: '➧',
