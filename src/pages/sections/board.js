@@ -49,8 +49,8 @@ const boardSection = {
     margin: '0 auto',
     p: {
       position: 'absolute',
-      top: '-0.2rem',
-      left: '0.8rem',
+      top: '-1rem',
+      left: '0.4rem',
       width: '52%',
       textAlign: 'center',
       text: Copy.text({
@@ -58,7 +58,7 @@ const boardSection = {
         es: 'Ciudadela',
       }),
     },
-    figure: new MediaFigure("guides"),
+    img: new MediaFigure("guides"),
   },
   p_0: versify(Copy.text({
     es: `Evita callejones sin salidas,<sup class="warning rotated">T</sup>
