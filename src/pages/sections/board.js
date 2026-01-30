@@ -49,10 +49,11 @@ const boardSection = {
     margin: '0 auto',
     p: {
       position: 'absolute',
-      top: '-1rem',
-      left: '0.4rem',
+      top: 0,
+      left: '-1.3rem',
       width: '52%',
       textAlign: 'center',
+      textShadow: '0 0 3px white',
       text: Copy.text({
         en: 'Citadel',
         es: 'Ciudadela',
