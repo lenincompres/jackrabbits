@@ -19,7 +19,7 @@ const turnSections = [{
       `El límite de cartas es de nueve. 
       Descarta la que quieras si te excedes.*`,
       `Conserva el resultado de los dados. 
-      Los usas en <b>el precio</b> de traslados.`,
+      Los usas en <a onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
     ],
     en: [
       `Start your turns by rolling dice,
