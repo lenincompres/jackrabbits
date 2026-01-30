@@ -49,8 +49,8 @@ const boardSection = {
     margin: '0 auto',
     p: {
       position: 'absolute',
-      top: '-0.5rem',
-      left: 0,
+      top: '-0.2rem',
+      left: '0.8rem',
       width: '52%',
       textAlign: 'center',
       text: Copy.text({
