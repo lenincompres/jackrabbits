@@ -117,9 +117,9 @@ const setupPage = {
           height: '7.5em',
         }),
         Copy.text({
-          es: `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> que se exige,
-          descrito en el principio de las reglas.
-          A menos que se juegue por el simple,
+          es: `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> en el castillo,
+          que listan al principio de las reglas.
+          A menos que se trate del sencillo,
           su sello se pondrá en la Ciudadela.`,
           en: `For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
           choose the kind of quest you’re on.
