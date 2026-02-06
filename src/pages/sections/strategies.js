@@ -23,13 +23,13 @@ const strategySections = [{
       un trébol al lanzar <b>la lotería</b>,
       y harás <b>la travesía</b> por las torres
       si no lo sobrepasa lo que tiras.
-      Si el tiro soprepasa lo que expones,
-      te vas a desterrar en las orillas.
       Igual el pasaporte lo recoges
       y el premio si un acierto se confirma.`,
-      `Si pagas el <i>restante</i> que le sobre,
-      consigues completar la travesía,
-      cubriendo el resultado que te cobren
+      `Si el tiro soprepasa lo que expones,
+      te vas a desterrar en las orillas;
+      o pagas el <i>restante</i> que le sobre.
+      logrando completar la travesía.
+      Se cubre el resultado que te cobren
       con palos de la torre de partida.
       Si partes de los tréboles entonces,
       la carta pasaporte es permitida.`
