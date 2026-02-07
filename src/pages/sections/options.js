@@ -141,9 +141,9 @@ const optionalSections = [{
       en: "Hearts Boost",
     }),
     p: versify(Copy.text({
-      es: `Cuestionas al igual que en los palacios,
+      es: `Cuestionas, al igual que en los palacios,
         con pruebas y destierro de su viaje,
-        a quien se te presente en tu descanso,
+        a quien se te presente en tu descanso
         o esté tu zanahoria en su paraje.`,
       en: `If a guest comes where you stand—
         anywhere but underground—
