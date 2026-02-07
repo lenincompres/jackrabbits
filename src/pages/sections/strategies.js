@@ -27,7 +27,7 @@ const strategySections = [{
       y el premio si un acierto se confirma.`,
       `Si el tiro soprepasa lo que expones,
       te vas a desterrar en las orillas;
-      o pagas el <i>restante</i> que le sobre.
+      o pagas el <i>restante</i> que le sobre
       logrando completar la travesía.
       Se cubre el resultado que te cobren
       con palos de la torre de partida;
