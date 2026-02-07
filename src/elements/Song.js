@@ -223,7 +223,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.H));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/0c6e1140-4d24-4b57-b94d-3950b304d34e.m4a",
+  es: "https://cdn1.suno.ai/d8e2692e-ab31-49b5-bcb2-5c39f9920fb3.m4a",
   en: "https://cdn1.suno.ai/8b707e26-436a-4464-a338-24af4b29eb1e.m4a",
 }), Copy.text({
   es: "Tréboles: a volar entre las torres",

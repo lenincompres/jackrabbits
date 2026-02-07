@@ -30,8 +30,8 @@ const strategySections = [{
       o pagas el <i>restante</i> que le sobre.
       logrando completar la travesía.
       Se cubre el resultado que te cobren
-      con palos de la torre de partida.
-      Si partes de los tréboles entonces,
+      con palos de la torre de partida;
+      si el símbolo es de tréboles entonces,
       la carta pasaporte es permitida.`
     ],
     en: [
