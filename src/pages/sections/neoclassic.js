@@ -26,10 +26,10 @@ const neoclassicSections = [{
       y flores sin sus nobles a la mesa.`,
       `En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
-      Sus pozos te conducen al subsuelo;
+      Los pozos te conducen al subsuelo;
       subirlos es inválido de abajo.
-      El lobo es obediente a tu señuelo,
-      si pagas al venir por su traslado.`
+      Y el lobo es obediente a tu señuelo,
+      se paga en el cubil por traslarlo.`
     ],
     en: [`Fleurs are classic suits' replacements,
       but won't have their special powers:

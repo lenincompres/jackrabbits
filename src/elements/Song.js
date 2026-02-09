@@ -208,7 +208,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/56b72bfc-0869-41e8-a649-d6c04f5c1d0e.m4a",
-  en: "https://cdn1.suno.ai/89c8dcdb-b59c-49df-a8ca-8f0adf1c98a2.m4a",
+  en: "https://cdn1.suno.ai/af918a56-d237-4e4a-b64b-804472ee83ea.m4a",
 }), Copy.text({
   es: "Diamantes: a comerciar en las plazas",
   en: "Diamonds: Trade at Jack Plazas",
