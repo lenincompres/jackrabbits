@@ -201,10 +201,10 @@ const strategySections = [{
   p_0: versify(Copy.text({
     es: `Si quieres <b class="diamonds">potenciar a los diamantes <sup>+</sup></b>,
     añádele el acápite a las reglas:
-    permite los canjeos personales
-    con alguien en el sitio que te encuentras;
-    y mientras los negocios se debaten, 
-    se ocultan en las manos las ofertas.
+    permite compraventas personales
+    con alguien en el sitio que te encuentras.
+    El precio por diamantes se debate
+    y ocultan en las manos las ofertas.
     A quien se le descubra por chantaje, 
     después del intercambio se destierra.`,
     en: `If agreed when setup starts,

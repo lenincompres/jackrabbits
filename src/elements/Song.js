@@ -207,7 +207,7 @@ new Song(Copy.text({
 }), () => visitSong("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/56b72bfc-0869-41e8-a649-d6c04f5c1d0e.m4a",
+  es: "https://cdn1.suno.ai/081fd690-7921-4708-b622-fbd5937af524.m4a",
   en: "https://cdn1.suno.ai/af918a56-d237-4e4a-b64b-804472ee83ea.m4a",
 }), Copy.text({
   es: "Diamantes: a comerciar en las plazas",
