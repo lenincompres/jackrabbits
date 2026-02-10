@@ -22,8 +22,8 @@ const splashSection = {
   })),
   onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits", "_blank"),
   footer_footnote: versify(Copy.text({
-    es: `Apréndete las reglas en su guía.
-      Se cuenta enteramente en poesía.`,
+    es: `Apréndete las reglas en su guía,
+      contada enteramente en poesía.`,
     en: `Features rules in metered rhyme.
       They’ll delight and save you time.`,
   })),
