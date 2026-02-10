@@ -214,10 +214,12 @@ footer.footnote {
   height: fit-content;
   position: absolute;
   bottom: 0px;
-  background: #eff1db;
+  color: var(--ink);
+  background: var(--home);
   margin: 0 -0.6rem;
-  padding: 1rem 0;
+  padding: 1rem 0 1.5rem;
   width: calc(100% + 1.2rem);
+  box-shadow: -1rem -0.5rem 2.5rem var(--dark) inset;
 }
 
 @media (width > 88rem) {
