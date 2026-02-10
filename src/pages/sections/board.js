@@ -20,7 +20,7 @@ const boardSection = {
       `Se puede comenzar a colocarlas:
       por turnos o con libre preferencia.
       Por turnos se mantienen sin mirarlas,
-      y pieza que volteen, la conectan.
+      y pieza que voltees, la conectas.
       O libre se permite voltearlas,
       sin turnos ni descansos al ponerlas.
       Igual se recomienda al conectarlas
