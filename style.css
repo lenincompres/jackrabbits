@@ -34,11 +34,11 @@
   --shields: #436b95;
   --torches: #c04000;
 
-  --anchors: #8e4585; 
+  --anchors: #8e4585;
   --shells: #dc5349;
   --icicles: #3aa8c1;
   --bells: #b5a642;
-  
+
   --fleurs: #d65282;
 }
 
@@ -210,6 +210,16 @@ light-box>section:has(a.song.playing) {
   height: 100%;
 }
 
+footer.footnote {
+  height: fit-content;
+  position: absolute;
+  bottom: 0px;
+  background: #eff1db;
+  margin: 0 -0.6rem;
+  padding: 1rem 0;
+  width: calc(100% + 1.2rem);
+}
+
 @media (width > 88rem) {
 
   #languageMenu {
@@ -239,7 +249,7 @@ light-box>section:has(a.song.playing) {
   }
 
   .handSection:not(.menu)>section:not(.opened) a,
-  .handSection:not(.menu)>section:not(.opened) media-figure  {
+  .handSection:not(.menu)>section:not(.opened) media-figure {
     pointer-events: none;
   }
 
@@ -355,6 +365,13 @@ light-box>section:has(a.song.playing) {
 
   .vertical {
     display: block;
+  }
+
+
+
+  footer.footnote {
+    position: relative;
+    margin: 1rem -0.6rem -2rem;
   }
 
 }
@@ -856,7 +873,7 @@ body>header h1>* {
 }
 
 
-#content img ,
+#content img,
 #content media-figure img {
   max-width: 100%;
   max-height: 100%;

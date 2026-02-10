@@ -20,7 +20,13 @@ const splashSection = {
     en: `Board the game of playing cards.
       Wander lands of wooden shards.`,
   })),
-  onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits","_blank"),
+  onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits", "_blank"),
+  footer_footnote: versify(Copy.text({
+    es: `Apréndete las reglas en su guía.
+      Se cuenta enteramente en poesía.`,
+    en: `Features rules in metered rhyme.
+      They’ll delight and save you time.`,
+  })),
 };
 
 export default splashSection;
