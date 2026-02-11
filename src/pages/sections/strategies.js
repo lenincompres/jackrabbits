@@ -159,7 +159,7 @@ const strategySections = [{
       let the proof they're blest be known.
       If you prove at least six hearts, 
       they'll discard the hearts they've shown.
-      Either one who's wrong departs—
+      Either one proved wrong departs—
       off the board the meddler's thrown.`,
     ]
   })),
