@@ -203,7 +203,7 @@ const optionalSections = [{
       en: "Seized Surplus",
     }),
     p: versify(Copy.text({
-      es: `Cuidado del exceso en lo que tomas.        
+      es: `Cuidado de excederte en lo que tomas.        
         Quienquiera que lo note te lo roba.`,
       en: `Don't get caught with cards abound.
         Your revealer robs you down.`,
