@@ -158,8 +158,8 @@ const optionalSections = [{
     p: versify(Copy.text({
       es: `Podrás incrementar la travesía
         si está tu zanahoria en un lugar.
-        Permite que en el turno que visitas
-        avances sin parar a descansar.`,
+        Permite que, en el turno que visitas,
+        te vayas sin tener que descansar.`,
       en: `Once your carrot’s been in place,
         you won't need to wait around.
         Royals claimed provide a trace—
