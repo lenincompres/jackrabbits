@@ -215,7 +215,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/5e5188c0-f02b-466b-848c-aa81240723de.m4a",
+  es: "https://cdn1.suno.ai/96875b96-826f-40b3-9e06-42b7a0ff1778.m4a",
   en: "https://cdn1.suno.ai/96d44044-6c28-4196-9f80-31d7fe9a5c30.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
@@ -223,7 +223,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.H));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/2472ec79-a045-4a86-bc30-7fd4c6b9fd38.m4a",
+  es: "https://cdn1.suno.ai/1a660e8e-9873-4df7-812b-e24b6a86b121.m4a",
   en: "https://cdn1.suno.ai/8b707e26-436a-4464-a338-24af4b29eb1e.m4a",
 }), Copy.text({
   es: "Tréboles: a volar entre las torres",
