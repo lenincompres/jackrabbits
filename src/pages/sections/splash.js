@@ -24,7 +24,7 @@ const splashSection = {
   footer_footnote: versify(Copy.text({
     es: `Apréndete las reglas en su guía,
       contada enteramente en poesía.`,
-    en: `Features rules in metered rhyme.
+    en: `Learn the rules in metered rhyme.
       They’ll delight and save you time.`,
   })),
 };
