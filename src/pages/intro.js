@@ -40,9 +40,9 @@ const introPage = {
           },
           p: versify(Copy.text({
             es: `El <a href="#full"><b><big>juego completivo</big></b></a> es desafiante.
-      Domina de primero el principiante.`,
+              Termina de primero el principiante.`,
             en: `First this intro’s understood.
-      Then the <a href="#full"><b><big>standard game</big></b></a>’s pursued.`,
+              Then the <a href="#full"><b><big>standard game</big></b></a>’s pursued.`,
           })),
         },
       }),
