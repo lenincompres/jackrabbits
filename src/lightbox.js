@@ -150,7 +150,9 @@ LightBox.add(new Pager({
       La suma de los dados es la tasa
       o el mínimo que tienes que pagar. 
       Se pierde el sobrepago si te pasas;
-      los símbolos se pueden combinar.`,
+      los símbolos se pueden combinar.
+      El precio de reales en sus casas
+      conserva su valor original.`,
         `Las cartas se <i>descartan</i> al usarse,
       dejándolas a un lado de la mesa.
       Es <b>1</b> lo que cuentas por los ases,
@@ -166,7 +168,9 @@ LightBox.add(new Pager({
       But in case you overpay, 
       then consider that the price.
       Use as many cards to pay,
-      check each symbol qualifies.`,
+      check each symbol qualifies.
+      Royal prices never sway—
+      acquisition stays precise.`,
         `Set aside the cards you spend—
       they’re <i>discarded</i> once you’re done. 
       Royals may be spent as <b>10</b>,

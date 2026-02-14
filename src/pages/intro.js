@@ -4,6 +4,7 @@ import transferSections from "./sections/transfers.js";
 import turnSections from "./sections/turns.js";
 import Song from "../elements/Song.js";
 import HandSection from "../elements/HandSection.js";
+import MediaFigure from "../elements/MediaFigure.js";
 
 const introPage = {
   article: new HandSection({
@@ -31,6 +32,7 @@ const introPage = {
             es: "Trucos del camino",
             en: "Off the Road",
           }),
+          img: new MediaFigure("roadTiles"),
         },
         section: transferSections,
         footer: {
