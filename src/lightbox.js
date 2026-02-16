@@ -152,7 +152,7 @@ LightBox.add(new Pager({
       Se pierde el sobrepago si te pasas;
       los símbolos se pueden combinar.
       El precio de reales en sus casas
-      conserva su valor original.`,
+      es siempre su valor original.`,
         `Las cartas se <i>descartan</i> al usarse,
       dejándolas a un lado de la mesa.
       Es <b>1</b> lo que cuentas por los ases,
@@ -169,8 +169,8 @@ LightBox.add(new Pager({
       then consider that the price.
       Use as many cards to pay,
       check each symbol qualifies.
-      Royal prices never sway—
-      acquisition stays precise.`,
+      Note that royals never sway—
+      that their price remains precise.`,
         `Set aside the cards you spend—
       they’re <i>discarded</i> once you’re done. 
       Royals may be spent as <b>10</b>,

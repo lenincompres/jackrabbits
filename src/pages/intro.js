@@ -28,11 +28,11 @@ const introPage = {
           a: {
             name: "intro/transfers",
           },
+          img: new MediaFigure("roadTiles"),
           h2: Copy.text({
             es: "Trucos del camino",
             en: "Off the Road",
           }),
-          img: new MediaFigure("roadTiles"),
         },
         section: transferSections,
         footer: {
