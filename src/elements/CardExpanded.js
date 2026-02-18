@@ -159,7 +159,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/972d84e0-7e6d-4ee3-9cbe-41167556dcc2.m4a",
-  en: "https://cdn1.suno.ai/d31b3ce7-9f08-48f4-9e85-0127c81e31da.m4a",
+  en: "https://cdn1.suno.ai/e39d4b12-57fa-41f8-bdbb-04e68a4c1fb0.m4a",
 }), Copy.text({
   es: "Fleurs",
   en: "Fleurs",
@@ -167,7 +167,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/655d1c46-a5fc-4c8c-b49d-00481c3dd467.m4a",
-  en: "https://cdn1.suno.ai/655d1c46-a5fc-4c8c-b49d-00481c3dd467.m4a",
+  en: "https://cdn1.suno.ai/c2d19013-692b-48a6-b8a7-4bfe8030ff28.m4a",
 }), Copy.text({
   es: "Trenes y Corceles",
   en: "Trains & Steeds",
@@ -175,7 +175,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/6626203c-349f-4239-9f9c-8d8b5a47340e.m4a",
-  en: "https://cdn1.suno.ai/6626203c-349f-4239-9f9c-8d8b5a47340e.m4a",
+  en: "https://cdn1.suno.ai/c058aa57-84c4-4594-bd92-6042de6ab465.m4a",
 }), Copy.text({
   es: "Alianzas Nobles",
   en: "Noble Alliances",

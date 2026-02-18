@@ -52,8 +52,9 @@ const boardSection = {
       top: 0,
       left: '-1.3rem',
       width: '52%',
+      color: 'var(--home)',
       textAlign: 'center',
-      textShadow: '0 0 3px white',
+      textShadow: '0 0 3px black',
       text: Copy.text({
         en: 'Citadel',
         es: 'Ciudadela',

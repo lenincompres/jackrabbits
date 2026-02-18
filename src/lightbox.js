@@ -170,7 +170,7 @@ LightBox.add(new Pager({
       Use as many cards to pay,
       check each symbol qualifies.
       Note that royals never sway—
-      that their price remains precise.`,
+      that’s a price that stays precise.`,
         `Set aside the cards you spend—
       they’re <i>discarded</i> once you’re done. 
       Royals may be spent as <b>10</b>,
@@ -232,14 +232,15 @@ And they offer rides and treks.`
     p: {
       content: versify(Copy.text({
         es: `Suscríbete al listado de correos.
-          Apoya la campaña que tendremos.`,
+          Apoya las campañas que tendremos.`,
         en: `Join the list on this domain.
-          Stay in touch for our campaign.`,
+          Stay in touch for our campaigns.`,
       })),
     },
     iframe: {
+      overflow: "hidden",
       width: "100%",
-      height: "13rem",
+      height: "14rem",
       src: "../mailinglist.html",
     },
     menu_bulletMenu: {
