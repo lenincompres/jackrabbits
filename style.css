@@ -1281,6 +1281,7 @@ light-box.opened {
 }
 
 light-box>section {
+  margin-top: -1rem;
   padding: 1rem;
   padding-bottom: 1.5rem;
   width: 39rem;
