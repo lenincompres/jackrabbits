@@ -243,7 +243,7 @@ new Song(Copy.text({
   en: "https://cdn1.suno.ai/a1c28688-3dda-4133-b412-0fcb65473fff.m4a",
 }), Copy.text({
   es: "Un nuevo territorio",
-  en: "A New Board of Your Own",
+  en: "A New Land",
 }), () => {
   visitSong("setup");
   popUp("board");
