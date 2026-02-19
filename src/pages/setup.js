@@ -34,7 +34,7 @@ const setupPage = {
           or revisit one explored.`,
             `Link the houses from each throne, 
           which are hexes in this spread. 
-          Build <a class="pop" onclick="popUp('board')"><b>a new board  of your own</b></a>,
+          Build <a class="pop" onclick="popUp('board')"><b>a new board</b></a> of your own,
           or the sample right ahead.`,
           ],
         }),
