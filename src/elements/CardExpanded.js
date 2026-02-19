@@ -171,7 +171,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Trenes y Corceles",
   en: "Trains & Steeds",
-}), () => visitSong("expansion"), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/6626203c-349f-4239-9f9c-8d8b5a47340e.m4a",
@@ -179,4 +179,4 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Alianzas Nobles",
   en: "Noble Alliances",
-}), () => visitSong("expansion"), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.A), 1);

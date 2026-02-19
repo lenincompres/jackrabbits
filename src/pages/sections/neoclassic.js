@@ -158,8 +158,6 @@ const neoclassicSections = [{
       te vende lo que quieras por diamantes.
       En la otra te reponen, de la pila,
       <strong>un</strong> tiro de tus cartas que descartes.`,
-      `Respétales el puerto en sus hexágonos;
-      se deben mantener desconectados.`,
     ],
     en: [`Two new rabbits bring their styles,
       as the classic suits are played.
@@ -177,8 +175,6 @@ const neoclassicSections = [{
         buy whatever suit you choose.
         Pay the other one discard—
         draw as many cards you lose.`,
-      `Hexes have a sea-blue side.
-          Leave it open to the tide.`,
     ],
   })),
   footer: {
@@ -186,6 +182,12 @@ const neoclassicSections = [{
   },
   div_note_footnote: {
     background: "var(--sea) !important",
+    p_: versify(Copy.text({
+      es: `Respétales el puerto en sus hexágonos;
+        se deben mantener desconectados.`,
+      en: `Hexes have a sea-blue side.
+        Leave it open to the tide.`,
+    })),
     h4: Copy.text({
       es: "+ Comodín cañonero",
       en: "+ Cannonball Joker",
@@ -195,9 +197,9 @@ const neoclassicSections = [{
       te lanza a la taverna que prefieras.
       Su forma de volar es muy segura,
       sin riesgos de acabar en las afueras.`,
-      en: `Jokers have this card to add,
+      en: `Jokers add a travel mode,
       granting trips across the air.
-      Leap from any tile you're at—
+      You may leap from any road—
       reach the tavern you prefer.`,
     })),
   },
