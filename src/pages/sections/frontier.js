@@ -31,7 +31,7 @@ const frontierSections = [{
       seal the hex where you will stand.
       It will only welcome guests 
       who discard a higher band.
-      If invaded while you rest,
+      If this happens while you rest,
       lose the shown ones from your hand.
       No one else will reach the hex.
       Underground, this seal is banned.`,
@@ -99,7 +99,7 @@ const frontierSections = [{
         ya sea por tu cuenta o sin buscarlo,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
-    en: `Its connection underground,
+    en: `Its extension underground,
       carries two effects with fire.
       Lets you leave that very round, 
       paying what the dice require.
@@ -131,7 +131,7 @@ const frontierSections = [{
       las cartas de cualquiera de los palos.`,
     en: `Trade with horseshoes underground—
       at its shady marketplace.
-      This expansion, dark and brown,
+      This extension, dark and brown,
       is connected to this space.
       At this store, all suits are found—
       horseshoes taken in their place.
@@ -151,10 +151,10 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas, o te buscan.`,
-    en: `Pay to summon a wild horse—
+    en: `Pay to summon up a horse,
       on the islands where they're found.
-      They will reach you from their source,
-      if it's possible by ground.
+      They will reach you from their source—
+      horseshoe hexes over ground.
       And they'll take you on your course,
       even to the underground.
       They may ride to the cave's doors,

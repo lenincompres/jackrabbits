@@ -29,7 +29,7 @@ const nauticalSections = [{
       but unlike you do with swords,
       it’s a gentler sort of spell
       where no one will fall off-board.
-      Every player, where you dwell,
+      Everybody where you dwell
       gifts to you a card they hoard,
       or may duel and add their bells—
       if they win, your plea's ignored.`,
@@ -49,12 +49,12 @@ const nauticalSections = [{
       que veta su poder en el subsuelo.`,
     en: `There’s a cave that has a fee 
       to escape its tower's tile.
-      Pay wherever you may be 
-      to have anyone exiled.
-      Even those off-board at sea 
-      may be sentenced to this isle.
-      Underground, this cave is free, 
-      and you're safe from facing trial.`,
+      Pay wherever you may be
+      for an order to exile;
+      targets even off at sea
+      show six bells and dodge the isle.
+      Underground, the cave is free—
+      no one starts or faces trial.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[4].link,
@@ -131,7 +131,7 @@ const nauticalSections = [{
       las cambia por el doble de la pila.
       La suma de sus números se ignora;
       duplica independiente lo que tires.`,
-    en: `Its connection underground,
+    en: `Its extension underground,
       which is set when games begin,
       now provides a landing ground—
       where the boats may venture in.
