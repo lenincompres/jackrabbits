@@ -166,8 +166,8 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/655d1c46-a5fc-4c8c-b49d-00481c3dd467.m4a",
-  en: "https://cdn1.suno.ai/c2d19013-692b-48a6-b8a7-4bfe8030ff28.m4a",
+  es: "https://cdn1.suno.ai/a3024835-4279-4f40-910c-1afc308c952f.m4a",
+  en: "https://cdn1.suno.ai/a3024835-4279-4f40-910c-1afc308c952f.m4a",
 }), Copy.text({
   es: "Trenes y Corceles",
   en: "Trains & Steeds",

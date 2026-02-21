@@ -95,20 +95,20 @@ const neoclassicSections = [{
     ],
     en: [`Four more royals add their tiles,
       each from every classic suit.
-      Tiles have steeds and tracks for miles,
+      Cavaliers with tracks for miles,
       which will aid in your commute.`,
-      `They are used to ride the steeds,
-      and may never win the game.
-      To fullfill their royal needs,
-      acquisition is the same.`,
+      `You may claim them as you need—
+      acquisition is the same.
+      They are used to ride the steeds,
+      but may never win the game.`,
       `Ride their trains without a cost—
       pass right through the underground.
       Reach another hex train post—
       link all tracks when they're set down.`,
       `On the paths that have a steed,
-        show a Cavalier at hand,
-        and you’ll ride it as you need—
-        travel anywhere by land.`,
+      show a Cavalier at hand,
+      and you’ll ride at dashing speed—
+      travel anywhere by land.`,
     ],
   })),
   footer: {
