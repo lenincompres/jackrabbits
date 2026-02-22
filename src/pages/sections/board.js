@@ -27,9 +27,9 @@ const boardSection = {
       contar con las siguientes sugerencias:`,
     ],
     en: [
-      `Place the <i>Citadel</i> hex first. 
+      `Place the <i>Citadel</i> tile first. 
       Leave aside the <i>underground</i>. 
-      Shuffle all the tiles that rest:
+      Group and shuffle all the rest:
       twelve of all three shapes facedown.
       Deal by shape to every guest,
       each will get the same amount.`,

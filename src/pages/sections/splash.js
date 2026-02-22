@@ -17,15 +17,15 @@ const splashSection = {
   p: versify(Copy.text({
     es: `El juego de tablero en el que viajas
       al reino de conejos y barajas.`,
-    en: `Board the game of playing cards.
+    en: `Board the game with playing cards.
       Wander lands of wooden shards.`,
   })),
   onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits", "_blank"),
   footer_footnote: versify(Copy.text({
     es: `Apréndete las reglas en su guía,
       contada enteramente en poesía.`,
-    en: `Learn the rules in metered rhyme.
-      They’ll delight and save you time.`,
+    en: `Learn the rules in metered rhyme—
+      they’ll delight and save you time.`,
   })),
 };
 
