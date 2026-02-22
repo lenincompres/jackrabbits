@@ -102,7 +102,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5c356eba-4514-4e3c-98f1-f605198c1fbf.m4a",
-  en: "https://cdn1.suno.ai/e57bce1b-05cb-42e3-bca6-fa7def782416.m4a",
+  en: "https://cdn1.suno.ai/3c9f3f68-990d-40d1-a70e-e83231704a16.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches",
@@ -119,7 +119,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/efbce1a8-f3d1-4762-b452-fa8faf01d428.m4a",
-  en: "https://cdn1.suno.ai/613f5d7b-8db9-4d53-a686-0c211e2c34bc.m4a",
+  en: "https://cdn1.suno.ai/8610b418-c1d6-4e14-84a3-139649637335.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
@@ -127,7 +127,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/0e6eea32-4ff7-4b3c-9ee5-6e1bfcc73c1c.m4a",
-  en: "https://cdn1.suno.ai/34738d2c-078c-43a3-b277-035af753c0da.m4a",
+  en: "https://cdn1.suno.ai/d9e77c1c-1d8e-42a6-be75-2838665e7384.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -135,7 +135,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.m4a",
-  en: "https://cdn1.suno.ai/61480d88-ad55-4a02-8655-744438044e9c.m4a",
+  en: "https://cdn1.suno.ai/8e64746d-59d3-464c-98dd-18a520e7424e.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
@@ -143,7 +143,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/9b770383-e1b4-4041-b8c3-70edb1cff9f4.m4a",
-  en: "https://cdn1.suno.ai/b0530c04-383b-4099-85e2-8c60a42573b0.m4a",
+  en: "https://cdn1.suno.ai/a3c72dff-7d69-4598-b443-9965d0ac18d8.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
@@ -151,7 +151,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a00660b6-5e9a-420e-92b8-f6298869b6de.m4a",
-  en: "https://cdn1.suno.ai/33dc6724-1ae4-4e38-84c6-2440beddcb1d.m4a",
+  en: "https://cdn1.suno.ai/d7983b0b-1fde-4465-8861-ca8c02d5740a.m4a",
 }), Copy.text({
   es: "Témpanos",
   en: "Icicles",

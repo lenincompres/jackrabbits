@@ -28,7 +28,7 @@ const nauticalSections = [{
     en: `You may duel with bells as well, 
       but unlike you do with swords,
       it’s a gentler sort of spell
-      where no one will fall off-board.
+      where no one is sent off-board.
       Everybody where you dwell
       gifts to you a card they hoard,
       or may duel and add their bells—
@@ -41,11 +41,11 @@ const nauticalSections = [{
   p_: versify(Copy.text({
     es: `Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
-      Tan solo en el subsuelo se te escapan,
-      trasladas inclusive en el destierro.
+      Si muestran seis campanas se te escapa—
+      incluso si se encuentra en el destierro.
       La cueva en el destino es la sellada,
       que exige que se pague por su acceso.
-      La otra que es gratuita es la de entrada,
+      La gratis subterránea es la de entrada,
       que veta su poder en el subsuelo.`,
     en: `There’s a cave that has a fee 
       to escape its tower's tile.
@@ -54,7 +54,7 @@ const nauticalSections = [{
       targets even off at sea
       show six bells and dodge the isle.
       Underground, the cave is free—
-      no one starts or faces trial.`,
+      bells may cast no plea or trial.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[4].link,
@@ -130,7 +130,7 @@ const nauticalSections = [{
       También, al deshacerte de tus conchas, 
       las cambia por el doble de la pila.
       La suma de sus números se ignora;
-      duplica independiente lo que tires.`,
+      duplica independiente lo que tiras.`,
     en: `Its extension underground,
       will be set when games begin.
       It provides a landing ground—
