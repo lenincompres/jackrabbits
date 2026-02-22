@@ -32,7 +32,7 @@ const neoclassicSections = [{
       se paga en el cubil por traslarlo.`
     ],
     en: [`Fleurs are classic suits' replacements,
-      but won't have their special powers:
+      but don't have their special powers:
       fighting spades, or heart engagements,
       diamond trades, or clover towers.
       They fulfill the transfer payments—

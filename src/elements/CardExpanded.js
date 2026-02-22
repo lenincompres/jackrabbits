@@ -102,7 +102,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5c356eba-4514-4e3c-98f1-f605198c1fbf.m4a",
-  en: "https://cdn1.suno.ai/79985bf0-cc84-47f2-81a7-017ea44a9d74.m4a",
+  en: "https://cdn1.suno.ai/e57bce1b-05cb-42e3-bca6-fa7def782416.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches",
@@ -143,7 +143,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/9b770383-e1b4-4041-b8c3-70edb1cff9f4.m4a",
-  en: "https://cdn1.suno.ai/04d70910-3371-4998-8047-f0a160b44f54.m4a",
+  en: "https://cdn1.suno.ai/b0530c04-383b-4099-85e2-8c60a42573b0.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
@@ -151,7 +151,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a00660b6-5e9a-420e-92b8-f6298869b6de.m4a",
-  en: "https://cdn1.suno.ai/d7a9ca27-d350-45ec-860d-452dba4d3c47.m4a",
+  en: "https://cdn1.suno.ai/33dc6724-1ae4-4e38-84c6-2440beddcb1d.m4a",
 }), Copy.text({
   es: "Témpanos",
   en: "Icicles",

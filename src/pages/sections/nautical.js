@@ -132,8 +132,8 @@ const nauticalSections = [{
       La suma de sus números se ignora;
       duplica independiente lo que tires.`,
     en: `Its extension underground,
-      which is set when games begin,
-      now provides a landing ground—
+      will be set when games begin.
+      It provides a landing ground—
       where the boats may venture in.
       You may draw when you're around,
       twice as many cards you bin. 
