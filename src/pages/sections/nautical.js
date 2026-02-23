@@ -103,8 +103,8 @@ const nauticalSections = [{
       sail it anywhere for free. 
       If you pay at sea-bound treks,
       you will summon it by sea;
-      sail it to an anchor hex,
-      you must choose one of the three.
+      ride it to an anchor hex,
+      or choose one where it shall be.
       Note the anchor tower’s specs—
       trade with suits that you decree.`,
   })),
@@ -136,8 +136,8 @@ const nauticalSections = [{
       It provides a landing ground—
       where the boats may venture in.
       You may draw when you're around,
-      twice as many cards you bin. 
-      Toss your shells beneath the ground,
+      twice as many cards you bin; 
+      toss your shells beneath the ground,
       for a double card-count win.`,
   })),
   h4_shells_: Copy.text({
@@ -156,8 +156,8 @@ const nauticalSections = [{
       You'll be rescued for that fee—
       wash ashore its tower's port.
       And this island, you will see,
-      is a traveler's resort.
-      Guests may leave from there for free, 
+      is a traveler's resort;
+      guests may leave from there for free, 
       on the boat they're free to board.`,
   })),
   footer: {

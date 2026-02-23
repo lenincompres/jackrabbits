@@ -156,8 +156,8 @@ const frontierSections = [{
       They will reach you from their source—
       horseshoe hexes over ground.
       And they'll take you on your course,
-      even to the underground.
-      They may ride to the cave's doors,
+      even to the underground;
+      they may ride to the cave's doors,
       but will never venture down.`,
   })),
   footer: {
@@ -186,7 +186,7 @@ const frontierSections = [{
       Do this when you end your play,
       it impacts turns down the road.
       Get the sum this pile will weigh—
-      add it to the dice when rolled.
+      add it to the price when rolled.
       Please discard it right away,
       when thirteen are on the load.`,
   })),

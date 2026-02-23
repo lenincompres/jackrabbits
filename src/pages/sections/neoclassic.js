@@ -99,13 +99,13 @@ const neoclassicSections = [{
       which will aid in your commute.`,
       `You may claim them as you need—
       acquisition is the same.
-      They are used to ride the steeds,
+      They will let you ride the steeds,
       but may never win the game.`,
       `Ride their trains without a cost—
       pass right through the underground.
       Reach another hex train post—
       link all tracks when they're set down.`,
-      `On the paths that have a steed,
+      `On the roads that have a steed,
       show a Cavalier at hand,
       and you’ll ride at dashing speed—
       travel anywhere by land.`,

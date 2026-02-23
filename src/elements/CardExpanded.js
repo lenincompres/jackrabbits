@@ -119,7 +119,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/efbce1a8-f3d1-4762-b452-fa8faf01d428.m4a",
-  en: "https://cdn1.suno.ai/8610b418-c1d6-4e14-84a3-139649637335.m4a",
+  en: "https://cdn1.suno.ai/83a41b8c-6b45-4b98-bded-b74b209a1a64.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
@@ -135,7 +135,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.m4a",
-  en: "https://cdn1.suno.ai/8e64746d-59d3-464c-98dd-18a520e7424e.m4a",
+  en: "https://cdn1.suno.ai/ec79f86f-bbff-4e14-abe1-0f186c75a244.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
@@ -167,7 +167,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a3024835-4279-4f40-910c-1afc308c952f.m4a",
-  en: "https://cdn1.suno.ai/a3024835-4279-4f40-910c-1afc308c952f.m4a",
+  en: "https://cdn1.suno.ai/273e80d8-3b36-4c84-9dc4-bc120e80258a.m4a",
 }), Copy.text({
   es: "Trenes y Corceles",
   en: "Trains & Steeds",
