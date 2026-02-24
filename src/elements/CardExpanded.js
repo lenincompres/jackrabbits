@@ -159,14 +159,14 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/972d84e0-7e6d-4ee3-9cbe-41167556dcc2.m4a",
-  en: "https://cdn1.suno.ai/e39d4b12-57fa-41f8-bdbb-04e68a4c1fb0.m4a",
+  en: "https://cdn1.suno.ai/4fbdc3c2-2445-4a74-9988-06427491af1a.m4a",
 }), Copy.text({
   es: "Fleurs",
   en: "Fleurs",
 }), () => visitSong("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/a3024835-4279-4f40-910c-1afc308c952f.m4a",
+  es: "https://cdn1.suno.ai/273e80d8-3b36-4c84-9dc4-bc120e80258a.m4a",
   en: "https://cdn1.suno.ai/273e80d8-3b36-4c84-9dc4-bc120e80258a.m4a",
 }), Copy.text({
   es: "Trenes y Corceles",
@@ -174,8 +174,8 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/6626203c-349f-4239-9f9c-8d8b5a47340e.m4a",
-  en: "https://cdn1.suno.ai/c058aa57-84c4-4594-bd92-6042de6ab465.m4a",
+  es: "https://cdn1.suno.ai/39c4d65b-43fd-4e8f-ade9-1f37523575dd.m4a",
+  en: "https://cdn1.suno.ai/39c4d65b-43fd-4e8f-ade9-1f37523575dd.m4a",
 }), Copy.text({
   es: "Alianzas Nobles",
   en: "Noble Alliances",

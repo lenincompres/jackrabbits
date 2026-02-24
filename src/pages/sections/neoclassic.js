@@ -30,40 +30,56 @@ const neoclassicSections = [{
       subirlos es inválido de abajo.
       Y el lobo es obediente a tu señuelo,
       se paga en el cubil por traslarlo.`
+      /*
+      `En parques que contienen vericuetos,
+      elijes si cruzarlos o pararte.
+      Si pagas, cruzarás en el momento;
+      si no, descansarás por trasladarte.
+      Y al irte, considera los lobeznos,
+      que ofrecen los traslados de su madre.`
+      */
     ],
     en: [`Fleurs are classic suits' replacements,
-      but don't have their special powers:
+      but without their special powers:
       fighting spades, or heart engagements,
       diamond trades, or clover towers.
       They fulfill the transfer payments—
       don't claim royals with these flowers.`,
       `There're no royals in this style;
       just a rabbit and more tiles.`,
+      `Trailway hexes are layed out,
+      linking roads like any other.
+      You may pay to hike right out,
+      or set camp without a bother.
+      Dens may guide the campers out—
+      cubs sell transfers with their mother.`
+      /*
       `Any trailway through their grounds
       must be paid before you pass it.
       Wells may take you underground—
       these provide a one way access.
       Pay with fleurs where dens are found,
       and the wolf goes where you cast it.`
+      */
     ]
   })),
   h4_fleurs_: Copy.text({
-    es: "Traslado del lobo",
+    es: "Traslado la loba",
     en: "Transfer the wolf",
   }),
   p_: versify(Copy.text({
-    es: `Trasládalo a un paraje con conejos
-      si pagas en un parque o su paraje.
-      Las víctimas terminan en destierro
-      y apúntale a la carta que descarten.
-      Lo puedes trasladar por el subsuelo,
-      mas nunca navegando por los mares.`,
+    es: `Si pagas a la loba o sus lobeznos,
+      la envías a un conejo en un paraje.
+      Trasládala por tierra y por subsuelo,
+      y elije si con ella trasladarte.
+      La víctima termina en el destierro
+      y apúntale a la carta que descarte.`,
     en: `At its post or from a den,
       send the wolf to any rabbit.
-      Spook off-board those there and then,
-      take a card from each and scrap it.
-      Move the wolf by ground when sent—
-      using caves and wells as habit.`,
+      Spook off-board your target then,
+      take a card from them and scrap it.
+      Move through caves and land when sent—
+      you may ride to see her at it.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[8].link,
@@ -168,9 +184,9 @@ const neoclassicSections = [{
         Pay them both the suits they list—
         split the cost in any parts.`,
       `They have merchants, taverns, caves,
-        horses, cannons, or canoes.
+        roaming horses and canoes.
         Flights from towers may be saved—
-        payed with any of their suits.`,
+        payed with any of their suits.`, // roaming horses, and canoes
       `Pay one plaza diamond cards—
         buy whatever suit you choose.
         Pay the other one discard—
