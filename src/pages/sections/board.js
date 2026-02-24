@@ -7,7 +7,7 @@ const boardSection = {
   id: "guides",
   h2: Copy.text({
     es: "Un nuevo territorio",
-    en: "Build A New Land",
+    en: "Build the Land",
   }),
   p: versify(Copy.text({
     es: [

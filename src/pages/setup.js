@@ -15,7 +15,7 @@ const setupPage = {
     section: [{
       h3: "1. </br>" + Copy.text({
         es: "Arma el tablero",
-        en: "Build the Board",
+        en: "Set the Board",
       }),
       p: versify(
         Copy.text({
@@ -34,7 +34,7 @@ const setupPage = {
           or revisit one explored.`,
             `Link the houses from each throne, 
           which are hexes in this spread. 
-          <a class="pop" onclick="popUp('board')"><b>Build a new land</b></a> of your own,
+          <a class="pop" onclick="popUp('board')"><b>Build the land</b></a> they'll call their own,
           or the sample right ahead.`,
           ],
         }),
@@ -59,7 +59,7 @@ const setupPage = {
     }, {
       h3: "2. </br>" + Copy.text({
         es: "Reparte las cartas",
-        en: "Deal the cards",
+        en: "Set the cards",
       }),
       p: versify(
         Copy.text({
