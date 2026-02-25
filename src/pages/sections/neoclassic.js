@@ -184,9 +184,9 @@ const neoclassicSections = [{
         Pay them both the suits they list—
         split the cost in any parts.`,
       `They have merchants, taverns, caves,
-        roaming horses and canoes.
+        roving horses and canoes.
         Flights from towers may be saved—
-        payed with any of their suits.`, // roaming horses, and canoes
+        payed with any of their suits.`,
       `Pay one plaza diamond cards—
         buy whatever suit you choose.
         Pay the other one discard—

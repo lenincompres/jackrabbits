@@ -51,7 +51,7 @@ const nauticalSections = [{
       to escape its tower's tile.
       Pay wherever you may be
       for an order to exile;
-      targets even off at sea
+      targets, even off at sea,
       show six bells and dodge the isle.
       Underground, the cave is free—
       bells may cast no plea or trial.`,
@@ -81,7 +81,7 @@ const nauticalSections = [{
       make its claim hard to achieve.
       Choose its noble from the aisle,
       where the royals take their leave.
-      Set an anchor as its pile:
+      Set an anchor as its pile—
       one card weighing underneath.
       Add its value for the while,
       and discard it when they leave.`,
@@ -120,7 +120,7 @@ const nauticalSections = [{
   img: new MediaFigure("shells"),
   h4_shells: Copy.text({
     es: "Echar cartas al mar",
-    en: "Toss shells underground",
+    en: "Toss them underground",
   }),
   p: versify(Copy.text({
     es: `La gruta coralina de la costa
@@ -136,7 +136,7 @@ const nauticalSections = [{
       It provides a landing ground—
       where the boats may venture in.
       You may draw when you're around,
-      twice as many cards you bin; 
+      twice as many cards you bin:
       toss your shells beneath the ground,
       for a double card-count win.`,
   })),
