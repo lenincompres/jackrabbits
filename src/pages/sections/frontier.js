@@ -183,10 +183,10 @@ const frontierSections = [{
       la pila se descarta de inmediato.`,
     en: `Leaving acorns on display,
       adds them to the <i>overload</i>.
-      Do this when you end your play,
-      it impacts turns down the road.
       Get the sum this pile will weigh—
       add it to the price when rolled.
+      Do this when you end your play,
+      it impacts turns down the road.
       Please discard it right away,
       when thirteen are on the load.`,
   })),
