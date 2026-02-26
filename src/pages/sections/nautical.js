@@ -25,13 +25,13 @@ const nauticalSections = [{
       sin que haya que salirse del tablero.
       Si quieren rechazar lo que demandas,
       que sumen sus campanas en el duelo.`,
-    en: `You may duel with bells as well, 
-      but unlike you do with swords,
-      it’s a gentler sort of spell
+    en: `You may meet with bells as well, 
+      just like you would do with swords,
+      but a gentler sort of spell
       where no one is sent off-board.
       Everybody where you dwell
       gifts to you a card they hoard,
-      or may duel and add their bells—
+      or contend and add their bells—
       if they win, your plea's ignored.`,
   })),
   h4_bells_: Copy.text({
@@ -50,8 +50,8 @@ const nauticalSections = [{
     en: `There’s a cave that has a fee 
       to escape its tower's tile.
       Pay wherever you may be
-      for an order to exile;
-      targets, even off at sea,
+      to decree someone's exile.
+      Targets, even off at sea,
       show six bells and dodge the isle.
       Underground, the cave is free—
       bells may cast no plea or trial.`,

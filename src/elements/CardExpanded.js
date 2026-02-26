@@ -127,7 +127,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/0e6eea32-4ff7-4b3c-9ee5-6e1bfcc73c1c.m4a",
-  en: "https://cdn1.suno.ai/d9e77c1c-1d8e-42a6-be75-2838665e7384.m4a",
+  en: "https://cdn1.suno.ai/8f794f1b-c251-4cd7-824d-85d3bcc9e57d.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -174,8 +174,8 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/39c4d65b-43fd-4e8f-ade9-1f37523575dd.m4a",
-  en: "https://cdn1.suno.ai/39c4d65b-43fd-4e8f-ade9-1f37523575dd.m4a",
+  es: "https://cdn1.suno.ai/3d95c55e-d73d-4786-9b3a-ca3e426f1232.m4a",
+  en: "https://cdn1.suno.ai/3d95c55e-d73d-4786-9b3a-ca3e426f1232.m4a",
 }), Copy.text({
   es: "Alianzas Nobles",
   en: "Noble Alliances",
