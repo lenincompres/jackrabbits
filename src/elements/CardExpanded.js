@@ -94,7 +94,7 @@ export default CardExpanded;
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/ce2403cf-146a-4757-bb64-58c5072d8119.m4a",
-  en: "https://cdn1.suno.ai/94021eba-cbb0-4c65-b07c-1a158a77564b.m4a",
+  en: "https://cdn1.suno.ai/67d28132-5be3-49a2-a63f-c523dc9d11af.m4a",
 }), Copy.text({
   es: "Escudos",
   en: "Sheilds",
@@ -102,7 +102,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5c356eba-4514-4e3c-98f1-f605198c1fbf.m4a",
-  en: "https://cdn1.suno.ai/3c9f3f68-990d-40d1-a70e-e83231704a16.m4a",
+  en: "https://cdn1.suno.ai/f40fba93-62df-47fb-a3f8-f059a1606e29.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches",

@@ -183,8 +183,8 @@ const neoclassicSections = [{
         and three Naturalist cards.
         Pay them both the suits they list—
         split the cost in any parts.`,
-      `They have merchants, taverns, caves,
-        roving horses and canoes.
+      `They have merchants, taverns, caves—
+        ride on mules or board canoes.
         Flights from towers may be saved—
         payed with any of their suits.`,
       `Pay one plaza diamond cards—

@@ -23,11 +23,11 @@ const frontierSections = [{
       clausuras el lugar en el que esperas.
       Podría descartarlos con los suyos
       quienquiera que te invada y los supera.
-      Un máximo de diez es tu recurso;
+      Un máximo de doce es tu recurso;
       si evitan la invasión, los recuperas.
       Prohibido en el subsuelo en absoluto.
       Tan solo es invadiendo que se ingresa.`,
-    en: `Show your shields—ten pips or less—
+    en: `Show your shields—twelve pips or less—
       seal the hex where you will stand.
       It will only welcome guests 
       who discard a higher band.
