@@ -102,9 +102,9 @@ const nauticalSections = [{
     en: `If you board the sailboat’s deck,
       sail it anywhere for free. 
       If you pay at sea-bound treks,
-      you will summon it by sea;
+      anchors call it home by sea;
       ride it to an anchor hex,
-      or choose one where it shall be.
+      or deliver absentee.
       Note the anchor tower’s specs—
       trade with suits that you decree.`,
   })),
