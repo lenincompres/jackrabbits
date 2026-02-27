@@ -184,7 +184,7 @@ const neoclassicSections = [{
         Pay them both the suits they list—
         split the cost in any parts.`,
       `See their merchants, taverns, caves—
-        ride on mules or board canoes.
+        ride their mules and their canoes.
         Flights from towers may be saved—
         payed with any of their suits.`,
       `Pay one plaza diamond cards—

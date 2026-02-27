@@ -27,7 +27,7 @@ const nauticalSections = [{
       que sumen sus campanas en el duelo.`,
     en: `You may meet with bells as well, 
       just like you would do with swords,
-      but a gentler sort of spell
+      but you cast a gentler spell
       where no one is sent off-board.
       Everybody where you dwell
       gifts to you a card they hoard,
@@ -131,7 +131,7 @@ const nauticalSections = [{
       las cambia por el doble de la pila.
       La suma de sus números se ignora;
       duplica independiente lo que tiras.`,
-    en: `Its extension underground,
+    en: `Its extension underground
       will be set when games begin.
       It provides a landing ground—
       where the boats may venture in.
@@ -146,11 +146,11 @@ const nauticalSections = [{
   }),
   p_: versify(Copy.text({
     es: `En turnos en que sales al destierro,
-        si pagas con tus conchas en el mar,
-        trasládate a su islote en el momento:
-        su torre que se encuentra en altamar.
-        La góndola gratuita de su puerto
-        te brinda la salida del lugar.`,
+      si pagas con tus conchas en el mar,
+      trasládate a su islote en el momento:
+      su torre que se encuentra en altamar.
+      Contempla que la barca de su puerto
+      te ofrece navegarla sin pagar.`,
     en: `If you pay with shells at sea, 
       you won't end your turn off-board. 
       You'll be rescued for that fee—
@@ -158,7 +158,7 @@ const nauticalSections = [{
       And this island, you will see,
       is a traveler's resort;
       guests may leave from there for free, 
-      on the boat they're free to board.`,
+      on the ferry they may board.`,
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[6].link,

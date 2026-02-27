@@ -127,7 +127,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/0e6eea32-4ff7-4b3c-9ee5-6e1bfcc73c1c.m4a",
-  en: "https://cdn1.suno.ai/8f794f1b-c251-4cd7-824d-85d3bcc9e57d.m4a",
+  en: "https://cdn1.suno.ai/a78add3d-07eb-4c45-93df-7e51ba0ec428.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -135,7 +135,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.m4a",
-  en: "https://cdn1.suno.ai/ec79f86f-bbff-4e14-abe1-0f186c75a244.m4a",
+  en: "https://cdn1.suno.ai/68b767a5-4616-4194-a279-695f2f9d6ae1.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
@@ -143,7 +143,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/9b770383-e1b4-4041-b8c3-70edb1cff9f4.m4a",
-  en: "https://cdn1.suno.ai/a3c72dff-7d69-4598-b443-9965d0ac18d8.m4a",
+  en: "https://cdn1.suno.ai/43990f72-9dc0-4611-8e6e-f811db7fc929.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
@@ -174,8 +174,8 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/3d95c55e-d73d-4786-9b3a-ca3e426f1232.m4a",
-  en: "https://cdn1.suno.ai/3d95c55e-d73d-4786-9b3a-ca3e426f1232.m4a",
+  es: "https://cdn1.suno.ai/cbe287ac-9800-4b6c-ae4f-d234d739e01f.m4a",
+  en: "https://cdn1.suno.ai/cbe287ac-9800-4b6c-ae4f-d234d739e01f.m4a",
 }), Copy.text({
   es: "Alianzas Nobles",
   en: "Noble Alliances",

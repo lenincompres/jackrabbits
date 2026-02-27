@@ -86,8 +86,8 @@ const setupPage = {
           los <i>palos numerales</i> y los <i>ases</i>,
           después de barajarlas y reunirlas,
           del mazo bocabajo las repartes.
-          Se empieza con las <i>manos</i> repartidas,
-          ocultas y de a tres por concursante.
+          Entrégales las <i>manos</i> de partida,
+          secretas y de a tres por concursante.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
           en: `Every player gets three cards, 
