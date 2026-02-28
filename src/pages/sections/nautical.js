@@ -26,7 +26,7 @@ const nauticalSections = [{
       Si quieren rechazar lo que demandas,
       que sumen sus campanas en el duelo.`,
     en: `You may meet with bells as well, 
-      just like you would do with swords,
+      much like you would do with swords,
       but you cast a gentler spell
       where no one is sent off-board.
       Everybody where you dwell
@@ -131,7 +131,7 @@ const nauticalSections = [{
       las cambia por el doble de la pila.
       La suma de sus números se ignora;
       duplica independiente lo que tiras.`,
-    en: `Its extension underground
+    en: `Their extension underground
       will be set when games begin.
       It provides a landing ground—
       where the boats may venture in.
