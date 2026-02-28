@@ -184,7 +184,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5e831d1b-2fd9-4aed-8e34-32fcb87020bc.m4a",
-  en: "https://cdn1.suno.ai/fb02dcbf-66e5-4b54-b2aa-db3ca34b872f.m4a",
+  en: "https://cdn1.suno.ai/9826495a-d3c3-4fff-b931-04a1f9a0c1c8.m4a",
 }), Copy.text({
   es: "La partida",
   en: "Setty-Up",
@@ -239,8 +239,8 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.S));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/6716bb65-cd7c-48a0-aac3-1d74babdcb5c.m4a",
-  en: "https://cdn1.suno.ai/ddaefa08-a6d2-43b8-98c2-7f4971ff09ea.m4a",
+  es: "https://cdn1.suno.ai/431e56ce-59e9-4f05-a3a1-99e79c18f908.m4a",
+  en: "https://cdn1.suno.ai/5c184ef9-183d-420b-80e4-8b2f701f277a.m4a",
 }), Copy.text({
   es: "Un nuevo territorio",
   en: "A New Land",

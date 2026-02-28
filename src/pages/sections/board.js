@@ -7,7 +7,7 @@ const boardSection = {
   id: "guides",
   h2: Copy.text({
     es: "Un nuevo territorio",
-    en: "Build the Land",
+    en: "Build the Landscape",
   }),
   p: versify(Copy.text({
     es: [
@@ -17,12 +17,10 @@ const boardSection = {
       de hexágonos, de rombos y de triángulos.
       Repártelas por formas geométricas:
       iguales cantidades en el cálculo.`,
-      `Se puede comenzar a colocarlas:
-      por turnos o con libre preferencia.
-      Por turnos se mantienen sin mirarlas,
-      y pieza que voltees, la conectas.
-      O libre se permite voltearlas,
-      sin turnos ni descansos al ponerlas.
+      `Elige libremente voltearlas, 
+      sin turnos ni descansos al ponerlas;
+      o en turnos sucesivos, colocarlas: 
+      la pieza que voltees, la conectas.
       Igual se recomienda al conectarlas
       contar con las siguientes sugerencias:`,
     ],
@@ -33,11 +31,9 @@ const boardSection = {
       twelve of all three shapes facedown.
       Deal by shape to every guest,
       each will get the same amount.`,
-      `You may choose a placement style,
-      either strict or free in pace.
-      Strict with turns to place a tile,
+      `Build by turns to place a tile—
       pick a tile to flip and place.
-      Free with turns in loose freestyle,
+      Or create in loose freestyle—
       flip all tiles to see their face.
       These suggestions are worthwhile,
       loosely meant in either case:`,
