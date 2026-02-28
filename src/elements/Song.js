@@ -240,10 +240,10 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/431e56ce-59e9-4f05-a3a1-99e79c18f908.m4a",
-  en: "https://cdn1.suno.ai/5c184ef9-183d-420b-80e4-8b2f701f277a.m4a",
+  en: "https://cdn1.suno.ai/b2b6d6b1-5222-44a3-ad0e-5913bbc698da.m4a",
 }), Copy.text({
   es: "Un nuevo territorio",
-  en: "A New Land",
+  en: "A New Landscape",
 }), () => {
   visitSong("setup");
   popUp("board");
