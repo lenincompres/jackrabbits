@@ -31,9 +31,9 @@ const boardSection = {
       twelve of all three shapes facedown.
       Deal by shape to every guest,
       each will get the same amount.`,
-      `Build by turns to place a tile—
+      `Take your turns to place a tile—
       pick a tile to flip and place.
-      Or create in loose freestyle—
+      Or set out in loose freestyle—
       flip all tiles to see their face.
       These suggestions are worthwhile,
       loosely meant in either case:`,
