@@ -131,8 +131,8 @@ const nauticalSections = [{
       las cambia por el doble de la pila.
       La suma de sus números se ignora;
       duplica independiente lo que tiras.`,
-    en: `Their extension underground
-      will be set when games begin.
+    en: `There’s a grotto underground,
+      one that’s set when games begin.
       It provides a landing ground—
       where the boats may venture in.
       You may draw when you're around,

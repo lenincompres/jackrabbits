@@ -99,8 +99,8 @@ const frontierSections = [{
         ya sea por tu cuenta o sin buscarlo,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
-    en: `Its extension underground,
-      carries two effects with fire.
+    en: `There’s a cavern underground,
+      that extends your reach with fire.
       Lets you leave that very round, 
       paying what the dice require.
       And when turns are off-board bound,

@@ -102,7 +102,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5c356eba-4514-4e3c-98f1-f605198c1fbf.m4a",
-  en: "https://cdn1.suno.ai/f40fba93-62df-47fb-a3f8-f059a1606e29.m4a",
+  en: "https://cdn1.suno.ai/1b757e88-c88a-44ef-9bf3-920008c593c4.mp3",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches",
@@ -143,7 +143,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/9b770383-e1b4-4041-b8c3-70edb1cff9f4.m4a",
-  en: "https://cdn1.suno.ai/43990f72-9dc0-4611-8e6e-f811db7fc929.m4a",
+  en: "https://cdn1.suno.ai/370602ad-d4d4-471d-a95e-a798d7211ae1.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
