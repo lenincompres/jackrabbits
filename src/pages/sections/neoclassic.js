@@ -20,16 +20,16 @@ const neoclassicSections = [{
       y nunca al adquirir a la nobleza.
       Suplantan a los palos de los clásicos,
       excepto en el poder de su estrategia.
-      Los usas en el pago de los triángulos,
+      Las usas en el pago de los triángulos,
       y en rombos al cambiar de carretera.`,
       `Añades un conejo con sus piezas;
       y flores sin sus nobles a la mesa.`,
       `En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
-      Los pozos te conducen al subsuelo;
-      subirlos es inválido de abajo.
-      Y el lobo es obediente a tu señuelo,
-      se paga en el cubil por traslarlo.`
+      los pagas por cruzar en el momento, 
+      o acampas y te ahorras el traslado.
+      Si pagas en el parque a los lobeznos,
+      trasladas a su madre en un llamado.`
       /*
       `En parques que contienen vericuetos,
       elijes si cruzarlos o pararte.
@@ -64,14 +64,14 @@ const neoclassicSections = [{
     ]
   })),
   h4_fleurs_: Copy.text({
-    es: "Traslado la loba",
+    es: "Traslado la fiera",
     en: "Transfer the wolf",
   }),
   p_: versify(Copy.text({
-    es: `Si pagas a la loba o sus lobeznos,
+    es: `Si pagas a la fiera o sus lobeznos,
       la envías a un conejo en un paraje.
       Trasládala por tierra y por subsuelo,
-      y elije si con ella trasladarte.
+      y elige si con ella trasladarte.
       La víctima termina en el destierro
       y apúntale a la carta que descarte.`,
     en: `At its post or from a den,
@@ -161,14 +161,14 @@ const neoclassicSections = [{
     es: [`Los seis ayuntamientos y sus nobles
       combinan a los palos iniciales.
       Y dos de los conejos jugadores
-      se pueden resultar adicionales.`,
+      permiten añadir participantes.`,
       `Los símbolos de alianzas que visitas,
       se deben combinar al adquirirlas.
       Un trío es de la unión capitalista;
       y el otro, de misión naturalista.`,
       `Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
-      El vuelo de la torre, si hay restante,
+      El vuelo de sus torres, si hay restante,
       se paga con cualquiera de sus palos.`,
       `La Jota de la unión capitalista
       te vende lo que quieras por diamantes.

@@ -118,7 +118,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.FH, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/efbce1a8-f3d1-4762-b452-fa8faf01d428.m4a",
+  es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.m4a",
   en: "https://cdn1.suno.ai/e30c4a0c-9532-4a09-bfc4-6b73b3efe9af.m4a",
 }), Copy.text({
   es: "Bellotas",
@@ -134,7 +134,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.NB, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.m4a",
+  es: "https://cdn1.suno.ai/602d40a2-e71b-49e5-9d59-fd09b7984d5a.m4a",
   en: "https://cdn1.suno.ai/f5391c88-2d76-449f-8e11-46d3b0147b02.m4a",
 }), Copy.text({
   es: "Anclas",
@@ -150,7 +150,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.NS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/a00660b6-5e9a-420e-92b8-f6298869b6de.m4a",
+  es: "https://cdn1.suno.ai/d26b3a53-52e2-4f73-8c05-8b17c94b5362.m4a",
   en: "https://cdn1.suno.ai/d7983b0b-1fde-4465-8861-ca8c02d5740a.m4a",
 }), Copy.text({
   es: "Témpanos",
@@ -158,15 +158,15 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.NI, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/972d84e0-7e6d-4ee3-9cbe-41167556dcc2.m4a",
+  es: "https://cdn1.suno.ai/770a5bff-2f0b-4ceb-a86d-9a2133db104f.m4a",
   en: "https://cdn1.suno.ai/4fbdc3c2-2445-4a74-9988-06427491af1a.m4a",
 }), Copy.text({
-  es: "Fleurs",
+  es: "Flores",
   en: "Fleurs",
 }), () => visitSong("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/273e80d8-3b36-4c84-9dc4-bc120e80258a.m4a",
+  es: "https://cdn1.suno.ai/d310f8f8-c3c3-4421-92ae-d057269440c7.m4a",
   en: "https://cdn1.suno.ai/273e80d8-3b36-4c84-9dc4-bc120e80258a.m4a",
 }), Copy.text({
   es: "Trenes y Corceles",
@@ -174,7 +174,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/cbe287ac-9800-4b6c-ae4f-d234d739e01f.m4a",
+  es: "https://cdn1.suno.ai/bb625f54-0c50-42da-a4de-554aa7de1e0c.m4a",
   en: "https://cdn1.suno.ai/cbe287ac-9800-4b6c-ae4f-d234d739e01f.m4a",
 }), Copy.text({
   es: "Alianzas Nobles",
