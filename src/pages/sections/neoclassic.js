@@ -92,18 +92,18 @@ const neoclassicSections = [{
   }),
   //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
-    es: [`Añades el cuarteto de corceles
-      al clásico conjunto de los palos.
-      Sus piezas se vinculan por los rieles
-      y vienen por sus vías con caballos.`,
-      `Las cartas de corceles las adquieres,
+    es: [`Añades estaciones de los trenes
+      al número monárquico de palos.
+      Las cuatro se vinculan por sus rieles
+      y tienen en las vías sus caballos.`,
+      `Las cartas de sus nobles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con los corceles,
       y nunca al reclamar la Ciudadela.`,
       `Es gratis desplazarte con los trenes,
       que cruzan el subsuelo de inmediato.
       Procura, en el diseño de sus rieles,
-      que no halles un final desconectado.`,
+      que no halla un eslabón desconectado.`,
       `En vías con caballos de los blancos,
       si muestras un corcel que haz adquirido,
       trasládate de gratis cabalgando,

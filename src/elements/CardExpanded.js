@@ -93,7 +93,7 @@ customElements.define("jk-card-expanded", CardExpanded);
 export default CardExpanded;
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/ce2403cf-146a-4757-bb64-58c5072d8119.m4a",
+  es: "https://cdn1.suno.ai/b4cce962-19e4-4d29-b496-58fa87fd5980.m4a",
   en: "https://cdn1.suno.ai/67d28132-5be3-49a2-a63f-c523dc9d11af.m4a",
 }), Copy.text({
   es: "Escudos",
@@ -101,8 +101,8 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.FS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/5c356eba-4514-4e3c-98f1-f605198c1fbf.m4a",
-  en: "https://cdn1.suno.ai/1b757e88-c88a-44ef-9bf3-920008c593c4.mp3",
+  es: "https://cdn1.suno.ai/4e7558a7-2b0b-47ec-a33d-fd2a0d6abf78.m4a",
+  en: "https://cdn1.suno.ai/1b757e88-c88a-44ef-9bf3-920008c593c4.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches",
@@ -110,7 +110,7 @@ new Song(Copy.text({
 
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/a2368e94-85d5-4d5d-b707-316787c86f79.m4a",
+  es: "https://cdn1.suno.ai/76396428-4e55-4fce-9dac-f5e288295eb6.m4a",
   en: "https://cdn1.suno.ai/20e86465-9318-4c4e-bebb-b920d311faa5.m4a",
 }), Copy.text({
   es: "Herraduras",
@@ -126,7 +126,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.FA, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/0e6eea32-4ff7-4b3c-9ee5-6e1bfcc73c1c.m4a",
+  es: "https://cdn1.suno.ai/bc294453-b46b-4b1b-9590-19113442c472.m4a",
   en: "https://cdn1.suno.ai/a78add3d-07eb-4c45-93df-7e51ba0ec428.m4a",
 }), Copy.text({
   es: "Campanas",
@@ -135,14 +135,14 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/d2844b80-fc8d-4faf-a8b1-28d937495a0a.m4a",
-  en: "https://cdn1.suno.ai/4aec8591-85b9-47a6-9a3b-11be22db360c.m4a",
+  en: "https://cdn1.suno.ai/f5391c88-2d76-449f-8e11-46d3b0147b02.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
 }), () => visitSong("expansion", CardExpanded.SUIT.NA, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/9b770383-e1b4-4041-b8c3-70edb1cff9f4.m4a",
+  es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
   en: "https://cdn1.suno.ai/370602ad-d4d4-471d-a95e-a798d7211ae1.m4a",
 }), Copy.text({
   es: "Conchas",

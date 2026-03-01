@@ -41,12 +41,12 @@ const nauticalSections = [{
   p_: versify(Copy.text({
     es: `Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
-      Si muestran seis campanas se te escapa—
-      incluso si se encuentra en el destierro.
-      La cueva en el destino es la sellada,
+      Mostrándote campanas se te salva,
+      con seis en el tablero o el destierro.
+      La cueva en el exilio es la sellada,
       que exige que se pague por su acceso.
-      La gratis subterránea es la de entrada,
-      que veta su poder en el subsuelo.`,
+      La gratis del subsuelo es la de entrada,
+      que veta las campanas en su suelo.`,
     en: `There’s a cave that has a fee 
       to escape its tower's tile.
       Pay wherever you may be
@@ -94,11 +94,11 @@ const nauticalSections = [{
     es: `Si abordas por la vía del velero,
       navégalo sin costo y libremente.
       Si pagas a la orilla del tablero,
-      te mueves al que quieras de sus muelles;
-      el barco te recoge en el proceso,
+      lo mueves al que quieras de sus muelles;
+      si quieres te recoge en el proceso,
       y a un puerto de las anclas te transfieres.
       Su torre es un mercado heterogéneo:
-      comercia lo que sea que prefieres.`,
+      comercia con los palos que prefieres.`,
     en: `If you board the sailboat’s deck,
       sail it anywhere for free. 
       If you pay at sea-bound treks,
@@ -128,9 +128,9 @@ const nauticalSections = [{
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
       También, al deshacerte de tus conchas, 
-      las cambia por el doble de la pila.
-      La suma de sus números se ignora;
-      duplica independiente lo que tiras.`,
+      las cambias por el doble de la pila.
+      La cuenta de sus números se ignora;
+      descártalas y el doble le retiras.`,
     en: `There’s a grotto underground,
       one that’s set when games begin.
       It provides a landing ground—
@@ -202,7 +202,7 @@ const nauticalSections = [{
       Y en este, exceptuando en el subsuelo,
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
-      lanzados por el viento huracanado.`,
+      se salen por el viento huracanado.`,
     en: `Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex on that piece,
