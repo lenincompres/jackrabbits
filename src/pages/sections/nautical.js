@@ -202,7 +202,7 @@ const nauticalSections = [{
       Y en este, exceptuando en el subsuelo,
       retén sus visitantes, congelándolo.
       Si escapan, es afuera del tablero,
-      se salen por el viento huracanado.`,
+      se salen con el viento huracanado.`,
     en: `Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex on that piece,

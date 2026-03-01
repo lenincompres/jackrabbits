@@ -64,7 +64,7 @@ const neoclassicSections = [{
     ]
   })),
   h4_fleurs_: Copy.text({
-    es: "Traslado la fiera",
+    es: "Traslado con la fiera",
     en: "Transfer the wolf",
   }),
   p_: versify(Copy.text({
@@ -132,22 +132,22 @@ const neoclassicSections = [{
   },
   div_note_footnote: {
     h4: Copy.text({
-      es: "+ Hongo de la Pila",
-      en: "+ Pile's Mushroom",
+      es: "+ Embargo Esporádico",
+      en: "+ Sporadic Embargo",
     }),
     p: versify(Copy.text({
-      es: `Desígnale su punto de comienzo 
+      es: `El hongo lo colocas al comienzo
       si sales con el último en el orden. 
       Que olvide loterías e incrementos 
       quienquiera que en su sitio se acomode. 
       Reubícalo a tu agrado en el momento 
       si acabas en el sitio en el que ronde.`,
-      en: `If you start with the last turn, 
-      choose its starting settlement:
-      guests won't be allowed to earn—
+      en: `At the start, if last in turn,
+      choose the mushroom's settlement.
+      It forbids the guests to earn—
       lottery and increment.
-      If you end up there in turn,
-      pick its new re-settlement.`,
+      After ending there, in turn,
+      pick its next resettlement.`,
     })),
   },
 }, {
