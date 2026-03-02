@@ -92,22 +92,22 @@ const neoclassicSections = [{
   }),
   //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
-    es: [`Añades estaciones de los trenes
-      al número monárquico de palos.
+    es: [`Las nuevas estaciones de jinetes 
+      se añaden a las casas de los palos. 
       Las cuatro se vinculan por sus rieles
-      y tienen en las vías sus caballos.`,
-      `Las cartas de sus nobles las adquieres,
-      igual que las demás de la nobleza.
-      Las usas al viajar con los corceles,
-      y nunca al reclamar la Ciudadela.`,
-      `Es gratis desplazarte con los trenes,
+      y tienen carreteras con caballos.`,
+      `Es gratis desplazarte con sus trenes,
       que cruzan el subsuelo de inmediato.
       Procura, en el diseño de sus rieles,
       que no halla un eslabón desconectado.`,
-      `En vías con caballos de los blancos,
-      si muestras un corcel que haz adquirido,
-      trasládate de gratis cabalgando,
-      tal como de los cruces del camino.`,
+      `Las cartas de jinetes las adquieres,
+      igual que las demás de la nobleza.
+      Las usas al viajar con sus corceles,
+      y nunca al reclamar la Ciudadela.`,
+      `En todos sus caminos con corceles,
+      si muestras un jinete de tu mano,
+      cabalgas a la pieza que prefieres,
+      tal como de los cruces de traslado.`,
     ],
     en: [`Four more royals add their tiles,
       each from every classic suit.

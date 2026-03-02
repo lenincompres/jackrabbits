@@ -118,7 +118,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.FH, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/efbce1a8-f3d1-4762-b452-fa8faf01d428.m4a",
+  es: "https://cdn1.suno.ai/1953614e-de64-4003-9c85-c0600fea4e2f.m4a",
   en: "https://cdn1.suno.ai/e30c4a0c-9532-4a09-bfc4-6b73b3efe9af.m4a",
 }), Copy.text({
   es: "Bellotas",
@@ -166,7 +166,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/d310f8f8-c3c3-4421-92ae-d057269440c7.m4a",
+  es: "https://cdn1.suno.ai/8dd2b445-6335-45ab-abb1-60b148b6b855.m4a",
   en: "https://cdn1.suno.ai/273e80d8-3b36-4c84-9dc4-bc120e80258a.m4a",
 }), Copy.text({
   es: "Trenes y Corceles",
