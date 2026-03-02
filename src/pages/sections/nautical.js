@@ -141,7 +141,7 @@ const nauticalSections = [{
       for a double card-count win.`,
   })),
   h4_shells_: Copy.text({
-    es: "Traslado desde el Mar",
+    es: "Traslado desde el mar",
     en: "Transfer with the tides",
   }),
   p_: versify(Copy.text({
