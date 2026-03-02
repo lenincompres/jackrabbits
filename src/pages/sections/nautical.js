@@ -142,7 +142,7 @@ const nauticalSections = [{
   })),
   h4_shells_: Copy.text({
     es: "Traslado desde el mar",
-    en: "Transfer with the tides",
+    en: "Transfer from the Sea",
   }),
   p_: versify(Copy.text({
     es: `En turnos en que sales al destierro,
