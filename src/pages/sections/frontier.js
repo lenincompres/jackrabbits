@@ -187,7 +187,7 @@ const frontierSections = [{
       add it to the price when rolled.
       Do this when you end your play,
       it impacts turns down the road.
-      Please discard it right away,
+      It's discarded right away,
       when thirteen are on the load.`,
   })),
   h4_acorns_: Copy.text({
