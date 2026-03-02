@@ -208,7 +208,7 @@ const frontierSections = [{
       Choose a proper kind of zone:
       river, mountain, or the woods.
       Send off-board all those who come,
-      lest they pay it as they should.
+      lest they pay another move.
       If you bring it where you're on,
       leave the board or cut right through.`,
   })),

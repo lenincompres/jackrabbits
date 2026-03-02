@@ -119,7 +119,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/1953614e-de64-4003-9c85-c0600fea4e2f.m4a",
-  en: "https://cdn1.suno.ai/e30c4a0c-9532-4a09-bfc4-6b73b3efe9af.m4a",
+  en: "https://cdn1.suno.ai/13241fc9-6f66-4f1a-9333-8ca2c8c12d14.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
