@@ -91,12 +91,12 @@ const frontierSections = [{
     en: "Set the Place Ablaze",
   }),
   p: versify(Copy.text({
-    es: `Tan solo deshaciéndote de antorchas
-     propicias el incendio de la pieza. 
-     Quienquiera que se encuentre por la zona 
-     descarta de su mano lo que quiera. 
-     Si no es de las antorchas, te las robas. 
-     Contigo las visitas se destierran.`,
+    es: `Propicias el incendio de la pieza,
+      tan solo deshaciéndote de antorchas.
+      Entonces tu conejo se destierra,
+      llevándose a los otros de la zona.
+      Y aparte, que descarten lo que quieran;
+      si no es de las antorchas, te lo robas.`,
     en: `Start a fire where you are—
       any torch amount will do.
       Everyone must lose a card
