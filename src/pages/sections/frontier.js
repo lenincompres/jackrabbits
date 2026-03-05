@@ -86,6 +86,26 @@ const frontierSections = [{
       Since all players, there and then,
       are ejected from the board.`,
   })),
+  h4_torches: Copy.text({
+    es: "Arrasar con fuego",
+    en: "Set the Place Ablaze",
+  }),
+  p: versify(Copy.text({
+    es: `Tan solo deshaciéndote de antorchas
+     propicias el incendio de la pieza. 
+     Quienquiera que se encuentre por la zona 
+     descarta de su mano lo que quiera. 
+     Si no es de las antorchas, te las robas. 
+     Contigo las visitas se destierran.`,
+    en: `Start a fire where you are—
+      any torch amount will do.
+      Everyone must lose a card
+      if they share the tile with you.
+      If they're torches, just discard—
+      all the rest becomes your loot.
+      As you leave in flames and charred,
+      every guest goes off-board too.`,
+  })),
   h4_torches_: Copy.text({
     es: "Traslados bajo el subsuelo",
     en: "Transfers Underground",

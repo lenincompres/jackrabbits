@@ -40,12 +40,12 @@ const nauticalSections = [{
   }),
   p: versify(Copy.text({
     es: `Separa bocabajo tus campanas,
-      que en mano ni se cuentan ni se juegan.
-      Quienquiera que sospeche lo que guardas,
-      que pida auditoría si te encuentra.
+      en mano ni se juegan ni se cuentan.
+      Quienquiera que sospeche las que guardas,
+      que pida revisarlas si te encuentra.
       Le cobras con campanas por espiarlas,
       un palo por cualquiera que comprueba.
-      Si alguna que revise es infiltrada,
+      Si alguna que revisa es infiltrada,
       tu espía te denuncia y se la queda.`,
     en: `Keep your bells facedown aside—
       they won't play nor count in hand.
