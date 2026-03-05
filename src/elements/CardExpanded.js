@@ -126,7 +126,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.FA, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/a7749927-c04b-4ad9-bae8-3e2663ce78bb.m4a",
+  es: "https://cdn1.suno.ai/e126ffbf-348c-422e-9f72-8dc039677773.m4a",
   en: "https://cdn1.suno.ai/8c7aeccd-f760-4fd9-98d6-81ad3aefa89f.m4a",
 }), Copy.text({
   es: "Campanas",

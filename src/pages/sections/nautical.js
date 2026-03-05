@@ -40,7 +40,7 @@ const nauticalSections = [{
   }),
   p: versify(Copy.text({
     es: `Separa bocabajo tus campanas,
-      ni juegan en mano ni se cuentan. 
+      ni juegan de tu mano ni se cuentan. 
       Quienquiera que sospeche las que guardas,
       que pida revisarlas si te encuentra.
       Le cobras con campanas por espiarlas,
@@ -84,7 +84,7 @@ const nauticalSections = [{
       Tan solo en el subsuelo se te escapan;
       vetadas las campanas por completo.
       Su cueva que es gratuita lo señala,
-      se paga del islote por su acceso.`,
+      se paga del exilio por su acceso.`,
     en: `There’s a cave that has a fee
       to escape its tower's tile.
       Pay wherever you may be—
