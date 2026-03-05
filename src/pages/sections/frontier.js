@@ -98,13 +98,13 @@ const frontierSections = [{
       Y aparte, que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
     en: `Start a fire where you are—
-      any torch amount will do.
-      Everyone must lose a card
-      if they share the tile with you.
+      any torch discard will do.
+      Leave the hex you set to char,
+      take off-board those there with you.
+      Each must also lose a card,
+      independent of their suit.
       If they're torches, just discard—
-      all the rest becomes your loot.
-      As you leave in flames and charred,
-      every guest goes off-board too.`,
+      any other you may loot.`,
   })),
   h4_torches_: Copy.text({
     es: "Traslados bajo el subsuelo",
