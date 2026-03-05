@@ -105,7 +105,7 @@ new Song(Copy.text({
   en: "https://cdn1.suno.ai/60904529-e473-413f-9737-baa59ba3913d.m4a",
 }), Copy.text({
   es: "Antorchas",
-  en: "Torches",
+  en: "Torches", // test 
 }), () => visitSong("expansion", CardExpanded.SUIT.FT, false), 1);
 
 
