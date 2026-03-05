@@ -34,6 +34,28 @@ const nauticalSections = [{
       or contend and add their bells—
       if they win, your plea's ignored.`,
   })),
+  h4_bells: Copy.text({
+    es: "Cartas en la mesa",
+    en: "Keep cards off-hand",
+  }),
+  p: versify(Copy.text({
+    es: `Separa bocabajo tus campanas,
+      que en mano ni se cuentan ni se juegan.
+      Quienquiera que sospeche lo que guardas,
+      que pida auditoría si te encuentra.
+      Le cobras con campanas por espiarlas,
+      un palo por cualquiera que comprueba.
+      Si alguna que revise es infiltrada,
+      tu espía te denuncia y se la queda.`,
+    en: `Keep your bells facedown aside—
+      they won't play nor count in hand.
+      Others pay you bells to spy,
+      if they meet you where you stand.
+      Take the bells they pay to pry—
+      let one card per pip be scanned;
+      and they'll keep the ones they eye
+      if their suit does not withstand.`
+  })),
   h4_bells_: Copy.text({
     es: "Traslado al aislamiento",
     en: "Transfer to the x-isle",
@@ -55,6 +77,22 @@ const nauticalSections = [{
       show six bells and dodge the isle.
       Underground, the cave is free—
       bells may cast no plea or trial.`,
+  })),
+  p_: versify(Copy.text({
+    es: `Si pagas dondequiera con campanas,
+      envías a cualquiera al aislamiento.
+      Tan solo en el subsuelo se te escapan;
+      vetadas las campanas por completo.
+      Su cueva que es gratuita lo señala,
+      se paga del islote por su acceso.`,
+    en: `There’s a cave that has a fee
+      to escape its tower's tile.
+      Pay wherever you may be—
+      to decree someone's exile.
+      Whisk someone from land or sea,
+      and pay from your facedown pile.
+      Underground, the cave is free—
+      no one starts or faces trial.`
   })),
   footer: {
     a_button_song: Song.getAlbum(1)[4].link,
