@@ -35,12 +35,12 @@ const nauticalSections = [{
       if they win, your plea's ignored.`,
   })),
   h4_bells: Copy.text({
-    es: "Cartas en la mesa",
+    es: "Poner cartas en la mesa",
     en: "Keep cards off-hand",
   }),
   p: versify(Copy.text({
     es: `Separa bocabajo tus campanas,
-      en mano ni se juegan ni se cuentan.
+      ni juegan en mano ni se cuentan. 
       Quienquiera que sospeche las que guardas,
       que pida revisarlas si te encuentra.
       Le cobras con campanas por espiarlas,
