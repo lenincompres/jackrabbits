@@ -204,20 +204,20 @@ const nauticalSections = [{
 }, {
   style: suitStyle(CardExpanded.SUIT.NI),
   h3_icicles: Copy.text({
-    es: "Témpanos",
+    es: "Carámbanos",
     en: "Icicles",
   }),
   img: new MediaFigure("icicles"),
   h4_icicles: Copy.text({
-    es: "Deslizar el glaciar",
-    en: "Slide the glacier",
+    es: "Deslizar el Témpano",
+    en: "Tip the Iceberg",
   }),
   p: versify(Copy.text({
-    es: `Conectas a un camino su glaciar,
+    es: `Conectas a su témpano glaciar,
       la torre que en las aguas se desliza,
-      si muestras en cualquier localidad
-      un témpano al tratar la lotería.
-      Si alcanza el resultado tras lanzar
+      si muestras un carámbano al lanzar
+      en donde tratarás la lotería.
+      Si alcanza el resultado del azar
       o pagas lo <i>restante</i> de la cifra,
       deslízalo a un camino por el mar,
       si no, pues lo despegas de la orilla.`,
@@ -231,16 +231,16 @@ const nauticalSections = [{
       ice may pay the shortfall fees.`,
   })),
   h4_icicles_: Copy.text({
-    es: "Traslado del Vórtice",
-    en: "Transfer the vortex",
+    es: "Traslado del vórtice",
+    en: "Transfer the Vortex",
   }),
   p_: versify(Copy.text({
-    es: `Si pagas dondequiera con tus témpanos,
-      al vórtice lo mueves a un hexágono.
-      Y en este, exceptuando en el subsuelo,
-      retén sus visitantes, congelándolo.
-      Si escapan, es afuera del tablero,
-      se salen con el viento huracanado.`,
+    es: `Si pagas dondequiera con carámbanos,
+      al vórtice le das un paradero.
+      Retén sus visitantes, congelándolo;
+      mas esto es imposible en el subsuelo.
+      Si intentan escaparse del hexágono,
+      terminan provocándose el destierro.`,
     en: `Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex on that piece,
