@@ -66,6 +66,7 @@ const frontierSections = [{
     en: "Torches",
   }),
   img: new MediaFigure("torches"),
+  /*
   h4_torches: Copy.text({
     es: "Saquear con fuego",
     en: "Plunder with fire",
@@ -85,10 +86,10 @@ const frontierSections = [{
       will be also hurled off-board.
       Since all players, there and then,
       are ejected from the board.`,
-  })),
+  })),*/
   h4_torches: Copy.text({
     es: "Arrasar con fuego",
-    en: "Set the Place Ablaze",
+    en: "Scatter with fire",
   }),
   p: versify(Copy.text({
     es: `Propicias el incendio de la pieza,
@@ -107,7 +108,7 @@ const frontierSections = [{
       any other you may loot.`,
   })),
   h4_torches_: Copy.text({
-    es: "Traslados bajo el subsuelo",
+    es: "Traslado bajo el subsuelo",
     en: "Transfers Underground",
   }),
   p_: versify(Copy.text({
@@ -140,7 +141,7 @@ const frontierSections = [{
   img: new MediaFigure("horseshoes"),
   h4_horseshoes: Copy.text({
     es: "Trapichear en el subsuelo",
-    en: "Hustle underground",
+    en: "Haggle underground",
   }),
   p: versify(Copy.text({
     es: `La plaza clandestina que es oscura
@@ -156,7 +157,7 @@ const frontierSections = [{
       At this store, all suits are found—
       horseshoes taken in their place.
       You may trade your sums around,
-      for whatever suits you chase.`,
+      for whatever suit you chase.`,
   })),
   h4_horseshoes_: Copy.text({
     es: "Traslado en Bronco",

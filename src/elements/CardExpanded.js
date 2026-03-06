@@ -102,7 +102,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/f8f6b64f-a917-47ed-8fea-9ad9bdd748a5.m4a",
-  en: "https://cdn1.suno.ai/60904529-e473-413f-9737-baa59ba3913d.m4a",
+  en: "https://cdn1.suno.ai/5e520f26-d63d-4162-b926-27bdee8af2e7.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches", // test 
@@ -111,7 +111,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/76396428-4e55-4fce-9dac-f5e288295eb6.m4a",
-  en: "https://cdn1.suno.ai/20e86465-9318-4c4e-bebb-b920d311faa5.m4a",
+  en: "https://cdn1.suno.ai/6691f89a-352d-48d2-af86-dee924ee46e6.m4a",
 }), Copy.text({
   es: "Herraduras",
   en: "Horseshoes",
@@ -126,8 +126,8 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.FA, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/e126ffbf-348c-422e-9f72-8dc039677773.m4a",
-  en: "https://cdn1.suno.ai/8c7aeccd-f760-4fd9-98d6-81ad3aefa89f.m4a",
+  es: "https://cdn1.suno.ai/f3ab55f7-cae4-419c-a437-b362d2df76e7.m4a",
+  en: "https://cdn1.suno.ai/a41caaac-4d6e-4e19-98c3-e3ef1324c692.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -143,7 +143,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
-  en: "https://cdn1.suno.ai/370602ad-d4d4-471d-a95e-a798d7211ae1.m4a",
+  en: "https://cdn1.suno.ai/9b5988af-5e5c-46f1-9d8b-d8097c5f54d0.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",

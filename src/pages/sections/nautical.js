@@ -36,7 +36,7 @@ const nauticalSections = [{
   })),
   h4_bells: Copy.text({
     es: "Poner cartas en la mesa",
-    en: "Keep cards off-hand",
+    en: "Put cards on the table",
   }),
   p: versify(Copy.text({
     es: `Separa bocabajo tus campanas,
@@ -49,9 +49,9 @@ const nauticalSections = [{
       tu espía te denuncia y se la queda.`,
     en: `Keep your bells facedown aside—
       they won't play nor count in hand.
-      Others pay you bells to spy,
+      Those in doubt may pay to spy
       if they meet you where you stand.
-      Take the bells they pay to pry—
+      Take the bells they'll pay to pry—
       let one card per pip be scanned;
       and they'll keep the ones they eye
       if their suit does not withstand.`
@@ -59,7 +59,7 @@ const nauticalSections = [{
   h4_bells_: Copy.text({
     es: "Traslado al aislamiento",
     en: "Transfer to the x-isle",
-  }),
+  }),/*
   p_: versify(Copy.text({
     es: `Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
@@ -77,20 +77,20 @@ const nauticalSections = [{
       show six bells and dodge the isle.
       Underground, the cave is free—
       bells may cast no plea or trial.`,
-  })),
+  })),*/
   p_: versify(Copy.text({
     es: `Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
-      Tan solo en el subsuelo se te escapan;
-      vetadas las campanas por completo.
-      Su cueva que es gratuita lo señala,
+      Incluso del destierro se trasladan,
+      tan solo se prohíbe en el subsuelo.
+      Su cueva, que es gratuita, lo señala;
       se paga del exilio por su acceso.`,
     en: `There’s a cave that has a fee
       to escape its tower's tile.
       Pay wherever you may be—
       to decree someone's exile.
-      Whisk someone from land or sea,
-      and pay from your facedown pile.
+      Whisk them off from land or sea,
+      pay it from your facedown pile.
       Underground, the cave is free—
       no one starts or faces trial.`
   })),
@@ -158,7 +158,7 @@ const nauticalSections = [{
   img: new MediaFigure("shells"),
   h4_shells: Copy.text({
     es: "Echar cartas al mar",
-    en: "Toss them underground",
+    en: "Cast to the deep",
   }),
   p: versify(Copy.text({
     es: `La gruta coralina de la costa
