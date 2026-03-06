@@ -213,20 +213,20 @@ const nauticalSections = [{
     en: "Slide the glacier",
   }),
   p: versify(Copy.text({
-    es: `Aíslas o conectas su glaciar,
+    es: `Conectas a un camino su glaciar,
       la torre que en las aguas se desliza,
       si muestras en cualquier localidad
       un témpano al tratar la lotería.
       Si alcanza el resultado tras lanzar
       o pagas lo <i>restante</i> de la cifra,
-      deslízalo a un camino por el mar
-      o elije despegarlo de la orilla.`,
+      deslízalo a un camino por el mar,
+      si no, pues lo despegas de la orilla.`,
     en: `Move its tower by the shore,
-      when you roll from any piece,
-      if you show a card before,
-      and it's equal or exceeds.
-      Link to any road its port,
-      or maroon it at the seas.
+      when you roll from any piece.
+      If you show a card before,
+      and it's equal or exceeds:
+      bring to any road its port,
+      otherwise it drifts at sea.
       If your card has fallen short,
       ice may pay the shortfall fees.`,
   })),
