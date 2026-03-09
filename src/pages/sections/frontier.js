@@ -92,8 +92,8 @@ const frontierSections = [{
     en: "Scatter with fire",
   }),
   p: versify(Copy.text({
-    es: `Propicias el incendio de la pieza,
-      tan solo deshaciéndote de antorchas.
+    es: `Si quieres un desorden de la pieza,
+      descarta lo que quieras en antorchas.
       Entonces tu conejo se destierra,
       llevándose a los otros de la zona.
       Y aparte, que descarten lo que quieran;
