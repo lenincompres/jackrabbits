@@ -64,8 +64,8 @@ const neoclassicSections = [{
     ]
   })),
   h4_fleurs_: Copy.text({
-    es: "Traslado con la fiera",
-    en: "Transfer with the wolf",
+    es: "Traslado feroz",
+    en: "Transfer the wolf",
   }),
   p_: versify(Copy.text({
     es: `Si pagas a la fiera o sus lobeznos,

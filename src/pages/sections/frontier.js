@@ -108,7 +108,7 @@ const frontierSections = [{
       any other you may loot.`,
   })),
   h4_torches_: Copy.text({
-    es: "Traslado bajo el subsuelo",
+    es: "Traslado por el subsuelo",
     en: "Transfers Underground",
   }),
   p_: versify(Copy.text({
