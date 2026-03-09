@@ -15,7 +15,7 @@ const strategySections = [{
   img: new MediaFigure("clubs"),
   h4_clubs: Copy.text({
     es: "Volar entre las torres K",
-    en: "Fly from <big>K</big>ing Towers",
+    en: "Fly from King Towers",
   }),
   p: versify(Copy.text({
     es: [
@@ -65,7 +65,7 @@ const strategySections = [{
   img: new MediaFigure("spades"),
   h4_spades: Copy.text({
     es: "Pelear por las cartas",
-    en: "Fight others for cards",
+    en: "Fight for cards",
   }),
   p: versify(Copy.text({
     es: [
@@ -125,7 +125,7 @@ const strategySections = [{
   img: new MediaFigure("hearts"),
   h4_hearts: Copy.text({
     es: "Vetar los palacios Q",
-    en: "Vet <big>Q</big>ueen Palaces",
+    en: "Vet Queen Palaces",
   }),
   p: versify(Copy.text({
     es: [
@@ -175,7 +175,7 @@ const strategySections = [{
   img: new MediaFigure("diamonds"),
   h4_diamonds: Copy.text({
     es: "Comerciar en las plazas J",
-    en: "Trade at <big>J</big>ack Plazas",
+    en: "Trade at Jack Plazas",
   }),
   p: versify(Copy.text({
     es: `Los centros con los símbolos de canje 

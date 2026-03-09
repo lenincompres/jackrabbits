@@ -219,9 +219,9 @@ const nauticalSections = [{
       en donde tratarás la lotería.
       Si alcanza el resultado del azar
       o pagas lo <i>restante</i> de la cifra,
-      deslízalo a un camino por el mar,
+      conéctalo a un camino por el mar,
       si no, pues lo despegas de la orilla.`,
-    en: `Move its tower by the shore,
+    en: `Tip the tower to the shore,
       when you roll from any piece.
       If you show a card before,
       and it's equal or exceeds:
