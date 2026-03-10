@@ -98,7 +98,7 @@ const frontierSections = [{
       llevándose a los otros de la zona.
       Y aparte, que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
-    en: `Start a fire where you are—
+    en: `Start a riot where you are—
       any torch discard will do.
       Leave the hex you set to char,
       take off-board those there with you.
