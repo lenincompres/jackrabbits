@@ -109,7 +109,7 @@ const nauticalSections = [{
     en: "Weigh Nobles Down",
   }),
   p: versify(Copy.text({
-    es: `Es válido, con <strong>una</strong> de tus anclas,
+    es: `Es válido, con una de tus anclas,
       usarla al visitar a la nobleza.
       Poniéndola debajo de su carta,
       la sumas al valor con que se adquiera.

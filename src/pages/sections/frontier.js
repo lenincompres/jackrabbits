@@ -92,11 +92,11 @@ const frontierSections = [{
     en: "Scatter with fire",
   }),
   p: versify(Copy.text({
-    es: `Si quieres un desorden de la pieza,
-      descarta lo que quieras en antorchas.
-      Entonces tu conejo se destierra,
+    es: `Descarta las antorchas que prefieras
+      y aléjate del caos que provocas.
+      Primero tu conejo se destierra,
       llevándose a los otros de la zona.
-      Y aparte, que descarten lo que quieran;
+      Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
     en: `Start a riot where you are—
       any torch discard will do.

@@ -151,8 +151,8 @@ LightBox.add(new Pager({
       o el mínimo que tienes que pagar. 
       Se pierde el sobrepago si te pasas;
       los símbolos se pueden combinar.
-      El precio de reales en sus casas
-      es siempre su valor original.`,
+      En cuanto a las reales en sus casas, 
+      mantienen su valor original.`,
         `Las cartas se <i>descartan</i> al usarse,
       dejándolas a un lado de la mesa.
       Es <b>1</b> lo que cuentas por los ases,
