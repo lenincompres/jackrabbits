@@ -240,7 +240,7 @@ const nauticalSections = [{
       Retén sus visitantes, congelándolo;
       mas esto es imposible en el subsuelo.
       Si intentan escaparse del hexágono,
-      terminan provocándose el destierro.`,
+      se van precipitándose al destierro.`,
     en: `Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex on that piece,
