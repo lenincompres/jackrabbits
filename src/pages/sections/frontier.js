@@ -100,7 +100,7 @@ const frontierSections = [{
       si no es de las antorchas, te lo robas.`,
     en: `Start a riot where you are—
       any torch discard will do.
-      Leave the hex you set to char,
+      End your turn with disregard,
       take off-board those there with you.
       Each must also lose a card,
       independent of their suit.
