@@ -1,0 +1,114 @@
+/* --------------------------- JACK RABBITS FONTS --------------------------- */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "jack-rabbits";
+  src: url("assets/jack-rabbits.eot");
+  src: url("assets/jack-rabbits.eot?#iefix") format("embedded-opentype"), url("assets/jack-rabbits.woff") format("woff"), url("assets/jack-rabbits.ttf") format("truetype"), url("assets/jack-rabbits.svg#jack-rabbits") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "jack-rabbits" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "jack-rabbits" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  line-height: .86em;
+}
+
+.icon-bishop:before {
+  content: "\34";
+}
+
+.icon-bones:before {
+  content: "\62";
+}
+
+.icon-clubs:before {
+  content: "\63";
+}
+
+.icon-crystals:before {
+  content: "\67";
+}
+
+.icon-diamonds:before {
+  content: "\64";
+}
+
+.icon-hearts:before {
+  content: "\68";
+}
+
+.icon-horseshoes:before {
+  content: "\75";
+}
+
+.icon-king:before {
+  content: "\36";
+}
+
+.icon-knight:before {
+  content: "\32";
+}
+
+.icon-mushrooms:before {
+  content: "\6d";
+}
+
+.icon-pawn:before {
+  content: "\31";
+}
+
+.icon-queen:before {
+  content: "\35";
+}
+
+.icon-rabbit:before {
+  content: "\30";
+}
+
+.icon-rook:before {
+  content: "\33";
+}
+
+.icon-sheilds:before {
+  content: "\6f";
+}
+
+.icon-shells:before {
+  content: "\77";
+}
+
+.icon-skulls:before {
+  content: "\6b";
+}
+
+.icon-spades:before {
+  content: "\73";
+}
+
+.icon-torches:before {
+  content: "\74";
+}

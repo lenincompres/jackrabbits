@@ -164,23 +164,23 @@ const neoclassicSections = [{
       permiten añadir participantes.`,
       `Los símbolos de alianzas que visitas,
       se deben combinar al adquirirlas.
-      Un trío es de la unión capitalista;
-      y el otro, de misión naturalista.`,
+      Un trío es del sector capitalista;
+      y el otro, de misiones humanistas.`,
       `Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
       El vuelo de sus torres, si hay restante,
       se paga con cualquiera de sus palos.`,
-      `La Jota de la unión capitalista
+      `La Jota del sector capitalista
       te vende lo que quieras por diamantes.
       En la otra te reponen, de la pila,
-      <strong>un</strong> tiro de tus cartas que descartes.`,
+      un tiro de tus cartas que descartes.`,
     ],
     en: [`Two new rabbits bring their styles,
       as the classic suits are played.
       Six more royals add their tiles,
       with alliances portrayed.`,
-      `These are three Capitalists
-        and three Naturalist cards.
+      `These are three capitalists
+        and three humanists in cards.
         Pay them both the suits they list—
         split the cost in any parts.`,
       `See their merchants, taverns, caves—

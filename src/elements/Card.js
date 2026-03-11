@@ -84,11 +84,10 @@ class Card extends HTMLElement {
             color: this._suit.as(s => s.color),
             text: this._number.as(n => Card.CHARS[n]),
           },
-          img: {
-            alt: this.suit.symbol + " card suit",
-            height: "1em",
-            src: this._suit.as(s => root + s.image),
-          }
+          i: {
+            color: this._suit.as(s => s.color),
+            class: this._suit.as(s => `data-icon icon-${s.symbol}`),
+          },
         })),
       },
       main: {
@@ -119,6 +118,13 @@ class Card extends HTMLElement {
         }
       },
     });
+  }
+
+  static getIcon(suit) {
+    return { 
+      class: `data-icon icon-${suit.symbol}`,
+      color: suit.color,
+   };
   }
 
   static CHARS = ["C", "A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
