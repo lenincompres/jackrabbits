@@ -173,7 +173,7 @@ const neoclassicSections = [{
       `La Jota del sector capitalista
       te vende lo que quieras por diamantes.
       En la otra te reponen, de la pila,
-      un tiro de tus cartas que descartes.`,
+      lus cartas de tu mano que descartes.`,
     ],
     en: [`Two new rabbits bring their styles,
       as the classic suits are played.
