@@ -48,7 +48,7 @@ const overviewSection = {
         Only pay for trailway treks,
         or to ride a boat or horse.`,
         `Rest upon a hex-shaped tile,
-        if you’re standing on the board. 
+        after moving on the board. 
         Draw the card atop the pile—
         that’s <b>the increment</b> reward.`,
       ],
