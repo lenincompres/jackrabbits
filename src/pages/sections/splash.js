@@ -4,28 +4,35 @@ import MediaFigure from "../../elements/MediaFigure.js";
 
 const splashSection = {
   class: "carded link",
-  cursor: "pointer",
-  a_button_buy: {
-    target: "_blank",
-    href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
-    text: Copy.text({
-      es: "Adquiere el juego",
-      en: "Purchase the game",
-    }),
-  },
-  img: new MediaFigure("jackRabbits"),
-  p: versify(Copy.text({
-    es: `El juego de tablero en el que viajas
+  section: {
+    cursor: "pointer",
+    a_button_buy: {
+      target: "_blank",
+      href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
+      text: Copy.text({
+        es: "Adquiere el juego",
+        en: "Purchase the game",
+      }),
+    },
+    img: new MediaFigure("jackRabbits"),
+    p: versify(Copy.text({
+      es: `El juego de tablero en el que viajas
       al reino de conejos y barajas.`,
-    en: `Board the game with playing cards.
+      en: `Board the game with playing cards.
       Wander lands of wooden shards.`,
-  })),
-  onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits", "_blank"),
+    })),
+    onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits", "_blank"),
+
+  },
   footer_footnote: versify(Copy.text({
     es: `Apréndete las reglas en su guía,
-      contada enteramente en poesía.`,
+      o <a onclick=" popUp('playlist')">escúchalas en forma de canción</a>.
+      Se cuenta enteramente en poesía,
+      simpleza y a la vez fascinación.`,
     en: `Learn the rules in metered rhyme—
-      they’ll delight and save you time.`,
+      read or <a onclick=" popUp('playlist')">hear the epic song</a>.
+      They’ll delight and save you time,
+      and perhaps you’ll sing along.`,
   })),
 };
 

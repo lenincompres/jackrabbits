@@ -92,7 +92,7 @@ const neoclassicSections = [{
   }),
   //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
-    es: [`Las nuevas estaciones de jinetes 
+    es: [`Las nuevas estaciones de corceles 
       se añaden a las casas de los palos. 
       Las cuatro se vinculan por sus rieles
       y tienen carreteras con caballos.`,
@@ -100,12 +100,12 @@ const neoclassicSections = [{
       que cruzan el subsuelo de inmediato.
       Procura, en el diseño de sus rieles,
       que no halla un eslabón desconectado.`,
-      `Las cartas de jinetes las adquieres,
+      `Las cartas de sus nobles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con sus corceles,
       y nunca al reclamar la Ciudadela.`,
-      `En todos sus caminos con corceles,
-      si muestras un jinete de tu mano,
+      `En todos sus caminos de corceles,
+      si muestras a su noble de tu mano,
       cabalgas a la pieza que prefieres,
       tal como de los cruces de traslado.`,
     ],

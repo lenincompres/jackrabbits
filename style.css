@@ -208,11 +208,13 @@ light-box>section:has(a.song.playing) {
   top: 1rem;
   position: relative;
   height: 100%;
+  z-index: 100;
 }
 
 footer.footnote {
   height: fit-content;
   position: absolute;
+  z-index: 100;
   bottom: 0px;
   color: var(--ink);
   background: var(--home);
@@ -920,7 +922,7 @@ body>header h1>* {
   border-color: var(--land);
 }
 
-.carded.link:hover a {
+.carded.link:hover a.button {
   background-color: var(--land);
 }
 
