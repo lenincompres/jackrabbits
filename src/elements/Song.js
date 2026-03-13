@@ -170,13 +170,8 @@ window.visitSong = (key, suit, royals) => {
   setTimeout(() => {
     document.querySelectorAll("hand-section").forEach(h => h.nextPage(h.total));
     setTimeout(() => {
-      let elt = document.querySelector("a.button.playing");
-      if (elt) elt = elt.parentElement.parentElement;
-      const sections = elt.querySelectorAll("section:not(.letter):not(.link)");
-      if (sections.length) elt = sections[0];
-      const header = elt.querySelector("header");
-      if (header) elt = header;
-      elt.scrollIntoView();
+      let elt = document.querySelector("a.button.play.playing");
+      elt.parentElement.scrollIntoView();
     }, 300);
   }, 300);
 }

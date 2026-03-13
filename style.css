@@ -371,7 +371,9 @@ footer.footnote {
     display: block;
   }
 
-
+  a.button.play.song {
+    border: solid 1px var(--shade) !important;
+  }
 
   footer.footnote {
     position: relative;
