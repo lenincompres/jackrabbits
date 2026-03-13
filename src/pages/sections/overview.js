@@ -1,8 +1,10 @@
 import Copy from "../../../lib/Copy.js";
 import RoyalTrio from "../../elements/RoyalTrio.js";
 import versify from "../../aux/versify.js";
+import Song from "../../elements/Song.js";
 
 const overviewSection = {
+  a_button_play_song: Song.List[0].btn,
   h3: Copy.text({
     es: "Visión General",
     en: "Overview",

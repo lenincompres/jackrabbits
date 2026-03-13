@@ -4,8 +4,10 @@ import versify, {
   classifyChars
 } from "../../aux/versify.js";
 import MediaFigure from "../../elements/MediaFigure.js";
+import Song from "../../elements/Song.js";
 
 const transferSections = [{
+  a_button_play_song: Song.List[3].btn,
   h3: Copy.text({
     es: "Los Traslados",
     en: "The Transfers",

@@ -13,6 +13,7 @@ const setupPage = {
       }),
     },
     section: [{
+      a_button_play_song: Song.List[1].btn,
       h3: "1. </br>" + Copy.text({
         es: "Arma el tablero",
         en: "Set the Board",

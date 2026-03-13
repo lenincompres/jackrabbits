@@ -1,8 +1,10 @@
 import Copy from "../../../lib/Copy.js";
 import versify from "../../aux/versify.js";
 import MediaFigure from "../../elements/MediaFigure.js";
+import Song from "../../elements/Song.js";
 
 const turnSections = [{
+  a_button_play_song: Song.List[2].btn,
   img: new MediaFigure("lottery"),
   h3: Copy.text({
     es: "1<small>.a</small> </br>La lotería",

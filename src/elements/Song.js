@@ -40,6 +40,13 @@ class Song {
       },
       onclick: Song._currentSong.as(v => () => v == this ? this.end() : this.start()),
     }, false);
+    this.btn = DOM.let("a", {
+      span: Song._currentSong.as(v => v != this ? "▶" : "◼"),
+      class: {
+        playing: Song._currentSong.as(v => v === this),
+      },
+      onclick: Song._currentSong.as(v => () => v == this ? this.end() : this.start()),
+    }, false);
 
     document.addEventListener("keydown", (e) => {
       if (e.code === "Space") {

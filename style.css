@@ -892,7 +892,7 @@ body>header h1>* {
   margin: 0.5rem auto 0.8rem !important;
 }
 
-.handSection.shuffle>section a.button {
+.handSection.shuffle>section a.button:last-child {
   margin-top: 0.6rem !important;
 }
 
@@ -924,6 +924,18 @@ body>header h1>* {
 
 .carded.link:hover a.button {
   background-color: var(--land);
+}
+
+a.button.play.song {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 1.5rem;
+  line-height: 2.2rem;
+  margin: 1rem;
+  border: none;
+  color: var(--light);
+  box-shadow: 4px 4px 6px var(--shade);
 }
 
 .carded.link media-figure {
