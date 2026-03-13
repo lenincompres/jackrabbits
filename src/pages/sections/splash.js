@@ -28,7 +28,7 @@ const splashSection = {
     es: `Apréndete las reglas en su guía,
       o <a onclick=" popUp('playlist')">escúchalas en forma de canción</a>.
       Se cuenta enteramente en poesía,
-      simpleza y a la vez fascinación.`,
+      con ritmo, claridad y precisión.`,
     en: `Learn the rules in metered rhyme—
       read or <a onclick=" popUp('playlist')">hear the epic song</a>.
       They’ll delight and save you time,
