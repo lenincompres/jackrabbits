@@ -207,20 +207,20 @@ new Song(Copy.text({
 }), () => visitSong("intro"));
 
 new Song(Copy.text({
+  es: "https://cdn1.suno.ai/081fd690-7921-4708-b622-fbd5937af524.m4a",
+  en: "https://cdn1.suno.ai/af918a56-d237-4e4a-b64b-804472ee83ea.m4a",
+}), Copy.text({
+  es: "Diamantes: a comerciar en las plazas",
+  en: "Diamonds: Trade at Jack Plazas",
+}), () => visitSong("full", Card.SUIT.D));
+
+new Song(Copy.text({
   es: "https://cdn1.suno.ai/6ca78a47-5abc-46ba-8416-0fa659acfa2c.m4a",
   en: "https://cdn1.suno.ai/96d44044-6c28-4196-9f80-31d7fe9a5c30.m4a",
 }), Copy.text({
   es: "Corazones: a vetar los palacios",
   en: "Hearts: Vet Queen Palaces",
 }), () => visitSong("full", Card.SUIT.H));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/a001b846-4892-4afb-ae36-1c4475ca1a29.m4a",
-  en: "https://cdn1.suno.ai/195a2ca4-e162-4913-8ff8-e028b5bc2227.m4a",
-}), Copy.text({
-  es: "Picas: a pelear por las cartas",
-  en: "Spades: Fight Others for Cards",
-}), () => visitSong("full", Card.SUIT.S));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/1a660e8e-9873-4df7-812b-e24b6a86b121.m4a",
@@ -231,12 +231,12 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.C));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/081fd690-7921-4708-b622-fbd5937af524.m4a",
-  en: "https://cdn1.suno.ai/af918a56-d237-4e4a-b64b-804472ee83ea.m4a",
+  es: "https://cdn1.suno.ai/a001b846-4892-4afb-ae36-1c4475ca1a29.m4a",
+  en: "https://cdn1.suno.ai/195a2ca4-e162-4913-8ff8-e028b5bc2227.m4a",
 }), Copy.text({
-  es: "Diamantes: a comerciar en las plazas",
-  en: "Diamonds: Trade at Jack Plazas",
-}), () => visitSong("full", Card.SUIT.D));
+  es: "Picas: a pelear por las cartas",
+  en: "Spades: Fight Others for Cards",
+}), () => visitSong("full", Card.SUIT.S));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/431e56ce-59e9-4f05-a3a1-99e79c18f908.m4a",
