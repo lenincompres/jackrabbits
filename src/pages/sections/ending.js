@@ -46,7 +46,7 @@ la clase de final que le interesa:`,
       ],
       en: [
         `<b>simple</b>: any royal cards.`,
-        `Or <b>diverse</b>: all different suits.`,
+        `Or <b>diverse</b>: three different suits.`,
         `Or <b>monarchic</b>: <b>k</b>ing, <b>q</b>ueen, <b>j</b>ack.`,
         `Or <b>diverse</b>-<b>monarchic</b> too.`,
         `Or the <b>tribal</b>, which is hard:

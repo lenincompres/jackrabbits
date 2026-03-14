@@ -894,8 +894,12 @@ body>header h1>* {
   margin: 0.5rem auto 0.8rem !important;
 }
 
+.handSection.shuffle>section>footer {
+  text-align: right;
+}
+
 .handSection.shuffle>section a.button:last-child {
-  margin-top: 0.6rem !important;
+  margin: 0.5rem 0.6rem -0.5rem !important;
 }
 
 .handSection.suits>section media-figure {
@@ -928,16 +932,19 @@ body>header h1>* {
   background-color: var(--land);
 }
 
+
+.handSection>section a.button.song {
+  border: none;
+  color: var(--light);
+  box-shadow: 4px 4px 6px var(--shade);
+  padding: 0 1.5rem;
+}
+
 a.button.play.song {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 0 1.5rem;
-  line-height: 2.2rem;
   margin: 1rem;
-  border: none;
-  color: var(--light);
-  box-shadow: 4px 4px 6px var(--shade);
 }
 
 .carded.link media-figure {
