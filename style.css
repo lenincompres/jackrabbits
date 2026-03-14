@@ -371,10 +371,6 @@ footer.footnote {
     display: block;
   }
 
-  a.button.play.song {
-    border: solid 1px var(--shade) !important;
-  }
-
   footer.footnote {
     position: relative;
     margin: 1rem -0.6rem -2rem;
@@ -931,7 +927,7 @@ body>header h1>* {
 .handSection>section a.button.song {
   border: none;
   color: var(--light);
-  box-shadow: 4px 4px 6px var(--shade);
+  box-shadow: 4px 4px 0.8rem var(--shade);
   padding: 0 1.5rem;
 }
 
