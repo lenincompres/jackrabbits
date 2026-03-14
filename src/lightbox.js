@@ -205,7 +205,7 @@ And they offer rides and treks.`
       es: `Empléalo en tu juego introductorio.
         Reanudas con <a class="pop" onclick="popUp('board')"><b>un nuevo territorio</b></a>.`,
       en: `Start your first game nice and steady.
-        <a class="pop" onclick="popUp('board')"><b>Build the land</b></a> when you feel ready.`,
+        <a class="pop" onclick="popUp('board')"><b>Build the landscape</b></a> when you're ready.`,
     })),
     img: new MediaFigure("sample"),
   },

@@ -9,6 +9,7 @@ import Song from "../../elements/Song.js";
 
 const neoclassicSections = [{
   style: suitStyle(CardExpanded.SUIT.F),
+  a_button_play_song: Song.getAlbum(1)[8].btn,
   h3_fleurs: Copy.text({
     es: "+ Flores",
     en: "+ Fleurs <small>(Flowers)</small>",
@@ -86,9 +87,10 @@ const neoclassicSections = [{
   }
 }, {
   style: suitStyle(CardExpanded.SUIT.T),
+  a_button_play_song: Song.getAlbum(1)[9].btn,
   h3_land: Copy.text({
-    es: "+ Trenes y Corceles",
-    en: "+ Trains & Steeds",
+    es: "+ Corceles",
+    en: "+ Cavaliers",
   }),
   //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
@@ -152,9 +154,10 @@ const neoclassicSections = [{
   },
 }, {
   style: suitStyle(CardExpanded.SUIT.A),
+  a_button_play_song: Song.getAlbum(1)[10].btn,
   h3_sea: Copy.text({
-    es: "+ Alianzas Nobles",
-    en: "+ Noble Alliances",
+    es: "+ Alianzas",
+    en: "+ Alliances",
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({

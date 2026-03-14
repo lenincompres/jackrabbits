@@ -15,4 +15,19 @@ export const suitStyle = (suit) => ({
   boxShadow: CardFloating._forcedSuit.as(val => val != suit ? `0 0 2.5rem var(--${suit.symbol}) inset, 1px 1px 3px black` : ''),
 });
 
+export const shadeSongButton = () => {
+  setTimeout(() => {
+    [...document.querySelectorAll("hand-section>section")].forEach(hs => {
+      let bs = hs.get("box-shadow");
+      if (!bs || !bs.split) return;
+      bs = bs.split(" ")[3];
+      console.log(bs);
+      [...hs.querySelectorAll("a.song")].forEach(a => a.set({
+        boxShadow: `4px 4px 0.8rem color-mix(in srgb, ${bs} 50%, transparent)`,
+        color: bs,
+      }));
+    }, 500);
+  });
+}
+
 export const suitColor = (key, suit, match) => (match && match != key) ? `transparent` : suit ? mixColor(suit.symbol, 30) : `var(--${key})`;

@@ -1,5 +1,5 @@
 import Copy from "../../../lib/Copy.js";
-import { mixColor, suitStyle } from "../../aux/color.js";
+import { mixColor, shadeSongButton, suitStyle } from "../../aux/color.js";
 import versify from "../../aux/versify.js";
 import Card from "../../elements/Card.js";
 import CardFloating from "../../elements/CardFloating.js";
@@ -222,7 +222,8 @@ const strategySections = [{
   })),
   footer: {
     a_button_song: Song.getAlbum(0)[4].link,
-  }
+  },
+  onready: elt => shadeSongButton(),
 }];
 
 export default strategySections;

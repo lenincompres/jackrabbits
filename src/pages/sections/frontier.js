@@ -9,6 +9,7 @@ import Song from "../../elements/Song.js";
 
 const frontierSections = [{
   style: suitStyle(CardExpanded.SUIT.FS),
+  a_button_play_song: Song.getAlbum(1)[0].btn,
   h3_shields: Copy.text({
     es: "Escudos",
     en: "Shields",
@@ -61,6 +62,7 @@ const frontierSections = [{
   }
 }, {
   style: suitStyle(CardExpanded.SUIT.FT),
+  a_button_play_song: Song.getAlbum(1)[1].btn,
   h3_torches: Copy.text({
     es: "Antorchas",
     en: "Torches",
@@ -134,6 +136,7 @@ const frontierSections = [{
   }
 }, {
   style: suitStyle(CardExpanded.SUIT.FH),
+  a_button_play_song: Song.getAlbum(1)[2].btn,
   h3_horseshoes: Copy.text({
     es: "Herraduras",
     en: "Horseshoes",
@@ -186,6 +189,7 @@ const frontierSections = [{
   }
 }, {
   style: suitStyle(CardExpanded.SUIT.FA),
+  a_button_play_song: Song.getAlbum(1)[3].btn,
   h3_acorns: Copy.text({
     es: "Bellotas",
     en: "Acorns",

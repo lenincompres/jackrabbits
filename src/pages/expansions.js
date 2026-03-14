@@ -5,6 +5,7 @@ import frontierSections from "./sections/frontier.js";
 import nauticalSections from "./sections/nautical.js";
 import HandSection from "../elements/HandSection.js";
 import Song from "../elements/Song.js";
+import { shadeSongButton } from "../aux/color.js";
 
 const expansionPage = {
   menu: {
@@ -93,7 +94,9 @@ const expansionPage = {
       }),
     },
     section: classicSections.sort(() => Math.random() - 0.5),
-  })],
+  }), {
+    onready: elt => shadeSongButton(),
+  }],
 };
 
 export default expansionPage;
