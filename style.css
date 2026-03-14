@@ -401,11 +401,6 @@ footer.footnote {
     width: 100%;
   }
 
-  .handSection>section,
-  html[lang="es"] .handSection>section {
-    width: 21rem !important;
-  }
-
   header>a.buy {
     display: none;
   }
