@@ -27,7 +27,7 @@ const splashSection = {
   footer_footnote: versify(Copy.text({
     es: `Apréndete las reglas en su guía,
       o <a onclick=" popUp('playlist')">escúchalas en forma de canción</a>.
-      Aprendes a jugar en poesía,
+      Aquí las hallarás en poesía,
       con ritmo, claridad y precisión.`,
     en: `Learn the rules in metered rhyme—
       read or <a onclick=" popUp('playlist')">hear the epic song</a>.

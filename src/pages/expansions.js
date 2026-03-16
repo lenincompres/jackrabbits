@@ -94,9 +94,7 @@ const expansionPage = {
       }),
     },
     section: classicSections.sort(() => Math.random() - 0.5),
-  }), {
-    onready: elt => shadeSongButton(),
-  }],
+  })],
 };
 
 export default expansionPage;

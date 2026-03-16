@@ -14,7 +14,7 @@ const introPage = {
         en: "Four Phases of a Turn",
       })),
       p: versify(Copy.text({
-        es: `Comprende el material preliminar.
+        es: `Domina el material preliminar.
           Después aprenderás el regular.`,
         en: `Learn each phase’s role and name. 
           Then attempt the <a href="#full"><b>standard game</b></a>.`,

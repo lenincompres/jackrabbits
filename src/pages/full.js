@@ -3,7 +3,6 @@ import versify from "../aux/versify.js";
 import strategySections from "./sections/strategies.js";
 import optionalSections from "./sections/options.js";
 import HandSection from "../elements/HandSection.js";
-import { shadeSongButton } from "../aux/color.js";
 
 const fullPage = {
   section_shuffle_suits: new HandSection({

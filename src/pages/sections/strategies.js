@@ -223,7 +223,6 @@ const strategySections = [{
   footer: {
     a_button_song: Song.getAlbum(0)[4].link,
   },
-  onready: elt => shadeSongButton(),
 }];
 
 export default strategySections;

@@ -237,7 +237,7 @@ new Song(Copy.text({
   en: "https://cdn1.suno.ai/195a2ca4-e162-4913-8ff8-e028b5bc2227.m4a",
 }), Copy.text({
   es: "Picas: a pelear por las cartas",
-  en: "Spades: Fight Others for Cards",
+  en: "Spades: Fight for Cards",
 }), () => visitSong("full", Card.SUIT.S));
 
 new Song(Copy.text({

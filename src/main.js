@@ -12,6 +12,7 @@ import "./lightbox.js";
 import expansionPage from "./pages/expansions.js";
 import {
   mixColor,
+  shadeSongButton,
   suitColor
 } from "./aux/color.js";
 import MediaFigure from "./elements/MediaFigure.js";
@@ -24,6 +25,9 @@ Pager.add({
   more: morePage,
   expansion: expansionPage,
 });
+
+shadeSongButton();
+Pager._key.bind(() => shadeSongButton());
 
 const heroOptions = {
   a: {
