@@ -186,7 +186,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5e831d1b-2fd9-4aed-8e34-32fcb87020bc.m4a",
-  en: "https://cdn1.suno.ai/d2ded1d7-ed83-44d6-b5d0-4fe3204153a8.m4a",
+  en: "https://cdn1.suno.ai/bd708ff9-2345-47a4-965d-8f9bdfee1b38.m4a",
 }), Copy.text({
   es: "La partida",
   en: "Setty-Up",
