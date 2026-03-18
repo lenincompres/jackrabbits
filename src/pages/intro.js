@@ -37,7 +37,7 @@ const introPage = {
         section: transferSections,
         footer: {
           a_button_song: {
-            marginBottom: "1rem",
+            marginBottom: "3rem",
             content: Song.List[3].link,
           },
           p: versify(Copy.text({

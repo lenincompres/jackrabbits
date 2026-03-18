@@ -143,7 +143,7 @@ const setupPage = {
     }],
     footer: {
       a_button_song: {
-        marginBottom: "1em",
+        marginBottom: "3rem",
         content: Song.List[1].link,
       },
       p: versify(Copy.text({
