@@ -7,7 +7,7 @@ import CardExpanded from "../../elements/CardExpanded.js";
 import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
-const nauticalSections = [{
+const offshoreSections = [{
   style: suitStyle(CardExpanded.SUIT.NB),
   a_button_play_song: Song.getAlbum(1)[4].btn,
   h3_bells: Copy.text({
@@ -115,30 +115,30 @@ const nauticalSections = [{
       usarla al visitar a la nobleza.
       Poniéndola debajo de su carta,
       la sumas al valor con que se adquiera.
-      La carta que pusiste se descarta
-      si pagan por el noble de la pieza.`,
+      Y encima la sujetas con tu marca: 
+      dispón tu zanahoria en su cabeza.
+      La carta que pusiste se descarta 
+      si pagan por el noble o la liberas.`,
     en: `When you're visiting a tile,
       make its claim hard to achieve.
       Choose its noble from the aisle,
-      where the royals take their leave.
-      Set an anchor as its pile—
+      raise its price before you leave.
+      With one carrot, set a pile—
       one card weighing underneath.
-      Add its value for the while,
-      and discard it when they leave.`,
+      Add its value for the while; 
+      or discard when you retrieve.`,
   })),
   h4_anchors_: Copy.text({
     es: "Traslado mediante el Velero",
     en: "Transfer by Sailboat",
   }),
   p_: versify(Copy.text({
-    es: `Si abordas por la vía del velero,
+    es: `Si abordas por la vía del velero, 
       navégalo sin costo y libremente.
-      Si pagas a la orilla del tablero,
+      Si pagas a la orilla del tablero, 
       lo mueves al que quieras de sus muelles;
-      si quieres te recoge en el proceso,
-      y a un puerto de las anclas te transfieres.
-      Su torre es un mercado heterogéneo:
-      comercia con los palos que prefieres.`,
+      incluso a su mercado heterogéneo; 
+      de ida te recoge si lo quieres.`,
     en: `If you board the sailboat’s deck,
       sail it anywhere for free. 
       If you pay at sea-bound treks,
@@ -259,4 +259,4 @@ const nauticalSections = [{
   }
 }];
 
-export default nauticalSections;
+export default offshoreSections;

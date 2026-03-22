@@ -142,7 +142,7 @@ const neoclassicSections = [{
       si sales con el último en el orden. 
       Que olvide loterías e incrementos 
       quienquiera que en su sitio se acomode. 
-      Reubícalo a tu agrado en el momento 
+      Reubícalo en un nuevo asentamiento
       si acabas en el sitio en el que ronde.`,
       en: `At the start, if last in turn,
       choose the mushroom's settlement.

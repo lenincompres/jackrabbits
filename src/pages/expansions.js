@@ -2,7 +2,7 @@ import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
 import classicSections from "./sections/neoclassic.js";
 import frontierSections from "./sections/frontier.js";
-import nauticalSections from "./sections/nautical.js";
+import offshoreSections from "./sections/offshore.js";
 import HandSection from "../elements/HandSection.js";
 import Song from "../elements/Song.js";
 import { shadeSongButton } from "../aux/color.js";
@@ -63,7 +63,7 @@ const expansionPage = {
   }), new HandSection({
     header: {
       h2: Copy.text({
-        en: "Nautical Expansions",
+        en: "offshore Expansions",
         es: "Expansiones navales",
       }),
       p: versify(Copy.text({
@@ -73,7 +73,7 @@ const expansionPage = {
           y añaden un rodente con sus piezas.`,
       })),
     },
-    section: nauticalSections.sort(() => Math.random() - 0.5),
+    section: offshoreSections.sort(() => Math.random() - 0.5),
     footer: {
       p: versify(Copy.text({
         en: `Hexes have a sea-blue side—
