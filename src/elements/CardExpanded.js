@@ -134,8 +134,8 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.NB, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/602d40a2-e71b-49e5-9d59-fd09b7984d5a.m4a",
-  en: "https://cdn1.suno.ai/f1de9821-e207-43c2-9f5a-d1a8f38d75b5.m4a",
+  es: "https://cdn1.suno.ai/83d1704f-65f7-4fb6-af35-9004c35ada80.m4a",
+  en: "https://cdn1.suno.ai/c5fd8008-ec75-4436-b143-0313a73434ba.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",

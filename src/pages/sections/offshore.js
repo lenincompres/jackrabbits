@@ -121,12 +121,12 @@ const offshoreSections = [{
       si pagan por el noble o la liberas.`,
     en: `When you're visiting a tile,
       make its claim hard to achieve.
-      Choose its noble from the aisle,
-      raise its price before you leave.
-      With one carrot, set a pile—
-      one card weighing underneath.
-      Add its value for the while; 
-      or discard when you retrieve.`,
+      Set your carrot on the aisle, 
+      so the noble sits beneath.
+      Raise its value for a while—
+      one card's added underneath,
+      then discard it from this pile—
+      when you want or when they leave.`,
   })),
   h4_anchors_: Copy.text({
     es: "Traslado mediante el Velero",
