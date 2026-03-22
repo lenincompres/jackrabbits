@@ -43,7 +43,7 @@ const expansionPage = {
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
           plus a rodent with new styles.`,
-        es: `Sus palos incrementan nobleza,
+        es: `Sus palos incrementan la nobleza,
           y añaden un rodente con sus piezas.`,
       })),
     },
@@ -64,12 +64,12 @@ const expansionPage = {
     header: {
       h2: Copy.text({
         en: "offshore Expansions",
-        es: "Expansiones navales",
+        es: "Expansiones Insulares",
       }),
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
           plus a rodent with new styles.`,
-        es: `Sus palos incrementan nobleza,
+        es: `Sus palos incrementan la nobleza,
           y añaden un rodente con sus piezas.`,
       })),
     },
