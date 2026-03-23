@@ -38,7 +38,7 @@ const splashSection = {
       Aquí las hallarás en poesía,
       con ritmo, claridad y precisión.`,
     en: `<a onclick="gotoRules()">Read the rules</a> in metered rhyme,
-      or be bold and <a onclick="popUp('playlist')">play their song</a>.
+      or indulge and <a onclick="popUp('playlist')">play their song</a>.
       They’ll delight and save you time,
       and perhaps you’ll sing along.`,
   })),
