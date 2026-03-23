@@ -123,8 +123,8 @@ const offshoreSections = [{
       make its claim hard to achieve.
       Set your carrot on the aisle, 
       so the noble sits beneath.
-      Raise its price just for a while—
-      one card's added underneath.
+      Raise its price in anchor style—
+      one card added underneath.
       You'll discard it from this pile—
       when you want or when they leave.`,
   })),
@@ -142,7 +142,7 @@ const offshoreSections = [{
     en: `If you board the sailboat’s deck,
       sail it anywhere for free. 
       If you pay at sea-bound treks,
-      anchors call it home by sea;
+      it must travel home by sea;
       ride it to an anchor hex,
       or deliver absentee.
       Note the anchor tower’s specs—

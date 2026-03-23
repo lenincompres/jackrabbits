@@ -20,14 +20,12 @@ const frontierSections = [{
     en: "Seal the hexes",
   }),
   p: versify(Copy.text({
-    es: `Si exhibes en la mesa tus escudos,
+    es: `Si muestras en la mesa tus escudos, 
       clausuras el lugar en el que esperas.
-      Podría descartarlos con los suyos
+      Y solo los descarta con los suyos 
       quienquiera que te invada y los supera.
-      Un máximo de doce es tu recurso;
-      si evitan la invasión, los recuperas.
-      Prohibido en el subsuelo en absoluto.
-      Tan solo es invadiendo que se ingresa.`,
+      Prohibido en el subsuelo en absoluto,
+      y un máximo de doce se tolera.`,
     en: `Show your shields—twelve pips or less—
       seal the hex where you will stand.
       It will only welcome guests 
@@ -43,11 +41,13 @@ const frontierSections = [{
   }),
   p_: versify(Copy.text({
     es: `La guardia obstaculiza las veredas:
-        propicia la clausura de los triángulos.
-        Si pagas con escudos dondequiera,
-        se pasa a la vereda de tu agrado.
-        Si lo haces y te encuentras en la pieza,
-        del sitio te regalan su traslado.`,
+      propicia la clausura de los triángulos.
+      Si pagas con escudos dondequiera,
+      se pasa a la vereda de tu agrado.
+      Si quieres transitar su carretera,
+      trasládala de nuevo con un pago.
+      Si estás en el lugar al que la llevas,
+      del sitio te regalan su traslado.`,
     en: `Guards are placed to block the road—
       on a green three-sided tile.
       Pay wherever on the board,

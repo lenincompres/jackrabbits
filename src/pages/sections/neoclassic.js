@@ -94,7 +94,7 @@ const neoclassicSections = [{
   }),
   //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
-    es: [`Las nuevas estaciones de corceles 
+    es: [`Las nuevas estaciones de jinetes 
       se añaden a las casas de los palos. 
       Las cuatro se vinculan por sus rieles
       y tienen carreteras con caballos.`,
