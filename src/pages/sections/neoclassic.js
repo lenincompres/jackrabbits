@@ -168,7 +168,7 @@ const neoclassicSections = [{
       `Los símbolos de alianzas que visitas,
       se deben combinar al adquirirlas.
       Un trío es del sector capitalista;
-      y el otro, de misiones humanistas.`,
+      y el otro, de misión naturalista.`,
       `Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
       El vuelo de sus torres, si hay restante,
@@ -183,7 +183,7 @@ const neoclassicSections = [{
       Six more royals add their tiles,
       with alliances portrayed.`,
       `These are three capitalists
-        and three humanists in cards.
+        and three naturalist cards.
         Pay them both the suits they list—
         split the cost in any parts.`,
       `See their merchants, taverns, caves—

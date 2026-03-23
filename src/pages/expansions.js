@@ -89,8 +89,8 @@ const expansionPage = {
   }), new HandSection({
     header: {
       h2: Copy.text({
-        en: "Neoclassic expansion",
-        es: "Expansión neoclásica",
+        en: "Neoclassic expansions",
+        es: "Expansiones neoclásicas",
       }),
     },
     section: classicSections.sort(() => Math.random() - 0.5),

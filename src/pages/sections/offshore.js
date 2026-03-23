@@ -123,9 +123,9 @@ const offshoreSections = [{
       make its claim hard to achieve.
       Set your carrot on the aisle, 
       so the noble sits beneath.
-      Raise its value for a while—
-      one card's added underneath,
-      then discard it from this pile—
+      Raise its price just for a while—
+      one card's added underneath.
+      You'll discard it from this pile—
       when you want or when they leave.`,
   })),
   h4_anchors_: Copy.text({
