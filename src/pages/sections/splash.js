@@ -2,13 +2,22 @@ import Copy from "../../../lib/Copy.js";
 import versify from "../../aux/versify.js";
 import MediaFigure from "../../elements/MediaFigure.js";
 
+const buyURL = "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits";
+
+window.gotoRules = () => {
+  let handSection = document.querySelector("hand-section");
+  handSection.nextPage();
+  handSection.open();
+  handSection.children[3].scrollIntoView();
+}
+
 const splashSection = {
   class: "carded link",
   section: {
     cursor: "pointer",
     a_button_buy: {
       target: "_blank",
-      href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
+      href: buyURL,
       text: Copy.text({
         es: "Adquiere el juego",
         en: "Purchase the game",
@@ -21,16 +30,15 @@ const splashSection = {
       en: `Board the game with playing cards.
       Wander lands of wooden shards.`,
     })),
-    onclick: e => window.open("https://www.etsy.com/listing/1724318334/leninos-jack-rabbits", "_blank"),
-
+    onclick: e => window.open(buyURL, "_blank"),
   },
   footer_footnote: versify(Copy.text({
-    es: `Apréndete las reglas en su guía,
-      o <a onclick=" popUp('playlist')">escúchalas en forma de canción</a>.
+    es: `Apréndete las <a onclick="gotoRules()">reglas en su guía</a>,
+      o escúchalas en <a onclick="popUp('playlist')">forma de canción</a>.
       Aquí las hallarás en poesía,
       con ritmo, claridad y precisión.`,
-    en: `Learn the rules in metered rhyme—
-      read or <a onclick=" popUp('playlist')">hear their epic song</a>.
+    en: `<a onclick="gotoRules()">Read the rules</a> in metered rhyme,
+      or if you like <a onclick="popUp('playlist')">play their song</a>.
       They’ll delight and save you time,
       and perhaps you’ll sing along.`,
   })),

@@ -69,6 +69,7 @@ export class HandSection extends HTMLElement {
   }
 
   open() {
+    this.currentPage = this.total;
     this.classList.add("opened");
   }
 
