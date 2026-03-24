@@ -109,7 +109,7 @@ class CardFloating extends Card {
       dy /= len;
 
       // Tweak speed to taste; similar scale to jerk()
-      const speed = 2 / this.rFactor;
+      const speed = -2 / this.rFactor;
       this.vx = dx * speed;
       this.vy = dy * speed;
     } else {

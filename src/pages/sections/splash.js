@@ -33,8 +33,8 @@ const splashSection = {
     onclick: e => window.open(buyURL, "_blank"),
   },
   footer_footnote: versify(Copy.text({
-    es: `Apréndete las <a onclick="gotoRules()">reglas en su guía</a>,
-      o escúchalas en <a onclick="popUp('playlist')">forma de canción</a>.
+    es: `Apréndete las <a onclick="gotoRules()">reglas en la guía</a>,
+      o anímate a <a onclick="popUp('playlist')">escucharlas en canción</a>.
       Aquí las hallarás en poesía,
       con ritmo, claridad y precisión.`,
     en: `<a onclick="gotoRules()">Read the rules</a> in metered rhyme,

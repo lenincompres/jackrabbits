@@ -57,16 +57,16 @@ const transferSections = [{
     en: classifyChars("Merchants", " diamonds", "spades"),
   }),
   p: versify(Copy.text({
-    es: `Los cruces te permiten transportarte
-      viajando por las aguas o las tierras.
+    es: `<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
+      trasládate por aguas o por tierras.
       Por tierra galopando sin pararte,
       moviéndote a la pieza que prefieras.
-      Por agua si cualquera de sus calles
+      Por agua si cualquiera de sus calles
       colinda con un lado a las afueras,
       te sales navegando por los mares
       y arribas por alguna carretera.
       Los cruces te trasladan al instante,
-      partiendo tras  <a onclick="popUp('price')">el pago</a> que les dieras.`,
+      partiendo tras el pago que les dieras.`,
     en: `Stationed where the road is forked,
       there's a horse and boat to ride. 
       Reach a place across the board,
@@ -102,7 +102,7 @@ const transferSections = [{
     en: classifyChars("Rabbit holes", " diamonds", "clubs"),
   }),
   p: versify(Copy.text({
-    es: ` <a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
+    es: `<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
       metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.

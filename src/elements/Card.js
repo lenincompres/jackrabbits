@@ -71,7 +71,7 @@ class Card extends HTMLElement {
       height: "12em",
       header: {
         pointerEvents: "none",
-        section: getArray(2, i => new Object({
+        section: getArray(2, i => ({
           position: "absolute",
           margin: "5% 5%",
           bottom: i % 2 ? 0 : undefined,
@@ -113,7 +113,7 @@ class Card extends HTMLElement {
         transform: this._flipped.as("", "rotateY(180deg)"),
         img: {
           marginTop: "40%",
-          src: "https://lenino.net/assets/leninoLogo.png",
+          src: root + "assets/leninoLogo.png",
           height: "45%",
         }
       },
