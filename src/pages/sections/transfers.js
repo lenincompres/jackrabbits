@@ -45,7 +45,7 @@ const transferSections = [{
       with two roads not far apart.
       You may hike between these two,
       cutting through the middle part.
-       <a onclick="popUp('price')">Pay with cards</a> of proper suits:
+       <a onclick="popUp('price')">Pay</a> with cards of proper suits:
       club or spade or even heart.`,
   })),
   img: new MediaFigure("roads", {
@@ -76,7 +76,7 @@ const transferSections = [{
       Landlocked merchants have no boats,
       since they’re not by the seaside.
       Merchants send you from their post,
-      once  <a onclick="popUp('price')">your payment</a>’s been applied.`,
+      once  you <a onclick="popUp('price')">pay</a> what dice decide.`,
   }), {
     tag: "h4",
     html: Copy.text({
@@ -88,8 +88,8 @@ const transferSections = [{
        <a onclick="popUp('price')">si pagas</a> al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
-    en: `Taverns  <a onclick="popUp('price')">sell the rides</a> they host,
-      but the travel’s kept aside.
+    en: `When you  <a onclick="popUp('price')">pay</a> a tavern's host,
+      keep your travel set aside.
       Choose a joker card to hold,
       and release to claim their ride.`,
   })),
@@ -108,7 +108,7 @@ const transferSections = [{
       metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.
       Descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
-    en: ` <a onclick="popUp('price')">Pay to travel</a> cave to cave, 
+    en: ` <a onclick="popUp('price')">Pay</a> to travel cave to cave, 
       use this trick to hop around. 
       But if you prefer to save, 
       pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.

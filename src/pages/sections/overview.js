@@ -12,11 +12,11 @@ const overviewSection = {
   p: versify(
     Copy.text({
       es: [
-        `Irás a transitar por los caminos
+        `Saldrás a transitar por los caminos
       cargando con tus cartas numerales.
       La meta es que regreses al castillo
       luciéndote con tres de las reales.`,
-        `Dirígete a las casas de monarcas
+        `Irás a los dominios de monarcas
       a hacer <b>la adquisición</b> en su presencia.
       Con diez de los puntitos de sus marcas
       recibes su real correspondencia. `,
@@ -39,9 +39,9 @@ const overviewSection = {
         si viajas solamente en carretera.
         Se pagan <b>los traslados</b> de las vías:
         transporte, vericueto o madriguera.`,
-        `Detente en los hexágonos que llegues
+        `Detente en los dominios del tablero,
         y toma <b>el incremento</b> de tus cartas,
-        a menos que te salgas o <i>destierres</i>
+        a menos de acabar en <b>el destierro</b>,
         por fuera de las piezas y sin barcas.`,
       ],
       en: [
