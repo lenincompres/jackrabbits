@@ -177,7 +177,7 @@ window.visitSong = (key, suit, royals) => {
 }
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/9c98c8bb-a7b1-46f6-94f4-94b1de96c14f.m4a",
+  es: "https://cdn1.suno.ai/f27c8b3e-9720-4e3c-8878-c9e1fec7ceea.m4a",
   en: "https://cdn1.suno.ai/2fc2e03a-8059-4c63-ad95-b4444dd95ebb.m4a",
 }), Copy.text({
   es: "Finales posibles",
@@ -201,8 +201,8 @@ new Song(Copy.text({
 }), () => visitSong("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/723e02cd-779f-4474-a1eb-0563ea8d8e86.m4a",
-  en: "https://cdn1.suno.ai/e096c8fd-eaff-4099-b09e-551cbfaf8de0.m4a",
+  es: "https://cdn1.suno.ai/68496b58-b0fa-497d-94df-883e2aebcf92.m4a",
+  en: "https://cdn1.suno.ai/b9fa54bd-cd57-49d8-919a-f06f03064eef.m4a",
 }), Copy.text({
   es: "Trucos del camino",
   en: "Off the Road",
