@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: base;
-  src: url("./assets/Chalkboard.ttc");
+  src: url("./assets/Chalkboard.ttf");
 }
 
 :root {
@@ -478,9 +478,9 @@ h5 {
 }
 
 strong {
-  font-weight: normal;
-  /*font-style: italic;*/
-  text-decoration: underline;
+  font-weight: bold;
+  /*font-style: italic;
+  text-decoration: underline;*/
 }
 
 small {
