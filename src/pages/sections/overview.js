@@ -47,10 +47,10 @@ const overviewSection = {
       en: [
         `Make <b>the journey</b> hex to hex—
         every road is free to course.
-        Only pay for trailway treks,
-        or to ride a boat or horse.`,
+        Pay <b>the transfers</b>: off-road treks,
+        and for rides by boat or horse.`,
         `Rest upon a hex-shaped tile,
-        after moving on the board. 
+        if you don't end up <b>off-board</b>. 
         Draw the card atop the pile—
         that’s <b>the increment</b> reward.`,
       ],
