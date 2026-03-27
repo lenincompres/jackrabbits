@@ -19,7 +19,7 @@ const overviewSection = {
         `Harás <b>la adquisición</b> de la nobleza
         con diez de los puntitos de sus marcas.
         Quizás <b>la lotería</b> te compensa
-        las cartas que llevar a tus monarcas.`,
+        con cartas que llevar a sus monarcas.`,
       ],
       en: [
         `Visit houses turn by turn,
