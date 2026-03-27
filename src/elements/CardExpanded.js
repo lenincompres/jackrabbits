@@ -174,7 +174,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/bb625f54-0c50-42da-a4de-554aa7de1e0c.m4a",
+  es: "https://cdn1.suno.ai/1ceded9c-3880-4e5a-9336-8b64bd4d5bfb.m4a",
   en: "https://cdn1.suno.ai/cbe287ac-9800-4b6c-ae4f-d234d739e01f.m4a",
 }), Copy.text({
   es: "Alianzas Nobles",
