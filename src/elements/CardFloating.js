@@ -187,19 +187,9 @@ class CardFloating extends Card {
       this.vz *= -1;
     }
 
-    if (this.x >= 1 || this.x < 0) {
-      this.x = Math.round(this.x);
-      this.vx *= -1;
-      this.vy *= 1 + rand();
-      this.flip();
-    }
-
-    if (this.y > 1 || this.y < 0) {
-      this.y = Math.round(this.y);
-      this.vy *= -1;
-      this.vx *= 1 + rand();
-      this.flip();
-    }
+    let getNudge = d => this.vFactor * ((d < 0 ? 0 : 1) - d) / 100;
+    if (this.x > 1 || this.x < 0) this.vx += getNudge(this.x);
+    if (this.y > 1 || this.y < 0) this.vy += getNudge(this.y);
 
     this.t += 1;
   }
