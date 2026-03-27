@@ -201,7 +201,7 @@ new Song(Copy.text({
 }), () => visitSong("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/68496b58-b0fa-497d-94df-883e2aebcf92.m4a",
+  es: "https://cdn1.suno.ai/39883300-0dc5-4d43-81e8-bd9c1635a558.m4a",
   en: "https://cdn1.suno.ai/b9fa54bd-cd57-49d8-919a-f06f03064eef.m4a",
 }), Copy.text({
   es: "Trucos del camino",
@@ -217,7 +217,7 @@ new Song(Copy.text({
 }), () => visitSong("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/6ca78a47-5abc-46ba-8416-0fa659acfa2c.m4a",
+  es: "https://cdn1.suno.ai/95fe3886-701d-4a9d-a1ac-fbae1ba1771d.m4a",
   en: "https://cdn1.suno.ai/96d44044-6c28-4196-9f80-31d7fe9a5c30.m4a",
 }), Copy.text({
   es: "Corazones",

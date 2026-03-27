@@ -168,7 +168,7 @@ const neoclassicSections = [{
       `Los símbolos de alianzas que visitas,
       se deben combinar al adquirirlas.
       Un trío es del sector capitalista;
-      y el otro, de misión naturalista.`,
+      y el otro, de la unión naturalista.`,
       `Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
       El vuelo de sus torres, si hay restante,

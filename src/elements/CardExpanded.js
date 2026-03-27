@@ -126,16 +126,16 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.FA, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/9d50e17c-3ac8-4945-9e8c-75dc6a5630e5.m4a",
-  en: "https://cdn1.suno.ai/a41caaac-4d6e-4e19-98c3-e3ef1324c692.m4a",
+  es: "https://cdn1.suno.ai/a1832a9a-eb14-4a01-8b48-33a78e5cf643.m4a",
+  en: "https://cdn1.suno.ai/15aeefa2-c86e-4890-a90d-d91037a800f9.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
 }), () => visitSong("expansion", CardExpanded.SUIT.NB, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/83d1704f-65f7-4fb6-af35-9004c35ada80.m4a",
-  en: "https://cdn1.suno.ai/1bd2b709-b59b-49df-a978-f07c0fe747e1.m4a",
+  es: "https://cdn1.suno.ai/3223e8c3-f7ff-4cf5-b551-cc41b8697069.m4a",
+  en: "https://cdn1.suno.ai/b946fc7c-09c7-40a4-b6ff-3f64bef73e53.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
@@ -143,14 +143,14 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
-  en: "https://cdn1.suno.ai/9b5988af-5e5c-46f1-9d8b-d8097c5f54d0.m4a",
+  en: "https://cdn1.suno.ai/3ebef9d0-8e57-4085-9ba3-36b9a6550a2b.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
 }), () => visitSong("expansion", CardExpanded.SUIT.NS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/9ef58866-024c-429d-a933-1d6a93fa2a86.m4a",
+  es: "https://cdn1.suno.ai/e516d762-7f7a-466c-9aa1-b9420d70af79.m4a",
   en: "https://cdn1.suno.ai/6dbe3d5d-4e57-49ea-a0c9-51ca57aed067.m4a",
 }), Copy.text({
   es: "Carámbanos",
@@ -166,17 +166,17 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/8dd2b445-6335-45ab-abb1-60b148b6b855.m4a",
+  es: "https://cdn1.suno.ai/2e8f4fde-356a-4978-a43e-64012fe03bda.m4a",
   en: "https://cdn1.suno.ai/273e80d8-3b36-4c84-9dc4-bc120e80258a.m4a",
 }), Copy.text({
-  es: "Trenes y Corceles",
-  en: "Trains & Steeds",
+  es: "Corceles",
+  en: "Cavaliers",
 }), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/1ceded9c-3880-4e5a-9336-8b64bd4d5bfb.m4a",
-  en: "https://cdn1.suno.ai/cbe287ac-9800-4b6c-ae4f-d234d739e01f.m4a",
+  es: "https://cdn1.suno.ai/34237312-db2d-4b12-9db6-08cd724ae40d.m4a",
+  en: "https://cdn1.suno.ai/34217df4-5848-4737-a275-fe2bbfd2b6dd.m4a",
 }), Copy.text({
-  es: "Alianzas Nobles",
-  en: "Noble Alliances",
+  es: "Alianzas",
+  en: "Alliances",
 }), () => visitSong("expansion", CardExpanded.SUIT.A), 1);
