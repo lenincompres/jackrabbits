@@ -16,10 +16,10 @@ const overviewSection = {
       cargando con tus cartas numerales.
       La meta es que regreses al castillo
       luciéndote con tres de las reales.`,
-        `Irás a los dominios de monarcas
-      a hacer <b>la adquisición</b> en su presencia.
-      Con diez de los puntitos de sus marcas
-      recibes su real correspondencia. `,
+        `Harás <b>la adquisición</b> de la nobleza,
+        con diez de los puntitos de sus marcas.
+        Quizás <b>la lotería</b> te compensa,
+        las cartas que llevar a tus monarcas.`,
       ],
       en: [
         `Visit houses turn by turn,
@@ -28,7 +28,7 @@ const overviewSection = {
         holding three to rule the land.`,
         `To fulfill <b>the acquisition</b>, 
         add ten points that match their suit.
-        On your turns along the mission,
+        With <b>the lottery</b>’s provision,
         you’ll be drawing cards as loot.`,
       ]
     }), 
@@ -39,7 +39,7 @@ const overviewSection = {
         si viajas solamente en carretera.
         Se pagan <b>los traslados</b> de las vías:
         transporte, vericueto o madriguera.`,
-        `Detente en los dominios del tablero,
+        `Detente en los destinos del sendero,
         y toma <b>el incremento</b> de tus cartas,
         a menos de acabar en <b>el destierro</b>,
         por fuera de las piezas y sin barcas.`,
