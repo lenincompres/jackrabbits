@@ -16,9 +16,9 @@ const overviewSection = {
       cargando con tus cartas numerales.
       La meta es que regreses al castillo
       luciéndote con tres de las reales.`,
-        `Harás <b>la adquisición</b> de la nobleza,
+        `Harás <b>la adquisición</b> de la nobleza
         con diez de los puntitos de sus marcas.
-        Quizás <b>la lotería</b> te compensa,
+        Quizás <b>la lotería</b> te compensa
         las cartas que llevar a tus monarcas.`,
       ],
       en: [
