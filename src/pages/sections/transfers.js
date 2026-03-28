@@ -15,7 +15,7 @@ const transferSections = [{
   p: versify(Copy.text({
     es: `Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
-      Incluso las montañas, más abajo,
+      Incluso las montañas por debajo,
       se cruzan por sus túneles gratuitos.
       Se paga solamente los traslados,
       marcados a mitad de los polígonos;
@@ -36,7 +36,7 @@ const transferSections = [{
   }),
   p_: versify(Copy.text({
     es: `Los bosques, las montañas y los ríos,
-      que ves en las imágenes de abajo,
+      que encuentras con sus símbolos abajo,
       permiten que te cambies de camino
       cruzando por el centro en un atajo.
        <a onclick="popUp('price')">Si pagas</a> con cualquiera de los símbolos,
