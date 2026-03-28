@@ -132,8 +132,8 @@ LightBox.add(new Pager({
     }),
     img: new MediaFigure("advancedCitadel"),
     p: versify(Copy.text({
-      es: `La ficha del inicio es reforzada.
-        La torre es un palacio con su plaza.`,
+      es: `Observa las acciones ilustradas.
+        ES torre y es un palacio con su plaza.`,
       en: `Give the Citadel more power.
         It's a palace-plaza-tower.`
     }))
