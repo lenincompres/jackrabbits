@@ -16,7 +16,7 @@ const transferSections = [{
     es: `Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
       Incluso las montañas por debajo,
-      se cruzan por sus túneles gratuitos.
+      se cruzan con sus túneles gratuitos.
       Se paga solamente los traslados,
       marcados a mitad de los polígonos;
       <a onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
