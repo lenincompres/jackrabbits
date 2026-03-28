@@ -14,7 +14,7 @@ const turnSections = [{
     es: [
       `Tu turno empezará con un presente,
       rifado de la pila tras los dados.
-      Si un dado, de los dos independientes,
+      Si un dado, con valor independiente,
       coincide con un número en tus manos,
       demuestra con la carta pertinente
       que ganas la que rifan de regalo.`,

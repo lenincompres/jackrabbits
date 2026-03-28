@@ -70,7 +70,7 @@ const transferSections = [{
     en: `Stationed where the road is forked,
       there's a horse and boat to ride. 
       Reach a place across the board,
-      dashing over tiles in stride.
+      over tiles at gallop stride.
       Or select a road to port,
       gliding on the seas outside.
       Landlocked merchants have no boats,
@@ -89,7 +89,7 @@ const transferSections = [{
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
     en: `When you  <a onclick="popUp('price')">pay</a> a tavern's host,
-      keep your travel set aside.
+      keep a ride you set aside.
       Choose a joker card to hold,
       and release to claim their ride.`,
   })),
