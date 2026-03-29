@@ -9,15 +9,15 @@ class Song {
     this.callBack = callBack;
     this.src = src;
     this.album = album;
+    this.index = Song.List.length;
     this.title = title ? title : src.split("/").pop().split(".")[0];
     this.binderSet({
       currentTime: 0,
-      currentLine: undefined,
     });
     if (this.title.includes(": ")) {
       this.title = this.title.replaceAll(": ", ": <small>") + "</small>";
     }
-    this._lines = [];
+    this._lyrics = [];
     this.audio = new Audio(src);
     this.audio.set({
       controls: true,
@@ -32,16 +32,7 @@ class Song {
       },
       eventListener: {
         type: "timeupdate",
-        listener: () => {
-          this.currentTime = this.audio.currentTime;
-          let played = this._lines.filter((line, i) => {
-            if (isNaN((this.currentLine) || this.currentLine > i)) return;
-            const datatime = line.dataset.time;
-            const dt = line.dataset.time.split(",")[1];
-            return line.dataset.time < this.currentTime;
-          });
-          if (played.length) this.currentLine = this._lines.indexOf(played.pop());
-        },
+        listener: () => this.lines && (this.currentTime = parseInt(this.audio.currentTime)),
       },
     });
     document.body.append(this.audio);
@@ -76,26 +67,55 @@ class Song {
     Song.List.push(this);
   }
 
-  set lines(verses = []) {
-    if (this._lines.length) return;
-    if (!verses || !verses.length) return;
-    this._lines = verses;
-    let totalCount = 0;
-    verses.forEach(line => totalCount += (line.count = line.querySelectorAll("line").length));
-    let chunk = this.audio.duration / totalCount;
-    let time = 0;
-    verses.forEach((line, i) => {
-      const datatime = line.dataset.time ? line.dataset.time : time;
-      const dt = isNaN(datatime) ? datatime.split(",").pop() : datatime;
-      line.set({
-        "data-time": datatime,
-        class: {
-          "played": this._currentTime.as(t => this.isPlaying && t > dt),
-          "highlighted": this._currentLine.as(i => this.isPlaying && verses[i] === line),
-        },
+  set lyrics(verses = []) {
+    if (this._lyrics.length || !verses || !verses.length) return;
+    this._lyrics = verses;
+    // Calculate timing for each line based on total lines and audio duration
+    this.lines = [];
+    let chorus = [];
+    verses.forEach((verse, i) => {
+      let spanCount = verse.querySelectorAll("span").length;
+      let obj = {
+        p: verse,
+        spanCount: spanCount,
+      };
+      if (verse.dataset.on) return verse.dataset.on.split(",").forEach(on => {
+        let chobj= Object.assign({}, obj);
+        chobj.on = parseInt(on);
+        this.lines.push(chobj);
+        chorus.push(chobj);
       });
-      time += Math.floor(chunk * line.count);
+      this.lines.push(obj);
     });
+    let totalSpan = this.lines.reduce((total, line) => total + (line.spanCount || 1), 0);
+    let span = this.audio.duration / totalSpan;
+    let time = 0;
+    chorus.forEach(line => line.off = parseInt(line.on + span * line.spanCount));
+    this.lines.forEach((line, i) => {
+      if(line.off) return;
+      let currentChorus = chorus.filter(line => time > line.on && time < line.off);
+      if (currentChorus.length) time = currentChorus[0].off;
+      if (line.on === undefined) line.on = time;
+      line.off = parseInt(line.on + span * line.spanCount);
+      time = line.off;
+    });
+    this.lines.sort((a, b) => a.on - b.on);
+    this.lines.forEach(line => {
+      if (!line.p.isSetup) {
+        line.p.set({
+          class: {
+            lyrics: true,
+              off: this._currentTime.as(t => this.isPlaying && t > line.on),
+              on: this._currentTime.as(t => this.isPlaying && t >= line.on && t <= line.off),
+          },
+        });
+        line.p.isSetup = true;
+      }
+    });
+    console.log(this.lines);
+  }
+  get lyrics() {
+    return this._lyrics;
   }
 
   get isPlaying() {
@@ -119,7 +139,6 @@ class Song {
     if (this.isPlaying) {
       this.audio.pause();
       this.audio.currentTime = 0;
-      this.currentLine = undefined;
     }
     CardFloating._forcedRoyal.value = undefined;
     CardFloating._forcedSuit.value = undefined;
@@ -143,7 +162,6 @@ class Song {
     Song._album.value = num;
     Song._shuffle = !!Song.shuffle;
   }
-
 
   static _autoplay = new Binder(false);
   static get autoplay() {
@@ -181,6 +199,10 @@ class Song {
     return Song.List.filter(s => s.album === num);
   }
 
+  static get index() {
+    return Song.getAlbum().indexOf(Song.currentSong);
+  }
+
   static playNext() {
     let songs = Song.getAlbum(Song.album);
     if (Song.shuffle) songs = Song.Shuffle;
@@ -210,18 +232,14 @@ window.visitSong = (key, suit, royals) => {
   CardFloating._forcedSuit.value = suit;
   // Display all pages
   setTimeout(() => {
-    const handSection = document.querySelector("hand-section:has(a.button.playing):not(:has(footer a.button.play.playing))");
-    if (handSection) handSection.nextPage(handSection.total);
-    const a = document.querySelector("a.button.song.playing:not(.play)");
-    if (a) {
-      //if(a.parentElement.tagName === "FOOTER") 
-        Song.currentSong.lines = [...a.parentElement.querySelectorAll(":scope>section p")];
-      //else Song.currentSong.lines = [...a.parentElement.querySelectorAll("p")];
-    }
-    setTimeout(() => {
-      let elt = document.querySelector("a.button.play.playing");
-      elt.parentElement.scrollIntoView();
-    }, 300);
+    let song = Song.currentSong;
+    const container = document.querySelector(`[data-lyrics="${song.index}"]`);
+    container.open ? container.open() : container.parentElement.open();
+    song.lyrics = [...container.querySelectorAll(":scope>section:not([data-prose])>p, :scope:not([data-prose])>p, :scope>section:not([data-prose])>ul, :scope:not([data-prose])>ul")];
+    container.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
   }, 300);
 }
 

@@ -1,6 +1,7 @@
 import Copy from "../../../lib/Copy.js";
 
 const greetingsSection = {
+  dataProse: true,
   class: "letter",
   h3: Copy.text({
     es: "Bienvenida",

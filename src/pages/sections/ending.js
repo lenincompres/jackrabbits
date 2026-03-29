@@ -35,6 +35,7 @@ la clase de final que le interesa:`,
       for the trio's win condition:`,
     })),
   ul_exception: {
+    dataOn: "28,80,136",
     li: versify(Copy.text({
       es: [
         `<b>sencillo</b>: con reales cualesquiera;`,

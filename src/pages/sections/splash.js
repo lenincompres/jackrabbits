@@ -12,6 +12,7 @@ window.gotoRules = () => {
 }
 
 const splashSection = {
+  dataProse: true,
   class: "carded link",
   section: {
     cursor: "pointer",

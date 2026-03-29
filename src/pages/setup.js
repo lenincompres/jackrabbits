@@ -6,6 +6,7 @@ import Song from "../elements/Song.js";
 
 const setupPage = {
   section: new HandSection({
+    dataLyrics: 1,
     header: {
       h2: Copy.text({
         es: "Prepara La Partida",
@@ -64,12 +65,12 @@ const setupPage = {
       }),
       p: versify(
         Copy.text({
-          es: `Después de que el tablero se termina
-          y estén establecidos los lugares,
-          la <i>corte</i> se separa bocarriba
+          es: [`Después de que el tablero se termina
+          y estén establecidos los lugares,`,
+          `64,102,143|la <i>corte</i> se separa bocarriba
           con cartas de los <i>jókers</i> y <i>reales</i>:
           las dos de comodines exclusivas
-          y doce que contienen personajes.`,
+          y doce que contienen personajes.`],
           en: `Lay the <i>court</i> in any order,
           after placing every tile.
           These are <i>royal</i> cards and <i>jokers</i>,

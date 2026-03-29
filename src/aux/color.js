@@ -21,7 +21,6 @@ export const shadeSongButton = () => {
       let bs = hs.get("box-shadow");
       if (!bs || !bs.split) return;
       bs = bs.split(" ")[3];
-      console.log(bs);
       [...hs.querySelectorAll("a.song")].forEach(a => a.set({
         boxShadow: `4px 4px 0.8rem color-mix(in srgb, ${bs} 50%, transparent)`,
         color: bs,

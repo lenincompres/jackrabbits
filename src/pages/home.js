@@ -9,6 +9,7 @@ import splashSection from "./sections/splash.js";
 
 const homePage = {
   section: new HandSection({
+    dataLyrics: 0,
     header_margin:{
       h2: Copy.text({
         es: "Reglamento",

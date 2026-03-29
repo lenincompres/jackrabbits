@@ -4,6 +4,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const boardSection = {
+  dataLyrics: 5,
   id: "guides",
   h2: Copy.text({
     es: "Un nuevo territorio",

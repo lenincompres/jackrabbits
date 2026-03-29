@@ -8,6 +8,7 @@ import MediaFigure from "../elements/MediaFigure.js";
 
 const introPage = {
   article: new HandSection({
+    dataLyrics: 2,
     header: {
       h2: versify(Copy.text({
         es: "Turno en Cuatro Fases",
@@ -24,6 +25,7 @@ const introPage = {
     footer: {
       a_button_song: Song.List[2].link,
       section: new HandSection({
+        dataLyrics: 3,
         header: {
           a: {
             name: "intro/transfers",
