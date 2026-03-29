@@ -4,7 +4,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const boardSection = {
-  dataLyrics: 5,
+  dataLyrics: 8,
   id: "guides",
   h2: Copy.text({
     es: "Un nuevo territorio",
@@ -60,14 +60,15 @@ const boardSection = {
     img: new MediaFigure("guides"),
   },
   p_0: versify(Copy.text({
-    es: `Evita callejones sin salidas,<sup class="warning rotated">T</sup>
+    es: [`56,98|Evita callejones sin salidas,<sup class="warning rotated">T</sup>
       los vínculos de dos hexagonales,<sup class="warning">x</sup>
       y hacer la conexión consecutiva
-      de piezas triangulares similares.<sup class="warning">!</sup>
-      Las islas que desees las inicias
+      de piezas triangulares similares.<sup class="warning">!</sup>`,
+      `Las islas que desees las inicias
       con una hexagonal a la que apartes.
       Observa que el subsuelo, en exclusiva,
-      se queda sin uniones laterales.`,
+      se queda sin uniones laterales.`
+    ],
     en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
       don’t connect roads from two hexes.<sup class="warning">x</sup>
       Place triangles scattered broad,

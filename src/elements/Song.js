@@ -234,7 +234,8 @@ window.visitSong = (key, suit, royals) => {
   setTimeout(() => {
     let song = Song.currentSong;
     const container = document.querySelector(`[data-lyrics="${song.index}"]`);
-    container.open ? container.open() : container.parentElement.open();
+    container.open && container.open();
+    container.parentElement.open && container.parentElement.open();
     song.lyrics = [...container.querySelectorAll(":scope>section:not([data-prose])>p, :scope:not([data-prose])>p, :scope>section:not([data-prose])>ul, :scope:not([data-prose])>ul")];
     container.scrollIntoView({
       behavior: "smooth",
