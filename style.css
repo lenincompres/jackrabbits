@@ -19,6 +19,7 @@
   --ink: hsl(60, 60%, 20%);
   --light: hsl(60, 45%, 40%);
   --shade: hsla(60, 40%, 50%, 0.5);
+  --greenLight: #6cc36ccc;
   --dark: hsla(60, 60%, 15%, 0.4);
 
   --land: #228B22;
@@ -139,7 +140,6 @@ audio {
   /*fallbackforbrowsersthatsupportaccent-color*/
   filter: invert(100%) hue-rotate(180deg);
   /*makeseverythingdark*/
-  : ;
   transition: bottom 0.2s ease-in-out;
   -webkit-transition: bottom 0.2s ease-in-out;
   -moz-transition: bottom 0.2s ease-in-out;
@@ -186,10 +186,36 @@ light-box>section:has(a.song.playing) a {
   color: var(--light);
 }
 
+
+.handSection>section p {
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+}
+
 .handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter),
 light-box>section:has(a.song.playing) {
   background-color: var(--ink);
-  color: white;
+  color:white;
+}
+
+.played {
+  opacity: 0.6;
+}
+
+.highlighted {
+  opacity: 1;
+  color:white;
+  text-shadow: 1px 1px 2px black;
+  box-shadow: 0 0 0.2rem black;
+  background: #0008;
 }
 
 .handSection:has(>footer>a.song.playing)>section h4>span {
@@ -197,7 +223,7 @@ light-box>section:has(a.song.playing) {
 }
 
 .handSection:has(>footer>a.song.playing)>section p a {
-  color: var(--home);
+  color: var(--greenLight);
 }
 
 light-box>section:has(a.song.playing) {

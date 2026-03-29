@@ -10,9 +10,14 @@ class Song {
     this.src = src;
     this.album = album;
     this.title = title ? title : src.split("/").pop().split(".")[0];
+    this.binderSet({
+      currentTime: 0,
+      currentLine: undefined,
+    });
     if (this.title.includes(": ")) {
       this.title = this.title.replaceAll(": ", ": <small>") + "</small>";
     }
+    this._lines = [];
     this.audio = new Audio(src);
     this.audio.set({
       controls: true,
@@ -24,6 +29,19 @@ class Song {
         if (Song.autoplay) return Song.playNext();
         if (Song.repeat) return Song.currentSong.start();
         this.end();
+      },
+      eventListener: {
+        type: "timeupdate",
+        listener: () => {
+          this.currentTime = this.audio.currentTime;
+          let played = this._lines.filter((line, i) => {
+            if (isNaN((this.currentLine) || this.currentLine > i)) return;
+            const datatime = line.dataset.time;
+            const dt = line.dataset.time.split(",")[1];
+            return line.dataset.time < this.currentTime;
+          });
+          if (played.length) this.currentLine = this._lines.indexOf(played.pop());
+        },
       },
     });
     document.body.append(this.audio);
@@ -58,6 +76,28 @@ class Song {
     Song.List.push(this);
   }
 
+  set lines(verses = []) {
+    if (this._lines.length) return;
+    if (!verses || !verses.length) return;
+    this._lines = verses;
+    let totalCount = 0;
+    verses.forEach(line => totalCount += (line.count = line.querySelectorAll("line").length));
+    let chunk = this.audio.duration / totalCount;
+    let time = 0;
+    verses.forEach((line, i) => {
+      const datatime = line.dataset.time ? line.dataset.time : time;
+      const dt = isNaN(datatime) ? datatime.split(",").pop() : datatime;
+      line.set({
+        "data-time": datatime,
+        class: {
+          "played": this._currentTime.as(t => this.isPlaying && t > dt),
+          "highlighted": this._currentLine.as(i => this.isPlaying && verses[i] === line),
+        },
+      });
+      time += Math.floor(chunk * line.count);
+    });
+  }
+
   get isPlaying() {
     return !this.audio.paused && !this.audio.ended && this.audio.currentTime > 0;
   }
@@ -70,6 +110,7 @@ class Song {
       this.audio.play();
       this.callBack();
     }
+    this.currentSong = 0;
     Song.currentSong = this;
     Song.autoplay = !!auto;
   }
@@ -78,6 +119,7 @@ class Song {
     if (this.isPlaying) {
       this.audio.pause();
       this.audio.currentTime = 0;
+      this.currentLine = undefined;
     }
     CardFloating._forcedRoyal.value = undefined;
     CardFloating._forcedSuit.value = undefined;
@@ -168,7 +210,14 @@ window.visitSong = (key, suit, royals) => {
   CardFloating._forcedSuit.value = suit;
   // Display all pages
   setTimeout(() => {
-    document.querySelectorAll("hand-section").forEach(h => h.nextPage(h.total));
+    const handSection = document.querySelector("hand-section:has(a.button.playing):not(:has(footer a.button.play.playing))");
+    if (handSection) handSection.nextPage(handSection.total);
+    const a = document.querySelector("a.button.song.playing:not(.play)");
+    if (a) {
+      //if(a.parentElement.tagName === "FOOTER") 
+        Song.currentSong.lines = [...a.parentElement.querySelectorAll(":scope>section p")];
+      //else Song.currentSong.lines = [...a.parentElement.querySelectorAll("p")];
+    }
     setTimeout(() => {
       let elt = document.querySelector("a.button.play.playing");
       elt.parentElement.scrollIntoView();
@@ -193,7 +242,7 @@ new Song(Copy.text({
 }), () => visitSong("setup"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/31292f8a-e2c9-465c-b881-66554841c81a.m4a",
+  es: "https://cdn1.suno.ai/62744824-9f19-47c0-b03d-bb7f99014097.m4a",
   en: "https://cdn1.suno.ai/ce312c0e-9ad6-4c21-8432-51050ec3f6e9.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",

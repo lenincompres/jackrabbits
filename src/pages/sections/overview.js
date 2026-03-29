@@ -13,9 +13,9 @@ const overviewSection = {
     Copy.text({
       es: [
         `Saldrás a transitar por los caminos
-      cargando con tus cartas numerales.
-      La meta es que regreses al castillo
-      luciéndote con tres de las reales.`,
+        cargando con tus cartas numerales.
+        La meta es que regreses al castillo
+        luciéndote con tres de las reales.`,
         `Harás <b>la adquisición</b> de la nobleza
         con diez de los puntitos de sus marcas.
         Quizás <b>la lotería</b> te compensa

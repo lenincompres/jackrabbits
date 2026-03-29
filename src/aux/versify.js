@@ -4,6 +4,13 @@ function versify(...args) {
   args.forEach(arg => Array.isArray(arg) ? poem.push(...arg) : poem.push(arg));
   let stanzas = poem.map(p => {
     if (typeof p !== "string") return p;
+    let dataTime = p.split('#:');
+    if(dataTime.length > 1){
+      p = dataTime[1];
+      dataTime = dataTime[0];
+    } else {
+      dataTime = undefined;
+    }
     let lines = p.split('\n').map((line, i) => line.trim()).filter(line => line);
     let divs = [];
     for (let i = 0; i < lines.length; i += 2) {
@@ -14,6 +21,7 @@ function versify(...args) {
       });
     }
     return ({
+      "data-time": dataTime,
       line: divs,
     });
   });
