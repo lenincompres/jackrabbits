@@ -8,6 +8,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const frontierSections = [{
+  dataLyrics: 9,
   style: suitStyle(CardExpanded.SUIT.FS),
   a_button_play_song: Song.getAlbum(1)[0].btn,
   h3_shields: Copy.text({
@@ -61,6 +62,7 @@ const frontierSections = [{
     a_button_song: Song.getAlbum(1)[0].link,
   }
 }, {
+  dataLyrics: 10,
   style: suitStyle(CardExpanded.SUIT.FT),
   a_button_play_song: Song.getAlbum(1)[1].btn,
   h3_torches: Copy.text({
@@ -135,6 +137,7 @@ const frontierSections = [{
     a_button_song: Song.getAlbum(1)[1].link,
   }
 }, {
+  dataLyrics: 11,
   style: suitStyle(CardExpanded.SUIT.FH),
   a_button_play_song: Song.getAlbum(1)[2].btn,
   h3_horseshoes: Copy.text({
@@ -188,6 +191,7 @@ const frontierSections = [{
     a_button_song: Song.getAlbum(1)[2].link,
   }
 }, {
+  dataLyrics: 12,
   style: suitStyle(CardExpanded.SUIT.FA),
   a_button_play_song: Song.getAlbum(1)[3].btn,
   h3_acorns: Copy.text({

@@ -188,7 +188,7 @@ light-box>section:has(a.song.playing) a {
 }
 
 
-.handSection>section p {
+.handSection>section .lyrics {
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem; 
@@ -207,7 +207,7 @@ light-box>section:has(a.song.playing) a {
 }
 
 .lyrics.off {
-  color: var(--shade);
+  opacity: 0.4;
 }
 
 .lyrics.on {

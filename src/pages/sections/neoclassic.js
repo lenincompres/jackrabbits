@@ -8,6 +8,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const neoclassicSections = [{
+  dataLyrics: 17,
   style: suitStyle(CardExpanded.SUIT.F),
   a_button_play_song: Song.getAlbum(1)[8].btn,
   h3_fleurs: Copy.text({
@@ -86,6 +87,7 @@ const neoclassicSections = [{
     a_button_song: Song.getAlbum(1)[8].link,
   }
 }, {
+  dataLyrics: 18,
   style: suitStyle(CardExpanded.SUIT.T),
   a_button_play_song: Song.getAlbum(1)[9].btn,
   h3_land: Copy.text({
@@ -153,6 +155,7 @@ const neoclassicSections = [{
     })),
   },
 }, {
+  dataLyrics: 19,
   style: suitStyle(CardExpanded.SUIT.A),
   a_button_play_song: Song.getAlbum(1)[10].btn,
   h3_sea: Copy.text({

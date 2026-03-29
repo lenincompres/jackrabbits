@@ -12,7 +12,7 @@ const boardSection = {
   }),
   p: versify(Copy.text({
     es: [
-      `Colocas a la ficha <i>Ciudadela</i>,
+      `7|Colocas a la ficha <i>Ciudadela</i>,
       y el resto las revuélves bocabajo.
       Separas el <i>subsuelo</i>, que es la negra,
       de hexágonos, de rombos y de triángulos.

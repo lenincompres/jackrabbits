@@ -4,6 +4,10 @@ import Pager from "../../lib/Pager.js";
 import Card from "./Card.js";
 import CardFloating from "./CardFloating.js";
 
+function goodRound(num) {
+  return Math.round(num * 100) / 100;
+}
+
 class Song {
   constructor(src, title, callBack = () => null, album = 0) {
     this.callBack = callBack;
@@ -13,6 +17,7 @@ class Song {
     this.title = title ? title : src.split("/").pop().split(".")[0];
     this.binderSet({
       currentTime: 0,
+      currentVerse: null,
     });
     if (this.title.includes(": ")) {
       this.title = this.title.replaceAll(": ", ": <small>") + "</small>";
@@ -32,7 +37,12 @@ class Song {
       },
       eventListener: {
         type: "timeupdate",
-        listener: () => this.lines && (this.currentTime = parseInt(this.audio.currentTime)),
+        listener: () => {
+          if (!this.lines) return;
+          this.currentTime = goodRound(this.audio.currentTime);
+          const currentLine = this.lines.findLast(line => this.currentTime >= line.on);
+          if (currentLine) this.currentVerse = currentLine.p;
+        },
       },
     });
     document.body.append(this.audio);
@@ -72,31 +82,34 @@ class Song {
     this._lyrics = verses;
     // Calculate timing for each line based on total lines and audio duration
     this.lines = [];
-    let chorus = [];
+    let setLines = [];
+    let startTime = 0;
     verses.forEach((verse, i) => {
+      if (!i && verse.dataset.on) startTime = goodRound(verse.dataset.on);
       let spanCount = verse.querySelectorAll("span").length;
       let obj = {
         p: verse,
         spanCount: spanCount,
       };
       if (verse.dataset.on) return verse.dataset.on.split(",").forEach(on => {
-        let chobj= Object.assign({}, obj);
-        chobj.on = parseInt(on);
+        let chobj = Object.assign({}, obj);
+        chobj.on = goodRound(on);
         this.lines.push(chobj);
-        chorus.push(chobj);
+        setLines.push(chobj);
       });
       this.lines.push(obj);
     });
     let totalSpan = this.lines.reduce((total, line) => total + (line.spanCount || 1), 0);
-    let span = this.audio.duration / totalSpan;
-    let time = 0;
-    chorus.forEach(line => line.off = parseInt(line.on + span * line.spanCount));
+    let span = (this.audio.duration - startTime) / (1 + totalSpan);
+    let time = startTime;
+    setLines.forEach(line => line.off = goodRound(line.dataset && line.dataset.off ? line.dataset.off : (line.on + span * line.spanCount)));
+    this.lines.sort((a, b) => a.off - b.off);
     this.lines.forEach((line, i) => {
-      if(line.off) return;
-      let currentChorus = chorus.filter(line => time > line.on && time < line.off);
-      if (currentChorus.length) time = currentChorus[0].off;
+      if (line.off) return;
+      let setLine = setLines.findLast(line => time > line.on && time < line.off);
+      if (setLine) time = setLine.off;
       if (line.on === undefined) line.on = time;
-      line.off = parseInt(line.on + span * line.spanCount);
+      line.off = goodRound(line.on + span * line.spanCount);
       time = line.off;
     });
     this.lines.sort((a, b) => a.on - b.on);
@@ -105,8 +118,8 @@ class Song {
         line.p.set({
           class: {
             lyrics: true,
-              off: this._currentTime.as(t => this.isPlaying && t > line.on),
-              on: this._currentTime.as(t => this.isPlaying && t >= line.on && t <= line.off),
+              off: this._currentTime.as(t => this.isPlaying && t > line.on + span),
+              on: this._currentVerse.as(v => this.isPlaying && v === line.p),
           },
         });
         line.p.isSetup = true;
@@ -131,6 +144,8 @@ class Song {
       this.callBack();
     }
     this.currentSong = 0;
+    this.currentTime = 0;
+    this.currentVerse = null;
     Song.currentSong = this;
     Song.autoplay = !!auto;
   }
@@ -140,6 +155,8 @@ class Song {
       this.audio.pause();
       this.audio.currentTime = 0;
     }
+    this.currentTime = 0;
+    this.currentVerse = null;
     CardFloating._forcedRoyal.value = undefined;
     CardFloating._forcedSuit.value = undefined;
     Song._currentSong.value = null;
@@ -234,6 +251,7 @@ window.visitSong = (key, suit, royals) => {
   setTimeout(() => {
     let song = Song.currentSong;
     const container = document.querySelector(`[data-lyrics="${song.index}"]`);
+    if (!container) return;
     container.open && container.open();
     container.parentElement.open && container.parentElement.open();
     song.lyrics = [...container.querySelectorAll(":scope>section:not([data-prose])>p, :scope:not([data-prose])>p, :scope>section:not([data-prose])>ul, :scope:not([data-prose])>ul")];

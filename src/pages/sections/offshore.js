@@ -8,6 +8,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const offshoreSections = [{
+  dataLyrics: 13,
   style: suitStyle(CardExpanded.SUIT.NB),
   a_button_play_song: Song.getAlbum(1)[4].btn,
   h3_bells: Copy.text({
@@ -99,6 +100,7 @@ const offshoreSections = [{
     a_button_song: Song.getAlbum(1)[4].link,
   }
 }, {
+  dataLyrics: 14,
   style: suitStyle(CardExpanded.SUIT.NA),
   a_button_play_song: Song.getAlbum(1)[5].btn,
   h3_anchors: Copy.text({
@@ -152,6 +154,7 @@ const offshoreSections = [{
     a_button_song: Song.getAlbum(1)[5].link,
   }
 }, {
+  dataLyrics: 15,
   style: suitStyle(CardExpanded.SUIT.NS),
   a_button_play_song: Song.getAlbum(1)[6].btn,
   h3_shells: Copy.text({
@@ -205,6 +208,7 @@ const offshoreSections = [{
     a_button_song: Song.getAlbum(1)[6].link,
   }
 }, {
+  dataLyrics: 16,
   style: suitStyle(CardExpanded.SUIT.NI),
   a_button_play_song: Song.getAlbum(1)[7].btn,
   h3_icicles: Copy.text({

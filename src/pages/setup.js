@@ -67,7 +67,7 @@ const setupPage = {
         Copy.text({
           es: [`Después de que el tablero se termina
           y estén establecidos los lugares,`,
-          `64,102,143|la <i>corte</i> se separa bocarriba
+          `59,102,143|la <i>corte</i> se separa bocarriba
           con cartas de los <i>jókers</i> y <i>reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`],
