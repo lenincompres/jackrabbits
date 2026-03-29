@@ -20,13 +20,13 @@ const strategySections = [{
     en: "Trade at Jack Plazas",
   }),
   p: versify(Copy.text({
-    es: `Los centros con los símbolos de canje 
+    es: `13|Los centros con los símbolos de canje 
       te ofrecen sus artículos en venta:
       las cartas de sus palos del descarte 
       que en estos por diamantes se canjean,
       o aceptan de cualquiera que les pagues 
       si el centro es el marcado con la estrella.`,
-    en: `All spent cards are being sold, 
+    en: `9|All spent cards are being sold, 
       every <b>J</b>ack will sell its suit.
       Browse the lot their houses hold,
       where you may obtain this loot.
@@ -41,7 +41,7 @@ const strategySections = [{
       en: "+ Interpersonal Trades",
     }),*/
   p_0: versify(Copy.text({
-    es: `Si quieres <b class="diamonds">potenciar a los diamantes <sup>+</sup></b>,
+    es: `35|Si quieres <b class="diamonds">potenciar a los diamantes <sup>+</sup></b>,
     añádele el acápite a las reglas:
     permite compraventas personales
     con alguien en el sitio que te encuentras.
@@ -49,7 +49,7 @@ const strategySections = [{
     y ocultan en las manos las ofertas.
     A quien se le descubra por chantaje, 
     después del intercambio se destierra.`,
-    en: `If agreed when setup starts,
+    en: `39|If agreed when setup starts,
     you may add the <b class="diamonds">diamonds boost <sup>+</sup></b>:
     players trade with diamond cards, 
     on their turn where both set foot.
@@ -76,13 +76,13 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Anúnciate en la entrada de las reinas
+      `11|Anúnciate en la entrada de las reinas
       y espera que en la mesa te cuestionen:
       si cargas con su carta de nobleza 
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.`,
-      `Mas antes de mostrar tus pertenencias,
+      `44|Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre corazones de su cuenta,
       lo mínimo de aquellas condiciones.
@@ -92,7 +92,7 @@ const strategySections = [{
       de quien en el destierro las expone.`,
     ],
     en: [
-      `Any player may contest, 
+      `10.5|Any player may contest, 
       as you reach a queen’s own throne:
       “Show six points to prove you're blest,
       adding hearts from cards you own.”
@@ -100,7 +100,7 @@ const strategySections = [{
       if your carrot marks this zone.
       Off-board players can’t protest—
       they’re not fit to cast a stone.`,
-      `Yet before they check your cards,
+      `41|Yet before they check your cards,
       they're obliged to show their own. 
       Even standing far apart:
       let the proof they're blest be known.
@@ -128,13 +128,13 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Preséntate con carta pasaporte:
+      `11|Preséntate con carta pasaporte:
       un trébol al lanzar <b>la lotería</b>,
       y harás <b>la travesía</b> por las torres
       si no lo sobrepasa lo que tiras.
       Igual el pasaporte lo recoges
       y el premio si un acierto se confirma.`,
-      `Si el tiro soprepasa lo que expones,
+      `36|Si el tiro soprepasa lo que expones,
       te vas a desterrar en las orillas;
       o pagas el <i>restante</i> que le sobre
       logrando completar la travesía.
@@ -144,7 +144,7 @@ const strategySections = [{
       la carta pasaporte es permitida.`
     ],
     en: [
-      `Show one card before you roll,
+      `10.5|Show one card before you roll,
       cast <b>the journey</b> to the skies.
       Pick a tower as a goal,
       if it beats the dice or ties. 
@@ -152,7 +152,7 @@ const strategySections = [{
       play <b>the lottery</b> likewise.
       Dropped off-board or standing tall,
       tumblers keep the card that tries.`,
-      `Land your flight and don’t fall off,
+      `43.5|Land your flight and don’t fall off,
       if you pay to reach the dice. 
       Count how far your card was off:
       pay this shortfall to suffice. 
@@ -180,13 +180,13 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `Asalta en un combate sin empates
+      `9.5|Asalta en un combate sin empates
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
       sumándose las picas descartadas,
       y cuando se terminen los avances,
       destierra a la persona derrotada.`,
-      `Si ganas el combate que empezaste,
+      `35|Si ganas el combate que empezaste,
       procedes al asalto de sus cartas:
       le robas la primera que tocases,
       a ciegas deberás seleccionarla.
@@ -200,7 +200,7 @@ const strategySections = [{
       */
     ],
     en: [
-      `You may steal a card at random,
+      `14.5|You may steal a card at random,
       kicking someone off the board. 
       You must meet to seize their item, 
       use your spades to wield a sword.
@@ -208,7 +208,7 @@ const strategySections = [{
       adding spades to beat what's scored.
       When no cards are thrown to sum them, 
       then the struggler's kicked off-board.`,
-      `Note that tying scores is barred,
+      `42|Note that tying scores is barred,
       and discard the spades outpoured.
       If your target wins the war,
       they can’t steal a card you hoard.

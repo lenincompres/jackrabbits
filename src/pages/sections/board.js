@@ -18,7 +18,7 @@ const boardSection = {
       de hexágonos, de rombos y de triángulos.
       Repártelas por formas geométricas:
       iguales cantidades en el cálculo.`,
-      `Elige libremente voltearlas, 
+      `32|Elige libremente voltearlas, 
       sin turnos ni descansos al ponerlas;
       o en turnos sucesivos, colocarlas: 
       la pieza que voltees, la conectas.
@@ -26,13 +26,13 @@ const boardSection = {
       contar con las siguientes sugerencias:`,
     ],
     en: [
-      `Place the <i>Citadel</i> tile first. 
+      `10|Place the <i>Citadel</i> tile first. 
       Leave aside the <i>underground</i>. 
       Group and shuffle all the rest:
       twelve of all three shapes facedown.
       Deal by shape to every guest,
       each will get the same amount.`,
-      `Take your turns to place a tile—
+      `59|Take your turns to place a tile—
       pick a tile to flip and place.
       Or set out in loose freestyle—
       flip all tiles to see their face.
@@ -60,16 +60,16 @@ const boardSection = {
     img: new MediaFigure("guides"),
   },
   p_0: versify(Copy.text({
-    es: [`56,98|Evita callejones sin salidas,<sup class="warning rotated">T</sup>
+    es: [`56,98.5|Evita callejones sin salidas,<sup class="warning rotated">T</sup>
       los vínculos de dos hexagonales,<sup class="warning">x</sup>
       y hacer la conexión consecutiva
       de piezas triangulares similares.<sup class="warning">!</sup>`,
-      `Las islas que desees las inicias
+      `84|Las islas que desees las inicias
       con una hexagonal a la que apartes.
       Observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`
     ],
-    en: `Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
+    en: `30.5,80|Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
       don’t connect roads from two hexes.<sup class="warning">x</sup>
       Place triangles scattered broad,
       not the ones alike connected.<sup class="warning">!</sup>

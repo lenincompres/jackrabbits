@@ -13,7 +13,7 @@ const transferSections = [{
     en: "The Transfers",
   }),
   p: versify(Copy.text({
-    es: `Es gratis desplazarte a los hexágonos
+    es: `1|Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
       Incluso las montañas por debajo,
       se cruzan con sus túneles gratuitos.
@@ -21,7 +21,7 @@ const transferSections = [{
       marcados a mitad de los polígonos;
       <a onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
-    en: `If you venture on the paths, 
+    en: `4.4|If you venture on the paths, 
     you'll move freely on your round.
     This includes the underpass,
     found in mountains farther down.
@@ -35,13 +35,13 @@ const transferSections = [{
     en: classifyChars("Trailways", "clubs", "spades", " hearts"),
   }),
   p_: versify(Copy.text({
-    es: `Los bosques, las montañas y los ríos,
+    es: `23.5|Los bosques, las montañas y los ríos,
       que encuentras con sus símbolos abajo,
       permiten que te cambies de camino
       cruzando por el centro en un atajo.
        <a onclick="popUp('price')">Si pagas</a> con cualquiera de los símbolos,
       te cambias del camino que te trajo.`,
-    en: `See the mountains, rivers, woods—
+    en: `33.5|See the mountains, rivers, woods—
       with two roads not far apart.
       You may hike between these two,
       cutting through the middle part.
@@ -57,7 +57,7 @@ const transferSections = [{
     en: classifyChars("Merchants", " diamonds", "spades"),
   }),
   p: versify(Copy.text({
-    es: `<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
+    es: `50.5|<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
       trasládate por aguas o por tierras.
       Por tierra galopando sin pararte,
       moviéndote a la pieza que prefieras.
@@ -67,7 +67,7 @@ const transferSections = [{
       y arribas por alguna carretera.
       Los cruces te trasladan al instante,
       partiendo tras el pago que les dieras.`,
-    en: `Stationed where the road is forked,
+    en: `51.5|Stationed where the road is forked,
       there's a horse and boat to ride. 
       Reach a place across the board,
       over tiles at gallop stride.
@@ -84,11 +84,11 @@ const transferSections = [{
       en: classifyChars("Jokers", " diamonds", "hearts"),
     }),
   }, Copy.text({
-    es: `Un jóker se te otorga de pasaje,
+    es: `78|Un jóker se te otorga de pasaje,
        <a onclick="popUp('price')">si pagas</a> al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
-    en: `When you  <a onclick="popUp('price')">pay</a> a tavern's host,
+    en: `85|When you  <a onclick="popUp('price')">pay</a> a tavern's host,
       keep a ride you set aside.
       Choose a joker card to hold,
       and release to claim their ride.`,
@@ -102,13 +102,13 @@ const transferSections = [{
     en: classifyChars("Rabbit holes", " diamonds", "clubs"),
   }),
   p: versify(Copy.text({
-    es: `<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
+    es: `94|<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
       metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.
       Descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
-    en: ` <a onclick="popUp('price')">Pay</a> to travel cave to cave, 
+    en: `96.5|<a onclick="popUp('price')">Pay</a> to travel cave to cave, 
       use this trick to hop around. 
       But if you prefer to save, 
       pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
@@ -125,7 +125,7 @@ const transferSections = [{
     })
   },
   p_: versify(Copy.text({
-    es: `A veces te conviene que salieras,
+    es: `121|A veces te conviene que salieras,
       cayendo de un camino a las orillas.
       Olvida <b>el incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
@@ -133,7 +133,7 @@ const transferSections = [{
       y en vez de ejecutar <b>la travesía</b>,
       te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
-    en: `If you venture off the board,
+    en: `117.5|If you venture off the board,
       on a road that leads outbound,
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.

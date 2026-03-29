@@ -21,20 +21,20 @@ const setupPage = {
       }),
       p: versify(
         Copy.text({
-          es: [`El mapa que usarás en la partida
+          es: [`5|El mapa que usarás en la partida
           lo creas de improviso y previamente.
           Las piezas se conectan por sus vías
           en cientos de maneras diferentes.`,
-            `Ensamblas un diseño aleatorio
+            `16|Ensamblas un diseño aleatorio
           del reino de las cartas y sus templos.
           Invéntales <a class="pop" onclick="popUp('board')"><b>un nuevo territorio</b></a>
           o inicia replicando el del ejemplo.`,
           ],
-          en: [`At the start of every match,
+          en: [`8|At the start of every match,
           you must first complete a board.
           Map it randomly from scratch,
           or revisit one explored.`,
-            `Link the houses from each throne, 
+            `16|Link the houses from each throne, 
           which are hexes in this spread. 
           <a class="pop" onclick="popUp('board')"><b>Build the landscape</b></a> on your own,
           or the sample right ahead.`,
@@ -45,13 +45,13 @@ const setupPage = {
           onclick: e => popUp("sample"),
         }),
         Copy.text({
-          es: `Limítate al ensamble de las tierras
+          es: `27|Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
           Que exploren recorrer las carreteras
           llevando los conejos que se mueven.
           Añádeles las cartas y sus reglas
           si entienden a medida que las prueben.`,
-          en: `If there're children under nine,
+          en: `25|If there're children under nine,
           only play to build the land.
           Let them wander their design—
           with a rabbit in their hand.
@@ -65,13 +65,13 @@ const setupPage = {
       }),
       p: versify(
         Copy.text({
-          es: [`Después de que el tablero se termina
+          es: [`51|Después de que el tablero se termina
           y estén establecidos los lugares,`,
-          `59,102,143|la <i>corte</i> se separa bocarriba
+          `64,102,142|la <i>corte</i> se separa bocarriba
           con cartas de los <i>jókers</i> y <i>reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`],
-          en: `Lay the <i>court</i> in any order,
+          en: `48|Lay the <i>court</i> in any order,
           after placing every tile.
           These are <i>royal</i> cards and <i>jokers</i>,
           and will form a faceup aisle.
@@ -84,7 +84,7 @@ const setupPage = {
           height: '9em',
         }),
         Copy.text({
-          es: `En cuanto a las que restan en la <i>pila</i>,
+          es: `81|En cuanto a las que restan en la <i>pila</i>,
           los <i>palos numerales</i> y los <i>ases</i>,
           después de barajarlas y reunirlas,
           del mazo bocabajo las repartes.
@@ -92,7 +92,7 @@ const setupPage = {
           secretas y de a tres por concursante.
           Con estas tramarán <b>la travesía</b>
           y harán <b>la adquisición</b> de las reales.`,
-          en: `Every player gets three cards, 
+          en: `64.5|Every player gets three cards, 
           that's their <i>hand</i> to start the chase.
           These resources, each one guards, 
           fund <b>the journey</b> they will face.
@@ -106,11 +106,11 @@ const setupPage = {
       }),
       p: versify(
         Copy.text({
-          es: `Asigna a las personas un conejo,
+          es: `118.5|Asigna a las personas un conejo,
           y allí en la <a class="pop" onclick="popUp('citadel')"><i>Ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
-          en: `Players choose their token rabbits, 
+          en: `87|Players choose their token rabbits, 
           set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>.
           And collect their matching carrots—
           they get three of these as well.`,
@@ -119,11 +119,11 @@ const setupPage = {
           height: '7.5em',
         }),
         Copy.text({
-          es: `Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> en el castillo,
+          es: `129|Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> en el castillo,
           que listan al principio de las reglas.
           A menos que se trate del sencillo,
           su sello se pondrá en la Ciudadela.`,
-          en: `For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
+          en: `95|For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
           choose the kind of quest you’re on.
           If a circle marks this aim, 
           set it on the hexagon.`,
@@ -132,11 +132,11 @@ const setupPage = {
           height: '3em',
         }),
         Copy.text({
-          es: `Elige a la persona que comienza
+          es: `159|Elige a la persona que comienza
           y el orden de los turnos que le siguen.
           Me importa en lo absoluto tu sistema,
           que lo hagas al azar o lo designes.`,
-          en: `Now select the starting player, 
+          en: `104|Now select the starting player, 
           and the order of the turns.
           Choose your ways for this endeavor—
           none of these are my concerns.`,

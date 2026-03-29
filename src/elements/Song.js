@@ -5,7 +5,7 @@ import Card from "./Card.js";
 import CardFloating from "./CardFloating.js";
 
 function goodRound(num) {
-  return Math.round(num * 100) / 100;
+  return Math.round(num * 10) / 10;
 }
 
 class Song {
@@ -40,7 +40,7 @@ class Song {
         listener: () => {
           if (!this.lines) return;
           this.currentTime = goodRound(this.audio.currentTime);
-          const currentLine = this.lines.findLast(line => this.currentTime >= line.on);
+          const currentLine = this.lines.findLast(line => this.currentTime >= line.on && this.currentTime <= line.off);
           if (currentLine) this.currentVerse = currentLine.p;
         },
       },
@@ -68,9 +68,11 @@ class Song {
     }, false);
 
     document.addEventListener("keydown", (e) => {
+      if(!this.isPlaying) return;
       if (e.code === "Space") {
-        e.preventDefault(); // prevents page from scrolling
-        console.log(Math.round(this.audio.currentTime * 10) / 10);
+        e.stopPropagation();
+        e.preventDefault(); // prevents page from scrolling 
+        console.log(goodRound(this.audio.currentTime));
       }
     });
 
@@ -83,7 +85,7 @@ class Song {
     // Calculate timing for each line based on total lines and audio duration
     this.lines = [];
     let setLines = [];
-    let startTime = 0;
+    let startTime = 3;
     verses.forEach((verse, i) => {
       if (!i && verse.dataset.on) startTime = goodRound(verse.dataset.on);
       let spanCount = verse.querySelectorAll("span").length;
@@ -100,32 +102,32 @@ class Song {
       this.lines.push(obj);
     });
     let totalSpan = this.lines.reduce((total, line) => total + (line.spanCount || 1), 0);
-    let span = (this.audio.duration - startTime) / (1 + totalSpan);
+    let span = goodRound((this.audio.duration - startTime) / totalSpan);
     let time = startTime;
     setLines.forEach(line => line.off = goodRound(line.dataset && line.dataset.off ? line.dataset.off : (line.on + span * line.spanCount)));
     this.lines.sort((a, b) => a.off - b.off);
     this.lines.forEach((line, i) => {
       if (line.off) return;
-      let setLine = setLines.findLast(line => time > line.on && time < line.off);
+      let setLine = setLines.findLast(line => time + span > line.on && time < line.off);
       if (setLine) time = setLine.off;
       if (line.on === undefined) line.on = time;
       line.off = goodRound(line.on + span * line.spanCount);
       time = line.off;
+      setLines.push(line);
     });
     this.lines.sort((a, b) => a.on - b.on);
-    this.lines.forEach(line => {
-      if (!line.p.isSetup) {
-        line.p.set({
-          class: {
-            lyrics: true,
-              off: this._currentTime.as(t => this.isPlaying && t > line.on + span),
-              on: this._currentVerse.as(v => this.isPlaying && v === line.p),
-          },
-        });
-        line.p.isSetup = true;
+    this.lines.forEach(line => line.p.set({
+      class: {
+        lyrics: true,
+          off: this._currentTime.as(t => this.isPlaying && t > line.on + span),
+          on: this._currentVerse.as(v => this.isPlaying && v === line.p),
+      },
+      onclick: () => {
+        if (!line.on || !this.isPlaying) return;
+        this.audio.currentTime = line.on;
       }
-    });
-    console.log(this.lines);
+    }));
+    console.log(startTime, span, totalSpan, this.lines);
   }
   get lyrics() {
     return this._lyrics;
