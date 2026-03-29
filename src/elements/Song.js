@@ -68,7 +68,7 @@ class Song {
     }, false);
 
     document.addEventListener("keydown", (e) => {
-      if(!this.isPlaying) return;
+      if (!this.isPlaying) return;
       if (e.code === "Space") {
         e.stopPropagation();
         e.preventDefault(); // prevents page from scrolling 
@@ -257,10 +257,7 @@ window.visitSong = (key, suit, royals) => {
     container.open && container.open();
     container.parentElement.open && container.parentElement.open();
     song.lyrics = [...container.querySelectorAll(":scope>section:not([data-prose])>p, :scope:not([data-prose])>p, :scope>section:not([data-prose])>ul, :scope:not([data-prose])>ul")];
-    container.scrollIntoView({
-      behavior: "smooth",
-      block: "center"
-    });
+    document.querySelector(`section:has(a.play.button.playing)`).scrollIntoView({ behavior: "smooth", block: "center" });
   }, 300);
 }
 
