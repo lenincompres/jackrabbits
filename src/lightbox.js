@@ -8,7 +8,10 @@ import Song from "./elements/Song.js";
 import endingSection from "./pages/sections/ending.js";
 import MediaFigure from "./elements/MediaFigure.js";
 
-window.popUp = key => LightBox.open(key);
+window.popUp = (key, event) => {
+  LightBox.open(key);
+  if(event) event.stopPropagation();
+}
 
 LightBox.add(new Pager({
   playlist: {
@@ -203,7 +206,7 @@ And they offer rides and treks.`
     }),
     p: versify(Copy.text({
       es: `Empléalo en tu juego introductorio.
-        Reanudas con <a class="pop" onclick="popUp('board')"><b>un nuevo territorio</b></a>.`,
+        Reanudas con <a class="pop" onclick="popUp('board', event)"><b>un nuevo territorio</b></a>.`,
       en: `Start your first game nice and steady.
         <a class="pop" onclick="popUp('board')"><b>Build the landscape</b></a> when you're ready.`,
     })),

@@ -47,7 +47,7 @@ const turnSections = [{
     es: [
       `40|Del sitio hexagonal en el que empiezas,
       escoge si te irás por un camino.
-      Señala el recorrido por <a class="pop" onclick="popUp('roadTiles')">las piezas</a>
+      Señala el recorrido por <a class="pop" onclick="popUp('roadTiles', event)">las piezas</a>
       llevando tu conejo peregrino.
       Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
@@ -61,7 +61,7 @@ const turnSections = [{
       from the current hex you’re on.
       Move along the road selected, 
       let your rabbit venture on.
-      Cross small tiles but stop at hexes—
+      Cross  <a class="pop" onclick="popUp('roadTiles', event)">small tiles</a> but stop at hexes—
       reach the nearest hexagon.`,
       `51.5|Move on closer to your goal.
       Or perhaps don't move at all.`,

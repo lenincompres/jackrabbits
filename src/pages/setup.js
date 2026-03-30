@@ -27,7 +27,7 @@ const setupPage = {
           en cientos de maneras diferentes.`,
             `16|Ensamblas un diseño aleatorio
           del reino de las cartas y sus templos.
-          Invéntales <a class="pop" onclick="popUp('board')"><b>un nuevo territorio</b></a>
+          Invéntales <a class="pop" onclick="popUp('board', event)"><b>un nuevo territorio</b></a>
           o inicia replicando el del ejemplo.`,
           ],
           en: [`8|At the start of every match,
@@ -36,7 +36,7 @@ const setupPage = {
           or revisit one explored.`,
             `16|Link the houses from each throne, 
           which are hexes in this spread. 
-          <a class="pop" onclick="popUp('board')"><b>Build the landscape</b></a> on your own,
+          <a class="pop" onclick="popUp('board', event)"><b>Build the landscape</b></a> on your own,
           or the sample right ahead.`,
           ],
         }),
@@ -107,11 +107,11 @@ const setupPage = {
       p: versify(
         Copy.text({
           es: `118.5|Asigna a las personas un conejo,
-          y allí en la <a class="pop" onclick="popUp('citadel')"><i>Ciudadela</i></a> los colocan.
+          y allí en la <a class="pop" onclick="popUp('citadel', event)"><i>Ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
           en: `87|Players choose their token rabbits, 
-          set them on the <a class="pop" onclick="popUp('citadel')"><i>Citadel</i></a>.
+          set them on the <a class="pop" onclick="popUp('citadel', event)"><i>Citadel</i></a>.
           And collect their matching carrots—
           they get three of these as well.`,
         }),
@@ -119,11 +119,11 @@ const setupPage = {
           height: '7.5em',
         }),
         Copy.text({
-          es: `129|Escoge el <a class="pop" onclick="popUp('endings')"><b>fin del juego</b></a> en el castillo,
+          es: `129|Escoge el <a class="pop" onclick="popUp('endings', event)"><b>fin del juego</b></a> en el castillo,
           que listan al principio de las reglas.
           A menos que se trate del sencillo,
           su sello se pondrá en la Ciudadela.`,
-          en: `95|For <a class="pop" onclick="popUp('endings')"><b>objective</b></a> of the game,
+          en: `95|For <a class="pop" onclick="popUp('endings', event)"><b>objective</b></a> of the game,
           choose the kind of quest you’re on.
           If a circle marks this aim, 
           set it on the hexagon.`,

@@ -105,13 +105,13 @@ const transferSections = [{
     es: `94|<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
-      metiéndote al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> por un rato.
+      metiéndote al <a class="pop" onclick="popUp('underground', event)"><i>subsuelo</i></a> por un rato.
       Descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
     en: `96.5|<a onclick="popUp('price')">Pay</a> to travel cave to cave, 
       use this trick to hop around. 
       But if you prefer to save, 
-      pay a visit <a class="pop" onclick="popUp('underground')"><i>underground</i></a>.
+      pay a visit <a class="pop" onclick="popUp('underground', event)"><i>underground</i></a>.
       Take this turn to wait and waive— 
       hop on out the coming round.`,
   })),
@@ -131,14 +131,14 @@ const transferSections = [{
       y acaba con el turno a la deriva.
       Mantén <b>la lotería</b> en las afueras,
       y en vez de ejecutar <b>la travesía</b>,
-      te mueves al <a class="pop" onclick="popUp('underground')"><i>subsuelo</i></a> en el que esperas
+      te mueves al <a class="pop" onclick="popUp('underground', event)"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
     en: `117.5|If you venture off the board,
       on a road that leads outbound,
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
       Next your <b>lottery</b>'s off-board,
-      and you'll <b>journey</b> <a class="pop" onclick="popUp('underground')"><i>underground</i></a>!
+      and you'll <b>journey</b> <a class="pop" onclick="popUp('underground', event)"><i>underground</i></a>!
       There your <b>increment</b>’s restored,
       and you’ll wait another round.`,
   })),

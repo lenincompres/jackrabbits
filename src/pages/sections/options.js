@@ -63,14 +63,14 @@ const optionalSections = [{
       en: `Advanced Citadel`,
     }),
     p: versify(Copy.text({
-      es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel')">carátula de atrás</a>,
+      es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel', event)">carátula de atrás</a>,
       incluyes estrategias importantes:
       cuestionas corazones al entrar,
       canjeas lo que quieras con diamantes,
       y puedes con tus tréboles volar
       con palos cualesquiera de restante.`,
       en: `There are three depicted assets,
-      on this <a class="pop" onclick="popUp('advancedCitadel')">flip-side tile</a> reboot:
+      on this <a class="pop" onclick="popUp('advancedCitadel', event)">flip-side tile</a> reboot:
       vet the hearts to grant the access;
       buy with diamonds any loot; 
       show your clubs for flying passes—
@@ -83,15 +83,15 @@ const optionalSections = [{
     }),
     p: versify(Copy.text({
       es: `Se juega con un palo por conejo
-      y un <a class="pop" onclick="popUp('roadTiles')">set de carreteras</a> a su vez.
+      y un <a class="pop" onclick="popUp('roadTiles', event)">set de carreteras</a> a su vez.
       Con tres participantes, por ejemplo,
       retírales un palo con un set.
-      Contempla al escoger el <a class="pop" onclick="popUp('endings')">fin del juego</a>
+      Contempla al escoger el <a class="pop" onclick="popUp('endings', event)">fin del juego</a>
       si acaso es imposible de obtener.
       <b class="spades">Potencias a las picas</b> y sus duelos
       con cartas de nobleza en escasez.`,
       en: `Have as many suits as players,
-      and a set of <a class="pop" onclick="popUp('roadTiles')">road tiles</a> too. 
+      and a set of <a class="pop" onclick="popUp('roadTiles', event)">road tiles</a> too. 
       Say there's only three contenders, 
       then remove a set and suit.
       Pick a fitting kind of ending:
