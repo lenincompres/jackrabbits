@@ -137,8 +137,8 @@ const classicSections = [{
       Reubícalo en un nuevo asentamiento
       si acabas en el sitio en el que ronde.`,
       en: `At the start, if last in turn,
-      choose the mushroom's settlement.
-      It forbids the guests to earn—
+      choose the mushroom settlement.
+      Guests who land there may not earn—
       lottery and increment.
       After ending there, in turn,
       pick its next resettlement.`,
