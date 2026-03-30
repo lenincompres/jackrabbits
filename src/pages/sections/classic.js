@@ -7,10 +7,8 @@ import CardExpanded from "../../elements/CardExpanded.js";
 import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
-const neoclassicSections = [{
-  dataLyrics: 17,
+const classicSections = [{
   style: suitStyle(CardExpanded.SUIT.F),
-  a_button_play_song: Song.getAlbum(1)[8].btn,
   h3_fleurs: Copy.text({
     es: "+ Flores",
     en: "+ Fleurs <small>(Flowers)</small>",
@@ -83,13 +81,8 @@ const neoclassicSections = [{
       Move through caves and land when sent—
       you may ride to see her at it.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[8].link,
-  }
 }, {
-  dataLyrics: 18,
   style: suitStyle(CardExpanded.SUIT.T),
-  a_button_play_song: Song.getAlbum(1)[9].btn,
   h3_land: Copy.text({
     es: "+ Corceles",
     en: "+ Cavaliers",
@@ -131,9 +124,6 @@ const neoclassicSections = [{
       travel anywhere by land.`,
     ],
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[9].link,
-  },
   div_note_footnote: {
     h4: Copy.text({
       es: "+ Embargo Esporádico",
@@ -155,9 +145,7 @@ const neoclassicSections = [{
     })),
   },
 }, {
-  dataLyrics: 19,
   style: suitStyle(CardExpanded.SUIT.A),
-  a_button_play_song: Song.getAlbum(1)[10].btn,
   h3_sea: Copy.text({
     es: "+ Alianzas",
     en: "+ Alliances",
@@ -199,9 +187,6 @@ const neoclassicSections = [{
         draw as many cards you lose.`,
     ],
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[10].link,
-  },
   div_note_footnote: {
     background: "var(--sea) !important",
     p_: versify(Copy.text({
@@ -227,4 +212,7 @@ const neoclassicSections = [{
   },
 }];
 
-export default neoclassicSections;
+classicSections.forEach((section, i) => Song.addSong(section, i + 17));
+classicSections.sort((a, b) => Song.indexes.indexOf(a.dataLyrics) - Song.indexes.indexOf(b.dataLyrics));
+
+export default classicSections;

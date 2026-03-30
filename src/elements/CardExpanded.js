@@ -125,6 +125,8 @@ new Song(Copy.text({
   en: "Acorns",
 }), () => visitSong("expansion", CardExpanded.SUIT.FA, false), 1);
 
+Song.shuffleRange(Song.List.length - 4);
+
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a1832a9a-eb14-4a01-8b48-33a78e5cf643.m4a",
   en: "https://cdn1.suno.ai/15aeefa2-c86e-4890-a90d-d91037a800f9.m4a",
@@ -157,6 +159,8 @@ new Song(Copy.text({
   en: "Icicles",
 }), () => visitSong("expansion", CardExpanded.SUIT.NI, false), 1);
 
+Song.shuffleRange(Song.List.length - 4);
+
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/770a5bff-2f0b-4ceb-a86d-9a2133db104f.m4a",
   en: "https://cdn1.suno.ai/4fbdc3c2-2445-4a74-9988-06427491af1a.m4a",
@@ -180,3 +184,5 @@ new Song(Copy.text({
   es: "Alianzas",
   en: "Alliances",
 }), () => visitSong("expansion", CardExpanded.SUIT.A), 1);
+
+Song.shuffleRange(Song.List.length - 3);

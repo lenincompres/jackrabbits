@@ -1,11 +1,13 @@
 import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
-import classicSections from "./sections/neoclassic.js";
+import Song from "../elements/Song.js";
+import classicSections from "./sections/classic.js";
 import frontierSections from "./sections/frontier.js";
 import offshoreSections from "./sections/offshore.js";
 import HandSection from "../elements/HandSection.js";
-import Song from "../elements/Song.js";
-import { shadeSongButton } from "../aux/color.js";
+import {
+  shadeSongButton
+} from "../aux/color.js";
 
 const expansionPage = {
   menu: {
@@ -47,7 +49,7 @@ const expansionPage = {
           y añaden un rodente con sus piezas.`,
       })),
     },
-    section: frontierSections.sort(() => Math.random() - 0.5),
+    section: frontierSections,
     footer: {
       p: versify(Copy.text({
         en: `Hexes have a sea-blue side—
@@ -73,7 +75,7 @@ const expansionPage = {
           y añaden un rodente con sus piezas.`,
       })),
     },
-    section: offshoreSections.sort(() => Math.random() - 0.5),
+    section: offshoreSections,
     footer: {
       p: versify(Copy.text({
         en: `Hexes have a sea-blue side—
@@ -93,7 +95,7 @@ const expansionPage = {
         es: "Expansiones clásicas",
       }),
     },
-    section: classicSections.sort(() => Math.random() - 0.5),
+    section: classicSections,
   })],
 };
 

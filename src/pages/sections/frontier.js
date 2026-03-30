@@ -8,9 +8,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const frontierSections = [{
-  dataLyrics: 9,
   style: suitStyle(CardExpanded.SUIT.FS),
-  a_button_play_song: Song.getAlbum(1)[0].btn,
   h3_shields: Copy.text({
     es: "Escudos",
     en: "Shields",
@@ -58,13 +56,8 @@ const frontierSections = [{
       hit the tile for a reward—
       get its transfer in this style.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[0].link,
-  }
 }, {
-  dataLyrics: 10,
   style: suitStyle(CardExpanded.SUIT.FT),
-  a_button_play_song: Song.getAlbum(1)[1].btn,
   h3_torches: Copy.text({
     es: "Antorchas",
     en: "Torches",
@@ -133,13 +126,8 @@ const frontierSections = [{
       you may pay to transfer down—
       to the underground campfire.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[1].link,
-  }
 }, {
-  dataLyrics: 11,
   style: suitStyle(CardExpanded.SUIT.FH),
-  a_button_play_song: Song.getAlbum(1)[2].btn,
   h3_horseshoes: Copy.text({
     es: "Herraduras",
     en: "Horseshoes",
@@ -187,13 +175,8 @@ const frontierSections = [{
       they may ride to the cave's doors,
       but will never venture down.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[2].link,
-  }
 }, {
-  dataLyrics: 12,
   style: suitStyle(CardExpanded.SUIT.FA),
-  a_button_play_song: Song.getAlbum(1)[3].btn,
   h3_acorns: Copy.text({
     es: "Bellotas",
     en: "Acorns",
@@ -241,9 +224,9 @@ const frontierSections = [{
       If you bring it where you're on,
       leave the board or cut right through.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[3].link,
-  }
 }];
+
+frontierSections.forEach((section, i) => Song.addSong(section, i + 9));
+frontierSections.sort((a, b) => Song.indexes.indexOf(a.dataLyrics) - Song.indexes.indexOf(b.dataLyrics));
 
 export default frontierSections;

@@ -8,9 +8,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const offshoreSections = [{
-  dataLyrics: 13,
   style: suitStyle(CardExpanded.SUIT.NB),
-  a_button_play_song: Song.getAlbum(1)[4].btn,
   h3_bells: Copy.text({
     es: "Campanas",
     en: "Bells",
@@ -96,13 +94,8 @@ const offshoreSections = [{
       Underground, the cave is free—
       no one starts or faces trial.`
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[4].link,
-  }
 }, {
-  dataLyrics: 14,
   style: suitStyle(CardExpanded.SUIT.NA),
-  a_button_play_song: Song.getAlbum(1)[5].btn,
   h3_anchors: Copy.text({
     es: "Anclas",
     en: "Anchors",
@@ -150,13 +143,8 @@ const offshoreSections = [{
       Note the anchor tower’s specs—
       trade with suits that you decree.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[5].link,
-  }
 }, {
-  dataLyrics: 15,
   style: suitStyle(CardExpanded.SUIT.NS),
-  a_button_play_song: Song.getAlbum(1)[6].btn,
   h3_shells: Copy.text({
     es: "Conchas",
     en: "Shells",
@@ -204,13 +192,8 @@ const offshoreSections = [{
       guests may leave from there for free, 
       on the ferry they may board.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[6].link,
-  }
 }, {
-  dataLyrics: 16,
   style: suitStyle(CardExpanded.SUIT.NI),
-  a_button_play_song: Song.getAlbum(1)[7].btn,
   h3_icicles: Copy.text({
     es: "Carámbanos",
     en: "Icicles",
@@ -258,9 +241,9 @@ const offshoreSections = [{
       Note the underground won't freeze—
       it's no place where this affects.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(1)[7].link,
-  }
 }];
+
+offshoreSections.forEach((section, i) => Song.addSong(section, i + 13));
+offshoreSections.sort((a, b) => Song.indexes.indexOf(a.dataLyrics) - Song.indexes.indexOf(b.dataLyrics));
 
 export default offshoreSections;

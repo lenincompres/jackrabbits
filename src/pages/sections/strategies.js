@@ -7,9 +7,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 import Song from "../../elements/Song.js";
 
 const strategySections = [{
-  dataLyrics: 4,
   style: suitStyle(Card.SUIT.D),
-  a_button_play_song: Song.List[4].btn,
   h3_diamonds: Copy.text({
     es: "Diamantes <small>(Oros)</small>",
     en: "Diamonds <small>(Gold)</small>",
@@ -58,13 +56,8 @@ const strategySections = [{
     If what's traded proves a farce,
     swindlers get the off-board boot.`,
   })),
-  footer: {
-    a_button_song: Song.getAlbum(0)[4].link,
-  },
 }, {
-  dataLyrics: 5,
   style: suitStyle(Card.SUIT.H),
-  a_button_play_song: Song.List[5].btn,
   h3_hearts: Copy.text({
     es: "Corazones <small>(Copas)</small>",
     en: "Hearts <small>(Cups)</small>",
@@ -110,13 +103,8 @@ const strategySections = [{
       off the board the meddler's thrown.`,
     ]
   })),
-  footer: {
-    a_button_song: Song.getAlbum(0)[5].link,
-  }
 }, {
-  dataLyrics: 6,
   style: suitStyle(Card.SUIT.C),
-  a_button_play_song: Song.List[6].btn,
   h3_clubs: Copy.text({
     es: "Tréboles <small>(Bastos)</small>",
     en: "Clovers <small>(Clubs)</small>",
@@ -162,13 +150,8 @@ const strategySections = [{
       where the clubs fulfill the price.`,
     ]
   })),
-  footer: {
-    a_button_song: Song.getAlbum(0)[6].link,
-  }
 }, {
-  dataLyrics: 7,
   style: suitStyle(Card.SUIT.S),
-  a_button_play_song: Song.List[7].btn,
   h3_spades: Copy.text({
     es: "Picas <small>(Espadas)</small>",
     en: "Spades <small>(Swords)</small>",
@@ -224,9 +207,9 @@ const strategySections = [{
       */
     ]
   })),
-  footer: {
-    a_button_song: Song.getAlbum(0)[7].link,
-  }
 }];
+
+strategySections.forEach((section, i) => Song.addSong(section, i + 4));
+strategySections.sort((a, b) => Song.indexes.indexOf(a.dataLyrics) - Song.indexes.indexOf(b.dataLyrics));
 
 export default strategySections;

@@ -1,5 +1,6 @@
 import Copy from "../../lib/Copy.js";
 import versify from "../aux/versify.js";
+import Song from "../elements/Song.js";
 import strategySections from "./sections/strategies.js";
 import optionalSections from "./sections/options.js";
 import HandSection from "../elements/HandSection.js";
@@ -18,7 +19,7 @@ const fullPage = {
           Add these strategies per suit.`
       })),
     },
-    section: strategySections.sort(() => Math.random() - 0.5),
+    section: strategySections,
     footer: {
       p: versify(Copy.text({
         es: `Si sales en tu turno del tablero,

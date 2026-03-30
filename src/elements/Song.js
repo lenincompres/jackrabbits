@@ -43,7 +43,10 @@ class Song {
           const currentLine = this.lines.findLast(line => this.currentTime >= line.on && this.currentTime <= line.off);
           if (currentLine && this.currentVerse !== currentLine.p) {
             this.currentVerse = currentLine.p;
-            this.currentVerse.scrollIntoView({ behavior: "smooth", block: "center" });
+            this.currentVerse.scrollIntoView({
+              behavior: "smooth",
+              block: "center"
+            });
           }
         },
       },
@@ -130,7 +133,6 @@ class Song {
         this.audio.currentTime = line.on;
       }
     }));
-    console.log(startTime, span, totalSpan, this.lines);
   }
   get lyrics() {
     return this._lyrics;
@@ -221,6 +223,11 @@ class Song {
     return Song.List.filter(s => s.album === num);
   }
 
+  static getIndexedAlbum(num) {
+    let arr = Song.getAlbum(num).map(s => s);
+    return arr.sort((a, b) => a.index - b.index);
+  }
+
   static get index() {
     return Song.getAlbum().indexOf(Song.currentSong);
   }
@@ -232,6 +239,46 @@ class Song {
     if (songs[i]) return songs[i].start(Song.autoplay);
     if (Song.repeat) return songs[0].start(Song.autoplay);
     Song.currentSong.end();
+  }
+
+  static shuffleRange(start, end) {
+    // clamp values just in case
+    const arr = Song.List;
+    if (start === undefined) start = 0;
+    if (end === undefined) end = arr.length - 1;
+    for (let i = end; i > start; i--) {
+      const j = Math.floor(Math.random() * (i - start + 1)) + start;
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    Song.List = arr;
+    console.log("Shuffled songs:", Song.List.map(s => s.title));
+  }
+
+  static get indexedList() {
+    const arr = Song.List.map(s => s);
+    return arr.sort((a, b) => a.index - b.index);
+  }
+
+  static get indexes() {
+    return Song.List.map(s => s.index);
+  }
+
+  static addSong(model, index, addFooter = true) {
+    if (!model || index === undefined) return console.error("Model and index are required to add a song:", model, index);
+    model.dataLyrics = index;
+    model.a_button_play_song = Song.indexedList[index].btn;
+    // Add footer link to song
+    if (!addFooter) return;
+    let fn = model.div_note_footnote;
+    if (fn) delete model.div_note_footnote;
+    if (model.footer) {
+      model.footer.a_button_song = Song.indexedList[index].link;
+    } else {
+      model.footer = {
+        a_button_song: Song.indexedList[index].link,
+      };
+    }
+    model.div_note_footnote = fn;
   }
 
 }
@@ -341,3 +388,5 @@ new Song(Copy.text({
   visitSong("setup");
   popUp("board");
 });
+
+Song.shuffleRange(4, 7);
