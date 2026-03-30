@@ -199,8 +199,8 @@ const offshoreSections = [{
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.
-      And this island, you will see,
-      is a traveler's resort;
+      Reach this isle for a retreat,
+      or a traveler's resort;
       guests may leave from there for free, 
       on the ferry they may board.`,
   })),

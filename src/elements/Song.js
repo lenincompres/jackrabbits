@@ -41,7 +41,10 @@ class Song {
           if (!this.lines) return;
           this.currentTime = goodRound(this.audio.currentTime);
           const currentLine = this.lines.findLast(line => this.currentTime >= line.on && this.currentTime <= line.off);
-          if (currentLine) this.currentVerse = currentLine.p;
+          if (currentLine && this.currentVerse !== currentLine.p) {
+            this.currentVerse = currentLine.p;
+            this.currentVerse.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
         },
       },
     });
@@ -257,7 +260,10 @@ window.visitSong = (key, suit, royals) => {
     container.open && container.open();
     container.parentElement.open && container.parentElement.open();
     song.lyrics = [...container.querySelectorAll(":scope>section:not([data-prose])>p, :scope:not([data-prose])>p, :scope>section:not([data-prose])>ul, :scope:not([data-prose])>ul")];
-    document.querySelector(`section:has(a.play.button.playing)`).scrollIntoView({ behavior: "smooth", block: "center" });
+    document.querySelector(`section:has(a.play.button.playing)`).scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
   }, 300);
 }
 
