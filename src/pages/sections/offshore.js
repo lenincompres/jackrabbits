@@ -165,12 +165,12 @@ const offshoreSections = [{
       descártalas y el doble le retiras.`,
     en: `There’s a grotto underground,
       one that’s set when games begin.
-      It provides a landing ground—
+      It’s a coastal landing ground—
       where the boats may venture in.
       You may draw when you're around,
-      twice as many cards you bin:
-      toss your shells beneath the ground,
-      for a double card-count win.`,
+      twice the cards for those you bin:
+      toss your shells beneath the ground—
+      let the pile provide your win.`,
   })),
   h4_shells_: Copy.text({
     es: "Traslado desde el mar",

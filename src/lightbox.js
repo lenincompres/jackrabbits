@@ -290,7 +290,7 @@ And they offer rides and treks.`
           one discard off-board will send.`],
       en: [`There’s a roadway set to wander,
           which allows discards on sites.
-          The triangles charge a wånder:
+          The triangles charge a Wånder:
           rogues and circus sell their rides.
           They’re the same, in case you wonder—
           just as classics, otherwise.
@@ -298,12 +298,12 @@ And they offer rides and treks.`
           only one way down it slides.
           And the three remaining wonders
           host the fourway road divides.`,
-          `Fourway canyon: trailways cross;
-          one discard to pass across.`,
           `Fourway fountain: roundabout;
           one discard retrieves one out.`,
-          `Fourway crater: roads all end;
-          one discard off-board will send.`],
+          `Fourway canyon: trailways cross;
+          one discard to pass across.`,
+          `Fourway crater: all dead-ends;
+          one discard off-board it sends.`],
     })),
   },
 }));
