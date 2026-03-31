@@ -210,6 +210,58 @@ const classicSections = [{
       reach the tavern you prefer.`,
     })),
   },
+}, {
+  style: suitStyle(CardExpanded.SUIT.Å),
+  h3: Copy.text({
+    es: "+ Andares",
+    en: "+ Wånders",
+  }),
+  //img: new MediaFigure("allies,
+  p: versify(Copy.text({
+    es: [`5.5|These are cards that have no suits,
+      but may help you win the game.
+      They've alternative pursuits—
+      to fulfill their special claim.`,
+      `Los símbolos de alianzas que visitas,
+      se deben combinar al adquirirlas.
+      Un trío es del sector capitalista;
+      y el otro, de la unión naturalista.`,
+      `Las casas te permiten trasladarte
+      si pagas por los medios ilustrados.
+      El vuelo de sus torres, si hay restante,
+      se paga con cualquiera de sus palos.`,
+      `La Jota del sector capitalista
+      te vende lo que quieras por diamantes.
+      En la otra te reponen, de la pila,
+      las cartas de tu mano que descartes.`,
+    ],
+    en: [
+      `5.5|These eleven cards omitted, 
+      bear no suit nor noble spell.
+      They bring brand new quests admitted, 
+      and their wonder tiles as well.`,
+      `19,63.5,114.5|With three <a onclick="popUp('wånder')">wånder cards</a> completed,
+      brought unto the Citadel,
+      a new winner has succeeded—
+      one the wandering will tell.`,
+      `35|Shuffle them into the deck,
+      as you ready up the pile.
+      You may draw them as you trek—
+      play them in their special style.`,
+      `49.5|Wånder cards reveal a mission,
+      written only for your view.
+      Show them off upon completion—
+      keep them laid in front of you.`,
+      `86.5|<a onclick="popUp('wonders')">They have tiles</a> unlike the mountains,
+      rivers, woods, caves, taverns, forks:
+      a volcano, canyon, fountain,
+      circus, well, bazaar—the works.`,
+      `100.5|Wånder cards may be discarded,
+      on these places from their pack.
+      Once discarded, they are parted—
+      not for sale nor shuffled back.`,
+    ],
+  })),
 }];
 
 classicSections.forEach((section, i) => Song.addSong(section, i + 17));

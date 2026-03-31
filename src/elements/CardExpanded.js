@@ -84,6 +84,10 @@ export class CardExpanded extends Card {
     A: {
       symbol: "sea",
       color: "#016994",
+    },
+    Å: {
+      symbol: "road",
+      color: "lightgoldenrodyellow",
     }
   }, Card.SUIT);
 }
@@ -185,4 +189,12 @@ new Song(Copy.text({
   en: "Alliances",
 }), () => visitSong("expansion", CardExpanded.SUIT.A), 1);
 
-Song.shuffleRange(Song.List.length - 3);
+new Song(Copy.text({
+  es: "https://cdn1.suno.ai/d334f9fc-e5a9-40cc-94b2-43bbdb127421.m4a",
+  en: "https://cdn1.suno.ai/d334f9fc-e5a9-40cc-94b2-43bbdb127421.m4a",
+}), Copy.text({
+  es: "Wånders",
+  en: "Åndares",
+}), () => visitSong("expansion", CardExpanded.SUIT.Å), 1);
+
+Song.shuffleRange(Song.List.length - 4);

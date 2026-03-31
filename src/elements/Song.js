@@ -242,7 +242,6 @@ class Song {
   }
 
   static shuffleRange(start, end) {
-    // clamp values just in case
     const arr = Song.List;
     if (start === undefined) start = 0;
     if (end === undefined) end = arr.length - 1;
@@ -251,7 +250,6 @@ class Song {
       [arr[i], arr[j]] = [arr[j], arr[i]];
     }
     Song.List = arr;
-    console.log("Shuffled songs:", Song.List.map(s => s.title));
   }
 
   static get indexedList() {
@@ -265,6 +263,7 @@ class Song {
 
   static addSong(model, index, addFooter = true) {
     if (!model || index === undefined) return console.error("Model and index are required to add a song:", model, index);
+    if(!Song.indexes.includes(index)) return console.error("There's no song for this index:", index);
     model.dataLyrics = index;
     model.a_button_play_song = Song.indexedList[index].btn;
     // Add footer link to song
