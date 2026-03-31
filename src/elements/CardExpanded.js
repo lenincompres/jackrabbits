@@ -85,7 +85,7 @@ export class CardExpanded extends Card {
       symbol: "sea",
       color: "#016994",
     },
-    Å: {
+    W: {
       symbol: "road",
       color: "lightgoldenrodyellow",
     }
@@ -195,6 +195,6 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Wånders",
   en: "Åndares",
-}), () => visitSong("expansion", CardExpanded.SUIT.Å), 1);
+}), () => visitSong("expansion", CardExpanded.SUIT.W), 1);
 
 Song.shuffleRange(Song.List.length - 4);

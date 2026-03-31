@@ -211,7 +211,7 @@ const classicSections = [{
     })),
   },
 }, {
-  style: suitStyle(CardExpanded.SUIT.Å),
+  style: suitStyle(CardExpanded.SUIT.W),
   h3: Copy.text({
     es: "+ Andares",
     en: "+ Wånders",
