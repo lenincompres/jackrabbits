@@ -252,10 +252,10 @@ const classicSections = [{
       written only for your view.
       Show them off upon completion—
       keep them laid in front of you.`,
-      `86.5|<a onclick="popUp('wonders')">They have tiles</a> unlike the mountains,
+      `86.5|<a onclick="popUp('wonderTiles')">They have tiles</a> unlike the mountains,
       rivers, woods, caves, taverns, forks:
       a volcano, canyon, fountain,
-      circus, well, bazaar—the works.`,
+      circus, well, and rogues—the works.`,
       `100.5|Wånder cards may be discarded,
       on these places from their pack.
       Once discarded, they are parted—

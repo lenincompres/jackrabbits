@@ -10,7 +10,7 @@ import MediaFigure from "./elements/MediaFigure.js";
 
 window.popUp = (key, event) => {
   LightBox.open(key);
-  if(event) event.stopPropagation();
+  if (event) event.stopPropagation();
 }
 
 LightBox.add(new Pager({
@@ -264,5 +264,46 @@ And they offer rides and treks.`
       width: "100%",
       height: "50rem",
     }
-  }
+  },
+  wonderTiles: {
+    h3: Copy.text({
+      es: "Vías de andares",
+      en: "Wander tiles",
+    }),
+    img: new MediaFigure("roadTiles"),
+    p: versify(Copy.text({
+      es: [`There’s a roadway set to wander,
+          which allows discards on sites.
+          The triangles charge a wånder:
+          rogues and circus sell their rides.
+          They’re the same, in case you wonder—
+          just as classics, otherwise.
+          But the well that sends you under
+          only one way down it slides.
+          And the three remaining wonders
+          host the fourway road divides.`,
+          `Fourway fountain: roundabout;
+          one discard retrieves one out.`,
+          `Fourway canyon: trailways cross;
+          one discard to pass across.`,
+          `Fourway crater: roads all end;
+          one discard off-board will send.`],
+      en: [`There’s a roadway set to wander,
+          which allows discards on sites.
+          The triangles charge a wånder:
+          rogues and circus sell their rides.
+          They’re the same, in case you wonder—
+          just as classics, otherwise.
+          But the well that sends you under
+          only one way down it slides.
+          And the three remaining wonders
+          host the fourway road divides.`,
+          `Fourway canyon: trailways cross;
+          one discard to pass across.`,
+          `Fourway fountain: roundabout;
+          one discard retrieves one out.`,
+          `Fourway crater: roads all end;
+          one discard off-board will send.`],
+    })),
+  },
 }));
