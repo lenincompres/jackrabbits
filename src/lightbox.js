@@ -275,14 +275,14 @@ And they offer rides and treks.`
       es: [`There’s a roadway set to wander,
           which allows discards on sites.
           The triangles charge a wånder:
-          rogues and circus sell their rides.
+          circus and bazaar sell rides.
           They’re the same, in case you wonder—
           just as classics, otherwise.
-          But the well that sends you under
+          But the well that sends you under,
           only one way down it slides.
-          And the three remaining wonders
-          host the fourway road divides.`,
-          `Fourway fountain: roundabout;
+          And there's three remaining wonders,
+          which are fourway road divides.`,
+          `Fourway garden: roundabout;
           one discard retrieves one out.`,
           `Fourway canyon: trailways cross;
           one discard to pass across.`,
@@ -291,19 +291,19 @@ And they offer rides and treks.`
       en: [`There’s a roadway set to wander,
           which allows discards on sites.
           The triangles charge a Wånder:
-          rogues and circus sell their rides.
+          circus and bazaar sell rides.
           They’re the same, in case you wonder—
           just as classics, otherwise.
-          But the well that sends you under
+          But the well that sends you under,
           only one way down it slides.
-          And the three remaining wonders
-          host the fourway road divides.`,
-          `Fourway fountain: roundabout;
+          And there's three remaining wonders,
+          which are four-way road divides.`,
+          `Four-way garden: roundabout;
           one discard retrieves one out.`,
-          `Fourway canyon: trailways cross;
+          `Four-way canyon: trailways cross;
           one discard to pass across.`,
-          `Fourway crater: all dead-ends;
-          one discard off-board it sends.`],
+          `Four-way crater: off-board bound;
+          one discard lands underground.`],
     })),
   },
 }));

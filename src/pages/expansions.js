@@ -94,6 +94,12 @@ const expansionPage = {
         en: "Classic expansions",
         es: "Expansiones clásicas",
       }),
+      p: versify(Copy.text({
+        en: `Each includes unique conditions;
+          pieces, tokens, cards or missions.`,
+        es: `Incluyen diferentes condiciones;
+          ya sea en sus piezas o misiones.`,
+      })),
     },
     section: classicSections,
   })],

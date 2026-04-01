@@ -211,7 +211,7 @@ const offshoreSections = [{
       Si alcanza el resultado del azar
       o pagas lo <i>restante</i> de la cifra,
       conéctalo a un camino por el mar,
-      si no, pues lo despegas de la orilla.`,
+      si no, en el océano se aísla.`,
     en: `Tip the tower to the shore,
       when you roll from any piece.
       If you show a card before,
