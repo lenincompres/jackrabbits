@@ -218,28 +218,14 @@ const classicSections = [{
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`5.5|These are cards that have no suits,
-      but may help you win the game.
-      They've alternative pursuits—
-      to fulfill their special claim.`,
-      `Los símbolos de alianzas que visitas,
-      se deben combinar al adquirirlas.
-      Un trío es del sector capitalista;
-      y el otro, de la unión naturalista.`,
-      `Las casas te permiten trasladarte
-      si pagas por los medios ilustrados.
-      El vuelo de sus torres, si hay restante,
-      se paga con cualquiera de sus palos.`,
-      `La Jota del sector capitalista
-      te vende lo que quieras por diamantes.
-      En la otra te reponen, de la pila,
-      las cartas de tu mano que descartes.`,
+    es: [`Missing.`,
+      `<a onclick="popUp('wonderTiles')">sus piezas</a>`,
     ],
     en: [
       `5.5|These eleven cards omitted, 
       bear no suit nor noble spell.
       They reveal new quests admitted, 
-      and their wonder tiles as well.`,
+      and bring wander tiles as well.`,
       `19,63.5,114.5|With three <a onclick="popUp('wander')">wander cards</a> completed,
       brought unto the Citadel,
       a new winner has succeeded—

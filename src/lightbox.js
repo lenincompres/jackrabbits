@@ -272,34 +272,46 @@ And they offer rides and treks.`
     }),
     img: new MediaFigure("roadTiles"),
     p: versify(Copy.text({
-      es: `missing`,
+      es: `Se añaden a las vías carreteras
+        las piezas que reciben los andares.
+        Con una de sus cartas que les dieras,
+        te ofrecen los traslados habituales.
+        Excepto por el pozo, que es su cueva,
+        se ingresa sin la opción de que se sale.
+        Y el trío de romboides se renueva:
+        lo mismo por sus cuatro laterales.`,
       en: `There’s a roadway set to wander,
-          which allows discards on sites.
-          The triangles charge a wander:
-          circus and bazaar sell rides.
-          They’re the same, in case you wonder—
-          just as classics, otherwise.
-          But the well that sends you under,
-          only one way down it slides.
-          And there's three remaining wonders,
-          which are four-way road divides.`,
+        which allows discards on sites.
+        The triangles charge a wander:
+        circus and bazaar sell rides.
+        They’re the same, in case you wonder—
+        just as classics, otherwise.
+        But the well that sends you under,
+        only one way down it slides.
+        And there's three remaining wonders,
+        which are four-way road divides.`,
     })),
     ul_bulleted: {
       li: versify(Copy.text({
-        es: `missing`,
+        es: [`El rombo del jardín es transitable:
+          canjea con andares del descarte.`,
+          `El rombo del cañón que te bloquea:
+          un pago con andares lo traviesa.`,
+          `El rombo con el cráter al destierro:
+          descarta y caerás en el subsuelo.`],
         en: [`Four-way garden: roundabout;
           one discard retrieves one out.`,
           `Four-way canyon: trailways cross;
           one discard to pass across.`,
           `Four-way crater: off-board bound;
-          one discard lands underground.`
-        ],
+          one discard lands underground.`],
       })),
     },
     p_ : versify(Copy.text({
-      es: `missing`,
+      es: `Ignora lo que obtengas en los dados.
+        Cancelas con andares en sus pagos.`,
       en: `For their gains, ignore the dice.
-          Wander cards pay any price.`,
+        Wander cards pay any price.`,
     })),
   },
 }));
