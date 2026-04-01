@@ -272,23 +272,8 @@ And they offer rides and treks.`
     }),
     img: new MediaFigure("roadTiles"),
     p: versify(Copy.text({
-      es: [`There’s a roadway set to wander,
-          which allows discards on sites.
-          The triangles charge a wander:
-          circus and bazaar sell rides.
-          They’re the same, in case you wonder—
-          just as classics, otherwise.
-          But the well that sends you under,
-          only one way down it slides.
-          And there's three remaining wonders,
-          which are fourway road divides.`,
-          `Fourway garden: roundabout;
-          one discard retrieves one out.`,
-          `Fourway canyon: trailways cross;
-          one discard to pass across.`,
-          `Fourway crater: roads all end;
-          one discard off-board will send.`],
-      en: [`There’s a roadway set to wander,
+      es: `missing`,
+      en: `There’s a roadway set to wander,
           which allows discards on sites.
           The triangles charge a wander:
           circus and bazaar sell rides.
@@ -298,12 +283,23 @@ And they offer rides and treks.`
           only one way down it slides.
           And there's three remaining wonders,
           which are four-way road divides.`,
-          `Four-way garden: roundabout;
+    })),
+    ul_bulleted: {
+      li: versify(Copy.text({
+        es: `missing`,
+        en: [`Four-way garden: roundabout;
           one discard retrieves one out.`,
           `Four-way canyon: trailways cross;
           one discard to pass across.`,
           `Four-way crater: off-board bound;
-          one discard lands underground.`],
+          one discard lands underground.`
+        ],
+      })),
+    },
+    p_ : versify(Copy.text({
+      es: `missing`,
+      en: `For their gains, ignore the dice.
+          Wander cards pay any price.`,
     })),
   },
 }));

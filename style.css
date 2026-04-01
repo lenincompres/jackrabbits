@@ -1276,22 +1276,21 @@ body>main {
   margin: 0.3rem 0;
 }
 
-ul.exception {
+ul.exception, ul.bulleted {
   text-align: left;
   padding-left: 1rem;
   width: fit-content;
   margin: 0 auto;
 }
 
-ul.exception>li::before {
+ul.exception>li::before, ul.bulleted>li::before {
   content: "•";
   float: left;
   margin-left: -0.7em;
   margin-right: 0.2em;
 }
 
-ul.exception>li:first-child:before,
-.handSection>section ul>li:first-child:before {
+ul.exception>li:first-child:before {
   content: "○";
 }
 
