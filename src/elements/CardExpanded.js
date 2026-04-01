@@ -193,8 +193,8 @@ new Song(Copy.text({
   es: "https://cdn1.suno.ai/d334f9fc-e5a9-40cc-94b2-43bbdb127421.m4a",
   en: "https://cdn1.suno.ai/d334f9fc-e5a9-40cc-94b2-43bbdb127421.m4a",
 }), Copy.text({
-  es: "Wånders",
-  en: "Åndares",
+  es: "Wanders",
+  en: "Andares",
 }), () => visitSong("expansion", CardExpanded.SUIT.W), 1);
 
 Song.shuffleRange(Song.List.length - 4);

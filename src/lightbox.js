@@ -274,7 +274,7 @@ And they offer rides and treks.`
     p: versify(Copy.text({
       es: [`There’s a roadway set to wander,
           which allows discards on sites.
-          The triangles charge a wånder:
+          The triangles charge a wander:
           circus and bazaar sell rides.
           They’re the same, in case you wonder—
           just as classics, otherwise.
@@ -290,7 +290,7 @@ And they offer rides and treks.`
           one discard off-board will send.`],
       en: [`There’s a roadway set to wander,
           which allows discards on sites.
-          The triangles charge a Wånder:
+          The triangles charge a wander:
           circus and bazaar sell rides.
           They’re the same, in case you wonder—
           just as classics, otherwise.

@@ -214,7 +214,7 @@ const classicSections = [{
   style: suitStyle(CardExpanded.SUIT.W),
   h3: Copy.text({
     es: "+ Andares",
-    en: "+ Wånders",
+    en: "+ Wanders",
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
@@ -240,7 +240,7 @@ const classicSections = [{
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and their wonder tiles as well.`,
-      `19,63.5,114.5|With three <a onclick="popUp('wånder')">wånder cards</a> completed,
+      `19,63.5,114.5|With three <a onclick="popUp('wander')">wander cards</a> completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
@@ -248,7 +248,7 @@ const classicSections = [{
       as you ready up the pile.
       You may draw them as you trek—
       play them in their special style.`,
-      `49.5|Wånder cards present a mission,
+      `49.5|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
       keep them laid in front of you.`,
@@ -256,7 +256,7 @@ const classicSections = [{
       rivers, woods, caves, taverns, forks:
       a volcano, canyon, garden,
       circus, well, bazaar—the works.`,
-      `100.5|Wånder cards may be discarded,
+      `100.5|Wander cards may be discarded,
       on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
