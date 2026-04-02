@@ -218,7 +218,14 @@ const classicSections = [{
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`Missing.`,
+    es: [`Las cartas de andares peritidas,
+      se añaden con sus once peripecias:
+      las metas ___ la partida,
+      y vienen con sus vías carreteras.
+      Con tres de sus misiones concluidas,
+      podrías reclamar la Ciudadela.
+      Y el juego de inmediato se termina,
+      contigo _____ en la mesa.`,
       `<a onclick="popUp('wanderTiles')">sus piezas</a>`,
     ],
     en: [
