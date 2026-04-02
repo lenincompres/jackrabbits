@@ -190,7 +190,7 @@ new Song(Copy.text({
 }), () => visitSong("expansion", CardExpanded.SUIT.A), 1);
 
 //
-let wanderTilesState = 0;
+let wanderTilesUp = false;
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/db8a5641-fe46-443c-91f9-45a23d350a9e.m4a",
   en: "https://cdn1.suno.ai/db8a5641-fe46-443c-91f9-45a23d350a9e.m4a",
@@ -202,14 +202,14 @@ new Song(Copy.text({
   popUp("wanderTiles");
   setTimeout(() => popUp(), 2000);
 }, currentTime => {
-  if (currentTime < 136) return wanderTilesState = 0;
-  if (currentTime > 136 && currentTime < 198 && wanderTilesState === 0) {
+  if (currentTime < 136 && wanderTilesUp) return wanderTilesUp = false;
+  if (currentTime > 136 && currentTime < 198 && !wanderTilesUp) {
     popUp("wanderTiles");
-    return wanderTilesState = 1;
+    return wanderTilesUp = true;
   }
-  if (currentTime > 198 && wanderTilesState === 1) {
+  if (currentTime > 198 && wanderTilesUp) {
     popUp();
-    return wanderTilesState = 0;
+    return wanderTilesUp = false;
   }
 });
 
