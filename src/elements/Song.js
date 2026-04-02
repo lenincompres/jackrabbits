@@ -48,8 +48,6 @@ class Song {
               behavior: "smooth",
               block: "center"
             });
-            console.log(this.lines);
-            console.log(currentLine, currentLine.p);
           }
         },
       },

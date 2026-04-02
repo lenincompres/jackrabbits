@@ -244,27 +244,27 @@ const classicSections = [{
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
-      `6|These eleven cards omitted, 
+      `5|These eleven cards omitted, 
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and bring wander tiles as well.`,
-      `20,64.5,114.5,199|With three <a onclick="popUp('wander')">wander cards</a> completed,
+      `19,63.5,113.5,198|With three <a onclick="popUp('wander')">wander cards</a> completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
-      `36.5|Shuffle them into the deck,
+      `35.5|Shuffle them into the deck,
       as you ready up the pile.
       You may draw them as you trek—
       play them in their special style.`,
-      `50.5|Wander cards present a mission,
+      `49.5|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
       keep them laid in front of you.`,
-      `87.5|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
+      `86.5|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
       rivers, woods, caves, taverns, forks:
       a volcano, canyon, garden,
       circus, well, bazaar—the works.`,
-      `101|Wander cards may be discarded,
+      `100|Wander cards may be discarded,
       on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
@@ -289,7 +289,7 @@ export const wanderTiles = {
         se ingresa sin la opción de que se sale.
         Y el trío de romboides se renueva:
         lo mismo por sus cuatro laterales.`,
-    en: `136|There’s a roadway set to wander,
+    en: `135|There’s a roadway set to wander,
         which allows discards on sites.
         The triangles charge a wander:
         circus and bazaar sell rides.
@@ -301,7 +301,7 @@ export const wanderTiles = {
         which are four-way road divides.`,
   })),
   ul_bulleted: {
-    dataOn: 171,
+    dataOn: 170,
     li: versify(Copy.text({
       es: [`El rombo del jardín, que es transitable,
           canjea con andares del descarte.`,
@@ -322,7 +322,7 @@ export const wanderTiles = {
   p_: versify(Copy.text({
     es: `Ignora a los dados en sus puestos.
         Un pago con andares es el precio.`,
-    en: `192|For their gains, ignore the dice.
+    en: `191|For their gains, ignore the dice.
         Wander cards pay any price.`,
   })),
 };
