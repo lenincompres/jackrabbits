@@ -218,15 +218,30 @@ const classicSections = [{
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`Las cartas de andares peritidas,
+    es: [`Las cartas con andares peritidas
       se añaden con sus once peripecias:
-      las metas ___ la partida,
-      y vienen con sus vías carreteras.
-      Con tres de sus misiones concluidas,
-      podrías reclamar la Ciudadela.
-      Y el juego de inmediato se termina,
-      contigo _____ en la mesa.`,
-      `<a onclick="popUp('wanderTiles')">sus piezas</a>`,
+      las metas que varían la partida,
+      y el número vías carreteras.`,
+      `Con tres de sus misiones concluidas,
+      podrías reclamar la Ciudadela,
+      y el juego de inmediato se termina,
+      sin cartas de los nobles en la meta.`,
+      `Las sumas a la pila en el inicio
+      y adquieres al igual que las de palos.
+      te ayudan en andanzas del camino
+      y exponen descripciones de sus actos.`,
+      `Las cartas con andares que recibas
+      te muestran sus propósitos secretos.
+      Colócalas en frente bocarriba
+      si logras las acciones de sus retos.`,
+      `<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares especiales
+      reflejan a las clásicas de estas,
+      los rombos y las piezas triangulares,
+      que en muchos de sus usos se asemejan.`,
+      `En estas, tu andares se descartan,
+      pagando las acciones que te ofrecen.
+      Las cartas con andares que descartas
+      ni vuelven a la pila ni se venden.`,
     ],
     en: [
       `6|These eleven cards omitted, 
@@ -270,7 +285,7 @@ export const wanderTiles = {
         las piezas que reciben los andares.
         Con una de sus cartas que les dieras,
         te ofrecen los traslados habituales.
-        Observa que en el pozo, que es su cueva,
+        Excepto por el pozo, que es su cueva,
         se ingresa sin la opción de que se sale.
         Y el trío de romboides se renueva:
         lo mismo por sus cuatro laterales.`,
@@ -286,26 +301,27 @@ export const wanderTiles = {
         which are four-way road divides.`,
   })),
   ul_bulleted: {
+    dataOn: 171,
     li: versify(Copy.text({
-      es: [`El rombo del jardín es transitable:
+      es: [`El rombo del jardín, que es transitable,
           canjea con andares del descarte.`,
-        `El rombo del cañón que te bloquea:
-          un pago con andares lo traviesa.`,
-        `El rombo con el cráter al destierro:
-          descarta y caerás en el subsuelo.`
+        `El rombo del cañón que te bloquea,
+          pagando con andares se traviesa.`,
+        `El rombo con el cráter al destierro,
+          se paga por caer en el subsuelo.`
       ],
-      en: [`171|Four-way garden: roundabout;
+      en: [`Four-way garden: roundabout;
           one discard retrieves one out.`,
-        `177|Four-way canyon: trailways cross;
+        `Four-way canyon: trailways cross;
           one discard to pass across.`,
-        `185|Four-way crater: off-board bound;
+        `Four-way crater: off-board bound;
           one discard lands underground.`
       ],
     })),
   },
   p_: versify(Copy.text({
-    es: `Ignora lo que obtengas en los dados.
-        Cancelas con andares en sus pagos.`,
+    es: `Ignora a los dados en sus puestos.
+        Un pago con andares es el precio.`,
     en: `192|For their gains, ignore the dice.
         Wander cards pay any price.`,
   })),

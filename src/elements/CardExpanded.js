@@ -98,7 +98,7 @@ export default CardExpanded;
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/bccdb590-016b-4c2f-a527-31ebfdf5c699.m4a",
-  en: "https://cdn1.suno.ai/67d28132-5be3-49a2-a63f-c523dc9d11af.m4a",
+  en: "https://cdn1.suno.ai/f1fd6431-91cb-4886-a8dd-59f602994537.m4a",
 }), Copy.text({
   es: "Escudos",
   en: "Sheilds",
@@ -123,7 +123,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/3a272e14-2945-443d-9385-1871a4efbe45.m4a",
-  en: "https://cdn1.suno.ai/a8f60fc1-178f-4aed-90c7-d351c56f56ce.m4a",
+  en: "https://cdn1.suno.ai/ff1243b3-85e7-4aae-991e-a05892c62a08.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
@@ -157,7 +157,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/e516d762-7f7a-466c-9aa1-b9420d70af79.m4a",
-  en: "https://cdn1.suno.ai/9148b0cb-bedd-435d-a8ea-083d842ff6ad.m4a",
+  en: "https://cdn1.suno.ai/920e3094-d826-411f-a686-1d72821380d8.m4a",
 }), Copy.text({
   es: "Carámbanos",
   en: "Icicles",
@@ -202,7 +202,7 @@ new Song(Copy.text({
 }), () => {
   visitSong("expansion", CardExpanded.SUIT.W);
   popUp("wanderTiles");
-  setTimeout(() => popUp(), 2000);
+  setTimeout(() => popUp(), 1);
 }, 1, currentTime => {
   if (currentTime < 136 && wanderTilesUp) return wanderTilesUp = false;
   if (currentTime > 136 && currentTime < 198 && !wanderTilesUp) {

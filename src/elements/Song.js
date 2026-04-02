@@ -48,6 +48,8 @@ class Song {
               behavior: "smooth",
               block: "center"
             });
+            console.log(this.lines);
+            console.log(currentLine, currentLine.p);
           }
         },
       },
@@ -88,7 +90,6 @@ class Song {
 
   set lyrics(verses = []) {
     if (this._lyrics.length || !verses || !verses.length) return;
-    this._lyrics = verses;
     // Calculate timing for each line based on total lines and audio duration
     this.lines = [];
     let setLines = [];
@@ -134,6 +135,8 @@ class Song {
         this.audio.currentTime = line.on;
       }
     }));
+    verses.sort((a, b) => goodRound(a.dataset.on) - goodRound(b.dataset.on));
+    this._lyrics = verses;
   }
   get lyrics() {
     return this._lyrics;
@@ -165,6 +168,7 @@ class Song {
     }
     this.currentTime = 0;
     this.currentVerse = null;
+    this.sections && this.sections.forEach(s => s.classList.remove("playing"));
     CardFloating._forcedRoyal.value = undefined;
     CardFloating._forcedSuit.value = undefined;
     Song._currentSong.value = null;
@@ -301,22 +305,20 @@ window.visitSong = (key, suit, royals) => {
   setTimeout(() => {
     let song = Song.currentSong;
     const containers = [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)];
-    console.log("Found lyric containers:", containers);
     const lyrics = [];
     song.sections = [];
     containers.forEach(container => {
       container.open && container.open();
       container.parentElement.open && container.parentElement.open();
-      if (container.tagName === "SECTION") song.push(container);
-      else song.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
+      if (container.tagName === "SECTION") song.sections.push(container);
+      else song.sections.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
     });
     song.sections.forEach(section => {
-      section.classList.add("song-section");
+      section.classList.add("lyrics-section", "playing");
       lyrics.push(...section.querySelectorAll(":scope:not([data-prose])>p, :scope:not([data-prose])>ul"));
     });
-    console.log(lyrics);
     song.lyrics = lyrics;
-    if(sections[0]) sections[0].scrollIntoView({
+    if(song.sections[0]) song.sections[0].scrollIntoView({
       behavior: "smooth",
       block: "center"
     });

@@ -183,11 +183,10 @@ audio.playing {
   -o-border-radius: .5rem;
 }
 
-.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter) h2,
-.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter) h3,
-.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter) h4,
-light-box>section:has(a.song.playing) h2,
-light-box>section:has(a.song.playing) a {
+.handSection:not(.shuffle)>.lyrics-section.playing h2,
+.handSection:not(.shuffle)>.lyrics-section.playing h3,
+.handSection:not(.shuffle)>.lyrics-section.playing h4,
+light-box>.lyrics-section.playing a {
   color: var(--light);
 }
 .handSection>section p.lyrics {
@@ -208,8 +207,8 @@ light-box>section:has(a.song.playing) a {
   -o-transition: background 0.3s, box-shadow 0.3s;
 }
 
-.handSection:has(>footer>a.song.playing)>section:not(.accent):not(.link):not(.letter),
-light-box>section:has(a.song.playing) {
+.handSection>.lyrics-section.playing,
+light-box>section:has(>.lyrics-section.playing) {
   background-color: var(--ink);
   color: white;
 }
@@ -225,16 +224,12 @@ light-box>section:has(a.song.playing) {
   box-shadow: 0 0 0.5rem var(--light);
 }
 
-.handSection:has(>footer>a.song.playing)>section h4>span {
+.lyrics-section.playing h4>span {
   text-shadow: 0 0 2px black;
 }
 
-.handSection:has(>footer>a.song.playing)>section p a {
+.lyrics-section.playing p a {
   color: var(--shimmer);
-}
-
-light-box>section:has(a.song.playing) {
-  background-color: var(--ink) !important;
 }
 
 .note.footnote {
@@ -266,8 +261,7 @@ footer.footnote {
     right: 0;
   }
 
-  .handSection>section,
-  light-box>section:has(a.song.playing) {
+  .handSection>section {
     background-color: white;
     box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px var(--ink);
     transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
@@ -350,7 +344,7 @@ footer.footnote {
     padding: 2rem 0.6rem !important;
   }
 
-  .handSection:not(.shuffle)>section:not(.letter):not(.carded) {
+  .handSection:not(.shuffle)>.lyrics-section {
     margin-top: 0;
     margin-bottom: 0;
     border-radius: 0;
@@ -360,37 +354,31 @@ footer.footnote {
     -o-border-radius: 0;
   }
 
-  .handSection:not(.shuffle)>section:not(.letter):not(.carded):first-of-type,
-  section:has(>a.play.song.playing) {
+  .handSection:not(.shuffle)>.lyrics-section.playing:first-of-type  {
     margin-top: 0.2rem !important;
     border-top-left-radius: 0.5rem !important;
     border-top-right-radius: 0.5rem !important;
   }
 
-  .handSection:not(.shuffle)>section:not(.letter):not(.carded):last-of-type {
+  .handSection:not(.shuffle)>.lyrics-section:last-of-type {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
 
-  .handSection:not(.shuffle)>section:last-of-type {
+  .handSection:not(.shuffle)>.lyrics-section:last-of-type {
     margin-bottom: 0.5rem !important;
     padding-bottom: 2rem !important;
   }
 
-  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) {
+ .handSection>.lyrics-section.playing,
+  light-box>section:has(>.lyrics-section.playing) {
     box-shadow: 0 0 2rem var(--light) inset;
   }
 
-  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h2,
-  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h3,
-  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter) h4 {
+  .lyrics-section.playing h2,
+  .lyrics-section.playing h3,
+  .lyrics-section.playing h4 {
     color: var(--light);
-  }
-
-  .handSection:has(>footer>a.song.playing)>section:not(.link):not(.letter),
-  light-box>section:has(a.song.playing) {
-    background-color: var(--ink);
-    color: white;
   }
 
   html[lang="es"] .handSection>section {
@@ -755,23 +743,23 @@ b {
 }
 
 .clubs {
-  color: var(--clubs);
+  color: var(--clubs) !important;
 }
 
 .hearts {
-  color: var(--hearts);
+  color: var(--hearts) !important;
 }
 
 .spades {
-  color: var(--spades);
+  color: var(--spades) !important;
 }
 
 .diamonds {
-  color: var(--diamonds);
+  color: var(--diamonds) !important;
 }
 
 .acorns {
-  color: var(--acorns);
+  color: var(--acorns) !important;
 }
 
 h4>span {
@@ -779,43 +767,47 @@ h4>span {
 }
 
 .horseshoes {
-  color: var(--horseshoes);
+  color: var(--horseshoes) !important;
 }
 
 .shields {
-  color: var(--shields);
+  color: var(--shields) !important;
 }
 
 .torches {
-  color: var(--torches);
+  color: var(--torches) !important;
 }
 
 .anchors {
-  color: var(--anchors);
+  color: var(--anchors) !important;
 }
 
 .shells {
-  color: var(--shells);
+  color: var(--shells) !important;
 }
 
 .icicles {
-  color: var(--icicles);
+  color: var(--icicles) !important;
 }
 
 .bells {
-  color: var(--bells);
+  color: var(--bells) !important;
 }
 
 .land {
-  color: var(--land);
+  color: var(--land) !important;
 }
 
 .sea {
-  color: var(--sea);
+  color: var(--sea) !important;
 }
 
 .fleurs {
-  color: var(--fleurs);
+  color: var(--fleurs) !important;
+}
+
+.road {
+  color: var(--road) !important;
 }
 
 sup {
