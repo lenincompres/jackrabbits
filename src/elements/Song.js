@@ -9,7 +9,7 @@ function goodRound(num) {
 }
 
 class Song {
-  constructor(src, title, callBack = () => null, album = 0) {
+  constructor(src, title, callBack = () => null, album = 0, timeUpdate = () => null) {
     this.callBack = callBack;
     this.src = src;
     this.album = album;
@@ -38,6 +38,7 @@ class Song {
       eventListener: {
         type: "timeupdate",
         listener: () => {
+          timeUpdate(this.currentTime);
           if (!this.lines) return;
           this.currentTime = goodRound(this.audio.currentTime);
           const currentLine = this.lines.findLast(line => this.currentTime >= line.on && this.currentTime <= line.off);
@@ -263,7 +264,7 @@ class Song {
 
   static addSong(model, index, addFooter = true) {
     if (!model || index === undefined) return console.error("Model and index are required to add a song:", model, index);
-    if(!Song.indexes.includes(index)) return console.error("There's no song for this index:", index);
+    if (!Song.indexes.includes(index)) return console.error("There's no song for this index:", index);
     model.dataLyrics = index;
     model.a_button_play_song = Song.indexedList[index].btn;
     // Add footer link to song
@@ -294,19 +295,28 @@ window.visitSong = (key, suit, royals) => {
     CardFloating._forcedRoyal.value = suit;
     suit = undefined;
   }
-  if (typeof royals === "boolean") {
-    CardFloating._forcedRoyal.value = royals;
-  }
+  if (typeof royals === "boolean") CardFloating._forcedRoyal.value = royals;
   CardFloating._forcedSuit.value = suit;
   // Display all pages
   setTimeout(() => {
     let song = Song.currentSong;
-    const container = document.querySelector(`[data-lyrics="${song.index}"]`);
-    if (!container) return;
-    container.open && container.open();
-    container.parentElement.open && container.parentElement.open();
-    song.lyrics = [...container.querySelectorAll(":scope>section:not([data-prose])>p, :scope:not([data-prose])>p, :scope>section:not([data-prose])>ul, :scope:not([data-prose])>ul")];
-    document.querySelector(`section:has(a.play.button.playing)`).scrollIntoView({
+    const containers = [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)];
+    console.log("Found lyric containers:", containers);
+    const lyrics = [];
+    song.sections = [];
+    containers.forEach(container => {
+      container.open && container.open();
+      container.parentElement.open && container.parentElement.open();
+      if (container.tagName === "SECTION") song.push(container);
+      else song.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
+    });
+    song.sections.forEach(section => {
+      section.classList.add("song-section");
+      lyrics.push(...section.querySelectorAll(":scope:not([data-prose])>p, :scope:not([data-prose])>ul"));
+    });
+    console.log(lyrics);
+    song.lyrics = lyrics;
+    if(sections[0]) sections[0].scrollIntoView({
       behavior: "smooth",
       block: "center"
     });

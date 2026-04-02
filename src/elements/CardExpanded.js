@@ -189,12 +189,28 @@ new Song(Copy.text({
   en: "Alliances",
 }), () => visitSong("expansion", CardExpanded.SUIT.A), 1);
 
+//
+let wanderTilesState = 0;
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/85709760-4b40-4c72-9d6e-c03e3d76492c.m4a",
-  en: "https://cdn1.suno.ai/85709760-4b40-4c72-9d6e-c03e3d76492c.m4a",
+  es: "https://cdn1.suno.ai/db8a5641-fe46-443c-91f9-45a23d350a9e.m4a",
+  en: "https://cdn1.suno.ai/db8a5641-fe46-443c-91f9-45a23d350a9e.m4a",
 }), Copy.text({
-  es: "Wanders",
   en: "Andares",
-}), () => visitSong("expansion", CardExpanded.SUIT.W), 1);
+  es: "Wanders",
+}), () => {
+  visitSong("expansion", CardExpanded.SUIT.W);
+  popUp("wanderTiles");
+  setTimeout(() => popUp(), 2000);
+}, currentTime => {
+  if (currentTime < 136) return wanderTilesState = 0;
+  if (currentTime > 136 && currentTime < 198 && wanderTilesState === 0) {
+    popUp("wanderTiles");
+    return wanderTilesState = 1;
+  }
+  if (currentTime > 198 && wanderTilesState === 1) {
+    popUp();
+    return wanderTilesState = 0;
+  }
+});
 
 Song.shuffleRange(Song.List.length - 4);

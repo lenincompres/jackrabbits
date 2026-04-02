@@ -219,36 +219,90 @@ const classicSections = [{
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
     es: [`Missing.`,
-      `<a onclick="popUp('wonderTiles')">sus piezas</a>`,
+      `<a onclick="popUp('wanderTiles')">sus piezas</a>`,
     ],
     en: [
-      `5.5|These eleven cards omitted, 
+      `6|These eleven cards omitted, 
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and bring wander tiles as well.`,
-      `19,63.5,114.5|With three <a onclick="popUp('wander')">wander cards</a> completed,
+      `20,64.5,114.5,199|With three <a onclick="popUp('wander')">wander cards</a> completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
-      `35|Shuffle them into the deck,
+      `36.5|Shuffle them into the deck,
       as you ready up the pile.
       You may draw them as you trek—
       play them in their special style.`,
-      `49.5|Wander cards present a mission,
+      `50.5|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
       keep them laid in front of you.`,
-      `86.5|<a onclick="popUp('wonderTiles')">They have tiles</a> unlike the mountains,
+      `87.5|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
       rivers, woods, caves, taverns, forks:
       a volcano, canyon, garden,
       circus, well, bazaar—the works.`,
-      `100.5|Wander cards may be discarded,
+      `101|Wander cards may be discarded,
       on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
     ],
   })),
 }];
+
+export const wanderTiles = {
+  dataLyrics: 20,
+  id: "wanderTiles",
+  h3: Copy.text({
+    es: "Vías de andares",
+    en: "Wander tiles",
+  }),
+  img: new MediaFigure("roadTiles"),
+  p: versify(Copy.text({
+    es: `Se añaden a las vías carreteras
+        las piezas que reciben los andares.
+        Con una de sus cartas que les dieras,
+        te ofrecen los traslados habituales.
+        Observa que en el pozo, que es su cueva,
+        se ingresa sin la opción de que se sale.
+        Y el trío de romboides se renueva:
+        lo mismo por sus cuatro laterales.`,
+    en: `136|There’s a roadway set to wander,
+        which allows discards on sites.
+        The triangles charge a wander:
+        circus and bazaar sell rides.
+        They’re the same, in case you wonder—
+        just as classics, otherwise.
+        But the well that sends you under,
+        only one way down it slides.
+        And there's three remaining wonders,
+        which are four-way road divides.`,
+  })),
+  ul_bulleted: {
+    li: versify(Copy.text({
+      es: [`El rombo del jardín es transitable:
+          canjea con andares del descarte.`,
+        `El rombo del cañón que te bloquea:
+          un pago con andares lo traviesa.`,
+        `El rombo con el cráter al destierro:
+          descarta y caerás en el subsuelo.`
+      ],
+      en: [`171|Four-way garden: roundabout;
+          one discard retrieves one out.`,
+        `177|Four-way canyon: trailways cross;
+          one discard to pass across.`,
+        `185|Four-way crater: off-board bound;
+          one discard lands underground.`
+      ],
+    })),
+  },
+  p_: versify(Copy.text({
+    es: `Ignora lo que obtengas en los dados.
+        Cancelas con andares en sus pagos.`,
+    en: `192|For their gains, ignore the dice.
+        Wander cards pay any price.`,
+  })),
+};
 
 classicSections.forEach((section, i) => Song.addSong(section, i + 17));
 classicSections.sort((a, b) => Song.indexes.indexOf(a.dataLyrics) - Song.indexes.indexOf(b.dataLyrics));
