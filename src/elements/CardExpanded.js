@@ -189,6 +189,8 @@ new Song(Copy.text({
   en: "Alliances",
 }), () => visitSong("expansion", CardExpanded.SUIT.A), 1);
 
+Song.shuffleRange(Song.List.length - 3);
+
 //
 let wanderTilesUp = false;
 new Song(Copy.text({
@@ -212,5 +214,3 @@ new Song(Copy.text({
     return wanderTilesUp = false;
   }
 });
-
-Song.shuffleRange(Song.List.length - 4);

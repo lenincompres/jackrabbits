@@ -36,7 +36,7 @@ const frontierSections = [{
   })),
   h4_shields_: Copy.text({
     es: "Traslado de Guardia",
-    en: "Transfer the guard",
+    en: "Transfer of the guard",
   }),
   p_: versify(Copy.text({
     es: `La guardia obstaculiza las veredas:
@@ -50,7 +50,7 @@ const frontierSections = [{
     en: `Guards are placed to block the road—
       on a green three-sided tile.
       Pay wherever on the board,
-      and you'll choose their post meanwhile.
+      and assign their post meanwhile.
       If you're there where they're restored,
       you have transferred them with guile:
       hit the tile for a reward—
@@ -203,8 +203,8 @@ const frontierSections = [{
       when thirteen are on the load.`,
   })),
   h4_acorns_: Copy.text({
-    es: "Traslado de la bestia",
-    en: "Transfer the Beast",
+    es: "Traslado para la bestia",
+    en: "Transfer for the Beast",
   }),
   p_: versify(Copy.text({
     es: `La bestia se coloca por sus zonas:
@@ -216,7 +216,7 @@ const frontierSections = [{
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
     en: `Pay wherever you may roam,
-      and select where it is moved.
+      and entice where it is moved.
       Choose a proper kind of zone:
       river, mountain, or the woods.
       Send off-board all those who come,

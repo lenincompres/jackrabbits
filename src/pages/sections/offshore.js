@@ -223,7 +223,7 @@ const offshoreSections = [{
   })),
   h4_icicles_: Copy.text({
     es: "Traslado del vórtice",
-    en: "Transfer the Vortex",
+    en: "Transfer over the Vortex",
   }),
   p_: versify(Copy.text({
     es: `Si pagas dondequiera con carámbanos,
@@ -234,7 +234,7 @@ const offshoreSections = [{
       se van precipitándose al destierro.`,
     en: `Pay from anywhere you please,
       and you may select a hex.
-      Bring the vortex on that piece,
+      Bring the vortex to that piece—
       where it freezes all its guests.
       Any visitor who flees
       goes off-board from its effects.
