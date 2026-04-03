@@ -232,7 +232,7 @@ const classicSections = [{
       y exponen aventuras en sus textos.`,
       `43|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
-      La dejas en tu frente bocarriba 
+      Las dejas en tu frente bocarriba 
       si logras las acciones de sus retos.`,
       `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan, 
       reflejan a las clásicas que tienes; 
