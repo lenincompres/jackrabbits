@@ -228,7 +228,7 @@ const classicSections = [{
       llevándolas en vez de a la nobleza.`,
       `31|Se integran al inicio de la pila, 
       y adquieren normalmente en el proceso. 
-      Te ayudan al hacer tus travesías 
+      Te ofrecen los avances por sus vías 
       y exponen aventuras en sus textos.`,
       `43|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
