@@ -218,29 +218,29 @@ const classicSections = [{
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`Las cartas con andares peritidas
+    es: [`3|Las cartas con andares peritidas
       se añaden con sus once peripecias:
       las metas que varían la partida,
       y el número vías carreteras.`,
-      `Con tres de sus misiones concluidas,
+      `16,56,96,166|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina,
-      sin cartas de los nobles en la meta.`,
-      `Las sumas a la pila en el inicio
-      y adquieres al igual que las de palos.
-      te ayudan en andanzas del camino
-      y exponen descripciones de sus actos.`,
-      `Las cartas con andares que recibas
-      te muestran sus propósitos secretos.
-      Colócalas en frente bocarriba
+      sin que haya que llevar a la nobleza.`,
+      `31|Se integran al inicio de la pila, 
+      y adquieren por igual en el proceso. 
+      Te ayudan al hacer tus travesías 
+      y exponen aventuras en sus textos.`,
+      `43|Las cartas con andares que recibas 
+      te muestran sus propósitos secretos. 
+      La dejas en tu frente bocarriba 
       si logras las acciones de sus retos.`,
-      `<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares especiales
-      reflejan a las clásicas de estas,
-      los rombos y las piezas triangulares,
-      que en muchos de sus usos se asemejan.`,
-      `En estas, tu andares se descartan,
-      pagando las acciones que te ofrecen.
-      Las cartas con andares que descartas
+      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan, 
+      reflejan a las clásicas que tienes; 
+      Sus rombos y sus triángulos destacan, 
+      incluso si en sus usos se asemejen.`,
+      `83.5|En estas, tus andares se descartan, 
+      pagando las acciones que te ofrecen. 
+      Las cartas con andares que descartas 
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
@@ -248,7 +248,7 @@ const classicSections = [{
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and bring wander tiles as well.`,
-      `19,63.5,113.5,198|With three <a onclick="popUp('wander')">wander cards</a> completed,
+      `16,60.5,110.5,195|With three <a onclick="popUp('wander')">wander cards</a> completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
@@ -281,33 +281,36 @@ export const wanderTiles = {
   }),
   img: new MediaFigure("roadTiles"),
   p: versify(Copy.text({
-    es: `Se añaden a las vías carreteras
-        las piezas que reciben los andares.
-        Con una de sus cartas que les dieras,
-        te ofrecen los traslados habituales.
-        Excepto por el pozo, que es su cueva,
-        se ingresa sin la opción de que se sale.
-        Y el trío de romboides se renueva:
-        lo mismo por sus cuatro laterales.`,
+    es: `110|Se añaden a las vías carreteras 
+      las piezas que reciben los andares. 
+      Con una de sus cartas que les dieras, 
+      te ofrecen los traslados habituales. 
+      Excepto por el pozo, que es su cueva, 
+      se ingresa sin la opción de que se sale. 
+      Y el trío de los rombos se renueva: 
+      lo mismo por sus cuatro laterales.`,
     en: `135|There’s a roadway set to wander,
-        which allows discards on sites.
-        The triangles charge a wander:
-        circus and bazaar sell rides.
-        They’re the same, in case you wonder—
-        just as classics, otherwise.
-        But the well that sends you under,
-        only one way down it slides.
-        And there's three remaining wonders,
-        which are four-way road divides.`,
+      which allows discards on sites.
+      The triangles charge a wander:
+      circus and bazaar sell rides.
+      They’re the same, in case you wonder—
+      just as classics, otherwise.
+      But the well that sends you under,
+      only one way down it slides.
+      And there's three remaining wonders,
+      which are four-way road divides.`,
   })),
   ul_bulleted: {
-    dataOn: 170,
+    dataOn: Copy.text({
+      en: "170",
+      es: "138.5",
+    }),
     li: versify(Copy.text({
       es: [`El rombo del jardín, que es transitable,
           canjea con andares del descarte.`,
         `El rombo del cañón que te bloquea,
-          pagando con andares se traviesa.`,
-        `El rombo con el cráter al destierro,
+          pagando con andares se atraviesa.`,
+        `El rombo con el cráter al destierro
           se paga por caer en el subsuelo.`
       ],
       en: [`Four-way garden: roundabout;
@@ -320,10 +323,10 @@ export const wanderTiles = {
     })),
   },
   p_: versify(Copy.text({
-    es: `Ignora a los dados en sus puestos.
-        Un pago con andares es el precio.`,
+    es: `157.5|El cobro se cancela con andares.
+      Cualquiera de sus cartas que depares.`,
     en: `191|For their gains, ignore the dice.
-        Wander cards pay any price.`,
+      Wander cards pay any price.`,
   })),
 };
 

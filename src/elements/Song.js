@@ -4,10 +4,6 @@ import Pager from "../../lib/Pager.js";
 import Card from "./Card.js";
 import CardFloating from "./CardFloating.js";
 
-function goodRound(num) {
-  return Math.round(num * 10) / 10;
-}
-
 class Song {
   constructor(src, title, callBack = () => null, album = 0, timeUpdate = () => null) {
     this.callBack = callBack;
@@ -40,7 +36,7 @@ class Song {
         listener: () => {
           timeUpdate(this.currentTime);
           if (!this.lines) return;
-          this.currentTime = goodRound(this.audio.currentTime);
+          this.currentTime = Song.round(this.audio.currentTime);
           const currentLine = this.lines.findLast(line => this.currentTime >= line.on && this.currentTime <= line.off);
           if (currentLine && this.currentVerse !== currentLine.p) {
             this.currentVerse = currentLine.p;
@@ -79,7 +75,7 @@ class Song {
       if (e.code === "Space") {
         e.stopPropagation();
         e.preventDefault(); // prevents page from scrolling 
-        console.log(goodRound(this.audio.currentTime));
+        console.log(Song.round(this.audio.currentTime));
       }
     });
 
@@ -93,7 +89,7 @@ class Song {
     let setLines = [];
     let startTime = 3;
     verses.forEach((verse, i) => {
-      if (!i && verse.dataset.on) startTime = goodRound(verse.dataset.on);
+      if (!i && verse.dataset.on) startTime = Song.round(verse.dataset.on);
       let spanCount = verse.querySelectorAll("span").length;
       let obj = {
         p: verse,
@@ -101,23 +97,23 @@ class Song {
       };
       if (verse.dataset.on) return verse.dataset.on.split(",").forEach(on => {
         let chobj = Object.assign({}, obj);
-        chobj.on = goodRound(on);
+        chobj.on = Song.round(on);
         this.lines.push(chobj);
         setLines.push(chobj);
       });
       this.lines.push(obj);
     });
     let totalSpan = this.lines.reduce((total, line) => total + (line.spanCount || 1), 0);
-    let span = goodRound((this.audio.duration - startTime) / totalSpan);
+    let span = Song.round((this.audio.duration - startTime) / totalSpan);
     let time = startTime;
-    setLines.forEach(line => line.off = goodRound(line.dataset && line.dataset.off ? line.dataset.off : (line.on + span * line.spanCount)));
+    setLines.forEach(line => line.off = Song.round(line.dataset && line.dataset.off ? line.dataset.off : (line.on + span * line.spanCount)));
     this.lines.sort((a, b) => a.off - b.off);
     this.lines.forEach((line, i) => {
       if (line.off) return;
       let setLine = setLines.findLast(line => time + span > line.on && time < line.off);
       if (setLine) time = setLine.off;
       if (line.on === undefined) line.on = time;
-      line.off = goodRound(line.on + span * line.spanCount);
+      line.off = Song.round(line.on + span * line.spanCount);
       time = line.off;
       setLines.push(line);
     });
@@ -133,7 +129,7 @@ class Song {
         this.audio.currentTime = line.on;
       }
     }));
-    verses.sort((a, b) => goodRound(a.dataset.on) - goodRound(b.dataset.on));
+    verses.sort((a, b) => Song.round(a.dataset.on) - Song.round(b.dataset.on));
     this._lyrics = verses;
   }
   get lyrics() {
@@ -281,6 +277,10 @@ class Song {
       };
     }
     model.div_note_footnote = fn;
+  }
+
+  static round(num) {
+    return Math.round(num * 10) / 10;
   }
 
 }

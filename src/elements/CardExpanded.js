@@ -194,7 +194,7 @@ Song.shuffleRange(Song.List.length - 3);
 //
 let wanderTilesUp = false;
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/bd2e4811-47dd-4583-8a69-0cad158de5e6.m4a",
+  es: "https://cdn1.suno.ai/368bcaf8-4bd0-4e5f-b1b8-c815694c8859.m4a",
   en: "https://cdn1.suno.ai/bd2e4811-47dd-4583-8a69-0cad158de5e6.m4a",
 }), Copy.text({
   es: "Andares",
@@ -204,12 +204,20 @@ new Song(Copy.text({
   popUp("wanderTiles");
   setTimeout(() => popUp(), 1);
 }, 1, currentTime => {
-  if (currentTime < 136 && wanderTilesUp) return wanderTilesUp = false;
-  if (currentTime > 136 && currentTime < 198 && !wanderTilesUp) {
+  let bridge = Song.round(Copy.text({
+    es: "110",
+    en: "136",
+  }));
+  let outro = Song.round(Copy.text({
+    es: "166",
+    en: "198",
+  }));
+  if (currentTime < bridge && wanderTilesUp) return wanderTilesUp = false;
+  if (currentTime > bridge && currentTime < 198 && !wanderTilesUp) {
     popUp("wanderTiles");
     return wanderTilesUp = true;
   }
-  if (currentTime > 198 && wanderTilesUp) {
+  if (currentTime > outro && wanderTilesUp) {
     popUp();
     return wanderTilesUp = false;
   }
