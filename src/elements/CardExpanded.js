@@ -205,12 +205,12 @@ new Song(Copy.text({
   setTimeout(() => popUp(), 1);
 }, 1, currentTime => {
   let bridge = Song.round(Copy.text({
-    es: "114",
-    en: "135.5",
+    es: "112",
+    en: "130",
   }));
   let outro = Song.round(Copy.text({
-    es: "176",
-    en: "197",
+    es: "170",
+    en: "192",
   }));
   if (currentTime < bridge && wanderTilesUp || currentTime > outro && wanderTilesUp){
     popUp();
