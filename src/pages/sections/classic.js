@@ -310,8 +310,8 @@ export const wanderTiles = {
           canjea con andares del descarte.`,
         `El rombo del cañón que te bloquea,
           pagando con andares se atraviesa.`,
-        `El rombo con el cráter al destierro
-          se paga por caer en el subsuelo.`
+        `El rombo con el cráter al destierro, 
+          lo pagas por caer en el subsuelo.`
       ],
       en: [`Four-way garden: roundabout;
           one discard retrieves one out.`,
