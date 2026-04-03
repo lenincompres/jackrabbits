@@ -216,7 +216,7 @@ new Song(Copy.text({
     popUp();
     return wanderTilesUp = false;
   } 
-  if (currentTime > bridge && currentTime < 198 && !wanderTilesUp) {
+  if (currentTime > bridge && currentTime < outro && !wanderTilesUp) {
     popUp("wanderTiles");
     return wanderTilesUp = true;
   }
