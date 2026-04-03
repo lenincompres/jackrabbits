@@ -218,53 +218,53 @@ const classicSections = [{
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`3|Las cartas con andares permitidas
+    es: [`3.5|Las cartas con andares permitidas
       se añaden con sus once peripecias:
       las metas que varían la partida,
       y agregan carreteras a las piezas.`,
-      `16,56,96,166|Con tres de sus misiones concluidas,
+      `16.5,58,99.5,176|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina
       llevándolas en vez de a la nobleza.`,
-      `31|Se integran al inicio de la pila, 
+      `31.5|Se integran al inicio de la pila, 
       y adquieren normalmente en el proceso. 
       Te ofrecen los avances por sus vías 
       y exponen aventuras en sus textos.`,
-      `43|Las cartas con andares que recibas 
+      `44.5|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
       Las dejas en tu frente bocarriba 
       si logras las acciones de sus retos.`,
-      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan, 
+      `73|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan, 
       reflejan a las clásicas que tienes; 
       Sus rombos y sus triángulos destacan, 
       incluso si sus usos se parecen.`,
-      `83.5|En estas, tus andares se descartan, 
+      `86.5|En estas, tus andares se descartan, 
       pagando las acciones que te ofrecen. 
       Las cartas con andares que descartas 
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
-      `5|These eleven cards omitted, 
+      `7|These eleven cards omitted, 
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and bring wander tiles as well.`,
-      `16,60.5,110.5,195|With three wander cards completed,
+      `20.5,64,114,197|With three wander cards completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
-      `35.5|Shuffle them into the deck,
+      `36.5|Shuffle them into the deck,
       as you ready up the pile.
       You may draw them as you trek—
       play them in their special style.`,
-      `49.5|Wander cards present a mission,
+      `50|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
       keep them laid in front of you.`,
-      `86.5|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
+      `87|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
       rivers, woods, caves, taverns, forks:
       a volcano, canyon, garden,
       circus, well, bazaar—the works.`,
-      `100|Wander cards may be discarded,
+      `101|Wander cards may be discarded,
       on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
@@ -281,7 +281,7 @@ export const wanderTiles = {
   }),
   img: new MediaFigure("roadTiles"),
   p: versify(Copy.text({
-    es: `110|Se añaden a las vías carreteras 
+    es: `114|Se añaden a las vías carreteras 
       las piezas que permiten los andares. 
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
@@ -289,7 +289,7 @@ export const wanderTiles = {
       se ingresa sin la opción de que se sale. 
       Y el trío de los rombos se renueva: 
       lo mismo por sus cuatro laterales.`,
-    en: `135|There’s a roadway set to wander,
+    en: `135.5|There’s a roadway set to wander,
       which allows discards on sites.
       The triangles charge a wander:
       circus and bazaar sell rides.
@@ -302,8 +302,8 @@ export const wanderTiles = {
   })),
   ul_bulleted: {
     dataOn: Copy.text({
-      en: "170",
-      es: "138.5",
+      es: "143",
+      en: "170.5",
     }),
     li: versify(Copy.text({
       es: [`El rombo del jardín, que es transitable,
@@ -314,7 +314,7 @@ export const wanderTiles = {
           lo pagas por caer en el subsuelo.`
       ],
       en: [`Four-way garden: roundabout;
-          one discard retrieves one out.`,
+          one discard retrieves one out.`, 
         `Four-way canyon: trailways cross;
           one discard to pass across.`,
         `Four-way crater: off-board bound;
@@ -323,7 +323,7 @@ export const wanderTiles = {
     })),
   },
   p_: versify(Copy.text({
-    es: `157.5|El cobro se cancela con andares.
+    es: `163|El cobro se cancela con andares.
       Cualquiera de sus cartas que depares.`,
     en: `191|For their gains, ignore the dice.
       Wander cards pay any price.`,
