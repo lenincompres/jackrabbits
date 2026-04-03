@@ -98,7 +98,7 @@ const expansionPage = {
         en: `Each includes unique conditions;
           pieces, tokens, cards or missions.`,
         es: `Incluyen diferentes condiciones;
-          ya sea en sus piezas o misiones.`,
+          ya sea con sus piezas o misiones.`,
       })),
     },
     section: classicSections,
