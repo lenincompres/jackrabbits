@@ -194,7 +194,7 @@ Song.shuffleRange(Song.List.length - 3);
 //
 let wanderTilesUp = false;
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/cf656073-a69b-402b-ae57-7febd714823a.m4a",
+  es: "https://cdn1.suno.ai/efd78669-19ef-4f01-a7bc-cf220c9cabec.m4a",
   en: "https://cdn1.suno.ai/bd2e4811-47dd-4583-8a69-0cad158de5e6.m4a",
 }), Copy.text({
   es: "Andares",
