@@ -282,7 +282,7 @@ export const wanderTiles = {
   img: new MediaFigure("roadTiles"),
   p: versify(Copy.text({
     es: `110|Se añaden a las vías carreteras 
-      las piezas que reciben los andares. 
+      las piezas que permiten los andares. 
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
       Excepto por el pozo, que es su cueva, 
