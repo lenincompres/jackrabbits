@@ -12,7 +12,7 @@ export const suitStyle = (suit) => ({
   transition: "0.2s ease-in-out",
   backgroundColor: CardFloating._forcedSuit.as(val => bkColor(val, suit)),
   color: CardFloating._forcedSuit.as(val => txColor(val, suit)),
-  boxShadow: CardFloating._forcedSuit.as(val => val != suit ? `0 0 2.5rem var(--${suit.symbol !== "road"? suit.symbol : "dark"}) inset, 1px 1px 3px black` : ''),
+  boxShadow: CardFloating._forcedSuit.as(val => val != suit ? `0 0 2.5rem var(--${suit.symbol}) inset, 1px 1px 3px black` : ''),
 });
 
 export const shadeSongButton = () => {

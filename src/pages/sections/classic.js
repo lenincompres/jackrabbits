@@ -212,16 +212,16 @@ const classicSections = [{
   },
 }, {
   style: suitStyle(CardExpanded.SUIT.W),
-  h3: Copy.text({
+  h3_port: Copy.text({
     es: "+ Andares",
     en: "+ Wanders",
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`3|Las cartas con andares peritidas
+    es: [`3|Las cartas con andares permitidas
       se añaden con sus once peripecias:
-      las metas que varían la partida,
-      y el número vías carreteras.`,
+      las metas te varían la partida,
+      y el número de vías carreteras.`,
       `16,56,96,166|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina,

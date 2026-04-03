@@ -86,8 +86,8 @@ export class CardExpanded extends Card {
       color: "#016994",
     },
     W: {
-      symbol: "road",
-      color: "lightgoldenrodyellow",
+      symbol: "port",
+      color: "#96967b",
     }
   }, Card.SUIT);
 }
@@ -194,7 +194,7 @@ Song.shuffleRange(Song.List.length - 3);
 //
 let wanderTilesUp = false;
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/368bcaf8-4bd0-4e5f-b1b8-c815694c8859.m4a",
+  es: "https://cdn1.suno.ai/cf656073-a69b-402b-ae57-7febd714823a.m4a",
   en: "https://cdn1.suno.ai/bd2e4811-47dd-4583-8a69-0cad158de5e6.m4a",
 }), Copy.text({
   es: "Andares",

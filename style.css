@@ -26,6 +26,7 @@
   --land: #228B22;
   --sea: #016994;
   --road: lightgoldenrodyellow;
+  --port: #96967b;
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -806,8 +807,8 @@ h4>span {
   color: var(--fleurs) !important;
 }
 
-.road {
-  color: var(--road) !important;
+.port {
+  color: var(--port) !important;
 }
 
 sup {
