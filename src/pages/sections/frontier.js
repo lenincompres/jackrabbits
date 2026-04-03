@@ -19,7 +19,7 @@ const frontierSections = [{
     en: "Seal the hexes",
   }),
   p: versify(Copy.text({
-    es: `Si muestras en la mesa tus escudos, 
+    es: `12|Si muestras en la mesa tus escudos, 
       clausuras el lugar en el que esperas.
       Y solo los descarta con los suyos 
       quienquiera que te invada y los supera.
@@ -39,7 +39,7 @@ const frontierSections = [{
     en: "Transfer of the guard",
   }),
   p_: versify(Copy.text({
-    es: `La guardia obstaculiza las veredas:
+    es: `49|La guardia obstaculiza las veredas:
       propicia la clausura de los triángulos.
       Si pagas con escudos dondequiera,
       se pasa a la vereda de tu agrado.
@@ -89,7 +89,7 @@ const frontierSections = [{
     en: "Scatter with fire",
   }),
   p: versify(Copy.text({
-    es: `Descarta las antorchas que prefieras
+    es: `14|Descarta las antorchas que prefieras
       y aléjate del caos que provocas.
       Primero tu conejo se destierra,
       llevándose a los otros de la zona.
@@ -109,7 +109,7 @@ const frontierSections = [{
     en: "Transfers Underground",
   }),
   p_: versify(Copy.text({
-    es: `El túnel cavernoso con el fuego
+    es: `50|El túnel cavernoso con el fuego
         se ubica en el subsuelo por un lado.
         Si pagas al entrar en el subsuelo,
         podrás atraversarlo sin descanso.
@@ -138,7 +138,7 @@ const frontierSections = [{
     en: "Haggle underground",
   }),
   p: versify(Copy.text({
-    es: `La plaza clandestina que es oscura
+    es: `11|La plaza clandestina que es oscura
       se instala en el subsuelo por un lado.
       Permite comerciar con herraduras,
       brindándole al subsuelo su mercado,
@@ -158,7 +158,7 @@ const frontierSections = [{
     en: "Transfer on a Bronco",
   }),
   p_: versify(Copy.text({
-    es: `Si pagas por llamar a sus caballos,
+    es: `43|Si pagas por llamar a sus caballos,
       en islas con las casas de herradura,
       saliendo de las casas de su palo
       cabalgan por los montes y llanuras.
@@ -187,7 +187,7 @@ const frontierSections = [{
     en: "Load the dice",
   }),
   p: versify(Copy.text({
-    es: `Si dejas tus bellotas en la mesa,
+    es: `13|Si dejas tus bellotas en la mesa,
       se añaden a la <i>pila sobrecargo</i>:
       su número de puntos, que incrementa,
       se suma al resultado de los dados.
@@ -207,7 +207,7 @@ const frontierSections = [{
     en: "Transfer for the Beast",
   }),
   p_: versify(Copy.text({
-    es: `La bestia se coloca por sus zonas:
+    es: `41.5|La bestia se coloca por sus zonas:
       los ríos, las montañas o los bosques.
       En estas te destierra si te asomas,
       a menos de que pagues su transporte.

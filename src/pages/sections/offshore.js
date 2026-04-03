@@ -14,12 +14,12 @@ const offshoreSections = [{
     en: "Bells",
   }),
   img: new MediaFigure("bells"),
-  h4_bells: Copy.text({
+  /*h4_bells: Copy.text({
     es: "Implorar por cartas",
     en: "Implore for cards",
   }),
   p: versify(Copy.text({
-    es: `Si imploras, con un <i>duelo</i> de campanas,
+    es: `12.5|Si imploras, con un <i>duelo</i> de campanas,
       afectas al hexágono completo:
       te entregan la que elijan de sus cartas
       sin que haya que salirse del tablero.
@@ -33,13 +33,13 @@ const offshoreSections = [{
       gifts to you a card they hoard,
       or contend and add their bells—
       if they win, your plea's ignored.`,
-  })),
+  })),*/
   h4_bells: Copy.text({
     es: "Poner cartas en la mesa",
     en: "Put cards on the table",
   }),
   p: versify(Copy.text({
-    es: `Separa bocabajo tus campanas,
+    es: `12.5|Separa bocabajo tus campanas,
       ni juegan de tu mano ni se cuentan. 
       Quienquiera que sospeche las que guardas,
       que pida revisarlas si te encuentra.
@@ -79,7 +79,7 @@ const offshoreSections = [{
       bells may cast no plea or trial.`,
   })),*/
   p_: versify(Copy.text({
-    es: `Si pagas dondequiera con campanas,
+    es: `56|Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
       Incluso del destierro se trasladan,
       tan solo se prohíbe en el subsuelo.
@@ -106,7 +106,7 @@ const offshoreSections = [{
     en: "Weigh Nobles Down",
   }),
   p: versify(Copy.text({
-    es: `Es válido, con una de tus anclas,
+    es: `12.5|Es válido, con una de tus anclas,
       usarla al visitar a la nobleza.
       Poniéndola debajo de su carta,
       la sumas al valor con que se adquiera.
@@ -128,7 +128,7 @@ const offshoreSections = [{
     en: "Transfer by Sailboat",
   }),
   p_: versify(Copy.text({
-    es: `Si abordas por la vía del velero, 
+    es: `41|Si abordas por la vía del velero, 
       navégalo sin costo y libremente.
       Si pagas a la orilla del tablero, 
       lo mueves al que quieras de sus muelles;
@@ -155,7 +155,7 @@ const offshoreSections = [{
     en: "Cast to the deep",
   }),
   p: versify(Copy.text({
-    es: `La gruta coralina de la costa
+    es: `13|La gruta coralina de la costa
       se extiende del subsuelo en sus orillas.
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
@@ -177,7 +177,7 @@ const offshoreSections = [{
     en: "Transfer from the Sea",
   }),
   p_: versify(Copy.text({
-    es: `En turnos en que sales al destierro,
+    es: `41.5|En turnos en que sales al destierro,
       si pagas con tus conchas en el mar,
       trasládate a su islote en el momento:
       su torre que se encuentra en altamar.
@@ -204,7 +204,7 @@ const offshoreSections = [{
     en: "Tip the Iceberg",
   }),
   p: versify(Copy.text({
-    es: `Conectas a su témpano glaciar,
+    es: `11|Conectas a su témpano glaciar,
       la torre que en las aguas se desliza,
       si muestras un carámbano al lanzar
       en donde tratarás la lotería.
@@ -226,7 +226,7 @@ const offshoreSections = [{
     en: "Transfer over the Vortex",
   }),
   p_: versify(Copy.text({
-    es: `Si pagas dondequiera con carámbanos,
+    es: `56|Si pagas dondequiera con carámbanos,
       al vórtice le das un paradero.
       Retén sus visitantes, congelándolo;
       mas esto es imposible en el subsuelo.

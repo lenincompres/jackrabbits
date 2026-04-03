@@ -16,15 +16,15 @@ const classicSections = [{
   img: new MediaFigure("fleurs"),
   p: versify(Copy.text({
     es: [
-      `Las flores se usarán en los traslados
+      `4.5|Las flores se usarán en los traslados
       y nunca al adquirir a la nobleza.
       Suplantan a los palos de los clásicos,
       excepto en el poder de su estrategia.
       Las usas en el pago de los triángulos,
       y en rombos al cambiar de carretera.`,
-      `Añades un conejo con sus piezas;
+      `29,74.5,119.5|Añades un conejo con sus piezas;
       y flores sin sus nobles a la mesa.`,
-      `En parques con caminos paralelos,
+      `50|En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
       los pagas por cruzar en el momento, 
       o acampas y te ahorras el traslado.
@@ -68,7 +68,7 @@ const classicSections = [{
     en: "Transfer the Wolf",
   }),
   p_: versify(Copy.text({
-    es: `Si pagas a la fiera o sus lobeznos,
+    es: `95|Si pagas a la fiera o sus lobeznos,
       la envías a un conejo en un paraje.
       Trasládala por tierra y por subsuelo,
       y elige si con ella trasladarte.
@@ -89,19 +89,19 @@ const classicSections = [{
   }),
   //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
-    es: [`Las nuevas estaciones de jinetes 
+    es: [`2|Las nuevas estaciones de jinetes 
       se añaden a las casas de los palos. 
       Las cuatro se vinculan por sus rieles
       y tienen carreteras con caballos.`,
-      `Es gratis desplazarte con sus trenes,
+      `15.5|Es gratis desplazarte con sus trenes,
       que cruzan el subsuelo de inmediato.
       Procura, en el diseño de sus rieles,
       que no halla un eslabón desconectado.`,
-      `Las cartas de sus nobles las adquieres,
+      `29|Las cartas de sus nobles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con sus corceles,
       y nunca al reclamar la Ciudadela.`,
-      `En todos sus caminos de corceles,
+      `43|En todos sus caminos de corceles,
       si muestras a su noble de tu mano,
       cabalgas a la pieza que prefieres,
       tal como de los cruces de traslado.`,
@@ -152,19 +152,20 @@ const classicSections = [{
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`Los seis ayuntamientos y sus nobles
+    es: [
+      `4|Los seis ayuntamientos y sus nobles
       combinan a los palos iniciales.
       Y dos de los conejos jugadores
       permiten añadir participantes.`,
-      `Los símbolos de alianzas que visitas,
+      `24|Los símbolos de alianzas que visitas,
       se deben combinar al adquirirlas.
       Un trío es del sector capitalista;
       y el otro, de la unión naturalista.`,
-      `Las casas te permiten trasladarte
+      `43.5|Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
       El vuelo de sus torres, si hay restante,
       se paga con cualquiera de sus palos.`,
-      `La Jota del sector capitalista
+      `64|La Jota del sector capitalista
       te vende lo que quieras por diamantes.
       En la otra te reponen, de la pila,
       las cartas de tu mano que descartes.`,
