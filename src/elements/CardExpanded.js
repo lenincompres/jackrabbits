@@ -212,7 +212,10 @@ new Song(Copy.text({
     es: "166",
     en: "198",
   }));
-  if (currentTime < bridge && wanderTilesUp) return wanderTilesUp = false;
+  if (currentTime < bridge && wanderTilesUp){
+    popUp();
+    return wanderTilesUp = false;
+  } 
   if (currentTime > bridge && currentTime < 198 && !wanderTilesUp) {
     popUp("wanderTiles");
     return wanderTilesUp = true;
