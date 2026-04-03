@@ -248,7 +248,7 @@ const classicSections = [{
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and bring wander tiles as well.`,
-      `16,60.5,110.5,195|With three <a onclick="popUp('wander')">wander cards</a> completed,
+      `16,60.5,110.5,195|With three wander cards completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
