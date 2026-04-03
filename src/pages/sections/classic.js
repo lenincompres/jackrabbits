@@ -237,7 +237,7 @@ const classicSections = [{
       `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan, 
       reflejan a las clásicas que tienes; 
       Sus rombos y sus triángulos destacan, 
-      incluso si en sus usos se asemejen.`,
+      incluso si sus usos se parecen.`,
       `83.5|En estas, tus andares se descartan, 
       pagando las acciones que te ofrecen. 
       Las cartas con andares que descartas 
