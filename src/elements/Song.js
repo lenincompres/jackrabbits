@@ -283,45 +283,35 @@ class Song {
     return Math.round(num * 10) / 10;
   }
 
+  static visitPage = (key, suit, royals) => {
+    LightBox.close();
+    Pager.key = key;
+    CardFloating.force(suit, royals);
+    setTimeout(() => {
+      let song = Song.currentSong;
+      const lyrics = [];
+      song.sections = [];
+      [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)].forEach(container => {
+        container.open && container.open();
+        container.parentElement.open && container.parentElement.open();
+        if (container.tagName === "SECTION") song.sections.push(container);
+        else song.sections.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
+      });
+      song.sections.forEach(section => {
+        section.classList.add("lyrics-section", "playing");
+        lyrics.push(...section.querySelectorAll(":scope:not([data-prose])>p, :scope:not([data-prose])>ul"));
+      });
+      song.lyrics = lyrics;
+      if (song.sections[0]) song.sections[0].scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+    }, 300);
+  }
+
 }
 
 export default Song;
-
-window.visitSong = (key, suit, royals) => {
-  LightBox.close();
-  if (Pager.key != key) Pager.key = key;
-  // Handle forced suit or royal
-  CardFloating._forcedRoyal.value = undefined;
-  if (typeof suit === "boolean") {
-    // if boolean, it's for royal
-    CardFloating._forcedRoyal.value = suit;
-    suit = undefined;
-  }
-  if (typeof royals === "boolean") CardFloating._forcedRoyal.value = royals;
-  CardFloating._forcedSuit.value = suit;
-  // Display all pages
-  setTimeout(() => {
-    let song = Song.currentSong;
-    const containers = [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)];
-    const lyrics = [];
-    song.sections = [];
-    containers.forEach(container => {
-      container.open && container.open();
-      container.parentElement.open && container.parentElement.open();
-      if (container.tagName === "SECTION") song.sections.push(container);
-      else song.sections.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
-    });
-    song.sections.forEach(section => {
-      section.classList.add("lyrics-section", "playing");
-      lyrics.push(...section.querySelectorAll(":scope:not([data-prose])>p, :scope:not([data-prose])>ul"));
-    });
-    song.lyrics = lyrics;
-    if(song.sections[0]) song.sections[0].scrollIntoView({
-      behavior: "smooth",
-      block: "center"
-    });
-  }, 300);
-}
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/111e9a22-49c4-4da7-b351-ac38ebe1f17d.m4a",
@@ -329,7 +319,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Finales posibles",
   en: "The Royal Quest",
-}), () => visitSong("home", true));
+}), () => Song.visitPage("home", true));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5e831d1b-2fd9-4aed-8e34-32fcb87020bc.m4a",
@@ -337,7 +327,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "La partida",
   en: "Setty-Up",
-}), () => visitSong("setup"));
+}), () => Song.visitPage("setup"));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/62744824-9f19-47c0-b03d-bb7f99014097.m4a",
@@ -345,7 +335,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Turno en cuatro fases",
   en: "Four Phases of a Turn",
-}), () => visitSong("intro"));
+}), () => Song.visitPage("intro"));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/7a1fb96b-47d6-4d5b-befd-05dbde17885d.m4a",
@@ -353,7 +343,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Trucos del camino",
   en: "Off the Road",
-}), () => visitSong("intro"));
+}), () => Song.visitPage("intro"));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/081fd690-7921-4708-b622-fbd5937af524.m4a",
@@ -361,7 +351,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Diamantes",
   en: "Diamonds",
-}), () => visitSong("full", Card.SUIT.D));
+}), () => Song.visitPage("full", Card.SUIT.D));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/95fe3886-701d-4a9d-a1ac-fbae1ba1771d.m4a",
@@ -369,7 +359,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Corazones",
   en: "Hearts",
-}), () => visitSong("full", Card.SUIT.H));
+}), () => Song.visitPage("full", Card.SUIT.H));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/1a660e8e-9873-4df7-812b-e24b6a86b121.m4a",
@@ -377,7 +367,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Tréboles",
   en: "Clovers",
-}), () => visitSong("full", Card.SUIT.C));
+}), () => Song.visitPage("full", Card.SUIT.C));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a001b846-4892-4afb-ae36-1c4475ca1a29.m4a",
@@ -385,7 +375,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Picas",
   en: "Spades",
-}), () => visitSong("full", Card.SUIT.S));
+}), () => Song.visitPage("full", Card.SUIT.S));
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/431e56ce-59e9-4f05-a3a1-99e79c18f908.m4a",
@@ -394,7 +384,7 @@ new Song(Copy.text({
   es: "Un nuevo territorio",
   en: "A New Landscape",
 }), () => {
-  visitSong("setup");
+  Song.visitPage("setup");
   popUp("board");
 });
 

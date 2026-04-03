@@ -252,6 +252,16 @@ class CardFloating extends Card {
       })),
     });
   }
+
+  static force(suit, royals){
+    CardFloating._forcedRoyal.value = undefined;
+    if (typeof suit === "boolean") {
+      CardFloating._forcedRoyal.value = suit;
+      suit = undefined;
+    }
+    if (typeof royals === "boolean") CardFloating._forcedRoyal.value = royals;
+    CardFloating._forcedSuit.value = suit;
+  }
 }
 
 customElements.define("jk-card-float", CardFloating);

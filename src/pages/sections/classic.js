@@ -63,7 +63,7 @@ const classicSections = [{
       */
     ]
   })),
-  h4_fleurs_: Copy.text({
+  h4_fleurs: Copy.text({
     es: "Traslado del la Fiera",
     en: "Transfer the Wolf",
   }),
@@ -189,7 +189,7 @@ const classicSections = [{
   })),
   div_note_footnote: {
     background: "var(--sea) !important",
-    p_: versify(Copy.text({
+    p: versify(Copy.text({
       es: `Respétales el puerto en sus hexágonos;
         se deben mantener desconectados.`,
       en: `Hexes have a sea-blue side.
@@ -199,7 +199,7 @@ const classicSections = [{
       es: "+ Comodín cañonero",
       en: "+ Cannonball Joker",
     }),
-    p: versify(Copy.text({
+    p_: versify(Copy.text({
       es: `El joker cañonero se te suma,
       te lanza a la taverna que prefieras.
       Su forma de volar es muy segura,

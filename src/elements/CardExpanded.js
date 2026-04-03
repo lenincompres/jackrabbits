@@ -102,7 +102,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Escudos",
   en: "Sheilds",
-}), () => visitSong("expansion", CardExpanded.SUIT.FS, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.FS, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/dcbcb4e6-42e9-488e-a44d-f152c67a78c2.m4a",
@@ -110,7 +110,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Antorchas",
   en: "Torches", // test 
-}), () => visitSong("expansion", CardExpanded.SUIT.FT, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.FT, false), 1);
 
 
 new Song(Copy.text({
@@ -119,7 +119,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Herraduras",
   en: "Horseshoes",
-}), () => visitSong("expansion", CardExpanded.SUIT.FH, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.FH, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/3a272e14-2945-443d-9385-1871a4efbe45.m4a",
@@ -127,7 +127,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
-}), () => visitSong("expansion", CardExpanded.SUIT.FA, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.FA, false), 1);
 
 Song.shuffleRange(Song.List.length - 4);
 
@@ -137,7 +137,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
-}), () => visitSong("expansion", CardExpanded.SUIT.NB, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.NB, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/3223e8c3-f7ff-4cf5-b551-cc41b8697069.m4a",
@@ -145,7 +145,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
-}), () => visitSong("expansion", CardExpanded.SUIT.NA, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.NA, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
@@ -153,7 +153,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
-}), () => visitSong("expansion", CardExpanded.SUIT.NS, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.NS, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/e516d762-7f7a-466c-9aa1-b9420d70af79.m4a",
@@ -161,7 +161,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Carámbanos",
   en: "Icicles",
-}), () => visitSong("expansion", CardExpanded.SUIT.NI, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.NI, false), 1);
 
 Song.shuffleRange(Song.List.length - 4);
 
@@ -171,7 +171,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Flores",
   en: "Fleurs",
-}), () => visitSong("expansion", CardExpanded.SUIT.F, false), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/2e8f4fde-356a-4978-a43e-64012fe03bda.m4a",
@@ -179,7 +179,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Corceles",
   en: "Cavaliers",
-}), () => visitSong("expansion", CardExpanded.SUIT.T), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/34237312-db2d-4b12-9db6-08cd724ae40d.m4a",
@@ -187,7 +187,7 @@ new Song(Copy.text({
 }), Copy.text({
   es: "Alianzas",
   en: "Alliances",
-}), () => visitSong("expansion", CardExpanded.SUIT.A), 1);
+}), () => Song.visitPage("expansion", CardExpanded.SUIT.A), 1);
 
 Song.shuffleRange(Song.List.length - 3);
 
@@ -200,7 +200,7 @@ new Song(Copy.text({
   es: "Andares",
   en: "Wanders",
 }), () => {
-  visitSong("expansion", CardExpanded.SUIT.W);
+  Song.visitPage("expansion", CardExpanded.SUIT.W);
   popUp("wanderTiles");
   setTimeout(() => popUp(), 1);
 }, 1, currentTime => {
