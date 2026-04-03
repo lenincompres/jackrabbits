@@ -220,12 +220,12 @@ const classicSections = [{
   p: versify(Copy.text({
     es: [`3|Las cartas con andares permitidas
       se añaden con sus once peripecias:
-      las metas te varían la partida,
+      las metas que varían la partida,
       y el número de vías carreteras.`,
       `16,56,96,166|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
-      y el juego de inmediato se termina,
-      sin que haya que llevar a la nobleza.`,
+      y el juego de inmediato se termina
+      llevándolas en vez de a la nobleza.`,
       `31|Se integran al inicio de la pila, 
       y adquieren por igual en el proceso. 
       Te ayudan al hacer tus travesías 
