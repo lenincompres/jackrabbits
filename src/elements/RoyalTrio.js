@@ -85,8 +85,8 @@ export class RoyalTrio extends HTMLElement {
             return "#333";
           }),
           small: this._state.as(s => {
-            if (s > 3) return this.suits[0].symbol;
-            if ([1, 3].includes(s)) return this.suits[0].symbol;
+            if (s > 3) return `<b class='icon-${this.suits[0].name}'></b>`;
+            if ([1, 3].includes(s)) return `<b class='icon-${this.suits[0].name}'></b>`;
             return "";
           }),
           b: {
@@ -101,7 +101,7 @@ export class RoyalTrio extends HTMLElement {
   static SUITS = [{
       name: "clubs",
       color: "var(--clubs)",
-      symbol: "♣",
+      symbol: "<b class='icon-horseshoes'></b>",
     },
     {
       name: "hearts",

@@ -3,8 +3,10 @@
 
 @font-face {
   font-family: "jack-rabbits";
-  src: url("assets/jack-rabbits.eot");
-  src: url("assets/jack-rabbits.eot?#iefix") format("embedded-opentype"), url("assets/jack-rabbits.woff") format("woff"), url("assets/jack-rabbits.ttf") format("truetype"), url("assets/jack-rabbits.svg#jack-rabbits") format("svg");
+  /*src: url("assets/jack-rabbits.eot");
+  src: url("assets/jack-rabbits.eot?#iefix") format("embedded-opentype"), url("assets/jack-rabbits.woff") format("woff"), url("assets/jack-rabbits.ttf")
+  format("truetype"), url("assets/jack-rabbits.svg#jack-rabbits") format("svg");*/
+  src: url("assets/jack-rabbits2.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -38,77 +40,116 @@
 }
 
 .icon-bishop:before {
-  content: "\34";
+  content: "7";
 }
 
-.icon-bones:before {
-  content: "\62";
+.icon-bells:before {
+  content: "b";
 }
 
 .icon-clubs:before {
-  content: "\63";
+  content: "c";
 }
 
-.icon-crystals:before {
-  content: "\67";
+.icon-icicles:before {
+  content: "i";
 }
 
 .icon-diamonds:before {
-  content: "\64";
+  content: "d";
 }
 
 .icon-hearts:before {
-  content: "\68";
+  content: "h";
 }
 
 .icon-horseshoes:before {
-  content: "\75";
+  content: "u";
+}
+.icon-acorns:before {
+  content: "a";
 }
 
 .icon-king:before {
-  content: "\36";
+  content: "9";
 }
 
 .icon-knight:before {
-  content: "\32";
+  content: "5";
 }
 
 .icon-mushrooms:before {
-  content: "\6d";
-}
-
-.icon-pawn:before {
-  content: "\31";
-}
-
-.icon-queen:before {
-  content: "\35";
+  content: "m";
 }
 
 .icon-rabbit:before {
-  content: "\30";
+  content: "1";
+}
+.icon-squirrel:before {
+  content: "2";
+}
+.icon-beaver:before {
+  content: "3";
+}
+.icon-karrot:before {
+  content: "!";
+}
+.icon-peanut:before {
+  content: "@";
+}
+.icon-broccoli:before {
+  content: "#";
+}
+
+.icon-queen:before {
+  content: "8";
+}
+
+.icon-pawn:before {
+  content: "4";
 }
 
 .icon-rook:before {
-  content: "\33";
+  content: "6";
 }
 
 .icon-sheilds:before {
-  content: "\6f";
+  content: "o";
 }
 
 .icon-shells:before {
-  content: "\77";
+  content: "w";
 }
 
 .icon-skulls:before {
-  content: "\6b";
+  content: "k";
 }
 
 .icon-spades:before {
-  content: "\73";
+  content: "s";
 }
 
 .icon-torches:before {
-  content: "\74";
+  content: "t";
+}
+
+.icon-lis:before {
+  content: "l";
+}
+
+.icon-anchors:before {
+  content: "n";
+}
+
+.icon-hex:before {
+  content: "H";
+}
+.icon-triangle:before {
+  content: "T";
+}
+.icon-rhombus:before {
+  content: "R";
+}
+.icon-underground:before {
+  content: "U";
 }
