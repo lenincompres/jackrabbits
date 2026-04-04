@@ -229,8 +229,10 @@ const classicSections = [{
       llevándolas en vez de a la nobleza.`,
       `28.5|Se integran al inicio de la pila, 
       y adquieren normalmente en el proceso. 
-      Te ofrecen los avances por sus vías 
-      y exponen aventuras en sus textos.`,
+      Las lees y decides enseguida: 
+      tomarla o barajarla de regreso.`,
+      //Te ofrecen los avances por sus vías 
+      //y exponen aventuras en sus textos.`,
       `42|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
       Las dejas en tu frente bocarriba 
@@ -249,23 +251,25 @@ const classicSections = [{
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and bring wander tiles as well.`,
-      `14.5,58,108.5,192|With three wander cards completed,
+      `14.5,58,107,190|With three wander cards completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
       `30.5|Shuffle them into the deck,
-      as you ready up the pile.
-      You may draw them as you trek—
-      play them in their special style.`,
-      `44.5|Wander cards present a mission,
+      while you ready up the pile.
+      As you draw them on your trek,
+      shuffle back if not worthwhile.`,
+      //You may draw them as you trek—
+      // play them in their special style.`,
+      `44|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
       keep them laid in front of you.`,
-      `81|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
+      `80|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
       rivers, woods, caves, taverns, forks:
-      a volcano, forest, fountain,
+      a volcano, marshes, fountain,
       circus, well, bazaar—the works.`,
-      `95|Wander cards may be discarded,
+      `94|Wander cards may be discarded,
       on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
@@ -290,7 +294,7 @@ export const wanderTiles = {
       se ingresa sin la opción de que se sale. 
       Y el trío de los rombos se renueva: 
       lo mismo por sus cuatro laterales.`,
-    en: `130|There’s a roadway set to wander,
+    en: `128|There’s a roadway set to wander,
       which allows discards on sites.
       The triangles charge a wander:
       circus and bazaar sell rides.
@@ -304,19 +308,19 @@ export const wanderTiles = {
   ul_bulleted: {
     dataOn: Copy.text({
       es: "140.5",
-      en: "164",
+      en: "162",
     }),
     li: versify(Copy.text({
       es: [`El rombo de la fuente es transitable,
           canjea con andares del descarte.`,
-        `El rombo forestal que te bloquea,
+        `El rombo del pantano te bloquea,
           pagando con andares se atraviesa.`,
         `El rombo con el cráter al destierro, 
           lo pagas por caer en el subsuelo.`
       ],
       en: [`Four-way fountain: roundabout;
           one discard retrieves one out.`, 
-        `Four-way forest: trailways cross;
+        `Four-way marshes: trailways cross;
           one discard to pass across.`,
         `Four-way crater: off-board bound;
           one discard lands underground.`
@@ -326,7 +330,7 @@ export const wanderTiles = {
   p_: versify(Copy.text({
     es: `160.5|El cobro se cancela con andares.
       Cualquiera de sus cartas que depares.`,
-    en: `184.5|For their gains, ignore the dice.
+    en: `183|For their gains, ignore the dice.
       Wander cards pay any price.`,
   })),
 };

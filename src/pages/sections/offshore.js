@@ -222,7 +222,7 @@ const offshoreSections = [{
       ice may pay the shortfall fees.`,
   })),
   h4_icicles_: Copy.text({
-    es: "Traslado del vórtice",
+    es: "Traslado ante el vórtice",
     en: "Transfer over the Vortex",
   }),
   p_: versify(Copy.text({

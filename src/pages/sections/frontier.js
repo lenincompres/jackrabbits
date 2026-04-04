@@ -35,7 +35,7 @@ const frontierSections = [{
       Underground, this seal is banned.`,
   })),
   h4_shields_: Copy.text({
-    es: "Traslado de Guardia",
+    es: "Traslado de la Guardia",
     en: "Transfer of the guard",
   }),
   p_: versify(Copy.text({
@@ -105,7 +105,7 @@ const frontierSections = [{
       any other you may loot.`,
   })),
   h4_torches_: Copy.text({
-    es: "Traslado por el subsuelo",
+    es: "Traslado bajo tierra",
     en: "Transfers Underground",
   }),
   p_: versify(Copy.text({
