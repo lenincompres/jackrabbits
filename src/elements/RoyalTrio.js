@@ -84,12 +84,11 @@ export class RoyalTrio extends HTMLElement {
             }
             return "#333";
           }),
-          small: this._state.as(s => {
-            if (s > 3) return `<b class='icon-${this.suits[0].name}'></b>`;
-            if ([1, 3].includes(s)) return `<b class='icon-${this.suits[0].name}'></b>`;
-            return "";
-          }),
+          small: {
+            class: this._state.as(s => s > 3 || [1, 3].includes(s) ? `icon-${this.suits[0].name}` : ""),
+          },
           b: {
+            marginTop: "-0.2em",
             text: this._state.as(s => s < 2 ? "♔" : ["K", "Q", "J"][i]),
           },
         }

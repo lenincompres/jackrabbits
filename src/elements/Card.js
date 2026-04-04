@@ -79,14 +79,14 @@ class Card extends HTMLElement {
           transform: i % 2 ? "rotate(180deg)" : undefined,
           fontSize: "1.1em",
           p: {
-            margin: 0,
+            margin: "0 0 -0.2em 0",
             fontFamily: "title",
             color: this._suit.as(s => s.color),
             text: this._number.as(n => Card.CHARS[n]),
           },
           i: {
             color: this._suit.as(s => s.color),
-            class: this._suit.as(s => `data-icon icon-${s.symbol}`),
+            class: this._suit.as(s => `icon-${s.symbol}`),
           },
         })),
       },
@@ -118,13 +118,6 @@ class Card extends HTMLElement {
         }
       },
     });
-  }
-
-  static getIcon(suit) {
-    return { 
-      class: `data-icon icon-${suit.symbol}`,
-      color: suit.color,
-   };
   }
 
   static CHARS = ["C", "A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
