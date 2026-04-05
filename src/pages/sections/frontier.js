@@ -197,8 +197,8 @@ const frontierSections = [{
       adds them to the <i>overload</i>.
       Get the sum this pile will weigh—
       add it to the price when rolled.
-      Do this when you end your play,
-      it impacts turns down the road.
+      Do this when you end your play—
+      burdens players down the road.
       It's discarded right away,
       when thirteen are on the load.`,
   })),

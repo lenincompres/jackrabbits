@@ -174,8 +174,8 @@ new Song(Copy.text({
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/2e8f4fde-356a-4978-a43e-64012fe03bda.m4a",
-  en: "https://cdn1.suno.ai/b289c3be-d23c-456c-8c4b-649fb872d0c0.m4a",
+  es: "https://cdn1.suno.ai/5d3a4650-8f89-4605-88d7-64ec15cbe89f.m4a",
+  en: "https://cdn1.suno.ai/b14be5f1-cc60-4ff5-8624-0baaa04ad9d1.m4a",
 }), Copy.text({
   es: "Corceles",
   en: "Cavaliers",

@@ -102,9 +102,9 @@ const classicSections = [{
       Las usas al viajar con sus corceles,
       y nunca al reclamar la Ciudadela.`,
       `43|En todos sus caminos de corceles,
-      si muestras a su noble de tu mano,
-      cabalgas a la pieza que prefieres,
-      tal como de los cruces de traslado.`,
+      cualquiera de sus nobles en tu mano,
+      permite que cabalgues si lo quieres,
+      y no hay que descartar por su traslado.`,
     ],
     en: [`Four more royals add their tiles,
       each from every classic suit.
