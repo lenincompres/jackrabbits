@@ -72,20 +72,26 @@ class Card extends HTMLElement {
       header: {
         pointerEvents: "none",
         section: getArray(2, i => ({
+          textAlign: "center",
+          width: "1em",
+          display: "flex",
+          flexDirection: "column",
           position: "absolute",
-          margin: "5% 5%",
+          margin: "0.4em 0.3em",
           bottom: i % 2 ? 0 : undefined,
           right: i % 2 ? 0 : undefined,
+          top: i % 2 ? undefined : 0,
+          left: i % 2 ? undefined : 0,
           transform: i % 2 ? "rotate(180deg)" : undefined,
           fontSize: "1.1em",
           p: {
             margin: "0 0 -0.2em 0",
             fontFamily: "title",
-            color: this._suit.as(s => s.color),
+            color: this._suit.as(s => `var(--${s.symbol}`),
             text: this._number.as(n => Card.CHARS[n]),
           },
           i: {
-            color: this._suit.as(s => s.color),
+            color: this._suit.as(s => `var(--${s.symbol}`),
             class: this._suit.as(s => `icon-${s.symbol}`),
           },
         })),
@@ -129,7 +135,6 @@ class Card extends HTMLElement {
       alt: "gold",
       cast: "merchant",
       trait: "wealth",
-      color: "darkgoldenrod",
       image: "assets/suit-diamonds.png",
     },
     H: {
@@ -137,7 +142,6 @@ class Card extends HTMLElement {
       alt: "cups",
       cast: "charmer",
       trait: "charm",
-      color: "#B41722",
       image: "assets/suit-hearts.png",
     },
     C: {
@@ -145,7 +149,6 @@ class Card extends HTMLElement {
       alt: "clovers",
       cast: "sage",
       trait: "wisdom",
-      color: "#008480",
       image: "assets/suit-clovers.png",
     },
     S: {
@@ -153,10 +156,12 @@ class Card extends HTMLElement {
       alt: "swords",
       cast: "warrior",
       trait: "strength",
-      color: "darkslateblue",
       image: "assets/suit-spades.png",
     }
   };
+  static get SUITS() {
+    return Object.values(Card.SUIT);
+  }
 }
 
 customElements.define("jk-card", Card);

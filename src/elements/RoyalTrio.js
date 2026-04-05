@@ -1,4 +1,5 @@
 import Copy from "../../lib/Copy.js";
+import Card from "./Card.js";
 import MediaFigure from "./MediaFigure.js";
 
 export class RoyalTrio extends HTMLElement {
@@ -15,8 +16,8 @@ export class RoyalTrio extends HTMLElement {
     setInterval(() => this.counter > 0 || getComputedStyle(this.figure).pointerEvents !== "none" ? this.counter += 1 : this.counter = 0, 2000);
     this._counter.bind(val => val % 2 && (this.state = Math.floor(this.counter / 2) % 5));
 
-    this.suits = RoyalTrio.SUITS.map(s => s);
-    this._state.bind(val => this.suits = RoyalTrio.SUITS.map(s => s).sort(() => 0.5 - Math.random()));
+    this.suits =  Card.SUITS;
+    this._state.bind(val => this.suits = Card.SUITS.sort(() => 0.5 - Math.random()));
 
     this.set({
       width: "5rem",
@@ -77,15 +78,16 @@ export class RoyalTrio extends HTMLElement {
           bottom: this._counter.as(c => `${(c % 2) * 1.6 - 0.2 * i}em`),
           opacity: this._counter.as(c => c % 2),
           color: this._state.as(s => {
-            if (s > 3) return this.suits[0].color;
+            const symbol = this.suits[0].symbol;
+            if (s > 3) return `var(--${symbol})`;
             if ([1, 3].includes(s)) {
               this.suits.shift();
-              if (this.suits[0]) return this.suits[0].color;
+              if (this.suits[0]) return `var(--${symbol})`;
             }
             return "#333";
           }),
           small: {
-            class: this._state.as(s => s > 3 || [1, 3].includes(s) ? `icon-${this.suits[0].name}` : undefined),
+            class: this._state.as(s => [1, 3, 4].includes(s) ? `icon-${this.suits[0].symbol}` : ""),
           },
           b: {
             marginTop: "-0.2em",
@@ -94,31 +96,7 @@ export class RoyalTrio extends HTMLElement {
         }
       })),
     });
-
   }
-
-  static SUITS = [{
-      name: "clubs",
-      color: "var(--clubs)",
-      symbol: "<b class='icon-horseshoes'></b>",
-    },
-    {
-      name: "hearts",
-      color: "var(--hearts)",
-      symbol: "♥",
-    },
-    {
-      name: "diamonds",
-      color: "var(--diamonds)",
-      symbol: "♦",
-    },
-    {
-      name: "spades",
-      color: "var(--spades)",
-      symbol: "♠",
-    },
-  ];
-
 }
 
 customElements.define("royal-trio", RoyalTrio);

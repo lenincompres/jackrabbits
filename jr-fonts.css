@@ -6,7 +6,7 @@
   /*src: url("assets/jack-rabbits.eot");
   src: url("assets/jack-rabbits.eot?#iefix") format("embedded-opentype"), url("assets/jack-rabbits.woff") format("woff"), url("assets/jack-rabbits.ttf")
   format("truetype"), url("assets/jack-rabbits.svg#jack-rabbits") format("svg");*/
-  src: url("assets/jack-rabbits2.ttf") format("truetype");
+  src: url("assets/jack-rabbits.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -134,7 +134,7 @@
 }
 
 .icon-fleurs:before {
-  content: "l";
+  content: "f";
 }
 
 .icon-anchors:before {
