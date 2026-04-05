@@ -63,6 +63,11 @@ const setupPage = {
         es: "Reparte las cartas",
         en: "Set the cards",
       }),
+      css: {
+        ':nth-child(3)': {
+          marginTop: "-0.5em",
+        },
+      },
       p: versify(
         Copy.text({
           es: [`51|Después de que el tablero se termina

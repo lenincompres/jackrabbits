@@ -37,7 +37,7 @@ class Song {
           timeUpdate(this.currentTime);
           if (!this.lines) return;
           this.currentTime = Song.round(this.audio.currentTime);
-          const currentLine = this.lines.findLast(line => this.currentTime >= line.on && this.currentTime <= line.off);
+          const currentLine = this.lines.findLast(line => this.currentTime >= line.on);
           if (currentLine && this.currentVerse !== currentLine.p) {
             this.currentVerse = currentLine.p;
             this.currentVerse.scrollIntoView({
@@ -288,21 +288,24 @@ class Song {
     Pager.key = key;
     CardFloating.force(suit, royals);
     setTimeout(() => {
-      let song = Song.currentSong;
+      const song = Song.currentSong;
       const lyrics = [];
       song.sections = [];
       [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)].forEach(container => {
-        container.open && container.open();
-        container.parentElement.open && container.parentElement.open();
-        if (container.tagName === "SECTION") song.sections.push(container);
-        else song.sections.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
+        if (container.tagName === "SECTION") {
+          container.parentElement.open();
+          song.sections.push(container);
+        } else {
+          container.open();
+          song.sections.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
+        }
       });
       song.sections.forEach(section => {
         section.classList.add("lyrics-section", "playing");
         lyrics.push(...section.querySelectorAll(":scope:not([data-prose])>p, :scope:not([data-prose])>ul"));
       });
       song.lyrics = lyrics;
-      if (song.sections[0]) song.sections[0].scrollIntoView({
+      song.sections[0] && song.sections[0].scrollIntoView({
         behavior: "smooth",
         block: "center"
       });

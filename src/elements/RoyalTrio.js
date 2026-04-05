@@ -9,15 +9,21 @@ export class RoyalTrio extends HTMLElement {
     this.binderSet({
       counter: 0,
       state: 0,
+      suits: Card.SUITS,
     });
 
     this.figure = new MediaFigure("rabbitPawn");
 
     setInterval(() => this.counter > 0 || getComputedStyle(this.figure).pointerEvents !== "none" ? this.counter += 1 : this.counter = 0, 2000);
+
     this._counter.bind(val => val % 2 && (this.state = Math.floor(this.counter / 2) % 5));
 
-    this.suits =  Card.SUITS;
-    this._state.bind(val => this.suits = Card.SUITS.sort(() => 0.5 - Math.random()));
+    this._state.bind(val => {
+      if ([0, 2].includes(val)) return this.suits = [];
+      this.suits = Card.SUITS.sort(() => 0.5 - Math.random());
+      if ([1, 3].includes(val)) return this.suits;
+      if (val > 3) return this.suits = [this.suits[0], this.suits[0], this.suits[0]];
+    });
 
     this.set({
       width: "5rem",
@@ -77,17 +83,9 @@ export class RoyalTrio extends HTMLElement {
           position: "absolute",
           bottom: this._counter.as(c => `${(c % 2) * 1.6 - 0.2 * i}em`),
           opacity: this._counter.as(c => c % 2),
-          color: this._state.as(s => {
-            const symbol = this.suits[0].symbol;
-            if (s > 3) return `var(--${symbol})`;
-            if ([1, 3].includes(s)) {
-              this.suits.shift();
-              if (this.suits[0]) return `var(--${symbol})`;
-            }
-            return "#333";
-          }),
+          color: this._suits.as(suits => !suits.length ? "#333": `var(--${suits[i].symbol})`),
           small: {
-            class: this._state.as(s => [1, 3, 4].includes(s) ? `icon-${this.suits[0].symbol}` : ""),
+            class: this._suits.as(suits => suits.length ? `icon-${suits[i].symbol}` : ""),
           },
           b: {
             marginTop: "-0.2em",

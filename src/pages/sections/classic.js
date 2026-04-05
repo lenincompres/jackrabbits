@@ -30,37 +30,21 @@ const classicSections = [{
       o acampas y te ahorras el traslado.
       Si pagas en el parque a los lobeznos,
       trasladas a su madre en un llamado.`
-      /*
-      `En parques que contienen vericuetos,
-      elijes si cruzarlos o pararte.
-      Si pagas, cruzarás en el momento;
-      si no, descansarás por trasladarte.
-      Y al irte, considera los lobeznos,
-      que ofrecen los traslados de su madre.`
-      */
     ],
-    en: [`Fleurs are classic suits' replacements,
+    en: [`8|Fleurs are classic suits' replacements,
       but without their special powers:
       fighting spades, or heart engagements,
       diamond trades, or clover towers.
       They fulfill the transfer payments—
       don't claim royals with these flowers.`,
-      `There're no royals in this style;
+      `30,73.5,118|There're no royals in this style;
       just a rabbit and more tiles.`,
-      `Trailway hexes are layed out,
+      `51.5|Trailway hexes are layed out,
       linking roads like any other.
       You may pay to hike right out,
       or set camp without a bother.
       Dens may guide the campers out—
       cubs sell transfers with their mother.`
-      /*
-      `Any trailway through their grounds
-      must be paid before you pass it.
-      Wells may take you underground—
-      these provide a one way access.
-      Pay with fleurs where dens are found,
-      and the wolf goes where you cast it.`
-      */
     ]
   })),
   h4_fleurs: Copy.text({
@@ -74,7 +58,7 @@ const classicSections = [{
       y elige si con ella trasladarte.
       La víctima termina en el destierro
       y apúntale a la carta que descarte.`,
-    en: `At its post or from a den,
+    en: `95.5|At its post or from a den,
       send the wolf to any rabbit.
       Spook off-board your target then,
       take a card from them and scrap it.
@@ -87,7 +71,6 @@ const classicSections = [{
     es: "+ Corceles",
     en: "+ Cavaliers",
   }),
-  //img: new MediaFigure("cavaliers,
   p: versify(Copy.text({
     es: [`2|Las nuevas estaciones de jinetes 
       se añaden a las casas de los palos. 
@@ -106,19 +89,19 @@ const classicSections = [{
       permite que cabalgues si lo quieres,
       y no hay que descartar por su traslado.`,
     ],
-    en: [`Four more royals add their tiles,
+    en: [`3.5|Four more royals add their tiles,
       each from every classic suit.
       Cavaliers with tracks for miles,
       which will aid in your commute.`,
-      `You may claim them as you need—
+      `19|You may claim them as you need—
       acquisition is the same.
       They will let you ride the steeds,
       but may never win the game.`,
-      `Ride their trains without a cost—
+      `34|Ride their trains without a cost—
       pass right through the underground.
       Reach another hex train post—
       link all tracks when they're set down.`,
-      `On the roads that have a steed,
+      `42|On the roads that have a steed,
       show a Cavalier at hand,
       and you’ll ride at dashing speed—
       travel anywhere by land.`,
@@ -150,7 +133,6 @@ const classicSections = [{
     es: "+ Alianzas",
     en: "+ Alliances",
   }),
-  //img: new MediaFigure("allies,
   p: versify(Copy.text({
     es: [
       `4|Los seis ayuntamientos y sus nobles
@@ -170,19 +152,19 @@ const classicSections = [{
       En la otra te reponen, de la pila,
       las cartas de tu mano que descartes.`,
     ],
-    en: [`Two new rabbits bring their styles,
+    en: [`6|Two new rabbits bring their styles,
       as the classic suits are played.
       Six more royals add their tiles,
       with alliances portrayed.`,
-      `These are three capitalists
+      `25|These are three capitalists
         and three naturalist cards.
         Pay them both the suits they list—
         split the cost in any parts.`,
-      `See their merchants, taverns, caves—
+      `37.5|See their merchants, taverns, caves—
         ride their mules and their canoes.
         Flights from towers may be saved—
         payed with any of their suits.`,
-      `Pay one plaza diamond cards—
+      `50|Pay one plaza diamond cards—
         buy whatever suit you choose.
         Pay the other one discard—
         draw as many cards you lose.`,

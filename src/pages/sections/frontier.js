@@ -25,7 +25,7 @@ const frontierSections = [{
       quienquiera que te invada y los supera.
       Prohibido en el subsuelo en absoluto,
       y un máximo de doce se tolera.`,
-    en: `Show your shields—twelve pips or less—
+    en: `11.5|Show your shields—twelve pips or less—
       seal the hex where you will stand.
       It will only welcome guests 
       who discard a higher band.
@@ -47,7 +47,7 @@ const frontierSections = [{
       trasládala de nuevo con un pago.
       Si estás en el lugar al que la llevas,
       del sitio te regalan su traslado.`,
-    en: `Guards are placed to block the road—
+    en: `46|Guards are placed to block the road—
       on a green three-sided tile.
       Pay wherever on the board,
       and assign their post meanwhile.
@@ -63,27 +63,6 @@ const frontierSections = [{
     en: "Torches",
   }),
   img: new MediaFigure("torches"),
-  /*
-  h4_torches: Copy.text({
-    es: "Saquear con fuego",
-    en: "Plunder with fire",
-  }),
-  p: versify(Copy.text({
-    es: `Podrás con tus antorchas pelear,
-      igual que con las picas en sus duelos.
-      Excepto que si robas al final,
-      igual terminarás en el destierro;
-      quienquiera que descanse en el lugar
-      termina en las afueras del tablero.`,
-    en: `You may plunder and defend,
-      using torches just like swords,
-      so to steal a card from them,
-      picked at random as before.
-      But the winner, in the end, 
-      will be also hurled off-board.
-      Since all players, there and then,
-      are ejected from the board.`,
-  })),*/
   h4_torches: Copy.text({
     es: "Arrasar con fuego",
     en: "Scatter with fire",
@@ -95,7 +74,7 @@ const frontierSections = [{
       llevándose a los otros de la zona.
       Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
-    en: `Start a riot where you are—
+    en: `18.5|Start a riot where you are—
       any torch discard will do.
       End your turn with disregard,
       take off-board those there with you.
@@ -117,7 +96,7 @@ const frontierSections = [{
         ya sea por tu cuenta o sin buscarlo,
         pagando evitarías el destierro,
         moviéndote al subsuelo de inmediato.`,
-    en: `There’s a cavern underground,
+    en: `53.5|There’s a cavern underground,
       that extends your reach with fire.
       Lets you leave that very round, 
       paying what the dice require.
@@ -144,7 +123,7 @@ const frontierSections = [{
       brindándole al subsuelo su mercado,
       que vende, por el cambio de tus sumas,
       las cartas de cualquiera de los palos.`,
-    en: `Trade with horseshoes underground—
+    en: `7.5|Trade with horseshoes underground—
       at its shady marketplace.
       This extension, dark and brown,
       is connected to this space.
@@ -166,7 +145,7 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas, o te buscan.`,
-    en: `Pay to summon up a horse,
+    en: `53.5|Pay to summon up a horse,
       on the islands where they're found.
       They will reach you from their source—
       horseshoe hexes over ground.
@@ -193,12 +172,12 @@ const frontierSections = [{
       se suma al resultado de los dados.
       En cuanto sobrepasa la docena,
       la pila se descarta de inmediato.`,
-    en: `Leaving acorns on display,
+    en: `13|Leaving acorns on display,
       adds them to the <i>overload</i>.
       Get the sum this pile will weigh—
       add it to the price when rolled.
       Do this when you end your play—
-      burdens others down the road.
+      others struggle down the road.
       It's discarded right away,
       when thirteen are on the load.`,
   })),
@@ -215,8 +194,8 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-    en: `Pay wherever you may roam,
-      and entice where it is moved.
+    en: `49.5|Pay wherever you may roam,
+      and invoke where it is moved.
       Choose a proper kind of zone:
       river, mountain, or the woods.
       Send off-board all those who come,

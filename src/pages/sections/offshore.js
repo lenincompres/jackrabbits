@@ -14,26 +14,6 @@ const offshoreSections = [{
     en: "Bells",
   }),
   img: new MediaFigure("bells"),
-  /*h4_bells: Copy.text({
-    es: "Implorar por cartas",
-    en: "Implore for cards",
-  }),
-  p: versify(Copy.text({
-    es: `12.5|Si imploras, con un <i>duelo</i> de campanas,
-      afectas al hexágono completo:
-      te entregan la que elijan de sus cartas
-      sin que haya que salirse del tablero.
-      Si quieren rechazar lo que demandas,
-      que sumen sus campanas en el duelo.`,
-    en: `You may meet with bells as well, 
-      much like you would do with swords,
-      but you cast a gentler spell
-      where no one is sent off-board.
-      Everybody where you dwell
-      gifts to you a card they hoard,
-      or contend and add their bells—
-      if they win, your plea's ignored.`,
-  })),*/
   h4_bells: Copy.text({
     es: "Poner cartas en la mesa",
     en: "Put cards on the table",
@@ -47,7 +27,7 @@ const offshoreSections = [{
       un palo por cualquiera que comprueba.
       Si alguna que revisa es infiltrada,
       tu espía te denuncia y se la queda.`,
-    en: `Keep your bells facedown aside—
+    en: `7.5|Keep your bells facedown aside—
       they won't play nor count in hand.
       Those in doubt may pay to spy
       if they meet you where you stand.
@@ -59,25 +39,7 @@ const offshoreSections = [{
   h4_bells_: Copy.text({
     es: "Traslado al aislamiento",
     en: "Transfer to the x-isle",
-  }),/*
-  p_: versify(Copy.text({
-    es: `Si pagas dondequiera con campanas,
-      envías a cualquiera al aislamiento.
-      Mostrándote campanas se te salva,
-      con seis en el tablero o el destierro.
-      La cueva en el exilio es la sellada,
-      que exige que se pague por su acceso.
-      La gratis del subsuelo es la de entrada,
-      que veta las campanas en su suelo.`,
-    en: `There’s a cave that has a fee 
-      to escape its tower's tile.
-      Pay wherever you may be
-      to decree someone's exile.
-      Targets, even off at sea,
-      show six bells and dodge the isle.
-      Underground, the cave is free—
-      bells may cast no plea or trial.`,
-  })),*/
+  }),
   p_: versify(Copy.text({
     es: `56|Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
@@ -85,7 +47,7 @@ const offshoreSections = [{
       tan solo se prohíbe en el subsuelo.
       Su cueva, que es gratuita, lo señala;
       se paga del exilio por su acceso.`,
-    en: `There’s a cave that has a fee
+    en: `52.5|There’s a cave that has a fee
       to escape its tower's tile.
       Pay wherever you may be—
       to decree someone's exile.
@@ -114,7 +76,7 @@ const offshoreSections = [{
       dispón tu zanahoria en su cabeza.
       La carta que pusiste se descarta 
       si pagan por el noble o la liberas.`,
-    en: `When you're visiting a tile,
+    en: `15.5|When you're visiting a tile,
       make its claim hard to achieve.
       Set your carrot on the aisle, 
       so the noble sits beneath.
@@ -134,7 +96,7 @@ const offshoreSections = [{
       lo mueves al que quieras de sus muelles;
       incluso a su mercado heterogéneo; 
       de ida te recoge si lo quieres.`,
-    en: `If you board the sailboat’s deck,
+    en: `52.5|If you board the sailboat’s deck,
       sail it anywhere for free. 
       If you pay at sea-bound treks,
       it must travel home by sea;
@@ -163,7 +125,7 @@ const offshoreSections = [{
       las cambias por el doble de la pila.
       La cuenta de sus números se ignora;
       descártalas y el doble le retiras.`,
-    en: `There’s a grotto underground,
+    en: `6|There’s a grotto underground,
       one that’s set when games begin.
       It’s a coastal landing ground—
       where the boats may venture in.
@@ -183,7 +145,7 @@ const offshoreSections = [{
       su torre que se encuentra en altamar.
       Contempla que la barca de su puerto
       te ofrece navegarla sin pagar.`,
-    en: `If you pay with shells at sea, 
+    en: `52.5|If you pay with shells at sea, 
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.
@@ -212,7 +174,7 @@ const offshoreSections = [{
       o pagas lo <i>restante</i> de la cifra,
       conéctalo a un camino por el mar,
       si no, en el océano se aísla.`,
-    en: `Tip the tower to the shore,
+    en: `9.5|Tip the tower to the shore,
       when you roll from any piece.
       If you show a card before,
       and it's equal or exceeds:
@@ -232,7 +194,7 @@ const offshoreSections = [{
       mas esto es imposible en el subsuelo.
       Si intentan escaparse del hexágono,
       se van precipitándose al destierro.`,
-    en: `Pay from anywhere you please,
+    en: `50|Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex to that piece—
       where it freezes all its guests.
