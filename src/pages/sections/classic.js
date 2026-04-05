@@ -227,20 +227,18 @@ const classicSections = [{
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina
       llevándolas en vez de a la nobleza.`,
-      `28.5|Se integran al inicio de la pila, 
-      y adquieren normalmente en el proceso. 
-      Las lees y decides enseguida: 
-      tomarla o barajarla de regreso.`,
-      //Te ofrecen los avances por sus vías 
-      //y exponen aventuras en sus textos.`,
+      `28.5|Se integran al inicio de la pila,
+      pudiendo barajarse de regreso.
+      Las lees y decides enseguida:
+      tomarla o reponerla en el proceso.`,
       `42|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
-      Las dejas en tu frente bocarriba 
+      Las pones en tu frente bocarriba 
       si logras las acciones de sus retos.`,
-      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan, 
-      reflejan a las clásicas que tienes; 
-      Sus rombos y sus triángulos destacan, 
-      incluso si sus usos se parecen.`,
+      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan,
+      reflejan a las clásicas que tienes.
+      Los únicos lugares de soltarlas;
+      si no las finalizas, las mantienes.`,
       `84|En estas, tus andares se descartan, 
       pagando las acciones que te ofrecen. 
       Las cartas con andares que descartas 
@@ -258,9 +256,7 @@ const classicSections = [{
       `30.5|Shuffle them into the deck,
       while you ready up the pile.
       As you draw them on your trek,
-      shuffle back if not worthwhile.`,
-      //You may draw them as you trek—
-      // play them in their special style.`,
+      show and swap if not worthwhile.`,
       `44|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
@@ -269,8 +265,8 @@ const classicSections = [{
       rivers, woods, caves, taverns, forks:
       a volcano, marshes, fountain,
       circus, well, bazaar—the works.`,
-      `94|Wander cards may be discarded,
-      on these places from their pack.
+      `94|Cards may only be discarded
+      on these places from your pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
     ],
@@ -286,8 +282,8 @@ export const wanderTiles = {
   }),
   img: new MediaFigure("wanderTiles"),
   p: versify(Copy.text({
-    es: `112|Se añaden a las vías carreteras 
-      las piezas que permiten los andares. 
+    es: `112|Es solo ensus vías carreteras 
+      en onde se descartan los andares. 
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
       Excepto por el pozo, que es su cueva, 
