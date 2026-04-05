@@ -264,8 +264,8 @@ export const wanderTiles = {
   }),
   img: new MediaFigure("wanderTiles"),
   p: versify(Copy.text({
-    es: `112|Es solo ensus vías carreteras 
-      en onde se descartan los andares. 
+    es: `112|Se añaden a las vías carreteras 
+      las piezas que permiten los andares. 
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
       Excepto por el pozo, que es su cueva, 
