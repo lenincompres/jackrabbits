@@ -28,7 +28,7 @@ const splashSection = {
     p: versify(Copy.text({
       es: `El juego de tablero en el que viajas
       al reino de conejos y barajas.`,
-      en: `Board the game with playing cards.
+      en: `Hop on—board a game of cards.
       Wander lands of wooden shards.`,
     })),
     onclick: e => window.open(buyURL, "_blank"),
