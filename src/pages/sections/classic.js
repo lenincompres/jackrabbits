@@ -202,7 +202,7 @@ const classicSections = [{
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
     es: [`0|Las cartas con andares permitidas
-      se añaden con sus once peripecias:
+      añaden veintidós interferencias/intransigencias/:
       las metas que varían la partida,
       y agregan carreteras a las piezas.`,
       `13.5,55.5,97,170|Con tres de sus misiones concluidas,
@@ -210,9 +210,9 @@ const classicSections = [{
       y el juego de inmediato se termina
       llevándolas en vez de a la nobleza.`,
       `28.5|Se integran al inicio de la pila,
-      pudiendo barajarse de regreso.
-      Las lees y decides enseguida:
-      tomarla o reponerla en el proceso.`,
+      y adquieren por igual en el proceso.
+      Las usas en el pago de sus vías,
+      y exponen aventuras en sus textos.`,
       `42|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
       Las pones en tu frente bocarriba 
@@ -227,7 +227,7 @@ const classicSections = [{
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
-      `0|These eleven cards omitted, 
+      `0|Twenty two ne cards omitted, 
       bear no suit nor noble spell.
       They reveal new quests admitted, 
       and bring wander tiles as well.`,
@@ -237,8 +237,8 @@ const classicSections = [{
       one the wandering will tell.`,
       `30.5|Shuffle them into the deck,
       while you ready up the pile.
-      As you draw them on your trek,
-      show and swap if not worthwhile.`,
+      You may draw them as you trek—
+      play them in their special style.`,
       `44|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
@@ -248,7 +248,7 @@ const classicSections = [{
       a volcano, marshes, fountain,
       circus, well, bazaar—the works.`,
       `94|Cards may only be discarded
-      on these places from your pack.
+      on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
     ],
