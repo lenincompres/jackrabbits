@@ -124,7 +124,7 @@ const turnSections = [{
     ],
     en: [
       `100.5|End your turns on a hex tile—
-      if you don't fall off the shore.** 
+      land on one or off the shore.** 
       Draw the card atop the pile, 
       and your turn will be no more. 
       You may need to first repile:

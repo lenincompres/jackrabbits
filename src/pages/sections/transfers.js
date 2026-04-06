@@ -41,8 +41,8 @@ const transferSections = [{
       cruzando por el centro en un atajo.
        <a onclick="popUp('price')">Si pagas</a> con cualquiera de los símbolos,
       te cambias del camino que te trajo.`,
-    en: `33.5|See the mountains, rivers, woods—
-      with two roads not far apart.
+    en: `33.5|At the mountains, rivers, woods,
+      two roads lie not far apart.
       You may hike between these two,
       cutting through the middle part.
        <a onclick="popUp('price')">Pay</a> with cards of proper suits:
@@ -74,7 +74,7 @@ const transferSections = [{
       Or select a road to port,
       gliding on the seas outside.
       Landlocked merchants have no boats,
-      since they’re not by the seaside.
+      since their post is not seaside.
       Merchants send you from their post,
       once  you <a onclick="popUp('price')">pay</a> what dice decide.`,
   }), {
