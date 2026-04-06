@@ -185,8 +185,8 @@ new Song(Copy.text({
   es: "https://cdn1.suno.ai/34237312-db2d-4b12-9db6-08cd724ae40d.m4a",
   en: "https://cdn1.suno.ai/34217df4-5848-4737-a275-fe2bbfd2b6dd.m4a",
 }), Copy.text({
-  es: "Alianzas",
-  en: "Alliances",
+  es: "Enlaces",
+  en: "Liaisons",
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.A), 1);
 
 Song.shuffleRange(Song.List.length - 3);

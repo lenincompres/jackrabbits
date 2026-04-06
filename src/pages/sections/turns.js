@@ -24,15 +24,15 @@ const turnSections = [{
       Los usas en <a onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
     ],
     en: [
-      `2.5|Start your turns by rolling dice,
+      `5|Start your turns by rolling dice,
       so that two results unfold.
       You may draw a one-card prize—
       if you show a card you hold. 
       Prove it matches value-wise, 
       either number you just rolled.`,
-      `19|Please discard if caught with ten.
+      `21.5|Please discard if caught with ten.
       Bring your hand to nine again.*`,
-      `24|Hold the outcome of the dice.
+      `26.5|Hold the outcome of the dice.
       Transfers use it as <a onclick="popUp('price')"><b>the price</b></a>.`
     ]
   })),
@@ -45,27 +45,27 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `40|Del sitio hexagonal en el que empiezas,
+      `43|Del sitio hexagonal en el que empiezas,
       escoge si te irás por un camino.
       Señala el recorrido por <a class="pop" onclick="popUp('roadTiles', event)">las piezas</a>
       llevando tu conejo peregrino.
       Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
-      `58|Moverte de la pieza es opcional. 
+      `60.5|Moverte de la pieza es opcional. 
       Depende de tu meta a visitar.`,
-      `66|Podrías expandir tus travesías. 
+      `69|Podrías expandir tus travesías. 
       Consulta <a href="#intro/transfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
-      `35.5|You may choose a path to exit, 
+      `37.5|You may choose a path to exit, 
       from the current hex you’re on.
       Move along the road selected, 
       let your rabbit venture on.
       Cross  <a class="pop" onclick="popUp('roadTiles', event)">small tiles</a> but stop at hexes—
       reach the nearest hexagon.`,
-      `51.5|Move on closer to your goal.
+      `54|Move on closer to your goal.
       Or perhaps don't move at all.`,
-      `57|You may switch your travel mode.
+      `59|You may switch your travel mode.
       See <a href="#intro/transfers"><b>the transfers</b></a> off the road.`,
     ]
   })),
@@ -90,15 +90,15 @@ const turnSections = [{
       Reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
-      `68|It’s your goal to claim the card—
+      `70.5|It’s your goal to claim the card—
       claim the royal you salute.
       You must visit and discard:
       ten or more in that card's suit.
       Place a carrot as your mark,
       and remove it from pursuit.`,
-      `84.5|You may always be a guest.
+      `87|You may always be a guest.
       Make no claim and stop to rest.`,
-      `89.5|Keep the royals in your hands.
+      `92|Keep the royals in your hands.
       Get <b>the increment</b> at once.`,
     ]
   })),
@@ -123,15 +123,15 @@ const turnSections = [{
       Revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
     ],
     en: [
-      `100.5|End your turns on a hex tile—
+      `103|End your turns on a hex tile—
       land on one or off the shore.** 
       Draw the card atop the pile, 
       and your turn will be no more. 
       You may need to first repile:
       shuffle what was spent before.`,
-      `117|*Hands should not exceed nine cards.
+      `119.5|*Hands should not exceed nine cards.
       Anyone who’s caught discards.`,
-      `122|**Off the board there's no reward.
+      `124.5|**Off the board there's no reward.
       See the rules about <a href="#intro/off"><b>off-board</b></a>.`,
     ]
   })),

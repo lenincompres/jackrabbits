@@ -130,8 +130,8 @@ const classicSections = [{
 }, {
   style: suitStyle(CardExpanded.SUIT.A),
   h3_sea: Copy.text({
-    es: "+ Alianzas",
-    en: "+ Alliances",
+    es: "+ Enlaces",
+    en: "+ Liaisons",
   }),
   p: versify(Copy.text({
     es: [
@@ -139,7 +139,7 @@ const classicSections = [{
       combinan a los palos iniciales.
       Y dos de los conejos jugadores
       permiten añadir participantes.`,
-      `24|Los símbolos de alianzas que visitas,
+      `24|Los símbolos de enlaces que visitas,
       se deben combinar al adquirirlas.
       Un trío es del sector capitalista;
       y el otro, de la unión naturalista.`,
