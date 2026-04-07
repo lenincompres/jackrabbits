@@ -202,15 +202,15 @@ const classicSections = [{
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
     es: [`0|Las cartas con andares permitidas
-      añaden veintidós interferencias/intransigencias/:
-      las metas que varían la partida,
-      y agregan carreteras a las piezas.`,
+      añaden veintidós interferencias:
+      misiones que varían la partida,
+      y un set particular de carreteras.`,
       `13.5,55.5,97,170|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina
       llevándolas en vez de a la nobleza.`,
       `28.5|Se integran al inicio de la pila,
-      y adquieren por igual en el proceso.
+      y adquieren normalmente en el proceso.
       Las usas en el pago de sus vías,
       y exponen aventuras en sus textos.`,
       `42|Las cartas con andares que recibas 
