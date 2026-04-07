@@ -202,9 +202,9 @@ const classicSections = [{
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
     es: [`0|Las cartas con andares permitidas
-      añaden veintidós interferencias/intransigencias/:
-      las metas que varían la partida,
-      y agregan carreteras a las piezas.`,
+      añaden veintidós interferencias:
+      misiones que varían la partida,
+      y seis extraordinarias carreteras.`,
       `13.5,55.5,97,170|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina
