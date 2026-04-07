@@ -210,7 +210,7 @@ const classicSections = [{
       y el juego de inmediato se termina
       llevándolas en vez de a la nobleza.`,
       `28.5|Se integran al inicio de la pila,
-      y adquieren por igual en el proceso.
+      y adquieren normalmente en el proceso.
       Las usas en el pago de sus vías,
       y exponen aventuras en sus textos.`,
       `42|Las cartas con andares que recibas 
