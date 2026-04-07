@@ -227,9 +227,9 @@ const classicSections = [{
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
-      `0|Twenty two ne cards omitted, 
-      bear no suit nor noble spell.
-      They reveal new quests admitted, 
+      `0|Twenty two new cards omitted
+      bear no suit nor noble spell,
+      they reveal new quests admitted 
       and bring wander tiles as well.`,
       `14.5,58,107,190|With three wander cards completed,
       brought unto the Citadel,
