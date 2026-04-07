@@ -87,11 +87,11 @@ class Card extends HTMLElement {
           p: {
             margin: "0 0 -0.2em 0",
             fontFamily: "title",
-            color: this._suit.as(s => `var(--${s.symbol}`),
+            color: this._suit.as(s => `var(--${s.symbol})`),
             text: this._number.as(n => Card.CHARS[n]),
           },
           i: {
-            color: this._suit.as(s => `var(--${s.symbol}`),
+            color: this._suit.as(s => `var(--${s.symbol})`),
             class: this._suit.as(s => `icon-${s.symbol}`),
           },
         })),
