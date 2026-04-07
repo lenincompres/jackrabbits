@@ -204,7 +204,7 @@ const classicSections = [{
     es: [`0|Las cartas con andares permitidas
       añaden veintidós interferencias:
       misiones que varían la partida,
-      y seis extraordinarias carreteras.`,
+      y un set particular de carreteras.`,
       `13.5,55.5,97,170|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina
