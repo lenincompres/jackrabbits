@@ -219,8 +219,8 @@ const classicSections = [{
       si logras las acciones de sus retos.`,
       `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan,
       reflejan a las clásicas que tienes.
-      Los únicos lugares de soltarlas;
-      si no las finalizas, las mantienes.`,
+      sus triángulos y rombes se destacan,
+      incluso si sus usos se mantienen.`,
       `84|En estas, tus andares se descartan, 
       pagando las acciones que te ofrecen. 
       Las cartas con andares que descartas 
@@ -247,7 +247,7 @@ const classicSections = [{
       rivers, woods, caves, taverns, forks:
       a volcano, marshes, fountain,
       circus, well, bazaar—the works.`,
-      `94|Cards may only be discarded
+      `94|Wander cards may be discarded
       on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
