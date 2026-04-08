@@ -318,7 +318,7 @@ export default Song;
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/111e9a22-49c4-4da7-b351-ac38ebe1f17d.m4a",
-  en: "https://cdn1.suno.ai/b81bace0-e419-46a7-b089-569e23859b97.m4a",
+  en: "https://cdn1.suno.ai/8bf1a0fe-492a-4f69-8d54-76de02f036fd.m4a",
 }), Copy.text({
   es: "Finales posibles",
   en: "The Royal Quest",
@@ -342,7 +342,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/7a1fb96b-47d6-4d5b-befd-05dbde17885d.m4a",
-  en: "https://cdn1.suno.ai/1b4ab897-9525-43d4-a224-2249909d37a8.m4a",
+  en: "https://cdn1.suno.ai/4f13e522-5808-4448-99c5-32e8d274774d.m4a",
 }), Copy.text({
   es: "Trucos del camino",
   en: "Off the Road",
