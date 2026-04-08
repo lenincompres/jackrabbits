@@ -293,10 +293,10 @@ class Song {
       song.sections = [];
       [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)].forEach(container => {
         if (container.tagName === "SECTION") {
-          container.parentElement.open();
+          container.parentElement.open && container.parentElement.open();
           song.sections.push(container);
         } else {
-          container.open();
+          container.open && container.open();
           song.sections.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
         }
       });

@@ -13,7 +13,7 @@ const endingSection = {
       si aquí en la <i>Ciudadela</i> te regresas, 
       cargando con las cartas del concejo: 
       tus tres representantes de nobleza.`,
-      en: `103|Reach this place where you begin, 
+      en: `108.5|Reach this place where you begin, 
       with three royal cards in hand.
       You must be the first to win,
       hailed as champion of the land.`,
@@ -29,7 +29,7 @@ const endingSection = {
 que escoja el colectivo de la mesa,
 listado de lo simple a lo complejo,
 la clase de final que le interesa:`,
-      en: `117.5|But before the quest may start, 
+      en: `123.5|But before the quest may start, 
       choose a challenge for the mission.
       Set its circle as a mark,
       for the trio's win condition:`,
@@ -37,7 +37,7 @@ la clase de final que le interesa:`,
   ul_exception: {
     dataOn: Copy.text({
       es: "28,80,136",
-      en: "32,80.5,130",
+      en: "34,84.5,137",
     }),
     li: versify(Copy.text({
       es: [
