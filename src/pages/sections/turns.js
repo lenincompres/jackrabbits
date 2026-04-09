@@ -32,7 +32,7 @@ const turnSections = [{
       either number you just rolled.`,
       `21.5|Please discard if caught with ten.
       Bring your hand to nine again.*`,
-      `26.5|Hold the outcome of the dice.
+      `27|Hold the outcome of the dice.
       Transfers use it as <a onclick="popUp('price')"><b>the price</b></a>.`
     ]
   })),
@@ -57,15 +57,15 @@ const turnSections = [{
       Consulta <a href="#intro/transfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
-      `37.5|You may choose a path to exit, 
+      `38|You may choose a path to exit, 
       from the current hex you’re on.
       Move along the road selected, 
       let your rabbit venture on.
       Cross  <a class="pop" onclick="popUp('roadTiles', event)">small tiles</a> but stop at hexes—
       reach the nearest hexagon.`,
-      `54|Move on closer to your goal.
+      `54.5|Move on closer to your goal.
       Or perhaps don't move at all.`,
-      `59|You may switch your travel mode.
+      `59.5|You may switch your travel mode.
       See <a href="#intro/transfers"><b>the transfers</b></a> off the road.`,
     ]
   })),
@@ -124,7 +124,7 @@ const turnSections = [{
     ],
     en: [
       `103|End your turns on a hex tile—
-      land on one or off the shore.** 
+      if you don’t fall off the shore.** 
       Draw the card atop the pile, 
       and your turn will be no more. 
       You may need to first repile:

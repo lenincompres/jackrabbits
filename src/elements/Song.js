@@ -334,7 +334,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/62744824-9f19-47c0-b03d-bb7f99014097.m4a",
-  en: "https://cdn1.suno.ai/b94c086b-c448-46be-bfd9-7eb87d26b2b1.m4a",
+  en: "https://cdn1.suno.ai/e651fdfd-cfca-4611-a763-258ed95f2cf8.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
   en: "Four Phases of a Turn",
@@ -358,7 +358,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/95fe3886-701d-4a9d-a1ac-fbae1ba1771d.m4a",
-  en: "https://cdn1.suno.ai/96d44044-6c28-4196-9f80-31d7fe9a5c30.m4a",
+  en: "https://cdn1.suno.ai/2af0e530-1401-4480-94b7-c4d2a04862f5.m4a",
 }), Copy.text({
   es: "Corazones",
   en: "Hearts",
