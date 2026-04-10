@@ -88,7 +88,7 @@ export class RoyalTrio extends HTMLElement {
             class: this._suits.as(suits => suits.length ? `icon-${suits[i].symbol}` : ""),
           },
           b: {
-            marginTop: "-0.2em",
+            marginTop: "-0.15em",
             text: this._state.as(s => s < 2 ? "♔" : ["K", "Q", "J"][i]),
           },
         }

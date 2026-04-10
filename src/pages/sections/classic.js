@@ -269,7 +269,7 @@ export const wanderTiles = {
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
       Excepto por el pozo, que es su cueva, 
-      se ingresa sin la opción de que se sale. 
+      prohibida de ser por la que sales. 
       Y el trío de los rombos se renueva: 
       lo mismo por sus cuatro laterales.`,
     en: `128|There’s a roadway set to wander,

@@ -22,11 +22,11 @@ const overviewSection = {
         con cartas que llevar a sus monarcas.`,
       ],
       en: [
-        `7|Visit houses turn by turn,
+        `6.5|Visit houses turn by turn,
         bringing numbered cards in hand.
         Claim their royals and return,
         holding three to rule the land.`,
-        `20.5|To fulfill <b>the acquisition</b>, 
+        `20|To fulfill <b>the acquisition</b>, 
         add ten points that match their suit.
         With <b>the lottery</b>’s provision,
         you’ll be drawing cards as loot.`,
@@ -45,11 +45,11 @@ const overviewSection = {
         por fuera de las piezas y sin barcas.`,
       ],
       en: [
-        `58|Make <b>the journey</b> hex to hex—
+        `58.5|Make <b>the journey</b> hex to hex—
         every road is free to course.
         Pay <b>the transfers</b> for the treks:
         hikes off-road, by boat or horse.`,
-        `71|Rest upon a hex-shaped tile,
+        `71.5|Rest upon a hex-shaped tile,
         if you don't end up <b>off-board</b>. 
         Draw the card atop the pile—
         that’s <b>the increment</b> reward.`,
