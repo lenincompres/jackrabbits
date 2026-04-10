@@ -212,6 +212,11 @@ light-box>.lyrics-section.playing a {
 light-box>section:has(>.lyrics-section.playing) {
   background-color: var(--ink);
   color: white;
+  transition: background 0.3s, box-shadow 0.3s ;
+  -webkit-transition: background 0.3s, box-shadow 0.3s ;
+  -moz-transition: background 0.3s, box-shadow 0.3s ;
+  -ms-transition: background 0.3s, box-shadow 0.3s ;
+  -o-transition: background 0.3s, box-shadow 0.3s ;
 }
 
 .lyrics.off {
