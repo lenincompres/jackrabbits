@@ -45,15 +45,15 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `43|Del sitio hexagonal en el que empiezas,
+      `39.5|Del sitio hexagonal en el que empiezas,
       escoge si te irás por un camino.
       Señala el recorrido por <a class="pop" onclick="popUp('roadTiles', event)">las piezas</a>
       llevando tu conejo peregrino.
       Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
-      `60.5|Moverte de la pieza es opcional. 
+      `58.5|Moverte de la pieza es opcional. 
       Depende de tu meta a visitar.`,
-      `69|Podrías expandir tus travesías. 
+      `66.5|Podrías expandir tus travesías. 
       Consulta <a href="#intro/transfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [

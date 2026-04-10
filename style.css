@@ -355,18 +355,18 @@ footer.footnote {
     -o-border-radius: 0;
   }
 
-  .handSection:not(.shuffle)>.lyrics-section.playing:first-of-type  {
+  .handSection:not(.shuffle)>.lyrics-section.playing:first-of-type {
     margin-top: 0.2rem !important;
     border-top-left-radius: 0.5rem !important;
     border-top-right-radius: 0.5rem !important;
   }
 
-  .handSection:not(.shuffle)>.lyrics-section:last-of-type {
+  .handSection:not(.shuffle)>.lyrics-section.playing:last-of-type {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
 
-  .handSection:not(.shuffle)>.lyrics-section:last-of-type {
+  .handSection:not(.shuffle)>.lyrics-section.playing:last-of-type {
     margin-bottom: 0.5rem !important;
     padding-bottom: 2rem !important;
   }

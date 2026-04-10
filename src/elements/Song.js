@@ -50,7 +50,7 @@ class Song {
     });
     document.body.append(this.audio);
     this.link = DOM.let("a", {
-      span: Song._currentSong.as(v => v != this ? Copy.text({
+      text: Song._currentSong.as(v => v != this ? Copy.text({
         es: "Escucha la canción ▶",
         en: "Play this song ▶",
       }) : Copy.text({
@@ -63,7 +63,7 @@ class Song {
       onclick: Song._currentSong.as(v => () => v == this ? this.end() : this.start()),
     }, false);
     this.btn = DOM.let("a", {
-      span: Song._currentSong.as(v => v != this ? "▶" : "◼"),
+      text: Song._currentSong.as(v => v != this ? "▶" : "◼"),
       class: {
         playing: Song._currentSong.as(v => v === this),
       },
