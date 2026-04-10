@@ -219,7 +219,7 @@ const classicSections = [{
       si logras las acciones de sus retos.`,
       `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan,
       reflejan a las clásicas que tienes.
-      sus triángulos y rombes se destacan,
+      sus triángulos y rombos se destacan,
       incluso si sus usos se mantienen.`,
       `84|En estas, tus andares se descartan, 
       pagando las acciones que te ofrecen. 
