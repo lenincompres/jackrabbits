@@ -342,7 +342,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/7a1fb96b-47d6-4d5b-befd-05dbde17885d.m4a",
-  en: "https://cdn1.suno.ai/4f13e522-5808-4448-99c5-32e8d274774d.m4a",
+  en: "https://cdn1.suno.ai/55adfa8d-1d62-4053-b34e-518c769b5365.m4a",
 }), Copy.text({
   es: "Trucos del camino",
   en: "Off the Road",

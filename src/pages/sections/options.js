@@ -177,14 +177,10 @@ const optionalSections = [{
       en: "Windfall Lottery",
     }),
     p: versify(Copy.text({
-      es: `Permite reclamar la lotería
-        por múltiples aciertos y regalos,
-        ya sea con las cartas que validas
-        o incluso con un doble de los dados.`,
-      en: `Claim your prizes as a batch,
-        give the lottery no limits.
-        Honor all the cards that match,
-        and when matching double digits.`,
+      es: `Sus premios se darán sin limitante;
+        por cartas o por dobles al instante.`,
+      en: `Grant all matching cards that bubble.
+        Even when the roll's a double.`,
     })),
   }, {
     h5: Copy.text({

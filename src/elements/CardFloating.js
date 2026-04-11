@@ -58,8 +58,9 @@ class CardFloating extends Card {
       fontSize: this._t.as(() => `${map(this.z, 0, 1, 0.5, 0.7) * CardFloating.sizeScale}em`),
       zIndex: this._t.as(() => 100 + Math.round(this.z * 30)),
       left: this._t.with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
-        .as((t, s, r) => `calc((100vw - 10em) * ${this.x} - ${s || r ? 0 : document.body.getBoundingClientRect().left}px)`),
-      top: this._t.as(() => `calc((100% - 12em) * ${this.y})`),
+        .as((t, s, r) => `calc((100vw - 5em) * ${this.x} - ${s || r ? 0 : document.body.getBoundingClientRect().left}px)`),
+      top: this._t.with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
+        .as((t, s, r) => `calc((100% - ${s || r ? '6em' : '18em'}) * ${this.y})`),
       transform: this._t.as(() => `rotateX(${this.rx}rad) rotateY(${this.ry}rad) rotateZ(${this.rz}rad)`),
       onmouseout: (e) => this.flick(e),
       onmouseover: () => (this.isStill = true),
@@ -186,8 +187,7 @@ class CardFloating extends Card {
       this.r = Math.round(this.r);
       this.vz *= -1;
     }
-
-    let getNudge = d => this.vFactor * ((d < 0 ? 0 : 1) - d) / 100;
+    let getNudge = d => this.vFactor * ((d < 0 ? 0 : 0.8) - d) / 100;
     if (this.x > 1 || this.x < 0) this.vx += getNudge(this.x);
     if (this.y > 1 || this.y < 0) this.vy += getNudge(this.y);
 
