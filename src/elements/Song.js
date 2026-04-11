@@ -341,7 +341,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/7a1fb96b-47d6-4d5b-befd-05dbde17885d.m4a",
+  es: "https://cdn1.suno.ai/43d46aaf-555c-4824-8d7e-56816f666e3f.m4a",
   en: "https://cdn1.suno.ai/55adfa8d-1d62-4053-b34e-518c769b5365.m4a",
 }), Copy.text({
   es: "Trucos del camino",

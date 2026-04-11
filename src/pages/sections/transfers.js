@@ -13,7 +13,7 @@ const transferSections = [{
     en: "The Transfers",
   }),
   p: versify(Copy.text({
-    es: `1|Es gratis desplazarte a los hexágonos
+    es: `3|Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
       Incluso las montañas por debajo,
       se cruzan con sus túneles gratuitos.
@@ -22,20 +22,20 @@ const transferSections = [{
       <a onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
     en: `5|If you venture on the paths, 
-    you'll move freely on your round.
-    This includes the underpass,
-    found in mountains farther down.
-    Other moves demand <a onclick="popUp('price')"><b>the price</b></a>,
-    paid in suits upon the ground.
-    Pay the total on your dice—
-    that's the minimum amount.`,
+      you'll move freely on your round.
+      This includes the underpass,
+      found in mountains farther down.
+      Other moves demand <a onclick="popUp('price')"><b>the price</b></a>,
+      paid in suits upon the ground.
+      Pay the total on your dice—
+      that's the minimum amount.`,
   })),
   h4: Copy.text({
     es: classifyChars("Vericuetos", "clubs", "spades", " hearts"),
     en: classifyChars("Trailways", "clubs", "spades", " hearts"),
   }),
   p_: versify(Copy.text({
-    es: `23.5|Los bosques, las montañas y los ríos,
+    es: `25.5|Los bosques, las montañas y los ríos,
       que encuentras con sus símbolos abajo,
       permiten que te cambies de camino
       cruzando por el centro en un atajo.
@@ -57,7 +57,7 @@ const transferSections = [{
     en: classifyChars("Merchants", " diamonds", "spades"),
   }),
   p: versify(Copy.text({
-    es: `50.5|<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
+    es: `52|<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
       trasládate por aguas o por tierras.
       Por tierra galopando sin pararte,
       moviéndote a la pieza que prefieras.
@@ -84,7 +84,7 @@ const transferSections = [{
       en: classifyChars("Jokers", " diamonds", "hearts"),
     }),
   }, Copy.text({
-    es: `78|Un jóker se te otorga de pasaje,
+    es: `80.5|Un jóker se te otorga de pasaje,
        <a onclick="popUp('price')">si pagas</a> al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
@@ -102,7 +102,7 @@ const transferSections = [{
     en: classifyChars("Rabbit holes", " diamonds", "clubs"),
   }),
   p: versify(Copy.text({
-    es: `94|<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
+    es: `100|<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
       metiéndote al <a class="pop" onclick="popUp('underground', event)"><i>subsuelo</i></a> por un rato.
@@ -125,7 +125,7 @@ const transferSections = [{
     })
   },
   p_: versify(Copy.text({
-    es: `121|A veces te conviene que salieras,
+    es: `127|A veces te conviene que salieras,
       cayendo de un camino a las orillas.
       Olvida <b>el incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
