@@ -148,7 +148,7 @@ const optionalSections = [{
       en: `If a guest comes where you stand—
         anywhere but underground—
         or your carrot marks that land,
-        vet their hearts to turn them down.`,
+        vet with hearts to turn them down.`,
     })),
   }, {
     h5: Copy.text({
