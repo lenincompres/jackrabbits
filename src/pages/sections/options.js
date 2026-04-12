@@ -177,8 +177,8 @@ const optionalSections = [{
       en: "Windfall Lottery",
     }),
     p: versify(Copy.text({
-      es: `Te premia por aciertos demostrados;
-        y aciertos con un doble de los dados.`,
+      es: `Te premia por aciertos demostrados.
+        Duplica con un doble de los dados.`,
       en: `Grant all matching cards that bubble.
         Even when the roll's a double.`,
     })),
