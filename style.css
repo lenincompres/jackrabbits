@@ -336,10 +336,6 @@ footer.footnote {
 
 @media (width <=88rem) {
 
-  html {
-    overflow-x: hidden;
-  }
-
   body {
     max-width: 45rem;
   }
@@ -428,6 +424,11 @@ footer.footnote {
 
 
 @media (width <=45rem) {
+
+  html {
+    overflow-x: hidden;
+  }
+  
   body {
     max-width: 30rem;
   }
