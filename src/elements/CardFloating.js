@@ -246,7 +246,7 @@ class CardFloating extends Card {
 
   static set(num) {
     if (num === undefined) num = CardFloating.CardNum;
-    DOM.set({
+    document.body.set({
       div: Array(num).fill().map(() => new CardFloating({
         root: 'suityourself/',
       })),
