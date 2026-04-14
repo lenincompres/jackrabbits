@@ -179,8 +179,8 @@ const optionalSections = [{
     p: versify(Copy.text({
       es: `Te premia por aciertos demostrados.
         Duplica con un doble de los dados.`,
-      en: `Grant all matching cards that bubble.
-        Even when the roll's a double.`,
+      en: `Grant all matching cards you hold.
+        Double gains per double rolled.`,
     })),
   }, {
     h5: Copy.text({
