@@ -18,7 +18,7 @@ const homePage = {
     },
     section: [
       splashSection,
-      greetingsSection,
+      //greetingsSection,
       overviewSection,
       endingSection
     ],
@@ -34,7 +34,7 @@ const homePage = {
         Up to four contenders race.`,
       })),
     },
-  }, 1),
+  }),
 };
 
 export default homePage;
