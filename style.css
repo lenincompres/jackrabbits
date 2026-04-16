@@ -346,11 +346,11 @@ footer.footnote {
 
   #hero img,
   #hero video {
-    width: 39rem;
+    width: 40rem;
   }
 
   .handSection>section:not(.letter) {
-    width: 39rem !important;
+    width: 40rem !important;
     padding: 2rem 0.6rem !important;
   }
 
