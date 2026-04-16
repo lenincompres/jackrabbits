@@ -333,7 +333,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("setup"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/62744824-9f19-47c0-b03d-bb7f99014097.m4a",
+  es: "https://cdn1.suno.ai/484dc77a-9dbb-469c-a74e-f2a1a8f2d3e6.m4a",
   en: "https://cdn1.suno.ai/ae9e7541-a9e1-4796-b1b1-703c1a3d921b.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
@@ -373,7 +373,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("full", Card.SUIT.C));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/a001b846-4892-4afb-ae36-1c4475ca1a29.m4a",
+  es: "https://cdn1.suno.ai/5d3b8068-301a-48ef-8c81-cdd90b06a17b.m4a",
   en: "https://cdn1.suno.ai/9dca5a28-3896-4f1b-8792-b992929008d4.m4a",
 }), Copy.text({
   es: "Picas",
