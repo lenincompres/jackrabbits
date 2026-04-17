@@ -428,7 +428,7 @@ footer.footnote {
   html {
     overflow-x: hidden;
   }
-  
+
   body {
     max-width: 30rem;
   }
@@ -444,6 +444,7 @@ footer.footnote {
   #hero img,
   #hero video {
     width: 100%;
+    max-height: 12rem;
   }
 
   header>a.buy {
@@ -927,6 +928,9 @@ body>header h1>* {
 #content media-figure img {
   max-width: 100%;
   max-height: 100%;
+  z-index: 100;
+  position: relative;
+  margin-top: -0.5rem;
 }
 
 .handSection>section media-figure {
