@@ -12,15 +12,15 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `4.5|Tu turno empezará con un presente,
+      `6.5|Tu turno empezará con un presente,
       rifado de la pila tras los dados.
       Si un dado, con valor independiente,
       coincide con un número en tus manos,
       demuestra con la carta pertinente
       que ganas la que rifan de regalo.`,
-      `23.5|El límite de cartas es de nueve. 
+      `25.5|El límite de cartas es de nueve. 
       Descarta la que quieras si te excedes.*`,
-      `31.5|Conserva el resultado de los dados. 
+      `33.5|Conserva el resultado de los dados. 
       Los usas en <a onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
     ],
     en: [
@@ -45,15 +45,15 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `39.5|Del sitio hexagonal en el que empiezas,
+      `41.5|Del sitio hexagonal en el que empiezas,
       escoge si te irás por un camino.
       Señala el recorrido por <a class="pop" onclick="popUp('roadTiles', event)">las piezas</a>
       llevando tu conejo peregrino.
       Termina el movimiento si tropiezas
       con una hexagonal en su destino.`,
-      `58.5|Moverte de la pieza es opcional. 
+      `60.5|Moverte de la pieza es opcional. 
       Depende de tu meta a visitar.`,
-      `66.5|Podrías expandir tus travesías. 
+      `68.5|Podrías expandir tus travesías. 
       Consulta <a href="#intro/transfers"><b>los traslados</b></a> en las vías.`
     ],
     en: [
@@ -78,15 +78,15 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `78|Tu meta es visitar a la nobleza
+      `77|Tu meta es visitar a la nobleza
       si nadie se ha apropiado de sus cartas.
       Un mínimo de diez es lo que cuestan,
       pagado con las cartas de sus marcas.
       Se dejan zanahorias en las piezas,
       que indican los conejos que las cargan.`,
-      `97|Es gratis acceder a los hexágonos. 
+      `95.5|Es gratis acceder a los hexágonos. 
       Procura detenerte visitándolos.`,
-      `105|Conserva lo que adquieras en tu mano. 
+      `103.5|Conserva lo que adquieras en tu mano. 
       Reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
@@ -111,15 +111,15 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `113|Termina en un hexágono tus vueltas,
+      `112|Termina en un hexágono tus vueltas,
       a menos de que salgas a la orilla.**
       Te toca reclamar tu recompensa:
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
       baraja las del lote y recopila.`,
-      `132|*Respeta lo del límite de cartas. 
+      `131|*Respeta lo del límite de cartas. 
       O ignóralo si nadie se percata.`,
-      `140|**Podrías terminar sin incremento. 
+      `139|**Podrías terminar sin incremento. 
       Revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
     ],
     en: [
