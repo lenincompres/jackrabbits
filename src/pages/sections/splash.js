@@ -8,7 +8,7 @@ window.gotoRules = () => {
   let handSection = document.querySelector("hand-section");
   handSection.nextPage();
   handSection.open();
-  handSection.children[3].scrollIntoView();
+  handSection.children[2].scrollIntoView();
 }
 
 const splashSection = {
