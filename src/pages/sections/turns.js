@@ -84,9 +84,9 @@ const turnSections = [{
       pagado con las cartas de sus marcas.
       Se dejan zanahorias en las piezas,
       que indican los conejos que las cargan.`,
-      `95.5|Es gratis acceder a los hexágonos. 
+      `96|Es gratis acceder a los hexágonos. 
       Procura detenerte visitándolos.`,
-      `103.5|Conserva lo que adquieras en tu mano. 
+      `104|Conserva lo que adquieras en tu mano. 
       Reclama <b>el incremento</b> de inmediato.`,
     ],
     en: [
