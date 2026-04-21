@@ -24,7 +24,7 @@ const splashSection = {
         en: "Purchase the game",
       }),
     },
-    img: new MediaFigure("jackRabbits"),
+    figure_splash: new MediaFigure("jackRabbits"),
     p: versify(Copy.text({
       es: `El juego de tablero en el que viajas
       al reino de conejos y barajas.`,

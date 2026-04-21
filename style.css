@@ -930,6 +930,9 @@ body>header h1>* {
   max-height: 100%;
   z-index: 100;
   position: relative;
+}
+
+.splash img{
   margin-top: -0.5rem;
 }
 
