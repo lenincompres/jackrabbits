@@ -90,7 +90,7 @@ class SuitYourself extends HTMLElement {
     this.wisdom.appearStage = 2;
     this.wealth.appearStage = 3;
 
-    this.binderSet({
+    Binder.set(this, {
       shareURL: undefined,
       topCards: [],
       stage: HAND ? STAGE_DONE : STAGE_INTRO,

@@ -12,7 +12,7 @@ class Card extends HTMLElement {
   } = {}) {
     super();
 
-    this.binderSet({
+    Binder.set(this, {
       number: number,
       suit: suit,
       flipped: flipped,

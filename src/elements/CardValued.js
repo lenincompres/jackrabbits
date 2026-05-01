@@ -16,7 +16,7 @@ class CardValued extends Card {
       flipped,
     });
 
-    this.binderSet({
+    Binder.set(this, {
       enabled: enabled, 
       canAdd: true,
     });

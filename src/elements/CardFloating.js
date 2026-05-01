@@ -9,7 +9,7 @@ const map = (value, start1, stop1, start2, stop2) =>
   ((value - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
 
 const pixelArea = (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
-const cardArea = 3 * 260 * 260;
+const cardArea = 2 * 260 * 260;
 const base = Math.floor(pixelArea / cardArea);
 
 class CardFloating extends Card {
@@ -27,7 +27,7 @@ class CardFloating extends Card {
     });
 
     this.permanent = permanent;
-    this.binderSet({
+    Binder.set(this, {
       t: 0
     });
 

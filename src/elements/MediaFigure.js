@@ -18,7 +18,7 @@ export class MediaFigure extends HTMLElement {
     let imgModel = model.img;
     delete model.img;
 
-    this.binderSet({
+    Binder.set(this, {
       videoStarted: false,
     });
 

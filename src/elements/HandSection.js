@@ -13,7 +13,7 @@ export class HandSection extends HTMLElement {
     this.titles = [];
 
     // Bindings
-    this.binderSet({
+    Binder.set(this, {
       currentPage: startingPage,
       peakedPage: null,
     });

@@ -6,7 +6,7 @@ export class RoyalTrio extends HTMLElement {
   constructor() {
     super();
 
-    this.binderSet({
+    Binder.set(this, {
       counter: 0,
       state: 0,
       suits: Card.SUITS,

@@ -11,7 +11,7 @@ class Song {
     this.album = album;
     this.index = Song.List.length;
     this.title = title ? title : src.split("/").pop().split(".")[0];
-    this.binderSet({
+    Binder.set(this, {
       currentTime: 0,
       currentVerse: null,
     });
