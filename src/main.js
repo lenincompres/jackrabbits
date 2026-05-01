@@ -109,9 +109,9 @@ DOM.set({
       p: [
         versify(Copy.text({
           es: `Creado por <a href="https://lenino.net">Lenin A. Comprés</a>
-          usando <a href:"https://github.com/lenincompres/DOM.js/blob/main/README.md">DOM.js</a>.`,
+          usando <a href:"https://github.com/lenincompres/DOM.js/blob/main/README.md">BareDOM</a> JS.`,
           en: `Made by <a href="https://lenino.net">Lenin A. Comprés</a>.
-          Website built with <a href="https://github.com/lenincompres/DOM.js/blob/main/README.md">DOM.js</a>.`,
+          Website built with <a href="https://github.com/lenincompres/DOM.js/blob/main/README.md">BareDOM</a>.`,
         })), Copy.text({
           es: "© 2024 Lenino LLC Todos los derechos reservados.",
           en: "© 2024 Lenino LLC All rights reserved.",
