@@ -3,6 +3,54 @@ import versify from "../../aux/versify.js";
 
 const optionalSections = [{
   h4: Copy.text({
+    es: "Finales",
+    en: "Endings",
+  }),
+  section: [{
+    h5: Copy.text({
+      es: "Corte Triple",
+      en: "Triple Court",
+    }),
+    p: versify(Copy.text({
+      es: `Un fin que del diverso se deriva:
+        los nobles con la letra repetida.`,
+      en: `It’s diverse, but slightly rarer:
+        get three nobles with one letter.`,
+    })),
+  }, {
+    h5: Copy.text({
+      es: "Partida corta",
+      en: "Rabbits Hold’em",
+    }),
+    p: versify(Copy.text({
+      es: `La búsqueda de cartas se aligera,
+        sin que haya que llevarlas al castillo.
+        Si obtienes de las nobles tu tercera,
+        descansas por un turno decisivo.
+        Lo observas con tus cartas, ya por fuera,
+        te quedas con un máximo de cinco.
+        Los tríos se valoran por su regla:
+        tribales superando a los sencillos.
+        Las cartas numerales las integran
+        si empatan en el orden recibido;
+        se suman los valores que contengan,
+        y veinte por un doble es añadido.`,
+      en: `For a quick Jack Rabbits match,
+        end before the courts arrive.
+        Once you hold three royal cards,
+        others get one turn to strive.
+        Step off-board and simply watch—
+        bring the cards you hold to five.
+        Rank the courts by rising match:
+        plain, diverse, monarchic, tribe.
+        Use the rest to boost the ranks,
+        if you have to break a tie;
+        higher cards mean higher marks,
+        but a pair beats single high.`,
+    })),
+  }],
+}, {
+  h4: Copy.text({
     es: "Ases",
     en: "Aces",
   }),
