@@ -12,8 +12,8 @@ const optionalSections = [{
       en: "Triple Court",
     }),
     p: versify(Copy.text({
-      es: `Un fin que del diverso se deriva:
-        los nobles con la letra repetida.`,
+      es: `<a onclick="popUp('endings', event)">Un fin que del <b>diverso</b></a> se deriva:
+        tus nobles con la letra repetida.`,
       en: `It’s diverse, but slightly rarer:
         get three nobles with one letter.`,
     })),
@@ -26,7 +26,7 @@ const optionalSections = [{
       es: `La búsqueda de cartas se aligera,
         sin que haya que llevarlas al castillo.
         Si obtienes de las nobles tu tercera,
-        descansas por un turno decisivo.
+        descansa por un turno decisivo.
         Lo observas con tus cartas, ya por fuera,
         te quedas con un máximo de cinco.
         Los tríos se valoran por su regla:
