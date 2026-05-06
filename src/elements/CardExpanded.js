@@ -198,7 +198,7 @@ new Song(Copy.text({
   en: "https://cdn1.suno.ai/2b117e40-7099-4699-86c1-d72d0502fc4e.m4a",
 }), Copy.text({
   es: "Andares",
-  en: "Wanders",
+  en: "Allures",
 }), () => {
   Song.visitPage("expansion", CardExpanded.SUIT.W);
   popUp("wanderTiles");

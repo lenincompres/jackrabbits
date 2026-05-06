@@ -91,8 +91,8 @@ const expansionPage = {
   }), new HandSection({
     header: {
       h2: Copy.text({
-        en: "Classic expansions",
-        es: "Expansiones clásicas",
+        en: "Neoclassic expansions",
+        es: "Expansiones Neoclásicas",
       }),
       p: versify(Copy.text({
         en: `Each includes unique conditions;

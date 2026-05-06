@@ -197,11 +197,11 @@ const classicSections = [{
   style: suitStyle(CardExpanded.SUIT.W),
   h3_port: Copy.text({
     es: "+ Andares",
-    en: "+ Wanders",
+    en: "+ Allures",
   }),
   //img: new MediaFigure("allies,
   p: versify(Copy.text({
-    es: [`0|Las cartas con andares permitidas
+    es: [`0|Las cartas peregrinas permitidas
       añaden veintidós interferencias:
       misiones que varían la partida,
       y un set particular de carreteras.`,
@@ -211,26 +211,26 @@ const classicSections = [{
       llevándolas en vez de a la nobleza.`,
       `28.5|Se integran al inicio de la pila,
       y adquieren normalmente en el proceso.
-      Las usas en el pago de sus vías,
+      Las usas en sus vías peregrinas,
       y exponen aventuras en sus textos.`,
-      `42|Las cartas con andares que recibas 
+      `42|Las cartas peregrinas que recibas 
       te muestran sus propósitos secretos. 
       Las pones en tu frente bocarriba 
       si logras las acciones de sus retos.`,
-      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> con lugares que resaltan,
+      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> peregrinas que resaltan,
       reflejan a las clásicas que tienes.
       sus triángulos y rombos se destacan,
       incluso si sus usos se mantienen.`,
       `84|En estas, tus andares se descartan, 
       pagando las acciones que te ofrecen. 
-      Las cartas con andares que descartas 
+      Las cartas peregrinas que descartas 
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
       `0|Twenty two new cards omitted
       bear no suit nor noble spell,
-      they reveal new quests admitted,
-      and bring wander tiles as well.`,
+      they allure to quests permitted,
+      and through wander paths as well.`,
       `14.5,58,107,190|With three wander cards completed,
       brought unto the Citadel,
       a new winner has succeeded—
@@ -259,7 +259,7 @@ export const wanderTiles = {
   dataLyrics: 20,
   id: "wanderTiles",
   h3: Copy.text({
-    es: "Vías de andares",
+    es: "Vías Peregrinas",
     en: "Wander tiles",
   }),
   img: new MediaFigure("wanderTiles"),
@@ -269,7 +269,7 @@ export const wanderTiles = {
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
       Excepto por el pozo, que es su cueva, 
-      prohibida de ser por la que sales. 
+      se ingresa sin la opción de que te sales. 
       Y el trío de los rombos se renueva: 
       lo mismo por sus cuatro laterales.`,
     en: `128|There’s a roadway set to wander,
