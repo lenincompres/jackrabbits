@@ -212,7 +212,7 @@ const classicSections = [{
       `28.5|Se integran al inicio de la pila,
       y adquieren normalmente en el proceso.
       Las usas en sus vías peregrinas,
-      y exponen aventuras en sus textos.`,
+      y obtienes aventuras en sus textos.`,
       `42|Las cartas peregrinas que recibas 
       te muestran sus propósitos secretos. 
       Las pones en tu frente bocarriba 
