@@ -203,8 +203,8 @@ const classicSections = [{
   p: versify(Copy.text({
     es: [`0|Las cartas peregrinas permitidas
       añaden veintidós interferencias:
-      misiones que transforman las partidas,
-      y agregan carreteras a las piezas.`,
+      misiones que transforman las partidas
+      y vienen con un set de carreteras.`,
       `13.5,55.5,97,170|Con tres de sus misiones concluidas,
       podrías reclamar la Ciudadela,
       y el juego de inmediato se termina
