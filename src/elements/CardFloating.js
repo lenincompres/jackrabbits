@@ -8,9 +8,13 @@ const PI4 = Math.PI / 4;
 const map = (value, start1, stop1, start2, stop2) =>
   ((value - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
 
-const pixelArea = (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
-const cardArea = 2 * 260 * 260;
-const base = Math.floor(pixelArea / cardArea);
+let base = getBase();
+function getBase() {
+  const pixelArea = (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
+  const cardArea = 4 * 300 * 300;
+  return Math.floor(pixelArea / cardArea);
+}
+window.addEventListener("resize", () => base = getBase());
 
 class CardFloating extends Card {
   constructor({
@@ -242,7 +246,9 @@ class CardFloating extends Card {
     Math.min(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 2 : 3, base)
   );
 
-  static sizeScale = Math.max(1.25, Math.min(base / 4.5, 2));
+  static get sizeScale() {
+    return Math.max(1.25, Math.min(base / 3, 2));
+  }
 
   static set(num) {
     if (num === undefined) num = CardFloating.CardNum;

@@ -58,7 +58,7 @@ const classicSections = [{
       y elige si con ella trasladarte.
       La víctima termina en el destierro
       y apúntale a la carta que descarte.`,
-    en: `95.5|At its post or from a den,
+    en: `95.5|At her post or from a den,
       send the wolf to any rabbit.
       Spook off-board your target then,
       take a card from them and scrap it.
