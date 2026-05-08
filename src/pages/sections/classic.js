@@ -244,8 +244,8 @@ const classicSections = [{
       Show them off upon completion—
       keep them laid in front of you.`,
       `80|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
-      rivers, woods, caves, taverns, forks:
-      a volcano, marshes, fountain,
+      rivers, woods, caves, taverns, forks. 
+      There's a crater, marshes, fountain,
       circus, well, bazaar—the works.`,
       `94|Wander cards may be discarded
       on these places from their pack.
