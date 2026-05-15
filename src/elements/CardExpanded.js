@@ -166,8 +166,8 @@ new Song(Copy.text({
 Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/770a5bff-2f0b-4ceb-a86d-9a2133db104f.m4a",
-  en: "https://cdn1.suno.ai/4fbdc3c2-2445-4a74-9988-06427491af1a.m4a",
+  es: "https://cdn1.suno.ai/6ed1faab-c7aa-49eb-aa76-d193d1966897.m4a",
+  en: "https://cdn1.suno.ai/12792058-fe0e-4e89-8dd4-4169e04ba4da.m4a",
 }), Copy.text({
   es: "Flores",
   en: "Fleurs",
