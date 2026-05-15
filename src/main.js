@@ -108,10 +108,9 @@ DOM.set({
       marginTop: "1.5rem",
       p: [
         versify(Copy.text({
-          es: `Creado por <a href="https://lenino.net">Lenin A. Comprés</a>
-          usando <a href:"https://github.com/lenincompres/DOM.js/blob/main/README.md">BareDOM</a> JS.`,
+          es: `Creado por <a href="https://lenino.net">Lenin A. Comprés</a> usando <a href="https:baredom.org">BareDOM</a> JS.`,
           en: `Made by <a href="https://lenino.net">Lenin A. Comprés</a>.
-          Website built with <a href="https://github.com/lenincompres/DOM.js/blob/main/README.md">BareDOM</a>.`,
+          Website built with <a href="https:baredom.org">BareDOM</a>.`,
         })), Copy.text({
           es: "© 2024 Lenino LLC Todos los derechos reservados.",
           en: "© 2024 Lenino LLC All rights reserved.",

@@ -105,7 +105,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.FS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/dcbcb4e6-42e9-488e-a44d-f152c67a78c2.m4a",
+  es: "https://cdn1.suno.ai/0db920f4-3480-4b7f-b62e-2127995e3d74.m4a",
   en: "https://cdn1.suno.ai/5592a31b-0169-4a9c-b75c-5b134199335f.m4a",
 }), Copy.text({
   es: "Antorchas",
@@ -122,8 +122,8 @@ new Song(Copy.text({
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.FH, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/3a272e14-2945-443d-9385-1871a4efbe45.m4a",
-  en: "https://cdn1.suno.ai/ff1243b3-85e7-4aae-991e-a05892c62a08.m4a",
+  es: "https://cdn1.suno.ai/6e389263-7175-4d9e-945b-3d70fe4f1ce8.m4a",
+  en: "https://cdn1.suno.ai/56dd889e-d396-47f5-b962-47e943d945bc.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
@@ -133,7 +133,7 @@ Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a1832a9a-eb14-4a01-8b48-33a78e5cf643.m4a",
-  en: "https://cdn1.suno.ai/15aeefa2-c86e-4890-a90d-d91037a800f9.m4a",
+  en: "https://cdn1.suno.ai/f7cf2867-2891-4473-b052-0891959baf48.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -156,7 +156,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.NS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/e516d762-7f7a-466c-9aa1-b9420d70af79.m4a",
+  es: "https://cdn1.suno.ai/456f2c4a-098e-44c2-bfb7-a42e8c2a7fce.mp3",
   en: "https://cdn1.suno.ai/920e3094-d826-411f-a686-1d72821380d8.m4a",
 }), Copy.text({
   es: "Carámbanos",
@@ -194,7 +194,7 @@ Song.shuffleRange(Song.List.length - 3);
 //
 let wanderTilesUp = false;
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/5a1e05f0-7fa2-444e-bb3a-10f0b99c58ce.m4a",
+  es: "https://cdn1.suno.ai/e5d2be26-37cb-48a6-8f89-7cdf83af6de7.m4a",
   en: "https://cdn1.suno.ai/2b117e40-7099-4699-86c1-d72d0502fc4e.m4a",
 }), Copy.text({
   es: "Andares",
