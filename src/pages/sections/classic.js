@@ -228,9 +228,9 @@ const classicSections = [{
     ],
     en: [
       `0|Twenty two new cards omitted
-      bear no suit nor noble spell,
-      they allure to quests permitted,
-      and through wander paths as well.`,
+      bear no suit nor noble spell. 
+      They allure to quests permitted,
+      and bring wander tiles as well.`,
       `14.5,58,107,190|With three wander cards completed,
       brought unto the Citadel,
       a new winner has succeeded—
@@ -244,8 +244,8 @@ const classicSections = [{
       Show them off upon completion—
       keep them laid in front of you.`,
       `80|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
-      rivers, woods, caves, taverns, forks:
-      a volcano, marshes, fountain,
+      rivers, woods, caves, taverns, forks. 
+      There's a crater, marshes, fountain,
       circus, well, bazaar—the works.`,
       `94|Wander cards may be discarded
       on these places from their pack.
@@ -269,7 +269,7 @@ export const wanderTiles = {
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
       Excepto por el pozo, que es su cueva, 
-      se ingresa sin la opción de que te sales. 
+      resulta de salida inalcanzable. 
       Y el trío de los rombos se renueva: 
       lo mismo por sus cuatro laterales.`,
     en: `128|There’s a roadway set to wander,
