@@ -216,8 +216,8 @@ const classicSections = [{
       `42|Las cartas peregrinas que recibas 
       te muestran sus propósitos secretos. 
       Las pones en tu frente bocarriba 
-      si logras las acciones de sus retos.`,
-      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> peregrinas que resaltan,
+      si logras los andares de sus retos.`,
+      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> carreteras que resaltan,
       reflejan a las clásicas que tienes.
       sus triángulos y rombos se destacan,
       incluso si sus usos se mantienen.`,
