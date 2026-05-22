@@ -10,11 +10,12 @@ const map = (value, start1, stop1, start2, stop2) =>
 
 let base = getBase();
 function getBase() {
-  const pixelArea = (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
+  const pixelArea =
+    (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
   const cardArea = 4 * 300 * 300;
   return Math.floor(pixelArea / cardArea);
 }
-window.addEventListener("resize", () => base = getBase());
+window.addEventListener("resize", () => (base = getBase()));
 
 class CardFloating extends Card {
   constructor({
@@ -32,7 +33,7 @@ class CardFloating extends Card {
 
     this.permanent = permanent;
     Binder.set(this, {
-      t: 0
+      t: 0,
     });
 
     // position & rotation
@@ -57,20 +58,33 @@ class CardFloating extends Card {
     this._interval = setInterval(() => this.step(), 24);
 
     this.set({
-      position: CardFloating._forcedSuit.with(CardFloating._forcedRoyal).as((s, r) => s || r ? "fixed" : "absolute"),
+      position: CardFloating._forcedSuit
+        .with(CardFloating._forcedRoyal)
+        .as((s, r) => (s || r ? "fixed" : "absolute")),
       boxShadow: this._t.as(() => this.getShadow()),
-      fontSize: this._t.as(() => `${map(this.z, 0, 1, 0.5, 0.7) * CardFloating.sizeScale}em`),
+      fontSize: this._t.as(
+        () => `${map(this.z, 0, 1, 0.5, 0.7) * CardFloating.sizeScale}em`,
+      ),
       zIndex: this._t.as(() => 100 + Math.round(this.z * 30)),
-      left: this._t.with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
-        .as((t, s, r) => `calc((100vw - 5em) * ${this.x} - ${s || r ? 0 : document.body.getBoundingClientRect().left}px)`),
-      top: this._t.with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
-        .as((t, s, r) => `calc((100% - ${s || r ? '6em' : '18em'}) * ${this.y})`),
-      transform: this._t.as(() => `rotateX(${this.rx}rad) rotateY(${this.ry}rad) rotateZ(${this.rz}rad)`),
+      left: this._t
+        .with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
+        .as(
+          (t, s, r) =>
+            `calc((100vw - 5em) * ${this.x} - ${s || r ? 0 : document.body.getBoundingClientRect().left}px)`,
+        ),
+      top: this._t
+        .with(CardFloating._forcedSuit, CardFloating._forcedRoyal)
+        .as(
+          (t, s, r) => `calc((100% - ${s || r ? "6em" : "18em"}) * ${this.y})`,
+        ),
+      transform: this._t.as(
+        () =>
+          `rotateX(${this.rx}rad) rotateY(${this.ry}rad) rotateZ(${this.rz}rad)`,
+      ),
       onmouseout: (e) => this.flick(e),
       onmouseover: () => (this.isStill = true),
       onready: () => setTimeout(() => this.flick(), 1000),
     });
-
 
     // initial jerk to get things moving
     this.jerk();
@@ -191,7 +205,7 @@ class CardFloating extends Card {
       this.r = Math.round(this.r);
       this.vz *= -1;
     }
-    let getNudge = d => this.vFactor * ((d < 0 ? 0 : 0.8) - d) / 100;
+    let getNudge = (d) => (this.vFactor * ((d < 0 ? 0 : 0.8) - d)) / 100;
     if (this.x > 1 || this.x < 0) this.vx += getNudge(this.x);
     if (this.y > 1 || this.y < 0) this.vy += getNudge(this.y);
 
@@ -221,7 +235,10 @@ class CardFloating extends Card {
     else if (CardFloating._forcedRoyal.value === false) max = 10;
     this.number = min + Math.round(Math.random() * (max - min));
 
-    if (CardFloating._forcedSuit.value && CardFloating._forcedSuit.value.image) {
+    if (
+      CardFloating._forcedSuit.value &&
+      CardFloating._forcedSuit.value.image
+    ) {
       this.suit = CardFloating._forcedSuit.value;
     } else {
       this.suit =
@@ -230,7 +247,8 @@ class CardFloating extends Card {
 
     if (
       CardFloating.cards.filter(
-        (c) => c !== this & c.number === this.number && this.suit === c.suit
+        (c) =>
+          (c !== this) & (c.number === this.number) && this.suit === c.suit,
       ).length
     ) {
       this.random();
@@ -241,25 +259,35 @@ class CardFloating extends Card {
   static _forcedRoyal = new Binder();
   static cards = [];
 
-  static CardNum = Math.max(
-    1,
-    Math.min(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 2 : 3, base)
-  );
+  static get CardNum() {
+    return Math.max(
+      1,
+      Math.min(
+        /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 2 : 3,
+        base,
+      ),
+    );
+  }
 
   static get sizeScale() {
-    return Math.max(1.25, Math.min(base / 3, 2));
+    return Math.max(1, Math.min(base / CardFloating.CardNum, 2));
   }
 
   static set(num) {
     if (num === undefined) num = CardFloating.CardNum;
     document.body.set({
-      div: Array(num).fill().map(() => new CardFloating({
-        root: 'suityourself/',
-      })),
+      div: Array(num)
+        .fill()
+        .map(
+          () =>
+            new CardFloating({
+              root: "suityourself/",
+            }),
+        ),
     });
   }
 
-  static force(suit, royals){
+  static force(suit, royals) {
     CardFloating._forcedRoyal.value = undefined;
     if (typeof suit === "boolean") {
       CardFloating._forcedRoyal.value = suit;
@@ -271,6 +299,5 @@ class CardFloating extends Card {
 }
 
 customElements.define("jk-card-float", CardFloating);
-
 
 export default CardFloating;
