@@ -235,7 +235,7 @@ const classicSections = [{
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
-      `30.5|Shuffle them into the deck,
+      `33.5|Shuffle them into the deck,
       while you ready up the pile.
       You may draw them as you trek—
       play them in their special style.`,

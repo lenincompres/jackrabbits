@@ -98,7 +98,7 @@ export default CardExpanded;
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/bccdb590-016b-4c2f-a527-31ebfdf5c699.m4a",
-  en: "https://cdn1.suno.ai/f1fd6431-91cb-4886-a8dd-59f602994537.m4a",
+  en: "https://cdn1.suno.ai/a53542f3-4092-466c-bb0f-a2e0e301b4cc.m4a",
 }), Copy.text({
   es: "Escudos",
   en: "Sheilds",
@@ -123,7 +123,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/6e389263-7175-4d9e-945b-3d70fe4f1ce8.m4a",
-  en: "https://cdn1.suno.ai/56dd889e-d396-47f5-b962-47e943d945bc.m4a",
+  en: "https://cdn1.suno.ai/ed66406d-03b9-4a3a-8db5-3e7c0087ac0d.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
@@ -133,7 +133,7 @@ Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a1832a9a-eb14-4a01-8b48-33a78e5cf643.m4a",
-  en: "https://cdn1.suno.ai/f7cf2867-2891-4473-b052-0891959baf48.m4a",
+  en: "https://cdn1.suno.ai/2e6fd43d-3763-414a-a9ef-00e9c84d81e2.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -149,15 +149,15 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
-  en: "https://cdn1.suno.ai/1296ba51-4771-413a-a2a6-08df3d5ad902.m4a",
+  en: "https://cdn1.suno.ai/7f5d9f8d-d3df-4ed5-9bdf-a77a43e8067a.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.NS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/456f2c4a-098e-44c2-bfb7-a42e8c2a7fce.mp3",
-  en: "https://cdn1.suno.ai/920e3094-d826-411f-a686-1d72821380d8.m4a",
+  es: "https://cdn1.suno.ai/456f2c4a-098e-44c2-bfb7-a42e8c2a7fce.m4a",
+  en: "https://cdn1.suno.ai/fe8eb630-47f5-4c16-b5d6-39597c682a5e.m4a",
 }), Copy.text({
   es: "Carámbanos",
   en: "Icicles",
@@ -195,7 +195,7 @@ Song.shuffleRange(Song.List.length - 3);
 let wanderTilesUp = false;
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/e5d2be26-37cb-48a6-8f89-7cdf83af6de7.m4a",
-  en: "https://cdn1.suno.ai/2b117e40-7099-4699-86c1-d72d0502fc4e.m4a",
+  en: "https://cdn1.suno.ai/a505ab4b-2d4d-4e54-896d-9785ef9b9549.m4a",
 }), Copy.text({
   es: "Andares",
   en: "Allures",

@@ -28,10 +28,10 @@ const optionalSections = [{
         Si obtienes de las nobles tu tercera,
         descansa por un turno decisivo.
         Lo observas con tus cartas, ya por fuera,
-        te quedas con un máximo de cinco.
+        y en mano con un máximo de cinco.
         Los tríos se valoran por su regla:
-        tribales superando a los sencillos.
-        Las cartas numerales las integran
+        <a onclick="popUp('endings', event)">tribales superando a los sencillos<a>.
+        Compara las de números que tengan
         si empatan en el orden recibido;
         se suman los valores que contengan,
         y veinte por un doble es añadido.`,
@@ -42,8 +42,8 @@ const optionalSections = [{
         Step off-board and simply watch—
         bring the cards you hold to five.
         Rank the courts by rising match:
-        plain, diverse, monarchic, tribe.
-        Use the rest to boost the ranks,
+        <a onclick="popUp('endings', event)">plain, diverse, monarchic, tribe</a>.
+        Number cars may boost the ranks,
         if you have to break a tie;
         higher cards mean higher marks,
         but a pair beats single high.`,
