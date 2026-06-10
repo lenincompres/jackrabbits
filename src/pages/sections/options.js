@@ -12,9 +12,9 @@ const optionalSections = [{
       en: "Triple Court",
     }),
     p: versify(Copy.text({
-      es: `<a onclick="popUp('endings', event)">Un fin que del <b>diverso</b></a> se deriva:
+      es: `Un fin que del <a onclick="popUp('endings', event)"><b>diverso</b></a> se deriva:
         tus nobles con la letra repetida.`,
-      en: `It’s diverse, but slightly rarer:
+      en: `Like <a onclick="popUp('endings', event)"><b>diverse</b></a>, but slightly rarer:
         get three nobles with one letter.`,
     })),
   }, {
