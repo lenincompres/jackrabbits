@@ -142,7 +142,7 @@ const classicSections = [{
       `24|Los símbolos de enlaces que visitas,
       se deben combinar al adquirirlas.
       Un trío es del sector capitalista;
-      y el otro, de la unión naturalista.`,
+      y el otro, de la unión ecologista.`,
       `43.5|Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
       El vuelo de sus torres, si hay restante,
@@ -157,7 +157,7 @@ const classicSections = [{
       Six more royals add their tiles,
       with alliances portrayed.`,
       `25|These are three capitalists
-        and three naturalist cards.
+        and three ecologist cards.
         Pay them both the suits they list—
         split the cost in any parts.`,
       `37.5|See their merchants, taverns, caves—

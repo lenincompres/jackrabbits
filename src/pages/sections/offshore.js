@@ -193,7 +193,7 @@ const offshoreSections = [{
       Retén sus visitantes, congelándolo;
       mas esto es imposible en el subsuelo.
       Si intentan escaparse del hexágono,
-      se van precipitándose al destierro.`,
+      saldrán precipitándose al destierro.`,
     en: `50|Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex to that piece—
