@@ -64,7 +64,7 @@ const optionalSections = [{
         que cuentan por un <b>1</b> o por un <b>11</b>,
         ya sea en el momento en que los gastes
         o incluso en el momento que los compres.`,
-      en: `Choose to use them as <b>11</b>,
+      en: `Count their value as <b>11</b>,
       any time you play an <b>A</b>ce.
       Or a <b>1</b> when it's deserving—
       lottery or marketplace.`,
@@ -72,7 +72,7 @@ const optionalSections = [{
   }, {
     h5: Copy.text({
       es: "Ases capitales",
-      en: "Capital Aces",
+      en: "Capital Aces", 
     }),
     p: versify(Copy.text({
       es: `El as que de primero desembolses,
@@ -189,14 +189,14 @@ const optionalSections = [{
       en: "Hearts Boost",
     }),
     p: versify(Copy.text({
-      es: `Cuestionas, al igual que en los palacios,
-        con pruebas y destierro de su viaje,
-        a quien se te presente en tu descanso
-        o esté tu zanahoria en su paraje.`,
-      en: `If a guest comes where you stand—
-        anywhere but underground—
-        or your carrot marks that land,
-        vet with hearts to turn them down.`,
+      es: `Te pueden cuestionar al detenerte,
+      si hay una zanahoria en el lugar;
+      tal como en los palacios se requiere,
+      vetar tus corazones al llegar.`,
+      en: `Any hex a carrot marks 
+      is considered palace grounds.
+      Anyone may vet with hearts 
+      as a player comes around.`,
     })),
   }, {
     h5: Copy.text({
