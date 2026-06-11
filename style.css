@@ -23,10 +23,10 @@
   --shimmer: #92e192cc;
   --dark: hsla(60, 60%, 15%, 0.4);
 
-  --land: #228B22;
+  --land: #228b22;
   --sea: #016994;
   --road: lightgoldenrodyellow;
-  --port: #A4A587;
+  --port: #a4a587;
 
   --clubs: #008480;
   --hearts: #a52a2a;
@@ -83,19 +83,19 @@ header {
   position: relative;
 }
 
-.handSection>header.margin {
+.handSection > header.margin {
   position: absolute;
   left: 55em;
   top: -1em;
   width: 0;
 }
 
-.handSection>header.margin h2 {
+.handSection > header.margin h2 {
   rotate: 90deg;
   color: var(--dark);
 }
 
-.handSection>header.margin h2:after {
+.handSection > header.margin h2:after {
   content: "↓";
   margin-left: 0.3em;
 }
@@ -177,49 +177,77 @@ audio.playing {
   max-height: 16rem;
   height: 54vw;
   object-fit: cover;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   box-shadow: 1px 1px 4px black;
   overflow: hidden;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
+/*
 .handSection:not(.shuffle)>.lyrics-section.playing h2,
 .handSection:not(.shuffle)>.lyrics-section.playing h3,
 .handSection:not(.shuffle)>.lyrics-section.playing h4,
 light-box>.lyrics-section.playing a {
   color: var(--light);
+}*/
+
+.lyrics-section.playing h2,
+.lyrics-section.playing h3,
+.lyrics-section.playing h4,
+light-box > .lyrics-section.playing a {
+  color: var(--light);
 }
 
-.handSection>section p.lyrics {
+.handSection > section p.lyrics {
   width: 100%;
   max-width: 36rem;
 }
 
-.handSection>section .lyrics {
+.handSection > section .lyrics {
   border-radius: 0.25rem;
   -webkit-border-radius: 0.25rem;
   -moz-border-radius: 0.25rem;
   -ms-border-radius: 0.25rem;
   -o-border-radius: 0.25rem;
-  transition: background 0.3s, box-shadow 0.3s;
-  -webkit-transition: background 0.3s, box-shadow 0.3s;
-  -moz-transition: background 0.3s, box-shadow 0.3s;
-  -ms-transition: background 0.3s, box-shadow 0.3s;
-  -o-transition: background 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -webkit-transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -moz-transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -ms-transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -o-transition:
+    background 0.3s,
+    box-shadow 0.3s;
 }
 
-.handSection>.lyrics-section.playing,
-light-box>section:has(>.lyrics-section.playing) {
+.handSection > .lyrics-section.playing,
+light-box > section:has(> .lyrics-section.playing) {
   background-color: var(--ink);
   color: white;
-  transition: background 0.3s, box-shadow 0.3s;
-  -webkit-transition: background 0.3s, box-shadow 0.3s;
-  -moz-transition: background 0.3s, box-shadow 0.3s;
-  -ms-transition: background 0.3s, box-shadow 0.3s;
-  -o-transition: background 0.3s, box-shadow 0.3s;
+  transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -webkit-transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -moz-transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -ms-transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  -o-transition:
+    background 0.3s,
+    box-shadow 0.3s;
 }
 
 .lyrics.off {
@@ -233,7 +261,7 @@ light-box>section:has(>.lyrics-section.playing) {
   box-shadow: 0 0 0.5rem var(--light);
 }
 
-.lyrics-section.playing h4>span {
+.lyrics-section.playing h4 > span {
   text-shadow: 0 0 2px black;
 }
 
@@ -262,7 +290,6 @@ footer.footnote {
 }
 
 @media (width > 88rem) {
-
   #languageMenu {
     position: absolute;
     margin: 0.5rem 2rem;
@@ -270,40 +297,52 @@ footer.footnote {
     right: 0;
   }
 
-  .handSection>section {
+  .handSection > section {
     background-color: white;
-    box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px var(--ink);
-    transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
-    -webkit-transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
-    -moz-transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
-    -ms-transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
-    -o-transition: background-color 0.2s ease-in-out, margin-left 0.2s ease-in-out;
+    box-shadow:
+      0 0 3rem var(--shade) inset,
+      1px 1px 4px var(--ink);
+    transition:
+      background-color 0.2s ease-in-out,
+      margin-left 0.2s ease-in-out;
+    -webkit-transition:
+      background-color 0.2s ease-in-out,
+      margin-left 0.2s ease-in-out;
+    -moz-transition:
+      background-color 0.2s ease-in-out,
+      margin-left 0.2s ease-in-out;
+    -ms-transition:
+      background-color 0.2s ease-in-out,
+      margin-left 0.2s ease-in-out;
+    -o-transition:
+      background-color 0.2s ease-in-out,
+      margin-left 0.2s ease-in-out;
   }
 
-  .handSection.menu>section {
+  .handSection.menu > section {
     background-color: #fff8;
   }
 
-  .handSection:not(.menu)>section:not(.opened) {
+  .handSection:not(.menu) > section:not(.opened) {
     margin-left: -20.8rem !important;
   }
 
-  .handSection:not(.menu)>section:not(.opened) a,
-  .handSection:not(.menu)>section:not(.opened) media-figure {
+  .handSection:not(.menu) > section:not(.opened) a,
+  .handSection:not(.menu) > section:not(.opened) media-figure {
     pointer-events: none;
   }
 
-  .handSection:not(.menu)>section:hover,
-  .handSection:not(.menu)>section.peak {
+  .handSection:not(.menu) > section:hover,
+  .handSection:not(.menu) > section.peak {
     margin-left: -10rem !important;
   }
 
-  .handSection:not(.menu)>section.opened,
-  .handSection:not(.menu)>section:first-child {
+  .handSection:not(.menu) > section.opened,
+  .handSection:not(.menu) > section:first-child {
     margin-left: 0.17rem !important;
   }
 
-  .handSection>footer,
+  .handSection > footer,
   .nextArrow {
     display: none;
   }
@@ -312,7 +351,7 @@ footer.footnote {
     display: block;
   }
 
-  .handSection.opened>footer,
+  .handSection.opened > footer,
   .opened .nextArrow {
     display: block;
   }
@@ -322,7 +361,7 @@ footer.footnote {
   }
 
   .optional,
-  .handSection.shuffle>section {
+  .handSection.shuffle > section {
     background-color: white;
   }
 
@@ -331,11 +370,9 @@ footer.footnote {
     justify-content: center !important;
     box-shadow: none !important;
   }
-
 }
 
 @media (width <=88rem) {
-
   body {
     max-width: 45rem;
   }
@@ -349,12 +386,12 @@ footer.footnote {
     width: 40rem;
   }
 
-  .handSection>section:not(.letter) {
+  .handSection > section:not(.letter) {
     width: 40rem !important;
     padding: 2rem 0.6rem !important;
   }
 
-  .handSection:not(.shuffle)>.lyrics-section {
+  .handSection:not(.shuffle) > .lyrics-section {
     margin-top: 0;
     margin-bottom: 0;
     border-radius: 0;
@@ -364,34 +401,28 @@ footer.footnote {
     -o-border-radius: 0;
   }
 
-  .handSection:not(.shuffle)>.lyrics-section.playing:first-of-type {
+  .handSection:not(.shuffle) > .lyrics-section.playing:first-of-type {
     margin-top: 0.2rem !important;
     border-top-left-radius: 0.5rem !important;
     border-top-right-radius: 0.5rem !important;
   }
 
-  .handSection:not(.shuffle)>.lyrics-section.playing:last-of-type {
+  .handSection:not(.shuffle) > .lyrics-section.playing:last-of-type {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
 
-  .handSection:not(.shuffle)>.lyrics-section.playing:last-of-type {
+  .handSection:not(.shuffle) > .lyrics-section.playing:last-of-type {
     margin-bottom: 0.5rem !important;
     padding-bottom: 2rem !important;
   }
 
-  .handSection>.lyrics-section.playing,
-  light-box>section:has(>.lyrics-section.playing) {
+  .handSection > .lyrics-section.playing,
+  light-box > section:has(> .lyrics-section.playing) {
     box-shadow: 0 0 2rem var(--light) inset;
   }
 
-  .lyrics-section.playing h2,
-  .lyrics-section.playing h3,
-  .lyrics-section.playing h4 {
-    color: var(--light);
-  }
-
-  html[lang="es"] .handSection>section {
+  html[lang="es"] .handSection > section {
     width: 40rem !important;
   }
 
@@ -419,12 +450,9 @@ footer.footnote {
     position: relative;
     margin: 1rem -0.6rem -2rem;
   }
-
 }
 
-
 @media (width <=45rem) {
-
   html {
     overflow-x: hidden;
   }
@@ -437,7 +465,7 @@ footer.footnote {
     white-space: initial;
   }
 
-  line>span {
+  line > span {
     display: block !important;
   }
 
@@ -447,12 +475,12 @@ footer.footnote {
     max-height: 11rem;
   }
 
-  header>a.buy {
+  header > a.buy {
     display: none;
   }
 
-  light-box>section,
-  main>ul {
+  light-box > section,
+  main > ul {
     margin: 0.5rem;
     width: 100% !important;
   }
@@ -466,11 +494,11 @@ footer.footnote {
     flex-wrap: nowrap;
   }
 
-  footer .bulletMenu>ul>li {
+  footer .bulletMenu > ul > li {
     margin: 0.5rem 0;
   }
 
-  footer .bulletMenu>ul>li:not(:first-child)::before {
+  footer .bulletMenu > ul > li:not(:first-child)::before {
     display: none;
   }
 
@@ -481,7 +509,6 @@ footer.footnote {
   .playlist a {
     font-size: 1.1rem;
   }
-
 }
 
 h1,
@@ -510,7 +537,7 @@ h2 {
 
 h3 {
   font-size: 1.3em;
-  color: var(--ink)
+  color: var(--ink);
 }
 
 h4 {
@@ -518,7 +545,7 @@ h4 {
 }
 
 h5 {
-  font-size: .95em;
+  font-size: 0.95em;
 }
 
 h3,
@@ -552,18 +579,16 @@ p {
   margin-bottom: 0;
 }
 
-line>span {
+line > span {
   display: inline-block;
   text-wrap: nowrap;
 }
 
-
-li>line>span {
+li > line > span {
   display: block;
 }
 
-
-line>span.highlighted {
+line > span.highlighted {
   background: #fd68;
   border-radius: 0.5em;
   font-weight: bold;
@@ -594,7 +619,6 @@ line>span.highlighted {
   left: unset;
   right: -1.3em;
 }
-
 
 .sing {
   display: inline-block;
@@ -671,7 +695,7 @@ nav a {
 a.button {
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'title';
+  font-family: "title";
   display: inline-block;
   margin: 0 auto;
   width: fit-content;
@@ -686,7 +710,6 @@ a.button {
   -ms-border-radius: 0.4em;
   -o-border-radius: 0.4em;
 }
-
 
 a.button:hover {
   background-color: hsl(198, 99%, 40%);
@@ -717,16 +740,17 @@ light-box a.button.song:hover {
 a.button.song.playing {
   border-color: var(--light);
   color: var(--light);
-  box-shadow: 0 0 0.5em var(--light), 0 0 0.5em var(--light) inset;
+  box-shadow:
+    0 0 0.5em var(--light),
+    0 0 0.5em var(--light) inset;
 }
 
-.handSection.shuffle>section a.button.song small {
+.handSection.shuffle > section a.button.song small {
   display: none !important;
 }
 
 a.video {
   border: solid 1px var(--home);
-  ;
   font-size: 1.2em;
   background-color: var(--dark);
   position: absolute;
@@ -738,7 +762,7 @@ a.video:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-header>a.buy {
+header > a.buy {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -778,7 +802,7 @@ b {
   color: var(--acorns) !important;
 }
 
-h4>span {
+h4 > span {
   text-shadow: 0 0 2px white;
 }
 
@@ -853,7 +877,7 @@ img:not([src]) {
   display: none;
 }
 
-body>aside {
+body > aside {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -864,21 +888,21 @@ body>aside {
   border-radius: 0.5rem;
 }
 
-body>header {
+body > header {
   position: relative;
   padding: 0.5rem;
 }
 
-body>header a {
+body > header a {
   color: inherit;
   text-decoration: none;
 }
 
-body>header a:hover {
+body > header a:hover {
   color: var(--ink);
 }
 
-body>header h1 a {
+body > header h1 a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -912,17 +936,16 @@ body>header h1 a {
   -o-transform: rotate(180deg);
 }
 
-body>header h1>* {
+body > header h1 > * {
   margin: 0 0.3rem;
 }
 
 #content media-figure {
   display: block;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   max-width: 100%;
   margin: 0 auto;
 }
-
 
 #content img,
 #content media-figure img {
@@ -932,28 +955,28 @@ body>header h1>* {
   position: relative;
 }
 
-.splash img{
+.splash img {
   margin-top: -0.5rem;
 }
 
-.handSection>section media-figure {
+.handSection > section media-figure {
   margin: 0 auto 0.5rem;
   width: auto;
 }
 
-.handSection.shuffle>section media-figure {
+.handSection.shuffle > section media-figure {
   margin: 0.5rem auto 0.8rem !important;
 }
 
-.handSection.shuffle>section>footer {
+.handSection.shuffle > section > footer {
   text-align: right;
 }
 
-.handSection.shuffle>section a.button:last-child {
+.handSection.shuffle > section a.button:last-child {
   margin: 0.5rem 0.6rem -0.5rem !important;
 }
 
-.handSection.suits>section media-figure {
+.handSection.suits > section media-figure {
   height: 4.5rem;
   display: flex !important;
   align-items: center;
@@ -963,7 +986,9 @@ body>header h1>* {
   background-image: url(./images/bg.png);
   background-size: cover;
   background-position: center center;
-  box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px black;
+  box-shadow:
+    0 0 3rem var(--shade) inset,
+    1px 1px 4px black;
 }
 
 #content .carded.link {
@@ -983,8 +1008,7 @@ body>header h1>* {
   background-color: var(--land);
 }
 
-
-.handSection>section a.button.song {
+.handSection > section a.button.song {
   border: none;
   color: var(--light);
   box-shadow: 4px 4px 0.8rem var(--shade);
@@ -1017,12 +1041,14 @@ a.button.play.song {
   -o-border-radius: 0;
 }
 
-.handSection>section.letter {
+.handSection > section.letter {
   max-width: fit-content;
   padding-left: 2em;
   padding-right: 2em;
   background-color: white;
-  box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px black;
+  box-shadow:
+    0 0 3rem var(--shade) inset,
+    1px 1px 4px black;
 }
 
 .note {
@@ -1059,7 +1085,7 @@ a.button.play.song {
   flex-direction: row;
 }
 
-.playlist menu>* {
+.playlist menu > * {
   margin: 0.5rem;
 }
 
@@ -1139,8 +1165,10 @@ a.button.play.song {
   display: flex;
 }
 
-.handSection.shuffle>section {
-  box-shadow: 0 0 3rem var(--shade) inset, 1px 1px 4px black;
+.handSection.shuffle > section {
+  box-shadow:
+    0 0 3rem var(--shade) inset,
+    1px 1px 4px black;
   background-color: white;
 }
 
@@ -1157,18 +1185,18 @@ a.button.play.song {
   text-align: right;
 }
 
-body>header>a {
+body > header > a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-body>header>a>* {
+body > header > a > * {
   vertical-align: middle;
 }
 
-main>nav>ul {
+main > nav > ul {
   width: 100%;
   font-family: title;
   text-transform: uppercase;
@@ -1181,16 +1209,16 @@ main>nav>ul {
   border-top: solid 0.2rem black;
 }
 
-main>nav>ul>li:first-child {
+main > nav > ul > li:first-child {
   display: none;
 }
 
-main>nav>ul>li {
+main > nav > ul > li {
   width: -webkit-fill-available;
   max-width: 10rem;
 }
 
-main>nav>ul>li>a {
+main > nav > ul > li > a {
   height: 3.5rem;
   line-height: 1.1rem;
   align-content: center;
@@ -1201,18 +1229,16 @@ main>nav>ul>li>a {
   border-top-right-radius: 1rem;
 }
 
-main>nav>ul>li:last-child {
+main > nav > ul > li:last-child {
   display: none;
 }
 
-
-html[lang="es"] main>nav>ul>li>a {
+html[lang="es"] main > nav > ul > li > a {
   line-height: 0.9rem;
   padding: 0.7rem 0.5rem 1rem;
 }
 
-
-main>nav>ul>li>a.active {
+main > nav > ul > li > a.active {
   font-size: 1.5em;
   opacity: 1;
   overflow: visible;
@@ -1220,7 +1246,7 @@ main>nav>ul>li>a.active {
   color: black;
 }
 
-body>main {
+body > main {
   display: flex;
   flex-direction: column;
   box-shadow: 1px 1px 4px black;
@@ -1251,27 +1277,27 @@ body>main {
   width: 100%;
 }
 
-.handSection>header,
-#content>header {
+.handSection > header,
+#content > header {
   width: 100%;
   padding: 2rem 1rem 1rem;
   margin: 1rem 1rem 0;
   border-top: solid 2px var(--ink);
 }
 
-.handSection>footer,
-#content>footer {
+.handSection > footer,
+#content > footer {
   width: 100%;
   margin-top: 0.5rem;
 }
 
-#content>.handSection>header:first-of-type {
+#content > .handSection > header:first-of-type {
   margin-top: 0;
   padding-top: 1rem;
   border: none;
 }
 
-.handSection>section {
+.handSection > section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1286,7 +1312,7 @@ body>main {
   -o-border-radius: 0.5rem;
 }
 
-.handSection>section>section {
+.handSection > section > section {
   margin: 0.3rem 0;
 }
 
@@ -1298,43 +1324,43 @@ ul.bulleted {
   margin: 0 auto;
 }
 
-ul.exception>li::before,
-ul.bulleted>li::before {
+ul.exception > li::before,
+ul.bulleted > li::before {
   content: "•";
   float: left;
   margin-left: -0.7em;
   margin-right: 0.2em;
 }
 
-ul.exception>li:first-child:before {
+ul.exception > li:first-child:before {
   content: "○";
 }
 
-ul.exception>li,
-.playlist ul>li {
+ul.exception > li,
+.playlist ul > li {
   width: min-content;
 }
 
-ul.exception>li>line {
+ul.exception > li > line {
   width: min-content;
 }
 
-body>footer {
+body > footer {
   padding: 2rem 1rem;
 }
 
-.bulletMenu>ul {
+.bulletMenu > ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.bulletMenu>ul a.selected {
+.bulletMenu > ul a.selected {
   color: #666;
   pointer-events: none;
 }
 
-.bulletMenu>ul>li:not(:first-child)::before {
+.bulletMenu > ul > li:not(:first-child)::before {
   content: "•";
   margin: 0 0.5rem;
 }
@@ -1355,7 +1381,7 @@ light-box.opened {
   pointer-events: initial;
 }
 
-light-box>section {
+light-box > section {
   margin-top: -1rem;
   padding: 1rem;
   padding-bottom: 1.5rem;
@@ -1369,7 +1395,7 @@ light-box>section {
   -o-border-radius: 0.5rem;
 }
 
-light-box>section>a {
+light-box > section > a {
   color: black;
   text-decoration: none;
   position: absolute;
