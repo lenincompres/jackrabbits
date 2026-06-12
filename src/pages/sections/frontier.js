@@ -35,7 +35,7 @@ const frontierSections = [{
       Underground, this seal is banned.`,
   })),
   h4_shields_: Copy.text({
-    es: "Traslado de la Guardia",
+    es: "Traslado de Guardia",
     en: "Transfer of the guard",
   }),
   p_: versify(Copy.text({

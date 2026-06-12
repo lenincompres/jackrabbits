@@ -27,8 +27,8 @@ const optionalSections = [{
         sin que haya que llevarlas al castillo.
         Si obtienes de las nobles tu tercera,
         descansa por un turno decisivo.
-        Lo observas con tus cartas, ya por fuera,
-        y en mano con un máximo de cinco.
+        Lo observas con tus cartas, ya por fuera;
+        te quedas con un máximo de cinco.
         Los tríos se valoran por su regla:
         <a onclick="popUp('endings', event)">tribales superando a los sencillos<a>.
         Compara las de números que tengan
@@ -189,10 +189,10 @@ const optionalSections = [{
       en: "Hearts Boost",
     }),
     p: versify(Copy.text({
-      es: `Te pueden cuestionar al detenerte,
-      si hay una zanahoria en el lugar;
-      tal como en los palacios se requiere,
-      vetar tus corazones al llegar.`,
+      es: `Si llegas a un lugar con zanahoria,
+      te pueden cuestionar por tu nobleza;
+      requiere aprobación satisfactoria,
+      tal como en los palacios de las reinas.`,
       en: `Any hex a carrot marks 
       is considered palace grounds.
       Anyone may vet with hearts 
