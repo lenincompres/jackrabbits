@@ -40,8 +40,8 @@ const overviewSection = {
         Se pagan <b>los traslados</b> de las vías:
         transporte, vericueto o madriguera.`,
         `67.5|Detente en los destinos del sendero
-        y toma <b>el incremento</b> de tus cartas,
-        a menos de acabar en <b>el destierro</b>,
+        y obtén <b>el incremento</b> de tus cartas,
+        a menos de acabar en <b>el destierro</b>:
         por fuera de las piezas y sin barcas.`,
       ],
       en: [

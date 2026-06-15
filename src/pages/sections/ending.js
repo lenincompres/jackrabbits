@@ -41,17 +41,17 @@ const endingSection = {
     }),
     li: versify(Copy.text({
       es: [
-        `<b>sencillo</b>: con reales cualesquiera;`,
-        `<b>diverso</b>: si varían en su palo;`,
-        `<b>monárquico</b>: distintas en su letra;`,
+        `<b>sencillo</b>: con reales cualesquiera;`, // .Ṡ.
+        `<b>diverso</b>: si varían en su palo;`, // .Ḋ.
+        `<b>monárquico</b>: distintas en su letra;`, // KɈQ
         `<b>monárquico</b> y <b>diverso</b> combinado;`,
         `<b>tribal</b>: con las de palo que concuerda, 
         que al fin es desafiante de lograrlo.`,
       ],
       en: [
-        `<b>simple</b>: any royal cards.`,
-        `Or <b>diverse</b>: three different suits.`,
-        `Or <b>monarchic</b>: <b>k</b>ing, <b>q</b>ueen, <b>j</b>ack.`,
+        `<b>simple</b>: any royal cards.`, // .Ṡ.
+        `Or <b>diverse</b>: three different suits.`, // .Ḋ.
+        `Or <b>monarchic</b>: <b>k</b>ing, <b>q</b>ueen, <b>j</b>ack.`, // KɈQ
         `Or <b>diverse</b>-<b>monarchic</b> too.`,
         `Or the <b>tribal</b>, which is hard:
         royals of one suit pursuit.`,
