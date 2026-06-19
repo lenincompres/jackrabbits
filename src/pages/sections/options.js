@@ -31,7 +31,7 @@ const optionalSections = [{
         te quedas con un máximo de cinco.
         Los tríos se valoran por su regla:
         <a onclick="popUp('endings', event)">tribales superando a los sencillos<a>.
-        Compara las de números que tengan
+        Las cartas numerales se contemplan
         si empatan en el orden recibido;
         se suman los valores que contengan,
         y veinte por un doble es añadido.`,

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="../lib/DOM.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../jr-fonts.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .interline {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+      }
+      .interletter {
+        padding: 0.5em 0;
+        display: flex;
+        flex-direction: row;
+        font-family: monospace;
+        text-align: center;
+        gap: 1px;
+      }
+      .persists::after, .persisted::before {
+        content: "↑";
+        color: black;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -1.4em;
+        width: 100%;
+        height: 1.6em;
+        z-index: 9999;
+      }
+      .persisted::before {
+        content: "↓";
+        bottom: auto;
+        top: -1.4em;
+      }
+      .block {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 2em;
+        height: 2em;
+        font-size: 1em;
+        vertical-align: middle;
+        line-height: 1.8em;
+        border-width: 2px;
+        border-style: solid;
+        border-color: transparent;
+      }
+      .cell {
+        background-color: white;
+        color: green;
+        border-color: black;
+      }
+      .cell:focus-visible {
+        outline: none !important;
+      }
+      .moveDown {
+        border-bottom-style: dashed !important;
+      }
+      .moveUp {
+        border-top-style: dashed !important;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
