@@ -86,7 +86,7 @@ DOM.set({
   footer: {
     p: versify(Copy.at.subscribe),
     menu_bulletMenu: DOM.linkMenu({
-      class: ["button", "buy"],
+      class: "button buy",
       href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
       target: "_blank",
       text: Copy.at.buy,
