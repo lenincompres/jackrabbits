@@ -1,10 +1,10 @@
 const clues = [
   "Nombre afectivo y artístico del creador del juego de mesa <b>Jack Rabbits</b>.",
   "Lo que es el tablero; piezas romboides y triángulares conectando hexágonos reales.",
-  "Lo que seguirán los conejos al ir libremente de un hexágono a otro en sus travesías.",
+  "Lo que seguirán los conejos en sus travesías para ir libremente de un hexágono a otro.",
   "Piezas en las que la travesía se detiene al visitar a la nobleza; inicias en la ciudadela.",
   "Fichas que representan a quienes juegan; elijes uno entre cuatro colores.",
-  "Dos cartas que se retiran del mazo junto a las doce de la nobleza y forman la corte.",
+  "Dos cartas que se retiran del mazo junto a las doce de la nobleza, formando la corte.",
   "Cartas de nobleza que adquieres en las plazas; hay cuatro (una por cada palo).",
   "Lo que haces con el resto de las cartas, antes de repartir las manos y crear la pila.",
   "Cantidad de cartas numéricas con las que incian las manos (la misma que zanahorias).",
@@ -45,7 +45,7 @@ const clues = [
 
 const words = [
   "  LENINO",
-  "   REINO",
+  "EL REINO",
   "  CAMINOS",
   "HEXAGONOS",
   "CONEJOS",
@@ -53,7 +53,7 @@ const words = [
   "JOTAS",
   "  BARAJAS",
   "     TRES",
-  "    CORTE",
+  " LA CORTE",
   " DESCARTAS",
   "    REINAS",
   "  TAVERNAS",

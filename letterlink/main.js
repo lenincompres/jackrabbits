@@ -102,7 +102,7 @@ DOM.set({
             moveUp: cell.moved,
           },
           contenteditable: !!cell.letter,
-          //text: cell.letter,
+          text: DOM.queryString.test ? cell.letter : undefined,
           onfocus: (e) => selectAll(e.target),
           onclick: (e) => selectAll(e.target),
           keydown: (e) =>
