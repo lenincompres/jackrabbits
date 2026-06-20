@@ -1,17 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../lib/DOM.js"></script>
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../jr-fonts.css" />
     <style>
+      body {
+        max-width: 45em;
+      }
       * {
         box-sizing: border-box;
       }
       .interline {
         display: flex;
-        align-items: center;
-        gap: 1em;
+        flex-wrap: wrap;
+        justify-content: left;
+        gap: 0 1em;
+      }
+      .interline > :nth-child(2) {
+        width: 18em;
       }
       .interletter {
         padding: 0.5em 0;
@@ -19,9 +28,10 @@
         flex-direction: row;
         font-family: monospace;
         text-align: center;
-        gap: 1px;
+        margin: 0 1px;
       }
-      .persists::after, .persisted::before {
+      .persists::after,
+      .persisted::before {
         content: "↑";
         color: black;
         display: block;
@@ -63,6 +73,17 @@
       }
       .moveUp {
         border-top-style: dashed !important;
+      }
+      @media (width < 45rem) {
+        .interline > :nth-child(2) {
+          width: calc(100% - 3em);
+        }
+        .interline > :last-child {
+          margin-left: 2em;
+        }
+        .interletter {
+          margin: 0.5em 1px;
+        }
       }
     </style>
   </head>

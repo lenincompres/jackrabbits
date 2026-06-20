@@ -29,7 +29,7 @@ const classicSections = [{
       los pagas por cruzar en el momento, 
       o acampas y te ahorras el traslado.
       Si pagas en el parque a los lobeznos,
-      trasladas a su madre en un llamado.`
+      trasladas a la fiera en un llamado.`
     ],
     en: [`8|Fleurs are classic suits' replacements,
       but without their special powers:
@@ -78,7 +78,7 @@ const classicSections = [{
       y tienen carreteras con caballos.`,
       `15.5|Es gratis desplazarte con sus trenes,
       que cruzan el subsuelo de inmediato.
-      Procura, en el diseño de sus rieles,
+      Procura, con las vías que diseñes,
       que no halla un eslabón desconectado.`,
       `29|Las cartas de sus nobles las adquieres,
       igual que las demás de la nobleza.
@@ -211,9 +211,9 @@ const classicSections = [{
       llevándolas en vez de a la nobleza.`,
       `28.5|Se integran al inicio de la pila,
       y adquieren normalmente en el proceso.
-      Las usas en sus vías peregrinas,
-      y obtienes aventuras en sus textos.`,
-      `42|Las cartas peregrinas que recibas 
+      De a tres por concursantes incluidas,
+      sin ver las aventuras en sus textos.`,
+      `42|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
       Las pones en tu frente bocarriba 
       si logras los andares de sus retos.`,
@@ -223,7 +223,7 @@ const classicSections = [{
       incluso si sus usos se mantienen.`,
       `84|En estas, tus andares se descartan, 
       pagando las acciones que te ofrecen. 
-      Las cartas peregrinas que descartas 
+      Las cartas con andares que descartas 
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
@@ -235,8 +235,8 @@ const classicSections = [{
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
-      `33.5|Shuffle them into the deck,
-      while you ready up the pile.
+      `33.5|Shuffle them into the deck—
+      three per player, to the pile.
       You may draw them as you trek—
       play them in their special style.`,
       `44|Wander cards present a mission,

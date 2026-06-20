@@ -90,7 +90,6 @@ DOM.set({
       span: {
         span: puzzle.clues[i],
         fontSize: "0.9em",
-        width: "20em",
       },
       section_interletter: {
         b_block: word.map((cell, n) => ({
