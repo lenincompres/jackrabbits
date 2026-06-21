@@ -1,5 +1,13 @@
 import * as puzzle from "./puzzle.js";
 
+const bonus = {
+  C: '#800000',
+  D: '#b8860b',
+  T: '#008080',
+  M: '#0099DD',
+  P: '#483d8b',
+};
+
 let longestWord = 0;
 const words = puzzle.words.map((word, i) => {
   if (longestWord < word.length) longestWord = word.length;
@@ -78,7 +86,7 @@ DOM.set({
         small_logoSub: "Intergrama",
       },
     },
-    p: "Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra reaparece en otra columna.",
+    p: `Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra reaparece en otra columna. La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
   },
   main: {
     section_interline: words.map((word, i) => ({
@@ -88,6 +96,9 @@ DOM.set({
       },
       section_interword: {
         b_block: word.map((cell, n) => ({
+          backgroundColor: bonus[cell.letter] ? bonus[cell.letter] + "44": undefined,
+          borderRadius: bonus[cell.letter] ? "0.5em" : undefined,
+          borderColor: bonus[cell.letter] ? bonus[cell.letter]: undefined,
           class: {
             cell: !!cell.letter,
             persists: cell.persists,
