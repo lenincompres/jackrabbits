@@ -1,18 +1,26 @@
 import * as puzzle from "./puzzle.js";
 
-const words = puzzle.words.map((word, i) =>
-  word.split("").map((letter) => ({
+let longestWord = 0;
+const words = puzzle.words.map((word, i) => {
+  if (longestWord < word.length) longestWord = word.length;
+  return word.split("").map((letter) => ({
     letter: letter.trim(),
-  })),
-);
+  }));
+});
 
 words.forEach((word, i) => {
+  while(word.length < longestWord){
+    word.push({
+      letter: "",
+    });
+  }
   const next = words[i + 1];
   const prev = words[i - 1];
   word.forEach((cell, n) => {
     cell.persists =
       next && next[n] && next[n].letter && next[n].letter === cell.letter;
-    cell.persisted = prev && prev[n] && prev[n].letter && prev[n].letter === cell.letter;
+    cell.persisted =
+      prev && prev[n] && prev[n].letter && prev[n].letter === cell.letter;
   });
 });
 
@@ -70,28 +78,15 @@ DOM.set({
         small_logoSub: "Intergrama",
       },
     },
-    p: "Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas que la letra reaparece cambiada de columna.",
+    p: "Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra reaparece en otra columna.",
   },
   main: {
-    padding: "1em",
-    backgroundColor: "var(--home)",
-    width: "fit-content",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "left",
     section_interline: words.map((word, i) => ({
-      h2: {
-        margin: "0",
-        fontSize: "1.2em",
-        width: "0.8em",
-        text: `${i + 1}. `,
+      h2: `${i + 1}. `,
+      p: {
+        html: puzzle.clues[i],
       },
-      span: {
-        span: puzzle.clues[i],
-        fontSize: "0.9em",
-      },
-      section_interletter: {
+      section_interword: {
         b_block: word.map((cell, n) => ({
           class: {
             cell: !!cell.letter,

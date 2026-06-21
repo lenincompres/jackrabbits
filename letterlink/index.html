@@ -8,44 +8,59 @@
     <link rel="stylesheet" href="../jr-fonts.css" />
     <style>
       body {
-        max-width: 45em;
+        max-width: 50em;
+      }
+      body > main {
+        padding: 1em;
+        background-color: var(--home);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
       }
       * {
         box-sizing: border-box;
       }
       .interline {
         display: flex;
-        flex-wrap: wrap;
         justify-content: left;
-        gap: 0 1em;
       }
-      .interline > :nth-child(2) {
-        width: 18em;
+      .interline > h2 {
+        margin: 0.2em;
+        font-size: 1.2em;
+        width: 2em;
       }
-      .interletter {
-        padding: 0.5em 0;
+      .interline > p {
+        font-size: 0.9em;
+        margin: 0.1em 0.2em;
+        width: -webkit-fill-available;
+      }
+      .interword {
         display: flex;
         flex-direction: row;
         font-family: monospace;
         text-align: center;
-        margin: 0 1px;
+        padding: 0.5em 0;
       }
       .persists::after,
       .persisted::before {
         content: "↑";
+        vertical-align: text-top;
         color: black;
         display: block;
         position: absolute;
         left: 0;
-        bottom: -1.4em;
+        bottom: -1em;
         width: 100%;
-        height: 1.6em;
+        height: 1em;
+        line-height: 1.15em;
         z-index: 9999;
       }
       .persisted::before {
         content: "↓";
+        vertical-align: bottom;
         bottom: auto;
-        top: -1.4em;
+        top: -1em;
       }
       .block {
         position: relative;
@@ -64,6 +79,8 @@
         background-color: white;
         color: green;
         border-color: black;
+        width: 2em;
+        height: 2em;
       }
       .cell:focus-visible {
         outline: none !important;
@@ -75,14 +92,22 @@
         border-top-style: dashed !important;
       }
       @media (width < 45rem) {
-        .interline > :nth-child(2) {
+        .interline {
+          flex-wrap: wrap;
+        }
+        .interline > h2 {
+          width: 1.25em;
+        }
+        .interline > p {
           width: calc(100% - 3em);
         }
-        .interline > :last-child {
-          margin-left: 2em;
+        .interword {
+          margin: 0.5em auto 0.7em;
+          font-size: 0.9em;
         }
-        .interletter {
-          margin: 0.5em 1px;
+        body > main {
+          padding: 1em 0.5em;
+          max-width: 100vw;
         }
       }
     </style>
