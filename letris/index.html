@@ -38,14 +38,28 @@
       .interword {
         display: flex;
         flex-direction: row;
-        font-family: monospace;
+        vertical-align: middle;
         text-align: center;
         padding: 0.5em 0;
       }
-      .persists::after,
-      .persisted::before {
+      .block {
+        color: #887;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 2em;
+        height: 2em;
+        font-size: 1em;
+        line-height: 1.8em;
+        border-width: 2px;
+        border-style: solid;
+        border-color: transparent;
+      }
+      .cell.persists::after,
+      .cell.persisted::before {
+        margin: 0;
+        color: black;
         content: "↑";
-        vertical-align: text-top;
         display: block;
         position: absolute;
         left: 0;
@@ -55,24 +69,11 @@
         line-height: 1em;
         z-index: 9999;
       }
-      .persisted::before {
+      .cell.persisted::before {
         content: "↓";
         vertical-align: bottom;
         bottom: auto;
-        top:calc(-1em + 1px);
-      }
-      .block {
-        position: relative;
-        display: inline-block;
-        text-align: center;
-        width: 2em;
-        height: 2em;
-        font-size: 1em;
-        vertical-align: middle;
-        line-height: 1.8em;
-        border-width: 2px;
-        border-style: solid;
-        border-color: transparent;
+        top:calc(-1em);
       }
       .cell {
         background-color: white;
@@ -83,11 +84,15 @@
       .cell:focus-visible {
         outline: none !important;
       }
-      .moveDown {
+      .cell.moveDown {
         border-bottom-style: dashed !important;
       }
-      .moveUp {
+      .cell.moveUp {
         border-top-style: dashed !important;
+      }
+      .cell.unique{
+        pointer-events: none;
+        color: black;
       }
       @media (width < 45rem) {
         .interline {

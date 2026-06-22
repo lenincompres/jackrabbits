@@ -70,7 +70,7 @@ function selectNext(i, n, isDelete = false) {
   let cell = word[n + d];
   if (!cell) {
     return selectNext(i + d, isDelete ? undefined : 0, isDelete);
-  } else if (!cell.letter) {
+  } else if (!cell.letter || cell.isUnique()) {
     return selectNext(i, n + d, isDelete);
   }
   cell.el.focus();
@@ -153,8 +153,9 @@ DOM.set({
             persisted: cell.persisted,
             moveDown: cell.moves,
             moveUp: cell.moved,
+            unique: cell.isUnique(),
           },
-          contenteditable: !!cell.letter,
+          contenteditable: !!cell.letter && !cell.isUnique(),
           text: cell.isUnique() || DOM.queryString.test ? cell.letter : undefined,
           onfocus: (e) => selectAll(e.target),
           onclick: (e) => selectAll(e.target),
