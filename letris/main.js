@@ -76,6 +76,50 @@ function selectNext(i, n, isDelete = false) {
   cell.el.focus();
 }
 
+/* --- boden words --- */
+
+
+
+function boldWordsInClues(clues, words) {
+  const normalize = str => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const cleanWords = words
+    .map((w) => w.trim())
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length);
+  const normalizedWords = cleanWords.map(normalize);
+  return clues.map((clue) => {
+    let result = clue;
+    for (let i = 0; i < cleanWords.length; i++) {
+      const originalWord = cleanWords[i];
+      const normalizedWord = normalizedWords[i];
+      const normalizedClue = normalize(result);
+      const regex = new RegExp(`\\b${normalizedWord}\\b`, "gi");
+      let matches = [];
+      let match;
+      while ((match = regex.exec(normalizedClue))) {
+        matches.push({
+          start: match.index,
+          end: match.index + match[0].length,
+        });
+      }
+      // Apply replacements from end to beginning
+      for (let j = matches.length - 1; j >= 0; j--) {
+        const { start, end } = matches[j];
+        result =
+          result.slice(0, start) +
+          "<b>" +
+          result.slice(start, end) +
+          "</b>" +
+          result.slice(end);
+      }
+    }
+    return result;
+  });
+}
+
+const boldedClues = boldWordsInClues(puzzle.clues, puzzle.words);
+
+
 DOM.set({
   title: "Jack Rabbits - Letris",
   textAlign: "left",
@@ -95,7 +139,7 @@ DOM.set({
     section_interline: words.map((word, i) => ({
       h2: `${i + 1}. `,
       p: {
-        html: puzzle.clues[i],
+        html: boldedClues[i],
       },
       section_interword: {
         b_block: word.map((cell, n) => ({
