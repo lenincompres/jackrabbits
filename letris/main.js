@@ -1,11 +1,12 @@
 import * as puzzle from "./puzzle.js";
 
 const bonus = {
-  C: '#800000',
+  C: '#960018',
   D: '#b8860b',
-  T: '#008080',
-  M: '#0099DD',
+  T: '#008880',
+  M: '#0088dd',
   P: '#483d8b',
+  //L: '#d34fd5',
 };
 
 let longestWord = 0;
@@ -25,6 +26,7 @@ words.forEach((word, i) => {
   const next = words[i + 1];
   const prev = words[i - 1];
   word.forEach((cell, n) => {
+    cell.bonus = !!bonus[cell.letter];
     cell.persists =
       next && next[n] && next[n].letter && next[n].letter === cell.letter;
     cell.persisted =
@@ -74,7 +76,7 @@ function selectNext(i, n, isDelete = false) {
 }
 
 DOM.set({
-  title: "Jack Rabbits - Intergrama",
+  title: "Jack Rabbits - Letris",
   textAlign: "left",
   header: {
     h1: {
@@ -83,7 +85,7 @@ DOM.set({
         flexDirection: "column",
         small_logoSuper: "Lenino’s",
         span_logoName: "Jack Rabbits",
-        small_logoSub: "Intergrama",
+        small_logoSub: "Letris",
       },
     },
     p: `Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra reaparece en otra columna. La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
@@ -96,9 +98,10 @@ DOM.set({
       },
       section_interword: {
         b_block: word.map((cell, n) => ({
-          backgroundColor: bonus[cell.letter] ? bonus[cell.letter] + "44": undefined,
-          borderRadius: bonus[cell.letter] ? "0.5em" : undefined,
-          borderColor: bonus[cell.letter] ? bonus[cell.letter]: undefined,
+          backgroundColor: cell.bonus ? bonus[cell.letter] + "33": undefined,
+          borderRadius: cell.bonus ? "0.5em" : undefined,
+          borderColor: cell.bonus ? bonus[cell.letter]: undefined,
+          color: cell.bonus ? bonus[cell.letter]: undefined,
           class: {
             cell: !!cell.letter,
             persists: cell.persists,
