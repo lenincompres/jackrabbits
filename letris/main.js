@@ -133,7 +133,7 @@ DOM.set({
         small_logoSub: "Letris",
       },
     },
-    p: `Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra se mueve de columna.`,// La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
+    p: `Encuentra las palabras que responen a las pistas. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra se mueve de columna.`,// La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
   },
   main: {
     section_interline: words.map((word, i) => ({
