@@ -49,17 +49,17 @@
         display: block;
         position: absolute;
         left: 0;
-        bottom: -1em;
+        bottom: calc(-1em - 2px);
         width: 100%;
         height: 1em;
-        line-height: 1.15em;
+        line-height: 1em;
         z-index: 9999;
       }
       .persisted::before {
         content: "↓";
         vertical-align: bottom;
         bottom: auto;
-        top: -1em;
+        top:calc(-1em + 1px);
       }
       .block {
         position: relative;
