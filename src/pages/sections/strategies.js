@@ -78,7 +78,7 @@ const strategySections = [{
       `44|Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre corazones de su cuenta,
-      su mínimo de seis del que dispone.
+      lo mínimo de aquellas condiciones.
       Pues pierde lo mostrado y se destierra
       si pruebas que te acusa sin razones.
       Tampoco se permiten exigencias

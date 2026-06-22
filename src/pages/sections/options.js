@@ -190,9 +190,9 @@ const optionalSections = [{
     }),
     p: versify(Copy.text({
       es: `Si llegas a un lugar con zanahoria,
-      te pueden cuestionar por tu nobleza;
-      requiere aprobación satisfactoria,
-      tal como en los palacios de las reinas.`,
+      te pueden cuestionar por credenciales;
+      pedir validación satisfactoria,
+      tal como en los palacios señoriales.`,
       en: `Any hex a carrot marks 
       is considered palace grounds.
       Anyone may vet with hearts 

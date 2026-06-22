@@ -39,7 +39,7 @@ const clues = [
   "Cubos; los dos que lanzas para fijar los números de la lotería y el precio de los traslados.",
   "Traspasos, transportes; trucos en la travesía para viajar por fuera de los caminos.",
   "Viaje, recorrido; segunda fase del turno donde tomas un camino de un hexágono a otro.",
-  "Ancestral, misógino; sistema donde los reyes valen más que las reinas y estos más que las jotas.",
+  "Ancestral, machista; sistema donde los reyes valen más que las reinas y estos más que las jotas.",
   "Primitivo, familiar; fin del juego con tres cartas nobles del mismo palo.",
   "Azar, rifa; fase inicial del turno donde lanzas dados y puedes ganar una carta de la pila.",
   "Hojas, trifolios; palos color cerceta que simbolizan el conocimiento natural; bastos.",

@@ -126,6 +126,7 @@ DOM.set({
   header: {
     h1: {
       a: {
+        href: "../",
         display: "flex",
         flexDirection: "column",
         small_logoSuper: "Lenino’s",
