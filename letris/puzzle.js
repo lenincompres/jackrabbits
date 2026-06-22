@@ -16,7 +16,7 @@ const clues = [
   "Campeones, primeros; cartas numerales que decides si valen uno u once al jugarlas (A).",
   "Cantinas, tiendas; triángulos donde puedes comprar jokers comodines para tus traslados.",
   "Damas, soberanas; cuatro cartas nobles que se adquieren en los palacios (Q); queens.",
-  "Raíces comestibles; tres fichas del color de tu conejo para marcar los hexágonos de tus nobles.",
+  "Raíces comestibles; tres fichas del color de cada conejo para marcar hexágonos de nobles adquiridos.",
   "Palos de color carmín que simbolizan nobleza, encanto o estatus social; copas.",
   "Acomodadines, despreocupadines; jokers que descartas para reclamar un viaje (caballo o bote).",
   "Cuadrilaterales, adiamantadas; formas de piezas con dos caminos y vericuetos entre ellos.",
