@@ -4,7 +4,7 @@ const bonus = {
   C: '#960018',
   D: '#b8860b',
   T: '#008880',
-  M: '#0088dd',
+  //M: '#0088dd',
   P: '#483d8b',
   //L: '#d34fd5',
 };
@@ -26,7 +26,8 @@ words.forEach((word, i) => {
   const next = words[i + 1];
   const prev = words[i - 1];
   word.forEach((cell, n) => {
-    cell.bonus = !!bonus[cell.letter];
+    //cell.bonus = !!bonus[cell.letter];
+    cell.isUnique = () => !cell.persists && !cell.persisted && !cell.moves && !cell.moved;
     cell.persists =
       next && next[n] && next[n].letter && next[n].letter === cell.letter;
     cell.persisted =
@@ -88,7 +89,7 @@ DOM.set({
         small_logoSub: "Letris",
       },
     },
-    p: `Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra reaparece en otra columna. La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
+    p: `Encuentra las palabras que responen a las pistas sobre el juego. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra se mueve de columna.`,// La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
   },
   main: {
     section_interline: words.map((word, i) => ({
@@ -110,7 +111,7 @@ DOM.set({
             moveUp: cell.moved,
           },
           contenteditable: !!cell.letter,
-          text: DOM.queryString.test ? cell.letter : undefined,
+          text: cell.isUnique() || DOM.queryString.test ? cell.letter : undefined,
           onfocus: (e) => selectAll(e.target),
           onclick: (e) => selectAll(e.target),
           keydown: (e) =>
