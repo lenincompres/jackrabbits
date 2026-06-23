@@ -1,13 +1,19 @@
 import * as puzzle from "./puzzle.js";
 
 const bonus = {
-  C: '#960018',
-  D: '#b8860b',
-  T: '#008880',
+  C: "#960018",
+  D: "#b8860b",
+  T: "#008880",
   //M: '#0088dd',
-  P: '#483d8b',
+  P: "#483d8b",
   //L: '#d34fd5',
 };
+
+let range = DOM.queryString.range;
+let startNum = DOM.queryString.start ? parseInt(DOM.queryString.start) - 1 : 0;
+let endNum = DOM.queryString.end
+  ? parseInt(DOM.queryString.end) - 1
+  : puzzle.words.length - 1;
 
 let longestWord = 0;
 const words = puzzle.words.map((word, i) => {
@@ -18,7 +24,7 @@ const words = puzzle.words.map((word, i) => {
 });
 
 words.forEach((word, i) => {
-  while(word.length < longestWord){
+  while (word.length < longestWord) {
     word.push({
       letter: "",
     });
@@ -27,7 +33,8 @@ words.forEach((word, i) => {
   const prev = words[i - 1];
   word.forEach((cell, n) => {
     //cell.bonus = !!bonus[cell.letter];
-    cell.isUnique = () => !cell.persists && !cell.persisted && !cell.moves && !cell.moved;
+    cell.isUnique = () =>
+      !cell.persists && !cell.persisted && !cell.moves && !cell.moved;
     cell.persists =
       next && next[n] && next[n].letter && next[n].letter === cell.letter;
     cell.persisted =
@@ -78,10 +85,9 @@ function selectNext(i, n, isDelete = false) {
 
 /* --- boden words --- */
 
-
-
 function boldWordsInClues(clues, words) {
-  const normalize = str => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const normalize = (str) =>
+    str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const cleanWords = words
     .map((w) => w.trim())
     .filter(Boolean)
@@ -119,7 +125,6 @@ function boldWordsInClues(clues, words) {
 
 const boldedClues = boldWordsInClues(puzzle.clues, puzzle.words);
 
-
 DOM.set({
   title: "Jack Rabbits - Letris",
   textAlign: "left",
@@ -134,20 +139,21 @@ DOM.set({
         small_logoSub: "Letris",
       },
     },
-    p: `Encuentra las palabras que responen a las pistas. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra cambia de columna.`,// La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
+    p: `Encuentra las palabras que responen a las pistas. La flecha doble (↕) indica que la letra es la misma. Las líneas punteadas indican que la letra cambia de columna.`, // La letras resaltadas con el mismo color también serán las iguales: ${Object.values(bonus).map(v => `<b style="color:${v}">◼</b>`).join('')}.`,
   },
   main: {
     section_interline: words.map((word, i) => ({
+      display: i < startNum || i > endNum ? "none" : undefined,
       h2: `${i + 1}. `,
       p: {
         html: boldedClues[i],
       },
       section_interword: {
         b_block: word.map((cell, n) => ({
-          backgroundColor: cell.bonus ? bonus[cell.letter] + "33": undefined,
+          backgroundColor: cell.bonus ? bonus[cell.letter] + "33" : undefined,
           borderRadius: cell.bonus ? "0.5em" : undefined,
-          borderColor: cell.bonus ? bonus[cell.letter]: undefined,
-          color: cell.bonus ? bonus[cell.letter]: undefined,
+          borderColor: cell.bonus ? bonus[cell.letter] : undefined,
+          color: cell.bonus ? bonus[cell.letter] : undefined,
           class: {
             cell: !!cell.letter,
             persists: cell.persists,
@@ -157,7 +163,8 @@ DOM.set({
             unique: cell.isUnique(),
           },
           contenteditable: !!cell.letter && !cell.isUnique(),
-          text: cell.isUnique() || DOM.queryString.test ? cell.letter : undefined,
+          text:
+            cell.isUnique() || DOM.queryString.test ? cell.letter : undefined,
           onfocus: (e) => selectAll(e.target),
           onclick: (e) => selectAll(e.target),
           keydown: (e) =>
