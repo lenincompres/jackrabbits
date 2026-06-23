@@ -1,6 +1,6 @@
 const clues = [
   "Nombre afectivo y artístico del creador del juego de mesa <b>Jack Rabbits</b>.",
-  "Territorio monárquico; tablero de piezas romboides y triángulos con caminos que comunican los hexágonos.",
+  "Territorio monárquico; tablero de piezas romboides y triángulos con caminos que comunican hexágonos.",
   "Meta, objetivo; en este caso, adquirir tres cartas nobles y traerlas a la ciudadela.",
   "Rutas, vías; por donde los conejos viajan gratis de hexágono a hexágono.",
   "Polígonos; en estos hay que detenerse a visitar a la nobleza; la ciudadela es la inicial.",
