@@ -28,7 +28,7 @@ const clues = [
   "Polígonos; piezas con cuevas al subsuelo, tabernas de jokers, o cruces de mercaderes.",
   "Picas, flechas; o acción inicial del turno: tiras dados que fijan la lotería y el precio de los traslados.",
   "Valor numérico de un carta noble; suma mínima de palos de su símbolo para su adquisición.",
-  "Variado, distinto; fin del juego con tres cartas nobles con palos diferentes.",
+  "Variado, distinto; fin del juego con tres cartas nobles de palos diferentes.",
   "Joyas, gemas; palos dorados que simbolizan riqueza económica; oros.",
   "Aumento, suma; fase final del turno: una carta que tomas de la pila (si no sales al destierro).",
   "Expulsión, salida; fuera del tablero, desde donde irás al subsuelo en tu próximo turno.",
