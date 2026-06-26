@@ -9,15 +9,15 @@ const setupPage = {
     dataLyrics: 1,
     header: {
       h2: Copy.text({
-        es: "Prepara La Partida",
-        en: "Setting up the Game",
+        es: "Inicio de Partida",
+        en: "Game Setup",
       }),
     },
     section: [{
       a_button_play_song: Song.List[1].btn,
       h3: "1. </br>" + Copy.text({
         es: "Arma el tablero",
-        en: "Set the Board",
+        en: "Build the Board",
       }),
       p: versify(
         Copy.text({
@@ -60,8 +60,8 @@ const setupPage = {
         })),
     }, {
       h3: "2. </br>" + Copy.text({
-        es: "Reparte las cartas",
-        en: "Set the cards",
+        es: "Prepara las cartas",
+        en: "Prepare the cards",
       }),
       css: {
         ':nth-child(3)': {
@@ -106,8 +106,8 @@ const setupPage = {
         }))
     }, {
       h3: "3. </br>" + Copy.text({
-        es: "Sitúa las fichas",
-        en: "Set the tokens",
+        es: "Coloca las fichas",
+        en: "Place the tokens",
       }),
       p: versify(
         Copy.text({

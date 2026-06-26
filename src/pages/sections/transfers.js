@@ -9,8 +9,8 @@ import Song from "../../elements/Song.js";
 const transferSections = [{
   a_button_play_song: Song.List[3].btn,
   h3: Copy.text({
-    es: "Los Traslados",
-    en: "The Transfers",
+    es: "Traslados",
+    en: "Transfers",
   }),
   p: versify(Copy.text({
     es: `3|Es gratis desplazarte a los hexágonos
@@ -19,13 +19,13 @@ const transferSections = [{
       se cruzan con sus túneles gratuitos.
       Se paga solamente los traslados,
       marcados a mitad de los polígonos;
-      <a onclick="popUp('price')"><b>el precio</b></a> es el fijado por los dados
+      el <a onclick="popUp('price')"><b>precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
     en: `5|If you venture on the paths, 
       you'll move freely on your round.
       This includes the underpass,
       found in mountains farther down.
-      Other moves demand <a onclick="popUp('price')"><b>the price</b></a>,
+      Other moves demand the p<a onclick="popUp('price')"><b>rice</b></a>,
       paid in suits upon the ground.
       Pay the total on your dice—
       that's the minimum amount.`,
@@ -120,17 +120,17 @@ const transferSections = [{
   },
   h3: {
     html: Copy.text({
-      es: "El Destierro",
+      es: "Destierro",
       en: "Off-board",
     })
   },
   p_: versify(Copy.text({
     es: `127|A veces te conviene que salieras,
       cayendo de un camino a las orillas.
-      Olvida <b>el incremento</b> si lo hicieras
+      Olvida el <b>incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
-      Mantén <b>la lotería</b> en las afueras,
-      y en vez de ejecutar <b>la travesía</b>,
+      Mantén la <b>lotería</b> en las afueras,
+      y en vez de ejecutar la <b>travesía</b>,
       te mueves al <a class="pop" onclick="popUp('underground', event)"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
     en: `118.5|If you venture off the board,

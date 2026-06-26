@@ -7,8 +7,8 @@ const turnSections = [{
   a_button_play_song: Song.List[2].btn,
   img: new MediaFigure("lottery"),
   h3: Copy.text({
-    es: "1<small>.a</small> </br>La lotería",
-    en: "1<small>st</small> </br>The Lottery",
+    es: "Lotería",
+    en: "Lottery",
   }),
   p: versify(Copy.text({
     es: [
@@ -21,7 +21,7 @@ const turnSections = [{
       `22.5|El límite de cartas es de nueve. 
       Descarta la que quieras si te excedes.*`,
       `30.5|Conserva el resultado de los dados. 
-      Los usas en <a onclick="popUp('price')"><b>el precio</b></a> de traslados.`,
+      Los usas en el <a onclick="popUp('price')"><b>precio</b></a> de traslados.`,
     ],
     en: [
       `5|Start your turns by rolling dice,
@@ -33,15 +33,15 @@ const turnSections = [{
       `21.5|Please discard if caught with ten.
       Bring your hand to nine again.*`,
       `27|Hold the outcome of the dice.
-      Transfers use it as <a onclick="popUp('price')"><b>the price</b></a>.`
+      Transfers use it as the <a onclick="popUp('price')"><b>price</b></a>.`
     ]
   })),
   b_nextArrow: '➧',
 }, {
   img: new MediaFigure("journey"),
   h3: Copy.text({
-    es: "2<small>.a</small></br> La travesía",
-    en: "2<small>nd</small></br> The Journey",
+    es: "Travesía",
+    en: "Journey",
   }),
   p: versify(Copy.text({
     es: [
@@ -54,7 +54,7 @@ const turnSections = [{
       `57.5|Moverte de la pieza es opcional. 
       Depende de tu meta a visitar.`,
       `65.5|Podrías expandir tus travesías. 
-      Consulta <a href="#intro/transfers"><b>los traslados</b></a> en las vías.`
+      Consulta los <a href="#intro/transfers"><b>traslados</b></a> en las vías.`
     ],
     en: [
       `38|You may choose a path to exit, 
@@ -66,15 +66,15 @@ const turnSections = [{
       `54.5|Move on closer to your goal.
       Or perhaps don't move at all.`,
       `59.5|You may switch your travel mode.
-      See <a href="#intro/transfers"><b>the transfers</b></a> off the road.`,
+      See the <a href="#intro/transfers"><b>transfers</b></a> off the road.`,
     ]
   })),
   b_nextArrow: '➧',
 }, {
   img: new MediaFigure("acquisition"),
   h3: Copy.text({
-    es: "3<small>.a</small></br> La adquisición",
-    en: "3<small>rd</small></br> The Acquisition",
+    es: "Adquisición",
+    en: "Acquisition",
   }),
   p: versify(Copy.text({
     es: [
@@ -87,7 +87,7 @@ const turnSections = [{
       `92.5|Es gratis acceder a los hexágonos. 
       Procura detenerte visitándolos.`,
       `100|Conserva lo que adquieras en tu mano. 
-      Reclama <b>el incremento</b> de inmediato.`,
+      Reclama el <b>incremento</b> de inmediato.`,
     ],
     en: [
       `70.5|It’s your goal to claim the card—
@@ -99,15 +99,15 @@ const turnSections = [{
       `87|You may always be a guest.
       Make no claim and stop to rest.`,
       `92|Keep the royals in your hands.
-      Get <b>the increment</b> at once.`,
+      Get the <b>increment</b> at once.`,
     ]
   })),
   b_nextArrow: '➧',
 }, {
   img: new MediaFigure("increment"),
   h3: Copy.text({
-    es: "4<small>.a</small></br> El Incremento",
-    en: "4<small>th</small></br> The increment",
+    es: "Incremento",
+    en: "Increment",
   }),
   p: versify(Copy.text({
     es: [
@@ -120,7 +120,7 @@ const turnSections = [{
       `127|*Respeta lo del límite de cartas. 
       O ignóralo si nadie se percata.`,
       `135|**Podrías terminar sin incremento. 
-      Revísate <a href="#intro/off"><b>el destierro</b></a> en su segmento.`,
+      Revísate el <a href="#intro/off"><b>destierro</b></a> en su segmento.`,
     ],
     en: [
       `103|End your turns on a hex tile—

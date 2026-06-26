@@ -72,17 +72,13 @@ const optionalSections = [
         p: versify(
           Copy.text({
             es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel', event)">carátula de atrás</a>,
-      incluyes estrategias importantes:
-      cuestionas corazones al entrar,
-      canjeas lo que quieras con diamantes,
-      y puedes con tus tréboles volar
-      con palos cualesquiera de restante.`,
-            en: `There are three depicted assets,
-      on this <a class="pop" onclick="popUp('advancedCitadel', event)">flip-side tile</a> reboot:
-      vet the hearts to grant the access;
-      buy with diamonds any loot; 
-      show your clubs for flying passes—
-      shortfall’s paid in any suit.`,
+              canjeas lo que quieras con diamantes,
+              cuestionas corazones y, al volar,
+              descartas con cualquiera lo restante.`,
+            en: `If the citadel's <a class="pop" onclick="popUp('advancedCitadel', event)">flipped over</a>:
+              buy with diamonds any loot,
+              vet with hearts and fly with clovers—
+              shortfall's paid in any suit.`,
           }),
         ),
       },
@@ -243,7 +239,7 @@ const optionalSections = [
       Contempla al escoger el <a class="pop" onclick="popUp('endings', event)">fin del juego</a>
       si acaso es imposible de obtener.`,
             en: `Have as many suits as players—
-royals scarce and roads reduced. 
+      royals scarce and roads reduced. 
       Say there's only three contenders, 
       then <a class="pop" onclick="popUp('roadTiles', event)">remove a set</a> and suit.
       Pick a fitting kind of ending:

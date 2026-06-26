@@ -10,7 +10,7 @@ Copy.add({
     en: "Welcome",
   },
   setup: {
-    es: `Inicio</br><small style="white-space:nowrap">de partida</small>`,
+    es: `Partida`,
     en: "Setup",
   },
   intro: {

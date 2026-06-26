@@ -117,8 +117,8 @@ const strategySections = [{
   p: versify(Copy.text({
     es: [
       `11|Preséntate con carta pasaporte:
-      un trébol al lanzar <b>la lotería</b>,
-      y harás <b>la travesía</b> por las torres
+      un trébol al lanzar la <b>lotería</b>,
+      y harás la <b>travesía</b> por las torres
       si no lo sobrepasa lo que tiras.
       Igual el pasaporte lo recoges
       y el premio si un acierto se confirma.`,
@@ -133,11 +133,11 @@ const strategySections = [{
     ],
     en: [
       `10.5|Show one card before you roll,
-      cast <b>the journey</b> to the skies.
+      cast the <b>journey</b> to the skies.
       Pick a tower as a goal,
       if it beats the dice or ties. 
       Or you’ll miss the board and fall—
-      play <b>the lottery</b> likewise.
+      play the <b>lottery</b> likewise.
       Dropped off-board or standing tall,
       tumblers keep the card that tries.`,
       `43.5|Land your flight and don’t fall off,
@@ -173,7 +173,7 @@ const strategySections = [{
       procedes al asalto de sus cartas:
       le robas la primera que tocases,
       a ciegas deberás seleccionarla.
-      Te toca <b>el incremento</b> y que la marques,
+      Te toca el <b>incremento</b> y que la marques,
       si robas y la carta es de monarca;
       también elegirás la que descartes
       si acaso la que robas es tu cuarta.`,
@@ -196,7 +196,7 @@ const strategySections = [{
       If your target wins the war,
       they can’t steal a card you hoard.
       If you steal a royal card,
-      set <b>the acquisition</b> forth:
+      set the <b>acquisition</b> forth:
       place your carrot as the mark—
       give one up if it’s your fourth.`,
       /* 

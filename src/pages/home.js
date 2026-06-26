@@ -28,7 +28,7 @@ const homePage = {
         content: Song.List[0].link,
       },
       p: versify(Copy.text({
-        es: `Dirígete al <a href="#setup"><b><big>Inicio</big></b> de partida</a>.
+        es: `Dirígete al inicio de <a href="#setup"><b><big>partida</big></b></a>.
         De un máximo de cuatro es permitida.`,
         en: `Let's review the <a href="#setup"><b><big>Setup</big></b></a> phase. 
         Up to four contenders race.`,
