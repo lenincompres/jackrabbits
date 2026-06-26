@@ -1198,6 +1198,7 @@ body > header > a > * {
 
 main > nav > ul {
   width: 100%;
+  font-size: 1em;
   font-family: title;
   text-transform: uppercase;
   background-color: black;
@@ -1244,6 +1245,10 @@ main > nav > ul > li > a.active {
   overflow: visible;
   text-overflow: ellipsis;
   color: black;
+}
+main > nav > ul > li > a > small {
+  font-size: 0.8em;
+  margin-right: 0.3em;
 }
 
 body > main {

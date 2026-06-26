@@ -4,7 +4,7 @@ import MediaFigure from "../../elements/MediaFigure.js";
 
 const endingSection = {
   h3: Copy.text({
-    es: "Fin del juego",
+    es: "Objetivo",
     en: "Objective",
   }),
   p: versify(

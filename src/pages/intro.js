@@ -16,7 +16,7 @@ const introPage = {
       })),
       p: versify(Copy.text({
         es: `Domina el material preliminar.
-          Después aprenderás el regular.`,
+          Después completarás el regular.`,
         en: `Learn each phase’s role and name. 
           Then attempt the <a href="#full"><b>standard game</b></a>.`,
       })),

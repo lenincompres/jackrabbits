@@ -22,8 +22,8 @@ Copy.add({
     en: "Standard game",
   },
   more: {
-    es: "Tienda</br><small>y más</small>",
-    en: "Store <small>&</small>more",
+    es: "Tienda<small> &</small>más",
+    en: "Store<small> &</small>More",
   },
   subscribe: {
     es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')">listado de correos</a>.
