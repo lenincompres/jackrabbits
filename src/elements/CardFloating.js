@@ -11,7 +11,7 @@ const map = (value, start1, stop1, start2, stop2) =>
 let base = getBase();
 function getBase() {
   const pixelArea =
-    (window.innerWidth * window.innerHeight) / window.devicePixelRatio;
+    (window.innerWidth * window.innerHeight) * window.devicePixelRatio;
   const cardArea = 4 * 300 * 300;
   return Math.floor(pixelArea / cardArea);
 }

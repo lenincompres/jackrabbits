@@ -25,7 +25,7 @@ const transferSections = [{
       you'll move freely on your round.
       This includes the underpass,
       found in mountains farther down.
-      Other moves demand the p<a onclick="popUp('price')"><b>rice</b></a>,
+      Other moves demand the <a onclick="popUp('price')"><b>price</b></a>,
       paid in suits upon the ground.
       Pay the total on your dice—
       that's the minimum amount.`,

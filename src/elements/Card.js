@@ -84,6 +84,7 @@ class Card extends HTMLElement {
           left: i % 2 ? undefined : 0,
           transform: i % 2 ? "rotate(180deg)" : undefined,
           fontSize: "1.1em",
+          color: this.suit.color,
           p: {
             margin: "0 0 -0.2em 0",
             fontFamily: "title",
@@ -136,6 +137,7 @@ class Card extends HTMLElement {
       cast: "merchant",
       trait: "wealth",
       image: "assets/suit-diamonds.png",
+      color: "darkgoldenrod",
     },
     H: {
       symbol: "hearts",
@@ -143,6 +145,7 @@ class Card extends HTMLElement {
       cast: "charmer",
       trait: "charm",
       image: "assets/suit-hearts.png",
+      color: "brown",
     },
     C: {
       symbol: "clubs",
@@ -150,6 +153,7 @@ class Card extends HTMLElement {
       cast: "sage",
       trait: "wisdom",
       image: "assets/suit-clovers.png",
+      color: "teal",
     },
     S: {
       symbol: "spades",
@@ -157,6 +161,7 @@ class Card extends HTMLElement {
       cast: "warrior",
       trait: "strength",
       image: "assets/suit-spades.png",
+      color: "darkSlateBlue",
     }
   };
   static get SUITS() {
