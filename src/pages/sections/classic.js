@@ -43,8 +43,8 @@ const classicSections = [{
       linking roads like any other.
       You may pay to hike right out,
       or set camp without a bother.
-      Dens may guide the campers out—
-      cubs sell transfers with their mother.`
+      Dens may lead the campers out—
+      pay the cubs to call their mother.`
     ]
   })),
   h4_fleurs: Copy.text({

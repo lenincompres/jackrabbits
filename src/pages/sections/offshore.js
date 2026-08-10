@@ -43,18 +43,18 @@ const offshoreSections = [{
   p_: versify(Copy.text({
     es: `56|Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
-      Incluso del destierro se trasladan,
-      tan solo se prohíbe en el subsuelo.
-      Su cueva, que es gratuita, lo señala;
-      se paga del exilio por su acceso.`,
-    en: `52.5|There’s a cave that has a fee
-      to escape its tower's tile.
-      Pay wherever you may be—
-      to decree someone's exile.
-      Whisk them off from land or sea,
-      pay it from your facedown pile.
-      Underground, the cave is free—
-      no one starts or faces trial.`
+      Tan solo en el subsuelo se te escapan;
+      aíslas inclusive del destierro.
+      Los túneles de cuevas conectadas
+      te cobran con campanas por su acceso.`,
+    en: `52.5|You may pay for a decree—
+    bells to call someone's exile. 
+    Pay wherever you may be—
+    strand them on the tower's tile.
+    Whisk them off from land or sea—
+    underground they skip the trial. 
+    Note the caves that have a fee—
+    pay for access from your pile.`
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.NA),
@@ -103,7 +103,7 @@ const offshoreSections = [{
       ride it to an anchor hex,
       or deliver absentee.
       Note the anchor tower’s specs—
-      trade with suits that you decree.`,
+      buy and sell as you decree.`,
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.NS),
