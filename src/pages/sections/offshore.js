@@ -44,17 +44,24 @@ const offshoreSections = [{
     es: `56|Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
       Tan solo en el subsuelo se te escapan;
-      aíslas inclusive del destierro.
-      Los túneles de cuevas conectadas
-      te cobran con campanas por su acceso.`,
+      aíslas inclusive en el destierro.
+      Sus piezas con las cuevas conectadas
+      te cobran con companas por su acceso.`, 
+      /* 
+      Incluso del destierro se trasladan;
+      mas no hacen su función en el subsuelo.
+      */
     en: `52.5|You may pay for a decree—
     bells to call someone's exile. 
     Pay wherever you may be—
     strand them on the tower's tile.
     Whisk them off from land or sea—
     underground they skip the trial. 
-    Note the caves that have a fee—
+    Cave-linked hexes charge a fee—
     pay for access from your pile.`
+    /* 
+    underground skip bells and trial. 
+     */
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.NA),

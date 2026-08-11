@@ -109,20 +109,20 @@ const classicSections = [{
   })),
   div_note_footnote: {
     h4: Copy.text({
-      es: "+ Embargo Esporádico",
-      en: "+ Sporadic Embargo",
+      es: "+ Realeza Corrupta",
+      en: "+ Spoiled Royal",
     }),
     p: versify(Copy.text({
       es: `El hongo lo colocas al comienzo
-      si sales con el último en el orden. 
-      Que olvide loterías e incrementos 
-      quienquiera que en su sitio se acomode. 
+      si sales con el último en el orden,
+      en donde su realeza, de momento,
+      se vuelve inasequible por entonces.
       Reubícalo en un nuevo asentamiento
       si acabas en el sitio en el que ronde.`,
       en: `At the start, if last in turn,
-      choose the mushroom settlement.
-      Guests who land there may not earn—
-      lottery and increment.
+      choose the mushroom settlement,
+      where its royal can't be earned
+      while the token's resident.
       After ending there, in turn,
       pick its next resettlement.`,
     })),
@@ -236,9 +236,9 @@ const classicSections = [{
       a new winner has succeeded—
       one the wandering will tell.`,
       `33.5|Shuffle them into the deck—
-      three per player, to the pile.
+      three per player is the math.
       You may draw them as you trek—
-      play them in their special style.`,
+      they'll allure you to their path.`,
       `44|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
