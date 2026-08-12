@@ -43,20 +43,16 @@ const offshoreSections = [{
   p_: versify(Copy.text({
     es: `56|Si pagas dondequiera con campanas,
       envías a cualquiera al aislamiento.
-      Tan solo en el subsuelo se te escapan;
-      aíslas inclusive en el destierro.
-      Sus piezas con las cuevas conectadas
+      Mas nada que suponga campanadas
+      se aplica en el subsuelo ni el destierro.
+      Las piezas con sus cuevas conectadas
       te cobran con companas por su acceso.`, 
-      /* 
-      Incluso del destierro se trasladan;
-      mas no hacen su función en el subsuelo.
-      */
     en: `52.5|You may pay for a decree—
     bells to call someone's exile. 
     Pay wherever you may be—
     strand them on the tower's tile.
-    Whisk them off from land or sea—
-    underground they skip the trial. 
+    Not from underground or sea—
+    both exempt from bells or trial.
     Cave-linked hexes charge a fee—
     pay for access from your pile.`
     /* 
