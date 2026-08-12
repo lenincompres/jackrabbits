@@ -1268,6 +1268,15 @@ body > main {
   background-color: var(--home);
 }
 
+.handSection>header>h2 {
+  margin-top: 1rem;
+}
+
+.handSection>header>h3 {
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+}
+
 .handSection:not(:first-child) {
   padding-top: 1rem;
 }

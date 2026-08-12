@@ -39,8 +39,12 @@ const expansionPage = {
   section_shuffle_suits: [new HandSection({
     header: {
       h2: Copy.text({
-        en: "Frontier expansions",
-        es: "Expansiones fronterizas",
+        en: "Frontier Suits",
+        es: "Palos fronterizos",
+      }),
+      h3: Copy.text({
+        en: "Four Tensions at the limits of Gobernance",
+        es: "Cuatro tensiones al límite del gobierno",
       }),
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
@@ -65,8 +69,12 @@ const expansionPage = {
   }), new HandSection({
     header: {
       h2: Copy.text({
-        en: "offshore Expansions",
-        es: "Expansiones Insulares",
+        en: "offshore Suits",
+        es: "Palos Insulares",
+      }),
+      h3: Copy.text({
+        en: "Four Currents beyond Gobernance",
+        es: "Cuatro corrientes más allá del gobierno",
       }),
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
@@ -93,6 +101,10 @@ const expansionPage = {
       h2: Copy.text({
         en: "Neoclassic expansions",
         es: "Expansiones Neoclásicas",
+      }),
+      h3: Copy.text({
+        en: "Four Reconfigurations of Gobernance",
+        es: "Cuatro Reconfiguraciones del gobierno",
       }),
       p: versify(Copy.text({
         en: `Each includes unique conditions;

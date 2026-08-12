@@ -26,7 +26,7 @@ const classicSections = [{
       y flores sin sus nobles a la mesa.`,
       `50|En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
-      los pagas por cruzar en el momento, 
+      Los pagas por cruzar en el momento, 
       o acampas y te ahorras el traslado.
       Si pagas en el parque a los lobeznos,
       trasladas a la fiera en un llamado.`
@@ -158,7 +158,7 @@ const classicSections = [{
       with alliances portrayed.`,
       `25|These are three capitalists
         and three ecologist cards.
-        Pay them both the suits they list—
+        Claim with both the suits they list—
         split the cost in any parts.`,
       `37.5|See their merchants, taverns, caves—
         ride their mules and their canoes.
@@ -235,7 +235,7 @@ const classicSections = [{
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
-      `33.5|Shuffle them into the deck—
+      `33.5|Add a portion to the deck—
       three per player is the math.
       You may draw them as you trek—
       they'll allure you to their path.`,

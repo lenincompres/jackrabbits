@@ -41,12 +41,12 @@ const offshoreSections = [{
     en: "Transfer to the x-isle",
   }),
   p_: versify(Copy.text({
-    es: `56|Si pagas dondequiera con campanas,
-      envías a cualquiera al aislamiento.
-      Mas nada que suponga campanadas
-      se aplica en el subsuelo ni el destierro.
-      Las piezas con sus cuevas conectadas
-      te cobran con companas por su acceso.`, 
+    es: `56|Si pagas dondequiera y lo declaras,
+    confina a tu rival al aislamiento:
+    la torre de las cuevas conectadas
+    que cobran con campanas por su acceso.
+    Ninguno de los usos de campanas
+    aplica en el subsuelo ni el destierro.`, 
     en: `52.5|You may pay for a decree—
     bells to call someone's exile. 
     Pay wherever you may be—

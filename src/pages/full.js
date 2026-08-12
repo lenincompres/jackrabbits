@@ -9,9 +9,13 @@ const fullPage = {
   section_shuffle_suits: new HandSection({
     header: {
       h2: versify(Copy.text({
-        es: "Estrategias de cada palo",
-        en: "Four Well-Suited Strategies",
+        es: "Palos Clásicos",
+        en: "Classic Suits",
       })),
+      h3: Copy.text({
+        en: "Four powers of Gobernance",
+        es: "Cuatro poderes del gobierno",
+      }),
       p: versify(Copy.text({
         es: `Añades el capítulo restante.
           Con este jugarás en lo adelante.`,
