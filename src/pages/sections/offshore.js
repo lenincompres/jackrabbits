@@ -23,7 +23,7 @@ const offshoreSections = [{
       ni juegan de tu mano ni se cuentan. 
       Quienquiera que sospeche las que guardas,
       que pida revisarlas si te encuentra.
-      Le cobras con campanas por espiarlas,
+      Que pague con campanas por espiarlas,
       un palo por cualquiera que comprueba.
       Si alguna que revisa es infiltrada,
       tu espía te denuncia y se la queda.`,

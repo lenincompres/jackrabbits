@@ -87,7 +87,7 @@ const classicSections = [{
       `43|En todos sus caminos de corceles,
       cualquiera de sus nobles en tu mano,
       permite que cabalgues si lo quieres,
-      y no hay que descartar por su traslado.`,
+      brindándote de gratis su traslado.`,
     ],
     en: [`3.5|Four more royals add their tiles,
       each from every classic suit.
@@ -114,15 +114,15 @@ const classicSections = [{
     }),
     p: versify(Copy.text({
       es: `El hongo lo colocas al comienzo
-      si sales con el último en el orden,
-      en donde su realeza, de momento,
+      si sales con el último en el orden.
+      La carta de nobleza de su asiento
       se vuelve inasequible por entonces.
       Reubícalo en un nuevo asentamiento
       si acabas en el sitio en el que ronde.`,
       en: `At the start, if last in turn,
-      choose the mushroom settlement,
-      where its royal can't be earned
-      while the token's resident.
+      choose the mushroom settlement.
+      Royal cards may not be earned
+      where this token's resident.
       After ending there, in turn,
       pick its next resettlement.`,
     })),
@@ -136,18 +136,18 @@ const classicSections = [{
   p: versify(Copy.text({
     es: [
       `4|Los seis ayuntamientos y sus nobles
-      combinan a los palos iniciales.
+      vinculan a los palos iniciales.
       Y dos de los conejos jugadores
       permiten añadir participantes.`,
       `24|Los símbolos de enlaces que visitas,
       se deben combinar al adquirirlas.
-      Un trío es del sector capitalista;
-      y el otro, de la unión ecologista.`,
+      Un trío es del sector materialista;
+      y el otro, de la unión naturalista.`,
       `43.5|Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
       El vuelo de sus torres, si hay restante,
       se paga con cualquiera de sus palos.`,
-      `64|La Jota del sector capitalista
+      `64|La Jota del sector materialista
       te vende lo que quieras por diamantes.
       En la otra te reponen, de la pila,
       las cartas de tu mano que descartes.`,
@@ -156,18 +156,18 @@ const classicSections = [{
       as the classic suits are played.
       Six more royals add their tiles,
       with alliances portrayed.`,
-      `25|These are three capitalists
-        and three ecologist cards.
-        Claim with both the suits they list—
-        split the cost in any parts.`,
-      `37.5|See their merchants, taverns, caves—
-        ride their mules and their canoes.
-        Flights from towers may be saved—
-        payed with any of their suits.`,
+      `25|These are three materialists
+      and three naturalist cards.
+      Claim them with both suits they list—
+      split the cost in any parts.`,
+      `37.5|Some have merchants, taverns, caves—
+      others mules and their canoes.
+      Flights from towers may be saved—
+      payed with any of their suits.`,
       `50|Pay one plaza diamond cards—
-        buy whatever suit you choose.
-        Pay the other one discard—
-        draw as many cards you lose.`,
+      buy whatever suit you choose.
+      Pay the other one discard—
+      draw as many cards you lose.`,
     ],
   })),
   div_note_footnote: {
@@ -259,8 +259,8 @@ export const wanderTiles = {
   dataLyrics: 20,
   id: "wanderTiles",
   h3: Copy.text({
-    es: "Vías Peregrinas",
-    en: "Wander tiles",
+    es: "Set de Vías Peregrinas",
+    en: "Set of Wander tiles",
   }),
   img: new MediaFigure("wanderTiles"),
   p: versify(Copy.text({
@@ -272,7 +272,7 @@ export const wanderTiles = {
       resulta de salida inalcanzable. 
       Y el trío de los rombos se renueva: 
       lo mismo por sus cuatro laterales.`,
-    en: `128|There’s a roadway set to wander,
+    en: `128|There’s a set of roads to wander,
       which allows discards on sites.
       The triangles charge a wander:
       circus and bazaar sell rides.

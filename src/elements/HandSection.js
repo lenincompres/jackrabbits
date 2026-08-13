@@ -46,10 +46,10 @@ export class HandSection extends HTMLElement {
       a_button_next: {
         text: this._currentPage.as(val => Copy.text({
           en: `Next: ${this.titles[val + 1]} ➧`,
-          es: `Sigue: ${this.titles[val + 1]} ➧`,
+          es: `Siguiente: ${this.titles[val + 1]} ➧`,
         })),
         alignContent: "end",
-        margin: "0.5rem 40% 0",
+        margin: "0.3rem 40% -0.7rem",
         zIndex: this.total + 1,
         onmouseover: () => this.peakedPage = this.currentPage + 1,
         onmouseout: () => this.peakedPage = undefined,

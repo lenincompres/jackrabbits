@@ -44,12 +44,12 @@ const optionalSections = [
             en: `For a quick <b>Jack Rabbits</b> match,
         end before the courts arrive.
         Once you hold three royal cards,
-        others get one turn to strive.
-        Step off-board and simply watch—
         bring the cards you hold to five.
-        Rank the courts by rising match:
+        Step off-board and simply watch—
+        others get one turn to strive.
+        Rank each court by rising match:
         from the <a onclick="popUp('endings', event)">simple to the tribe</a>.
-        Number cars may boost the ranks,
+        Number cards may boost the ranks,
         if you have to break a tie;
         higher cards mean higher marks,
         but a pair beats single high.`,
@@ -222,7 +222,7 @@ const optionalSections = [
   {
     h4: Copy.text({
       es: "Palos",
-      en: "Pips",
+      en: "Suits",
     }),
     section: [
       {
@@ -235,15 +235,11 @@ const optionalSections = [
             es: `Se juega con un palo por conejo
       y un <a class="pop" onclick="popUp('roadTiles', event)">set de carreteras</a> a su vez.
       Con tres participantes, por ejemplo,
-      retírales un palo con un set.
-      Contempla al escoger el <a class="pop" onclick="popUp('endings', event)">fin del juego</a>
-      si acaso es imposible de obtener.`,
+      retírales un palo con un set.`,
             en: `Have as many suits as players—
-      royals scarce and roads reduced. 
+      royals, pips and tiles reduced. 
       Say there's only three contenders, 
-      then <a class="pop" onclick="popUp('roadTiles', event)">remove a set</a> and suit.
-      Pick a fitting kind of ending:
-      one that cards allow you to.`,
+      then remove <a class="pop" onclick="popUp('roadTiles', event)">a set</a> and suit.`,
           }),
         ),
       },
@@ -261,7 +257,7 @@ const optionalSections = [
             en: `When you fly from any tower, 
         find more places to touch down.
         Clubs expand their landing power—
-        any hex above the ground.`,
+        any hex but underground.`,
           }),
         ),
       },
@@ -273,13 +269,13 @@ const optionalSections = [
         p: versify(
           Copy.text({
             es: `Si llegas a un lugar con zanahoria,
-      te pueden cuestionar por credenciales;
-      pedir validación satisfactoria,
-      tal como en los palacios señoriales.`,
+            te pueden cuestionar por lo que tengas;
+            pedir validación satisfactoria,
+            tal como en los palacios de las reinas.`,
             en: `Any hex a carrot marks 
-      is considered palace grounds.
-      Anyone may vet with hearts 
-      as a player comes around.`,
+            is a palace all the while.
+            Anyone may vet with hearts 
+            those arriving on that tile.`,
           }),
         ),
       } /*{

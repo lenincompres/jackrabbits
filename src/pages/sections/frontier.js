@@ -46,7 +46,7 @@ const frontierSections = [{
       Si quieres transitar su carretera,
       trasládala de nuevo con un pago.
       Si estás en el lugar al que la llevas,
-      del sitio te regalan su traslado.`,
+      del sitio te conceden su traslado.`,
     en: `46|Guards are placed to block the road—
       on a green three-sided tile.
       Pay wherever on the board,

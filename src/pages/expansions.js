@@ -43,8 +43,8 @@ const expansionPage = {
         es: "Palos fronterizos",
       }),
       h3: Copy.text({
-        en: "Four Tensions at the limits of Gobernance",
-        es: "Cuatro tensiones al límite del gobierno",
+        en: "The Four Pressures bordering the Realm",
+        es: "Las Cuatro presiones al borde del reino",
       }),
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
@@ -73,8 +73,8 @@ const expansionPage = {
         es: "Palos Insulares",
       }),
       h3: Copy.text({
-        en: "Four Currents beyond Gobernance",
-        es: "Cuatro corrientes más allá del gobierno",
+        en: "The Four Currents beyond the Realm",
+        es: "Las Cuatro corrientes más allá del reino",
       }),
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
@@ -103,8 +103,8 @@ const expansionPage = {
         es: "Expansiones Neoclásicas",
       }),
       h3: Copy.text({
-        en: "Four Reconfigurations of Gobernance",
-        es: "Cuatro Reconfiguraciones del gobierno",
+        en: "The Four Reconfigurations of the Realm",
+        es: "Cuatro Reconfiguraciones del reino",
       }),
       p: versify(Copy.text({
         en: `Each includes unique conditions;

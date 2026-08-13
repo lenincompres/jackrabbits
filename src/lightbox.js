@@ -138,7 +138,7 @@ LightBox.add(new Pager({
     img: new MediaFigure("advancedCitadel"),
     p: versify(Copy.text({
       es: `Observa las acciones ilustradas.
-        ES torre y es un palacio con su plaza.`,
+        Es torre con palacio y con su plaza.`,
       en: `Give the Citadel more power.
         It's a palace-plaza-tower.`
     }))
@@ -190,15 +190,15 @@ LightBox.add(new Pager({
   },
   roadTiles: {
     h3: Copy.text({
-      es: "Vías carreteras",
-      en: "Road tiles",
+      es: "Set de Vías carreteras",
+      en: "Set of Road tiles",
     }),
     img: new MediaFigure("roadTiles"),
     p: versify(Copy.text({
       es: `Las piezas de los rombos y los triángulos.
         Las cruzas al moverte a los hexágonos.`,
       en: `These will take you hex to hex.
-And they offer rides and treks.`
+      Use their roads, or rides and treks.`
     })),
   },
   sample: {
