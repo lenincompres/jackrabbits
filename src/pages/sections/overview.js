@@ -16,9 +16,9 @@ const overviewSection = {
         cargando con tus cartas numerales.
         La meta es que regreses al castillo
         luciéndote con tres de las reales.`,
-        `15|Harás <b>la adquisición</b> de la nobleza
+        `15|Harás la <b>adquisición</b> de la nobleza
         con diez de los puntitos de sus marcas.
-        Quizás <b>la lotería</b> te compensa
+        Quizás la <b>lotería</b> te compensa
         con cartas que llevar a sus monarcas.`,
       ],
       en: [
@@ -26,33 +26,33 @@ const overviewSection = {
         bringing numbered cards in hand.
         Claim their royals and return,
         holding three to rule the land.`,
-        `20|To fulfill <b>the acquisition</b>, 
+        `20|To fulfill the <b>acquisition</b>, 
         add ten points that match their suit.
-        With <b>the lottery</b>’s provision,
+        With the <b>lottery</b>’s provision,
         you’ll be drawing cards as loot.`,
       ]
     }), 
     new RoyalTrio(),
     Copy.text({
       es: [
-        `55|Es gratis completar <b>la travesía</b>
+        `55|Es gratis completar la <b>travesía</b>
         si viajas solamente en carretera.
-        Se pagan <b>los traslados</b> de las vías:
+        Se pagan los <b>traslados</b> de las vías:
         transporte, vericueto o madriguera.`,
         `67.5|Detente en los destinos del sendero
-        y obtén <b>el incremento</b> de tus cartas,
-        a menos de acabar en <b>el destierro</b>:
+        y obtén el <b>incremento</b> de tus cartas,
+        a menos de acabar en el <b>destierro</b>:
         por fuera de las piezas y sin barcas.`,
       ],
       en: [
-        `58.5|Make <b>the journey</b> hex to hex—
+        `58.5|Make the <b>journey</b> hex to hex—
         every road is free to course.
-        Pay <b>the transfers</b> for the treks:
+        Pay the <b>transfers</b> for the treks:
         hikes off-road, by boat or horse.`,
         `71.5|Rest upon a hex-shaped tile,
         if you don't end up <b>off-board</b>. 
         Draw the card atop the pile—
-        that’s <b>the increment</b> reward.`,
+        that’s the <b>increment</b> reward.`,
       ],
     })),
 };

@@ -95,14 +95,14 @@ const setupPage = {
           del mazo bocabajo las repartes.
           Entrégales las <i>manos</i> de partida,
           secretas y de a tres por concursante.
-          Con estas tramarán <b>la travesía</b>
-          y harán <b>la adquisición</b> de las reales.`,
+          Con estas tramarán la <b>travesía</b>
+          y harán la <b>adquisición</b> de las reales.`,
           en: `64.5|Every player gets three cards, 
           that's their <i>hand</i> to start the chase.
           These resources, each one guards, 
-          fund <b>the journey</b> they will face.
+          fund the <b>journey</b> they will face.
           And pay royals their regards,
-          per <b>the acquisition</b> phase.`,
+          per the <b>acquisition</b> phase.`,
         }))
     }, {
       h3: "3. </br>" + Copy.text({

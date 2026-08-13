@@ -53,8 +53,8 @@ const frontierSections = [{
       and assign their post meanwhile.
       If you're there where they're restored,
       you have transferred them with guile:
-      hit the tile for a reward—
-      get its transfer in this style.`,
+      get its transfer as reward—
+      your authority's worthwhile.`,
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.FT),
@@ -80,8 +80,8 @@ const frontierSections = [{
       take off-board those there with you.
       Each must also lose a card,
       independent of their suit.
-      If they're torches, just discard—
-      any other you may loot.`,
+      Add more torches to discard,
+      or a card for you to loot.`,
   })),
   h4_torches_: Copy.text({
     es: "Traslado bajo tierra",
@@ -89,16 +89,16 @@ const frontierSections = [{
   }),
   p_: versify(Copy.text({
     es: `50|El túnel cavernoso con el fuego
-        se ubica en el subsuelo por un lado.
-        Si pagas al entrar en el subsuelo,
-        podrás atraversarlo sin descanso.
-        Si sales en tu turno del tablero,
-        ya sea por tu cuenta o sin buscarlo,
-        pagando evitarías el destierro,
-        moviéndote al subsuelo de inmediato.`,
+      se ubica en el subsuelo por un lado.
+      Si pagas al entrar en el subsuelo,
+      podrás atraversarlo sin descanso.
+      Si sales en tu turno del tablero,
+      ya sea por tu cuenta o sin buscarlo,
+      pagando evitarías el destierro,
+      moviéndote al subsuelo de inmediato.`,
     en: `53.5|There’s a cavern underground,
-      that extends your reach with fire.
-      Lets you leave that very round, 
+      where two transfers call for fire.
+      One to leave that very round, 
       paying what the dice require.
       And when turns are off-board bound,
       if that’s not what you desire,
@@ -125,9 +125,9 @@ const frontierSections = [{
       las cartas de cualquiera de los palos.`,
     en: `7.5|Trade with horseshoes underground—
       at its shady marketplace.
-      This extension, dark and brown,
-      is connected to this space.
-      At this store, all suits are found—
+      It's the plaza horseshoe-brown,
+      that's connected to this space.
+      These is where all suits are found—
       horseshoes taken in their place.
       You may trade your sums around,
       for whatever suit you chase.`,
@@ -150,8 +150,8 @@ const frontierSections = [{
       They will reach you from their source—
       horseshoe hexes over ground.
       And they'll take you on your course,
-      even to the underground;
-      they may ride to the cave's doors,
+      even to the underground.
+      Horses ride to the cave's doors,
       but will never venture down.`,
   })),
 }, {
@@ -200,7 +200,7 @@ const frontierSections = [{
       river, mountain, or the woods.
       Send off-board all those who come,
       lest they pay another move.
-      If you bring it where you're on,
+      If it's summoned where you're on,
       leave the board or cut right through.`,
   })),
 }];

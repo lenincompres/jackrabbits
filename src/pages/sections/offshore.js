@@ -32,8 +32,8 @@ const offshoreSections = [{
       Those in doubt may pay to spy
       if they meet you where you stand.
       Take the bells they'll pay to pry—
-      let one card per pip be scanned;
-      and they'll keep the ones they eye
+      let one card per pip be scanned.
+      Seers will keep the ones they eye
       if their suit does not withstand.`
   })),
   h4_bells_: Copy.text({
@@ -47,14 +47,14 @@ const offshoreSections = [{
     que cobran con campanas por su acceso.
     Ninguno de los usos de campanas
     aplica en el subsuelo ni el destierro.`, 
-    en: `52.5|You may pay for a decree—
-    bells to call someone's exile. 
+    en: `52.5|Cave-linked hexes charge a fee—
+    pay for transfer from your pile.
+    There's a transfer by decree—
+    when you cause someone's exile. 
     Pay wherever you may be—
     strand them on the tower's tile.
     Not from underground or sea—
-    both exempt from bells or trial.
-    Cave-linked hexes charge a fee—
-    pay for access from your pile.`
+    both exempt from bells or trial.`
     /* 
     underground skip bells and trial. 
      */
@@ -153,9 +153,9 @@ const offshoreSections = [{
       You'll be rescued for that fee—
       wash ashore its tower's port.
       Reach this isle for a retreat,
-      or a traveler's resort;
-      guests may leave from there for free, 
-      on the ferry they may board.`,
+      or a traveler's resort.
+      Rest and leave it then for free— 
+      on its ferry hop aboard.`,
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.NI),
@@ -184,7 +184,7 @@ const offshoreSections = [{
       bring to any road its port,
       otherwise it drifts at sea.
       If your card has fallen short,
-      ice may pay the shortfall fees.`,
+      ice may pay the shortfall fee.`,
   })),
   h4_icicles_: Copy.text({
     es: "Traslado ante el vórtice",
@@ -203,7 +203,7 @@ const offshoreSections = [{
       where it freezes all its guests.
       Any visitor who flees
       goes off-board from its effects.
-      Note the underground won't freeze—
+      Leave the underground in peace—
       it's no place where this affects.`,
   })),
 }];
