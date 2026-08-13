@@ -15,10 +15,10 @@ const optionalSections = [
         }),
         p: versify(
           Copy.text({
-            es: `Un fin que del <a onclick="popUp('endings', event)"><b>diverso</b></a> se deriva:
+            es: `Un reto que al <a onclick="popUp('endings', event)">tribal</a> se le aproxima:
         tus nobles con la letra repetida.`,
-            en: `Like <a onclick="popUp('endings', event)">diverse</a>, but slightly rarer:
-        get three nobles with one letter.`,
+            en: `Get three nobles with one letter.
+            Only <a onclick="popUp('endings', event)">tribal courts</a> are rarer.`,
           }),
         ),
       },
@@ -35,7 +35,7 @@ const optionalSections = [
         descansa por un turno decisivo.
         Lo observas con tus cartas, ya por fuera;
         te quedas con un máximo de cinco.
-        Los tríos se valoran por su regla:
+        Los tríos al final se consideran:
         <a onclick="popUp('endings', event)">tribales superando a los sencillos<a>.
         Las cartas numerales se contemplan
         si empatan en el orden recibido;
