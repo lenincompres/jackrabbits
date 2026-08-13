@@ -158,15 +158,15 @@ const classicSections = [{
       with alliances portrayed.`,
       `25|These are three materialists
       and three naturalist cards.
-      Claim them with both suits they list—
+      Claim with both the suits they list—
       split the cost in any parts.`,
       `37.5|Some have merchants, taverns, caves—
-      others mules and their canoes.
+      even mules and new canoes.
       Flights from towers may be saved—
       payed with any of their suits.`,
-      `50|Pay one plaza diamond cards—
+      `50|There's a plaza selling cards—
       buy whatever suit you choose.
-      Pay the other one discard—
+      There's the one where one discards—
       draw as many cards you lose.`,
     ],
   })),

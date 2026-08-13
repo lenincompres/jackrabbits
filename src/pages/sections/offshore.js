@@ -52,7 +52,7 @@ const offshoreSections = [{
     There's a transfer by decree—
     when you cause someone's exile. 
     Pay wherever you may be—
-    strand them on the tower's tile.
+    strand them on the tower tile.
     Not from underground or sea—
     both exempt from bells or trial.`
     /* 
@@ -100,12 +100,12 @@ const offshoreSections = [{
       incluso a su mercado heterogéneo; 
       de ida te recoge si lo quieres.`,
     en: `52.5|If you board the sailboat’s deck,
-      sail it anywhere for free. 
+      sail her anywhere for free. 
       If you pay at sea-bound treks,
-      it must travel home by sea;
+      she must travel home by sea;
       ride it to an anchor hex,
-      or deliver absentee.
-      Note the anchor tower’s specs—
+      or deliver rider-free.
+      Check the anchor tower’s specs—
       buy and sell as you decree.`,
   })),
 }, {
