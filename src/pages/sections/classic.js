@@ -78,8 +78,8 @@ const classicSections = [{
       y tienen carreteras con caballos.`,
       `15.5|Es gratis desplazarte con sus trenes,
       que cruzan el subsuelo de inmediato.
-      Procura, con las vías que diseñes,
-      que no halla un eslabón desconectado.`,
+      Procura con las vías que diseñes
+      que no haya un eslabón desconectado.`,
       `29|Las cartas de sus nobles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con sus corceles,
@@ -279,7 +279,7 @@ export const wanderTiles = {
       They’re the same, in case you wonder—
       just as classics, otherwise.
       But the well that sends you under,
-      only one way down it slides.
+      offers only one-way slides.
       And there's three remaining wonders,
       which are four-way road divides.`,
   })),

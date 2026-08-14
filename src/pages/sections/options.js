@@ -275,7 +275,7 @@ const optionalSections = [
             en: `Any hex a carrot marks 
             is a palace all the while.
             Anyone may vet with hearts—
-            those arriving on that tile.`,
+            check the guests that reach the tile.`,
           }),
         ),
       } /*{

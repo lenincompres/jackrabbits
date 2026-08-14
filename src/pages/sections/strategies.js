@@ -39,13 +39,13 @@ const strategySections = [{
       en: "+ Interpersonal Trades",
     }),*/
   p_0: versify(Copy.text({
-    es: `35|Si quieres <b class="diamonds">potenciar a los diamantes <sup>+</sup></b>,
+    es: `35|Si quieres los <b class="diamonds">diamantes potenciados <sup>+</sup></b>,
     añádele el acápite a las reglas:
-    permite compraventas personales
+    permite el intercambio de tu mano
     con alguien en el sitio que te encuentras.
-    El precio por diamantes se debate
+    El precio por diamantes es acordado
     y ocultan en las manos las ofertas.
-    A quien se le descubra por chantaje, 
+    A quien se le descubra que ha engañado, 
     después del intercambio se destierra.`,
     en: `39|If agreed when setup starts,
     you may add the <b class="diamonds">diamonds boost <sup>+</sup></b>:

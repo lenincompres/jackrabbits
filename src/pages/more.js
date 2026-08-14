@@ -30,7 +30,7 @@ const morePage = {
               Get a new <b>Jack Rabbits</b> game.`,
             }),
           ),
-        },
+        },/*
         {
           h3: {
             a: {
@@ -70,7 +70,7 @@ const morePage = {
                 Get directions and schematics.`,
             }),
           ),
-        },
+        },*/
       ],
     },
     {
@@ -97,7 +97,7 @@ const morePage = {
               Play with friends in real-time`,
             }),
           ),
-        },
+        },/*
         {
           h3: {
             a: {
@@ -136,7 +136,7 @@ const morePage = {
                 Custom letter-size design.`,
             }),
           ),
-        },
+        },*/
       ],
     },
     {

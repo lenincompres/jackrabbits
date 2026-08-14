@@ -13,8 +13,8 @@ const fullPage = {
         en: "Classic Suits",
       })),
       h3: Copy.text({
-        en: "The Four powers of the realm",
-        es: "Los Cuatro poderes del reino",
+        en: "Four powers of the realm",
+        es: "Cuatro poderes del reino",
       }),
       p: versify(Copy.text({
         es: `Añades el capítulo restante.
