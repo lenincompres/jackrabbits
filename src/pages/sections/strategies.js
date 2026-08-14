@@ -18,11 +18,11 @@ const strategySections = [{
     en: "Trade at Jack Plazas",
   }),
   p: versify(Copy.text({
-    es: `13|Los centros con los símbolos de canje 
+    es: `13|Los centros con las flechas de intercambio
       te ofrecen sus artículos en venta:
-      las cartas de sus palos del descarte 
+      las cartas de sus palos descartados
       que en estos por diamantes se canjean,
-      o aceptan de cualquiera que les pagues 
+      o aceptan de cualquiera de los palos
       si el centro es el marcado con la estrella.`,
     en: `9|All spent cards are being sold, 
       every <b>J</b>ack will sell its suit.
@@ -75,7 +75,7 @@ const strategySections = [{
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.`,
-      `44|Mas antes de mostrar tus pertenencias,
+      `41|Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre corazones de su cuenta,
       lo mínimo de aquellas condiciones.

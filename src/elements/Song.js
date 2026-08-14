@@ -349,7 +349,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("intro"));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/081fd690-7921-4708-b622-fbd5937af524.m4a",
+  es: "https://cdn1.suno.ai/13c693c9-7733-4b7b-8564-79776e360bfe.m4a",
   en: "https://cdn1.suno.ai/af918a56-d237-4e4a-b64b-804472ee83ea.m4a",
 }), Copy.text({
   es: "Diamantes",
@@ -357,7 +357,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/95fe3886-701d-4a9d-a1ac-fbae1ba1771d.m4a",
+  es: "https://cdn1.suno.ai/bb822ef1-db08-4ecb-9daa-21766ce09067.m4a",
   en: "https://cdn1.suno.ai/2af0e530-1401-4480-94b7-c4d2a04862f5.m4a",
 }), Copy.text({
   es: "Corazones",
