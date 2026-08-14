@@ -274,7 +274,7 @@ const optionalSections = [
             tal como en los palacios de las reinas.`,
             en: `Any hex a carrot marks 
             is a palace all the while.
-            Anyone may vet with hearts 
+            Anyone may vet with hearts—
             those arriving on that tile.`,
           }),
         ),

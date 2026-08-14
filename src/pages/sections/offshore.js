@@ -104,9 +104,9 @@ const offshoreSections = [{
       If you pay at sea-bound treks,
       she must travel home by sea;
       ride her to an anchor hex,
-      or deliver rider-free.
+      or remain and oversee.
       Check the anchor tower’s specs—
-      buy and sell as you decree.`,
+      trade the suits as you decree.`,
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.NS),

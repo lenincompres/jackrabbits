@@ -80,8 +80,8 @@ const frontierSections = [{
       take off-board those there with you.
       Each must also lose a card,
       independent of their suit.
-      Add more torches to discard,
-      or a card for you to loot.`,
+      Add more torches to discard—
+      any other you may loot.`,
   })),
   h4_torches_: Copy.text({
     es: "Traslado bajo tierra",
@@ -103,7 +103,7 @@ const frontierSections = [{
       And when turns are off-board bound,
       if that’s not what you desire,
       you may pay to transfer down—
-      to the underground campfire.`,
+      to this underground campfire.`,
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.FH),
