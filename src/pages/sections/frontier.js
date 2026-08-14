@@ -25,7 +25,7 @@ const frontierSections = [{
       quienquiera que te invada y los supera.
       Prohibido en el subsuelo en absoluto,
       y un máximo de doce se tolera.`,
-    en: `11.5|Show your shields—twelve pips or less—
+    en: `3.5|Show your shields—twelve pips or less—
       seal the hex where you will stand.
       It will only welcome guests 
       who discard a higher band.
@@ -47,7 +47,7 @@ const frontierSections = [{
       trasládala de nuevo con un pago.
       Si estás en el lugar al que la llevas,
       del sitio te conceden su traslado.`,
-    en: `46|Guards are placed to block the road—
+    en: `38|Guards are placed to block the road—
       on a green three-sided tile.
       Pay wherever on the board,
       and assign their post meanwhile.
@@ -74,7 +74,7 @@ const frontierSections = [{
       llevándose a los otros de la zona.
       Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
-    en: `18.5|Start a riot where you are—
+    en: `12.5|Start a riot where you are—
       any torch discard will do.
       End your turn with disregard,
       take off-board those there with you.
@@ -96,7 +96,7 @@ const frontierSections = [{
       ya sea por tu cuenta o sin buscarlo,
       pagando evitarías el destierro,
       moviéndote al subsuelo de inmediato.`,
-    en: `53.5|There’s a cavern underground,
+    en: `48|There’s a cavern underground,
       where two transfers call for fire.
       One to leave that very round, 
       paying what the dice require.
@@ -123,7 +123,7 @@ const frontierSections = [{
       brindándole al subsuelo su mercado,
       que vende, por el cambio de tus sumas,
       las cartas de cualquiera de los palos.`,
-    en: `7.5|Trade with horseshoes underground—
+    en: `7|Trade with horseshoes underground—
       at its shady marketplace.
       It's the plaza horseshoe-brown,
       that's connected to this space.
@@ -145,7 +145,7 @@ const frontierSections = [{
       trasládate al lugar que se te ocurra.
       Si eliges el subsuelo, es sin cruzarlo;
       te llevan a sus cuevas, o te buscan.`,
-    en: `53.5|Pay to summon up a horse,
+    en: `41|Pay to holler for a horse,
       on the islands where they're found.
       They will reach you from their source—
       horseshoe hexes over ground.
@@ -172,7 +172,7 @@ const frontierSections = [{
       se suma al resultado de los dados.
       En cuanto sobrepasa la docena,
       la pila se descarta de inmediato.`,
-    en: `13|Leaving acorns on display,
+    en: `12.5|Leaving acorns on display,
       adds them to the <i>overload</i>.
       Get the sum this pile will weigh—
       add it to the price when rolled.
@@ -194,7 +194,7 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-    en: `49.5|Pay wherever you may roam,
+    en: `49|Pay wherever you may roam,
       and invoke where it is moved.
       Choose a proper kind of zone:
       river, mountain, or the woods.

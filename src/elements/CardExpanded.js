@@ -98,7 +98,7 @@ export default CardExpanded;
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/bccdb590-016b-4c2f-a527-31ebfdf5c699.m4a",
-  en: "https://cdn1.suno.ai/a53542f3-4092-466c-bb0f-a2e0e301b4cc.m4a",
+  en: "https://cdn1.suno.ai/f9676c66-1987-42c2-b03c-90fe26395fc5.m4a",
 }), Copy.text({
   es: "Escudos",
   en: "Sheilds",
@@ -106,7 +106,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/0db920f4-3480-4b7f-b62e-2127995e3d74.m4a",
-  en: "https://cdn1.suno.ai/5592a31b-0169-4a9c-b75c-5b134199335f.m4a",
+  en: "https://cdn1.suno.ai/3ae4e859-69b9-4728-8774-f1547c58bf9c.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches", // test 
@@ -115,7 +115,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/76396428-4e55-4fce-9dac-f5e288295eb6.m4a",
-  en: "https://cdn1.suno.ai/6691f89a-352d-48d2-af86-dee924ee46e6.m4a",
+  en: "https://cdn1.suno.ai/9518467c-75f3-4b7a-a371-24ddc7fdd676.m4a",
 }), Copy.text({
   es: "Herraduras",
   en: "Horseshoes",
@@ -123,7 +123,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/6e389263-7175-4d9e-945b-3d70fe4f1ce8.m4a",
-  en: "https://cdn1.suno.ai/ed66406d-03b9-4a3a-8db5-3e7c0087ac0d.m4a",
+  en: "https://cdn1.suno.ai/362814d4-3b94-4b1e-a4fd-934b6250e86c.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
@@ -133,7 +133,7 @@ Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a1832a9a-eb14-4a01-8b48-33a78e5cf643.m4a",
-  en: "https://cdn1.suno.ai/2e6fd43d-3763-414a-a9ef-00e9c84d81e2.m4a",
+  en: "https://cdn1.suno.ai/5e6806e7-9b80-404e-999b-236ef09a82b5.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -141,7 +141,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/3223e8c3-f7ff-4cf5-b551-cc41b8697069.m4a",
-  en: "https://cdn1.suno.ai/b946fc7c-09c7-40a4-b6ff-3f64bef73e53.m4a",
+  en: "https://cdn1.suno.ai/f00df2b3-9cc2-4b9c-8d01-65d620c56f0f.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
@@ -149,7 +149,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
-  en: "https://cdn1.suno.ai/7f5d9f8d-d3df-4ed5-9bdf-a77a43e8067a.m4a",
+  en: "https://cdn1.suno.ai/862058cb-83fd-41ae-8fd6-7de1d6304eab.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
@@ -157,7 +157,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/456f2c4a-098e-44c2-bfb7-a42e8c2a7fce.m4a",
-  en: "https://cdn1.suno.ai/fe8eb630-47f5-4c16-b5d6-39597c682a5e.m4a",
+  en: "https://cdn1.suno.ai/fa0ac67f-2bd5-4cc3-ab2d-16532768c717.m4a",
 }), Copy.text({
   es: "Carámbanos",
   en: "Icicles",

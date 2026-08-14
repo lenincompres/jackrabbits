@@ -47,7 +47,7 @@ const offshoreSections = [{
     que cobran con campanas por su acceso.
     Ninguno de los usos de campanas
     aplica en el subsuelo ni el destierro.`, 
-    en: `52.5|Cave-linked hexes charge a fee—
+    en: `51|Cave-linked hexes charge a fee—
     pay for transfer from your pile.
     There's a transfer by decree—
     when you cause someone's exile. 
@@ -99,7 +99,7 @@ const offshoreSections = [{
       lo mueves al que quieras de sus muelles;
       incluso a su mercado heterogéneo; 
       de ida te recoge si lo quieres.`,
-    en: `52.5|If you board the sailboat’s deck,
+    en: `44|If you board the sailboat’s deck,
       sail her anywhere for free. 
       If you pay at sea-bound treks,
       she must travel home by sea;
@@ -128,10 +128,10 @@ const offshoreSections = [{
       las cambias por el doble de la pila.
       La cuenta de sus números se ignora;
       descártalas y el doble le retiras.`,
-    en: `6|There’s a grotto underground,
+    en: `5.5|There’s a grotto underground,
       one that’s set when games begin.
       It’s a coastal landing ground—
-      where the boats may venture in.
+      where all boats may venture in.
       You may draw when you're around,
       twice the cards for those you bin:
       toss your shells beneath the ground—
@@ -148,14 +148,14 @@ const offshoreSections = [{
       su torre que se encuentra en altamar.
       Contempla que la barca de su puerto
       te ofrece navegarla sin pagar.`,
-    en: `52.5|If you pay with shells at sea, 
+    en: `47.5|If you pay with shells at sea, 
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.
       Reach this isle for a retreat,
       or a traveler's resort.
-      Rest and leave it then for free— 
-      on its ferry hop aboard.`,
+      Rest and leave from there for free— 
+      on its ferry, all aboard!`,
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.NI),
@@ -177,7 +177,7 @@ const offshoreSections = [{
       o pagas lo <i>restante</i> de la cifra,
       conéctalo a un camino por el mar,
       si no, en el océano se aísla.`,
-    en: `9.5|Tip the tower to the shore,
+    en: `10.5|Tip the tower to the shore,
       when you roll from any piece.
       If you show a card before,
       and it's equal or exceeds:
@@ -197,7 +197,7 @@ const offshoreSections = [{
       mas esto es imposible en el subsuelo.
       Si intentan escaparse del hexágono,
       saldrán precipitándose al destierro.`,
-    en: `50|Pay from anywhere you please,
+    en: `48.5|Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex to that piece—
       where it freezes all its guests.
