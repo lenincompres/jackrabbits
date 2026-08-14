@@ -31,7 +31,7 @@ const offshoreSections = [{
       they won't play nor count in hand.
       Those in doubt may pay to spy
       if they meet you where you stand.
-      Take the bells they'll pay to pry—
+      They’ll discard their bells to pry—
       let one card per pip be scanned.
       Seers will keep the ones they eye
       if their suit does not withstand.`
@@ -103,7 +103,7 @@ const offshoreSections = [{
       sail her anywhere for free. 
       If you pay at sea-bound treks,
       she must travel home by sea;
-      ride it to an anchor hex,
+      ride her to an anchor hex,
       or deliver rider-free.
       Check the anchor tower’s specs—
       buy and sell as you decree.`,

@@ -127,7 +127,7 @@ const frontierSections = [{
       at its shady marketplace.
       It's the plaza horseshoe-brown,
       that's connected to this space.
-      These is where all suits are found—
+      This is where all suits are found—
       horseshoes taken in their place.
       You may trade your sums around,
       for whatever suit you chase.`,

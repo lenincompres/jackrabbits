@@ -43,8 +43,8 @@ const expansionPage = {
         es: "Palos fronterizos",
       }),
       h3: Copy.text({
-        en: "The Four Pressures bordering the Realm",
-        es: "Las Cuatro presiones al borde del reino",
+        en: "Pressures bordering the Realm",
+        es: "Presiones al borde del reino",
       }),
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
@@ -69,12 +69,12 @@ const expansionPage = {
   }), new HandSection({
     header: {
       h2: Copy.text({
-        en: "offshore Suits",
+        en: "Offshore Suits",
         es: "Palos Insulares",
       }),
       h3: Copy.text({
-        en: "The Four Currents beyond the Realm",
-        es: "Las Cuatro corrientes más allá del reino",
+        en: "Currents beyond the Realm",
+        es: "Corrientes más allá del reino",
       }),
       p: versify(Copy.text({
         en: `Suits include their cards and tiles;
@@ -103,8 +103,8 @@ const expansionPage = {
         es: "Expansiones Neoclásicas",
       }),
       h3: Copy.text({
-        en: "The Four Reconfigurations of the Realm",
-        es: "Cuatro Reconfiguraciones del reino",
+        en: "Reconfigurations of the Realm",
+        es: "Reconfiguraciones del reino",
       }),
       p: versify(Copy.text({
         en: `Each includes unique conditions;
