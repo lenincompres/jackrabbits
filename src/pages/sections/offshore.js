@@ -200,7 +200,7 @@ const offshoreSections = [{
     en: `48.5|Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex to that piece—
-      where it freezes all its guests.
+      where the blizzard traps its guests.
       Any visitor who flees
       goes off-board from its effects.
       Leave the underground in peace—
