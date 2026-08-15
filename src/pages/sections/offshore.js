@@ -201,7 +201,7 @@ const offshoreSections = [{
       and you may select a hex.
       Bring the vortex to that piece—
       where the blizzard traps its guests.
-      Any visitor who flees
+      Any renegade who flees
       goes off-board from its effects.
       Leave the underground in peace—
       it's no place where this affects.`,
