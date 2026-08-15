@@ -44,7 +44,7 @@ const classicSections = [{
       You may pay to hike right out,
       or set camp without a bother.
       Dens may lead the campers out—
-      pay the cubs to call their mother.`
+      with the pups to call their mother.`
     ]
   })),
   h4_fleurs: Copy.text({
