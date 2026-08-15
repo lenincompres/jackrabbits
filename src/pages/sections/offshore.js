@@ -33,7 +33,7 @@ const offshoreSections = [{
       if they meet you where you stand.
       They discard their bells to pry—
       let one card per pip be scanned.
-      Doubters keep the ones they eye
+      Scourers keep the ones they eye
       if their suit does not withstand.`
   })),
   h4_bells_: Copy.text({
