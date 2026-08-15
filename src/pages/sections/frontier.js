@@ -177,7 +177,7 @@ const frontierSections = [{
       Get the sum this pile will weigh—
       add it to the price when rolled.
       Do this when you end your play—
-      others struggle down the road.
+      burden others down the road.
       Or discard it right away,
       when thirteen are on the load.`,
   })),
