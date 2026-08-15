@@ -149,7 +149,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
-  en: "https://cdn1.suno.ai/862058cb-83fd-41ae-8fd6-7de1d6304eab.m4a",
+  en: "https://cdn1.suno.ai/f1a0dd6c-1744-4ce5-a8f7-ce663e72bbfa.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
@@ -175,7 +175,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/5d3a4650-8f89-4605-88d7-64ec15cbe89f.m4a",
-  en: "https://cdn1.suno.ai/b14be5f1-cc60-4ff5-8624-0baaa04ad9d1.m4a",
+  en: "https://cdn1.suno.ai/6a1c0391-7e56-42ce-b527-1431ced9d1e7.m4a",
 }), Copy.text({
   es: "Corceles",
   en: "Cavaliers",
@@ -183,7 +183,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/34237312-db2d-4b12-9db6-08cd724ae40d.m4a",
-  en: "https://cdn1.suno.ai/34217df4-5848-4737-a275-fe2bbfd2b6dd.m4a",
+  en: "https://cdn1.suno.ai/e0e8679f-6bd3-429f-9cf2-6f1d9ac718c6.m4a",
 }), Copy.text({
   es: "Enlaces",
   en: "Liaisons",

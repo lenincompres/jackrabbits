@@ -151,7 +151,7 @@ const frontierSections = [{
       horseshoe hexes over ground.
       And they'll take you on your course,
       even to the underground.
-      Horses ride to the cave's doors,
+      Horses ride to the caves' doors,
       but will never venture down.`,
   })),
 }, {

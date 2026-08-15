@@ -128,7 +128,7 @@ const offshoreSections = [{
       las cambias por el doble de la pila.
       La cuenta de sus números se ignora;
       descártalas y el doble le retiras.`,
-    en: `5.5|There’s a grotto underground,
+    en: `5|There’s a grotto underground,
       one that’s set when games begin.
       It’s a coastal landing ground—
       where all boats may venture in.
@@ -148,7 +148,7 @@ const offshoreSections = [{
       su torre que se encuentra en altamar.
       Contempla que la barca de su puerto
       te ofrece navegarla sin pagar.`,
-    en: `47.5|If you pay with shells at sea, 
+    en: `45|If you pay with shells at sea, 
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.
