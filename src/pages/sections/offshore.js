@@ -31,9 +31,9 @@ const offshoreSections = [{
       they won't play nor count in hand.
       Those in doubt may pay to spy
       if they meet you where you stand.
-      They’ll discard their bells to pry—
+      They discard their bells to pry—
       let one card per pip be scanned.
-      Seers will keep the ones they eye
+      Doubters keep the ones they eye
       if their suit does not withstand.`
   })),
   h4_bells_: Copy.text({
@@ -47,7 +47,7 @@ const offshoreSections = [{
     que cobran con campanas por su acceso.
     Ninguno de los usos de campanas
     aplica en el subsuelo ni el destierro.`, 
-    en: `51|Cave-linked hexes charge a fee—
+    en: `51|Every bell cave leads to three—
     pay for transfer from your pile.
     There's a transfer by decree—
     when you cause someone's exile. 
