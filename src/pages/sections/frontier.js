@@ -30,7 +30,7 @@ const frontierSections = [{
       It will only welcome guests 
       who discard a higher band.
       If invaded while you rest,
-      lose the shields shown from your hand.
+      lose the cards shown from your hand.
       No one else will reach the hex.
       Underground, this seal is banned.`,
   })),
