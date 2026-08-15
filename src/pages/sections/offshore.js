@@ -155,7 +155,7 @@ const offshoreSections = [{
       Reach this isle for a retreat,
       or a traveler's resort.
       Rest and leave from there for free— 
-      on its ferry, all aboard!`,
+      ferried all across the board.`,
   })),
 }, {
   style: suitStyle(CardExpanded.SUIT.NI),
