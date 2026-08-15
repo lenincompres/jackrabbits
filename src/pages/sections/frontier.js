@@ -196,7 +196,7 @@ const frontierSections = [{
       si estás en el lugar que la coloques.`,
     en: `49|Pay wherever you may roam,
       and invoke where it is moved.
-      Choose a proper kind of zone:
+      Choose it's range, a trailway zone:
       river, mountain, or the woods.
       Send off-board all those who come,
       lest they pay another move.
