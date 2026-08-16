@@ -133,7 +133,7 @@ Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/a1832a9a-eb14-4a01-8b48-33a78e5cf643.m4a",
-  en: "https://cdn1.suno.ai/12b7fa21-62f1-4e95-ab3a-25b8be8ed22d.m4a",
+  en: "https://cdn1.suno.ai/5467d768-3ca5-4ec4-adf3-afdbc7b6e41b.m4a",
 }), Copy.text({
   es: "Campanas",
   en: "Bells",
@@ -167,7 +167,7 @@ Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/6ed1faab-c7aa-49eb-aa76-d193d1966897.m4a",
-  en: "https://cdn1.suno.ai/12792058-fe0e-4e89-8dd4-4169e04ba4da.m4a",
+  en: "https://cdn1.suno.ai/8568661f-fb38-4c12-a677-8408bf2a5055.m4a",
 }), Copy.text({
   es: "Flores",
   en: "Fleurs",

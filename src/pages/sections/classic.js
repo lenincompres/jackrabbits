@@ -44,7 +44,7 @@ const classicSections = [{
       You may pay to hike right out,
       or set camp without a bother.
       Dens may lead the campers out—
-      with the pups to call their mother.`
+      see the pups about their mother.`
     ]
   })),
   h4_fleurs: Copy.text({
@@ -59,7 +59,7 @@ const classicSections = [{
       La víctima termina en el destierro
       y apúntale a la carta que descarte.`,
     en: `95.5|At her post or from a den,
-      send the wolf to any rabbit.
+      pay the wolf to reach a rabbit.
       Spook off-board your target then,
       take a card from them and scrap it.
       Move through caves and land when sent—
