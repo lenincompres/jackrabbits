@@ -31,15 +31,15 @@ const classicSections = [{
       Si pagas en el parque a los lobeznos,
       trasladas a la fiera en un llamado.`
     ],
-    en: [`8|Fleurs are classic suits' replacements,
+    en: [`7|Fleurs are classic suits' replacements,
       but without their special powers:
       fighting spades, or heart engagements,
       diamond trades, or clover towers.
       They fulfill the transfer payments—
       don't claim royals with these flowers.`,
-      `30,73.5,118|There're no royals in this style;
+      `30,71,112|There're no royals in this style;
       just a rabbit and more tiles.`,
-      `51.5|Trailway hexes are layed out,
+      `48|Trailway hexes are layed out,
       linking roads like any other.
       You may pay to hike right out,
       or set camp without a bother.
@@ -58,7 +58,7 @@ const classicSections = [{
       y elige si con ella trasladarte.
       La víctima termina en el destierro
       y apúntale a la carta que descarte.`,
-    en: `95.5|At her post or from a den,
+    en: `89|At her post or from a den,
       pay the wolf to reach a rabbit.
       Spook off-board your target then,
       take a card from them and scrap it.
@@ -231,23 +231,23 @@ const classicSections = [{
       bear no suit nor noble spell. 
       They allure to quests permitted,
       and bring wander tiles as well.`,
-      `14.5,58,107,190|With three wander cards completed,
+      `14,60,109.5,191.5|With three wander cards completed,
       brought unto the Citadel,
       a new winner has succeeded—
       one the wandering will tell.`,
-      `33.5|Add a portion to the deck—
+      `33|Add a portion to the deck—
       three per player is the math.
       You may draw them as you trek—
       they'll allure you to their path.`,
-      `44|Wander cards present a mission,
+      `46.5|Wander cards present a mission,
       written only for your view.
       Show them off upon completion—
       keep them laid in front of you.`,
-      `80|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
+      `82.5|<a onclick="popUp('wanderTiles')">They have tiles</a> unlike the mountains,
       rivers, woods, caves, taverns, forks. 
       There's a crater, marshes, fountain,
       circus, well, bazaar—the works.`,
-      `94|Wander cards may be discarded
+      `96.5|Wander cards may be discarded
       on these places from their pack.
       Once discarded, they are parted—
       not for sale nor shuffled back.`,
@@ -272,7 +272,7 @@ export const wanderTiles = {
       resulta de salida inalcanzable. 
       Y el trío de los rombos se renueva: 
       lo mismo por sus cuatro laterales.`,
-    en: `128|There’s a set of roads to wander,
+    en: `130.5|There’s a set of roads to wander,
       which allows discards on sites.
       The triangles charge a wander:
       circus and bazaar sell rides.
@@ -286,7 +286,7 @@ export const wanderTiles = {
   ul_bulleted: {
     dataOn: Copy.text({
       es: "140.5",
-      en: "162",
+      en: "164.5",
     }),
     li: versify(Copy.text({
       es: [`El rombo de la fuente es transitable,
@@ -308,7 +308,7 @@ export const wanderTiles = {
   p_: versify(Copy.text({
     es: `160.5|El cobro se cancela con andares.
       Cualquiera de sus cartas que depares.`,
-    en: `183|For their gains, ignore the dice.
+    en: `185|For their gains, ignore the dice.
       Wander cards pay any price.`,
   })),
 };
