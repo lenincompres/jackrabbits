@@ -177,7 +177,7 @@ const offshoreSections = [{
       o pagas lo <i>restante</i> de la cifra,
       conéctalo a un camino por el mar,
       si no, en el océano se aísla.`,
-    en: `10.5|Tip the tower to the shore,
+    en: `9|Tip the tower to the shore,
       when you roll from any piece.
       If you show a card before,
       and it's equal or exceeds:
@@ -197,7 +197,7 @@ const offshoreSections = [{
       mas esto es imposible en el subsuelo.
       Si intentan escaparse del hexágono,
       saldrán precipitándose al destierro.`,
-    en: `48.5|Pay from anywhere you please,
+    en: `45|Pay from anywhere you please,
       and you may select a hex.
       Bring the vortex to that piece—
       where the blizzard traps its guests.
