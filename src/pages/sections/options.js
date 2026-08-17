@@ -71,14 +71,14 @@ const optionalSections = [
         }),
         p: versify(
           Copy.text({
-            es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel', event)">carátula de atrás</a>,
-              canjeas lo que quieras con diamantes,
-              cuestionas corazones y, al volar,
-              descartas con cualquiera lo restante.`,
+            es: `Si eliges la <a class="pop" onclick="popUp('advancedCitadel', event)">carátula de atrás</a>:
+              canjeas lo que quieras con diamantes;
+              cuestionas corazones al entrar;
+              y vuelas, con cualquiera en el restante.`,
             en: `If the citadel's <a class="pop" onclick="popUp('advancedCitadel', event)">flipped over</a>:
               buy with diamonds any loot,
               vet with hearts and fly with clovers—
-              shortfall's paid in any suit.`,
+              shortfall's paid with any suit.`,
           }),
         ),
       },

@@ -28,8 +28,8 @@ const classicSections = [{
       se paga el vericueto en sus atajos.
       Los pagas por cruzar en el momento, 
       o acampas y te ahorras el traslado.
-      Si pagas en el parque a los lobeznos,
-      trasladas a la fiera en un llamado.`
+      Recurre a la salida a los lobeznos,
+      si quieres a su madre en un llamado.`
     ],
     en: [`7|Fleurs are classic suits' replacements,
       but without their special powers:
@@ -206,9 +206,9 @@ const classicSections = [{
       misiones que transforman las partidas
       y vienen con un set de carreteras.`,
       `13.5,55.5,97,170|Con tres de sus misiones concluidas,
-      podrías reclamar la Ciudadela,
-      y el juego de inmediato se termina
-      llevándolas en vez de a la nobleza.`,
+      ya puedes olvidar la Ciudadela.
+      Ganaste de inmediato la partida,
+      sin que haya que buscar a la nobleza.`,
       `28.5|Se integran al inicio de la pila,
       y adquieren normalmente en el proceso.
       De a tres por concursantes incluidas,
@@ -232,8 +232,8 @@ const classicSections = [{
       They allure to quests permitted,
       and bring wander tiles as well.`,
       `14,60,109.5,191.5|With three wander cards completed,
-      brought unto the Citadel,
-      a new winner has succeeded—
+      you won't need the Citadel.
+      A new winner has succeeded—
       one the wandering will tell.`,
       `33|Add a portion to the deck—
       three per player is the math.

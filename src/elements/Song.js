@@ -366,7 +366,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/1a660e8e-9873-4df7-812b-e24b6a86b121.m4a",
-  en: "https://cdn1.suno.ai/8b707e26-436a-4464-a338-24af4b29eb1e.m4a",
+  en: "https://cdn1.suno.ai/78a6e78c-3b48-457c-8261-48b25ca5c427.m4a",
 }), Copy.text({
   es: "Tréboles",
   en: "Clovers",
@@ -382,7 +382,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/431e56ce-59e9-4f05-a3a1-99e79c18f908.m4a",
-  en: "https://cdn1.suno.ai/c829257f-c200-4637-b6f7-ba6dd027ab4f.m4a",
+  en: "https://cdn1.suno.ai/5dc61d8a-5747-4fe9-9c1e-b6f32eb54818.m4a",
 }), Copy.text({
   es: "Un nuevo territorio",
   en: "A New Landscape",

@@ -25,7 +25,7 @@ const offshoreSections = [{
       que pida revisarlas si te encuentra.
       Que pague con campanas por espiarlas,
       un palo por cualquiera que comprueba.
-      Si alguna que revisa es infiltrada,
+      Si alguna es de la marca equivocada,
       tu espía te denuncia y se la queda.`,
     en: `7|Keep your bells facedown aside—
       they won't play nor count in hand.
@@ -148,7 +148,7 @@ const offshoreSections = [{
       su torre que se encuentra en altamar.
       Contempla que la barca de su puerto
       te ofrece navegarla sin pagar.`,
-    en: `45|If you pay with shells at sea, 
+    en: `44.5|If you pay with shells at sea, 
       you won't end your turn off-board. 
       You'll be rescued for that fee—
       wash ashore its tower's port.

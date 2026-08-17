@@ -88,7 +88,7 @@ const frontierSections = [{
     en: "Transfers Underground",
   }),
   p_: versify(Copy.text({
-    es: `50|El túnel cavernoso con el fuego
+    es: `49.5|El túnel cavernoso con el fuego
       se ubica en el subsuelo por un lado.
       Si pagas al entrar en el subsuelo,
       podrás atraversarlo sin descanso.

@@ -132,22 +132,22 @@ const strategySections = [{
       la carta pasaporte es permitida.`
     ],
     en: [
-      `10.5|Show one card before you roll,
-      cast the <b>journey</b> to the skies.
-      Pick a tower as a goal,
+      `12.5|Show one card before you roll,
+      plot the <b>journey</b> to the skies.
+      Name a tower as a goal,
       if it beats the dice or ties. 
       Or you’ll miss the board and fall—
       play the <b>lottery</b> likewise.
-      Dropped off-board or standing tall,
+      Off the board or standing tall,
       tumblers keep the card that tries.`,
-      `43.5|Land your flight and don’t fall off,
+      `46|Land your flight and don’t fall off,
       if you pay to reach the dice. 
       Count how far your card was off:
       pay this shortfall to suffice. 
       Note the hex where you took off, 
       just the suit from there applies.
       You may trade the shown card off—
-      where the clubs fulfill the price.`,
+      where the clubs befit the price.`,
     ]
   })),
 }, {

@@ -26,13 +26,13 @@ const boardSection = {
       contar con las siguientes sugerencias:`,
     ],
     en: [
-      `10|Place the <i>Citadel</i> tile first. 
+      `0|Place the <i>Citadel</i> tile first. 
       Leave aside the <i>underground</i>. 
       Group and shuffle all the rest:
       twelve of all three shapes facedown.
       Deal by shape to every guest,
       each will get the same amount.`,
-      `59|Take your turns to place a tile—
+      `49.5|Take your turns to place a tile—
       pick a tile to flip and place.
       Or set out in loose freestyle—
       flip all tiles to see their face.
@@ -69,7 +69,7 @@ const boardSection = {
       Observa que el subsuelo, en exclusiva,
       se queda sin uniones laterales.`
     ],
-    en: `30.5,80|Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
+    en: `20,70.5|Don’t make dead-ends on the road;<sup class="warning rotated">T</sup>
       don’t connect roads from two hexes.<sup class="warning">x</sup>
       Place triangles scattered broad,
       not the ones alike connected.<sup class="warning">!</sup>
