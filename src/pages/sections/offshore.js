@@ -79,14 +79,14 @@ const offshoreSections = [{
       dispón tu zanahoria en su cabeza.
       La carta que pusiste se descarta 
       si pagan por el noble o la liberas.`,
-    en: `15.5|When you're visiting a tile,
+    en: `15|When you're visiting a tile,
       make its claim hard to achieve.
       Set your carrot on the aisle, 
       so the noble sits beneath.
       Raise its price in anchor style—
       one card added underneath.
       You'll discard it from this pile—
-      when you want or when they leave.`,
+      when you want or if they leave.`,
   })),
   h4_anchors_: Copy.text({
     es: "Traslado mediante el Velero",
@@ -99,7 +99,7 @@ const offshoreSections = [{
       lo mueves al que quieras de sus muelles;
       incluso a su mercado heterogéneo; 
       de ida te recoge si lo quieres.`,
-    en: `44|If you board the sailboat’s deck,
+    en: `42.5|If you board the sailboat’s deck,
       sail her anywhere for free. 
       If you pay at sea-bound treks,
       she must travel home by sea;

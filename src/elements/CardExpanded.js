@@ -115,7 +115,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/76396428-4e55-4fce-9dac-f5e288295eb6.m4a",
-  en: "https://cdn1.suno.ai/3f1fcb84-4ddf-4486-bd48-c2edf4d0d1a2.m4a",
+  en: "https://cdn1.suno.ai/308c0b78-8f60-4ae7-a81d-765f4b81f2aa.m4a",
 }), Copy.text({
   es: "Herraduras",
   en: "Horseshoes",
@@ -141,7 +141,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/3223e8c3-f7ff-4cf5-b551-cc41b8697069.m4a",
-  en: "https://cdn1.suno.ai/f00df2b3-9cc2-4b9c-8d01-65d620c56f0f.m4a",
+  en: "https://cdn1.suno.ai/d1a61cae-0ac7-4242-b6ad-86462b352786.m4a",
 }), Copy.text({
   es: "Anclas",
   en: "Anchors",
