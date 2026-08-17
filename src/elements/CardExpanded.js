@@ -98,7 +98,7 @@ export default CardExpanded;
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/bccdb590-016b-4c2f-a527-31ebfdf5c699.m4a",
-  en: "https://cdn1.suno.ai/a614b239-80dd-40a3-9919-fba789d83c8a.m4a",
+  en: "https://cdn1.suno.ai/30cccf19-43ea-47de-9242-3e0db1cd82fb.m4a",
 }), Copy.text({
   es: "Escudos",
   en: "Sheilds",
@@ -106,7 +106,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/0db920f4-3480-4b7f-b62e-2127995e3d74.m4a",
-  en: "https://cdn1.suno.ai/8ad849ef-401a-4f02-a632-b73aeed25a87.m4a",
+  en: "https://cdn1.suno.ai/5e823300-ca98-4bd2-a10f-f536242e5a08.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches", // test 
@@ -123,7 +123,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/6e389263-7175-4d9e-945b-3d70fe4f1ce8.m4a",
-  en: "https://cdn1.suno.ai/eaf217e5-5772-468b-9078-a4adab5add41.m4a",
+  en: "https://cdn1.suno.ai/fd56cdbf-06d8-4cdb-a9ba-5c14f5b3eb94.m4a",
 }), Copy.text({
   es: "Bellotas",
   en: "Acorns",
@@ -149,7 +149,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/8c74776c-2443-47b0-9a45-6f6de2a4b35e.m4a",
-  en: "https://cdn1.suno.ai/7ba7c12d-068e-41f1-a5e8-fc43df13ad1d.m4a",
+  en: "https://cdn1.suno.ai/11b22c3b-da12-449c-b684-2773bd88d38b.m4a",
 }), Copy.text({
   es: "Conchas",
   en: "Shells",
@@ -183,7 +183,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/34237312-db2d-4b12-9db6-08cd724ae40d.m4a",
-  en: "https://cdn1.suno.ai/e0e8679f-6bd3-429f-9cf2-6f1d9ac718c6.m4a",
+  en: "https://cdn1.suno.ai/9233ee4f-c7e0-426e-8fdd-110a7ce201b8.m4a",
 }), Copy.text({
   es: "Enlaces",
   en: "Liaisons",

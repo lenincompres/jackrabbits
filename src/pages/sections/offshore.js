@@ -133,9 +133,9 @@ const offshoreSections = [{
       It’s a coastal landing ground—
       where all boats may venture in.
       You may draw when you're around,
-      twice the cards for those you bin:
-      toss your shells beneath the ground—
-      let the pile provide your win.`,
+      by discarding shells within:
+      twice as many cards abound,
+      let the pile provide therein.`,
   })),
   h4_shells_: Copy.text({
     es: "Traslado desde el mar",

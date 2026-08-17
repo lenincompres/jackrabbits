@@ -47,7 +47,7 @@ const frontierSections = [{
       trasládala de nuevo con un pago.
       Si estás en el lugar al que la llevas,
       del sitio te conceden su traslado.`,
-    en: `38|Guards are meant to block the road—
+    en: `39|Guards are meant to block the road—
       on a green three-sided tile.
       Pay wherever on the board,
       and assign their post meanwhile.
@@ -74,7 +74,7 @@ const frontierSections = [{
       llevándose a los otros de la zona.
       Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
-    en: `7|Start a riot where you are—
+    en: `7.5|Start a riot where you are—
       any torch discard will do.
       End your turn with disregard,
       take off-board those there with you.
@@ -194,7 +194,7 @@ const frontierSections = [{
       elígele la zona en la que ronde.
       Destiérrate o traspasa sin demora,
       si estás en el lugar que la coloques.`,
-    en: `49|Pay wherever you may roam,
+    en: `48|Pay wherever you may roam,
       and invoke where it is moved.
       Let it range a trailway zone:
       river, mountain, or the woods.

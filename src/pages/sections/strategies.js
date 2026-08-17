@@ -69,13 +69,13 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `11|Anúnciate en la entrada de las reinas
+      `10|Anúnciate en la entrada de las reinas
       y espera que en la mesa te cuestionen:
       si cargas con su carta de nobleza 
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que tu suma se cerciore.`,
-      `41|Mas antes de mostrar tus pertenencias,
+      `39.5|Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre corazones de su cuenta,
       lo mínimo de aquellas condiciones.

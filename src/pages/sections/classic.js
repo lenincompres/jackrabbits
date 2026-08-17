@@ -101,7 +101,7 @@ const classicSections = [{
       pass right through the underground.
       Reach another hex train post—
       link all tracks when they're set down.`,
-      `42|On the roads that have a steed,
+      `41.5|On the roads that have a steed,
       show a Cavalier at hand,
       and you’ll ride at dashing speed—
       travel anywhere by land.`,
@@ -152,7 +152,7 @@ const classicSections = [{
       En la otra te reponen, de la pila,
       las cartas de tu mano que descartes.`,
     ],
-    en: [`6|Two new rabbits bring their styles,
+    en: [`6.5|Two new rabbits bring their styles,
       as the classic suits are played.
       Six more royals add their tiles,
       with alliances portrayed.`,
@@ -160,7 +160,7 @@ const classicSections = [{
       and three naturalist cards.
       Claim with both the suits they list—
       split the cost in any parts.`,
-      `37.5|Some have merchants, taverns, caves—
+      `37|Some have merchants, taverns, caves—
       even mules and new canoes.
       Flights from towers may be saved—
       payed with any of their suits.`,

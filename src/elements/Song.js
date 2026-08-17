@@ -357,7 +357,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/bb822ef1-db08-4ecb-9daa-21766ce09067.m4a",
+  es: "https://cdn1.suno.ai/b910f7d2-5ecc-4396-841d-85528d8e0dff.m4a",
   en: "https://cdn1.suno.ai/2af0e530-1401-4480-94b7-c4d2a04862f5.m4a",
 }), Copy.text({
   es: "Corazones",
