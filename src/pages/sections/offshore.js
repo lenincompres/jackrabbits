@@ -27,14 +27,14 @@ const offshoreSections = [{
       un palo por cualquiera que comprueba.
       Si alguna que revisa es infiltrada,
       tu espía te denuncia y se la queda.`,
-    en: `7.5|Keep your bells facedown aside—
+    en: `7|Keep your bells facedown aside—
       they won't play nor count in hand.
       Those in doubt may pay to spy
       if they meet you where you stand.
       They discard their bells to pry—
       let one card per pip be scanned.
       Scourers keep the ones they eye
-      if their suit does not withstand.`
+      if these bear another brand.`
   })),
   h4_bells_: Copy.text({
     es: "Traslado al aislamiento",
@@ -50,8 +50,8 @@ const offshoreSections = [{
     en: `51|Every bell cave leads to three—
     pay for transfer from your pile.
     There's a transfer by decree—
-    when you cause someone's exile. 
-    Pay wherever you may be—
+    you can cause someone's exile:
+    pay wherever you may be—
     strand them on the tower tile.
     Not from underground or sea—
     both exempt from bells or trial.`
