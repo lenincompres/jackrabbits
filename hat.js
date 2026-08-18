@@ -93,7 +93,7 @@ DOM.set({
       target: "_blank",
       text: Copy.at.buy,
     }, {
-      href: "http://instagram.com/lenino.jackrabbits",
+      href: "https://www.instagram.com/lenino.jackrabbits",
       target: "_blank",
       text: "Instagram",
     }, {
