@@ -21,7 +21,7 @@ const transferSections = [{
       marcados a mitad de los polígonos;
       el <a onclick="popUp('price')"><b>precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
-    en: `5|If you venture on the paths, 
+    en: `4.5|If you venture on the paths, 
       you'll move freely on your round.
       This includes the underpass,
       found in mountains farther down.
@@ -41,7 +41,7 @@ const transferSections = [{
       cruzando por el centro en un atajo.
        <a onclick="popUp('price')">Si pagas</a> con cualquiera de los símbolos,
       te cambias del camino que te trajo.`,
-    en: `33.5|At the mountains, rivers, woods,
+    en: `33|At the mountains, rivers, woods,
       two roads lie not far apart.
       You may hike between these two,
       cutting through the middle part.
@@ -67,7 +67,7 @@ const transferSections = [{
       y arribas por alguna carretera.
       Los cruces te trasladan al instante,
       partiendo tras el pago que les dieras.`,
-    en: `52.5|Stationed where the road is forked,
+    en: `52|Stationed where the road is forked,
       there's a horse and boat to ride. 
       Reach a place across the board,
       over tiles at gallop stride.
@@ -88,10 +88,10 @@ const transferSections = [{
        <a onclick="popUp('price')">si pagas</a> al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
-    en: `81.5|When you  <a onclick="popUp('price')">pay</a> a tavern's host,
+    en: `81|When you <a onclick="popUp('price')">pay</a> the taverns' cost,
       keep a ride you set aside.
-      Choose a joker card to hold,
-      and release to claim their ride.`,
+      Hold a joker card they host,
+      to release and claim their ride.`,
   })),
   img: new MediaFigure("roads", {
     img: imgCropStyle("17rem", "5.5rem"),
@@ -108,7 +108,7 @@ const transferSections = [{
       metiéndote al <a class="pop" onclick="popUp('underground', event)"><i>subsuelo</i></a> por un rato.
       Descansas por el turno y, a la vuelta, 
       te sales por la cueva de tu agrado.`,
-    en: `92.5|<a onclick="popUp('price')">Pay</a> to travel cave to cave, 
+    en: `92|<a onclick="popUp('price')">Pay</a> to travel cave to cave, 
       use this trick to hop around. 
       But if you prefer to save, 
       pay a visit <a class="pop" onclick="popUp('underground', event)"><i>underground</i></a>.
@@ -133,7 +133,7 @@ const transferSections = [{
       y en vez de ejecutar la <b>travesía</b>,
       te mueves al <a class="pop" onclick="popUp('underground', event)"><i>subsuelo</i></a> en el que esperas
       y eliges a la vuelta la salida.`,
-    en: `118.5|If you venture off the board,
+    en: `118|If you venture off the board,
       on a road that leads outbound,
       end your <b>journey</b> overboard,
       where no <b>increment</b> is found.
