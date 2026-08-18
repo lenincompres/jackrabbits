@@ -120,7 +120,7 @@ const offshoreSections = [{
     en: "Cast to the deep",
   }),
   p: versify(Copy.text({
-    es: `13|La gruta coralina de la costa
+    es: `6|La gruta coralina de la costa
       se extiende del subsuelo en sus orillas.
       Podrás desembarcar si te transportas,
       pues cuenta con un puerto de visitas.
@@ -142,7 +142,7 @@ const offshoreSections = [{
     en: "Transfer from the Sea",
   }),
   p_: versify(Copy.text({
-    es: `41.5|En turnos en que sales al destierro,
+    es: `51.5|En turnos en que sales al destierro,
       si pagas con tus conchas en el mar,
       trasládate a su islote en el momento:
       su torre que se encuentra en altamar.

@@ -22,7 +22,7 @@ const classicSections = [{
       excepto en el poder de su estrategia.
       Las usas en el pago de los triángulos,
       y en rombos al cambiar de carretera.`,
-      `29,74.5,119.5|Añades un conejo con sus piezas;
+      `29.5,75,128|Añades un conejo con sus piezas;
       y flores sin sus nobles a la mesa.`,
       `50|En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
@@ -52,7 +52,7 @@ const classicSections = [{
     en: "Transfer the Wolf",
   }),
   p_: versify(Copy.text({
-    es: `95|Si pagas a la fiera o sus lobeznos,
+    es: `102|Si pagas a la fiera o sus lobeznos,
       la envías a un conejo en un paraje.
       Trasládala por tierra y por subsuelo,
       y elige si con ella trasladarte.
@@ -72,19 +72,19 @@ const classicSections = [{
     en: "+ Cavaliers",
   }),
   p: versify(Copy.text({
-    es: [`2|Las nuevas estaciones de jinetes 
+    es: [`1.5|Las nuevas estaciones de jinetes 
       se añaden a las casas de los palos. 
       Las cuatro se vinculan por sus rieles
       y tienen carreteras con caballos.`,
-      `15.5|Es gratis desplazarte con sus trenes,
+      `15|Es gratis desplazarte con sus trenes,
       que cruzan el subsuelo de inmediato.
       Procura con las vías que diseñes
       que no haya un eslabón desconectado.`,
-      `29|Las cartas de sus nobles las adquieres,
+      `28.5|Las cartas de sus nobles las adquieres,
       igual que las demás de la nobleza.
       Las usas al viajar con sus corceles,
       y nunca al reclamar la Ciudadela.`,
-      `43|En todos sus caminos de corceles,
+      `42.5|En todos sus caminos de corceles,
       cualquiera de sus nobles en tu mano,
       permite que cabalgues si lo quieres,
       brindándote de gratis su traslado.`,
@@ -135,19 +135,19 @@ const classicSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `4|Los seis ayuntamientos y sus nobles
+      `5|Los seis ayuntamientos y sus nobles
       vinculan a los palos iniciales.
       Y dos de los conejos jugadores
       permiten añadir participantes.`,
-      `24|Los símbolos de enlaces que visitas,
+      `25|Los símbolos de enlaces que visitas,
       se deben combinar al adquirirlas.
       Un trío es del sector materialista;
       y el otro, de la unión naturalista.`,
-      `43.5|Las casas te permiten trasladarte
+      `44|Las casas te permiten trasladarte
       si pagas por los medios ilustrados.
       El vuelo de sus torres, si hay restante,
       se paga con cualquiera de sus palos.`,
-      `64|La Jota del sector materialista
+      `65|La Jota del sector materialista
       te vende lo que quieras por diamantes.
       En la otra te reponen, de la pila,
       las cartas de tu mano que descartes.`,
@@ -205,7 +205,7 @@ const classicSections = [{
       añaden veintidós interferencias:
       misiones que transforman las partidas
       y vienen con un set de carreteras.`,
-      `13.5,55.5,97,170|Con tres de sus misiones concluidas,
+      `13.5,55.5,96.5,170|Con tres de sus misiones concluidas,
       ya puedes olvidar la Ciudadela.
       Ganaste de inmediato la partida,
       sin que haya que buscar a la nobleza.`,
@@ -213,11 +213,11 @@ const classicSections = [{
       y adquieren normalmente en el proceso.
       De a tres por concursantes incluidas,
       sin ver las aventuras en sus textos.`,
-      `42|Las cartas con andares que recibas 
+      `41.5|Las cartas con andares que recibas 
       te muestran sus propósitos secretos. 
       Las pones en tu frente bocarriba 
       si logras los andares de sus retos.`,
-      `70.5|<a onclick="popUp('wanderTiles')">Sus vías</a> carreteras que resaltan,
+      `70|<a onclick="popUp('wanderTiles')">Sus vías</a> carreteras que resaltan,
       reflejan a las clásicas que tienes.
       sus triángulos y rombos se destacan,
       incluso si sus usos se mantienen.`,
@@ -264,7 +264,7 @@ export const wanderTiles = {
   }),
   img: new MediaFigure("wanderTiles"),
   p: versify(Copy.text({
-    es: `112|Se añaden a las vías carreteras 
+    es: `111.5|Se añaden a las vías carreteras 
       las piezas que permiten los andares. 
       Con una de sus cartas que les dieras, 
       te ofrecen los traslados habituales. 
@@ -285,7 +285,7 @@ export const wanderTiles = {
   })),
   ul_bulleted: {
     dataOn: Copy.text({
-      es: "140.5",
+      es: "141",
       en: "164.5",
     }),
     li: versify(Copy.text({
@@ -306,7 +306,7 @@ export const wanderTiles = {
     })),
   },
   p_: versify(Copy.text({
-    es: `160.5|El cobro se cancela con andares.
+    es: `161|El cobro se cancela con andares.
       Cualquiera de sus cartas que depares.`,
     en: `185|For their gains, ignore the dice.
       Wander cards pay any price.`,

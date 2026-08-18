@@ -132,7 +132,7 @@ new Song(Copy.text({
 Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/a1832a9a-eb14-4a01-8b48-33a78e5cf643.m4a",
+  es: "https://cdn1.suno.ai/7dafc484-95e3-4788-9db6-9f5fd90f0c33.m4a",
   en: "https://cdn1.suno.ai/dfd6cae0-db07-421b-a3f6-75b9151f26b5.m4a",
 }), Copy.text({
   es: "Campanas",
@@ -156,7 +156,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.NS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/456f2c4a-098e-44c2-bfb7-a42e8c2a7fce.m4a",
+  es: "https://cdn1.suno.ai/8acb5e3f-9ffb-415a-82a9-9dca904a838e.m4a",
   en: "https://cdn1.suno.ai/6f419fc9-c880-4b4b-91d4-099813715fd0.m4a",
 }), Copy.text({
   es: "Carámbanos",
@@ -167,14 +167,14 @@ Song.shuffleRange(Song.List.length - 4);
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/6ed1faab-c7aa-49eb-aa76-d193d1966897.m4a",
-  en: "https://cdn1.suno.ai/d012160f-4c8e-4254-9efc-f21b4924f942.m4a",
+  en: "https://cdn1.suno.ai/6515898e-a134-42b2-a8fa-b46b9ae3b3e8.m4a",
 }), Copy.text({
   es: "Flores",
   en: "Fleurs",
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.F, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/5d3a4650-8f89-4605-88d7-64ec15cbe89f.m4a",
+  es: "https://cdn1.suno.ai/b91f6452-bc5e-4e68-82cb-fe71ea2841f4.m4a",
   en: "https://cdn1.suno.ai/6a1c0391-7e56-42ce-b527-1431ced9d1e7.m4a",
 }), Copy.text({
   es: "Corceles",
@@ -182,7 +182,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.T), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/34237312-db2d-4b12-9db6-08cd724ae40d.m4a",
+  es: "https://cdn1.suno.ai/2d5b36c6-4efa-46e5-b106-f79c60435c02.m4a",
   en: "https://cdn1.suno.ai/9233ee4f-c7e0-426e-8fdd-110a7ce201b8.m4a",
 }), Copy.text({
   es: "Enlaces",
@@ -194,7 +194,7 @@ Song.shuffleRange(Song.List.length - 3);
 //
 let wanderTilesUp = false;
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/e5d2be26-37cb-48a6-8f89-7cdf83af6de7.m4a",
+  es: "https://cdn1.suno.ai/9aaf7eed-7273-418f-9d1d-25ec73bea16b.m4a",
   en: "https://cdn1.suno.ai/db9795e3-1547-4797-9185-86efaca3f216.m4a",
 }), Copy.text({
   es: "Andares",
@@ -205,7 +205,7 @@ new Song(Copy.text({
   setTimeout(() => popUp(), 1);
 }, 1, currentTime => {
   let bridge = Song.round(Copy.text({
-    es: "112",
+    es: "111.5",
     en: "130",
   }));
   let outro = Song.round(Copy.text({
