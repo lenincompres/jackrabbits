@@ -96,7 +96,7 @@ const frontierSections = [{
       ya sea por tu cuenta o sin buscarlo,
       pagando evitarías el destierro,
       moviéndote al subsuelo de inmediato.`,
-    en: `43.5|There’s a cavern underground,
+    en: `47|There’s a cavern underground,
       where two transfers call for fire.
       One to leave that very round, 
       paying what the dice require.

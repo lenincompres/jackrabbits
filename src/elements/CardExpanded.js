@@ -106,7 +106,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/0db920f4-3480-4b7f-b62e-2127995e3d74.m4a",
-  en: "https://cdn1.suno.ai/5e823300-ca98-4bd2-a10f-f536242e5a08.m4a",
+  en: "https://cdn1.suno.ai/24cd3ee7-8b57-49c6-a10f-74b42027fba1.m4a",
 }), Copy.text({
   es: "Antorchas",
   en: "Torches", // test 
@@ -195,7 +195,7 @@ Song.shuffleRange(Song.List.length - 3);
 let wanderTilesUp = false;
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/e5d2be26-37cb-48a6-8f89-7cdf83af6de7.m4a",
-  en: "https://cdn1.suno.ai/faa0a32c-4a2d-431a-87cc-07b3e90854e6.m4a",
+  en: "https://cdn1.suno.ai/db9795e3-1547-4797-9185-86efaca3f216.m4a",
 }), Copy.text({
   es: "Andares",
   en: "Allures",

@@ -73,7 +73,7 @@ const transferSections = [{
       over tiles at gallop stride.
       Or select a road to port,
       gliding on the seas outside.
-      Landlocked merchants have no boats,
+      Landlocked merchants can’t launch boats,
       since their post is not seaside.
       Merchants send you from their post,
       once  you <a onclick="popUp('price')">pay</a> what dice decide.`,

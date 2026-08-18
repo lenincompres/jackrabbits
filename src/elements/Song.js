@@ -342,7 +342,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/43d46aaf-555c-4824-8d7e-56816f666e3f.m4a",
-  en: "https://cdn1.suno.ai/ce308437-b63e-4fef-b1c3-aa521ce3d559.m4a",
+  en: "https://cdn1.suno.ai/43951858-7436-4b17-8016-9750d1147bb1.m4a",
 }), Copy.text({
   es: "Trucos del camino",
   en: "Off the Road",
@@ -357,7 +357,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("full", Card.SUIT.D));
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/b910f7d2-5ecc-4396-841d-85528d8e0dff.m4a",
+  es: "https://cdn1.suno.ai/3577d41f-713b-48c6-b2a3-6232adca3060.m4a",
   en: "https://cdn1.suno.ai/2af0e530-1401-4480-94b7-c4d2a04862f5.m4a",
 }), Copy.text({
   es: "Corazones",
@@ -366,7 +366,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/1a660e8e-9873-4df7-812b-e24b6a86b121.m4a",
-  en: "https://cdn1.suno.ai/78a6e78c-3b48-457c-8261-48b25ca5c427.m4a",
+  en: "https://cdn1.suno.ai/caef5422-4bbf-4938-9a9b-f1ad56b3fea0.m4a",
 }), Copy.text({
   es: "Tréboles",
   en: "Clovers",
