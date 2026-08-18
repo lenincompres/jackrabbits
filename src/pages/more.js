@@ -290,6 +290,26 @@ const morePage = {
             }),
           ),
         },
+        {
+          h3: {
+            a: {
+              text: Copy.text({
+                en: "E-mail us",
+                es: "Correo Electrónico",
+              }),
+              target: "_blank",
+              href: "mailto:leninosjackrabbits@gmail.com",
+            },
+          },
+          p: versify(
+            Copy.text({
+              es: `Si tienes un mensaje que contarnos,
+              escribe y nos pondremos en contacto.`,
+              en: `If you have something to say,
+              please contact us right away.`,
+            }),
+          ),
+        },
       ],
     },
   ],
