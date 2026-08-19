@@ -16,20 +16,20 @@ const classicSections = [{
   img: new MediaFigure("fleurs"),
   p: versify(Copy.text({
     es: [
-      `4.5|Las flores se usarán en los traslados
+      `4|Las flores se usarán en los traslados
       y nunca al adquirir a la nobleza.
       Suplantan a los palos de los clásicos,
       excepto en el poder de su estrategia.
       Las usas en el pago de los triángulos,
       y en rombos al cambiar de carretera.`,
-      `29.5,75,128|Añades un conejo con sus piezas;
+      `30,73,121|Añades un conejo con sus piezas;
       y flores sin sus nobles a la mesa.`,
-      `50|En parques con caminos paralelos,
+      `48.5|En parques con caminos paralelos,
       se paga el vericueto en sus atajos.
       Los pagas por cruzar en el momento, 
       o acampas y te ahorras el traslado.
-      Recurre a la salida a los lobeznos,
-      si quieres a su madre en un llamado.`
+      Si juegas con las crías del terreno,
+      despiertas a su madre en un llamado.`
     ],
     en: [`7|Fleurs are classic suits' replacements,
       but without their special powers:
@@ -44,7 +44,7 @@ const classicSections = [{
       You may pay to hike right out,
       or set camp without a bother.
       Dens may lead the campers out—
-      see the pups about their mother.`
+      see the pup about her mother.`
     ]
   })),
   h4_fleurs: Copy.text({
@@ -52,7 +52,7 @@ const classicSections = [{
     en: "Transfer the Wolf",
   }),
   p_: versify(Copy.text({
-    es: `102|Si pagas a la fiera o sus lobeznos,
+    es: `95|Si pagas en su parque o paradero,
       la envías a un conejo en un paraje.
       Trasládala por tierra y por subsuelo,
       y elige si con ella trasladarte.
