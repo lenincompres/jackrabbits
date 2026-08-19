@@ -47,7 +47,7 @@ const setupPage = {
         Copy.text({
           es: `27|Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
-          Que exploren recorrer las carreteras
+          Que intenten recorrer las carreteras
           llevando los conejos que se mueven.
           Añádeles las cartas y sus reglas
           si entienden a medida que las prueben.`,

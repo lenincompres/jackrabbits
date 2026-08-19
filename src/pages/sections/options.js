@@ -30,7 +30,7 @@ const optionalSections = [
         p: versify(
           Copy.text({
             es: `La búsqueda de cartas se aligera,
-        sin que haya que llevarlas al castillo.
+        pues no hay que regresarlas al castillo.
         Si obtienes de las nobles tu tercera,
         descansa por un turno decisivo.
         Lo observas con tus cartas, ya por fuera;

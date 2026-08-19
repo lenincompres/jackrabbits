@@ -21,7 +21,7 @@ const strategySections = [{
     es: `13|Los centros con las flechas de intercambio
       te ofrecen sus artículos en venta:
       las cartas de sus palos descartados
-      que en estos por diamantes se canjean,
+      que solo por diamantes se canjean,
       o aceptan de cualquiera de los palos
       si el centro es el marcado con la estrella.`,
     en: `9|All spent cards are being sold, 
