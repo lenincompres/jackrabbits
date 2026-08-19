@@ -70,8 +70,8 @@ const frontierSections = [{
   p: versify(Copy.text({
     es: `14|Descarta las antorchas que prefieras
       y aléjate del caos que provocas.
-      Primero tu conejo se destierra,
-      llevándose a los otros de la zona.
+      Tu turno se termina y te destierras,
+      llevándote a los otros de la zona.
       Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
     en: `7.5|Start a riot where you are—

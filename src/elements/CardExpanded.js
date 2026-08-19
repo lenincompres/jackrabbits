@@ -97,7 +97,7 @@ customElements.define("jk-card-expanded", CardExpanded);
 export default CardExpanded;
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/bccdb590-016b-4c2f-a527-31ebfdf5c699.m4a",
+  es: "https://cdn1.suno.ai/7ebe2edb-0248-468e-8bde-bbd463472746.m4a",
   en: "https://cdn1.suno.ai/30cccf19-43ea-47de-9242-3e0db1cd82fb.m4a",
 }), Copy.text({
   es: "Escudos",
@@ -105,7 +105,7 @@ new Song(Copy.text({
 }), () => Song.visitPage("expansion", CardExpanded.SUIT.FS, false), 1);
 
 new Song(Copy.text({
-  es: "https://cdn1.suno.ai/0db920f4-3480-4b7f-b62e-2127995e3d74.m4a",
+  es: "https://cdn1.suno.ai/19b4e0c1-1a7c-40b1-bf62-291885d189bd.m4a",
   en: "https://cdn1.suno.ai/24cd3ee7-8b57-49c6-a10f-74b42027fba1.m4a",
 }), Copy.text({
   es: "Antorchas",
