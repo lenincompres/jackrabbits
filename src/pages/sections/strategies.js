@@ -189,7 +189,7 @@ const strategySections = [{
       use your spades to wield a sword.
       Both go back and forth in tandem,
       adding spades to beat what's scored.
-      When no cards are thrown to sum them, 
+      When no cards are played to sum them, 
       then the struggler's kicked off-board.`,
       `42|Note that tying scores is barred,
       and discard the spades outpoured.

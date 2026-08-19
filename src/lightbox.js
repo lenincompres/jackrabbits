@@ -174,7 +174,7 @@ LightBox.add(new Pager({
       then consider that the price.
       Use as many cards to pay,
       check each symbol qualifies.
-      Royals' value never sway—
+      Royals values never sway—
       note their price remains precise. `,
         `Set aside the cards you spend—
       they’re <i>discarded</i> once you’re done. 

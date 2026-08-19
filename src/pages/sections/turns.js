@@ -32,7 +32,7 @@ const turnSections = [{
       either number you just rolled.`,
       `21.5|Please discard if caught with ten.
       Bring your hand to nine again.*`,
-      `27|Hold the outcome of the dice.
+      `27|Keep the outcome of the dice.
       Transfers use it as the <a onclick="popUp('price')"><b>price</b></a>.`
     ]
   })),
