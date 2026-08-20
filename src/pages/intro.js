@@ -11,8 +11,8 @@ const introPage = {
     dataLyrics: 2,
     header: {
       h2: versify(Copy.text({
-        es: "Turno en Cuatro Fases",
-        en: "Four Phases of a Turn",
+        es: "Fases del turno",
+        en: "Phases of a Turn",
       })),
       p: versify(Copy.text({
         es: `Domina el material preliminar.

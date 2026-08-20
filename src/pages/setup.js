@@ -51,12 +51,12 @@ const setupPage = {
           llevando los conejos que se mueven.
           Añádeles las cartas y sus reglas
           si entienden a medida que las prueben.`,
-          en: `25|If there're children under nine,
+          en: `25|If there's children under nine,
           only play to build the land.
           Let them wander their design—
           with a rabbit in their hand.
           Bring the cards in down the line,
-          and the rules they understand.`,
+          with the rules they understand.`,
         })),
     }, {
       h3: "2. </br>" + Copy.text({
@@ -79,7 +79,7 @@ const setupPage = {
           en: `48|Lay the <i>court</i> in any order,
           after placing every tile.
           These are <i>royal</i> cards and <i>jokers</i>,
-          and will form a faceup aisle.
+          and they'll form a faceup aisle.
           What remains are <i>pips</i> in number,
           and the <i>aces</i> of each style.
           Give a shuffle as in poker—
@@ -101,8 +101,8 @@ const setupPage = {
           that's their <i>hand</i> to start the chase.
           These resources, each one guards, 
           fund the <b>journey</b> they will face.
-          And pay royals their regards,
-          per the <b>acquisition</b> phase.`,
+          And pay royals their regards—
+          that's the <b>acquisition</b> phase.`,
         }))
     }, {
       h3: "3. </br>" + Copy.text({
@@ -124,7 +124,7 @@ const setupPage = {
           height: '7.5em',
         }),
         Copy.text({
-          es: `129|Escoge elfin del juego de <a class="pop" onclick="popUp('endings', event)"><b>objetivo</b></a>,
+          es: `129|Escoge el <a class="pop" onclick="popUp('endings', event)"><b>objetivo</b></a> del castillo,
           que listan al principio de las reglas.
           A menos que se trate del sencillo,
           su sello se pondrá en la Ciudadela.`,
@@ -144,7 +144,7 @@ const setupPage = {
           en: `104|Now select the starting player, 
           and the order of the turns.
           Choose your ways for this endeavor—
-          none of these are my concerns.`,
+          none of which are my concerns.`,
         })),
     }],
     footer: {

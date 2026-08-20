@@ -74,7 +74,7 @@ const transferSections = [{
       Or select a road to port,
       gliding on the seas outside.
       Landlocked merchants can’t launch boats,
-      since their post is not seaside.
+      since they're not by the seaside.
       Merchants send you from their post,
       once  you <a onclick="popUp('price')">pay</a> what dice decide.`,
   }), {
@@ -89,8 +89,8 @@ const transferSections = [{
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
     en: `81|When you <a onclick="popUp('price')">pay</a> the taverns' cost,
-      keep a ride you set aside.
-      Hold a joker card they host,
+      keep a ride you set aside:
+      hold a joker card they host,
       to release and claim their ride.`,
   })),
   img: new MediaFigure("roads", {

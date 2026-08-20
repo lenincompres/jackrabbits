@@ -240,7 +240,7 @@ LightBox.add(new Pager({
         es: `Suscríbete al listado de correos.
           Apoya las campañas que tendremos.`,
         en: `Join the list on this domain.
-          Stay in touch for our campaigns.`,
+          Stay in touch for our campaign.`,
       })),
     },
     iframe: {

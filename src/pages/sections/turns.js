@@ -28,7 +28,7 @@ const turnSections = [{
       so that two results unfold.
       You may draw a one-card prize
       if you show a card you hold. 
-      Prove it matches value-wise, 
+      Prove it matches, value-wise, 
       either number you just rolled.`,
       `21.5|Please discard if caught with ten.
       Bring your hand to nine again.*`,
@@ -90,12 +90,12 @@ const turnSections = [{
       Reclama el <b>incremento</b> de inmediato.`,
     ],
     en: [
-      `70.5|It’s your goal to claim the card—
-      claim the royal you salute.
+      `70.5|It’s your goal to claim a card—
+      claim a royal you salute.
       You must visit and discard:
       ten or more in that card's suit.
       Place a carrot as your mark,
-      and remove it from pursuit.`,
+      and you'll end this card's pursuit.  `,
       `87|You may always be a guest.
       Make no claim and stop to rest.`,
       `92|Keep the royals in your hands.

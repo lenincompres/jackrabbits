@@ -93,8 +93,8 @@ const morePage = {
             Copy.text({
               es: `El juego de <b>Jack Rabbits</b> digital,
               en línea y sin costo adicional.`,
-              en: `Start a game for free online.
-              Play with friends in real-time`,
+              en: `Start a match online for free.
+              Play wherever you may be.`,
             }),
           ),
         },/*
@@ -223,8 +223,8 @@ const morePage = {
             Copy.text({
               es: `<b>Jack Rabbits</b>  en un rol educativo,
               con miras al análisis creativo.`,
-              en: `Let's promote critical thinking.
-              Play with stories and world-building.`,
+              en: `Teach with stories, thought, and play.
+              Guide the minds of modern day.`,
             }),
           ),
         },
@@ -266,7 +266,7 @@ const morePage = {
               es: `Descubre contenido y tutoriales.
                 Taguéanos, suscríbete y comparte.`,
               en: `Find our clips, events and more.
-                Follow, tag, and share your boards. `,
+                Follow, tag, and share your board. `,
             }),
           ),
         },

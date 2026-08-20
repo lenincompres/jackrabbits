@@ -29,7 +29,7 @@ Copy.add({
     es: `Suscríbete al <a class="pop" onclick="popUp('mailingList')">listado de correos</a>.
     Apoya las campañas que tendremos.`,
     en: `<a class="pop" onclick="popUp('mailingList')">Join the list</a> on this domain.
-    Stay in touch for our campaigns.`,
+    Stay in touch for our campaign.`,
   },
   buy: {
     es: "Adquiere el juego",

@@ -17,7 +17,7 @@ const optionalSections = [
           Copy.text({
             es: `Un reto que al <a onclick="popUp('endings', event)">tribal</a> se le aproxima:
         tus nobles con la letra repetida.`,
-            en: `Get three nobles with one letter.
+            en: `Match three nobles by their letter.
             Only <a onclick="popUp('endings', event)">tribal courts</a> are rarer.`,
           }),
         ),

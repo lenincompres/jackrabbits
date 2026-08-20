@@ -23,7 +23,7 @@ const strategySections = [{
       los puntos de sus palos descartados
       que allí por tus diamantes se canjean,
       o aceptan de cualquiera de los palos
-      si el centro es el marcado con la estrella.`,
+      si el símbolo es marcado con la estrella.`,
     en: `9|All spent cards are being sold, 
       every <b>J</b>ack will sell its suit.
       Browse the lot their houses hold,
@@ -45,7 +45,7 @@ const strategySections = [{
     con alguien en el sitio que te encuentras.
     El precio por diamantes es acordado
     y ocultan en las manos las ofertas.
-    A quien se le descubra que ha engañado, 
+    A quien se le descubra por engaño, 
     después del intercambio se destierra.`,
     en: `39|If agreed when setup starts,
     you may add the <b class="diamonds">diamonds boost <sup>+</sup></b>:
@@ -142,7 +142,7 @@ const strategySections = [{
       tumblers keep the card that tries.`,
       `46|Land your flight and don’t fall off,
       if you pay to reach the dice. 
-      Count how far your card was off:
+      Count how far your card was off—
       pay this shortfall to suffice. 
       Note the hex where you took off, 
       just the suit from there applies.
