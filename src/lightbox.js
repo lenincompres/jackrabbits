@@ -156,13 +156,13 @@ LightBox.add(new Pager({
       o el mínimo que tienes que pagar. 
       Se pierde el sobrepago si te pasas;
       los símbolos se pueden combinar.
-      En cuanto a las reales en sus casas, 
+      En cuanto a las reales o monarcas,
       mantienen su valor original.`,
         `Las cartas se <i>descartan</i> al usarse,
       dejándolas a un lado de la mesa.
       Es <b>1</b> lo que cuentas por los ases,
-      y <b>10</b> por las reales o con letras.
-      En caso de que gastes las reales,
+      y <b>10</b> por las que son de la nobleza.
+      Si acaso desembolsas las reales,
       saldrá tu zanahoria de sus piezas,
       y en vez de que la carta la descartes,
       regrésala a la corte en la que empieza.`

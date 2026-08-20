@@ -17,7 +17,7 @@ const transferSections = [{
       si sigues por los vínculos continuos.
       Incluso las montañas por debajo,
       se cruzan con sus túneles gratuitos.
-      Se paga solamente los traslados,
+      Se pagan solamente los traslados,
       marcados a mitad de los polígonos;
       el <a onclick="popUp('price')"><b>precio</b></a> es el fijado por los dados
       y pagas con las cartas de sus símbolos.`,
@@ -60,11 +60,11 @@ const transferSections = [{
     es: `52|<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
       trasládate por aguas o por tierras.
       Por tierra galopando sin pararte,
-      moviéndote a la pieza que prefieras.
-      Por agua si cualquiera de sus calles
-      colinda con un lado a las afueras,
-      te sales navegando por los mares
-      y arribas por alguna carretera.
+      moviéndote a la pieza que prefieras;
+      por agua navegando por los mares
+      y arribas por alguna carretera
+      si zarpas de cualquiera de sus calles
+      que linde con un lado a las afueras. 
       Los cruces te trasladan al instante,
       partiendo tras el pago que les dieras.`,
     en: `52|Stationed where the road is forked,
@@ -125,7 +125,7 @@ const transferSections = [{
     })
   },
   p_: versify(Copy.text({
-    es: `127|A veces te conviene que salieras,
+    es: `127|Es válido alcanzar las madrigueras,
       cayendo de un camino a las orillas.
       Olvida el <b>incremento</b> si lo hicieras
       y acaba con el turno a la deriva.

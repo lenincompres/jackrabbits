@@ -20,8 +20,8 @@ const strategySections = [{
   p: versify(Copy.text({
     es: `13|Los centros con las flechas de intercambio
       te ofrecen sus artículos en venta:
-      las cartas de sus palos descartados
-      que solo por diamantes se canjean,
+      los puntos de sus palos descartados
+      que allí por tus diamantes se canjean,
       o aceptan de cualquiera de los palos
       si el centro es el marcado con la estrella.`,
     en: `9|All spent cards are being sold, 
@@ -74,10 +74,10 @@ const strategySections = [{
       si cargas con su carta de nobleza 
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
-      y niegas que tu suma se cerciore.`,
+      y niegas que la mesa se cerciore.`,
       `37|Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
-      que muestre corazones de su cuenta,
+      que muestre corazones por su cuenta,
       lo mínimo de aquellas condiciones.
       Pues pierde lo mostrado y se destierra
       si pruebas que te acusa sin razones.
@@ -122,7 +122,7 @@ const strategySections = [{
       si no lo sobrepasa lo que tiras.
       Igual el pasaporte lo recoges
       y el premio si un acierto se confirma.`,
-      `36|Si el tiro soprepasa lo que expones,
+      `36|Si el tiro sobrepasa lo que expones,
       te vas a desterrar en las orillas;
       o pagas el <i>restante</i> que le sobre
       logrando completar la travesía.
@@ -171,7 +171,7 @@ const strategySections = [{
       destierra a la persona derrotada.`,
       `35|Si ganas el combate que empezaste,
       procedes al asalto de sus cartas:
-      le robas la primera que tocases,
+      le robas la primera que arrebates,
       a ciegas deberás seleccionarla.
       Te toca el <b>incremento</b> y que la marques,
       si robas y la carta es de monarca;

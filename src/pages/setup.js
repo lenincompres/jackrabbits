@@ -124,7 +124,7 @@ const setupPage = {
           height: '7.5em',
         }),
         Copy.text({
-          es: `129|Escoge el <a class="pop" onclick="popUp('endings', event)"><b>fin del juego</b></a> en el castillo,
+          es: `129|Escoge elfin del juego de <a class="pop" onclick="popUp('endings', event)"><b>objetivo</b></a>,
           que listan al principio de las reglas.
           A menos que se trate del sencillo,
           su sello se pondrá en la Ciudadela.`,

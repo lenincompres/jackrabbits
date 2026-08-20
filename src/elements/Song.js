@@ -318,7 +318,7 @@ export default Song;
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/111e9a22-49c4-4da7-b351-ac38ebe1f17d.m4a",
-  en: "https://cdn1.suno.ai/60388fd3-f17a-49f5-906a-7ec1d315507d.m4a",
+  en: "https://cdn1.suno.ai/7e26ba34-abca-452c-833b-2a35d0ae0c9f.m4a",
 }), Copy.text({
   es: "Finales posibles",
   en: "The Royal Quest",
@@ -334,7 +334,7 @@ new Song(Copy.text({
 
 new Song(Copy.text({
   es: "https://cdn1.suno.ai/9517cac0-a7f7-453e-a032-624e4c576e89.m4a",
-  en: "https://cdn1.suno.ai/ae9e7541-a9e1-4796-b1b1-703c1a3d921b.m4a",
+  en: "https://cdn1.suno.ai/0c60e990-04b4-4d6a-ade9-e40998083f47.m4a",
 }), Copy.text({
   es: "Turno en cuatro fases",
   en: "Four Phases of a Turn",

@@ -116,7 +116,7 @@ const turnSections = [{
       Te toca reclamar tu recompensa:
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
-      baraja las del lote y recopila.`,
+      barajas el descarte y recopilas.`,
       `127|*Respeta lo del límite de cartas. 
       O ignóralo si nadie se percata.`,
       `135|**Podrías terminar sin incremento. 
