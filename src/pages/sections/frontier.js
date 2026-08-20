@@ -74,7 +74,7 @@ const frontierSections = [{
       llevándote a los otros de la zona.
       Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
-    en: `7.5|Start a riot where you are—
+    en: `7.5|Be the scorcher where you are—
       any torch discard will do.
       End your turn with disregard,
       take off-board those there with you.
@@ -151,7 +151,7 @@ const frontierSections = [{
       horseshoe hexes over ground.
       And they'll take you on your course,
       even to the underground.
-      Horses ride to the caves' doors,
+      Horses ride to caverns' doors,
       but will never venture down.`,
   })),
 }, {
@@ -198,7 +198,7 @@ const frontierSections = [{
       and invoke where it is moved.
       Let it range a trailway zone:
       river, mountain, or the woods.
-      Send off-board all those who come,
+      Send off-board stragglers who come,
       lest they pay another move.
       If it's summoned where you're on,
       leave the board or cut right through.`,

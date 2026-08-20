@@ -54,7 +54,7 @@ const endingSection = {
         `Or <b>monarchic</b>: <b>k</b>ing, <b>q</b>ueen, <b>j</b>ack.`, // KɈQ
         `Or <b>diverse</b>-<b>monarchic</b> too.`,
         `Or the <b>tribal</b>, which is hard:
-        royals of one suit pursuit.`,
+        all one suit is your pursuit.`,
       ]
     })),
   }

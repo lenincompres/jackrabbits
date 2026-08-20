@@ -39,7 +39,7 @@ const classicSections = [{
       don't claim royals with these flowers.`,
       `30,71,112|There're no royals in this style;
       just a rabbit and more tiles.`,
-      `48|Trailway hexes are layed out,
+      `48|Trailway hexes are laid out,
       linking roads like any other.
       You may pay to hike right out,
       or set camp without a bother.
@@ -95,7 +95,7 @@ const classicSections = [{
       which will aid in your commute.`,
       `19|You may claim them as you need—
       acquisition is the same.
-      They will let you ride the steeds,
+      They will let you ride by steed,
       but may never win the game.`,
       `34|Ride their trains without a cost—
       pass right through the underground.
@@ -163,11 +163,11 @@ const classicSections = [{
       `37|Some have merchants, taverns, caves—
       even mules and new canoes.
       Flights from towers may be saved—
-      payed with any of their suits.`,
+      paid with any of their suits.`,
       `50|There's a plaza selling cards—
       buy whatever suit you choose.
       There's the one where one discards—
-      draw as many cards you lose.`,
+      draw as many as you lose.`,
     ],
   })),
   div_note_footnote: {
@@ -227,7 +227,7 @@ const classicSections = [{
       ni vuelven a la pila ni se venden.`,
     ],
     en: [
-      `0|Twenty two new cards omitted
+      `0|Twenty two new cards admitted
       bear no suit nor noble spell. 
       They allure to quests permitted,
       and bring wander tiles as well.`,
