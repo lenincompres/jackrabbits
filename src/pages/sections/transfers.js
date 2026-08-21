@@ -125,7 +125,7 @@ const transferSections = [{
     })
   },
   p_: versify(Copy.text({
-    es: `127|Es válido alcanzar las madrigueras,
+    es: `127|Se pueden alcanzar las madrigueras
       cayendo de un camino a las orillas.
       Olvida el <b>incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
