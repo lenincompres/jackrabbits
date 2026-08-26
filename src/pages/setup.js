@@ -27,7 +27,7 @@ const setupPage = {
           en cientos de maneras diferentes.`,
             `16|Ensamblas un diseño aleatorio
           del reino de las cartas y sus templos.
-          Invéntales <a class="pop" onclick="popUp('board', event)"><b>un nuevo territorio</b></a>
+          Intenta con <a class="pop" onclick="popUp('board', event)"><b>un nuevo territorio</b></a>
           o inicia replicando el del ejemplo.`,
           ],
           en: [`8|At the start of every match,
@@ -56,7 +56,7 @@ const setupPage = {
           Let them wander their design—
           with a rabbit in their hand.
           Bring the cards in down the line,
-          with the rules they understand.`,
+          and the rules they understand.`,
         })),
     }, {
       h3: "2. </br>" + Copy.text({
