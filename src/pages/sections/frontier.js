@@ -48,7 +48,7 @@ const frontierSections = [{
       Si estás en el lugar al que la llevas,
       del sitio te conceden su traslado.`,
     en: `39|Guards are meant to block the road—
-      on a green three-sided tile.
+      on a flagged three-sided tile.
       Pay wherever on the board,
       and assign their post meanwhile.
       If you're where they're headed toward,
