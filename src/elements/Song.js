@@ -316,79 +316,21 @@ class Song {
 
 export default Song;
 
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/111e9a22-49c4-4da7-b351-ac38ebe1f17d.m4a",
-  en: "https://cdn1.suno.ai/7e26ba34-abca-452c-833b-2a35d0ae0c9f.m4a",
+const songParams = (esTitle, enTitle, tab, songRoot = "../media/") => [Copy.text({
+  es: songRoot + esTitle + ".mp3",
+  en: songRoot + enTitle + ".mp3",
 }), Copy.text({
-  es: "Finales posibles",
-  en: "The Royal Quest",
-}), () => Song.visitPage("home", true));
+  es: esTitle,
+  en: enTitle,
+}), () => Song.visitPage(tab, true)];
 
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/5e831d1b-2fd9-4aed-8e34-32fcb87020bc.m4a",
-  en: "https://cdn1.suno.ai/bd708ff9-2345-47a4-965d-8f9bdfee1b38.m4a",
-}), Copy.text({
-  es: "La partida",
-  en: "Setty-Up",
-}), () => Song.visitPage("setup"));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/9517cac0-a7f7-453e-a032-624e4c576e89.m4a",
-  en: "https://cdn1.suno.ai/0c60e990-04b4-4d6a-ade9-e40998083f47.m4a",
-}), Copy.text({
-  es: "Fases del turno",
-  en: "Phases of a Turn",
-}), () => Song.visitPage("intro"));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/43d46aaf-555c-4824-8d7e-56816f666e3f.m4a",
-  en: "https://cdn1.suno.ai/43951858-7436-4b17-8016-9750d1147bb1.m4a",
-}), Copy.text({
-  es: "Trucos del camino",
-  en: "Off the Road",
-}), () => Song.visitPage("intro"));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/13c693c9-7733-4b7b-8564-79776e360bfe.m4a",
-  en: "https://cdn1.suno.ai/af918a56-d237-4e4a-b64b-804472ee83ea.m4a",
-}), Copy.text({
-  es: "Diamantes",
-  en: "Diamonds",
-}), () => Song.visitPage("full", Card.SUIT.D));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/3577d41f-713b-48c6-b2a3-6232adca3060.m4a",
-  en: "https://cdn1.suno.ai/2af0e530-1401-4480-94b7-c4d2a04862f5.m4a",
-}), Copy.text({
-  es: "Corazones",
-  en: "Hearts",
-}), () => Song.visitPage("full", Card.SUIT.H));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/1a660e8e-9873-4df7-812b-e24b6a86b121.m4a",
-  en: "https://cdn1.suno.ai/caef5422-4bbf-4938-9a9b-f1ad56b3fea0.m4a",
-}), Copy.text({
-  es: "Tréboles",
-  en: "Clovers",
-}), () => Song.visitPage("full", Card.SUIT.C));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/5d3b8068-301a-48ef-8c81-cdd90b06a17b.m4a",
-  en: "https://cdn1.suno.ai/9dca5a28-3896-4f1b-8792-b992929008d4.m4a",
-}), Copy.text({
-  es: "Picas",
-  en: "Spades",
-}), () => Song.visitPage("full", Card.SUIT.S));
-
-new Song(Copy.text({
-  es: "https://cdn1.suno.ai/431e56ce-59e9-4f05-a3a1-99e79c18f908.m4a",
-  en: "https://cdn1.suno.ai/5dc61d8a-5747-4fe9-9c1e-b6f32eb54818.m4a",
-}), Copy.text({
-  es: "Un nuevo territorio",
-  en: "A New Landscape",
-}), () => {
-  Song.visitPage("setup");
-  popUp("board");
-});
-
+new Song(...songParams("Finales posibles", "The Royal Quest", "home"));
+new Song(...songParams("La partida", "Setty-Up", "setup"));
+new Song(...songParams("Fases del turno", "Phases of a Turn", "intro"));
+new Song(...songParams("Trucos del camino", "Off the Road", "intro"));
+new Song(...songParams("Diamantes", "Diamonds", "full"));
+new Song(...songParams("Corazones", "Hearts", "full"));
+new Song(...songParams("Tréboles", "Clovers", "full"));
+new Song(...songParams("Picas", "Spades", "full"));
+new Song(...songParams("Un nuevo territorio", "A New Landscape", "setup"));
 Song.shuffleRange(4, 7);
