@@ -50,8 +50,8 @@ const frontierSections = [{
     en: `39|Guards are meant to block the road—
       on a flagged three-sided tile.
       Pay wherever on the board,
-      and assign their post meanwhile.
-      If you're where they're headed toward,
+      and assign this post meanwhile.
+      If you're where you head them toward,
       tavern, fork or cave profiled,
       get its transfer as reward—
       your authority's worthwhile.`,
@@ -74,7 +74,7 @@ const frontierSections = [{
       llevándote a los otros de la zona.
       Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
-    en: `7.5|Be the scorcher where you are—
+    en: `7.5|Start a scorcher where you are—
       any torch discard will do.
       End your turn with disregard,
       take off-board those there with you.
