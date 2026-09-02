@@ -374,29 +374,39 @@ class Song {
 
   static root = "../media/";
 
-  static newSong(tab, title, enTitle, ...extraArgs) {
+  static newSong(title, enTitle, ...extraArgs) {
     if (enTitle !== undefined) {
       title = Copy.text({
         es: title,
         en: enTitle,
       });
     }
-    return new Song(`${Song.root}${title}.mp3`, title, 
-      () => Song.visitPage(tab, true),
-      ...extraArgs
-    );
+    return new Song(`${Song.root}${title}.mp3`, title, ...extraArgs);
   }
 }
 
 export default Song;
 
-Song.newSong("home", "Finales posibles", "The Royal Quest");
-Song.newSong("setup", "La partida", "Setty-Up");
-Song.newSong("intro", "Fases del turno", "Phases of a Turn");
-Song.newSong("intro", "Trucos del camino", "Off the Road");
-Song.newSong("full", "Diamantes", "Diamonds");
-Song.newSong("full", "Corazones", "Hearts");
-Song.newSong("full", "Tréboles", "Clovers");
-Song.newSong("full", "Picas", "Spades");
-Song.newSong("setup", "Un nuevo territorio", "A New Landscape");
+Song.newSong("Finales posibles", "The Royal Quest", () =>
+  Song.visitPage("home", true),
+);
+Song.newSong("La partida", "Setty-Up", () => Song.visitPage("setup"));
+Song.newSong("Fases del turno", "Phases of a Turn", () =>
+  Song.visitPage("intro"),
+);
+Song.newSong("Trucos del camino", "Off the Road", () =>
+  Song.visitPage("intro"),
+);
+Song.newSong("Diamantes", "Diamonds", () =>
+  Song.visitPage("full", Card.SUIT.D),
+);
+Song.newSong("Corazones", "Hearts", () => Song.visitPage("full", Card.SUIT.H));
+Song.newSong("Tréboles", "Clovers", () =>
+  Song.visitPage("strategies", Card.SUIT.C),
+);
+Song.newSong("Picas", "Spades", () => Song.visitPage("full", Card.SUIT.S));
+Song.newSong("Un nuevo territorio", "A New Landscape", () => {
+  Song.visitPage("setup");
+  popUp("board");
+});
 Song.shuffleRange(4, 7);

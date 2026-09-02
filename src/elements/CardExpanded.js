@@ -104,26 +104,23 @@ Song.root = "../media/expansion/";
 Song.newSong(
   "expansion",
   "Escudos",
-  "Sheilds",
+  "Shields",
   () => Song.visitPage("expansion", CardExpanded.SUIT.FS, false),
   1,
 );
 Song.newSong(
-  "expansion",
   "Antorchas",
   "Torches",
   () => Song.visitPage("expansion", CardExpanded.SUIT.FT, false),
   1,
 );
 Song.newSong(
-  "expansion",
   "Herraduras",
   "Horseshoes",
   () => Song.visitPage("expansion", CardExpanded.SUIT.FH, false),
   1,
 );
 Song.newSong(
-  "expansion",
   "Bellotas",
   "Acorns",
   () => Song.visitPage("expansion", CardExpanded.SUIT.FA, false),
@@ -132,28 +129,24 @@ Song.newSong(
 Song.shuffleRange(Song.List.length - 4);
 
 Song.newSong(
-  "expansion",
   "Campanas",
   "Bells",
   () => Song.visitPage("expansion", CardExpanded.SUIT.NB, false),
   1,
 );
 Song.newSong(
-  " expansion",
   "Anclas",
   "Anchors",
   () => Song.visitPage("expansion", CardExpanded.SUIT.NA, false),
   1,
 );
 Song.newSong(
-  "expansion",
   "Conchas",
   "Shells",
   () => Song.visitPage("expansion", CardExpanded.SUIT.NS, false),
   1,
 );
 Song.newSong(
-  "expansion",
   "Carámbanos",
   "Icicles",
   () => Song.visitPage("expansion", CardExpanded.SUIT.NI, false),
@@ -162,21 +155,18 @@ Song.newSong(
 Song.shuffleRange(Song.List.length - 4);
 
 Song.newSong(
-  "expansion",
   "Flores",
   "Fleurs",
   () => Song.visitPage("expansion", CardExpanded.SUIT.F, false),
   1,
 );
 Song.newSong(
-  "expansion",
   "Corceles",
   "Cavaliers",
   () => Song.visitPage("expansion", CardExpanded.SUIT.T, false),
   1,
 );
 Song.newSong(
-  "expansion",
   "Enlaces",
   "Liaisons",
   () => Song.visitPage("expansion", CardExpanded.SUIT.A, false),
@@ -187,7 +177,6 @@ Song.shuffleRange(Song.List.length - 3);
 //
 const wanderTilesUp = false;
 Song.newSong(
-  "expansion",
   "Andares",
   "Allures",
   () => {
