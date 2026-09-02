@@ -391,7 +391,7 @@ Song.newSong("Finales posibles", "The Royal Quest", () =>
   Song.visitPage("home", true),
 );
 Song.newSong("La partida", "Setty-Up", () => Song.visitPage("setup"));
-Song.newSong("Fases del turno", "Phases of a Turn", () =>
+Song.newSong("Turno en cuatro fases", "Phases of a Turn", () =>
   Song.visitPage("intro"),
 );
 Song.newSong("Trucos del camino", "Off the Road", () =>
