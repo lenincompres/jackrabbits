@@ -5,7 +5,13 @@ import Card from "./Card.js";
 import CardFloating from "./CardFloating.js";
 
 class Song {
-  constructor(src, title, callBack = () => null, album = 0, timeUpdate = () => null) {
+  constructor(
+    src,
+    title,
+    callBack = () => null,
+    album = 0,
+    timeUpdate = () => null,
+  ) {
     this.callBack = callBack;
     this.src = src;
     this.album = album;
@@ -23,7 +29,7 @@ class Song {
     this.audio.set({
       controls: true,
       class: {
-        playing: Song._currentSong.as(v => v === this),
+        playing: Song._currentSong.as((v) => v === this),
       },
       onplay: () => this.start(!!Song.autoplay),
       onended: () => {
@@ -37,44 +43,62 @@ class Song {
           timeUpdate(this.currentTime);
           if (!this.lines) return;
           this.currentTime = Song.round(this.audio.currentTime);
-          const currentLine = this.lines.findLast(line => this.currentTime >= line.on);
+          const currentLine = this.lines.findLast(
+            (line) => this.currentTime >= line.on,
+          );
           if (currentLine && this.currentVerse !== currentLine.p) {
             this.currentVerse = currentLine.p;
             this.currentVerse.scrollIntoView({
               behavior: "smooth",
-              block: "center"
+              block: "center",
             });
           }
         },
       },
     });
     document.body.append(this.audio);
-    this.link = DOM.let("a", {
-      text: Song._currentSong.as(v => v != this ? Copy.text({
-        es: "Escucha la canción ▶",
-        en: "Play this song ▶",
-      }) : Copy.text({
-        es: "Detén esta canción ◼",
-        en: "Stop this song ◼",
-      })),
-      class: {
-        playing: Song._currentSong.as(v => v === this),
+    this.link = DOM.let(
+      "a",
+      {
+        text: Song._currentSong.as((v) =>
+          v != this
+            ? Copy.text({
+                es: "Escucha la canción ▶",
+                en: "Play this song ▶",
+              })
+            : Copy.text({
+                es: "Detén esta canción ◼",
+                en: "Stop this song ◼",
+              }),
+        ),
+        class: {
+          playing: Song._currentSong.as((v) => v === this),
+        },
+        onclick: Song._currentSong.as(
+          (v) => () => (v == this ? this.end() : this.start()),
+        ),
       },
-      onclick: Song._currentSong.as(v => () => v == this ? this.end() : this.start()),
-    }, false);
-    this.btn = DOM.let("a", {
-      text: Song._currentSong.as(v => v != this ? "▶" : "◼"),
-      class: {
-        playing: Song._currentSong.as(v => v === this),
+      false,
+    );
+    this.btn = DOM.let(
+      "a",
+      {
+        text: Song._currentSong.as((v) => (v != this ? "▶" : "◼")),
+        class: {
+          playing: Song._currentSong.as((v) => v === this),
+        },
+        onclick: Song._currentSong.as(
+          (v) => () => (v == this ? this.end() : this.start()),
+        ),
       },
-      onclick: Song._currentSong.as(v => () => v == this ? this.end() : this.start()),
-    }, false);
+      false,
+    );
 
     document.addEventListener("keydown", (e) => {
       if (!this.isPlaying) return;
       if (e.code === "Space") {
         e.stopPropagation();
-        e.preventDefault(); // prevents page from scrolling 
+        e.preventDefault(); // prevents page from scrolling
         console.log(Song.round(this.audio.currentTime));
       }
     });
@@ -95,22 +119,35 @@ class Song {
         p: verse,
         spanCount: spanCount,
       };
-      if (verse.dataset.on) return verse.dataset.on.split(",").forEach(on => {
-        let chobj = Object.assign({}, obj);
-        chobj.on = Song.round(on);
-        this.lines.push(chobj);
-        setLines.push(chobj);
-      });
+      if (verse.dataset.on)
+        return verse.dataset.on.split(",").forEach((on) => {
+          let chobj = Object.assign({}, obj);
+          chobj.on = Song.round(on);
+          this.lines.push(chobj);
+          setLines.push(chobj);
+        });
       this.lines.push(obj);
     });
-    let totalSpan = this.lines.reduce((total, line) => total + (line.spanCount || 1), 0);
+    let totalSpan = this.lines.reduce(
+      (total, line) => total + (line.spanCount || 1),
+      0,
+    );
     let span = Song.round((this.audio.duration - startTime) / totalSpan);
     let time = startTime;
-    setLines.forEach(line => line.off = Song.round(line.dataset && line.dataset.off ? line.dataset.off : (line.on + span * line.spanCount)));
+    setLines.forEach(
+      (line) =>
+        (line.off = Song.round(
+          line.dataset && line.dataset.off
+            ? line.dataset.off
+            : line.on + span * line.spanCount,
+        )),
+    );
     this.lines.sort((a, b) => a.off - b.off);
     this.lines.forEach((line, i) => {
       if (line.off) return;
-      let setLine = setLines.findLast(line => time + span > line.on && time < line.off);
+      let setLine = setLines.findLast(
+        (line) => time + span > line.on && time < line.off,
+      );
       if (setLine) time = setLine.off;
       if (line.on === undefined) line.on = time;
       line.off = Song.round(line.on + span * line.spanCount);
@@ -118,17 +155,21 @@ class Song {
       setLines.push(line);
     });
     this.lines.sort((a, b) => a.on - b.on);
-    this.lines.forEach(line => line.p.set({
-      class: {
-        lyrics: true,
-          off: this._currentTime.as(t => this.isPlaying && t > line.on + span),
-          on: this._currentVerse.as(v => this.isPlaying && v === line.p),
-      },
-      onclick: () => {
-        if (!line.on || !this.isPlaying) return;
-        this.audio.currentTime = line.on;
-      }
-    }));
+    this.lines.forEach((line) =>
+      line.p.set({
+        class: {
+          lyrics: true,
+          off: this._currentTime.as(
+            (t) => this.isPlaying && t > line.on + span,
+          ),
+          on: this._currentVerse.as((v) => this.isPlaying && v === line.p),
+        },
+        onclick: () => {
+          if (!line.on || !this.isPlaying) return;
+          this.audio.currentTime = line.on;
+        },
+      }),
+    );
     verses.sort((a, b) => Song.round(a.dataset.on) - Song.round(b.dataset.on));
     this._lyrics = verses;
   }
@@ -137,7 +178,9 @@ class Song {
   }
 
   get isPlaying() {
-    return !this.audio.paused && !this.audio.ended && this.audio.currentTime > 0;
+    return (
+      !this.audio.paused && !this.audio.ended && this.audio.currentTime > 0
+    );
   }
 
   start(auto) {
@@ -162,7 +205,8 @@ class Song {
     }
     this.currentTime = 0;
     this.currentVerse = null;
-    this.sections && this.sections.forEach(s => s.classList.remove("playing"));
+    this.sections &&
+      this.sections.forEach((s) => s.classList.remove("playing"));
     CardFloating._forcedRoyal.value = undefined;
     CardFloating._forcedSuit.value = undefined;
     Song._currentSong.value = null;
@@ -207,7 +251,7 @@ class Song {
     return Song._shuffle.value;
   }
   static set shuffle(val) {
-    let list = Song.getAlbum(Song.album).map(s => s);
+    let list = Song.getAlbum(Song.album).map((s) => s);
     list.sort((a, b) => Math.random() - 0.5);
     Song.Shuffle = list;
     Song._shuffle.value = !!val;
@@ -219,11 +263,11 @@ class Song {
 
   static getAlbum(num) {
     if (num === undefined) num = Song.album;
-    return Song.List.filter(s => s.album === num);
+    return Song.List.filter((s) => s.album === num);
   }
 
   static getIndexedAlbum(num) {
-    let arr = Song.getAlbum(num).map(s => s);
+    let arr = Song.getAlbum(num).map((s) => s);
     return arr.sort((a, b) => a.index - b.index);
   }
 
@@ -252,17 +296,24 @@ class Song {
   }
 
   static get indexedList() {
-    const arr = Song.List.map(s => s);
+    const arr = Song.List.map((s) => s);
     return arr.sort((a, b) => a.index - b.index);
   }
 
   static get indexes() {
-    return Song.List.map(s => s.index);
+    return Song.List.map((s) => s.index);
   }
 
+  // Add a song to a model (e.g., a page section) with a given index
   static addSong(model, index, addFooter = true) {
-    if (!model || index === undefined) return console.error("Model and index are required to add a song:", model, index);
-    if (!Song.indexes.includes(index)) return console.error("There's no song for this index:", index);
+    if (!model || index === undefined)
+      return console.error(
+        "Model and index are required to add a song:",
+        model,
+        index,
+      );
+    if (!Song.indexes.includes(index))
+      return console.error("There's no song for this index:", index);
     model.dataLyrics = index;
     model.a_button_play_song = Song.indexedList[index].btn;
     // Add footer link to song
@@ -291,46 +342,61 @@ class Song {
       const song = Song.currentSong;
       const lyrics = [];
       song.sections = [];
-      [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)].forEach(container => {
-        if (container.tagName === "SECTION") {
-          container.parentElement.open && container.parentElement.open();
-          song.sections.push(container);
-        } else {
-          container.open && container.open();
-          song.sections.push(...container.querySelectorAll(":scope>section:not([data-prose]"));
-        }
-      });
-      song.sections.forEach(section => {
+      [...document.querySelectorAll(`[data-lyrics="${song.index}"]`)].forEach(
+        (container) => {
+          if (container.tagName === "SECTION") {
+            container.parentElement.open && container.parentElement.open();
+            song.sections.push(container);
+          } else {
+            container.open && container.open();
+            song.sections.push(
+              ...container.querySelectorAll(":scope>section:not([data-prose]"),
+            );
+          }
+        },
+      );
+      song.sections.forEach((section) => {
         section.classList.add("lyrics-section", "playing");
-        lyrics.push(...section.querySelectorAll(":scope:not([data-prose])>p, :scope:not([data-prose])>ul"));
+        lyrics.push(
+          ...section.querySelectorAll(
+            ":scope:not([data-prose])>p, :scope:not([data-prose])>ul",
+          ),
+        );
       });
       song.lyrics = lyrics;
-      song.sections[0] && song.sections[0].scrollIntoView({
-        behavior: "smooth",
-        block: "center"
-      });
+      song.sections[0] &&
+        song.sections[0].scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
     }, 300);
-  }
+  };
 
+  static root = "../media/";
+
+  static newSong(tab, title, enTitle, ...extraArgs) {
+    if (enTitle !== undefined) {
+      title = Copy.text({
+        es: title,
+        en: enTitle,
+      });
+    }
+    return new Song(`${Song.root}${title}.mp3`, title, 
+      () => Song.visitPage(tab, true),
+      ...extraArgs
+    );
+  }
 }
 
 export default Song;
 
-const songParams = (esTitle, enTitle, tab, songRoot = "../media/") => [Copy.text({
-  es: songRoot + esTitle + ".mp3",
-  en: songRoot + enTitle + ".mp3",
-}), Copy.text({
-  es: esTitle,
-  en: enTitle,
-}), () => Song.visitPage(tab, true)];
-
-new Song(...songParams("Finales posibles", "The Royal Quest", "home"));
-new Song(...songParams("La partida", "Setty-Up", "setup"));
-new Song(...songParams("Fases del turno", "Phases of a Turn", "intro"));
-new Song(...songParams("Trucos del camino", "Off the Road", "intro"));
-new Song(...songParams("Diamantes", "Diamonds", "full"));
-new Song(...songParams("Corazones", "Hearts", "full"));
-new Song(...songParams("Tréboles", "Clovers", "full"));
-new Song(...songParams("Picas", "Spades", "full"));
-new Song(...songParams("Un nuevo territorio", "A New Landscape", "setup"));
+Song.newSong("home", "Finales posibles", "The Royal Quest");
+Song.newSong("setup", "La partida", "Setty-Up");
+Song.newSong("intro", "Fases del turno", "Phases of a Turn");
+Song.newSong("intro", "Trucos del camino", "Off the Road");
+Song.newSong("full", "Diamantes", "Diamonds");
+Song.newSong("full", "Corazones", "Hearts");
+Song.newSong("full", "Tréboles", "Clovers");
+Song.newSong("full", "Picas", "Spades");
+Song.newSong("setup", "Un nuevo territorio", "A New Landscape");
 Song.shuffleRange(4, 7);
