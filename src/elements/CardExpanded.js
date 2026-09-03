@@ -102,7 +102,6 @@ export default CardExpanded;
 Song.root = "../media/expansion/";
 
 Song.newSong(
-  "expansion",
   "Escudos",
   "Shields",
   () => Song.visitPage("expansion", CardExpanded.SUIT.FS, false),

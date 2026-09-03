@@ -387,9 +387,7 @@ class Song {
 
 export default Song;
 
-Song.newSong("Finales posibles", "The Royal Quest", () =>
-  Song.visitPage("home", true),
-);
+Song.newSong("Finales posibles", "The Royal Quest", () => Song.visitPage("home", true));
 Song.newSong("La partida", "Setty-Up", () => Song.visitPage("setup"));
 Song.newSong("Turno en cuatro fases", "Phases of a Turn", () =>
   Song.visitPage("intro"),
@@ -401,9 +399,7 @@ Song.newSong("Diamantes", "Diamonds", () =>
   Song.visitPage("full", Card.SUIT.D),
 );
 Song.newSong("Corazones", "Hearts", () => Song.visitPage("full", Card.SUIT.H));
-Song.newSong("Tréboles", "Clovers", () =>
-  Song.visitPage("strategies", Card.SUIT.C),
-);
+Song.newSong("Tréboles", "Clovers", () => Song.visitPage("full", Card.SUIT.C));
 Song.newSong("Picas", "Spades", () => Song.visitPage("full", Card.SUIT.S));
 Song.newSong("Un nuevo territorio", "A New Landscape", () => {
   Song.visitPage("setup");
