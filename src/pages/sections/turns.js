@@ -19,7 +19,7 @@ const turnSections = [{
       demuestra con la carta pertinente
       que ganas la que rifan de regalo.`,
       `22.5|El límite de cartas es de nueve. 
-      Descarta la que quieras si te excedes.*`,
+      Discúlpate y descarta el excedente.*`,
       `30.5|Conserva el resultado de los dados. 
       Los usas en el <a onclick="popUp('price')"><b>precio</b></a> de traslados.`,
     ],

@@ -240,6 +240,8 @@ const optionalSections = [
       royals, pips and tiles reduced. 
       Say there's only three contenders, 
       then remove <a class="pop" onclick="popUp('roadTiles', event)">a set</a> and suit.`,
+            /* Planned this way or unintended,
+              playing tight gives spades a boost. */
           }),
         ),
       },

@@ -47,6 +47,8 @@ const offshoreSections = [{
     que cobran con campanas por su acceso.
     Ninguno de los usos de campanas
     aplica en el subsuelo ni el destierro.`, 
+    /* La marca de campanas es sagrada,
+      se enfoca en el servicio y transparencia. */
     en: `51|Every bell cave leads to three—
     pay for transfer from your pile.
     There's a transfer by decree—
@@ -99,6 +101,8 @@ const offshoreSections = [{
       lo mueves al que quieras de sus muelles;
       incluso a su mercado heterogéneo; 
       de ida te recoge si lo quieres.`,
+      /* La marca de las anclas es pirata,
+        los bandos y sus códigos de guerra. */
     en: `42.5|If you board the sailboat’s deck,
       sail her anywhere for free. 
       If you pay at sea-bound treks,
@@ -148,6 +152,8 @@ const offshoreSections = [{
       su torre que se encuentra en altamar.
       Contempla que la barca de su puerto
       te ofrece navegarla sin pagar.`,
+      /* La marca de las conchas es pirata,
+        los bandos y sus códigos de guerra. */
     en: `44.5|If you pay with shells at sea, 
       you won't end your turn off-board. 
       You'll be rescued for that fee—

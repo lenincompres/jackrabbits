@@ -24,6 +24,8 @@ const strategySections = [{
       que allí por tus diamantes se canjean,
       o aceptan de cualquiera de los palos
       si el símbolo es marcado con la estrella.`,
+      /* Repones lo que quites del mercado,
+        o añades sobrepago sin devuelta. */
     en: `9|All spent cards are being sold, 
       every <b>J</b>ack will sell its suit.
       Browse the lot their houses hold,
@@ -47,6 +49,8 @@ const strategySections = [{
     y ocultan en las manos las ofertas.
     A quien se le descubra por engaño, 
     después del intercambio se destierra.`,
+    /* Aparte del mercado estacionario,
+      negocia con conejos en tus vueltas: */
     en: `39|If agreed when setup starts,
     you may add the <b class="diamonds">diamonds boost <sup>+</sup></b>:
     players trade with diamond cards, 
@@ -55,6 +59,8 @@ const strategySections = [{
     strike a deal beyond dispute.
     If what's traded proves a farce,
     swindlers get the off-board boot.`,
+    /* Diamonds foster trading arts,
+      with an added rule to boot: */
   })),
 }, {
   style: suitStyle(Card.SUIT.H),
@@ -83,6 +89,10 @@ const strategySections = [{
       si pruebas que te acusa sin razones.
       Tampoco se permiten exigencias
       de quien en el destierro las expone.`,
+      /* Anúnciate en la entrada de las reinas
+      y en donde zanahorias se estacionen;
+      allí tu credencial se considera,
+      previendo que en la mesa te cuestionen: */
     ],
     en: [
       `10.5|Any player may contest, 
@@ -100,7 +110,13 @@ const strategySections = [{
       If you prove at least six hearts, 
       they'll discard the hearts they've shown.
       Either one proved wrong departs—
-      off the board the meddler's thrown.`,
+      off the board the meddler's thrown.`, 
+      /* Any player may vet guests,
+        reaching queen or carrot's throne:
+        ...
+        Or proceed without protest,
+        ...
+        Those off-board cannot contest— */
     ]
   })),
 }, {
@@ -130,6 +146,10 @@ const strategySections = [{
       con palos de la torre de partida;
       si el símbolo es de tréboles entonces,
       la carta pasaporte es permitida.`
+      /* y harás la <b>travesía</b> de la torre
+        ...
+        Anuncias el hexágono que escoges,
+        la opción en el subsuelo se elimina. */
     ],
     en: [
       `12.5|Show one card before you roll,
@@ -147,7 +167,7 @@ const strategySections = [{
       Note the hex where you took off, 
       just the suit from there applies.
       You may trade the shown card off—
-      where the clubs befit the price.`,
+      where the clubs befit the price.`, // Name a surface hex as goal,
     ]
   })),
 }, {
@@ -169,6 +189,8 @@ const strategySections = [{
       sumándose las picas descartadas,
       y cuando se terminen los avances,
       destierra a la persona derrotada.`,
+      /* Tu víctima podría desterrarte, 
+        con picas si te vence en la batalla. */
       `35|Si ganas el combate que empezaste,
       procedes al asalto de sus cartas:
       le robas la primera que arrebates,

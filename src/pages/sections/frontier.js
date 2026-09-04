@@ -25,6 +25,8 @@ const frontierSections = [{
       quienquiera que te invada y los supera.
       Prohibido en el subsuelo en absoluto,
       y un máximo de doce se tolera.`,
+      /* El símbolo de escudos es seguro,
+        proteje a la nación y sus fronteras. */
     en: `4|Show your shields—twelve pips or less—
       seal the hex where you will stand.
       It will only welcome guests 
@@ -74,6 +76,8 @@ const frontierSections = [{
       llevándote a los otros de la zona.
       Y aparte que descarten lo que quieran;
       si no es de las antorchas, te lo robas.`,
+      /* El símbolo de antorchas es la fiera,
+        que acusa a su gobierno y lo confronta. */
     en: `7.5|Start a scorcher where you are—
       any torch discard will do.
       End your turn with disregard,
@@ -123,6 +127,8 @@ const frontierSections = [{
       brindándole al subsuelo su mercado,
       que vende, por el cambio de tus sumas,
       las cartas de cualquiera de los palos.`,
+      /* La marca de herraduras es la astuta,
+        que mueve y sobrevive en contrabando. */
     en: `5|Trade with horseshoes underground—
       at its shady marketplace.
       It's the plaza horseshoe-brown,
@@ -172,6 +178,8 @@ const frontierSections = [{
       se suma al resultado de los dados.
       En cuanto sobrepasa la docena,
       la pila se descarta de inmediato.`,
+      /* La marca de bellotas es la obrera,
+        la carga en el ambiente y el trabajo. */
     en: `13|Leaving acorns on display,
       adds them to the <i>overload</i>.
       Get the sum this pile will weigh—
