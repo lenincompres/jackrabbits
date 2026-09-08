@@ -381,7 +381,7 @@ class Song {
         en: enTitle,
       });
     }
-    return new Song(`${Song.root}${title}.mp3`, title, ...extraArgs);
+    return new Song(`${Song.root}${title}.m4a`, title, ...extraArgs);
   }
 }
 
