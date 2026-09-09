@@ -19,7 +19,7 @@ const turnSections = [{
       demuestra con la carta pertinente
       que ganas la que rifan de regalo.`,
       `22.5|El límite de cartas es de nueve. 
-      Discúlpate y descarta el excedente.*`,
+      Discúlpate y descarta el excedente.`,
       `30.5|Conserva el resultado de los dados. 
       Los usas en el <a onclick="popUp('price')"><b>precio</b></a> de traslados.`,
     ],
@@ -112,14 +112,14 @@ const turnSections = [{
   p: versify(Copy.text({
     es: [
       `108|Termina en un hexágono tus vueltas,
-      a menos de que salgas a la orilla.**
+      a menos de que salgas a la orilla.*
       Te toca reclamar tu recompensa:
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
       barajas el descarte y recopilas.`,
-      `127|*Respeta lo del límite de cartas. 
+      `127|Respeta lo del límite de cartas. 
       O ignóralo si nadie se percata.`,
-      `135|**Podrías terminar sin incremento. 
+      `135|*Podrías terminar sin incremento. 
       Revísate el <a href="#intro/off"><b>destierro</b></a> en su segmento.`,
     ],
     en: [
