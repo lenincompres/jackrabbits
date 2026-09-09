@@ -144,8 +144,8 @@ const optionalSections = [
   },
   {
     h4: Copy.text({
-      es: "Cartas",
-      en: "Cards",
+      es: "Valores",
+      en: "Values",
     }),
     section: [
       {
@@ -221,8 +221,8 @@ const optionalSections = [
   },
   {
     h4: Copy.text({
-      es: "Palos",
-      en: "Suits",
+      es: "Potencias",
+      en: "Boosts",
     }),
     section: [
       {
