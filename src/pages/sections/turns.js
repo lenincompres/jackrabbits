@@ -78,15 +78,15 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `73.5|Tu meta es visitar a la nobleza
+      `76|Tu meta es visitar a la nobleza
       si nadie se ha apropiado de sus cartas.
       Un mínimo de diez es lo que cuestan,
       pagado con las cartas de sus marcas.
       Se dejan zanahorias en las piezas,
       que indican los conejos que las cargan.`,
-      `92.5|Es gratis acceder a los hexágonos. 
+      `95|Es gratis acceder a los hexágonos. 
       Procura detenerte visitándolos.`,
-      `100|Conserva lo que adquieras en tu mano. 
+      `103|Conserva lo que adquieras en tu mano. 
       Reclama el <b>incremento</b> de inmediato.`,
     ],
     en: [
@@ -111,15 +111,15 @@ const turnSections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `108|Termina en un hexágono tus vueltas,
+      `111|Termina en un hexágono tus vueltas,
       a menos de que salgas a la orilla.*
       Te toca reclamar tu recompensa:
       la carta que prosigue de la pila.
       Si llegas con la pila ya desierta,
       barajas el descarte y recopilas.`,
-      `127|Respeta lo del límite de cartas. 
+      `130|Respeta lo del límite de cartas. 
       O ignóralo si nadie se percata.`,
-      `135|*Podrías terminar sin incremento. 
+      `138|*Podrías terminar sin incremento. 
       Revísate el <a href="#intro/off"><b>destierro</b></a> en su segmento.`,
     ],
     en: [
