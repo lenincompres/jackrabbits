@@ -75,13 +75,13 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `8|Anúnciate en la entrada de las reinas
+      `9.5|Anúnciate en la entrada de las reinas
       y espera que en la mesa te cuestionen:
       si cargas con su carta de nobleza 
       o un mínimo de seis en corazones.
       Te expulsan al destierro si te frenan
       y niegas que la mesa se cerciore.`,
-      `37|Mas antes de mostrar tus pertenencias,
+      `38.5|Mas antes de mostrar tus pertenencias,
       se exige de cualquiera que cuestione:
       que muestre corazones por su cuenta,
       lo mínimo de aquellas condiciones.
@@ -183,7 +183,7 @@ const strategySections = [{
   }),
   p: versify(Copy.text({
     es: [
-      `9.5|Asalta en un combate sin empates
+      `11.5|Asalta en un combate sin empates
       a quien en el hexágono descansa.
       Se lucha superando los ataques,
       sumándose las picas descartadas,
@@ -191,7 +191,7 @@ const strategySections = [{
       destierra a la persona derrotada.`,
       /* Tu víctima podría desterrarte, 
         con picas si te vence en la batalla. */
-      `35|Si ganas el combate que empezaste,
+      `37|Si ganas el combate que empezaste,
       procedes al asalto de sus cartas:
       le robas la primera que arrebates,
       a ciegas deberás seleccionarla.

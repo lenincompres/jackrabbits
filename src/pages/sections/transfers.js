@@ -13,7 +13,7 @@ const transferSections = [{
     en: "Transfers",
   }),
   p: versify(Copy.text({
-    es: `3|Es gratis desplazarte a los hexágonos
+    es: `6|Es gratis desplazarte a los hexágonos
       si sigues por los vínculos continuos.
       Incluso las montañas por debajo,
       se cruzan con sus túneles gratuitos.
@@ -35,7 +35,7 @@ const transferSections = [{
     en: classifyChars("Trailways", "clubs", "spades", " hearts"),
   }),
   p_: versify(Copy.text({
-    es: `25.5|Los bosques, las montañas y los ríos,
+    es: `28.5|Los bosques, las montañas y los ríos,
       que encuentras con sus símbolos abajo,
       permiten que te cambies de camino
       cruzando por el centro en un atajo.
@@ -57,7 +57,7 @@ const transferSections = [{
     en: classifyChars("Merchants", " diamonds", "spades"),
   }),
   p: versify(Copy.text({
-    es: `52|<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
+    es: `55.5|<a onclick="popUp('price')">Si pagas</a> en los cruces triangulares, 
       trasládate por aguas o por tierras.
       Por tierra galopando sin pararte,
       moviéndote a la pieza que prefieras;
@@ -84,7 +84,7 @@ const transferSections = [{
       en: classifyChars("Jokers", " diamonds", "hearts"),
     }),
   }, Copy.text({
-    es: `80.5|Un jóker se te otorga de pasaje,
+    es: `83.5|Un jóker se te otorga de pasaje,
        <a onclick="popUp('price')">si pagas</a> al pasar por las tabernas.
       Lo sueltas de tu mano al trasladarte,
       moviéndote en el turno que lo quieras.`,
@@ -102,7 +102,7 @@ const transferSections = [{
     en: classifyChars("Rabbit holes", " diamonds", "clubs"),
   }),
   p: versify(Copy.text({
-    es: `100|<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
+    es: `103.5|<a onclick="popUp('price')">Si pagas</a> en la entrada de las cuevas,
       saldrás por la que quieras de inmediato.
       Si no, te ahorrarás lo que te cuesta,
       metiéndote al <a class="pop" onclick="popUp('underground', event)"><i>subsuelo</i></a> por un rato.
@@ -125,7 +125,7 @@ const transferSections = [{
     })
   },
   p_: versify(Copy.text({
-    es: `127|Se pueden alcanzar las madrigueras
+    es: `130|Se pueden alcanzar las madrigueras
       cayendo de un camino a las orillas.
       Olvida el <b>incremento</b> si lo hicieras
       y acaba con el turno a la deriva.
