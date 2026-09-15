@@ -25,7 +25,7 @@ const setupPage = {
           lo creas de improviso y previamente.
           Las piezas se conectan por sus vías
           en cientos de maneras diferentes.`,
-            `16|Ensamblas un diseño aleatorio
+            `15.5|Ensamblas un diseño aleatorio
           del reino de las cartas y sus templos.
           Intenta con <a class="pop" onclick="popUp('board', event)"><b>un nuevo territorio</b></a>
           o inicia replicando el del ejemplo.`,
@@ -45,7 +45,7 @@ const setupPage = {
           onclick: e => popUp("sample"),
         }),
         Copy.text({
-          es: `27|Limítate al ensamble de las tierras
+          es: `26|Limítate al ensamble de las tierras
           si juegas con menores de los nueve.
           Que intenten recorrer las carreteras
           llevando los conejos que se mueven.
@@ -70,9 +70,9 @@ const setupPage = {
       },
       p: versify(
         Copy.text({
-          es: [`51|Después de que el tablero se termina
+          es: [`49.5|Después de que el tablero se termina
           y estén establecidos los lugares,`,
-          `64,102,142|la <i>corte</i> se separa bocarriba
+          `62.5,99,138|la <i>corte</i> se separa bocarriba
           con cartas de los <i>jókers</i> y <i>reales</i>:
           las dos de comodines exclusivas
           y doce que contienen personajes.`],
@@ -89,7 +89,7 @@ const setupPage = {
           height: '9em',
         }),
         Copy.text({
-          es: `81|En cuanto a las que restan en la <i>pila</i>,
+          es: `78.5|En cuanto a las que restan en la <i>pila</i>,
           los <i>palos numerales</i> y los <i>ases</i>,
           después de barajarlas y reunirlas,
           del mazo bocabajo las repartes.
@@ -97,7 +97,7 @@ const setupPage = {
           secretas y de a tres por concursante.
           Con estas tramarán la <b>travesía</b>
           y harán la <b>adquisición</b> de las reales.`,
-          en: `64.5|Every player gets three cards, 
+          en: `64|Every player gets three cards, 
           that's their <i>hand</i> to start the chase.
           These resources, each one guards, 
           fund the <b>journey</b> they will face.
@@ -111,7 +111,7 @@ const setupPage = {
       }),
       p: versify(
         Copy.text({
-          es: `118.5|Asigna a las personas un conejo,
+          es: `114.5|Asigna a las personas un conejo,
           y allí en la <a class="pop" onclick="popUp('citadel', event)"><i>Ciudadela</i></a> los colocan.
           Les das las zanahorias de su juego,
           las tres de los colores que les tocan.`,
@@ -124,7 +124,7 @@ const setupPage = {
           height: '7.5em',
         }),
         Copy.text({
-          es: `129|Escoge el <a class="pop" onclick="popUp('endings', event)"><b>objetivo</b></a> del castillo,
+          es: `125|Escoge el <a class="pop" onclick="popUp('endings', event)"><b>objetivo</b></a> del castillo,
           que listan al principio de las reglas.
           A menos que se trate del sencillo,
           su sello se pondrá en la Ciudadela.`,
@@ -137,7 +137,7 @@ const setupPage = {
           height: '3em',
         }),
         Copy.text({
-          es: `159|Elige a la persona que comienza
+          es: `154|Elige a la persona que comienza
           y el orden de los turnos que le siguen.
           Me importa en lo absoluto tu sistema,
           que lo hagas al azar o lo designes.`,
