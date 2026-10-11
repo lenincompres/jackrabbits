@@ -404,5 +404,5 @@ Song.newSong("Picas", "Spades", () => Song.visitPage("full", Card.SUIT.S));
 Song.newSong("Un nuevo territorio", "A New Landscape", () => {
   Song.visitPage("setup");
   popUp("board");
-});
+}, 0, (t) => t > Song.currentSong.audio.duration - 1 && popUp());
 Song.shuffleRange(4, 7);

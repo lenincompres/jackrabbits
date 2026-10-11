@@ -174,7 +174,7 @@ Song.newSong(
 Song.shuffleRange(Song.List.length - 3);
 
 //
-const wanderTilesUp = false;
+var wanderTilesUp = false;
 Song.newSong(
   "Andares",
   "Allures",
@@ -185,6 +185,7 @@ Song.newSong(
   },
   1,
   (currentTime) => {
+    console.log(currentTime);
     let bridge = Song.round(
       Copy.text({
         es: "111.5",

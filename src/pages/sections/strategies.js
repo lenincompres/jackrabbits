@@ -92,7 +92,7 @@ const strategySections = [{
       /* Anúnciate en la entrada de las reinas
       y en donde zanahorias se estacionen;
       allí tu credencial se considera,
-      previendo que en la mesa te cuestionen: */
+      y esperas que la mesa te cuestionen: */
     ],
     en: [
       `10.5|Any player may contest, 
@@ -148,8 +148,8 @@ const strategySections = [{
       la carta pasaporte es permitida.`
       /* y harás la <b>travesía</b> de la torre
         ...
-        Anuncias el hexágono que escoges,
-        la opción en el subsuelo se elimina. */
+        Te vuelas al hexágono que escoges, 
+        excepto el del subsuelo en la movida. */
     ],
     en: [
       `12.5|Show one card before you roll,
@@ -190,7 +190,7 @@ const strategySections = [{
       y cuando se terminen los avances,
       destierra a la persona derrotada.`,
       /* Tu víctima podría desterrarte, 
-        con picas si te vence en la batalla. */
+       si vence con sus picas la batalla. */
       `37|Si ganas el combate que empezaste,
       procedes al asalto de sus cartas:
       le robas la primera que arrebates,
@@ -199,10 +199,6 @@ const strategySections = [{
       si robas y la carta es de monarca;
       también elegirás la que descartes
       si acaso la que robas es tu cuarta.`,
-      /*
-      Asalta en un combate sin empates, 
-      excepto en el subsuelo en tus andanzas.
-      */
     ],
     en: [
       `14.5|You may steal a card at random,
@@ -221,12 +217,6 @@ const strategySections = [{
       set the <b>acquisition</b> forth:
       place your carrot as the mark—
       give one up if it’s your fourth.`,
-      /* 
-      Note that tying scores is barred, 
-      please discard the spades outpoured
-      underground will host no war, 
-      and defenders steal no hoard.
-      */
     ]
   })),
 }];
