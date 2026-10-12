@@ -3,7 +3,7 @@ import versify from "../aux/versify.js";
 
 const morePage = {
   section_shuffle_menu_handSection: [
-    {
+    {/*
       header: {
         h2: Copy.text({
           es: "Compra",
@@ -30,7 +30,7 @@ const morePage = {
               Get a new <b>Jack Rabbits</b> game.`,
             }),
           ),
-        },/*
+        },
         {
           h3: {
             a: {
@@ -70,10 +70,10 @@ const morePage = {
                 Get directions and schematics.`,
             }),
           ),
-        },*/
+        },
       ],
     },
-    {
+    {*/
       header: {
         h2: Copy.text({
           es: "Juega",
@@ -81,6 +81,26 @@ const morePage = {
         }),
       },
       section: [
+        {
+          h3: {
+            a: {
+              text: Copy.text({
+                es: "Adquiere el juego",
+                en: "Purchase the Game",
+              }),
+              target: "_blank",
+              href: "https://www.etsy.com/listing/1724318334/leninos-jack-rabbits",
+            },
+          },
+          p: versify(
+            Copy.text({
+              es: `Adquiere tu ejemplar original.
+              Ordénalo y repárate a jugar.`,
+              en: `Here's a box for you to claim.
+              Get a new <b>Jack Rabbits</b> game.`,
+            }),
+          ),
+        },
         {
           h3: {
             a: {
