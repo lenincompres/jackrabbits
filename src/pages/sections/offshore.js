@@ -104,11 +104,9 @@ const offshoreSections = [{
       /* La marca de las anclas es pirata,
         los bandos y sus códigos de guerra. */
     en: `42.5|If you board the sailboat’s deck,
-      sail her anywhere for free. 
-      If you pay at sea-bound treks,
-      she must travel home by sea;
-      ride her to an anchor hex,
-      or remain and oversee.
+      ride with her or oversee;
+      she must reach an anchor hex,
+      where she blocks the road by sea.
       Check the anchor tower’s specs—
       trade the suits as you decree.`,
   })),
