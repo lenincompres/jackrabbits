@@ -133,7 +133,7 @@ const offshoreSections = [{
     en: `5|There’s a grotto underground,
       one that’s set when games begin.
       It’s a coastal landing ground—
-      Boats may leave and venture in.
+      boats may leave and venture in.
       You may draw when you're around,
       by discarding shells within:
       twice as many cards abound,
