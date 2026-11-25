@@ -208,7 +208,7 @@ const frontierSections = [{
       river, mountain, or the woods.
       Send off-board stragglers who come,
       lest they pay another move.
-      If it's summoned where you're on,
+      And if summoned where you're on,
       leave the board or cut right through.`,
   })),
 }];
