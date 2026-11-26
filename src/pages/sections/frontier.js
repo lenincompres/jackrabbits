@@ -15,8 +15,8 @@ const frontierSections = [{
   }),
   img: new MediaFigure("shields"),
   h4_shields: Copy.text({
-    es: "Clausurar los hexágonos",
-    en: "Seal the hexes",
+    es: "Cellar los portones",
+    en: "Seal the gates",
   }),
   p: versify(Copy.text({
     es: `12|Si muestras en la mesa tus escudos, 
