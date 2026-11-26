@@ -15,7 +15,7 @@ const frontierSections = [{
   }),
   img: new MediaFigure("shields"),
   h4_shields: Copy.text({
-    es: "Cellar los portones",
+    es: "Cellar las Entradas",
     en: "Seal the gates",
   }),
   p: versify(Copy.text({
